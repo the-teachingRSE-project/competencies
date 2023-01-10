@@ -24,7 +24,7 @@ helpful as possible).
 
 #### How to review existing pull requests
 
-- Go to the [pull requests](pulls) page of this repository
+- Go to the [pull requests](https://github.com/HeidiSeibold/paper_teaching-learning-RSE/pulls) page of this repository
 - Click on any of the open pull requests
 - Leave comments under `Conversation` or do a full review under `Files changed`
 
