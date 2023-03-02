@@ -7,6 +7,7 @@ authorship or if you would like to be mentioned in the acknowledgements instead.
 ## Authors
 
 Heidi Seibold, IGDORE Munich, 0000-0002-8960-9642, heidi@seibold.co
+Florian Goth, Universität Würzburg, 0000-0003-2707-4790, fgoth@physik.uni-wuerzburg.de
 
 your name, affiliation, orcid, e-mail
 
