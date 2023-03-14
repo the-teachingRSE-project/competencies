@@ -28,9 +28,12 @@ We close with a domain specific sample curriculum.
 Ideas so far:
 - building libraries, versioning, software discovery, social skills, communication, legal things
 
+We will have to consider that the broad variety in the field of research software. Still, there is probably a set of skills that is relevant to all developers (versioning, code quality, documentation). This could be a Body of Knowledge (BoK). In addition, RSEs should be able to adapt to specific (domain) specific requirements/environments which requires additional competences (Body of Competences) like communication, networking, (life long) learning, ... (There is a paper from David Parnas on Body of Competences in software engineering)
+
+Also, different software at different stages of evolution require different skills (CI, larger application architectures, ...)
+
 If we think about competencies, we should point out which tasks the persons should be able to perform:
 social skills vs. "The person is able to work in a team", "The person is able to lead a team", ...
-
 
 
 Ideally we have a list of 7 time-invariant concepts/notions of what makes up an RSE.
@@ -56,6 +59,8 @@ Examples: HPC-RSE, Legal-RSE, RDM-RSE, OpenScience-RSE, $DOMAIN-RSE, ...
 - What mindset makes up a good teacher
 - Do we need an organisation for teaching RSE skills?
 - Certificates? Remember that they help to define what an RSE is and therefore help the career path definition.
+
+- Ideally over time scientific software engineering becomes part of the curricula at universities 
 
 ## Required Next steps
 ### Implementation Strategies
