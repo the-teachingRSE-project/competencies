@@ -25,17 +25,32 @@ We close with a domain specific sample curriculum.
 ## Results
 
 ### Required Generic RSE skills
+In the workshop defined a set of core skills that we believe can stand the test of time.
+#### working in a team
+
+#### Creating documented code building blocks
+
+#### legal things
+
+#### building libraries
+
+#### Use repositories
+source code, research data, 
 Ideas so far:
 - building libraries, versioning, software discovery, social skills, communication, legal things
 
 If we think about competencies, we should point out which tasks the persons should be able to perform:
 social skills vs. "The person is able to work in a team", "The person is able to lead a team", ...
-
-
-
 Ideally we have a list of 7 time-invariant concepts/notions of what makes up an RSE.
 
-
+|  teamwork 	|   create code	|   legal advice	|   Use repositories	|   	|   	|   	|
+|---	|---	|---	|---	|---	|---	|---	|
+|   	|   	|   	|   	|   	|   	|   	|
+|   	|   	|   	|   	|   	|   	|   	|
+|   	|   	|   	|   	|   	|   	|   	|
+|   	|   	|   	|   	|   	|   	|   	|
+|   	|   	|   	|   	|   	|   	|   	|
+|   	|   	|   	|   	|   	|   	|   	|
 
 ### How much do different people need to know?
 Explore the different dimensions that a person can require a different set of skills in.
