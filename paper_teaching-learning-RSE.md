@@ -26,6 +26,8 @@ We close with a domain specific sample curriculum.
 
 ### Required Generic RSE skills
 In the workshop defined a set of core skills that we believe can stand the test of time.
+
+**ADD YOUR COMPETENCIES HERE. SPECIALIZATIONS BELOW**
 #### working in a team
 
 #### Creating documented code building blocks
@@ -35,6 +37,9 @@ In the workshop defined a set of core skills that we believe can stand the test 
 #### building libraries
 
 #### Use repositories
+
+
+
 source code, research data, 
 Ideas so far:
 - building libraries, versioning, software discovery, social skills, communication, legal things
@@ -48,12 +53,12 @@ social skills vs. "The person is able to work in a team", "The person is able to
 
 Ideally we have a list of 7 time-invariant concepts/notions of what makes up an RSE.
 
-|  teamwork 	|   create code	|   legal advice	|   Use repositories	|   	|   	|   	|
+|  teamwork 	| 	|  |  |   	|   	|   	|
 |---	|---	|---	|---	|---	|---	|---	|
-|   	|   	|   	|   	|   	|   	|   	|
-|   	|   	|   	|   	|   	|   	|   	|
-|   	|   	|   	|   	|   	|   	|   	|
-|   	|   	|   	|   	|   	|   	|   	|
+| create code |   	|   	|   	|   	|   	|   	|
+| legal advice |   	|   	|   	|   	|   	|   	|
+| Use repositories|   	|   	|   	|   	|   	|   	|
+| Training |   	|   	|   	|   	|   	|   	|
 |   	|   	|   	|   	|   	|   	|   	|
 |   	|   	|   	|   	|   	|   	|   	|
 
@@ -67,6 +72,9 @@ Remember the matrix structuring idea
 ### RSE specialization
 Examples: HPC-RSE, Legal-RSE, RDM-RSE, OpenScience-RSE, $DOMAIN-RSE, ...
 - further specialized RSE skills
+
+### Optional RSE competencies
+- Hardware Maintenance?
 
 ### How do we reach people in different stages at their career?
 - We have resources, now we need to connect them to people to improve science
