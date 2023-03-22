@@ -113,7 +113,7 @@ The RSE should be able to interact with their domain repositories.
 The RSE gains its reputation from its effectiveness to interact with their domain peers. Therefore some curiosity together with a broad overview of the research field is required.
 
 #### Team Skills
-#### Teaching
+#### Teaching (TEACH)
 Working in a group means being able to effectively perform e.g. onboarding, or more formal teaching procedures to their colleagues
 #### Project Management (PM)
 The RSE should have knowledge about project management
@@ -123,6 +123,11 @@ social skills vs. "The person is able to work in a team", "The person is able to
 
 Ideally we have a list of 7 time-invariant concepts/notions of what makes up an RSE.
 
+### How much do different people need to know?
+Explore the different dimensions that a person can require a different set of skills in.
+Examples are The domain, organization, career path, ...
+
+#### Career level
 First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (less -> lot)
 
 |       | Junior | Senior | PI  |
@@ -134,12 +139,28 @@ First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (l
 | RD    | 3      | 4      | 5 |
 | DOMREP| 4      | 4      | 5 |
 | NEW   | 2      | 3      | 5 |
+| TEACH | 1      | 4      | 6 |
 | PM    | 1      | 3      | 5 |
 | TEAM  | 5      | 4      | 3 |
 
-### How much do different people need to know?
-Explore the different dimensions that a person can require a different set of skills in.
-Examples are The domain, organization, career path, ...
+
+#### Organization Size
+Second Dimension: individual -> small team of individuals(~4) -> big organisation(>10) scale (1->6) (less -> lot)
+
+|       | single | small team | organization  |
+| ----  | ------ | ------ | --- |
+| DOCBB |   2    |   4    | 6 |
+| LIBS  |   4    |   5    | 4 |
+|SWREPOS|   4    |   4    | 3 |
+| LEG   |   5    |   4    | 2 |
+| RD    |   4    |   4    | 2 |
+| DOMREP|   4    |   4    | 3 |
+| NEW   |   5    |   4    | 3 |
+| TEACH |   1    |   3    | 5 |
+| PM    |   2    |   3    | 5 |
+| TEAM  |   1    |   2    | 6 |
+
+Bonus points may be distributed if managing teams remotely
 
 https://competency.ebi.ac.uk/framework/bioexcel/3.0/carreer-profiles
 Remember the matrix structuring idea
