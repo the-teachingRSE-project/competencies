@@ -66,50 +66,67 @@ of published papers with the methods described there or ideally with the softwar
 ## Results
 
 ### Required Generic RSE skills
-In the workshop defined a set of core skills that we believe can stand the test of time.
+As it stands the RSE role requires competencies in two fields.
+The "R", the person being a researcher, and the "SE" the Software skills.
+And this hybrid nature is brought about, since RSEs need to apply their knowledge usually in teams.
+Therefore we structure our competencies in the respective groups.
+
+We will have to consider that the broad variety in the field of research software.
+Still, there is probably a set of skills that is relevant to all developers (versioning, code quality, documentation).
+This could be a Body of Knowledge (BoK).
+In addition, RSEs should be able to adapt to specific (domain) specific requirements/environments which requires additional competences (Body of Competences) like communication, networking, (life long) learning, ...
+(There is a paper from David Parnas on Body of Competences in software engineering)
+
+Also, different software at different stages of evolution require different skills (CI, larger application architectures, ...)
 
 **ADD YOUR COMPETENCIES HERE. SPECIALIZATIONS BELOW**
-#### working in a team
+
+#### Software Engineering Skills
 
 #### Creating documented code building blocks
-
-#### legal things
-
-#### building libraries
+The RSE should be able to create building blocks from source code that are reusable.
+#### building reusable libraries
+The RSE should be able to distribute his code with their domain/language specific distribution platforms
 
 #### Use repositories
+The RSE should be able to use public platforms to share the artifacts they have created and invitit public scrutiny on them for public review.
 
+
+#### legal things
+The RSE should know licenses and their respective domains for data or software.
+
+#### The research skills
 #### Finding/discovering software and attribution
 One goal of FAIR software is to avoid reimplementation of already working packages and thereby reducing the need for doubled work. 
 To (re-) use software the individual researchers have to be able to find out if that software already exists.
 
-After findind the software the researcher has to be able to evaluate if the software actually suits their needs.
+After finding the software the researcher has to be able to evaluate if the software actually suits their needs.
 Apart from the functionality, licensing, integration with other software and expandability have to be part of this evaluation.
 
 Finally, after obtaining results by modifying and/or using the software, the original authors should get the proper attribution.
 How this should be done is not immediately clear, especially when there is no accompanying software paper.
 
-source code, research data, 
-Ideas so far:
-- building libraries, versioning, software discovery, social skills, communication, legal things
+#### Use Domain repositories
+The RSE should be able to interact with their domain repositories.
 
-We will have to consider that the broad variety in the field of research software. Still, there is probably a set of skills that is relevant to all developers (versioning, code quality, documentation). This could be a Body of Knowledge (BoK). In addition, RSEs should be able to adapt to specific (domain) specific requirements/environments which requires additional competences (Body of Competences) like communication, networking, (life long) learning, ... (There is a paper from David Parnas on Body of Competences in software engineering)
+#### Curiosity
+The RSE gains its reputation from its effectiveness to interact with their domain peers. Therefore some curiosity together with a broad overview of the research field is required.
 
-Also, different software at different stages of evolution require different skills (CI, larger application architectures, ...)
-
+#### Team Skills
+#### Teaching
+Working in a group means being able to effectively perform e.g. onboarding, or more formal teaching procedures to their colleagues
+#### Project Management
+The RSE should have knowledge about project management
+#### working in a team
 If we think about competencies, we should point out which tasks the persons should be able to perform:
 social skills vs. "The person is able to work in a team", "The person is able to lead a team", ...
 
 Ideally we have a list of 7 time-invariant concepts/notions of what makes up an RSE.
 
-|  teamwork 	| 	|  |  |   	|   	|   	|
-|---	|---	|---	|---	|---	|---	|---	|
-| create code |   	|   	|   	|   	|   	|   	|
-| legal advice |   	|   	|   	|   	|   	|   	|
-| Use repositories|   	|   	|   	|   	|   	|   	|
-| Training |   	|   	|   	|   	|   	|   	|
-|   	|   	|   	|   	|   	|   	|   	|
-|   	|   	|   	|   	|   	|   	|   	|
+First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI
+
+|      | Junior | Senior | PI |
+| ____ | ------ | ------ | ---|
 
 ### How much do different people need to know?
 Explore the different dimensions that a person can require a different set of skills in.
@@ -135,7 +152,6 @@ Examples: HPC-RSE, Legal-RSE, RDM-RSE, OpenScience-RSE, $DOMAIN-RSE, ...
 - What mindset makes up a good teacher
 - Do we need an organisation for teaching RSE skills?
 - Certificates? Remember that they help to define what an RSE is and therefore help the career path definition.
-
 - Ideally over time scientific software engineering becomes part of the curricula at universities 
 
 ## Required Next steps
