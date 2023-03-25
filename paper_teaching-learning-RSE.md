@@ -53,6 +53,8 @@ A wide range of software-related training materials and supporting organisations
 
 CodeRefinery is another group who host a set of open source training material that they use in workshops primarily run in the Nordic region. CodeRefinery's material includes both beginner and intermediate-level material _[Samantha to expand descriptio of CodeRefinery?]_
 
+The ReproHack Team offers resources to host events where students and researchers can get together to try and reproduce the results 
+of published papers with the methods described there or ideally with the software provided by the authors.
 
  - Add other related training groups/activities...
 
