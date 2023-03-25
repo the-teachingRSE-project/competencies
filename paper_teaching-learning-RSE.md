@@ -79,7 +79,15 @@ In the workshop defined a set of core skills that we believe can stand the test 
 
 #### Use repositories
 
+#### Finding/discovering software and attribution
+One goal of FAIR software is to avoid reimplementation of already working packages and thereby reducing the need for doubled work. 
+To (re-) use software the individual researchers have to be able to find out if that software already exists.
 
+After findind the software the researcher has to be able to evaluate if the software actually suits their needs.
+Apart from the functionality, licensing, integration with other software and expandability have to be part of this evaluation.
+
+Finally, after obtaining results by modifying and/or using the software, the original authors should get the proper attribution.
+How this should be done is not immediately clear, especially when there is no accompanying software paper.
 
 source code, research data, 
 Ideas so far:
