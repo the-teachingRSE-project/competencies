@@ -124,6 +124,8 @@ Examples: HPC-RSE, Legal-RSE, RDM-RSE, OpenScience-RSE, $DOMAIN-RSE, ...
 
 ### Optional RSE competencies
 - Hardware Maintenance?
+- Managing/Updating/Refurbishing legacy software
+- developing (web)services, e.g. for surveys, esp. in digital humanities (accessibility of UIs gets important)
 
 ### How do we reach people in different stages at their career?
 - We have resources, now we need to connect them to people to improve science
