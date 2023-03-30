@@ -51,10 +51,15 @@ As an area that generally requires a range of advanced skills, High Performance 
 
 A wide range of software-related training materials and supporting organisations exist within the research software community and beyond. The Carpentries [The Carpentries] is a non-profit entity that supports a range of open source training materials and international communities of volunteer instructors and helpers who run courses around these materials. The community also maintains the materials which are based around three core syllabuses - Software Carpentry, Data Carpentry and Library Carpentry. The training materials within these areas have been developed, reviewed and enhanced over several years ensuring that they represent best practice in training on these topics. The core Carpentries lessons are targeted primarily at the beginner-level. However, the Carpentries Incubator [Carpentries Incubator] provides an environment for hosting additional community developed training modules covering a wide range of other topics that haven't gone through the peer review process of the core lessons. The material in the Incubator increasingly includes more intermediate-level training modules.
 
-CodeRefinery is another group who host a set of open source training material that they use in workshops primarily run in the Nordic region. CodeRefinery's material includes both beginner and intermediate-level material _[Samantha to expand descriptio of CodeRefinery?]_
+[CodeRefinery] is a project currently funded by the Nordic e-Infrastructure and thus active priliminarily in the Nordics with the goal of teaching essential tools around research software development, that are usally skipped in academic education. CodeRefinery hosts a set of open source training materials including both beginner and intermediate-level material and organizes multiple highly interactive large scale workshops per year. Skills learned from the workshops and/or material allows researchers to produce more reproducible, open and efficient software and thus promoting FAIR research practices. One goal of the project is to evolve into a community project that seamlessly integrates with other intitaives. 
 
 The ReproHack Team offers resources to host events where students and researchers can get together to try and reproduce the results 
 of published papers with the methods described there or ideally with the software provided by the authors.
+
+The [Intersect] project ....
+
+[Better Scientific Software (BSSW)] ...
+
 
  - Add other related training groups/activities...
 
@@ -174,6 +179,10 @@ Examples: HPC-RSE, Legal-RSE, RDM-RSE, OpenScience-RSE, $DOMAIN-RSE, ...
 [Carpentries Incubator] The Carpentries Incubator. [https://carpentries-incubator.org/](https://carpentries-incubator.org/). Accessed 16th March 2023.
 
 [CodeRefinery] CodeRefinery. [https://coderefinery.org/](https://coderefinery.org/).  Accessed 16th March 2023.
+
+[Better Scientific Software] BSSW [https://bssw.io/](https://bssw.io/) . Accessed 30th March 2023.
+
+[Intersect] project [https://intersect-training.org/](https://intersect-training.org/). Accessed 30th March 2023.
 
 [Hettrick2016] S. Hettrick. A not-so-brief history of Research Software Engineers. Software Susitainability Institute blog, August 2016. Available at [https://www.software.ac.uk/blog/2016-08-17-not-so-brief-history-research-software-engineers-0](https://www.software.ac.uk/blog/2016-08-17-not-so-brief-history-research-software-engineers-0). Accessed 16th March 2023.
 
