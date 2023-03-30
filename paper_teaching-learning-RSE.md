@@ -83,20 +83,20 @@ Also, different software at different stages of evolution require different skil
 
 #### Software Engineering Skills
 
-#### Creating documented code building blocks
+#### Creating documented code building blocks (DOCBB)
 The RSE should be able to create building blocks from source code that are reusable.
-#### building reusable libraries
+#### building reusable libraries (LIBS)
 The RSE should be able to distribute his code with their domain/language specific distribution platforms
 
-#### Use repositories
+#### Use repositories (SWREPOS)
 The RSE should be able to use public platforms to share the artifacts they have created and invitit public scrutiny on them for public review.
 
 
-#### legal things
+#### legal things (LEG)
 The RSE should know licenses and their respective domains for data or software.
 
 #### The research skills
-#### Finding/discovering software and attribution
+#### Finding/discovering software and attribution (RD)
 One goal of FAIR software is to avoid reimplementation of already working packages and thereby reducing the need for doubled work. 
 To (re-) use software the individual researchers have to be able to find out if that software already exists.
 
@@ -106,27 +106,36 @@ Apart from the functionality, licensing, integration with other software and exp
 Finally, after obtaining results by modifying and/or using the software, the original authors should get the proper attribution.
 How this should be done is not immediately clear, especially when there is no accompanying software paper.
 
-#### Use Domain repositories
+#### Use Domain repositories (DOMREP)
 The RSE should be able to interact with their domain repositories.
 
-#### Curiosity
+#### Curiosity (NEW)
 The RSE gains its reputation from its effectiveness to interact with their domain peers. Therefore some curiosity together with a broad overview of the research field is required.
 
 #### Team Skills
 #### Teaching
 Working in a group means being able to effectively perform e.g. onboarding, or more formal teaching procedures to their colleagues
-#### Project Management
+#### Project Management (PM)
 The RSE should have knowledge about project management
-#### working in a team
+#### working in a team (TEAM)
 If we think about competencies, we should point out which tasks the persons should be able to perform:
 social skills vs. "The person is able to work in a team", "The person is able to lead a team", ...
 
 Ideally we have a list of 7 time-invariant concepts/notions of what makes up an RSE.
 
-First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI
+First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (less -> lot)
 
-|      | Junior | Senior | PI |
-| ____ | ------ | ------ | ---|
+|       | Junior | Senior | PI  |
+| ----  | ------ | ------ | --- |
+| DOCBB | 5      | 6      | 3 |
+| LIBS  | 5      | 6      | 3 |
+|SWREPOS| 5      | 6      | 4 |
+| LEG   | 2      | 5      | 5 |
+| RD    | 3      | 4      | 5 |
+| DOMREP| 4      | 4      | 5 |
+| NEW   | 2      | 3      | 5 |
+| PM    | 1      | 3      | 5 |
+| TEAM  | 5      | 4      | 3 |
 
 ### How much do different people need to know?
 Explore the different dimensions that a person can require a different set of skills in.
