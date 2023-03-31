@@ -99,7 +99,7 @@ that those might not be combinable when using multiple libraries with different 
 and that use of third party software might restrict licensing of the resulting work. 
 
 #### The research skills
-#### Finding/discovering software and attribution (RD)
+#### Finding/discovering software and attribution (SD)
 One goal of FAIR software is to avoid reimplementation of already working packages and thereby reducing the need for doubled work. 
 To (re-) use software the individual researchers have to be able to find out if that software already exists.
 
@@ -139,12 +139,26 @@ First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (l
 | LIBS  | 5      | 6      | 3 |
 |SWREPOS| 5      | 6      | 4 |
 | LEG   | 2      | 5      | 5 |
-| RD    | 3      | 4      | 5 |
+| SD    | 3      | 4      | 5 |
 | DOMREP| 4      | 4      | 5 |
 | NEW   | 2      | 3      | 5 |
 | TEACH | 1      | 4      | 6 |
 | PM    | 1      | 3      | 5 |
 | TEAM  | 5      | 4      | 3 |
+
+A related one(non-specialized RSEs) The distinction is that numbers smaller then 4 indicate non-expert level:
+|       | Bachelor | Master | PhD | PostDoc | PI | 
+| ----  | ------ | ------ | ---   | ------  | ---|
+| DOCBB | 1      | 1      | 2     |  2      | 2  |
+| LIBS  | 2      | 3      | 3     |  3      | 2  |
+|SWREPOS| 1      | 1      | 2     |  2      | 3  |
+| LEG   | 1      | 1      | 1     |  2      | 3  |
+| SD    | 1      | 1      | 2     |  2      | 2  |
+| DOMREP| 1      | 1      | 2     |  3      | 3  |
+| NEW   | 1      | 1      | 3     |  3      | 3  |
+| TEACH | 1      | 2      | 3     |  3      | 6  |
+| PM    | 1      | 1      | 1     |  2      | 3  |
+| TEAM  | 1      | 2      | 2     |  2      | 2  |
 
 
 #### Organization Size
@@ -152,16 +166,16 @@ Second Dimension: individual -> small team of individuals(~4) -> big organisatio
 
 |       | single | small team | organization  |
 | ----  | ------ | ------ | --- |
-| DOCBB |   2    |   4    | 6 |
-| LIBS  |   4    |   5    | 4 |
-|SWREPOS|   4    |   4    | 3 |
-| LEG   |   5    |   4    | 2 |
-| RD    |   4    |   4    | 2 |
-| DOMREP|   4    |   4    | 3 |
-| NEW   |   5    |   4    | 3 |
-| TEACH |   1    |   3    | 5 |
-| PM    |   2    |   3    | 5 |
-| TEAM  |   1    |   2    | 6 |
+| DOCBB |   you might get away with less satisfactory code, as long as the product is OK | think about your colleagues    | your organization most likely has guides here |
+| LIBS  |   you will only be successful if your artifact is usable by others    |  same here   | your organization probably has rules here |
+|SWREPOS|   you need academic credit.    |   same here    | your organization probably has rules here |
+| LEG   |   you carry the responsibility    |  someone in your group needs to take car of this    | your organization will have specialized people for it |
+| SD    |   you need to be able to build on other work to be successful    |   same here    | there might be someone in your organization who does this |
+| DOMREP|   You're doing science in a domain    |   there should be a person in your team who knows how to do it    | your organization might have specialists for that, but some basic familiarity |
+| NEW   |   You need a motivation to do this alone    |   ?    | Not so much, since other people might do this task |
+| TEACH |   N/A   |   able to peer teach    | teaching to groups |
+| PM    |   Not much required  |  able to follow checklist     | Working with PM tools, or use them for organization |
+| TEAM  |   N/A    |   should be able to give equal feedback to their colleagues    | should be able to work within their role |
 
 Bonus points may be distributed if managing teams remotely
 
