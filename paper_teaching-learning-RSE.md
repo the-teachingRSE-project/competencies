@@ -80,6 +80,7 @@ In addition, RSEs should be able to adapt to specific (domain) specific requirem
 Also, different software at different stages of evolution require different skills (CI, larger application architectures, ...)
 
 **ADD YOUR COMPETENCIES HERE. SPECIALIZATIONS BELOW**
+unclassified: Being able to form a model about a piece of code
 
 #### Software Engineering Skills
 
