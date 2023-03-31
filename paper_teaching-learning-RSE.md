@@ -115,6 +115,10 @@ The RSE should be able to interact with their domain repositories.
 #### Curiosity (NEW)
 The RSE gains its reputation from its effectiveness to interact with their domain peers. Therefore some curiosity together with a broad overview of the research field is required.
 
+#### Outside Party interaction (USERS)
+While in a traditional SE context you might get away with not interacting with people outside your project.
+But in a research  context this will certainly be the case and involves users, upto funders.
+
 #### Team Skills
 #### Teaching (TEACH)
 Working in a group means being able to effectively perform e.g. onboarding, or more formal teaching procedures to their colleagues
@@ -142,6 +146,7 @@ First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (l
 | SD    | 3      | 4      | 5 |
 | DOMREP| 4      | 4      | 5 |
 | NEW   | 2      | 3      | 5 |
+| USERS | 4      | 4      | 4 |
 | TEACH | 1      | 4      | 6 |
 | PM    | 1      | 3      | 5 |
 | TEAM  | 5      | 4      | 3 |
@@ -156,6 +161,7 @@ A related one(non-specialized RSEs) The distinction is that numbers smaller then
 | SD    | 1      | 1      | 2     |  2      | 2  |
 | DOMREP| 1      | 1      | 2     |  3      | 3  |
 | NEW   | 1      | 1      | 3     |  3      | 3  |
+| USERS | 1      | 1      | 2     |  3      | 5  |
 | TEACH | 1      | 2      | 3     |  3      | 6  |
 | PM    | 1      | 1      | 1     |  2      | 3  |
 | TEAM  | 1      | 2      | 2     |  2      | 2  |
@@ -173,6 +179,7 @@ Second Dimension: individual -> small team of individuals(~4) -> big organisatio
 | SD    |   you need to be able to build on other work to be successful    |   same here    | there might be someone in your organization who does this |
 | DOMREP|   You're doing science in a domain    |   there should be a person in your team who knows how to do it    | your organization might have specialists for that, but some basic familiarity |
 | NEW   |   You need a motivation to do this alone    |   ?    | Not so much, since other people might do this task |
+| USERS | at one point you hope to have users | same here | maybe you have specialists for outreach |
 | TEACH |   N/A   |   able to peer teach    | teaching to groups |
 | PM    |   Not much required  |  able to follow checklist     | Working with PM tools, or use them for organization |
 | TEAM  |   N/A    |   should be able to give equal feedback to their colleagues    | should be able to work within their role |
