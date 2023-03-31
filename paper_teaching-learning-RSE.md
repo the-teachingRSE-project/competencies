@@ -169,7 +169,12 @@ First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (l
 | PM    | 1      | 3      | 5 |
 | TEAM  | 5      | 4      | 3 |
 
+#### Academic Progression (Help me)
+Modern digital science requires some digital proficiency at every level.
+We detail what is relevant here.
 A related one(non-specialized RSEs) The distinction is that numbers smaller then 4 indicate non-expert level:
+
+
 |       | Bachelor | Master | PhD | PostDoc | PI/Professor | 
 | ----  | ------ | ------ | ---   | ------  | ---|
 | DOCBB | 1      | 1      | 2     |  2      | 2  |
@@ -211,11 +216,28 @@ Second Dimension: individual -> small team of individuals(~4) -> big organisatio
 Bonus points may be distributed if managing teams remotely
 
 https://competency.ebi.ac.uk/framework/bioexcel/3.0/carreer-profiles
-Remember the matrix structuring idea
 
-### RSE specialization
-Examples: HPC-RSE, Legal-RSE, RDM-RSE, OpenScience-RSE, $DOMAIN-RSE, ...
-- further specialized RSE skills
+### RSE specializations
+What we have defined above are intended to be base skills that an RSE irrespective of domain, place, and time should know about.
+Which brings us to the follow-up topic of specializations
+
+#### HPC-RSE
+These are people skilled in the use of a profiler and knowledgeable about the intricacies of hardware.
+
+#### Legal-RSE
+With the prevalence of software we foresee the need to have people that are specialized in this field.
+They are the go-to persons if people in a department have a question on mixing and matching software.
+
+#### RDM-RSE
+These are people working at the flourishing intersection between RDM and RSE. In order to effectively design automated workflows
+around RDM solutions that are useful to researchers we foresee the need for people that know both worlds.
+
+#### OpenScience RSE
+With so much going on around the buzzwords of Open Science and FAIRness of Data and Software which is wanted by research funding agencies,
+we foresee the need for RSEs that are less technical but have the social skills to transform research grous/organizations.
+
+#### ${DOMAIN}-RSE
+While software is the lingua franca of all RSEs there will be RSEs that have specialized into the initricacies of one particular domain.
 
 ### Optional RSE competencies
 - Hardware Maintenance?
@@ -226,14 +248,26 @@ Examples: HPC-RSE, Legal-RSE, RDM-RSE, OpenScience-RSE, $DOMAIN-RSE, ...
 - We have resources, now we need to connect them to people to improve science
 
 ### Organizational Infrastructures
-- Defining who should be teachers and in which structures they are
-- What mindset makes up a good teacher
-- Do we need an organisation for teaching RSE skills?
-- Certificates? Remember that they help to define what an RSE is and therefore help the career path definition.
-- Ideally over time scientific software engineering becomes part of the curricula at universities 
+So we have defined our set of competencies that we feel every RSE should possess. Table 2 from above nevertheless already hints at the fact 
+that some RSE skills are required during the domain studies, while Table 1 tells us that we need an ongoing qualification programm.
+Some basic education might be covered by the domain curricula or the libraries/compute centers but we need to provide them guidance to have a proper foundation 
+on which to build the specialized courses that are performed by specialized teachers from specialized structures.
+
+#### Where do we get our teachers from and in which structures are they
+These will be a mixture of experienced RSEs and people specialized in teaching RSE things. There will be shared structures
+(DETAIL ME!!!!)
+
+#### What mindset makes up a good teacher
+Irrespective of where people come from they need to have the proper mindset to properly foster aspiring RSEs.
+
+#### Certificates
+With the ever-growing demand for RSEs in science it is helpful for the job-market that people can earn the respective certificates.
+Then this demand can find its market with people offering this skill.
+Having these certificates provides finally a clear understanding of which tasks an RSE can perform and thereby helps defining the career path.
 
 ## Required Next steps
 ### Implementation Strategies
+- Ideally over time scientific software engineering becomes part of the curricula at universities 
 #### Academic Considerations
 - Awareness of existing teaching programs
 - "Branded" Add-on courses
