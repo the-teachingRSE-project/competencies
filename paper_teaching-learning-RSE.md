@@ -69,7 +69,7 @@ of published papers with the methods described there or ideally with the softwar
 As it stands the RSE role requires competencies in two fields.
 The "R", the person being a researcher, and the "SE" the Software skills.
 And this hybrid nature is brought about, since RSEs need to apply their knowledge usually in teams.
-Therefore we structure our competencies in the respective groups.
+Therefore we structure our competencies among SE Skills, Research Skills and Team Skills.
 
 We will have to consider that the broad variety in the field of research software.
 Still, there is probably a set of skills that is relevant to all developers (versioning, code quality, documentation).
@@ -83,15 +83,24 @@ Also, different software at different stages of evolution require different skil
 unclassified: Being able to form a model about a piece of code
 
 #### Software Engineering Skills
+There are lots of software engineering curricula out there, that try to define which tasks a software engineer should be able to perfom.
+A recent one highlighting some aspects in more detail than what we are doing here is (Landwehr2017).
 
 #### Creating documented code building blocks (DOCBB)
 The RSE should be able to create building blocks from source code that are reusable.
-#### building reusable libraries (LIBS)
-The RSE should be able to distribute his code with their domain/language specific distribution platforms
+
+#### building distributable libraries (LIBS)
+The RSE should be able to distribute his code with their domain/language specific distribution platforms.
+
+#### Software Behaviour Awareness and Analysis(MOD)
+A certain quality of anlytical thinking that enables you to form a mental model of the piece of software under consideration in the current environment
+and from that make predictions about its behaviour is a required skill for tasks like debugging, profiling, or predicting user interaction.
+
+#### Understanding the software lifecycle (SWLC)
+Software has a lifetime and this necessitates the respective strategies for its usage along the intended time scale.
 
 #### Use repositories (SWREPOS)
 The RSE should be able to use public platforms to share the artifacts they have created and invitit public scrutiny on them for public review.
-
 
 #### legal things (LEG)
 The RSE should know licenses and their respective domains for data or software. On an entry level, the competency is mostly about awareness. 
@@ -100,6 +109,14 @@ that those might not be combinable when using multiple libraries with different 
 and that use of third party software might restrict licensing of the resulting work. 
 
 #### The research skills
+#### Curiosity (NEW)
+The RSE gains its reputation from its effectiveness to interact with their domain peers. Therefore some curiosity together with a broad overview of the research field is required.
+A manifestation can also be the curiosity for new tools and is a great asset for an RSE. Lifelong learning then becomes more bearable.
+
+#### Understanding the research cycle (RC)
+Knowing that ones own research is not only a means to personal ends, but that one is part of a bigger cycle that involves a lot of other parties in and outside of your domain
+should foster an appreciation for the underlying principles of science like review and reproducibility.
+
 #### Finding/discovering software and attribution (SD)
 One goal of FAIR software is to avoid reimplementation of already working packages and thereby reducing the need for doubled work. 
 To (re-) use software the individual researchers have to be able to find out if that software already exists.
@@ -110,15 +127,12 @@ Apart from the functionality, licensing, integration with other software and exp
 Finally, after obtaining results by modifying and/or using the software, the original authors should get the proper attribution.
 How this should be done is not immediately clear, especially when there is no accompanying software paper.
 
-#### Use Domain repositories (DOMREP)
+#### Use Domain repositories/directories (DOMREP)
 The RSE should be able to interact with their domain repositories.
-
-#### Curiosity (NEW)
-The RSE gains its reputation from its effectiveness to interact with their domain peers. Therefore some curiosity together with a broad overview of the research field is required.
 
 #### Outside Party interaction (USERS)
 While in a traditional SE context you might get away with not interacting with people outside your project.
-But in a research  context this will certainly be the case and involves users, upto funders.
+But in a research  context this will certainly be the case and involves users, other developers,  upto funders.
 
 #### Team Skills
 #### Teaching (TEACH)
@@ -138,30 +152,36 @@ Examples are The domain, organization, career path, ...
 #### Career level
 First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (less -> lot)
 
-|       | Junior | Senior | PI  |
+|       | Junior | Senior | Software Lead(brings in funding)  |
 | ----  | ------ | ------ | --- |
 | DOCBB | 5      | 6      | 3 |
 | LIBS  | 5      | 6      | 3 |
+| MOD   | 3      | 6      | 5 |
+| SWLC  | 2      | 4      | 6 |
 |SWREPOS| 5      | 6      | 4 |
 | LEG   | 2      | 5      | 5 |
+| NEW   | 2      | 3      | 5 |
+| RC    | 2      | 4      | 5 |
 | SD    | 3      | 4      | 5 |
 | DOMREP| 4      | 4      | 5 |
-| NEW   | 2      | 3      | 5 |
 | USERS | 4      | 4      | 4 |
 | TEACH | 1      | 4      | 6 |
 | PM    | 1      | 3      | 5 |
 | TEAM  | 5      | 4      | 3 |
 
 A related one(non-specialized RSEs) The distinction is that numbers smaller then 4 indicate non-expert level:
-|       | Bachelor | Master | PhD | PostDoc | PI | 
+|       | Bachelor | Master | PhD | PostDoc | PI/Professor | 
 | ----  | ------ | ------ | ---   | ------  | ---|
 | DOCBB | 1      | 1      | 2     |  2      | 2  |
 | LIBS  | 2      | 3      | 3     |  3      | 2  |
+| MOD   | 1      | 2      | 3     |  3      | 2  |
+| SWLC  | 1      | 2      | 3     |  3      | 4  |
 |SWREPOS| 1      | 1      | 2     |  2      | 3  |
 | LEG   | 1      | 1      | 1     |  2      | 3  |
+| NEW   | 1      | 1      | 3     |  3      | 3  |
+| RC    | 1      | 2      | 3     |  5      | 6  |
 | SD    | 1      | 1      | 2     |  2      | 2  |
 | DOMREP| 1      | 1      | 2     |  3      | 3  |
-| NEW   | 1      | 1      | 3     |  3      | 3  |
 | USERS | 1      | 1      | 2     |  3      | 5  |
 | TEACH | 1      | 2      | 3     |  3      | 6  |
 | PM    | 1      | 1      | 1     |  2      | 3  |
@@ -175,11 +195,14 @@ Second Dimension: individual -> small team of individuals(~4) -> big organisatio
 | ----  | ------ | ------ | --- |
 | DOCBB |   you might get away with less satisfactory code, as long as the product is OK | think about your colleagues    | your organization most likely has guides here |
 | LIBS  |   you will only be successful if your artifact is usable by others    |  same here   | your organization probably has rules here |
+| MOD   | you should precisely know what your entire code is doing where | you should know what your part is doing and have a feeling about the others contributions | You should know what your small part is doing |
+| SWLC  | it's you and your software | You should know the Bus factor | The organization takes care of that |
 |SWREPOS|   you need academic credit.    |   same here    | your organization probably has rules here |
 | LEG   |   you carry the responsibility    |  someone in your group needs to take car of this    | your organization will have specialized people for it |
+| NEW   |   You need a motivation to do this alone    |   ?    | Not so much, since other people might do this task |
+| RC    | ? | you should maybe talk among your peers where your software fits in | You define your research cycle |
 | SD    |   you need to be able to build on other work to be successful    |   same here    | there might be someone in your organization who does this |
 | DOMREP|   You're doing science in a domain    |   there should be a person in your team who knows how to do it    | your organization might have specialists for that, but some basic familiarity |
-| NEW   |   You need a motivation to do this alone    |   ?    | Not so much, since other people might do this task |
 | USERS | at one point you hope to have users | same here | maybe you have specialists for outreach |
 | TEACH |   N/A   |   able to peer teach    | teaching to groups |
 | PM    |   Not much required  |  able to follow checklist     | Working with PM tools, or use them for organization |
@@ -252,3 +275,4 @@ Examples: HPC-RSE, Legal-RSE, RDM-RSE, OpenScience-RSE, $DOMAIN-RSE, ...
 
 [Lamprecht2022] A-L. Lamprecht, C. Martinez-Ortiz, M. Barker, et al. What Do We (Not) Know About Research Software Engineering?. _Journal of Open Research Software_, 10(1), p.11. DOI: [https://doi.org/10.5334/jors.384](https://doi.org/10.5334/jors.384)
 
+[Landwehr2017] Carl Landwehr, Jochen Ludewig, Robert Meersman, David Lorge Parnas, Peretz Shoval, Yair Wand, David Weiss, Elaine Weyuker, Software Systems Engineering programmes a capability approach, [https://doi.org/10.1016/j.jss.2016.12.016](https://doi.org/10.1016/j.jss.2016.12.016)
