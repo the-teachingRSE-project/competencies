@@ -90,12 +90,11 @@ A recent one highlighting some aspects in more detail than what we are doing her
 The RSE should be able to create building blocks from source code that are reusable.
 
 #### building distributable libraries (LIBS)
-The RSE should be able to distribute his code with their domain/language specific distribution platforms.
+The RSE should be able to distribute their code with their domain/language specific distribution platforms.
 
 #### Software Behaviour Awareness and Analysis(MOD)
-A certain quality of anlytical thinking that enables you to form a mental model of the piece of software under consideration in the current environment
-and from that make predictions about its behaviour is a required skill for tasks like debugging, profiling, or predicting user interaction.
-
+A certain quality of anlytical thinking that enables you to form a mental model of the piece of software under consideration in the current environment.
+Using that an RSE should be able to make predictions about a software's behaviour. This is a required skill for tasks like debugging, profiling, or predicting user interaction.
 #### Understanding the software lifecycle (SWLC)
 Software has a lifetime and this necessitates the respective strategies for its usage along the intended time scale.
 
@@ -128,11 +127,13 @@ Finally, after obtaining results by modifying and/or using the software, the ori
 How this should be done is not immediately clear, especially when there is no accompanying software paper.
 
 #### Use Domain repositories/directories (DOMREP)
-The RSE should be able to interact with their domain repositories.
+Almost all Research software is developed within a specific scientific domain.
+Some software may be able to cross boundaries, but the majority will have a home domain, with which it needs to be able to interact.
+The RSE should be able to interact with the repositories of this specific domain.
 
 #### Outside Party interaction (USERS)
 While in a traditional SE context you might get away with not interacting with people outside your project.
-But in a research  context this will certainly be the case and involves users, other developers,  upto funders.
+But in a research context this will certainly be the case and involves users, other developers,  upto funders.
 
 #### Team Skills
 #### Teaching (TEACH)
@@ -150,26 +151,33 @@ Explore the different dimensions that a person can require a different set of sk
 Examples are The domain, organization, career path, ...
 
 #### Career level
+At different career levels differing skills are required. We have set this up according to the following separation:
+
+- Junior RSE:
+- Senior RSE:
+- Software Lead RSE: Their actual job description varies a lot. These can be professors or group leaders and are often people bringing in the money that sustains the project.
+
+The required skills are distributed according to this table
 First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (less -> lot)
 
 |       | Junior | Senior | Software Lead(brings in funding)  |
 | ----  | ------ | ------ | --- |
-| DOCBB | 5      | 6      | 3 |
-| LIBS  | 5      | 6      | 3 |
-| MOD   | 3      | 6      | 5 |
-| SWLC  | 2      | 4      | 6 |
-|SWREPOS| 5      | 6      | 4 |
-| LEG   | 2      | 5      | 5 |
-| NEW   | 2      | 3      | 5 |
-| RC    | 2      | 4      | 5 |
-| SD    | 3      | 4      | 5 |
-| DOMREP| 4      | 4      | 5 |
-| USERS | 4      | 4      | 4 |
-| TEACH | 1      | 4      | 6 |
-| PM    | 1      | 3      | 5 |
-| TEAM  | 5      | 4      | 3 |
+| DOCBB | should be able to write reusable building blocks |same as junior, but the quality should set the standard for the project, while following current best practices | should know the current best practices and point its people to the right resources. |
+| LIBS  | should be able to use package distribution platforms      | same as junior, but should set the project standard and follow current best practices. | should ensure that their project is in an up-to-date distribution platform |
+| MOD   | should have a basic grasp of their piece of the software in order to use basic tools like a debugger | Should understand the characteristics of large parts of the codebase considering a variety of the metrics | Should understand the big idea of the software project in order to define the task that the software solves  |
+| SWLC  | Awareness about the existence of the software lifecycle. | Should know which decisions lead to technical debt. | Should know in which part of the lifecycle their project is and how to steer development/project resources accordingly. |
+|SWREPOS| Seamless interaction with the swrepo of their project is a must | Should be well-versed in the intricacies of a swrepo, and probably interact with multiple projects' repo's | Should be able to effectively interact with swrepos and especially the interaction with the connecting projects. |
+| LEG   | Awareness about legal intricacies about sharing code | Should be able to give advice on legal issues and resolve the most common issues | same as Senior RSE |
+| NEW   | Some curiosity required to fit into research teams | same as junior, but a curiosity to enhance the code base is required | Curiosity to know in which direction to steer the project is required |
+| RC    | Awareness about the RC | should know the position of the project in the RC | Should know what is necessary for the project to fit into its position in the RC |
+| SD    | Should be aware about tools for SD |   Should be able to find sth. with SD tools    | Should be able to effectively find sth. with SD tools and be able to evaluate and perform the integration of a library into the project. |
+| DOMREP| The RSE should be able to interact with the domain repository | same as junior RSE | same as junior, and should know about how it fits into workflows surrounding these domain repositories |
+| USERS | The RSE should be able to communicate with non-SE users of the project | same as junior | same as junior, and take feedback into account of the steering |
+| TEACH | should be able to perform simple peer-to-peer onboarding tasks | should be able to explain logical components to other RSEs | Should be able to effectively communicate about al large-scale parts of the project. |
+| PM    | Awareness about the employed project managemement method | Should be able to use the employed PM method | Should be able to design and adapt the employed PM method. |
+| TEAM  | Should be able to work in the team in order to effectively fulfill the given tasks | Should be able to break down tasks into more easily digestable sub-tasks | Should be able to lead the team and set the respective direction. |
 
-#### Academic Progression (Help me)
+#### Academic Progression (Help me for better title)
 Modern digital science requires some digital proficiency at every level.
 We detail what is relevant here.
 A related one(non-specialized RSEs) The distinction is that numbers smaller then 4 indicate non-expert level:
