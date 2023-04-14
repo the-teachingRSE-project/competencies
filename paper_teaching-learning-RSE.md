@@ -188,15 +188,15 @@ A related one(non-specialized RSEs) The distinction is that numbers smaller then
 | DOCBB | 1      | 1      | 2     |  2      | 2  |
 | LIBS  | 2      | 3      | 3     |  3      | 2  |
 | MOD   | 1      | 2      | 3     |  3      | 2  |
-| SWLC  | 1      | 2      | 3     |  3      | 4  |
+| SWLC  | Awareness of the SWLC      | Know that one depends on software in their own research | Evaluate Software    |  3      | 4  |
 |SWREPOS| 1      | 1      | 2     |  2      | 3  |
 | LEG   | 1      | 1      | 1     |  2      | 3  |
 | NEW   | 1      | 1      | 3     |  3      | 3  |
-| RC    | 1      | 2      | 3     |  5      | 6  |
+| RC    | An awareness that research follows a cycle | Know that research follows a cycle and locate their masters thesis stages in it. | Same as Master, but applied to the PhD. Additionally awareness about interaction with services |  Same as PhD. But proficient in the domain | Same as PostDoc, but ability to lead a d a topic  |
 | SD    | 1      | 1      | 2     |  2      | 2  |
 | DOMREP| 1      | 1      | 2     |  3      | 3  |
 | USERS | 1      | 1      | 2     |  3      | 5  |
-| TEACH | 1      | 2      | 3     |  3      | 6  |
+| TEACH | Ability to peer-to-peer teaching | Small exercise groups | Ability to supervise a student. |  Ability to supervise students and create a course? | Ability to guide students. Give full-size lectures |
 | PM    | 1      | 1      | 1     |  2      | 3  |
 | TEAM  | 1      | 2      | 2     |  2      | 2  |
 
