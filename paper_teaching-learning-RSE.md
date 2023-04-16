@@ -71,7 +71,7 @@ The "R", the person being a researcher, and the "SE" the Software skills.
 And this hybrid nature is brought about, since RSEs need to apply their knowledge usually in teams.
 Therefore we structure our competencies among SE Skills, Research Skills and Team Skills.
 
-We will have to consider that the broad variety in the field of research software.
+We will have to consider the broad variety in the field of research software.
 Still, there is probably a set of skills that is relevant to all developers (versioning, code quality, documentation).
 This could be a Body of Knowledge (BoK).
 In addition, RSEs should be able to adapt to specific (domain) specific requirements/environments which requires additional competences (Body of Competences) like communication, networking, (life long) learning, ...
@@ -80,7 +80,7 @@ In addition, RSEs should be able to adapt to specific (domain) specific requirem
 Also, different software at different stages of evolution require different skills (CI, larger application architectures, ...)
 
 **ADD YOUR COMPETENCIES HERE. SPECIALIZATIONS BELOW**
-unclassified: Being able to form a model about a piece of code
+
 
 #### Software Engineering Skills
 There are lots of software engineering curricula out there, that try to define which tasks a software engineer should be able to perfom.
@@ -111,7 +111,8 @@ and that use of third party software might restrict licensing of the resulting w
 #### The research skills
 #### Curiosity (NEW)
 The RSE gains its reputation from its effectiveness to interact with their domain peers. Therefore some curiosity together with a broad overview of the research field is required.
-A manifestation can also be the curiosity for new tools and is a great asset for an RSE. Lifelong learning then becomes more bearable.
+A manifestation can also be the curiosity for new tools which is a great asset for an RSE.
+Lifelong learning then becomes more bearable.
 
 #### Understanding the research cycle (RC)
 Knowing that ones own research is not only a means to personal ends, but that one is part of a bigger cycle that involves a lot of other parties in and outside of your domain
@@ -155,7 +156,7 @@ Ideally we have a list of 14 time-invariant concepts/notions of what makes up an
 
 ### How much do different people need to know?
 Explore the different dimensions that a person can require a different set of skills in.
-Examples are The domain, organization, career path, ...
+Examples are the domain, organization, career path, ...
 
 #### Career level
 At different career levels differing skills are required. We have set this up according to the following separation often applied within a single project:
@@ -196,7 +197,6 @@ Highlight that a lot of items are not yet part of the structures.
 - PI/Professor: Experts in their field, they should be able to give proper guidance to their students which digital tools are currenty relevant.
 
 A related one(non-specialized RSEs).
-
 
 |       | Bachelor | Master | PhD | PostDoc | PI/Professor | 
 | ----  | ------ | ------ | ---   | ------  | ---|
