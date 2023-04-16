@@ -94,14 +94,15 @@ The RSE should be able to distribute their code with their domain/language speci
 
 #### Software Behaviour Awareness and Analysis(MOD)
 A certain quality of anlytical thinking that enables you to form a mental model of the piece of software under consideration in the current environment.
-Using that an RSE should be able to make predictions about a software's behaviour. This is a required skill for tasks like debugging, profiling, or predicting user interaction.
+Using that an RSE should be able to make predictions about a software's behaviour. This is a required skill for tasks like debugging, profiling, designing good tests, or predicting user interaction.
+
 #### Understanding the software lifecycle (SWLC)
 Software has a lifetime and this necessitates the respective strategies for its usage along the intended time scale.
 
 #### Use repositories (SWREPOS)
-The RSE should be able to use public platforms to share the artifacts they have created and invitit public scrutiny on them for public review.
+The RSE should be able to use public platforms to share the artifacts they have created and invite public scrutiny on them for public review.
 
-#### legal things (LEG)
+#### Legal things (LEG)
 The RSE should know licenses and their respective domains for data or software. On an entry level, the competency is mostly about awareness. 
 Namely that different (open source) licenses exist, 
 that those might not be combinable when using multiple libraries with different licenses 
@@ -137,21 +138,26 @@ But in a research context this will certainly be the case and involves users, ot
 
 #### Team Skills
 #### Teaching (TEACH)
-Working in a group means being able to effectively perform e.g. onboarding, or more formal teaching procedures to their colleagues
+Working in a group means being able to effectively perform e.g. onboarding, or more formal teaching procedures to their colleagues.
+Code review can be part of teaching people on improving their skills.
+
 #### Project Management (PM)
-The RSE should have knowledge about project management
+The RSE should have knowledge about project management.
+
+
 #### working in a team (TEAM)
 If we think about competencies, we should point out which tasks the persons should be able to perform:
 social skills vs. "The person is able to work in a team", "The person is able to lead a team", ...
 
-Ideally we have a list of 7 time-invariant concepts/notions of what makes up an RSE.
+
+Ideally we have a list of 14 time-invariant concepts/notions of what makes up an RSE.
 
 ### How much do different people need to know?
 Explore the different dimensions that a person can require a different set of skills in.
 Examples are The domain, organization, career path, ...
 
 #### Career level
-At different career levels differing skills are required. We have set this up according to the following separation:
+At different career levels differing skills are required. We have set this up according to the following separation often applied within a single project:
 
 - Junior RSE:
 - Senior RSE:
@@ -160,7 +166,7 @@ At different career levels differing skills are required. We have set this up ac
 The required skills are distributed according to this table
 First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (less -> lot)
 
-|       | Junior | Senior | Software Lead(brings in funding)  |
+|       | Junior | Senior | Principal RSE(brings in funding)  |
 | ----  | ------ | ------ | --- |
 | DOCBB | should be able to write reusable building blocks |same as junior, but the quality should set the standard for the project, while following current best practices | should know the current best practices and point its people to the right resources. |
 | LIBS  | should be able to use package distribution platforms      | same as junior, but should set the project standard and follow current best practices. | should ensure that their project is in an up-to-date distribution platform |
@@ -180,6 +186,9 @@ First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (l
 #### Academic Progression (Help me for better title)
 Modern digital science requires some digital proficiency at every level.
 We detail what is relevant here.
+Detail what differentiates masters from bachelors.
+Highlight that a lot of items are not yet part of the structures.
+
 A related one(non-specialized RSEs) The distinction is that numbers smaller then 4 indicate non-expert level:
 
 
@@ -201,8 +210,8 @@ A related one(non-specialized RSEs) The distinction is that numbers smaller then
 | TEAM  | 1      | 2      | 2     |  2      | 2  |
 
 
-#### Organization Size
-Second Dimension: individual -> small team of individuals(~4) -> big organisation(>10) scale (1->6) (less -> lot)
+#### Project team Size
+individual -> small team of individuals(~4) -> big organisation(>10) scale (1->6)
 
 |       | single | small team | organization  |
 | ----  | ------ | ------ | --- |
