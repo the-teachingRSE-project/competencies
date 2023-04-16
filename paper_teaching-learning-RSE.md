@@ -203,7 +203,7 @@ A related one(non-specialized RSEs).
 | DOCBB | They should be aware that RSEs exist and that software has different quality aspects | Same as Bachelor | They should know where they can get help, and maybe able to use libraries | same as PhD | They should know the skills of an RSE and when they might need one in their group |
 | LIBS  | They should be aware that RSEs exist and that there are tools available in their domain | They should be aware that there are tools that they can use in their research and maybe are able to use these libraries  | same as Master, but able to use libraries |  same as PhD  | They should be aware of the output of RSEs and motivate their students to use developed tools  |
 | MOD   | It is sufficient to consider digital tools as black boxes | It is sufficient to be able to _use_ software as black boxes |  same as Master, but being able to write bug reports | same as PhD | same as PostDoc  |
-| SWLC  | Awareness of the SWLC      | Know that one depends on software in their own research | Being able to evaluate software for their research |  same as PhD | Should be able to judge the sustainability of the performed research |
+| SWLC  | Awareness of the SWLC  | Know that one depends on software in their own research | Being able to evaluate software for their research |  same as PhD | Should be able to judge the sustainability of the performed research |
 |SWREPOS| Should know that swrepos exist | same as Bachelor | same as Master, but should be able to find information on them |  same as PhD | same as PostDoc, but should be able to follow the interactions among different projects relevant for their research |
 | LEG   | Should know that mixing/using software has legal issues and whom to ask | same as Bachelor | same as Bachelor |  same as PhD, but should know some simple Open Source guidelines | same as PostDoc, but should know the relevant patterns for their domain and sensitive their students  |
 | NEW   | Still consumers of lectures | same as Bachelor | Curiosity for their research is required, curiosity for digital tools helpful |  same as PhD | same as PostDoc and expert in their field  |
@@ -217,9 +217,13 @@ A related one(non-specialized RSEs).
 
 
 #### Project team Size
-individual -> small team of individuals(~4) -> big organisation(>10) scale (1->6)
+Some Explanation of the team sizes:
 
-|       | single | small team | organization  |
+- individual: A single person working on their research software
+- Small team(~4 persons) This is a small team, that has decided to work together on something
+- Organizations( >10 persons): These are big organizations with clear structures and a bigger degree of specialization.
+
+|       | individual | small team | organization  |
 | ----  | ------ | ------ | --- |
 | DOCBB |   you might get away with less satisfactory code, as long as the product is OK | think about your colleagues    | your organization most likely has guides here |
 | LIBS  |   you will only be successful if your artifact is usable by others    |  same here   | your organization probably has rules here |
