@@ -87,9 +87,9 @@ There are lots of software engineering curricula out there, that try to define w
 A recent one highlighting some aspects in more detail than what we are doing here is (Landwehr2017).
 
 #### Creating documented code building blocks (DOCBB)
-The RSE should be able to create building blocks from source code that are reusable.
+The RSE should be able to create building blocks from source code that are reusable. This ranges from simple libraries of functions up to complex architectures consisting of multiple softwares.
 
-#### building distributable libraries (LIBS)
+#### Building distributable libraries (LIBS)
 The RSE should be able to distribute their code with their domain/language specific distribution platforms.
 
 #### Software Behaviour Awareness and Analysis(MOD)
@@ -139,6 +139,7 @@ But in a research context this will certainly be the case and involves users, ot
 #### Team Skills
 #### Teaching (TEACH)
 Working in a group means being able to effectively perform e.g. onboarding, or more formal teaching procedures to their colleagues.
+We deliberately mention, that giving code review is also part of teaching.
 Code review can be part of teaching people on improving their skills.
 
 #### Project Management (PM)
@@ -146,8 +147,8 @@ The RSE should have knowledge about project management.
 
 
 #### working in a team (TEAM)
-If we think about competencies, we should point out which tasks the persons should be able to perform:
-social skills vs. "The person is able to work in a team", "The person is able to lead a team", ...
+Threre are various facets to working in a team. They range from functioning in a team to leading a team.
+It includes following measures that increase team cohesion like performing code reviews.
 
 
 Ideally we have a list of 14 time-invariant concepts/notions of what makes up an RSE.
@@ -159,9 +160,9 @@ Examples are The domain, organization, career path, ...
 #### Career level
 At different career levels differing skills are required. We have set this up according to the following separation often applied within a single project:
 
-- Junior RSE:
-- Senior RSE:
-- Software Lead RSE: Their actual job description varies a lot. These can be professors or group leaders and are often people bringing in the money that sustains the project.
+- Junior RSE: These are persons that have just started, but generally speaking they should have the skills to contribute to software projects
+- Senior RSE: They have gained experienced and can set the examples in the software project.
+- Software Lead RSE: Their actual job description varies a lot. These can be professors or group leaders and are often people bringing in the money that sustains the project. Generally speaking the do not need to know the day-to-day tasks, but should know the direction that is required for their project.
 
 The required skills are distributed according to this table
 First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (less -> lot)
@@ -181,33 +182,38 @@ First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (l
 | USERS | The RSE should be able to communicate with non-SE users of the project | same as junior | same as junior, and take feedback into account of the steering |
 | TEACH | should be able to perform simple peer-to-peer onboarding tasks | should be able to explain logical components to other RSEs | Should be able to effectively communicate about al large-scale parts of the project. |
 | PM    | Awareness about the employed project managemement method | Should be able to use the employed PM method | Should be able to design and adapt the employed PM method. |
-| TEAM  | Should be able to work in the team in order to effectively fulfill the given tasks | Should be able to break down tasks into more easily digestable sub-tasks | Should be able to lead the team and set the respective direction. |
+| TEAM  | Should be able to work in the team in order to effectively fulfill the given tasks. Should be able to learn from code review. | Should be able to break down tasks into more easily digestable sub-tasks | Should be able to lead the team and set the respective direction. |
 
 #### Academic Progression (Help me for better title)
 Modern digital science requires some digital proficiency at every level.
-We detail what is relevant here.
-Detail what differentiates masters from bachelors.
+To be a bit more precise, these are how we define 
 Highlight that a lot of items are not yet part of the structures.
 
-A related one(non-specialized RSEs) The distinction is that numbers smaller then 4 indicate non-expert level:
+- Bachelor: These are people in their undergrad studies, that mostly consume science/knowledge. They should also learn about the existence of certain digital structures.
+- Master: At the end their study should have brought them to a level, where they can participate in science, hence they should be able to use "some" digital structures.
+- PhD: Under guidance they perform independent research and hence they should get to know all relevant structures.
+- PostDoc: Independent researchers, they are proficient users of all tools.
+- PI/Professor: Experts in their field, they should be able to give proper guidance to their students which digital tools are currenty relevant.
+
+A related one(non-specialized RSEs).
 
 
 |       | Bachelor | Master | PhD | PostDoc | PI/Professor | 
 | ----  | ------ | ------ | ---   | ------  | ---|
-| DOCBB | 1      | 1      | 2     |  2      | 2  |
-| LIBS  | 2      | 3      | 3     |  3      | 2  |
-| MOD   | 1      | 2      | 3     |  3      | 2  |
-| SWLC  | Awareness of the SWLC      | Know that one depends on software in their own research | Evaluate Software    |  3      | 4  |
-|SWREPOS| 1      | 1      | 2     |  2      | 3  |
-| LEG   | 1      | 1      | 1     |  2      | 3  |
-| NEW   | 1      | 1      | 3     |  3      | 3  |
-| RC    | An awareness that research follows a cycle | Know that research follows a cycle and locate their masters thesis stages in it. | Same as Master, but applied to the PhD. Additionally awareness about interaction with services |  Same as PhD. But proficient in the domain | Same as PostDoc, but ability to lead a d a topic  |
-| SD    | 1      | 1      | 2     |  2      | 2  |
-| DOMREP| 1      | 1      | 2     |  3      | 3  |
-| USERS | 1      | 1      | 2     |  3      | 5  |
+| DOCBB | They should be aware that RSEs exist and that software has different quality aspects | Same as Bachelor | They should know where they can get help, and maybe able to use libraries | same as PhD | They should know the skills of an RSE and when they might need one in their group |
+| LIBS  | They should be aware that RSEs exist and that there are tools available in their domain | They should be aware that there are tools that they can use in their research and maybe are able to use these libraries  | same as Master, but able to use libraries |  same as PhD  | They should be aware of the output of RSEs and motivate their students to use developed tools  |
+| MOD   | It is sufficient to consider digital tools as black boxes | It is sufficient to be able to _use_ software as black boxes |  same as Master, but being able to write bug reports | same as PhD | same as PostDoc  |
+| SWLC  | Awareness of the SWLC      | Know that one depends on software in their own research | Being able to evaluate software for their research |  same as PhD | Should be able to judge the sustainability of the performed research |
+|SWREPOS| Should know that swrepos exist | same as Bachelor | same as Master, but should be able to find information on them |  same as PhD | same as PostDoc, but should be able to follow the interactions among different projects relevant for their research |
+| LEG   | Should know that mixing/using software has legal issues and whom to ask | same as Bachelor | same as Bachelor |  same as PhD, but should know some simple Open Source guidelines | same as PostDoc, but should know the relevant patterns for their domain and sensitive their students  |
+| NEW   | Still consumers of lectures | same as Bachelor | Curiosity for their research is required, curiosity for digital tools helpful |  same as PhD | same as PostDoc and expert in their field  |
+| RC    | An awareness that research follows a cycle | Know that research follows a cycle and locate their masters thesis' stages in it. | Same as Master, but applied to the PhD. Additionally awareness about interaction with services |  Same as PhD. But proficient in the domain | Same as PostDoc, but ability to lead a topic  |
+| SD    | They should know that their domain has relevant tools | same as Bachelor | Should know how to find full applications for their research | same as PhD | Should motivate their students to reuse existing tools  |
+| DOMREP| Should be aware that their domain has repos | same as Bachelor      | Should be able to interact with their domain repos | Proficient users of their domain repos | same as PostDoc |
+| USERS | Should be aware that they are users of a software | same as Bachelor  | Should be aware that their user view is different from the developer, in order to write bug reports |  same as PhD | Should be able to contribute meaningfully to the steering decisions of the software in their fields |
 | TEACH | Ability to peer-to-peer teaching | Small exercise groups | Ability to supervise a student. |  Ability to supervise students and create a course? | Ability to guide students. Give full-size lectures |
-| PM    | 1      | 1      | 1     |  2      | 3  |
-| TEAM  | 1      | 2      | 2     |  2      | 2  |
+| PM    | Awareness about project management optional | Awareness that research teams are structured according to some project management   | same as Master, or more depending on structure of research |  same as PhD | Should know about the required project management they require for their group |
+| TEAM  | Awareness that research is often performed in groups | Ability to work in their group for doing their master's thesis | same as master |  same as master | Should be able to lead a research team |
 
 
 #### Project team Size
