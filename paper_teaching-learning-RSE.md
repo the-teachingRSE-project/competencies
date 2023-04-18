@@ -246,25 +246,56 @@ https://competency.ebi.ac.uk/framework/bioexcel/3.0/carreer-profiles
 
 ### RSE specializations
 What we have defined above are intended to be base skills that an RSE irrespective of domain, place, and time should know about.
-Which brings us to the follow-up topic of specializations
+But not all RSEs are created equal, but they specialize in different areas,
+some of which we want to present below. Many of the specializations may overlap,
+so the same RSE might for example work on data management and on Open Science.
 
 #### HPC-RSE
-These are people skilled in the use of a profiler and knowledgeable about the intricacies of hardware.
+This RSE manages research infrastructure for high performance comuting (HPC), 
+knows how to run complex computations, and/or helps researcher compute on the 
+cluster.
+
+#### Research Infrastructure RSE
+This RSE is interested in SysOps and sets up infrastructure for and with researchers.
+
+
+#### Hardware RSE
+This RSE knows how use a profiler and knowledgeable about the intricacies of hardware.
+They work at the intersection of hardware, software and research.
+
+#### Web-Development RSE
+This RSE is skilled in web applications, front- and/or backend, and/or building 
+and using APIs, for example for research data portals or big research projects. 
 
 #### Legal-RSE
-With the prevalence of software we foresee the need to have people that are specialized in this field.
-They are the go-to persons if people in a department have a question on mixing and matching software.
+With the prevalence of software we foresee the need to RSEs that specialize in legal questions around software.
+They are the go-to person if people have a question on licensing, mixing and matching software, and/or patenting.
 
-#### RDM-RSE
-These are people working at the flourishing intersection between RDM and RSE. In order to effectively design automated workflows
-around RDM solutions that are useful to researchers we foresee the need for people that know both worlds.
+#### Data-focused RSE
+RSEs working at the flourishing intersection between data science and RSE. 
+They are skilled in cleaning data and/or running data analyses and can help researchers
+in setting up their analysis pipeline and/or research data management (RDM) solutions.
 
 #### OpenScience RSE
-With so much going on around the buzzwords of Open Science and FAIRness of Data and Software which is wanted by research funding agencies,
-we foresee the need for RSEs that are less technical but have the social skills to transform research grous/organizations.
+Open Science and FAIRness of Data and Software are increasinly important topics
+in reasearch, as examplified by the demand of an increasing amount of research funding agencies requiring openness.
+Open Science RSEs can help researcher navigate the technical questions that come up 
+when practicing Open Science, such as "How do I make my code presentable?", 
+"What do I need to consider when it comes to licensing?", or 
+"How can I use version control / automation for my project?".
+
+#### Project/Community manager RSEs
+When research software projects become larger, they need someone who manages
+processes and people. Building a community around a research project is an
+important building block in building sustainable software, so these RSEs play
+an important role, even if they do not neccessarily touch much of the code themselves.
+
+#### Teaching RSEs
+RSEs who focus on teaching the next generation of researchers and/or RSEs play
+a vital role in quality research software.
 
 #### ${DOMAIN}-RSE
-While software is the lingua franca of all RSEs there will be RSEs that have specialized into the initricacies of one particular domain.
+While software is the lingua franca of all RSEs there will be RSEs that have specialized into the initricacies of one particular research domain, such as medical RSEs, digital humanities RSEs or physics RSEs.
 
 ### Optional RSE competencies
 - Hardware Maintenance?
