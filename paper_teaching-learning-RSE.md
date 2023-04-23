@@ -88,9 +88,12 @@ A recent one highlighting some aspects in more detail than what we are doing her
 
 #### Creating documented code building blocks (DOCBB)
 The RSE should be able to create building blocks from source code that are reusable. This ranges from simple libraries of functions up to complex architectures consisting of multiple softwares.
+An important part of the reusability is that at least oneself and ideally others are able to understand what the code aims to do and how to use the provided functionality, which is achieved through documentation. This ranges from commenting code blocks to the usage of documentation (building) tools.
 
 #### Building distributable libraries (LIBS)
 The RSE should be able to distribute their code with their domain/language specific distribution platforms.
+This almost always encompasses handling/documenting dependencies to other packages/libraries and sometimes 
+requires knowledge of using build systems to enable interoperability to other systems.
 
 #### Software Behaviour Awareness and Analysis(MOD)
 A certain quality of anlytical thinking that enables you to form a mental model of the piece of software under consideration in the current environment.
@@ -131,11 +134,15 @@ How this should be done is not immediately clear, especially when there is no ac
 #### Use Domain repositories/directories (DOMREP)
 Almost all Research software is developed within a specific scientific domain.
 Some software may be able to cross boundaries, but the majority will have a home domain, with which it needs to be able to interact.
+Especially for data-driven research having software that is able to use existing sets and repositories is a valuable part.
 The RSE should be able to interact with the repositories of this specific domain.
+
 
 #### Outside Party interaction (USERS)
 While in a traditional SE context you might get away with not interacting with people outside your project.
 But in a research context this will certainly be the case and involves users, other developers,  upto funders.
+Additionally, this is oftentimes a two-way interaction with RSEs in a specific domain learning new findings, techniques, algorithms, 
+etc. to be able to implement software that is up-to-date with the body of knowledge of that domain.
 
 #### Team Skills
 #### Teaching (TEACH)
@@ -148,7 +155,7 @@ The RSE should have knowledge about project management.
 
 
 #### working in a team (TEAM)
-Threre are various facets to working in a team. They range from functioning in a team to leading a team.
+There are various facets to working in a team. They range from functioning in a team to leading a team.
 It includes following measures that increase team cohesion like performing code reviews.
 
 
@@ -252,8 +259,12 @@ so the same RSE might for example work on data management and on Open Science.
 
 #### HPC-RSE
 This RSE manages research infrastructure for high performance comuting (HPC), 
-knows how to run complex computations, and/or helps researcher compute on the 
-cluster.
+knows how to run complex computations, and/or helps researchers compute on the 
+cluster. They have knowledge about (automatic) code optimization and building code 
+that is able to leverage as many (efficiency) features the target hardware for the 
+simulation offers as possible. This is not only about researchers obtaining their 
+results in a reasonable time or even at all but also about the environmental impact 
+of these simulation.
 
 #### Research Infrastructure RSE
 This RSE is interested in SysOps and sets up infrastructure for and with researchers.
@@ -265,7 +276,9 @@ They work at the intersection of hardware, software and research.
 
 #### Web-Development RSE
 This RSE is skilled in web applications, front- and/or backend, and/or building 
-and using APIs, for example for research data portals or big research projects. 
+and using APIs, for example for research data portals or big research projects.
+Ideally this RSE should also have knowledge about (web) accessibility to allow a broad
+range of researchers to use the resulting applications.
 
 #### Legal-RSE
 With the prevalence of software we foresee the need to RSEs that specialize in legal questions around software.
@@ -275,6 +288,8 @@ They are the go-to person if people have a question on licensing, mixing and mat
 RSEs working at the flourishing intersection between data science and RSE. 
 They are skilled in cleaning data and/or running data analyses and can help researchers
 in setting up their analysis pipeline and/or research data management (RDM) solutions.
+When the field requires research on sensitive data or information, e.g. patient information in medicine, 
+this RSE should have knowledge about secure transfer methods and/or ways to anonymize the data. 
 
 #### OpenScience RSE
 Open Science and FAIRness of Data and Software are increasinly important topics
