@@ -166,7 +166,7 @@ It includes following measures that increase team cohesion like performing code 
 
 ### How much do different people need to know?
 Now that we have the different competencies, we can explore various dimensions of these competencies,
-depending on their circumstances.
+depending on their circumstances. A strong beneficiary of specialized RSEs can also be newly formed RSE centers at research institutions.
 
 #### Career level
 At different career levels differing skills are required. We have set this up according to the following separation often applied within a single project:
@@ -357,6 +357,7 @@ the RSE education further, to easily share education resources across the countr
 
 #### Certificates
 With the ever-growing demand for RSEs in science it is helpful for the job-market that people can earn the respective certificates.
+Certainly a big demand for specialized RSEs will come from the newly established RSE centers at research institutions that require skilled people to fill their vacant positions.
 Then this demand can find its market with people offering this skill
 Having these certificates provides finally a clear understanding of which tasks an RSE can perform and thereby helps defining the career path and the job description.
 
