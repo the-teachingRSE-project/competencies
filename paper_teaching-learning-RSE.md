@@ -320,22 +320,45 @@ FIXME: I think it would be nice if we could move each of these optional competen
 - We have resources, now we need to connect them to people to improve science
 
 ### Organizational Infrastructures
-So we have defined our set of competencies that we feel every RSE should possess. Table 2 from above nevertheless already hints at the fact 
-that some RSE skills are required during the domain studies, while Table 1 tells us that we need an ongoing qualification programm.
-Some basic education might be covered by the domain curricula or the libraries/compute centers but we need to provide them guidance to have a proper foundation 
+So we have defined our set of competencies that we feel every RSE should possess.
+Table 2 from above nevertheless already hints at the fact that some RSE skills are required during the domain studies, while Table 1 tells us that we also need an ongoing qualification programm for people that want to become specialized RSEs.
+
+Some basic education might be covered by the domain curricula or the libraries/compute centers.
+but we need to provide them guidance to have a proper foundation 
 on which to build the specialized courses that are performed by specialized teachers from specialized structures.
 
-#### Where do we get our teachers from and in which structures are they
-These will be a mixture of experienced RSEs and people specialized in teaching RSE things. There will be shared structures
-(DETAIL ME!!!!)
+#### What issues are trainers facing?
+The community discussion shed some light on the current issues our trainers are facing, which are currently teaching workshop like formats in research institutions.
+
+- There are outreach issues. We emphasize that there are two dimensions to this: First we need to inform students that workshops exist, but also the more important part, we also need to motivate people to invest the time for a workshop.
+- Adaptation to the audience has been identified as a time consuming task.
+- Organization and Preparation is a challenge, since currently no standardized formats exist.
+- Expectation management of students.
+- Language barriers. This can range from the use of technical jargon up to the disparities of you teaching in a foreign language.
+- Setting up a feedback loop. You want to improve from your workshop experinces
+- staying up-to-date
+
 
 #### What mindset makes up a good teacher
 Irrespective of where people come from they need to have the proper mindset to properly foster aspiring RSEs.
 
+#### Where do we get our teachers from and in which structures are they
+The community discussion brought about the need for a mixture of people, thereby 
+the education of aspiring RSEs will involve people from close domain sciences or  experienced RSEs
+and people that have respective additional skills to teach RSE competencies to the new generation.
+In that respect this follows the carpentries model that offers certifications, but is still open to non-certified trainers.
+We highlight and emphasize, that since a topic like RSE education, is constantly evolving, trainers strongly require the opportunity to and the recognition to educate themselves.
+Therefore our teachers will be sourced from the workplace but their will also be certified RSE Trainers.
+(FIXME: in classical university speak, these would be people who have done their habilitation on that topic, right?)
+
+We propose to create common Infrastructures that can be utilized in this ongoing effort to professionalize 
+the RSE education further, to easily share education resources across the country.
+(DETAIL ME FURTHER!!!!)
+
 #### Certificates
 With the ever-growing demand for RSEs in science it is helpful for the job-market that people can earn the respective certificates.
-Then this demand can find its market with people offering this skill.
-Having these certificates provides finally a clear understanding of which tasks an RSE can perform and thereby helps defining the career path.
+Then this demand can find its market with people offering this skill
+Having these certificates provides finally a clear understanding of which tasks an RSE can perform and thereby helps defining the career path and the job description.
 
 ## Required Next steps
 ### Implementation Strategies
