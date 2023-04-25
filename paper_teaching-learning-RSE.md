@@ -3,12 +3,18 @@
 
 ---
 
-**Abstract**:  
-In this paper we provide a survey(?) about the experiences that people had in teaching RSE skills,
-and from these experiences we derive a set of core competencies that people working in RSE should have
-and we try to answer the question how deeply people should know something about the respective topics
-in different carreer stages, organizations, etc...
-We close with a domain specific sample curriculum.
+**Abstract**:
+Being an outcome of a community workshop held in Paderborn, Germany in February 2023 this paper tries 
+for the first time(? true?) to define which competencies are required to participate in modern digital sciences.
+Some of these competencies are required in more depth therefore giving rise to the trade of the RSE,
+scientific personel that specializes in writing research software that facilitates research in all stages of the research cycle.
+Due to their generality, we explore these competencies in various contexts and elaborate some examples for further specialization.
+
+But knowing a set of competencies is not enough, therefore we discuss explicitely how to make people aware that these skills are
+required and how these are taught(Do we want to add this pedagogical dimension?).
+In order to also facilitate structural change in the german research institution landscape
+we will discuss the organizations and structures that support this change and educate new RSEs.
+The discussion in this paper is meant to be general therefore we will discuss specific applications in an appendix.
 
 ---
 
@@ -51,7 +57,7 @@ As an area that generally requires a range of advanced skills, High Performance 
 
 A wide range of software-related training materials and supporting organisations exist within the research software community and beyond. The Carpentries [The Carpentries] is a non-profit entity that supports a range of open source training materials and international communities of volunteer instructors and helpers who run courses around these materials. The community also maintains the materials which are based around three core syllabuses - Software Carpentry, Data Carpentry and Library Carpentry. The training materials within these areas have been developed, reviewed and enhanced over several years ensuring that they represent best practice in training on these topics. The core Carpentries lessons are targeted primarily at the beginner-level. However, the Carpentries Incubator [Carpentries Incubator] provides an environment for hosting additional community developed training modules covering a wide range of other topics that haven't gone through the peer review process of the core lessons. The material in the Incubator increasingly includes more intermediate-level training modules.
 
-CodeRefinery is another group who host a set of open source training material that they use in workshops primarily run in the Nordic region. CodeRefinery's material includes both beginner and intermediate-level material _[Samantha to expand descriptio of CodeRefinery?]_
+CodeRefinery is another group who host a set of open source training material that they use in workshops primarily run in the Nordic region. CodeRefinery's material includes both beginner and intermediate-level material _[Samantha to expand description of CodeRefinery?]_
 
 The ReproHack Team offers resources to host events where students and researchers can get together to try and reproduce the results 
 of published papers with the methods described there or ideally with the software provided by the authors.
@@ -158,12 +164,9 @@ The RSE should have knowledge about project management.
 There are various facets to working in a team. They range from functioning in a team to leading a team.
 It includes following measures that increase team cohesion like performing code reviews.
 
-
-Ideally we have a list of 14 time-invariant concepts/notions of what makes up an RSE.
-
 ### How much do different people need to know?
-Explore the different dimensions that a person can require a different set of skills in.
-Examples are the domain, organization, career path, ...
+Now that we have the different competencies, we can explore various dimensions of these competencies,
+depending on their circumstances.
 
 #### Career level
 At different career levels differing skills are required. We have set this up according to the following separation often applied within a single project:
@@ -194,8 +197,7 @@ First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (l
 
 #### Academic Progression (Help me for better title)
 Modern digital science requires some digital proficiency at every level.
-To be a bit more precise, these are how we define 
-Highlight that a lot of items are not yet part of the structures.
+To be a bit more precise, these are how we define the academic levels:
 
 - Bachelor: These are people in their undergrad studies, that mostly consume science/knowledge. They should also learn about the existence of certain digital structures.
 - Master: At the end their study should have brought them to a level, where they can participate in science, hence they should be able to use "some" digital structures.
@@ -203,7 +205,7 @@ Highlight that a lot of items are not yet part of the structures.
 - PostDoc: Independent researchers, they are proficient users of all tools.
 - PI/Professor: Experts in their field, they should be able to give proper guidance to their students which digital tools are currenty relevant.
 
-A related one(non-specialized RSEs).
+FIXME: Highlight that a lot of items are not yet part of the structures of research institutions or workgroups.
 
 |       | Bachelor | Master | PhD | PostDoc | PI/Professor | 
 | ----  | ------ | ------ | ---   | ------  | ---|
@@ -224,7 +226,7 @@ A related one(non-specialized RSEs).
 
 
 #### Project team Size
-Some Explanation of the team sizes:
+Some explanation of the team sizes:
 
 - individual: A single person working on their research software
 - Small team(~4 persons) This is a small team, that has decided to work together on something
@@ -253,7 +255,7 @@ https://competency.ebi.ac.uk/framework/bioexcel/3.0/carreer-profiles
 
 ### RSE specializations
 What we have defined above are intended to be base skills that an RSE irrespective of domain, place, and time should know about.
-But not all RSEs are created equal, but they specialize in different areas,
+But not all RSEs are created equal, they specialize in different areas,
 some of which we want to present below. Many of the specializations may overlap,
 so the same RSE might for example work on data management and on Open Science.
 
@@ -268,17 +270,15 @@ of these simulation.
 
 #### Research Infrastructure RSE
 This RSE is interested in SysOps and sets up infrastructure for and with researchers.
-
-
-#### Hardware RSE
-This RSE knows how use a profiler and knowledgeable about the intricacies of hardware.
-They work at the intersection of hardware, software and research.
+This RSE therefore requires a deep knowledge of physical computer and network hardware.
+FIXME: While required, is this an RSE? this sets of the usual infrastructure vs. research disussion....
 
 #### Web-Development RSE
 This RSE is skilled in web applications, front- and/or backend, and/or building 
 and using APIs, for example for research data portals or big research projects.
 Ideally this RSE should also have knowledge about (web) accessibility to allow a broad
-range of researchers to use the resulting applications.
+range of researchers or even the public to use the resulting applications.
+Therefore a deep knowledge of web skills is a requierd skill for this RSE.
 
 #### Legal-RSE
 With the prevalence of software we foresee the need to RSEs that specialize in legal questions around software.
@@ -313,9 +313,8 @@ a vital role in quality research software.
 While software is the lingua franca of all RSEs there will be RSEs that have specialized into the initricacies of one particular research domain, such as medical RSEs, digital humanities RSEs or physics RSEs.
 
 ### Optional RSE competencies
-- Hardware Maintenance?
+FIXME: I think it would be nice if we could move each of these optional competencies to a different specialization.
 - Managing/Updating/Refurbishing legacy software
-- developing (web)services, e.g. for surveys, esp. in digital humanities (accessibility of UIs gets important)
 
 ### How do we reach people in different stages at their career?
 - We have resources, now we need to connect them to people to improve science
