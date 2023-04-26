@@ -68,6 +68,7 @@ of published papers with the methods described there or ideally with the softwar
 ## Challenges
 - Point out gaps
 - What is missing
+- Depending on the specific domain there is a gap between the basic software carpentry courses an the required skills to build domain-specific research software. 
 
 ## Results
 
