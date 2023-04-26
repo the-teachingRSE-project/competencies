@@ -67,7 +67,10 @@ of published papers with the methods described there or ideally with the softwar
 ## Challenges
 - Point out gaps
 - What is missing
-- Depending on the specific domain there is a gap between the basic software carpentry courses an the required skills to build domain-specific research software. 
+
+Depending on the specific domain there is a gap between the basic software carpentry courses and the required skills to build domain-specific research software. For example, scientists in the field of High-Performance Computing need to know how to use concurrency to speed up their simulation and communicate efficiently using message-passing interface (MPI) libraries. The same is true for researchers from other domains who make use of other specialized technologies, methods and/or tools. To bridge those gaps more specialized courses would be needed like the one mentioned in section [Identifying skills and pathway] for the HPC community.
+
+Moreover, software development is a craft, i.e. it is not only about knowledge but also requires practical experience. Hence we need to create an environment that allows young researchers to practice and gain experiences efficiently. Ideally, this learning environment would allow those younger scientists to be guided by more experienced RSEs. We know such practices e.g. from human medicine, where young doctors first assist experienced doctors before they work independently. In the field of software development, this approach could be implemented, in the form of peer programming. The prerequisite for this, however, is that experienced academics get better career opportunities at German Universities so that they don't leave for the industry. 
 
 ## Results
 
