@@ -6,13 +6,12 @@
 **Abstract**:
 Being an outcome of a community workshop held in Paderborn, Germany in February 2023 this paper tries 
 for the first time(? true?) to define which competencies are required to participate in modern digital sciences.
-Some of these competencies are required in more depth therefore giving rise to the trade of the RSE,
-scientific personel that specializes in writing research software that facilitates research in all stages of the research cycle.
-Due to their generality, we explore these competencies in various contexts and elaborate some examples for further specialization.
+Some of these competencies are required in more depth, therefore, giving rise to the trade of the RSE, scientific personnel that specializes in writing research software that facilitates research in all stages of the research cycle.
+Due to their generality, we explore these competencies in various contexts and elaborate on some examples for further specialization.
 
-But knowing a set of competencies is not enough, therefore we discuss explicitely how to make people aware that these skills are
+But knowing a set of competencies is not enough, therefore we discuss explicitly how to make people aware that these skills are
 required and how these are taught(Do we want to add this pedagogical dimension?).
-In order to also facilitate structural change in the german research institution landscape
+In order to also facilitate structural change in the German research institution landscape
 we will discuss the organizations and structures that support this change and educate new RSEs.
 The discussion in this paper is meant to be general therefore we will discuss specific applications in an appendix.
 
@@ -23,7 +22,7 @@ The discussion in this paper is meant to be general therefore we will discuss sp
 ## Introduction
 - background
     - RSEs have been around for a long time but the name is new.
-    - RSEs have a specialist skill set that bring together technical and research knowledge.
+    - RSEs have a specialist skill set that brings together technical and research knowledge.
     - Skills development traditionally provided largely through peer learning, self learning, introductory training courses not targeted specifically at RSEs, ...
     - Requirements for RSE skills growing rapidly across all domains.
 - past attempts, other initiatives
@@ -31,11 +30,11 @@ The discussion in this paper is meant to be general therefore we will discuss sp
 
 Computers and software have played a key role in the research lifecycle for many decades. Traditionally, they were specialist tools used only in a small number of fields and the Computer Scientists who maintained and programmed them needed extensive technical training over several years to gain the necessary skills and expertise. Fast forward 50-60 years and software and computation are all around us, underpinning our everyday lives. This shift is also true within research.
 
-With the ability to capture and process ever more data, undertake larger scale, higher resolution simulations and, increasingly, to automate complex tasks through Artifical Intelligence and Machine Learning approaches, computers and software are now vital elements of the research process across almost all domains. However, this shift means that there is a much greater need for core research software skills across a vast array of research fields where these were not previously required.
+With the ability to capture and process ever more data, undertake larger scale, higher resolution simulations and, increasingly, to automate complex tasks through Artificial Intelligence and Machine Learning approaches, computers and software are now vital elements of the research process across almost all domains. However, this shift means that there is a much greater need for core research software skills across a vast array of research fields where these were not previously required.
 
-The people who focus on writing research software are now known as Research Software Engineers (RSEs) - a term that was coined a little over 10 years ago [Hettrick2016].  RSEs may work within one of the many Research Software Engineering teams that have been setup at universities and research organisations over the last decade, or they may be embedded within a research team. They may have a job title that officially recognises them as an RSE, or they may have a standard research or technical job title such as Research Assistant, Research Fellow or Software Engineer. Regardless of their job title, RSEs share a set of core skills that are required to write software, understand the research environment and ensure that they produce sustainable, maintainable code that supports reproducible research outputs.
+The people who focus on writing research software are now known as Research Software Engineers (RSEs) - a term that was coined a little over 10 years ago [Hettrick2016].  RSEs may work within one of the many Research Software Engineering teams that have been set up at universities and research organisations over the last decade, or they may be embedded within a research team. They may have a job title that officially recognises them as an RSE, or they may have a standard research or technical job title such as Research Assistant, Research Fellow or Software Engineer. Regardless of their job title, RSEs share a set of core skills that are required to write software, understand the research environment and ensure that they produce sustainable, maintainable code that supports reproducible research outputs.
 
-Developing and maintaining these skills is time consuming and often challenging. Part of the challenge is that there is not a standard pathway to becoming an RSE and, partly as a result of this, there is something of an ad hoc approach to training within the community. We also see increasing amounts of basic-level training materials that are great to put researchers or technical professionals on a path towards gaining signifciant RSE expertise, but the trail often ends as developing RSEs want to progress to intermediate and advanced level material. In particular, recent technology developments are ensuring that there is a growing need for specialist expertise, for example in areas such as making efficient use of high-performance computing infrastructure. This is an area where there is a skills shortage and a shortage of training materials.
+Developing and maintaining these skills is time consuming and often challenging. Part of the challenge is that there is not a standard pathway to becoming an RSE and, partly as a result of this, there is something of an ad hoc approach to training within the community. We also see increasing amounts of basic-level training materials that are great to put researchers or technical professionals on a path towards gaining significant RSE expertise, but the trail often ends as developing RSEs want to progress to intermediate and advanced level material. In particular, recent technology developments are ensuring that there is a growing need for specialist expertise, for example in areas such as making efficient use of high-performance computing infrastructure. This is an area where there is a skills shortage and a shortage of training materials.
 
 In this paper, we look at the challenge of understanding the core competencies that underpin Research Software Engineering and the way that these competencies may be combined to help support a more coordinated approach to future RSE skills development. The paper builds on a workshop session held as part of the German Research Software Engineering Conference (deRSE23), held in Paderborn, Germany in February 2023.
 
@@ -45,7 +44,7 @@ _[Overview of paper sections to add]_
 
 ## Related Work and Activities
 
-The challenges of understanding the current state of skills within the research software community and related areas, as well as identifying required competencies, developing training pathways and providing training materials are areas that are being looked at and addressed by various groups and projects. In this section we highlight some of these other projects and activities.
+The challenges of understanding the current state of skills within the research software community and related areas, as well as identifying required competencies, developing training pathways and providing training materials are areas that are being looked at and addressed by various groups and projects. In this section, we highlight some of these other projects and activities.
 
 ### Identifying skills and pathways
 
