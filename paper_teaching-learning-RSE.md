@@ -198,7 +198,7 @@ First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (l
 | PM    | Awareness about the employed project managemement method | Should be able to use the employed PM method | Should be able to design and adapt the employed PM method. |
 | TEAM  | Should be able to work in the team in order to effectively fulfill the given tasks. Should be able to learn from code review. | Should be able to break down tasks into more easily digestable sub-tasks | Should be able to lead the team and set the respective direction. |
 
-#### Academic Progression (Help me for better title)
+#### Academic Progression / Career Path? (Help me for better title)
 Modern digital science requires some digital proficiency at every level.
 To be a bit more precise, these are how we define the academic levels:
 
