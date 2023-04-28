@@ -306,7 +306,7 @@ when practicing Open Science, such as "How do I make my code presentable?",
 When research software projects become larger, they need someone who manages
 processes and people. Building a community around a research project is an
 important building block in building sustainable software, so these RSEs play
-an important role, even if they do not neccessarily touch much of the code themselves.
+an important role, even if they do not necessarily touch much of the code themselves.
 
 #### Teaching RSEs
 RSEs who focus on teaching the next generation of researchers and/or RSEs play
@@ -319,7 +319,7 @@ While software is the lingua franca of all RSEs there will be RSEs that have spe
 FIXME: I think it would be nice if we could move each of these optional competencies to a different specialization.
 - Managing/Updating/Refurbishing legacy software
 
-### How do we reach people in different stages at their career?
+### How do we reach people in different stages of their careers?
 - We have resources, now we need to connect them to people to improve science
 
 ### Organizational Infrastructures
@@ -338,7 +338,7 @@ The community discussion shed some light on the current issues our trainers are 
 - Organization and Preparation is a challenge, since currently no standardized formats exist.
 - Expectation management of students.
 - Language barriers. This can range from the use of technical jargon up to the disparities of you teaching in a foreign language.
-- Setting up a feedback loop. You want to improve from your workshop experinces
+- Setting up a feedback loop. You want to improve from your workshop experiences
 - staying up-to-date
 
 
@@ -349,13 +349,12 @@ Irrespective of where people come from they need to have the proper mindset to p
 The community discussion brought about the need for a mixture of people, thereby 
 the education of aspiring RSEs will involve people from close domain sciences or  experienced RSEs
 and people that have respective additional skills to teach RSE competencies to the new generation.
-In that respect this follows the carpentries model that offers certifications, but is still open to non-certified trainers.
+In that respect, this follows the carpentries model that offers certifications, but is still open to non-certified trainers.
 We highlight and emphasize, that since a topic like RSE education, is constantly evolving, trainers strongly require the opportunity to and the recognition to educate themselves.
-Therefore our teachers will be sourced from the workplace but their will also be certified RSE Trainers.
+Therefore our teachers will be sourced from the workplace but there will also be certified RSE Trainers.
 (FIXME: in classical university speak, these would be people who have done their habilitation on that topic, right?)
 
-We propose to create common Infrastructures that can be utilized in this ongoing effort to professionalize 
-the RSE education further, to easily share education resources across the country.
+We propose to create common Infrastructures that can be utilized in this ongoing effort to professionalize the RSE education further, to easily share education resources across the country.
 (DETAIL ME FURTHER!!!!)
 
 #### Certificates
