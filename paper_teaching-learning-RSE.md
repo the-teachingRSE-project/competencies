@@ -102,7 +102,7 @@ An important part of the reusability is that at least oneself and ideally others
 #### Building distributable libraries (LIBS)
 The RSE should be able to distribute their code with their domain/language specific distribution platforms.
 This almost always encompasses handling/documenting dependencies to other packages/libraries and sometimes 
-requires knowledge of using build systems to enable interoperability to other systems.
+requires knowledge of using build systems to enable interoperability with other systems.
 
 #### Software Behaviour Awareness and Analysis(MOD)
 A certain quality of anlytical thinking that enables you to form a mental model of the piece of software under consideration in the current environment.
