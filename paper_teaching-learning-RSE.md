@@ -84,7 +84,7 @@ We will have to consider the broad variety in the field of research software.
 Still, there is probably a set of skills that is relevant to all developers (versioning, code quality, documentation).
 This could be a Body of Knowledge (BoK).
 In addition, RSEs should be able to adapt to specific (domain) specific requirements/environments which requires additional competences (Body of Competences) like communication, networking, (life long) learning, ...
-(There is a paper from David Parnas on Body of Competences in software engineering)
+(There is a paper from David Parnas/Landwehr on Body of Competences in software engineering)
 
 Also, different software at different stages of evolution require different skills (CI, larger application architectures, ...)
 
