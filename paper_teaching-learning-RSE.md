@@ -105,7 +105,7 @@ This almost always encompasses handling/documenting dependencies to other packag
 requires knowledge of using build systems to enable interoperability with other systems.
 
 #### Software Behaviour Awareness and Analysis(MOD)
-A certain quality of anlytical thinking that enables you to form a mental model of the piece of software under consideration in the current environment.
+A certain quality of analytical thinking that enables you to form a mental model of the piece of software under consideration in the current environment.
 Using that an RSE should be able to make predictions about a software's behaviour. This is a required skill for tasks like debugging, profiling, designing good tests, or predicting user interaction.
 
 #### Understanding the software lifecycle (SWLC)
