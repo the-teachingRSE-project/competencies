@@ -176,7 +176,7 @@ At different career levels differing skills are required. We have set this up ac
 
 - Junior RSE: These are persons that have just started, but generally speaking they should have the skills to contribute to software projects
 - Senior RSE: They have gained experienced and can set the examples in the software project.
-- Software Lead RSE: Their actual job description varies a lot. These can be professors or group leaders and are often people bringing in the money that sustains the project. Generally speaking the do not need to know the day-to-day tasks, but should know the direction that is required for their project.
+- Principal RSE: Their actual job description varies a lot. These can be professors or group leaders and are often people bringing in the money that sustains the project. Generally speaking, they do not need to know the day-to-day tasks but should know the direction that is required for their project.
 
 The required skills are distributed according to this table
 First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (less -> lot)
