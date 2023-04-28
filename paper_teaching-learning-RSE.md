@@ -97,7 +97,7 @@ A recent one highlighting some aspects in more detail than what we are doing her
 
 #### Creating documented code building blocks (DOCBB)
 The RSE should be able to create building blocks from source code that are reusable. This ranges from simple libraries of functions up to complex architectures consisting of multiple softwares.
-An important part of the reusability is that at least oneself and ideally others are able to understand what the code aims to do and how to use the provided functionality, which is achieved through documentation. This ranges from commenting code blocks to the usage of documentation (building) tools.
+An important part of the reusability is that at least oneself and ideally others are able to understand what the code aims to do and how to use the provided functionality, which is primarily achieved through a "clean" implementation and enhanced by documentation. This ranges from commenting code blocks to the usage of documentation (building) tools.
 
 #### Building distributable libraries (LIBS)
 The RSE should be able to distribute their code with their domain/language specific distribution platforms.
