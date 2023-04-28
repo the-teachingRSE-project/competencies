@@ -345,6 +345,9 @@ The community discussion shed some light on the current issues our trainers are 
 #### What mindset makes up a good teacher
 Irrespective of where people come from they need to have the proper mindset to properly foster aspiring RSEs.
 
+- "If you want to go fast, go alone; if you want to go far, go together?"
+- Not every "good" scientist wants to become a "good" software engineer, too!
+
 #### Where do we get our teachers from and in which structures are they
 The community discussion brought about the need for a mixture of people, thereby 
 the education of aspiring RSEs will involve people from close domain sciences or  experienced RSEs
