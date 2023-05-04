@@ -6,13 +6,12 @@
 **Abstract**:
 Being an outcome of a community workshop held in Paderborn, Germany in February 2023 this paper tries 
 for the first time(? true?) to define which competencies are required to participate in modern digital sciences.
-Some of these competencies are required in more depth therefore giving rise to the trade of the RSE,
-scientific personel that specializes in writing research software that facilitates research in all stages of the research cycle.
-Due to their generality, we explore these competencies in various contexts and elaborate some examples for further specialization.
+Some of these competencies are required in more depth, therefore, giving rise to the trade of the RSE, scientific personnel that specializes in writing research software that facilitates research in all stages of the research cycle.
+Due to their generality, we explore these competencies in various contexts and elaborate on some examples for further specialization.
 
-But knowing a set of competencies is not enough, therefore we discuss explicitely how to make people aware that these skills are
+But knowing a set of competencies is not enough, therefore we discuss explicitly how to make people aware that these skills are
 required and how these are taught(Do we want to add this pedagogical dimension?).
-In order to also facilitate structural change in the german research institution landscape
+In order to also facilitate structural change in the German research institution landscape
 we will discuss the organizations and structures that support this change and educate new RSEs.
 The discussion in this paper is meant to be general therefore we will discuss specific applications in an appendix.
 
@@ -23,7 +22,7 @@ The discussion in this paper is meant to be general therefore we will discuss sp
 ## Introduction
 - background
     - RSEs have been around for a long time but the name is new.
-    - RSEs have a specialist skill set that bring together technical and research knowledge.
+    - RSEs have a specialist skill set that brings together technical and research knowledge.
     - Skills development traditionally provided largely through peer learning, self learning, introductory training courses not targeted specifically at RSEs, ...
     - Requirements for RSE skills growing rapidly across all domains.
 - past attempts, other initiatives
@@ -31,11 +30,11 @@ The discussion in this paper is meant to be general therefore we will discuss sp
 
 Computers and software have played a key role in the research lifecycle for many decades. Traditionally, they were specialist tools used only in a small number of fields and the Computer Scientists who maintained and programmed them needed extensive technical training over several years to gain the necessary skills and expertise. Fast forward 50-60 years and software and computation are all around us, underpinning our everyday lives. This shift is also true within research.
 
-With the ability to capture and process ever more data, undertake larger scale, higher resolution simulations and, increasingly, to automate complex tasks through Artifical Intelligence and Machine Learning approaches, computers and software are now vital elements of the research process across almost all domains. However, this shift means that there is a much greater need for core research software skills across a vast array of research fields where these were not previously required.
+With the ability to capture and process ever more data, undertake larger scale, higher resolution simulations and, increasingly, to automate complex tasks through Artificial Intelligence and Machine Learning approaches, computers and software are now vital elements of the research process across almost all domains. However, this shift means that there is a much greater need for core research software skills across a vast array of research fields where these were not previously required.
 
-The people who focus on writing research software are now known as Research Software Engineers (RSEs) - a term that was coined a little over 10 years ago [Hettrick2016].  RSEs may work within one of the many Research Software Engineering teams that have been setup at universities and research organisations over the last decade, or they may be embedded within a research team. They may have a job title that officially recognises them as an RSE, or they may have a standard research or technical job title such as Research Assistant, Research Fellow or Software Engineer. Regardless of their job title, RSEs share a set of core skills that are required to write software, understand the research environment and ensure that they produce sustainable, maintainable code that supports reproducible research outputs.
+The people who focus on writing research software are now known as Research Software Engineers (RSEs) - a term that was coined a little over 10 years ago [Hettrick2016].  RSEs may work within one of the many Research Software Engineering teams that have been set up at universities and research organisations over the last decade, or they may be embedded within a research team. They may have a job title that officially recognises them as an RSE, or they may have a standard research or technical job title such as Research Assistant, Research Fellow or Software Engineer. Regardless of their job title, RSEs share a set of core skills that are required to write software, understand the research environment and ensure that they produce sustainable, maintainable code that supports reproducible research outputs.
 
-Developing and maintaining these skills is time consuming and often challenging. Part of the challenge is that there is not a standard pathway to becoming an RSE and, partly as a result of this, there is something of an ad hoc approach to training within the community. We also see increasing amounts of basic-level training materials that are great to put researchers or technical professionals on a path towards gaining signifciant RSE expertise, but the trail often ends as developing RSEs want to progress to intermediate and advanced level material. In particular, recent technology developments are ensuring that there is a growing need for specialist expertise, for example in areas such as making efficient use of high-performance computing infrastructure. This is an area where there is a skills shortage and a shortage of training materials.
+Developing and maintaining these skills is time consuming and often challenging. Part of the challenge is that there is not a standard pathway to becoming an RSE and, partly as a result of this, there is something of an ad hoc approach to training within the community. We also see increasing amounts of basic-level training materials that are great to put researchers or technical professionals on a path towards gaining significant RSE expertise, but the trail often ends as developing RSEs want to progress to intermediate and advanced level material. In particular, recent technology developments are ensuring that there is a growing need for specialist expertise, for example in areas such as making efficient use of high-performance computing infrastructure. This is an area where there is a skills shortage and a shortage of training materials.
 
 In this paper, we look at the challenge of understanding the core competencies that underpin Research Software Engineering and the way that these competencies may be combined to help support a more coordinated approach to future RSE skills development. The paper builds on a workshop session held as part of the German Research Software Engineering Conference (deRSE23), held in Paderborn, Germany in February 2023.
 
@@ -45,7 +44,7 @@ _[Overview of paper sections to add]_
 
 ## Related Work and Activities
 
-The challenges of understanding the current state of skills within the research software community and related areas, as well as identifying required competencies, developing training pathways and providing training materials are areas that are being looked at and addressed by various groups and projects. In this section we highlight some of these other projects and activities.
+The challenges of understanding the current state of skills within the research software community and related areas, as well as identifying required competencies, developing training pathways and providing training materials are areas that are being looked at and addressed by various groups and projects. In this section, we highlight some of these other projects and activities.
 
 ### Identifying skills and pathways
 
@@ -69,6 +68,10 @@ of published papers with the methods described there or ideally with the softwar
 - Point out gaps
 - What is missing
 
+Depending on the specific domain there is a gap between the basic software carpentry courses and the required skills to build domain-specific research software. For example, scientists in the field of High Performance Computing (HPC) need to know how to make effective use of concurrency to speed up their simulations and communicate efficiently using message-passing interface (MPI) libraries. The same is true for researchers from other domains who make use of other specialized technologies, methods and/or tools. To bridge those gaps more specialized courses would be needed like the one mentioned in section [Identifying skills and pathways] for the HPC community.
+
+Moreover, software development is a craft, i.e. it is not only about knowledge but also requires practical experience. Hence we need to create an environment that allows less experienced researchers to practice and gain experience efficiently. Ideally, this learning environment would allow less experienced scientists to be guided by more experienced RSEs. We know such practices e.g. from human medicine, where junior doctors first assist experienced doctors before they work independently. In the field of software development, this approach could be implemented in the form of peer programming, for example. The prerequisite for this, however, is that experienced academics get better career opportunities at German Universities so that they don't leave for industry roles. 
+
 ## Results
 
 ### Required Generic RSE skills
@@ -81,7 +84,7 @@ We will have to consider the broad variety in the field of research software.
 Still, there is probably a set of skills that is relevant to all developers (versioning, code quality, documentation).
 This could be a Body of Knowledge (BoK).
 In addition, RSEs should be able to adapt to specific (domain) specific requirements/environments which requires additional competences (Body of Competences) like communication, networking, (life long) learning, ...
-(There is a paper from David Parnas on Body of Competences in software engineering)
+(There is a paper from David Parnas/Landwehr on Body of Competences in software engineering)
 
 Also, different software at different stages of evolution require different skills (CI, larger application architectures, ...)
 
@@ -94,15 +97,15 @@ A recent one highlighting some aspects in more detail than what we are doing her
 
 #### Creating documented code building blocks (DOCBB)
 The RSE should be able to create building blocks from source code that are reusable. This ranges from simple libraries of functions up to complex architectures consisting of multiple softwares.
-An important part of the reusability is that at least oneself and ideally others are able to understand what the code aims to do and how to use the provided functionality, which is achieved through documentation. This ranges from commenting code blocks to the usage of documentation (building) tools.
+An important part of reusability is that at least oneself, and ideally others, are able to understand what a piece of code aims to do and how to use the provided functionality, which is primarily achieved through a "clean" implementation and enhanced by documentation. This ranges from commenting code blocks to the usage of documentation (building) tools.
 
 #### Building distributable libraries (LIBS)
 The RSE should be able to distribute their code with their domain/language specific distribution platforms.
 This almost always encompasses handling/documenting dependencies to other packages/libraries and sometimes 
-requires knowledge of using build systems to enable interoperability to other systems.
+requires knowledge of using build systems to enable interoperability with other systems.
 
 #### Software Behaviour Awareness and Analysis(MOD)
-A certain quality of anlytical thinking that enables you to form a mental model of the piece of software under consideration in the current environment.
+A certain quality of analytical thinking that enables you to form a mental model of the piece of software under consideration in the current environment.
 Using that an RSE should be able to make predictions about a software's behaviour. This is a required skill for tasks like debugging, profiling, designing good tests, or predicting user interaction.
 
 #### Understanding the software lifecycle (SWLC)
@@ -173,7 +176,7 @@ At different career levels differing skills are required. We have set this up ac
 
 - Junior RSE: These are persons that have just started, but generally speaking they should have the skills to contribute to software projects
 - Senior RSE: They have gained experienced and can set the examples in the software project.
-- Software Lead RSE: Their actual job description varies a lot. These can be professors or group leaders and are often people bringing in the money that sustains the project. Generally speaking the do not need to know the day-to-day tasks, but should know the direction that is required for their project.
+- Principal RSE: Their actual job description varies a lot. These may be RSE team leaders based in a professional services type role, or they may be professors or research group leaders based in a more academic-focused role. They are often the people responsible for bringing in the money that suports new projects and sustains existing projects. Generally speaking, they do not need to to be actively involved in the day-to-day technical tasks but they should be able to guide projects from both a technical and research perspective.
 
 The required skills are distributed according to this table
 First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (less -> lot)
@@ -195,7 +198,7 @@ First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (l
 | PM    | Awareness about the employed project managemement method | Should be able to use the employed PM method | Should be able to design and adapt the employed PM method. |
 | TEAM  | Should be able to work in the team in order to effectively fulfill the given tasks. Should be able to learn from code review. | Should be able to break down tasks into more easily digestable sub-tasks | Should be able to lead the team and set the respective direction. |
 
-#### Academic Progression (Help me for better title)
+#### Academic Progression / Career Path? (Help me for better title)
 Modern digital science requires some digital proficiency at every level.
 To be a bit more precise, these are how we define the academic levels:
 
@@ -303,7 +306,7 @@ when practicing Open Science, such as "How do I make my code presentable?",
 When research software projects become larger, they need someone who manages
 processes and people. Building a community around a research project is an
 important building block in building sustainable software, so these RSEs play
-an important role, even if they do not neccessarily touch much of the code themselves.
+an important role, even if they do not necessarily touch much of the code themselves.
 
 #### Teaching RSEs
 RSEs who focus on teaching the next generation of researchers and/or RSEs play
@@ -316,7 +319,7 @@ While software is the lingua franca of all RSEs there will be RSEs that have spe
 FIXME: I think it would be nice if we could move each of these optional competencies to a different specialization.
 - Managing/Updating/Refurbishing legacy software
 
-### How do we reach people in different stages at their career?
+### How do we reach people in different stages of their careers?
 - We have resources, now we need to connect them to people to improve science
 
 ### Organizational Infrastructures
@@ -335,24 +338,26 @@ The community discussion shed some light on the current issues our trainers are 
 - Organization and Preparation is a challenge, since currently no standardized formats exist.
 - Expectation management of students.
 - Language barriers. This can range from the use of technical jargon up to the disparities of you teaching in a foreign language.
-- Setting up a feedback loop. You want to improve from your workshop experinces
+- Setting up a feedback loop. You want to improve from your workshop experiences
 - staying up-to-date
 
 
 #### What mindset makes up a good teacher
 Irrespective of where people come from they need to have the proper mindset to properly foster aspiring RSEs.
 
+- "If you want to go fast, go alone; if you want to go far, go together?"
+- Not every "good" scientist wants to become a "good" software engineer, too!
+
 #### Where do we get our teachers from and in which structures are they
 The community discussion brought about the need for a mixture of people, thereby 
 the education of aspiring RSEs will involve people from close domain sciences or  experienced RSEs
 and people that have respective additional skills to teach RSE competencies to the new generation.
-In that respect this follows the carpentries model that offers certifications, but is still open to non-certified trainers.
+In that respect, this follows the carpentries model that offers certifications, but is still open to non-certified trainers.
 We highlight and emphasize, that since a topic like RSE education, is constantly evolving, trainers strongly require the opportunity to and the recognition to educate themselves.
-Therefore our teachers will be sourced from the workplace but their will also be certified RSE Trainers.
+Therefore our teachers will be sourced from the workplace but there will also be certified RSE Trainers.
 (FIXME: in classical university speak, these would be people who have done their habilitation on that topic, right?)
 
-We propose to create common Infrastructures that can be utilized in this ongoing effort to professionalize 
-the RSE education further, to easily share education resources across the country.
+We propose to create common Infrastructures that can be utilized in this ongoing effort to professionalize the RSE education further, to easily share education resources across the country.
 (DETAIL ME FURTHER!!!!)
 
 #### Certificates
