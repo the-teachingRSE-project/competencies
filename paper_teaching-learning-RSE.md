@@ -70,7 +70,7 @@ of published papers with the methods described there or ideally with the softwar
 
 Depending on the specific domain there is a gap between the basic software carpentry courses and the required skills to build domain-specific research software. For example, scientists in the field of High Performance Computing (HPC) need to know how to make effective use of concurrency to speed up their simulations and communicate efficiently using message-passing interface (MPI) libraries. The same is true for researchers from other domains who make use of other specialized technologies, methods and/or tools. To bridge those gaps more specialized courses would be needed like the one mentioned in section [Identifying skills and pathways] for the HPC community.
 
-Moreover, software development is a craft, i.e. it is not only about knowledge but also requires practical experience. Hence we need to create an environment that allows young researchers to practice and gain experiences efficiently. Ideally, this learning environment would allow those younger scientists to be guided by more experienced RSEs. We know such practices e.g. from human medicine, where young doctors first assist experienced doctors before they work independently. In the field of software development, this approach could be implemented, in the form of peer programming. The prerequisite for this, however, is that experienced academics get better career opportunities at German Universities so that they don't leave for the industry. 
+Moreover, software development is a craft, i.e. it is not only about knowledge but also requires practical experience. Hence we need to create an environment that allows less experienced researchers to practice and gain experience efficiently. Ideally, this learning environment would allow less experienced scientists to be guided by more experienced RSEs. We know such practices e.g. from human medicine, where junior doctors first assist experienced doctors before they work independently. In the field of software development, this approach could be implemented in the form of peer programming, for example. The prerequisite for this, however, is that experienced academics get better career opportunities at German Universities so that they don't leave for industry roles. 
 
 ## Results
 
@@ -97,7 +97,7 @@ A recent one highlighting some aspects in more detail than what we are doing her
 
 #### Creating documented code building blocks (DOCBB)
 The RSE should be able to create building blocks from source code that are reusable. This ranges from simple libraries of functions up to complex architectures consisting of multiple softwares.
-An important part of the reusability is that at least oneself and ideally others are able to understand what the code aims to do and how to use the provided functionality, which is primarily achieved through a "clean" implementation and enhanced by documentation. This ranges from commenting code blocks to the usage of documentation (building) tools.
+An important part of reusability is that at least oneself, and ideally others, are able to understand what a piece of code aims to do and how to use the provided functionality, which is primarily achieved through a "clean" implementation and enhanced by documentation. This ranges from commenting code blocks to the usage of documentation (building) tools.
 
 #### Building distributable libraries (LIBS)
 The RSE should be able to distribute their code with their domain/language specific distribution platforms.
@@ -176,7 +176,7 @@ At different career levels differing skills are required. We have set this up ac
 
 - Junior RSE: These are persons that have just started, but generally speaking they should have the skills to contribute to software projects
 - Senior RSE: They have gained experienced and can set the examples in the software project.
-- Principal RSE: Their actual job description varies a lot. These can be professors or group leaders and are often people bringing in the money that sustains the project. Generally speaking, they do not need to know the day-to-day tasks but should know the direction that is required for their project.
+- Principal RSE: Their actual job description varies a lot. These may be RSE team leaders based in a professional services type role, or they may be professors or research group leaders based in a more academic-focused role. They are often the people responsible for bringing in the money that suports new projects and sustains existing projects. Generally speaking, they do not need to to be actively involved in the day-to-day technical tasks but they should be able to guide projects from both a technical and research perspective.
 
 The required skills are distributed according to this table
 First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (less -> lot)
