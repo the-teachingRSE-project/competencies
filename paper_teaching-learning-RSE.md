@@ -198,7 +198,7 @@ First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (l
 | PM    | Awareness about the employed project managemement method | Should be able to use the employed PM method | Should be able to design and adapt the employed PM method. |
 | TEAM  | Should be able to work in the team in order to effectively fulfill the given tasks. Should be able to learn from code review. | Should be able to break down tasks into more easily digestable sub-tasks | Should be able to lead the team and set the respective direction. |
 
-#### Academic Progression / Career Path? (Help me for better title)
+#### Academic Progression / Career Path? (Help me for better title) 
 Modern digital science requires some digital proficiency at every level.
 To be a bit more precise, these are how we define the academic levels:
 
@@ -208,7 +208,15 @@ Master: Ultimately, their study should have brought them to a level, where they 
 - PostDoc: Independent researchers, they are proficient users of all tools.
 - PI/Professor: Experts in their field, they should be able to give proper guidance to their students on which digital tools are currently relevant.
 
-FIXME: Highlight that a lot of items are not yet part of the structures of research institutions or workgroups.
+It is important to note that the following table does not reflect the current state of academic training and research institutions.
+Instead, it summarizes the discussions with and between workshop participants at different levels of academic progression on 
+what they would have liked to learn at an earlier stage or know before starting their current position.
+While individuals already work at implementing some of these changes and teaching these skills it has not yet reached 
+a systemic level.
+
+Additionally, this table tries to cover all domains that rely on software tools in at least a basic level.
+Certain fields, e.g. sciences relying on simulations, might require higher skill levels in the SE competencies 
+as software development is a large part of their actual research.
 
 |       | Bachelor | Master | PhD | PostDoc | PI/Professor | 
 | ----  | ------ | ------ | ---   | ------  | ---|
