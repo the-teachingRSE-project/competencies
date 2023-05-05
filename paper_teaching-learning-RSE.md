@@ -214,6 +214,10 @@ what they would have liked to learn at an earlier stage or know before starting 
 While individuals already work at implementing some of these changes and teaching these skills it has not yet reached 
 a systemic level.
 
+Additionally, this table tries to cover all domains that rely on software tools in at least a basic level.
+Certain fields, e.g. sciences relying on simulations, might require higher skill levels in the SE competencies 
+as software development is a large part of their actual research.
+
 |       | Bachelor | Master | PhD | PostDoc | PI/Professor | 
 | ----  | ------ | ------ | ---   | ------  | ---|
 | DOCBB | They should be aware that RSEs exist and that software has different quality aspects | Same as Bachelor | They should know where they can get help, and maybe able to use libraries | same as PhD | They should know the skills of an RSE and when they might need one in their group |
