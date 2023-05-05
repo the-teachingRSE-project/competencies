@@ -30,7 +30,7 @@ The discussion in this paper is meant to be general therefore we will discuss sp
 
 Computers and software have played a key role in the research lifecycle for many decades. Traditionally, they were specialist tools used only in a small number of fields and the Computer Scientists who maintained and programmed them needed extensive technical training over several years to gain the necessary skills and expertise. Fast forward 50-60 years and software and computation are all around us, underpinning our everyday lives. This shift is also true within research.
 
-With the ability to capture and process ever more data, undertake larger scale, higher resolution simulations and, increasingly, to automate complex tasks through Artificial Intelligence and Machine Learning approaches, computers and software are now vital elements of the research process across almost all domains. However, this shift means that there is a much greater need for core research software skills across a vast array of research fields where these were not previously required.
+With the ability to capture and process ever more data, undertake larger scale, higher resolution simulations and, increasingly, automate complex tasks through Artificial Intelligence and Machine Learning approaches, computers and software are now vital elements of the research process across almost all domains. However, this shift means that there is a much greater need for core research software skills across a vast array of research fields where these were not previously required.
 
 The people who focus on writing research software are now known as Research Software Engineers (RSEs) - a term that was coined a little over 10 years ago [Hettrick2016].  RSEs may work within one of the many Research Software Engineering teams that have been set up at universities and research organisations over the last decade, or they may be embedded within a research team. They may have a job title that officially recognises them as an RSE, or they may have a standard research or technical job title such as Research Assistant, Research Fellow or Software Engineer. Regardless of their job title, RSEs share a set of core skills that are required to write software, understand the research environment and ensure that they produce sustainable, maintainable code that supports reproducible research outputs.
 
@@ -83,16 +83,16 @@ Therefore we structure our competencies among SE Skills, Research Skills and Tea
 We will have to consider the broad variety in the field of research software.
 Still, there is probably a set of skills that is relevant to all developers (versioning, code quality, documentation).
 This could be a Body of Knowledge (BoK).
-In addition, RSEs should be able to adapt to specific (domain) specific requirements/environments which requires additional competences (Body of Competences) like communication, networking, (life long) learning, ...
+In addition, RSEs should be able to adapt to specific (domain) specific requirements/environments which require additional competences (Body of Competences) like communication, networking, (life long) learning, ...
 (There is a paper from David Parnas/Landwehr on Body of Competences in software engineering)
 
-Also, different software at different stages of evolution require different skills (CI, larger application architectures, ...)
+Also, different software at different stages of evolution requires different skills (CI, larger application architectures, ...)
 
 **ADD YOUR COMPETENCIES HERE. SPECIALIZATIONS BELOW**
 
 
 #### Software Engineering Skills
-There are lots of software engineering curricula out there, that try to define which tasks a software engineer should be able to perfom.
+There are lots of software engineering curricula out there, that try to define which tasks a software engineer should be able to perform.
 A recent one highlighting some aspects in more detail than what we are doing here is (Landwehr2017).
 
 #### Creating documented code building blocks (DOCBB)
@@ -148,8 +148,8 @@ The RSE should be able to interact with the repositories of this specific domain
 
 
 #### Outside Party interaction (USERS)
-While in a traditional SE context you might get away with not interacting with people outside your project.
-But in a research context this will certainly be the case and involves users, other developers,  upto funders.
+While in a traditional SE context, you might get away with not interacting with people outside your project.
+But in a research context, this will certainly be the case and involves users, other developers,  upto funders.
 Additionally, this is oftentimes a two-way interaction with RSEs in a specific domain learning new findings, techniques, algorithms, 
 etc. to be able to implement software that is up-to-date with the body of knowledge of that domain.
 
@@ -175,7 +175,7 @@ depending on their circumstances. A strong beneficiary of specialized RSEs can a
 At different career levels differing skills are required. We have set this up according to the following separation often applied within a single project:
 
 - Junior RSE: These are persons that have just started, but generally speaking they should have the skills to contribute to software projects
-- Senior RSE: They have gained experienced and can set the examples in the software project.
+- Senior RSE: They have gained experience and can set the examples in the software project.
 - Principal RSE: Their actual job description varies a lot. These may be RSE team leaders based in a professional services type role, or they may be professors or research group leaders based in a more academic-focused role. They are often the people responsible for bringing in the money that supports new projects and sustains existing projects. Generally speaking, they do not need to to be actively involved in the day-to-day technical tasks but they should be able to guide projects from both a technical and research perspective.
 
 The required skills are distributed according to this table
@@ -203,10 +203,10 @@ Modern digital science requires some digital proficiency at every level.
 To be a bit more precise, these are how we define the academic levels:
 
 - Bachelor: These are people in their undergrad studies, that mostly consume science/knowledge. They should also learn about the existence of certain digital structures.
-- Master: At the end their study should have brought them to a level, where they can participate in science, hence they should be able to use "some" digital structures.
+Master: Ultimately, their study should have brought them to a level, where they can participate in science, hence they should be able to use "some" digital structures.
 - PhD: Under guidance they perform independent research and hence they should get to know all relevant structures.
 - PostDoc: Independent researchers, they are proficient users of all tools.
-- PI/Professor: Experts in their field, they should be able to give proper guidance to their students which digital tools are currenty relevant.
+- PI/Professor: Experts in their field, they should be able to give proper guidance to their students on which digital tools are currently relevant.
 
 It is important to note that the following table does not reflect the current state of academic training and research institutions.
 Instead, it summarizes the discussions with and between workshop participants at different levels of academic progression on 
@@ -273,27 +273,25 @@ so the same RSE might for example work on data management and on Open Science.
 #### HPC-RSE
 This RSE manages research infrastructure for high performance comuting (HPC), 
 knows how to run complex computations, and/or helps researchers compute on the 
-cluster. They have knowledge about (automatic) code optimization and building code 
-that is able to leverage as many (efficiency) features the target hardware for the 
+cluster. They know (automatic) code optimization and building code that can leverage as many (efficiency) features the target hardware for the 
 simulation offers as possible. This is not only about researchers obtaining their 
-results in a reasonable time or even at all but also about the environmental impact 
-of these simulation.
+results in a reasonable time or even at all but also about the environmental impact of these simulations.
 
 #### Research Infrastructure RSE
-This RSE is interested in SysOps and sets up infrastructure for and with researchers.
-This RSE therefore requires a deep knowledge of physical computer and network hardware.
-FIXME: While required, is this an RSE? this sets of the usual infrastructure vs. research disussion....
+This RSE is interested in SysOps and sets up infrastructures for and with researchers.
+This RSE, therefore, requires a deep knowledge of physical computer and network hardware.
+FIXME: While required, is this an RSE? this sets of the usual infrastructure vs. research discussion....
 
 #### Web-Development RSE
 This RSE is skilled in web applications, front- and/or backend, and/or building 
 and using APIs, for example for research data portals or big research projects.
-Ideally this RSE should also have knowledge about (web) accessibility to allow a broad
+Ideally, this RSE should also have knowledge about (web) accessibility to allow a broad
 range of researchers or even the public to use the resulting applications.
-Therefore a deep knowledge of web skills is a requierd skill for this RSE.
+Therefore a deep knowledge of web skills is a required skill for this RSE.
 
 #### Legal-RSE
-With the prevalence of software we foresee the need to RSEs that specialize in legal questions around software.
-They are the go-to person if people have a question on licensing, mixing and matching software, and/or patenting.
+With the prevalence of software, we foresee the need for RSEs that specialize in legal questions around software.
+They are the go-to person if people have a question about licensing, mixing and matching software, and/or patenting.
 
 #### Data-focused RSE
 RSEs working at the flourishing intersection between data science and RSE. 
@@ -303,9 +301,8 @@ When the field requires research on sensitive data or information, e.g. patient 
 this RSE should have knowledge about secure transfer methods and/or ways to anonymize the data. 
 
 #### OpenScience RSE
-Open Science and FAIRness of Data and Software are increasinly important topics
-in reasearch, as examplified by the demand of an increasing amount of research funding agencies requiring openness.
-Open Science RSEs can help researcher navigate the technical questions that come up 
+Open Science and FAIRness of Data and Software are increasingly important topics in research, as exemplified by the demand of an increasing amount of research funding agencies requiring openness.
+Open Science RSEs can help researchers navigate the technical questions that come up 
 when practicing Open Science, such as "How do I make my code presentable?", 
 "What do I need to consider when it comes to licensing?", or 
 "How can I use version control / automation for my project?".
@@ -358,7 +355,7 @@ Irrespective of where people come from they need to have the proper mindset to p
 
 #### Where do we get our teachers from and in which structures are they
 The community discussion brought about the need for a mixture of people, thereby 
-the education of aspiring RSEs will involve people from close domain sciences or  experienced RSEs
+the education of aspiring RSEs will involve people from close domain sciences or experienced RSEs
 and people that have respective additional skills to teach RSE competencies to the new generation.
 In that respect, this follows the carpentries model that offers certifications, but is still open to non-certified trainers.
 We highlight and emphasize, that since a topic like RSE education, is constantly evolving, trainers strongly require the opportunity to and the recognition to educate themselves.
