@@ -271,7 +271,18 @@ some of which we want to present below. Many of the specializations may overlap,
 so the same RSE might for example work on data management and on Open Science.
 
 #### HPC-RSE
-RSEs with a focus on High Performance Computing (HPC) have specialist knowledge about programming models that can be used to efficiently undertake large-scale computations on parallel computing clusters. They may have knowledge of (automatic) code optimization tools and methods and will understand how to write code that is optimized for different types of computing platform, leveraging various efficiency-related features of the target hardware. They also understand the process of interacting with job scheduling systems that are often used on HPC clusters to manage the queuing and running of computational tasks. HPC-focused RSEs may be involved with managing HPC infrastructure at the hardware or software level (or both) and understand how to calculate the environmental impact of large-scale computations. Their knowledge of how to run HPC jobs can be vitally important to researchers wanting to make use of HPC infrastructure.
+RSEs with a focus on High Performance Computing (HPC) have specialist knowledge
+about programming models that can be used to efficiently undertake large-scale
+computations on parallel computing clusters. They may have knowledge of (automatic)
+code optimization tools and methods and will understand how to write code that is
+optimized for different types of computing platform, leveraging various efficiency
+related features of the target hardware. They also understand the process of
+interacting with job scheduling systems that are often used on HPC clusters to
+manage the queuing and running of computational tasks. HPC-focused RSEs may be
+involved with managing HPC infrastructure at the hardware or software level (or
+both) and understand how to calculate the environmental impact of large-scale
+computations. Their knowledge of how to run HPC jobs can be vitally important to
+researchers wanting to make use of HPC infrastructure.
 
 #### Research Infrastructure RSE
 This RSE is interested in SysOps and sets up infrastructure for and with researchers.
