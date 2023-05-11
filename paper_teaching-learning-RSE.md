@@ -56,10 +56,15 @@ As an area that generally requires a range of advanced skills, High Performance 
 
 A wide range of software-related training materials and supporting organisations exist within the research software community and beyond. The Carpentries [The Carpentries] is a non-profit entity that supports a range of open source training materials and international communities of volunteer instructors and helpers who run courses around these materials. The community also maintains the materials which are based around three core syllabuses - Software Carpentry, Data Carpentry and Library Carpentry. The training materials within these areas have been developed, reviewed and enhanced over several years ensuring that they represent best practice in training on these topics. The core Carpentries lessons are targeted primarily at the beginner-level. However, the Carpentries Incubator [Carpentries Incubator] provides an environment for hosting additional community developed training modules covering a wide range of other topics that haven't gone through the peer review process of the core lessons. The material in the Incubator increasingly includes more intermediate-level training modules.
 
-CodeRefinery is another group who host a set of open source training material that they use in workshops primarily run in the Nordic region. CodeRefinery's material includes both beginner and intermediate-level material _[Samantha to expand description of CodeRefinery?]_
+[CodeRefinery] is a project currently funded by the Nordic e-Infrastructure and thus active primarily in the Nordics with the goal of teaching essential tools around research software development, that are usually skipped in academic education. CodeRefinery hosts a set of open source training materials including both beginner and intermediate level material and organizes multiple highly interactive large scale workshops per year. Skills learned from the workshops and/or materials allows researchers to produce more reproducible, open and efficient software and thus promotes FAIR research practices. One goal of the project is to evolve into a community project that seamlessly integrates with other intitatives. 
 
 The ReproHack Team offers resources to host events where students and researchers can get together to try and reproduce the results 
 of published papers with the methods described there or ideally with the software provided by the authors.
+
+The [Intersect] project ....
+
+[Better Scientific Software (BSSW)] ...
+
 
  - Add other related training groups/activities...
 
@@ -324,8 +329,13 @@ While software is the lingua franca of all RSEs there will be RSEs that have spe
 FIXME: I think it would be nice if we could move each of these optional competencies to a different specialization.
 - Managing/Updating/Refurbishing legacy software
 
+
 ### How do we reach people in different stages of their careers?
-- We have resources, now we need to connect them to people to improve science
+
+Many current RSEs have found their way to being an RSE during their doctoral studies. This transition usually happens slowly. You start programming a tool, someone else likes it, it becomes known that you can do those things and suddenly you are the programmer/RSE of the group that everyone would like to have in their projects. If you enjoy those things, you will need to know that something like an RSE career path exists as well as specialized training materials. One place to generate awareness of the career option and training is universities' doctoral onboarding processes, or right therafter. RSE training could be offered as elective courses at universities organized by some central organization. RSE could be presented as a career path in suitable events. Since many RSE-minded people also at some point find their way to an HPC cluster, mailing lists of said clusters could be utilized to advertise RSE courses. One important aspect to think about is also the wording in the advertisement. Potential future RSEs might not know the term yet or know that the course advertised includes topics that are of interest to them. If the university or organization has a github/lab organization/project, having a banner there might reach the right people. Most important is that people working in IT helpdesks know about the courses offered so that they can advise students/researchers on visiting the course/reviewing the materials if related questions are asked. 
+For established RSEs it is important to be a part of a network with other RSEs. A perfect first step for forming this network are topic related conferences, workshops or meetups.
+Beyond that there is the broader RSE community organized at the local and regional level with chapters, at the national level with societies and the international RSE society. Each of them offers possibilities for connecting beyond their own university and are a great way to find like-minded people to grow a trans-regional network and thereby facilitate the sharing of information on interesting events or help each other out.
+This available layered network can greatly benefit the RSE in finding help with issues outside their own comfort zone.
 
 ### Organizational Infrastructures
 So we have defined our set of competencies that we feel every RSE should possess.
@@ -408,6 +418,10 @@ Having these certificates provides finally a clear understanding of which tasks 
 [Carpentries Incubator] The Carpentries Incubator. [https://carpentries-incubator.org/](https://carpentries-incubator.org/). Accessed 16th March 2023.
 
 [CodeRefinery] CodeRefinery. [https://coderefinery.org/](https://coderefinery.org/).  Accessed 16th March 2023.
+
+[Better Scientific Software] BSSW [https://bssw.io/](https://bssw.io/) . Accessed 30th March 2023.
+
+[Intersect] project [https://intersect-training.org/](https://intersect-training.org/). Accessed 30th March 2023.
 
 [Hettrick2016] S. Hettrick. A not-so-brief history of Research Software Engineers. Software Susitainability Institute blog, August 2016. Available at [https://www.software.ac.uk/blog/2016-08-17-not-so-brief-history-research-software-engineers-0](https://www.software.ac.uk/blog/2016-08-17-not-so-brief-history-research-software-engineers-0). Accessed 16th March 2023.
 
