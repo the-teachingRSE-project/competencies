@@ -275,7 +275,7 @@ RSEs with a focus on High Performance Computing (HPC) have specialist knowledge
 about programming models that can be used to efficiently undertake large-scale
 computations on parallel computing clusters. They may have knowledge of (automatic)
 code optimization tools and methods and will understand how to write code that is
-optimized for different types of computing platform, leveraging various efficiency
+optimized for different types of computing platforms, leveraging various efficiency
 related features of the target hardware. They also understand the process of
 interacting with job scheduling systems that are often used on HPC clusters to
 manage the queuing and running of computational tasks. HPC-focused RSEs may be
