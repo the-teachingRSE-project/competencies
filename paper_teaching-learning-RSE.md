@@ -383,8 +383,10 @@ Having these certificates provides finally a clear understanding of which tasks 
 
 #### A possible graduation path within the classical university structures
 We have put forward the idea that familiarity with research is a prerequisite for an RSE in order to fit into the research space.
-Of course it is not possible for everybody to do research into the research field of RSE, therefore we consider it much more useful
-if young graduates perform their research into a specific domain. Assuming for a moment,
+This leads naturally to the question, whether it is possible to become an RSE without a home research domain. 
+It is of course not possible for everybody to do research into the research field of RSE, therefore we consider it much more useful
+if young graduates perform their research into a specific domain and thereby have a natural home domain.
+Assuming for a moment,
 that people have done their masters studies in a particular domain e.g. from the natural sciences and
 that we can assume that the lectures to that point
 contain a mixture of domain specific content and RSE specific content(A good starting point for an RSE in the natural sciences), then we come to the question of the topic of the masters thesis.
