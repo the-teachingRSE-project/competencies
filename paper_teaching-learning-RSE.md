@@ -117,7 +117,7 @@ that those might not be combinable when using multiple libraries with different 
 and that use of third party software might restrict licensing of the resulting work.
 
 #### Software Behaviour Awareness and Analysis(MOD)
-By this we mean a certain quality of analytical thinking that enables you to form a mental model of the piece of software under consideration in the current environment.
+By this, we mean a certain quality of analytical thinking that enables you to form a mental model of the piece of software under consideration in the current environment.
 Using that an RSE should be able to make predictions about a software's behaviour. This is a required skill for tasks like debugging, profiling, designing good tests, or predicting user interaction.
 
 #### The research skills
@@ -155,11 +155,11 @@ etc. to be able to implement software that is up-to-date with the body of knowle
 #### Team Skills
 #### Teaching (TEACH)
 Working in a group means being able to effectively perform e.g. onboarding, or more formal teaching procedures to their colleagues.
-We deliberately mention, that giving code review is also part of teaching.
+We deliberately mention, that giving code reviews is also part of teaching.
 Code review can be part of teaching people on improving their skills.
 
 #### Project Management (PM)
-The RSE should have knowledge about project management. At some institutes it follows the practices of the local research groups,
+The RSE should have knowledge about project management. At some institutes, it follows the practices of the local research groups,
 but it is useful, if an RSE knows its place in a PM scheme, or can bring in new ideas for improvement.
 
 #### working in a team (TEAM)
@@ -171,7 +171,7 @@ Now that we have the different competencies, we can explore various dimensions o
 depending on their circumstances. A strong beneficiary of specialized RSEs can also be newly formed RSE centers at research institutions.
 
 #### Career level
-At different career levels differing skills are required. We have set this up according to the following separation often applied within a single project:
+At different career levels, differing skills are required. We have set this up according to the following separation often applied within a single project:
 
 - Junior RSE: These are persons that have just started, but generally speaking they should have the skills to contribute to software projects
 - Senior RSE: They have gained experience and can set the examples in the software project.
@@ -317,7 +317,7 @@ RSEs who focus on teaching the next generation of researchers and/or RSEs play
 a vital role in quality research software.
 
 #### ${DOMAIN}-RSE
-While software is the lingua franca of all RSEs there will be RSEs that have specialized into the initricacies of one particular research domain, such as medical RSEs, digital humanities RSEs or physics RSEs.
+While software is the lingua franca of all RSEs there will be RSEs that have specialized in the initricacies of one particular research domain, such as medical RSEs, digital humanities RSEs or physics RSEs.
 
 ### Optional RSE competencies
 FIXME: I think it would be nice if we could move each of these optional competencies to a different specialization.
