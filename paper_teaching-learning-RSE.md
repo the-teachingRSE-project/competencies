@@ -402,7 +402,7 @@ Many are faced with a steep learning curve that requires them to invest a huge a
 Naturally, many would only invest as much as necessary to get the job done regardless of whether the solution is sustainable or not.
 Support from RSEs is one way to resolve this challenge. 
 Another would be to lay more effective foundations for future RSE work at a much earlier stage in undergraduate/postgraduate studies.
-Ideally, even establish dedicated master programs which specialise in RSE work.
+We see scope for establishing dedicated RSE Master's programmes which specialise in developing RSE skills and practices.
 Some universities already offer dedicated master's programs in some domains. 
 Examples would be Computational Sciences in Engineering (CSE) or Bioinformatics. 
 Where appropriate similar programs should also be established in other domains.
