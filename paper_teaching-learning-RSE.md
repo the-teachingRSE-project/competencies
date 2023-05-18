@@ -387,17 +387,25 @@ Having these certificates provides finally a clear understanding of which tasks 
 #### A possible graduation path within the classical university structures
 We have put forward the idea that familiarity with research is a prerequisite for an RSE in order to fit into the research space.
 This leads naturally to the question, whether it is possible to become an RSE without a home research domain. 
-It is of course not possible for everybody to do research into the research field of RSE, therefore we consider it much more useful
-if young graduates perform their research into a specific domain and thereby have a natural home domain.
-Assuming for a moment,
-that people have done their masters studies in a particular domain e.g. from the natural sciences and
-that we can assume that the lectures to that point
-contain a mixture of domain specific content and RSE specific content(A good starting point for an RSE in the natural sciences), then we come to the question of the topic of the masters thesis.
-In order for young RSEs to get their research experience we believe it is necessary that already in their master's thesis young RSE students are given computational research tasks
-that can be solved with the RSE specific skills of that domain. This gives them a Master's degree of a ${DOMAIN}-RSE that has learnt in their lectures a research domain specific part and a software engineering specific part, and enabled them to get a first dip into actual science in their master's thesis.
+It is of course not possible for everybody to do research into the research field of RSE, therefore we consider it much more useful if young graduates perform their research in a specific domain and thereby have a natural home domain.
+Assuming for a moment, that people have done their masters studies in a particular domain e.g. from the natural sciences and that we can assume that the lectures to that point contain a mixture of domain specific content and RSE specific content (A good starting point for an RSE in the natural sciences), then we come to the question of the topic of the masters thesis.
+In order for young RSEs to get their research experience we believe it is necessary that already in their master's thesis young RSE students are given computational research tasks that can be solved with the RSE specific skills of that domain. 
+This gives them a Master's degree of a ${DOMAIN}-RSE that has learnt in their lectures a research domain specific part and a software engineering specific part, and enabled them to get a first dip into actual science in their master's thesis.
 Of course, the next question for their future is whether a master's degree enables them to really be effective parts of a research group.
-We argue that this is most likely not the case since they will not be accepted into research groups and there are formal barriers in the research landscape if people don't have a PhD(e.g. eligibility for funding).
+We argue that this is most likely not the case since they will not be accepted into research groups and there are formal barriers in the research landscape if people don't have a PhD (e.g. eligibility for funding).
 Hence a PhD is required to actively participate in science and why we argue the regular RSE should do a PhD that on one end combines knowledge of a research domain with software engineering heavy task such that both pillars are suitably covered and they were able to observe how research functions.
+
+#### Specialised Master's Programs
+On the other hand, when pursuing a PhD, scientists are more and more required to do RSE work as part of their research. 
+It is not uncommon for scientists to be faced with RSE topics for the first time, because it has not been part of their academic curricula.
+Many are faced with a steep learning curve that requires them to invest a huge amount of time to catch up.
+Naturally, many would only invest as much as necessary to get the job done regardless of whether the solution is sustainable or not.
+Support from RSEs is one way to find a way out. 
+Another would be to lay the foundation for future RSE work already early in their curricula.
+Ideally, even establish dedicated master programs which specialise in RSE work.
+Some universities already offer dedicated master's programs in some domains. 
+Examples would be Computational Sciences in Engineering (CSE) or Bio-Informatics. 
+Where appropriate similar programs should also be established in other domains.
 
 ## Required Next steps
 ### Implementation Strategies
