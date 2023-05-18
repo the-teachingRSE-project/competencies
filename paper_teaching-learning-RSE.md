@@ -404,7 +404,7 @@ Support from RSEs is one way to resolve this challenge.
 Another would be to lay the foundation for future RSE work already early in their curricula.
 Ideally, even establish dedicated master programs which specialise in RSE work.
 Some universities already offer dedicated master's programs in some domains. 
-Examples would be Computational Sciences in Engineering (CSE) or Bio-Informatics. 
+Examples would be Computational Sciences in Engineering (CSE) or Bioinformatics. 
 Where appropriate similar programs should also be established in other domains.
 
 ## Required Next steps
