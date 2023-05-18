@@ -397,7 +397,7 @@ Hence a PhD is required to actively participate in science and why we argue the 
 
 #### Specialised Master's Programs
 On the other hand, when pursuing a PhD, scientists are more and more required to do RSE work as part of their research. 
-It is not uncommon for scientists to be faced with RSE topics for the first time, because it has not been part of their academic curricula.
+It is not uncommon for researchers to be faced with RSE topics for the first time, because it has not been part of their academic curricula.
 Many are faced with a steep learning curve that requires them to invest a huge amount of time to catch up.
 Naturally, many would only invest as much as necessary to get the job done regardless of whether the solution is sustainable or not.
 Support from RSEs is one way to resolve this challenge. 
