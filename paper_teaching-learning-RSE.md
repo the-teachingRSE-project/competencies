@@ -326,15 +326,15 @@ FIXME: I think it would be nice if we could move each of these optional competen
 
 ## How do we reach people in different stages of their careers?
 
-Many current RSEs have found their way to being an RSE during their doctoral studies. This transition usually happens slowly. You start programming a tool, someone else likes it, it becomes known that you can do those things and suddenly you are the programmer/RSE of the group that everyone would like to have in their projects. If you enjoy those things, you will need to know that something like an RSE career path exists as well as specialized training materials. One place to generate awareness of the career option and training is universities' doctoral onboarding processes, or right therafter. RSE training could be offered as elective courses at universities organized by some central organization. RSE could be presented as a career path in suitable events. Since many RSE-minded people also at some point find their way to an HPC cluster, mailing lists of said clusters could be utilized to advertise RSE courses. One important aspect to think about is also the wording in the advertisement. Potential future RSEs might not know the term yet or know that the course advertised includes topics that are of interest to them. If the university or organization has a github/lab organization/project, having a banner there might reach the right people. Most important is that people working in IT helpdesks know about the courses offered so that they can advise students/researchers on visiting the course/reviewing the materials if related questions are asked. 
-For established RSEs it is important to be a part of a network with other RSEs. A perfect first step for forming this network are topic related conferences, workshops or meetups.
-Beyond that there is the broader RSE community organized at the local and regional level with chapters, at the national level with societies and the international RSE society. Each of them offers possibilities for connecting beyond their own university and are a great way to find like-minded people to grow a trans-regional network and thereby facilitate the sharing of information on interesting events or help each other out.
+Many current RSEs have found their way to being an RSE during their doctoral studies. This transition usually happens slowly. You start programming a tool, and someone else likes it, it becomes known that you can do those things and suddenly you are the programmer/RSE of the group that everyone would like to have in their projects. If you enjoy those things, you will need to know that something like an RSE career path exists as well as specialized training materials. One place to generate awareness of the career option and training is universities' doctoral onboarding processes or right thereafter. RSE training could be offered as elective courses at universities organized by some central organization. RSE could be presented as a career path in suitable events. Since many RSE-minded people also at some point find their way to an HPC cluster, mailing lists of said clusters could be utilized to advertise RSE courses. One important aspect to think about is also the wording in the advertisement. Potential future RSEs might not know the term yet or know that the course advertised includes topics that are of interest to them. If the university or organization has a GitHub/Lab organization/project, having a banner there might reach the right people. Most important is that people working in IT helpdesks know about the courses offered so that they can advise students/researchers on visiting the course/reviewing the materials if related questions are asked. 
+For established RSEs it is important to be a part of a network with other RSEs. A perfect first step for forming this network is topic-related conferences, workshops or meetups.
+Beyond that, there is the broader RSE community organized at the local and regional level with chapters, at the national level with societies and the international RSE society. Each of them offers possibilities for connecting beyond their own university and is a great way to find like-minded people to grow a trans-regional network and thereby facilitate the sharing of information on interesting events or help each other out.
 This available layered network can greatly benefit the RSE in finding help with issues outside their own comfort zone.
 
 ## Organizational Infrastructures
 So we have defined our set of competencies that we feel every RSE should possess.
-Table 2 from above nevertheless already hints at the fact that some RSE skills are required during the domain studies,
-while Table 1 tells us that we also need an ongoing qualification programm for people that want to become specialized RSEs.
+Table 2 above nevertheless already hints at the fact that some RSE skills are required during the domain studies,
+while Table 1 tells us that we also need an ongoing qualification programme for people that want to become specialized RSEs.
 In order to set up a proper educational scheme we need to discuss two more items:
 
 - Who are our teachers?
@@ -344,7 +344,7 @@ In order to set up a proper educational scheme we need to discuss two more items
 #### What issues are trainers facing today?
 There are already some people out there who are teaching RSE related topics sometimes in university structures, but often outside of formal structures.
 The community discussion shed some light on the issues our trainers are facing now.
-Currently they are often teaching workshop like formats in research institutions.
+Currently, they are often teaching workshop like formats in research institutions.
 
 - There are outreach issues. We emphasize that there are two dimensions to this: First it is important that we inform students that workshops exist, and then, the more important part, we also need to motivate people to invest the time for a workshop.
 - Adaptation of material to the target audience has been identified as a time consuming task.
@@ -365,7 +365,7 @@ Irrespective of where people come from they need to have the proper mindset to p
 The community discussion brought about the need for a mixture of people, thereby 
 the education of aspiring RSEs will involve people from close domain sciences or experienced RSEs
 and people that have respective additional skills to teach RSE competencies to the new generation.
-In that respect, this follows the carpentries model that offers certifications, but is still open to non-certified trainers.
+In that respect, this follows the carpentries model that offers certifications but is still open to non-certified trainers.
 We highlight and emphasize, that since a topic like RSE education, is constantly evolving, trainers strongly require the opportunity to and the recognition to educate themselves.
 Therefore our teachers will be sourced from the workplace but there will also be certified RSE Trainers.
 (FIXME: in classical university speak, these would be people who have done their habilitation on that topic, right?)
@@ -376,8 +376,8 @@ We propose to create common Infrastructures that can be utilized in this ongoing
 ### Organization of teaching
 
 #### Certificates
-With the ever-growing demand for RSEs in science it is helpful for the job-market that people can earn the respective certificates.
-Certainly a big demand for specialized RSEs will come from the newly established RSE centers at research institutions that require skilled people to fill their vacant positions.
+With the ever-growing demand for RSEs in science, it is helpful for the job-market that people can earn the respective certificates.
+Certainly, a big demand for specialized RSEs will come from the newly established RSE centers at research institutions that require skilled people to fill their vacant positions.
 Then this demand can find its market with people offering this skill.
 Having these certificates provides finally a clear understanding of which tasks an RSE can perform and thereby helps defining the career path and the job description.
 
@@ -391,12 +391,10 @@ that people have done their masters studies in a particular domain e.g. from the
 that we can assume that the lectures to that point
 contain a mixture of domain specific content and RSE specific content(A good starting point for an RSE in the natural sciences), then we come to the question of the topic of the masters thesis.
 In order for young RSEs to get their research experience we believe it is necessary that already in their master's thesis young RSE students are given computational research tasks
-that can be solved with the RSE specific skills of that domain. This gives them a Master's degree of a ${DOMAIN}-RSE that has learnt in their lectures a research domain specific part and a software engineering specific part,
-and enabled them to get a first dip into actual science in their master's thesis.
-Of course the next question is for their future, is whether a master's degree enables them to really be effective parts of a research group.
+that can be solved with the RSE specific skills of that domain. This gives them a Master's degree of a ${DOMAIN}-RSE that has learnt in their lectures a research domain specific part and a software engineering specific part, and enabled them to get a first dip into actual science in their master's thesis.
+Of course, the next question for their future is whether a master's degree enables them to really be effective parts of a research group.
 We argue that this is most likely not the case since they will not be accepted into research groups and there are formal barriers in the research landscape if people don't have a PhD(e.g. eligibility for funding).
-Hence a PhD is required to actively participate in science and why we argue the regular RSE should do a PhD that on one end combines knowledge of a research domain with software engineering heavy task such that both pillars 
-are suitably covered and they were able to observe how research functions.
+Hence a PhD is required to actively participate in science and why we argue the regular RSE should do a PhD that on one end combines knowledge of a research domain with software engineering heavy task such that both pillars are suitably covered and they were able to observe how research functions.
 
 ## Required Next steps
 ### Implementation Strategies
