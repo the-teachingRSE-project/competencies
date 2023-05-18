@@ -162,10 +162,9 @@ In this table, we look at individual or team competencies and approaches to them
       <td>Effective teamwork vital - do they have the skills and knowledge to support team-based software development?</td>
       <td>Will need to be able to work and collaborate effectively in a team, use required tools and processes, infrastructure, etc.</td>
       
-      <td>Can offer support with team work. Many examples of courses around working effectively in a team, some vvore </td>
+      <td>Can offer support with team work. Many examples of courses around working effectively in a team.</td>
     </tr>
 </table>
 
+In the table above, we've looked at how different competencies can be related to and handled by researchers and RSEs working in different environments within an organisation and how the organisations themselves can contribute. We recognise that this is a challenging area to gain a detailed view of and that our content in the table is still a significant generalisation. We talk about Research Software Engineer as a single entity but as the field expands, there many roles and job titles emerging around the RSE concept, many of which fit under the wider umbrella of Research Technology Professionals (RTPs). The European Bioninformatics Institute (EMBL-EBI)'s BioExcel competency framework [**[BIOEXCEL-FRAMEWORK]**](https://competency.ebi.ac.uk/framework/bioexcel/3.0/carreer-profiles) provides some examples of different RSE-like computational roles.
 
-
-https://competency.ebi.ac.uk/framework/bioexcel/3.0/carreer-profiles
