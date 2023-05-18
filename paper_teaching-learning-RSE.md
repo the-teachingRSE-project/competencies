@@ -396,7 +396,7 @@ While we accept this is something of a generalisation, we argue that this is mos
 Hence a PhD is required to actively participate in science and why we argue the regular RSE should do a PhD that on one end combines knowledge of a research domain with software engineering heavy task such that both pillars are suitably covered and they were able to observe how research functions.
 
 #### Specialised Master's Programs
-On the other hand, when pursuing a PhD, scientists are more and more required to do RSE work as part of their research. 
+On the other hand, when pursuing a PhD, scientists are increasingly required to do RSE-type work as part of their research as data and computation are becoming part of research tasks in a huge range of fields.
 It is not uncommon for researchers to be faced with RSE topics for the first time, because it has not been part of their academic curricula.
 Many are faced with a steep learning curve that requires them to invest a huge amount of time to catch up.
 Naturally, many would only invest as much as necessary to get the job done regardless of whether the solution is sustainable or not.
