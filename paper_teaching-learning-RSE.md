@@ -320,7 +320,7 @@ a vital role in quality research software.
 While software is the lingua franca of all RSEs there will be RSEs that have specialized in the initricacies of one particular research domain, such as medical RSEs, digital humanities RSEs or physics RSEs.
 
 ### Optional RSE competencies -> Maintenance RSEs 
-Oftentimes, a huge amount of time in (research) software development needs to be spent on maintenance to ensure that the software remains useful for scientists now and in the future. The scientific environment is constantly changing and so are the software requirements. Accordingly, the software needs to be adapted continuously. If it doesn't the software simply isn't useful for the scientists anymore. To avoid this, constant work needs to be invested. 
+Oftentimes, a significant amount of effort in (research) software development needs to be spent on maintenance to ensure that software remains useful for researchers now and in the future. The research environment is constantly changing and this can also apply to the software requirements. Accordingly, software often needs to be adapted continuously. If it isn't the software can reach a point where it simply isn't useful to the researchers anymore. To avoid this, regular work needs to be invested. 
  
 FIXME: I think it would be nice if we could move each of these optional competencies to a different specialization.
 - Managing/Updating/Refurbishing legacy software
