@@ -402,7 +402,8 @@ that can be solved with the RSE specific skills of that domain. This gives them 
 and enabled them to get a first dip into actual science in their master's thesis.
 Of course the next question is for their future, is whether a master's degree enables them to really be effective parts of a research group.
 We argue that this is most likely not the case since they will not be accepted into research groups and there are formal barriers in the research landscape if people don't have a PhD(e.g. eligibility for funding).
-Hence a PhD is required to actively participate in science and why we argue the regular RSE should do a PhD that on one end combines knowledge of a research domain with software engineering heavy task such that both pillars 
+While we do not think that a PhD is required to be a good RSE we have to acknowledge that it's often a prerequisite to actively participate in science.
+Education-wise this means that a regular RSE should do a PhD that on one end combines knowledge of a research domain with software engineering heavy task such that both pillars
 are suitably covered and they were able to observe how research functions.
 
 ## Required Next steps
