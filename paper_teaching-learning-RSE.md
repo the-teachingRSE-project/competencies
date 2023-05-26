@@ -51,13 +51,15 @@ The challenges of understanding the current state of skills within the research 
 In order to set up the argument for dedicated RSE education we need to estimate the number of required graduates.
 We start from the number of researchers in Germany. The OECD Data [OECD2023] reports a number of 667,394 researchers in 2019.
 In public research alone we have better numbers and there have been 71733 researcher in 2020.
-Taking a rough estimate of requiring around one RSE per 10 researchers (A number that has been put forward in another workshop
+Taking a rough estimate of requiring around one RSE per 10 researchers (FIXME!! Number anecdotal!!)(A number that has been put forward in another workshop
 in Paderborn) brings us to a need of around 6.000 RSEs in Germany. Assuming an equal distribution with regard to age
 and an average time in the RSE workforce of 40 years, yields an average need of around 150 RSEs per year.
 If we assume that half of the workforce is made up by researchers coming from other graduates and the other half are properly minted
 RSE graduates this yields that there is a requirement of around four dedicated RSE education places each producing graduating classes
 of around 20 persons each year.
 This calculation assumes that RSEs do not move into into industry with their skillset.
+While this calculation is only supposed to give a rough ballpark estimate, we note that Germany has 319 places of higher education [destatis2023].
+Having only three RSEs at each site already gives a requirement of 1000 persons.
 
 ### Identifying skills and pathways
 
@@ -474,3 +476,5 @@ Therefore this closes the gap, that the research landscape requires RSEs, but th
 [Landwehr2017] Carl Landwehr, Jochen Ludewig, Robert Meersman, David Lorge Parnas, Peretz Shoval, Yair Wand, David Weiss, Elaine Weyuker, Software Systems Engineering programmes a capability approach, [https://doi.org/10.1016/j.jss.2016.12.016](https://doi.org/10.1016/j.jss.2016.12.016)
 
 [OECD2023] OECD (2023), Government researchers (indicator). doi: 10.1787/c03b3052-en (Accessed on 26 May 2023)
+
+[destatis2023] https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Bildung-Forschung-Kultur/Hochschulen/Tabellen/hochschulen-hochschularten.html
