@@ -118,7 +118,7 @@ and that use of third party software might restrict licensing of the resulting w
 
 #### Software Behaviour Awareness and Analysis(MOD)
 By this, we mean a certain quality of analytical thinking that enables you to form a mental model of the piece of software under consideration in the current environment.
-Using that an RSE should be able to make predictions about a software's behaviour. This is a required skill for tasks like debugging, profiling, designing good tests, or predicting user interaction.
+Using that, an RSE should be able to make predictions about a software's behaviour. This is a required skill for tasks like debugging, profiling, designing good tests, or predicting user interaction.
 
 #### The research skills
 #### Curiosity (NEW)
@@ -327,10 +327,15 @@ a vital role in quality research software.
 While software is the lingua franca of all RSEs there will be RSEs that have specialized in the initricacies of one particular research domain, such as medical RSEs, digital humanities RSEs or physics RSEs.
 
 ### Optional RSE competencies -> Maintenance RSEs 
-Oftentimes, a significant amount of effort in (research) software development needs to be spent on maintenance to ensure that software remains useful for researchers now and in the future. The research environment is constantly changing and this can also apply to the software requirements. Accordingly, software often needs to be adapted continuously. If it isn't the software can reach a point where it simply isn't useful to the researchers anymore. To avoid this, regular work needs to be invested. 
-While ensuring maintenance and sustainability of research software is of huge importance to the communities that build and use it, a particular challenge is that it's often very difficult to obtain ongoing research funding for software maintenance tasks. As a result, when a project that developed or extended a piece of software finishes, it can often be the case that support for the software fades as team members move on to other research, academic or RSE roles, or become busy with other funded work. While this is not a core concern of this paper, we wanted to highlight this important issue that is frequently faced when working with software in the research communituy.
+Oftentimes, a significant amount of effort in (research) software development needs to be spent on maintenance to ensure that software remains useful for researchers now and in the future.
+The research environment is constantly changing and this can also apply to the software requirements.
+Accordingly, software often needs to be adapted continuously. If it isn't, the software can reach a point where it simply isn't useful to the researchers anymore.
+To avoid this, regular work needs to be invested. 
+While ensuring maintenance and sustainability of research software is of huge importance to the communities that build and use it, a particular challenge is that it's often very difficult to obtain ongoing research funding for software maintenance tasks. As a result, when a project that developed or extended a piece of software finishes, it can often be the case that support for the software fades as team members move on to other research, academic or RSE roles, or become busy with other funded work.
+While this is not a core concern of this paper, we wanted to highlight this important issue that is frequently faced when working with software in the research community.
+With regard to which additional competency is required, these are people having experience with ancient software stacks that are not anymore part of the general curricula(think of COBOL and FORTRAN).
+
 FIXME: I think it would be nice if we could move each of these optional competencies to a different specialization.
-- Managing/Updating/Refurbishing legacy software
 
 
 
