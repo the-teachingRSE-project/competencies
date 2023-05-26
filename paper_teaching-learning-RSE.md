@@ -47,6 +47,18 @@ _[Overview of paper sections to add]_
 
 The challenges of understanding the current state of skills within the research software community and related areas, as well as identifying required competencies, developing training pathways and providing training materials are areas that are being looked at and addressed by various groups and projects. In this section, we highlight some of these other projects and activities.
 
+## Number of required RSE graduates
+In order to set up the argument for dedicated RSE education we need to estimate the number of required graduates.
+We start from the number of researchers in Germany. The OECD Data reports a number of 667,394 researchers in 2019.
+In public research alone we have better numbers and there have been 71733 researcher in 2020.
+Taking a rough estimate of requiring around one RSE per 10 researchers (A number that has been put forward in another workshop
+in Paderborn) brings us to a need of around 6.000 RSEs in Germany. Assuming an equal distribution with regard to age
+and an average time in the RSE workforce of 40 years, yields an average need of around 150 RSEs per year.
+If we assume that half of the workforce is made up by researchers coming from other graduates and the other half are properly minted
+RSE graduates this yields that there is a requirement of around four dedicated RSE education places each producing graduating classes
+of around 20 persons each year.
+This calculation assumes that RSEs do not move into into industry with their skillset.
+
 ### Identifying skills and pathways
 
 As an area that generally requires a range of advanced skills, High Performance Computing (HPC) is one field where there is ongoing work to identify relevant sets of skills for HPC practitioners and potential paths to develop these skills. The HPC Certification Forum has developed a "competence standard" (CS) for HPC that defines a range of skills and how they are related in the context of a skill tree [HPC-CF Competencies]. Also looking at pathways and how different skills are related, the UNIVERSE-HPC project [UNIVERSE-HPC], funded under the UK's ExCALIBUR research programme [EXCALIBUR], is looking to understand and develop training pathways to support the development of specialist skills in the HPC and exascale domains. The project is gathering open source training materials to develop curricula that support the training pathways that are underpinned by high-quality training materials.
