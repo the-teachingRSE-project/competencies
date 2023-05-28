@@ -57,7 +57,7 @@ and an average time in the RSE workforce of 40 years, yields an average need of 
 If we assume that half of the workforce is made up by researchers coming from other graduates and the other half are properly minted
 RSE graduates this yields that there is a requirement of around four dedicated RSE education places each producing graduating classes
 of around 20 persons each year.
-This calculation assumes that RSEs do not move into into industry with their skillset.
+This calculation assumes that RSEs remain within the research community and do not move into industry with their transferable skillset.
 While this calculation is only supposed to give a rough ballpark estimate, we note that Germany has 319 places of higher education [destatis2023].
 Having only three RSEs at each site already gives a requirement of 1000 persons.
 
