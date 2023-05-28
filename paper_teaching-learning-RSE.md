@@ -50,7 +50,7 @@ The challenges of understanding the current state of skills within the research 
 ## Number of required RSE graduates
 In order to set up the argument for dedicated RSE education we need to estimate the number of required graduates.
 We start from the number of researchers in Germany. The OECD Data [OECD2023] reports a number of 667,394 researchers in 2019.
-In public research alone we have better numbers and there have been 71733 researcher in 2020.
+In public research alone we have better numbers and 71,733 researchers were recorded in 2020.
 Taking a rough estimate of requiring around one RSE per 10 researchers (FIXME!! Number anecdotal!!)(A number that has been put forward in another workshop
 in Paderborn) brings us to a need of around 6.000 RSEs in Germany. Assuming an equal distribution with regard to age
 and an average time in the RSE workforce of 40 years, yields an average need of around 150 RSEs per year.
