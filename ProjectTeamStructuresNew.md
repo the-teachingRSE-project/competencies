@@ -2,13 +2,15 @@
 
 Project teams working on research software may have different sizes, structures and approaches to how they undertake their work. Within a project, there may be only a single RSE undertaking software development and they may be based locally or within an RSE team. For individual developers based locally in research groups/teams, they may be classed as a researcher, even if the bulk of their work is software development. Alternatively, in a larger project, a group of RSEs may be involved - this group may, again, be based locally within a research group or team and the individuals may be classed as researchers, or it may be a group of RSEs from a departmental or central RSE team. In the context of an RSE team, RSEs may be working on multiple projects which can change the way that they plan and work on development tasks and the tools and approaches that they use.
 
-In this table, we look at individual or team competencies and approaches to them, considering how these differ depending on whether the individual RSE/researcer or team of RSEs/researchers are based locally within a research team, or within a departmental/central institutional RSE team. We also look at organizational aspects in the context of each of the considered competencies since there are a variety of ways that organizations can contribute to and support them. We first summarise the meaning of each of the columns in the table:
+In this table, we look at individual or team competencies and approaches to them, considering how these differ depending on whether the individual RSE/researcher or team of RSEs/researchers are based locally within a research team,
+or within something institutional, the departmental/central RSE team.
+We also look at organizational aspects in the context of each of the considered competencies since there are a variety of ways that organizations can contribute to and support them. We first summarise the meaning of each of the columns in the table:
 
 - **Competency:** The code assigned to the competency being considered. See the list in **[Table ?????]**.
 - **Individual (Local):** A single person working on some research software - often a researcher with RSE skills.
-- **Individual (RSE team):** A single person working on research software - generally a professional RSE supporting another team's software.
-- **Team (Local):** A group of RSEs/researchers within a research group or team, working together on developing software to support or undertake research.
-- **Team (RSE team):** A group of members of an RSE team working together on a research software project for a research group.
+- **Individual (RSE team):** A single person working on research software - generally a professional RSE supporting another team's software single-handedly.
+- **Group (Local):** A group of RSEs/researchers within a research group or team, working together on developing software to support or undertake a single research goal/project.
+- **Group (RSE team):** A group of members of the RSE team working together on a research software project for a research group.
 - **Organization:** How the defined competencies are recognised and represented at organisational level.
 
 <table>
@@ -16,7 +18,7 @@ In this table, we look at individual or team competencies and approaches to them
     <tr>
       <th rowspan="2">Competency</th>
       <th colspan="2">Individual</th>
-      <th colspan="2">Team</th>
+      <th colspan="2">Group</th>
       <th rowspan="2">Organization</th>
     </tr>
     <tr>
@@ -46,8 +48,8 @@ In this table, we look at individual or team competencies and approaches to them
     </tr>
     <tr>
       <td>MOD</td>
-      <td>Need full awareness of codebase to support extension/maintenance. May not additional experience or support. If project taken on from another individual developer, there may be challenges.</td>
-      <td>As local but greater awareness of need for future transition to other developer(s), likely provide e.g. docs/issues/project board to support this. May only need to know part of code.</td>
+      <td>Needs full awareness of entire codebase to support extension/maintenance. May not need/get additional experience or support. If project taken on from another individual developer, there may be challenges.</td>
+      <td>As local but greater awareness of need for future transition to other developer(s), likely provide e.g. docs/issues/project board and other support from central services to support this. May only need to know part of code.</td>
       
       <td>Internal team training important to ensure ability to build necessary mental model of codebase and to document via text or tools to support sustainability.</td>
       <td>As local team but likely stronger awareness of tooling and practices in place within RSE team to support this. It may only be necessary for each developer to understand code related to their assigned tasks.</td>
@@ -79,14 +81,14 @@ In this table, we look at individual or team competencies and approaches to them
       <td>Responsibility may be with individual but they may not have necessary knowledge/skills.</td>
       <td>A developer from an RSE team should have basic awareness of aspects such as licensing. Also know where to get additional support via team/organization.</td>
       
-      <td>As with individual (local) developer, are the skills available within the team? Who can they ask?</td>
+      <td>As with individual (local) developer, are the skills available within the group? Who can they ask?</td>
       <td>This is a core area that RSE teams need to be aware of. Can also often provide advice to projects themselves or provide links with other parties who can help.</td>
       
       <td>Organizational support, guidance and policies important. So are knowing how to find them and who to contact for advice.</td>
     </tr>
     <tr>
       <td>NEW</td>
-      <td>Learning new methods and skills may be challenging when time constrained and this is not the individual's core aim.</td>
+      <td>An individual's curiousity has now to be shared between the research goal and the software project, therefore learning new methods and skills may be challenging and is often not the core aim.</td>
       <td>RSE teams should support their team members, especially when working individually on a project, to explore new tools and approaches, make relevant contacts and learn more about the project domain.</td>
       
       <td>Likely to be an area of interest for an embedded development team but if they are researchers, they may not have the local knowledge or contacts to know where to look.</td>
@@ -130,7 +132,7 @@ In this table, we look at individual or team competencies and approaches to them
       <td>Is there a plan for external use? RSEs generally have the skills to support this or can access assistance via team colleagues.</td>
       
       <td>If a team of embedded researchers/developers are involved in a larger project, there's more chance that there's a case for external use. Do they have the skills and resources to support this?</td>
-      <td>A team of RSEs can generally better prepare code for external users (e.g. by applying development best practices)</td>
+      <td>A team of RSEs can generally better prepare code for external users (e.g. by applying development best practices) and provide infrastructure or specialized RSEs for dealing with user support </td>
       
       <td>May be able to offer support with outreach and publicising outputs.</td>
     </tr>
@@ -140,7 +142,7 @@ In this table, we look at individual or team competencies and approaches to them
       <td>May be able to support researchers with core technical skills.</td>
       
       <td>Sharing knowledge and skills within their group - peer support.</td>
-      <td>Often support teaching more widely, either through organised courses or ad hoc activities such as clinics.</td>
+      <td>Often support teaching more widely, either through organised courses or ad hoc activities such as clinics(FIXME: Better word?).</td>
       
       <td>Can run a range of teaching/training activities.</td>
     </tr>
@@ -166,5 +168,6 @@ In this table, we look at individual or team competencies and approaches to them
     </tr>
 </table>
 
-In the table above, we've looked at how different competencies can be related to and handled by researchers and RSEs working in different environments within an organisation and how the organisations themselves can contribute. We recognise that this is a challenging area to gain a detailed view of and that our content in the table is still a significant generalisation. We talk about Research Software Engineer as a single entity but as the field expands, there many roles and job titles emerging around the RSE concept, many of which fit under the wider umbrella of Research Technology Professionals (RTPs). The European Bioninformatics Institute (EMBL-EBI)'s BioExcel competency framework [**[BIOEXCEL-FRAMEWORK]**](https://competency.ebi.ac.uk/framework/bioexcel/3.0/carreer-profiles) provides some examples of different RSE-like computational roles.
+In the table above, we've looked at how different competencies can be related to and handled by researchers and RSEs working in different environments within an organisation and how the organisations themselves can contribute. We recognise that this is a challenging area to gain a detailed view of and that our content in the table is still a significant generalisation. We talk about Research Software Engineer as a single entity but as the field expands, there many roles and job titles emerging around the RSE concept, many of which fit under the wider umbrella of Research Technology Professionals (RTPs).
+The European Bioinformatics Institute (EMBL-EBI)'s BioExcel competency framework [**[BIOEXCEL-FRAMEWORK]**](https://competency.ebi.ac.uk/framework/bioexcel/3.0/carreer-profiles) provides some examples of different RSE-like computational roles.
 
