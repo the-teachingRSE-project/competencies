@@ -64,6 +64,8 @@ The ReproHack Team offers resources to host events where students and researcher
 of published papers with the methods described there or ideally with the software provided by the authors.
 FIXME: This is applied FAIR principles elaborate a bit on why this is related for RSE competencies? Or do we want to make the point, that this teaches reproducible science?
 
+The National Competence Center Sweden (ENCCS) [ENCCS] provides instructor training material [ENCCSInstructorTraining], [ENCCS2022] developed from Carpentries and CodeRefinery material, as well as lessons for HPC-oriented RSEs [ENCCSLessons].
+
 The [Intersect] project ....
 
 [Better Scientific Software (BSSW)] ...
@@ -288,7 +290,8 @@ about programming models that can be used to efficiently undertake large-scale
 computations on parallel computing clusters. They may have knowledge of (automatic)
 code optimization tools and methods and will understand how to write code that is
 optimized for different types of computing platforms, leveraging various efficiency
-related features of the target hardware. They also understand the process of
+related features of the target hardware. They are familiar with HPC-specific
+package managers and can build dependencies from sources. They also understand the process of
 interacting with job scheduling systems that are often used on HPC clusters to
 manage the queuing and running of computational tasks. HPC-focused RSEs may be
 involved with managing HPC infrastructure at the hardware or software level (or
@@ -377,7 +380,7 @@ There are already some people out there who are teaching RSE related topics some
 The community discussion shed some light on the issues our trainers are facing now.
 Currently, they are often teaching workshop like formats in research institutions.
 
-- There are outreach issues. We emphasize that there are two dimensions to this: First it is important that we inform students that workshops exist, and then, the more important part, we also need to motivate people to invest the time for a workshop.
+- There are outreach issues. We emphasize that there are two dimensions to this: First it is important that we inform students that workshops exist, and then, the more important part, we also need to motivate people to invest the time for a workshop. [EuroCC2022]
 - Adaptation of material to the target audience has been identified as a time consuming task.
 - Organization and preparation is a challenge, since currently no standardized formats exist.
 - Expectation management of students. Existing knowledge of students is often diverse.
@@ -487,6 +490,14 @@ Therefore this closes the gap, that the research landscape requires RSEs, but th
 
 [Intersect] project [https://intersect-training.org/](https://intersect-training.org/). Accessed 30th March 2023.
 
+[ENCCS] National Competence Center Sweden. [https://enccs.se/](https://enccs.se/). Accessed 6th June 2023.
+
+[ENCCSInstructorTraining] ENCCS instructor training. [https://enccs.github.io/instructor-training/](https://enccs.github.io/instructor-training/). Accessed 6th June 2023.
+
+[ENCCSLessons] ENCCS lessons. [https://enccs.github.io/instructor-training/enccs-lessons/](https://enccs.github.io/instructor-training/enccs-lessons/). Accessed 6th June 2023.
+
+[ENCCS2022] ENCCS, ENCCS Instructor Training, EuroCC National Competence Center Sweden, Training Material to Train the Trainer, November 2022. Available at [https://www.eurocc-access.eu/wp-content/uploads/2022/12/EuroCC_NCC_Sweden_instructor_training_workshop.pdf](https://www.eurocc-access.eu/wp-content/uploads/2022/12/EuroCC_NCC_Sweden_instructor_training_workshop.pdf). Accessed 5th June 2023.
+
 [Kunkel2020a] J. Kunkel, W. Filinger, C. Meesters, A. Gerbes, The HPC Certification Forum: Toward a Globally Acknowledged HPC Certification, _Computing in Science & Engineering_, 22(4), pp. 110-114, 2020. DOI: [10.1109/MCSE.2020.2996073](https://doi.org/10.1109/MCSE.2020.2996073)
 
 [Kunkel2020b] J. M. Kunkel, K. Himstedt, W. Filinger, J.-T. Acquaviva, A. Gerbes, L. Lafayette, One Year HPC Certification Forum in Retrospective, _Journal of Computational Science Education_, 11(1), pp. 29-35, 2020. DOI: [10.22369/issn.2153-4136/11/1/6](https://doi.org/10.22369/issn.2153-4136/11/1/6)
@@ -494,6 +505,8 @@ Therefore this closes the gap, that the research landscape requires RSEs, but th
 [EuroHPCJU2023] Governing Board of the EuroHPC Joint Undertaking, "Amending the Joint Undertaking's Work Programme and Budget for the year 2023 (Work Programme and Budget Amendment no. 1)", EuroHPC Joint Undertaking, EuroHPC JU Decision No 03/2023, March 2023. Available at [https://eurohpc-ju.europa.eu/system/files/2023-03/Decision%203.2023.-%201st%20Amendment%20WP%202023.pdf](https://eurohpc-ju.europa.eu/system/files/2023-03/Decision%203.2023.-%201st%20Amendment%20WP%202023.pdf). Accessed 5th June 2023.
 
 [CASTIEL2] EuroHPC Joint Undertaking, "EuroCC 2 and CASTIEL 2: Promoting HPC to boost digital skills, jobs and industrial competitiveness in Europe", EuroHPC Joint Undertaking, February 2023. Available at [https://eurohpc-ju.europa.eu/eurocc-2-and-castiel-2-promoting-hpc-boost-digital-skills-jobs-and-industrial-competitiveness-europe-2023-02-03_en](https://eurohpc-ju.europa.eu/eurocc-2-and-castiel-2-promoting-hpc-boost-digital-skills-jobs-and-industrial-competitiveness-europe-2023-02-03_en). Accessed 5th June 2023.
+
+[EuroCC2022] CASTIEL, EuroCC Network, "Best Practice Guide: How to Find New Attendees for Training Courses", In: Training Best Practice Seminar (CASTIEL), EuroCC, January 2022. Available at [https://www.eurocc-access.eu/wp-content/uploads/2022/04/20220401_Best_Practice_Guide-Training_Best_Practice_Seminar_final.pdf](https://www.eurocc-access.eu/wp-content/uploads/2022/04/20220401_Best_Practice_Guide-Training_Best_Practice_Seminar_final.pdf). Accessed 5th June 2023.
 
 [Hettrick2016] S. Hettrick. A not-so-brief history of Research Software Engineers. Software Susitainability Institute blog, August 2016. Available at [https://www.software.ac.uk/blog/2016-08-17-not-so-brief-history-research-software-engineers-0](https://www.software.ac.uk/blog/2016-08-17-not-so-brief-history-research-software-engineers-0). Accessed 16th March 2023.
 
