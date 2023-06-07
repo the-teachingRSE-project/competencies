@@ -66,10 +66,20 @@ FIXME: This is applied FAIR principles elaborate a bit on why this is related fo
 
 The National Competence Center Sweden (ENCCS) [ENCCS] provides instructor training material [ENCCSInstructorTraining], [ENCCS2022] developed from Carpentries and CodeRefinery material, as well as lessons for HPC-oriented RSEs [ENCCSLessons].
 
+Reference works are also available for self-study [Fogel2005], [Irving2021].
+
 The [Intersect] project ....
 
 [Better Scientific Software (BSSW)] ...
 
+SSI? [Crouch2013] ...
+
+Due to the ever-evolving nature of skills and infrastructure in the RSE field,
+training material is often version-controlled, so that trainers can update it
+between iterations. For example, core lessons from the Carpentries and CodeRefinery
+are stored on GitHub, and any change is automatically mirrored to their website.
+Likewise, the reference work on RSE by Fogel [Fogel2005] was released in its
+second edition as a living document [Fogel2017].
 
  - FIXME: Add NFDI initiatives like edutrain.
 
@@ -507,6 +517,12 @@ Therefore this closes the gap, that the research landscape requires RSEs, but th
 [CASTIEL2] EuroHPC Joint Undertaking, "EuroCC 2 and CASTIEL 2: Promoting HPC to boost digital skills, jobs and industrial competitiveness in Europe", EuroHPC Joint Undertaking, February 2023. Available at [https://eurohpc-ju.europa.eu/eurocc-2-and-castiel-2-promoting-hpc-boost-digital-skills-jobs-and-industrial-competitiveness-europe-2023-02-03_en](https://eurohpc-ju.europa.eu/eurocc-2-and-castiel-2-promoting-hpc-boost-digital-skills-jobs-and-industrial-competitiveness-europe-2023-02-03_en). Accessed 5th June 2023.
 
 [EuroCC2022] CASTIEL, EuroCC Network, "Best Practice Guide: How to Find New Attendees for Training Courses", In: Training Best Practice Seminar (CASTIEL), EuroCC, January 2022. Available at [https://www.eurocc-access.eu/wp-content/uploads/2022/04/20220401_Best_Practice_Guide-Training_Best_Practice_Seminar_final.pdf](https://www.eurocc-access.eu/wp-content/uploads/2022/04/20220401_Best_Practice_Guide-Training_Best_Practice_Seminar_final.pdf). Accessed 5th June 2023.
+
+[Fogel2005] K. Fogel, Producing Open Source Software: How to Run a Successful Free Software Project, first edition, O'Reilly Media, October 2005. ISBN: 978-0-596-00759-1. Available at [https://www.oreilly.com/library/view/producing-open-source/0596007590/](https://www.oreilly.com/library/view/producing-open-source/0596007590/). Accessed 5th June 2023.
+
+[Fogel2017] K. Fogel, Producing Open Source Software: How to Run a Successful Free Software Project, second edition, January 2017. Available at [https://www.producingoss.com](https://www.producingoss.com). Accessed 5th June 2023.
+
+[Irving2021] D. Irving, K. Hertweck, L. Johnston, J. Ostblom, C. Wickham, G. Wilson, Research Software Engineering with Python: Building software that makes research possible, CRC Press, 2021. ISBN: 978-1-003-14348-2. DOI: [10.1201/9781003143482](https://doi.org/10.1201/9781003143482)
 
 [Hettrick2016] S. Hettrick. A not-so-brief history of Research Software Engineers. Software Susitainability Institute blog, August 2016. Available at [https://www.software.ac.uk/blog/2016-08-17-not-so-brief-history-research-software-engineers-0](https://www.software.ac.uk/blog/2016-08-17-not-so-brief-history-research-software-engineers-0). Accessed 16th March 2023.
 
