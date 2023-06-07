@@ -375,6 +375,15 @@ This available layered network can greatly benefit the RSE in finding help with 
 and provides a welcoming, social safety net providing a home for the RSE. Since we feel providing aspiring RSEs this net
 is of utmost importance we envision compulsory events introducing that to young RSEs.
 
+Short primers on RSE skills, infrastructure and good coding practices
+can be found in field-specific scientific articles and conference proceedings,
+such as [Roberts1969], [Baxter2006], [Prlic2012], [Leprevost2014], [Wilson2014],
+[Stodden2014], [Crusoe2016], [Crick2017], [Fehr2021], [Grossfield2022], some of
+which are specifically tailored to group leaders, institutions and scientific
+journals rather than RSEs [ChueHong2013], [ChueHong2014], [Katerbow2018].
+Scientific journals have the advantage of reaching a large spectrum of
+research scientists at all stages of their career.
+
 ## Organizational Infrastructures
 So we have defined our set of competencies that we feel every RSE should possess.
 Table 2 above nevertheless already hints at the fact that some RSE skills are required during the domain studies,
@@ -523,6 +532,34 @@ Therefore this closes the gap, that the research landscape requires RSEs, but th
 [Fogel2017] K. Fogel, Producing Open Source Software: How to Run a Successful Free Software Project, second edition, January 2017. Available at [https://www.producingoss.com](https://www.producingoss.com). Accessed 5th June 2023.
 
 [Irving2021] D. Irving, K. Hertweck, L. Johnston, J. Ostblom, C. Wickham, G. Wilson, Research Software Engineering with Python: Building software that makes research possible, CRC Press, 2021. ISBN: 978-1-003-14348-2. DOI: [10.1201/9781003143482](https://doi.org/10.1201/9781003143482)
+
+[Grossfield2022] A. Grossfield, How to be a Good Member of a Scientific Software Community [Article v1.0], _Living Journal of Computational Molecular Science_, 3(1), p. 1473, 2022. DOI: [10.33011/livecoms.3.1.1473](https://doi.org/10.33011/livecoms.3.1.1473)
+
+[Fehr2021] J. Fehr, C. Himpe, S. Rave, J. Saak, Sustainable Research Software Hand-Over, _Journal of Open Research Software_, 9(1), p. 5, 2021. DOI: [10.5334/jors.307](https://doi.org/10.5334/jors.307)
+
+[Baxter2006] Baxter, Day, Fetrow, Reisinger, Scientific Software Development Is Not an Oxymoron, _PLoS Computational Biology_, 2, p. e87, 2006. DOI: [10.1371/journal.pcbi.0020087](https://doi.org/10.1371/journal.pcbi.0020087)
+
+[Leprevost2014] Leprevost, Barbosa, Francisco, Perez-Riverol, Carvalho, On best practices in the development of bioinformatics software, _Frontiers in Genetics_, 5, 2014. DOI: [10.3389/fgene.2014.00199](https://doi.org/10.3389/fgene.2014.00199)
+
+[Crick2017] Crick, Hall, Ishtiaq, Reproducibility in Research: Systems, Infrastructure, Culture, _Journal of Open Research Software_, 5(1), p. 32, 2017. DOI: [10.5334/jors.73](https://doi.org/10.5334/jors.73)
+
+[Crusoe2016] Crusoe, Brown, Walking the Talk: Adopting and Adapting Sustainable Scientific Software Development processes in a Small Biology Lab, _Journal of Open Research Software_, 4(1), p. e44, 2016. DOI: [10.5334/jors.35](https://doi.org/10.5334/jors.35)
+
+[Wilson2014] Wilson, Aruliah, Brown, Chue Hong et al. Best Practices for Scientific Computing, _PLoS Biology_, 12(1), p. e1001745, 2014. DOI: [10.1371/journal.pbio.1001745](https://doi.org/10.1371/journal.pbio.1001745)
+
+[Prlic2012] Prlić, Procter, Ten Simple Rules for the Open Development of Scientific Software, _PLoS Computational Biology_, 8(12), p. e1002802, 2012. DOI: [10.1371/journal.pcbi.1002802](https://doi.org/10.1371/journal.pcbi.1002802)
+
+[Stodden2014] Stodden, Miguez, Best Practices for Computational Science: Software Infrastructure and Environments for Reproducible and Extensible Research, _Journal of Open Research Software_, 2(1), p.e21, 2014. DOI: [10.5334/jors.ay](https://openresearchsoftware.metajnl.com/articles/10.5334/jors.ay)
+
+[Roberts1969] Roberts, The publication of scientific Fortran programs, _Computer Physics Communications_, 1(1), pp. 1-9, 1969. DOI: [10.1016/0010-4655(69)90011-3](https://doi.org/10.1016/0010-4655(69)90011-3)
+
+[Crouch2013] Crouch, Chue Hong, Hettrick, Jackson, Pawlik, Sufi, Carr, De Roure, Goble, Parsons, The Software Sustainability Institute: Changing Research Software Attitudes and Practices, _Computing in Science & Engineering_, 15(6), pp. 74-80, 2013. DOI: [10.1109/mcse.2013.133](https://doi.org/10.1109/mcse.2013.133)
+
+[Katerbow2018] Katerbow, Feulner, Recommendations on the Development, Use and Provision of Research Software, _Zenodo_, 2018. DOI: [10.5281/zenodo.1172988](https://doi.org/10.5281/zenodo.1172988)
+
+[ChueHong2013] Chue Hong, Hole, Moore, "Software Papers: improving the reusability and sustainability of scientific software", In: 1st Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE1), figshare, September 2013. DOI: [10.6084/m9.figshare.795303](https://doi.org/10.6084/m9.figshare.795303)
+
+[ChueHong2014] Chue Hong, "Minimal information for reusable scientific software", In: 2nd Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2), figshare, July 2014. DOI: [10.6084/m9.figshare.1112528](https://doi.org/10.6084/m9.figshare.1112528)
 
 [Hettrick2016] S. Hettrick. A not-so-brief history of Research Software Engineers. Software Susitainability Institute blog, August 2016. Available at [https://www.software.ac.uk/blog/2016-08-17-not-so-brief-history-research-software-engineers-0](https://www.software.ac.uk/blog/2016-08-17-not-so-brief-history-research-software-engineers-0). Accessed 16th March 2023.
 
