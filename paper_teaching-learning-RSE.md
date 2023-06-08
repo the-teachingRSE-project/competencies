@@ -66,6 +66,15 @@ FIXME: This is applied FAIR principles elaborate a bit on why this is related fo
 
 The National Competence Center Sweden (ENCCS) [ENCCS] provides instructor training material [ENCCSInstructorTraining], [ENCCS2022] developed from Carpentries and CodeRefinery material, as well as lessons for HPC-oriented RSEs [ENCCSLessons].
 
+The Partnership for Advanced Computing in Europe (PRACE) [PRACE] offers training
+in the form of massive open online courses (MOOCs), online and on-site training
+events at European HPC facilities (aggregated on various websites, e.g. EuroCC
+Training [EuroCCTraining]), and white papers. While most training events are
+tailored for HPC-RSE, several recurring courses about programming languages
+(C++, Fortran, Python) are suitable for general RSEs, as they teach coding
+best practices, modern software design [LRZModernCpp], project management and
+version control [LRZIntroCpp].
+
 Reference works are also available for self-study [Fogel2005], [Irving2021].
 
 The [Intersect] project ....
@@ -509,6 +518,10 @@ Therefore this closes the gap, that the research landscape requires RSEs, but th
 
 [Intersect] project [https://intersect-training.org/](https://intersect-training.org/). Accessed 30th March 2023.
 
+[PRACE] Partnership for Advanced Computing in Europe. [https://prace-ri.eu/](https://prace-ri.eu/). Accessed 8th June 2023.
+
+[EuroCCTraining] EuroCC Training. [https://www.eurocc-access.eu/services/training/](https://www.eurocc-access.eu/services/training/). Accessed 8th June 2023.
+
 [ENCCS] National Competence Center Sweden. [https://enccs.se/](https://enccs.se/). Accessed 6th June 2023.
 
 [ENCCSInstructorTraining] ENCCS instructor training. [https://enccs.github.io/instructor-training/](https://enccs.github.io/instructor-training/). Accessed 6th June 2023.
@@ -516,6 +529,10 @@ Therefore this closes the gap, that the research landscape requires RSEs, but th
 [ENCCSLessons] ENCCS lessons. [https://enccs.github.io/instructor-training/enccs-lessons/](https://enccs.github.io/instructor-training/enccs-lessons/). Accessed 6th June 2023.
 
 [ENCCS2022] ENCCS, ENCCS Instructor Training, EuroCC National Competence Center Sweden, Training Material to Train the Trainer, November 2022. Available at [https://www.eurocc-access.eu/wp-content/uploads/2022/12/EuroCC_NCC_Sweden_instructor_training_workshop.pdf](https://www.eurocc-access.eu/wp-content/uploads/2022/12/EuroCC_NCC_Sweden_instructor_training_workshop.pdf). Accessed 5th June 2023.
+
+[LRZIntroCpp] C. Guillen, C. Navarrete, Introduction to C++, annual course, Leibniz Supercomputing Centre [https://doku.lrz.de/2022-09-21-introduction-to-c++-hcpb2s22-11497182.html](https://doku.lrz.de/2022-09-21-introduction-to-c++-hcpb2s22-11497182.html). Accessed 8th June 2023.
+
+[LRZModernCpp] K. Iglberger, Modern C++ Software Design, annual course, Leibniz Supercomputing Centre, [https://doku.lrz.de/2022-10-26-modern-c++-software-design-hcpa1w22-11497188.html)(https://doku.lrz.de/2022-10-26-modern-c++-software-design-hcpa1w22-11497188.html). Accessed 8th June 2023.
 
 [Kunkel2020a] J. Kunkel, W. Filinger, C. Meesters, A. Gerbes, The HPC Certification Forum: Toward a Globally Acknowledged HPC Certification, _Computing in Science & Engineering_, 22(4), pp. 110-114, 2020. DOI: [10.1109/MCSE.2020.2996073](https://doi.org/10.1109/MCSE.2020.2996073)
 
