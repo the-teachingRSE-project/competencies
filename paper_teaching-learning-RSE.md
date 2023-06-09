@@ -56,16 +56,20 @@ As an area that generally requires a range of advanced skills, High Performance 
 
 ### RSE-related Training Materials
 
-A wide range of software-related training materials and supporting organisations exist within the research software community and beyond. The Carpentries [The Carpentries] is a non-profit entity that supports a range of open source training materials and international communities of volunteer instructors and helpers who run courses around these materials. The community also maintains the materials which are based around three core syllabuses - Software Carpentry, Data Carpentry and Library Carpentry. The training materials within these areas have been developed, reviewed and enhanced over several years ensuring that they represent best practice in training on these topics. The core Carpentries lessons are targeted primarily at the beginner level. However, the Carpentries Incubator [Carpentries Incubator] provides an environment for hosting additional community-developed training modules covering a wide range of other topics that have not gone through the peer review process of the core lessons. The material in the Incubator increasingly includes more intermediate-level training modules.
+A wide range of software-related training materials and supporting organisations exist within the research software community and beyond.
 
+#### The Carpentries
+The Carpentries [The Carpentries] is a non-profit entity that supports a range of open source training materials and international communities of volunteer instructors and helpers who run courses around these materials. The community also maintains the materials which are based around three core syllabuses - Software Carpentry, Data Carpentry and Library Carpentry. The training materials within these areas have been developed, reviewed and enhanced over several years ensuring that they represent best practice in training on these topics. The core Carpentries lessons are targeted primarily at the beginner level. However, the Carpentries Incubator [Carpentries Incubator] provides an environment for hosting additional community-developed training modules covering a wide range of other topics that have not gone through the peer review process of the core lessons. The material in the Incubator increasingly includes more intermediate-level training modules.
+
+#### Coderefinery
 [CodeRefinery] is a project currently funded by the Nordic e-Infrastructure and thus active primarily in the Nordics with the goal of teaching essential tools around research software development, that are usually skipped in academic education. CodeRefinery hosts a set of open source training materials including both beginner and intermediate level material and organizes multiple highly interactive large scale workshops per year. Skills learned from the workshops and/or materials allow researchers to produce more reproducible, open and efficient software and thus promote FAIR research practices. One goal of the project is to evolve into a community project that seamlessly integrates with other initiatives. FIXME: elaborate on the integration part if it's relevant, else leave out.
 
+#### Reprohack
 The ReproHack Team offers resources to host events where students and researchers can get together to try and reproduce the results 
 of published papers with the methods described there or ideally with the software provided by the authors.
 FIXME: This is applied FAIR principles elaborate a bit on why this is related for RSE competencies? Or do we want to make the point, that this teaches reproducible science?
 
-The National Competence Center Sweden (ENCCS) [ENCCS] provides instructor training material [ENCCSInstructorTraining], [ENCCS2022] developed from Carpentries and CodeRefinery material, as well as lessons for HPC-oriented RSEs [ENCCSLessons].
-
+#### PRACE
 The Partnership for Advanced Computing in Europe (PRACE) [PRACE] offers training
 in the form of massive open online courses (MOOCs), online and on-site training
 events at European HPC facilities (aggregated on various websites, e.g. EuroCC
@@ -75,14 +79,14 @@ tailored for HPC-RSE, several recurring courses about programming languages
 best practices, modern software design [LRZModernCpp], project management and
 version control [LRZIntroCpp].
 
-Reference works are also available for self-study [Fogel2005], [Irving2021].
+#### Helmholtz
+As part of its push towards a better RSE environment, the Helmholtz Association launched the [Helmholtz Federated IT Services] platform which provides educational material and trainings amongst other services for an audience of over 10.000 scientists in Germany and internationally.
+All of these materials focus on RSE basics to refresh and expand the software engineering knowledge for recent graduates or to update the existing knowledge in established researchers.
+They are published under OER licenses and can serve as either self-learning instructions or form the basis of a hands-on training.
+To allow these educational offers to be easier brought to the scientists, the [Helmholtz Information & Data Science Academy] sustains a large network within the Helmholtz Association and beyond with a strong focus on graduate schools.
+Further RSE training offers within the Helmholtz context are provided by the [Helmholtz AI] and [Helmholtz Imaging] platforms as well as the [Helmholtz Metadata Collaboration].
 
-The [Intersect] project ....
-
-[Better Scientific Software (BSSW)] ...
-
-SSI? [Crouch2013] ...
-
+#### Open Source Resources
 Due to the ever-evolving nature of skills and infrastructure in the RSE field,
 training material is often version-controlled, so that trainers can update it
 between iterations. For example, core lessons from the Carpentries and CodeRefinery
@@ -90,11 +94,15 @@ are stored on GitHub, and any change is automatically mirrored to their website.
 Likewise, the reference work on RSE by Fogel [Fogel2005] was released in its
 second edition as a living document [Fogel2017].
 
-As part of its push towards a better RSE environment, the Helmholtz Association launched the [Helmholtz Federated IT Services] platform which provides educational material and trainings amongst other services for an audience of over 10.000 scientists in Germany and internationally.
-All of these materials focus on RSE basics to refresh and expand the software engineering knowledge for recent graduates or to update the existing knowledge in established researchers.
-They are published under OER licenses and can serve as either self-learning instructions or form the basis of a hands-on training.
-To allow these educational offers to be easier brought to the scientists, the [Helmholtz Information & Data Science Academy] sustains a large network within the Helmholtz Association and beyond with a strong focus on graduate schools.
-Further RSE training offers within the Helmholtz context are provided by the [Helmholtz AI] and [Helmholtz Imaging] platforms as well as the [Helmholtz Metadata Collaboration].
+Reference works are also available for self-study [Fogel2005], [Irving2021].
+
+The National Competence Center Sweden (ENCCS) [ENCCS] provides instructor training material [ENCCSInstructorTraining], [ENCCS2022] developed from Carpentries and CodeRefinery material, as well as lessons for HPC-oriented RSEs [ENCCSLessons].
+
+The [Intersect] project ....
+
+[Better Scientific Software (BSSW)] ...
+
+SSI? [Crouch2013] ...
 
 
  - FIXME: Add NFDI initiatives like edutrain.
