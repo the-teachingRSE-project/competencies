@@ -90,6 +90,13 @@ are stored on GitHub, and any change is automatically mirrored to their website.
 Likewise, the reference work on RSE by Fogel [Fogel2005] was released in its
 second edition as a living document [Fogel2017].
 
+As part of its push towards a better RSE environment, the Helmholtz Association launched the [Helmholtz Federated IT Services] platform which provides educational material and trainings amongst other services for an audience of over 10.000 scientists in Germany and internationally.
+All of these materials focus on RSE basics to refresh and expand the software engineering knowledge for recent graduates or to update the existing knowledge in established researchers.
+They are published under OER licenses and can serve as either self-learning instructions or form the basis of a hands-on training.
+To allow these educational offers to be easier brought to the scientists, the [Helmholtz Information & Data Science Academy] sustains a large network within the Helmholtz Association and beyond with a strong focus on graduate schools.
+Further RSE training offers within the Helmholtz context are provided by the [Helmholtz AI] and [Helmholtz Imaging] platforms as well as the [Helmholtz Metadata Collaboration].
+
+
  - FIXME: Add NFDI initiatives like edutrain.
 
 
@@ -518,6 +525,7 @@ Therefore this closes the gap, that the research landscape requires RSEs, but th
 
 [Intersect] project [https://intersect-training.org/](https://intersect-training.org/). Accessed 30th March 2023.
 
+
 [PRACE] Partnership for Advanced Computing in Europe. [https://prace-ri.eu/](https://prace-ri.eu/). Accessed 8th June 2023.
 
 [EuroCCTraining] EuroCC Training. [https://www.eurocc-access.eu/services/training/](https://www.eurocc-access.eu/services/training/). Accessed 8th June 2023.
@@ -577,6 +585,16 @@ Therefore this closes the gap, that the research landscape requires RSEs, but th
 [ChueHong2013] Chue Hong, Hole, Moore, "Software Papers: improving the reusability and sustainability of scientific software", In: 1st Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE1), figshare, September 2013. DOI: [10.6084/m9.figshare.795303](https://doi.org/10.6084/m9.figshare.795303)
 
 [ChueHong2014] Chue Hong, "Minimal information for reusable scientific software", In: 2nd Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2), figshare, July 2014. DOI: [10.6084/m9.figshare.1112528](https://doi.org/10.6084/m9.figshare.1112528)
+
+[Helmholtz Federated IT Services] Helmholtz Federated IT Services (HIFIS). [https://hifis.net](https://hifis.net) . Accessed 08th June 2023.
+
+[Helmholtz Information & Data Science Academy] Helmholtz Information & Data Science Academy (HIDA). [https://www.helmholtz-hida.de](https://www.helmholtz-hida.de) . Accessed 08th June 2023.
+
+[Helmholtz AI] Helmholtz AI. [https://www.helmholtz.ai/](https://www.helmholtz.ai/) . Accessed 08th June 2023.
+
+[Helmholtz Imaging] Helmholtz Imaging [https://helmholtz-imaging.de/](https://helmholtz-imaging.de/) . Accessed 08th June 2023.
+
+[Helmholtz Metadata Collaboration] Helmholtz Metadata Collaboration (HMC) [https://helmholtz-metadaten.de](https://helmholtz-metadaten.de) . Accessed 08th June 2023.
 
 [Hettrick2016] S. Hettrick. A not-so-brief history of Research Software Engineers. Software Susitainability Institute blog, August 2016. Available at [https://www.software.ac.uk/blog/2016-08-17-not-so-brief-history-research-software-engineers-0](https://www.software.ac.uk/blog/2016-08-17-not-so-brief-history-research-software-engineers-0). Accessed 16th March 2023.
 
