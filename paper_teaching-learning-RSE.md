@@ -461,10 +461,26 @@ We propose to create common Infrastructures that can be utilized in this ongoing
 ### Organization of teaching
 
 #### Certificates
-With the ever-growing demand for RSEs in science, it is helpful for the job-market that people can earn the respective certificates.
-Certainly, a big demand for specialized RSEs will come from the newly established RSE centers at research institutions that require skilled people to fill their vacant positions.
-Then this demand can find its market with people offering this skill.
-Having these certificates provides finally a clear understanding of which tasks an RSE can perform and thereby helps defining the career path and the job description.
+
+With the ever-growing demand for RSEs in science it could be helpful for people to earn certificates for skills needed in certain RSE positions.
+This would possibly make hiring easier and could incentivise researcher to go through proper courses on these skills instead of learning on the go.
+For certain skills it would also be good for finding jobs outside academia, e.g. in industry where certain practices are already state-of-the-art.
+However, these certificates are only helpful if there is a certain level of standardization, which would require a central authority or collaboration 
+between multiple stakeholders to decide on contents and allow participating institutions to issue these certificates.
+Additionally, it can be excluding capable applicants that already use these skills but never got a certificate for it. 
+
+The possible types of certificates can of course differ. 
+Badges are increasingly popular, from personal badges rewarding contributions to a specific community, e.g. [Fedora Badges](https://badges.fedoraproject.org/explore/badges) or [Github Achievements](https://github.com/Schweinepriester/github-profile-achievements), 
+or project badges highlighting coding practices, e.g. Build and CI status or code coverage. 
+Classical attendance sheets for courses are another option. 
+To further incentivise participation by students, some of these courses might also award academic credit points like ECTS and 
+benefit them on their way to graduation.
+
+Having certificates provides finally a clear understanding of which tasks an RSE can perform and thereby helps defining the career path and the job description.
+A big demand for specialized RSEs will certainly come from the newly established RSE centers at research institutions that require skilled people to fill their vacant positions.
+And using the certificates, the demand can now be satisfied with people offering this skill.
+
+Some exemplary skills for which courses are already held are version control tools like git, HPC topics like multithreading, MPI and GPU computations, FAIR principles. 
 
 #### A possible graduation path within the classical university structures
 We have put forward the idea that familiarity with research is a prerequisite for an RSE in order to be able to work effectively in the research space and in collaboration with researchers. In this particular example, we consider a path into RSE via a traditional university route involving Bachelors and Masters degree studies that include an RSE element. However, we recognise that there are other routes into an RSE career and these are increasing. For example, some RSEs come from an industry background, others may come through apprenticeship or similar programmes. In both cases, gaining knowledge of the research lifecycle and understanding the ways that researchers work towards solutions to research challenges is something that can be developed on-the-job alongside training opportunities and the chance to work directly with researchers.
