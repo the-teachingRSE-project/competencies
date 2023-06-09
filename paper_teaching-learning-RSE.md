@@ -49,7 +49,7 @@ The challenges of understanding the current state of skills within the research 
 
 ### Identifying skills and pathways
 
-As an area that generally requires a range of advanced skills, High Performance Computing (HPC) is one field where there is ongoing work to identify relevant sets of skills for HPC practitioners and potential paths to develop these skills. The HPC Certification Forum has developed a "competence standard" (CS) for HPC that defines a range of skills and how they are related in the context of a skill tree [HPC-CF Competencies]. Also looking at pathways and how different skills are related, the UNIVERSE-HPC project [UNIVERSE-HPC], funded under the UK's ExCALIBUR research programme [EXCALIBUR], is looking to understand and develop training pathways to support the development of specialist skills in the HPC and exascale domains. The project is gathering open source training materials to develop curricula that support the training pathways that are underpinned by high-quality training materials.
+As an area that generally requires a range of advanced skills, High Performance Computing (HPC) is one field where there is ongoing work to identify relevant sets of skills for HPC practitioners and potential paths to develop these skills. The HPC Certification Forum has developed a "competence standard" (CS) for HPC that defines a range of skills and how they are related in the context of a skill tree [HPC-CF Competencies], [Kunkel2020a], [Kunkel2020b]. This competence standard is currently being built upon by the CASTIEL 2 [CASTIEL2] project in collaboration with initiatives funded by the European High Performance Computing Joint Undertaking (EuroHPC JU) to create a framework for HPC certification [EuroHPCJU2023]. Also looking at pathways and how different skills are related, the UNIVERSE-HPC project [UNIVERSE-HPC], funded under the UK's ExCALIBUR research programme [EXCALIBUR], is looking to understand and develop training pathways to support the development of specialist skills in the HPC and exascale domains. The project is gathering open source training materials to develop curricula that support the training pathways that are underpinned by high-quality training materials.
 
  - There are some projects / papers looking at skills pathways - if we're going to include a separate section on related work, as proposed here, this should probably be expanded to include more of this content?
  - FIXME: include the ELIXIR part here
@@ -64,15 +64,38 @@ The ReproHack Team offers resources to host events where students and researcher
 of published papers with the methods described there or ideally with the software provided by the authors.
 FIXME: This is applied FAIR principles elaborate a bit on why this is related for RSE competencies? Or do we want to make the point, that this teaches reproducible science?
 
+The National Competence Center Sweden (ENCCS) [ENCCS] provides instructor training material [ENCCSInstructorTraining], [ENCCS2022] developed from Carpentries and CodeRefinery material, as well as lessons for HPC-oriented RSEs [ENCCSLessons].
+
+The Partnership for Advanced Computing in Europe (PRACE) [PRACE] offers training
+in the form of massive open online courses (MOOCs), online and on-site training
+events at European HPC facilities (aggregated on various websites, e.g. EuroCC
+Training [EuroCCTraining]), and white papers. While most training events are
+tailored for HPC-RSE, several recurring courses about programming languages
+(C++, Fortran, Python) are suitable for general RSEs, as they teach coding
+best practices, modern software design [LRZModernCpp], project management and
+version control [LRZIntroCpp].
+
+Reference works are also available for self-study [Fogel2005], [Irving2021].
+
 The [Intersect] project ....
 
 [Better Scientific Software (BSSW)] ...
+
+SSI? [Crouch2013] ...
+
+Due to the ever-evolving nature of skills and infrastructure in the RSE field,
+training material is often version-controlled, so that trainers can update it
+between iterations. For example, core lessons from the Carpentries and CodeRefinery
+are stored on GitHub, and any change is automatically mirrored to their website.
+Likewise, the reference work on RSE by Fogel [Fogel2005] was released in its
+second edition as a living document [Fogel2017].
 
 As part of its push towards a better RSE environment, the Helmholtz Association launched the [Helmholtz Federated IT Services] platform which provides educational material and trainings amongst other services for an audience of over 10.000 scientists in Germany and internationally.
 All of these materials focus on RSE basics to refresh and expand the software engineering knowledge for recent graduates or to update the existing knowledge in established researchers.
 They are published under OER licenses and can serve as either self-learning instructions or form the basis of a hands-on training.
 To allow these educational offers to be easier brought to the scientists, the [Helmholtz Information & Data Science Academy] sustains a large network within the Helmholtz Association and beyond with a strong focus on graduate schools.
 Further RSE training offers within the Helmholtz context are provided by the [Helmholtz AI] and [Helmholtz Imaging] platforms as well as the [Helmholtz Metadata Collaboration].
+
 
  - FIXME: Add NFDI initiatives like edutrain.
 
@@ -293,7 +316,8 @@ about programming models that can be used to efficiently undertake large-scale
 computations on parallel computing clusters. They may have knowledge of (automatic)
 code optimization tools and methods and will understand how to write code that is
 optimized for different types of computing platforms, leveraging various efficiency
-related features of the target hardware. They also understand the process of
+related features of the target hardware. They are familiar with HPC-specific
+package managers and can build dependencies from sources. They also understand the process of
 interacting with job scheduling systems that are often used on HPC clusters to
 manage the queuing and running of computational tasks. HPC-focused RSEs may be
 involved with managing HPC infrastructure at the hardware or software level (or
@@ -367,6 +391,15 @@ This available layered network can greatly benefit the RSE in finding help with 
 and provides a welcoming, social safety net providing a home for the RSE. Since we feel providing aspiring RSEs this net
 is of utmost importance we envision compulsory events introducing that to young RSEs.
 
+Short primers on RSE skills, infrastructure and good coding practices
+can be found in field-specific scientific articles and conference proceedings,
+such as [Roberts1969], [Baxter2006], [Prlic2012], [Leprevost2014], [Wilson2014],
+[Stodden2014], [Crusoe2016], [Crick2017], [Fehr2021], [Grossfield2022], some of
+which are specifically tailored to group leaders, institutions and scientific
+journals rather than RSEs [ChueHong2013], [ChueHong2014], [Katerbow2018].
+Scientific journals have the advantage of reaching a large spectrum of
+research scientists at all stages of their career.
+
 ## Organizational Infrastructures
 So we have defined our set of competencies that we feel every RSE should possess.
 Table 2 above nevertheless already hints at the fact that some RSE skills are required during the domain studies,
@@ -382,7 +415,7 @@ There are already some people out there who are teaching RSE related topics some
 The community discussion shed some light on the issues our trainers are facing now.
 Currently, they are often teaching workshop like formats in research institutions.
 
-- There are outreach issues. We emphasize that there are two dimensions to this: First it is important that we inform students that workshops exist, and then, the more important part, we also need to motivate people to invest the time for a workshop.
+- There are outreach issues. We emphasize that there are two dimensions to this: First it is important that we inform students that workshops exist, and then, the more important part, we also need to motivate people to invest the time for a workshop. [EuroCC2022]
 - Adaptation of material to the target audience has been identified as a time consuming task.
 - Organization and preparation is a challenge, since currently no standardized formats exist.
 - Expectation management of students. Existing knowledge of students is often diverse.
@@ -491,6 +524,67 @@ Therefore this closes the gap, that the research landscape requires RSEs, but th
 [Better Scientific Software] BSSW [https://bssw.io/](https://bssw.io/) . Accessed 30th March 2023.
 
 [Intersect] project [https://intersect-training.org/](https://intersect-training.org/). Accessed 30th March 2023.
+
+
+[PRACE] Partnership for Advanced Computing in Europe. [https://prace-ri.eu/](https://prace-ri.eu/). Accessed 8th June 2023.
+
+[EuroCCTraining] EuroCC Training. [https://www.eurocc-access.eu/services/training/](https://www.eurocc-access.eu/services/training/). Accessed 8th June 2023.
+
+[ENCCS] National Competence Center Sweden. [https://enccs.se/](https://enccs.se/). Accessed 6th June 2023.
+
+[ENCCSInstructorTraining] ENCCS instructor training. [https://enccs.github.io/instructor-training/](https://enccs.github.io/instructor-training/). Accessed 6th June 2023.
+
+[ENCCSLessons] ENCCS lessons. [https://enccs.github.io/instructor-training/enccs-lessons/](https://enccs.github.io/instructor-training/enccs-lessons/). Accessed 6th June 2023.
+
+[ENCCS2022] ENCCS, ENCCS Instructor Training, EuroCC National Competence Center Sweden, Training Material to Train the Trainer, November 2022. Available at [https://www.eurocc-access.eu/wp-content/uploads/2022/12/EuroCC_NCC_Sweden_instructor_training_workshop.pdf](https://www.eurocc-access.eu/wp-content/uploads/2022/12/EuroCC_NCC_Sweden_instructor_training_workshop.pdf). Accessed 5th June 2023.
+
+[LRZIntroCpp] C. Guillen, C. Navarrete, Introduction to C++, annual course, Leibniz Supercomputing Centre [https://doku.lrz.de/2022-09-21-introduction-to-c++-hcpb2s22-11497182.html](https://doku.lrz.de/2022-09-21-introduction-to-c++-hcpb2s22-11497182.html). Accessed 8th June 2023.
+
+[LRZModernCpp] K. Iglberger, Modern C++ Software Design, annual course, Leibniz Supercomputing Centre, [https://doku.lrz.de/2022-10-26-modern-c++-software-design-hcpa1w22-11497188.html)(https://doku.lrz.de/2022-10-26-modern-c++-software-design-hcpa1w22-11497188.html). Accessed 8th June 2023.
+
+[Kunkel2020a] J. Kunkel, W. Filinger, C. Meesters, A. Gerbes, The HPC Certification Forum: Toward a Globally Acknowledged HPC Certification, _Computing in Science & Engineering_, 22(4), pp. 110-114, 2020. DOI: [10.1109/MCSE.2020.2996073](https://doi.org/10.1109/MCSE.2020.2996073)
+
+[Kunkel2020b] J. M. Kunkel, K. Himstedt, W. Filinger, J.-T. Acquaviva, A. Gerbes, L. Lafayette, One Year HPC Certification Forum in Retrospective, _Journal of Computational Science Education_, 11(1), pp. 29-35, 2020. DOI: [10.22369/issn.2153-4136/11/1/6](https://doi.org/10.22369/issn.2153-4136/11/1/6)
+
+[EuroHPCJU2023] Governing Board of the EuroHPC Joint Undertaking, "Amending the Joint Undertaking's Work Programme and Budget for the year 2023 (Work Programme and Budget Amendment no. 1)", EuroHPC Joint Undertaking, EuroHPC JU Decision No 03/2023, March 2023. Available at [https://eurohpc-ju.europa.eu/system/files/2023-03/Decision%203.2023.-%201st%20Amendment%20WP%202023.pdf](https://eurohpc-ju.europa.eu/system/files/2023-03/Decision%203.2023.-%201st%20Amendment%20WP%202023.pdf). Accessed 5th June 2023.
+
+[CASTIEL2] EuroHPC Joint Undertaking, "EuroCC 2 and CASTIEL 2: Promoting HPC to boost digital skills, jobs and industrial competitiveness in Europe", EuroHPC Joint Undertaking, February 2023. Available at [https://eurohpc-ju.europa.eu/eurocc-2-and-castiel-2-promoting-hpc-boost-digital-skills-jobs-and-industrial-competitiveness-europe-2023-02-03_en](https://eurohpc-ju.europa.eu/eurocc-2-and-castiel-2-promoting-hpc-boost-digital-skills-jobs-and-industrial-competitiveness-europe-2023-02-03_en). Accessed 5th June 2023.
+
+[EuroCC2022] CASTIEL, EuroCC Network, "Best Practice Guide: How to Find New Attendees for Training Courses", In: Training Best Practice Seminar (CASTIEL), EuroCC, January 2022. Available at [https://www.eurocc-access.eu/wp-content/uploads/2022/04/20220401_Best_Practice_Guide-Training_Best_Practice_Seminar_final.pdf](https://www.eurocc-access.eu/wp-content/uploads/2022/04/20220401_Best_Practice_Guide-Training_Best_Practice_Seminar_final.pdf). Accessed 5th June 2023.
+
+[Fogel2005] K. Fogel, Producing Open Source Software: How to Run a Successful Free Software Project, first edition, O'Reilly Media, October 2005. ISBN: 978-0-596-00759-1. Available at [https://www.oreilly.com/library/view/producing-open-source/0596007590/](https://www.oreilly.com/library/view/producing-open-source/0596007590/). Accessed 5th June 2023.
+
+[Fogel2017] K. Fogel, Producing Open Source Software: How to Run a Successful Free Software Project, second edition, January 2017. Available at [https://www.producingoss.com](https://www.producingoss.com). Accessed 5th June 2023.
+
+[Irving2021] D. Irving, K. Hertweck, L. Johnston, J. Ostblom, C. Wickham, G. Wilson, Research Software Engineering with Python: Building software that makes research possible, CRC Press, 2021. ISBN: 978-1-003-14348-2. DOI: [10.1201/9781003143482](https://doi.org/10.1201/9781003143482)
+
+[Grossfield2022] A. Grossfield, How to be a Good Member of a Scientific Software Community [Article v1.0], _Living Journal of Computational Molecular Science_, 3(1), p. 1473, 2022. DOI: [10.33011/livecoms.3.1.1473](https://doi.org/10.33011/livecoms.3.1.1473)
+
+[Fehr2021] J. Fehr, C. Himpe, S. Rave, J. Saak, Sustainable Research Software Hand-Over, _Journal of Open Research Software_, 9(1), p. 5, 2021. DOI: [10.5334/jors.307](https://doi.org/10.5334/jors.307)
+
+[Baxter2006] Baxter, Day, Fetrow, Reisinger, Scientific Software Development Is Not an Oxymoron, _PLoS Computational Biology_, 2, p. e87, 2006. DOI: [10.1371/journal.pcbi.0020087](https://doi.org/10.1371/journal.pcbi.0020087)
+
+[Leprevost2014] Leprevost, Barbosa, Francisco, Perez-Riverol, Carvalho, On best practices in the development of bioinformatics software, _Frontiers in Genetics_, 5, 2014. DOI: [10.3389/fgene.2014.00199](https://doi.org/10.3389/fgene.2014.00199)
+
+[Crick2017] Crick, Hall, Ishtiaq, Reproducibility in Research: Systems, Infrastructure, Culture, _Journal of Open Research Software_, 5(1), p. 32, 2017. DOI: [10.5334/jors.73](https://doi.org/10.5334/jors.73)
+
+[Crusoe2016] Crusoe, Brown, Walking the Talk: Adopting and Adapting Sustainable Scientific Software Development processes in a Small Biology Lab, _Journal of Open Research Software_, 4(1), p. e44, 2016. DOI: [10.5334/jors.35](https://doi.org/10.5334/jors.35)
+
+[Wilson2014] Wilson, Aruliah, Brown, Chue Hong et al. Best Practices for Scientific Computing, _PLoS Biology_, 12(1), p. e1001745, 2014. DOI: [10.1371/journal.pbio.1001745](https://doi.org/10.1371/journal.pbio.1001745)
+
+[Prlic2012] Prlić, Procter, Ten Simple Rules for the Open Development of Scientific Software, _PLoS Computational Biology_, 8(12), p. e1002802, 2012. DOI: [10.1371/journal.pcbi.1002802](https://doi.org/10.1371/journal.pcbi.1002802)
+
+[Stodden2014] Stodden, Miguez, Best Practices for Computational Science: Software Infrastructure and Environments for Reproducible and Extensible Research, _Journal of Open Research Software_, 2(1), p.e21, 2014. DOI: [10.5334/jors.ay](https://openresearchsoftware.metajnl.com/articles/10.5334/jors.ay)
+
+[Roberts1969] Roberts, The publication of scientific Fortran programs, _Computer Physics Communications_, 1(1), pp. 1-9, 1969. DOI: [10.1016/0010-4655(69)90011-3](https://doi.org/10.1016/0010-4655(69)90011-3)
+
+[Crouch2013] Crouch, Chue Hong, Hettrick, Jackson, Pawlik, Sufi, Carr, De Roure, Goble, Parsons, The Software Sustainability Institute: Changing Research Software Attitudes and Practices, _Computing in Science & Engineering_, 15(6), pp. 74-80, 2013. DOI: [10.1109/mcse.2013.133](https://doi.org/10.1109/mcse.2013.133)
+
+[Katerbow2018] Katerbow, Feulner, Recommendations on the Development, Use and Provision of Research Software, _Zenodo_, 2018. DOI: [10.5281/zenodo.1172988](https://doi.org/10.5281/zenodo.1172988)
+
+[ChueHong2013] Chue Hong, Hole, Moore, "Software Papers: improving the reusability and sustainability of scientific software", In: 1st Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE1), figshare, September 2013. DOI: [10.6084/m9.figshare.795303](https://doi.org/10.6084/m9.figshare.795303)
+
+[ChueHong2014] Chue Hong, "Minimal information for reusable scientific software", In: 2nd Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2), figshare, July 2014. DOI: [10.6084/m9.figshare.1112528](https://doi.org/10.6084/m9.figshare.1112528)
 
 [Helmholtz Federated IT Services] Helmholtz Federated IT Services (HIFIS). [https://hifis.net](https://hifis.net) . Accessed 08th June 2023.
 
