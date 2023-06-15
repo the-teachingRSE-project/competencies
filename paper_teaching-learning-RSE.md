@@ -470,8 +470,6 @@ between multiple stakeholders to decide on contents and allow participating inst
 Additionally, it can be excluding capable applicants that already use these skills but never got a certificate for it. 
 
 The possible types of certificates can of course differ. 
-Badges are increasingly popular, from personal badges rewarding contributions to a specific community, e.g. [Fedora Badges](https://badges.fedoraproject.org/explore/badges) or [Github Achievements](https://github.com/Schweinepriester/github-profile-achievements), 
-or project badges highlighting coding practices, e.g. Build and CI status or code coverage. 
 Classical attendance sheets for courses are another option. 
 To further incentivise participation by students, some of these courses might also award academic credit points like ECTS and 
 benefit them on their way to graduation.
@@ -481,6 +479,46 @@ A big demand for specialized RSEs will certainly come from the newly established
 And using the certificates, the demand can now be satisfied with people offering this skill.
 
 Some exemplary skills for which courses are already held are version control tools like git, HPC topics like multithreading, MPI and GPU computations, FAIR principles. 
+
+##### Metrics and reward systems
+
+The development of a standardized list of RSE competencies could help
+develop metrics to measure an individual's progression in specific RSE
+skill sets. These indicators would supplement the traditional grading
+system by providing gamification elements that gratify learning and
+incentivizes the discovery of new skill sets.
+Some indicators could be used in GitHub/Lab to stimulate continuous learning or
+steer RSE behavior in a direction that would benefit all users of research software.
+Currently, code hosting platforms and software packaging services that allow
+the public display of user activity are usually limited to basic statistics,
+such as the number of commits or merge requests, but provide APIs to collect
+this data and process it into more helpful metrics.
+
+Digital badges [Fanfarelli2015], [McDaniel2016] are increasingly popular,
+from personal badges rewarding contributions to a specific community,
+or project badges highlighting coding practices, e.g. code coverage,
+continuous integration status, or code quality indicators.
+The Fedora community developed a significant body of personal badges [FedoraBadges]
+that reward contributions to open source software documentation, podcasts, conferences,
+and code maintenance in the form of bugfixes, security fixes, code reviews and package releases.
+The official GitHub Achievements [GitHubProfileAchievements] reward social behavior,
+such as the number of merge requests, the number of commits with co-authors,
+or the number of answered questions.
+The GitHub user community also created unofficial trophies [GitHubProfileTrophy]
+to highlight additional metrics, such as the number of repositories and opened tickets,
+with a ranking system to introduce competition between users.
+
+By default, platforms like GitHub and GitLab display the commit activity on users' profile pages,
+in the form of a color-coded chart that measures the number of commits per day.
+This statistic doesn't reflect the number of lines of code changed by a commit,
+nor the nature of the change (bugfix, maintenance, documentation, etc.), and
+can easily be gamed by automated tools [Rockstar], making its usefulness as a
+performance indicator debatable.
+Yet, its ubiquity on personal pages and the lack of more objective metrics makes
+it a de facto standard. The presence of this indicator can steer RSE behavior,
+potentially in a counter-productive way since it priviledges quantity over quality.
+For example, users can engage in contribution "streaking" to pad the chart [Moldon2021] and
+compete with other users via custom badges displaying their streaking performance [GitHubStreakStats].
 
 #### A possible graduation path within the classical university structures
 We have put forward the idea that familiarity with research is a prerequisite for an RSE in order to be able to work effectively in the research space and in collaboration with researchers. In this particular example, we consider a path into RSE via a traditional university route involving Bachelors and Masters degree studies that include an RSE element. However, we recognise that there are other routes into an RSE career and these are increasing. For example, some RSEs come from an industry background, others may come through apprenticeship or similar programmes. In both cases, gaining knowledge of the research lifecycle and understanding the ways that researchers work towards solutions to research challenges is something that can be developed on-the-job alongside training opportunities and the chance to work directly with researchers.
@@ -635,3 +673,13 @@ Therefore this closes the gap, that the research landscape requires RSEs, but th
 [Lamprecht2022] A-L. Lamprecht, C. Martinez-Ortiz, M. Barker, et al. What Do We (Not) Know About Research Software Engineering?. _Journal of Open Research Software_, 10(1), p.11. DOI: [https://doi.org/10.5334/jors.384](https://doi.org/10.5334/jors.384)
 
 [Landwehr2017] Carl Landwehr, Jochen Ludewig, Robert Meersman, David Lorge Parnas, Peretz Shoval, Yair Wand, David Weiss, Elaine Weyuker, Software Systems Engineering programmes a capability approach, [https://doi.org/10.1016/j.jss.2016.12.016](https://doi.org/10.1016/j.jss.2016.12.016)
+
+[FedoraBadges] The Fedora Project, Fedora Badges, 2013-2023 [https://badges.fedoraproject.org/explore/badges](https://badges.fedoraproject.org/explore/badges) . Accessed 15th June 2023.
+
+[GitHubProfileAchievements] Schweinepriester, GitHub Profile Achievements, 2021-2023. [https://github.com/Schweinepriester/github-profile-achievements](https://github.com/Schweinepriester/github-profile-achievements) . Accessed 15th June 2023.
+
+[GitHubProfileTrophy] Ryota Sakamoto, GitHub Profile Trophy, 2020-2023. [https://github.com/ryo-ma/github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy) . Accessed 14th June 2023.
+
+[Rockstar] Avinash Sajjanshetty, Rockstar, 2015-2021. [https://github.com/avinassh/rockstar](https://github.com/avinassh/rockstar) . Accessed 14th June 2023.
+
+[GitHubStreakStats] Jonah Lawrence, Github Readme Streak Stats, v1.0.0, 2023. [https://github.com/DenverCoder1/github-readme-streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats) . Accessed 14th June 2023.
