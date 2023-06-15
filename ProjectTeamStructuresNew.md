@@ -1,29 +1,27 @@
 #### Project team structures
 
-Project teams working on research software may have different sizes, structures and approaches to how they undertake their work. Within a project, there may be only a single RSE undertaking software development and they may be based locally or within an RSE team. For individual developers based locally in research groups/teams, they may be classed as a researcher, even if the bulk of their work is software development. Alternatively, in a larger project, a group of RSEs may be involved - this group may, again, be based locally within a research group or team and the individuals may be classed as researchers, or it may be a group of RSEs from a departmental or central RSE team. In the context of an RSE team, RSEs may be working on multiple projects which can change the way that they plan and work on development tasks and the tools and approaches that they use.
+Project teams working on research software may have different sizes and structures, and different approaches to how they undertake their work. Within a project, there may be only a single RSE undertaking software development, based either locally or within an RSE team. For individual developers based locally in research groups/teams, they may be classed as a researcher, even if the bulk of their work is software development. Alternatively, in a larger project, a group of RSEs might be involved - these RSEs could be based locally within a research group or team and the individuals may be classed as researchers, or they could be a group of RSEs from a departmental or central RSE team. In the context of an RSE team, RSEs may be working on multiple projects which can change the way that they plan and work on development tasks and the tools and approaches that they use.
 
-In this table, we look at individual or team competencies and approaches to them, considering how these differ depending on whether the individual RSE/researcher or team of RSEs/researchers are based locally within a research team,
-or within something institutional, the departmental/central RSE team.
-We also look at organizational aspects in the context of each of the considered competencies since there are a variety of ways that organizations can contribute to and support them. We first summarise the meaning of each of the columns in the table:
+In this table, we look at individual or team competencies and approaches to them, considering how these differ depending on whether and RSE or researcher is working alone on a software project, or whether they are workign as part of a team of research software developers. We extend this to consider how things differ when a developer or group of developers are based locally within a research team or department, or when they are based in a dedicated RSE team. We also look at organizational aspects in the context of each of the considered competencies since there are a variety of ways that organizations can contribute to and support them. We first summarise the meaning of each of the columns in the table:
 
 - **Competency:** The code assigned to the competency being considered. See the list in **[Table ?????]**.
-- **Individual (Local):** A single person working on some research software - often a researcher with RSE skills.
-- **Individual (RSE team):** A single person working on research software - generally a professional RSE supporting another team's software single-handedly.
-- **Group (Local):** A group of RSEs/researchers within a research group or team, working together on developing software to support or undertake a single research goal/project.
-- **Group (RSE team):** A group of members of the RSE team working together on a research software project for a research group.
-- **Organization:** How the defined competencies are recognised and represented at organisational level.
+- **Individual developer (Locally-based):** A single person working on some research software - often a researcher with RSE skills.
+- **Individual developer (RSE team-based):** A single person working on research software - generally a professional RSE supporting another team's software single-handedly.
+- **Group of developers (Locally-based):** A group of RSEs/researchers within a research group or team, working together on developing software to support or undertake a single research goal/project.
+- **Group of developers (RSE team-based):** A group of members of the RSE team working together on a research software project for a research group.
+- **Organization-level support:** How the defined competencies are recognised and represented at organisational level.
 
 <table>
   <thead>
     <tr>
       <th rowspan="2">Competency</th>
-      <th colspan="2">Individual</th>
-      <th colspan="2">Group</th>
-      <th rowspan="2">Organization</th>
+      <th colspan="2">Working as an individual developer</th>
+      <th colspan="2">Working with a group of developers</th>
+      <th rowspan="2">Organization-level support</th>
     </tr>
     <tr>
-      <th>Local</th><th>RSE Team</th>
-      <th>Local</th><th>RSE Team</th>
+      <th>Locally-based</th><th>RSE Team-based</th>
+      <th>Locally-based</th><th>RSE Team-based</th>
     </tr>
   </thead>
   <tbody>
@@ -142,7 +140,7 @@ We also look at organizational aspects in the context of each of the considered 
       <td>May be able to support researchers with core technical skills.</td>
       
       <td>Sharing knowledge and skills within their group - peer support.</td>
-      <td>Often support teaching more widely, either through organised courses or ad hoc activities such as clinics(FIXME: Better word?).</td>
+      <td>Often support teaching more widely, either through organised courses or ad hoc activities such as "code clinics".</td>
       
       <td>Can run a range of teaching/training activities.</td>
     </tr>
@@ -168,6 +166,6 @@ We also look at organizational aspects in the context of each of the considered 
     </tr>
 </table>
 
-In the table above, we've looked at how different competencies can be related to and handled by researchers and RSEs working in different environments within an organisation and how the organisations themselves can contribute. We recognise that this is a challenging area to gain a detailed view of and that our content in the table is still a significant generalisation. We talk about Research Software Engineer as a single entity but as the field expands, there many roles and job titles emerging around the RSE concept, many of which fit under the wider umbrella of Research Technology Professionals (RTPs).
-The European Bioinformatics Institute (EMBL-EBI)'s BioExcel competency framework [**[BIOEXCEL-FRAMEWORK]**](https://competency.ebi.ac.uk/framework/bioexcel/3.0/carreer-profiles) provides some examples of different RSE-like computational roles.
+In the table above, we've looked at how different competencies can be related to and handled by researchers and RSEs working in different environments within an organisation and how the organisations themselves can contribute. We recognise that this is a challenging area to gain a detailed view of and that our content in the table is still a significant generalisation. We talk about the "Research Software Engineer" as a single entity but as the field expands, we expect to see more roles and job titles emerging around the RSE concept, many of which fit under the wider umbrella of Research Technology Professionals (RTPs).
+The European Bioinformatics Institute (EMBL-EBI)'s BioExcel competency framework [**[BIOEXCEL-FRAMEWORK]**](https://competency.ebi.ac.uk/framework/bioexcel/3.0/carreer-profiles) provides some examples of different RSE-like computational roles. Work by King's Digital Lab at King's College London also provides some examples of a range of different roles within the research software careers space [**[KDL-CAREERS](https://zenodo.org/record/2559235)**].
 
