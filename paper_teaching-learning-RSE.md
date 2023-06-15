@@ -416,6 +416,13 @@ journals rather than RSEs [ChueHong2013], [ChueHong2014], [Katerbow2018].
 Scientific journals have the advantage of reaching a large spectrum of
 research scientists at all stages of their career.
 
+Further ideas:
+- teaching RSE infrastructure in relevant undergraduate courses of domain scientists, e.g. in statistics [Reinhart2021], [Beckman2021], [CetinkayaRundel2018]
+- teach scientific software and research infrastructure early, e.g. in high school [Form2011], [Bain2020]
+- adapting Carpentries and CodeRefinery material [ENCCS2022] for RSEs from industry and HPC facilities
+- localizing RSE teaching material and RSE information in languages other than English, e.g. [Astigarraga2022], [ClementFontaine2019b], [Appel2021], [Haim2021] (FIXME: find more examples of teaching material)
+- making RSE best practice guides fun to read with memes or satire [Balaban2021], [Laginja2022], [Astigarraga2022], [Fehr2021]
+
 ## Organizational Infrastructures
 So we have defined our set of competencies that we feel every RSE should possess.
 Table 2 above nevertheless already hints at the fact that some RSE skills are required during the domain studies,
@@ -438,6 +445,7 @@ Currently, they are often teaching workshop like formats in research institution
 - Language barriers. This can range from the use of technical jargon up to the disparities of you teaching in a foreign language.
 - Setting up a feedback loop that facilitates a reflection of the workshop for the teacher.
 - staying up-to-date with fast-moving RSE topics.
+- Understanding the difficulties of students [Cereceda2020].
 
 
 #### What mindset makes up a good teacher
@@ -673,6 +681,30 @@ Therefore this closes the gap, that the research landscape requires RSEs, but th
 [Lamprecht2022] A-L. Lamprecht, C. Martinez-Ortiz, M. Barker, et al. What Do We (Not) Know About Research Software Engineering?. _Journal of Open Research Software_, 10(1), p.11. DOI: [https://doi.org/10.5334/jors.384](https://doi.org/10.5334/jors.384)
 
 [Landwehr2017] Carl Landwehr, Jochen Ludewig, Robert Meersman, David Lorge Parnas, Peretz Shoval, Yair Wand, David Weiss, Elaine Weyuker, Software Systems Engineering programmes a capability approach, [https://doi.org/10.1016/j.jss.2016.12.016](https://doi.org/10.1016/j.jss.2016.12.016)
+
+[Cereceda2020] Cereceda, Quinn, A graduate student perspective on overcoming barriers to interacting with open-source software. _FACETS_, 2020, 5, pp. 289-303. DOI: [10.1139/facets-2019-0020}](https://doi.org/10.1139/facets-2019-0020})
+
+[Balaban2021] Balaban, Grytten, Rand, Scheffer, Sandve, Ten simple rules for quick and dirty scientific programming. _PLOS Computational Biology_, 2021, 17(3), p. e1008549. DOI: [10.1371/journal.pcbi.1008549](https://doi.org/10.1371/journal.pcbi.1008549)
+
+[Laginja2022] Laginja, Robles, Barjot, Leboulleux, Jensen-Clem, Brooks, Moriarty, Connecting the astronomical testbed community - the CAOTIC project: optimized teaching methods for software version control concepts. In: "Adaptive Optics Systems VIII", p. 121853A, eds. Schreiber, Schmidt, Vernet. Volume 12185. SPIE, Bellingham, Washington, USA, 2022. ISBN: 9781510653528. DOI: [10.1117/12.2629483](https://doi.org/10.1117/12.2629483)
+
+[Reinhart2021] Reinhart, Genovese, Expanding the Scope of Statistical Computing: Training Statisticians to Be Software Engineers. _Journal of Statistics and Data Science Education_, 2021, 29, pp. S7-S15. DOI: [10.1080/10691898.2020.1845109](https://doi.org/10.1080/10691898.2020.1845109)
+
+[Beckman2021] Beckman, Çetinkaya-Rundel, Horton, Rundel, Sullivan, Tackett, Implementing Version Control With Git and GitHub as a Learning Objective in Statistics and Data Science Courses. _Journal of Statistics and Data Science Education_, 2021, 29(sup1), pp. S132-S144. DOI: [10.1080/10691898.2020.1848485](https://doi.org/10.1080/10691898.2020.1848485)
+
+[CetinkayaRundel2018] Çetinkaya-Rundel, Rundel, Infrastructure and Tools for Teaching Computing Throughout the Statistical Curriculum. _The American Statistician_, 2018, 72(1), pp. 58-65. DOI: [10.1080/00031305.2017.1397549](https://doi.org/10.1080/00031305.2017.1397549)
+
+[Form2011] Form, Lewitter, Ten Simple Rules for Teaching Bioinformatics at the High School Level. _PLoS Computational Biology_, 2011, 7, p. e1002243. DOI: [10.1371/journal.pcbi.1002243](https://doi.org/10.1371/journal.pcbi.1002243)
+
+[Bain2020] Bain, Meagher, Barker, Design, delivery and evaluation of a bioinformatics education workshop for 13-16-year-olds. _Journal of Biological Education_, 2020, 56, pp. 570-580.  DOI: [10.1080/00219266.2020.1858932](https://doi.org/10.1080/00219266.2020.1858932)
+
+[Astigarraga2022] Astigarraga, Cruz-Alonso, ¡Se puede entender cómo funcionan Git y GitHub! *Ecosistemas*, 2022, 31, p. 2332.  DOI: [10.7818/ecos.2332](https://doi.org/10.7818/ecos.2332)
+
+[ClementFontaine2019b] Clément-Fontaine et al. Encouraging a wider usage of software derived from research. Research Report. Comité pour la science ouverte, Nov. 2019. DOI: [10.52949/4](https://doi.org/10.52949/4) Translation of "Note d'opportunité sur la valorisation des logiciels issus de la recherche." Research Report. Comité pour la science ouverte, Nov. 2019. DOI: [10.52949/17](https://doi.org/10.52949/17)
+
+[Appel2021] Appel, Loewe, Forschungssoftware - Nachhaltige Entwicklung und Unterstützung. IAMO Policy Brief, Leibniz Institute of Agricultural Development in Transition Economies (IAMO), 2021. ISBN: 978-3-95992-124-4. [https://hdl.handle.net/10419/240937](https://hdl.handle.net/10419/240937)
+
+[Haim2021] Haim, Gütekriterien und Handlungsempfehlungen für die Entwicklung von Forschungssoftware in der Kommunikations- und Medienwissenschaft. _Medien & Kommunikationswissenschaft_, 2021, 69, pp. 65-79. DOI: [10.5771/1615-634x-2021-1-65](https://doi.org/10.5771/1615-634x-2021-1-65)
 
 [FedoraBadges] The Fedora Project, Fedora Badges, 2013-2023 [https://badges.fedoraproject.org/explore/badges](https://badges.fedoraproject.org/explore/badges) . Accessed 15th June 2023.
 
