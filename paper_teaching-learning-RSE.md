@@ -31,9 +31,9 @@ header-includes:
 Being an outcome of a community workshop held in Paderborn, Germany in February 2023 this paper tries 
 for the first time(FIXME: ? true?) to define which competencies are required to participate in modern digital sciences.
 Some of these competencies are required in more depth, therefore, giving rise to the trade of the RSE:
-scientific personnel that specializes in writing research software that facilitates research in all stages of the research cycle.
-Due to their generality, we explore these competencies in various contexts, and, being so general we believe them to be relevant also for domains outside of the RSE community.
-and elaborate on some examples for further specialization.
+scientific personnel that specializes in writing research software that facilitates work in all stages of the research cycle.
+Due to their generality, these competencies are often shared between RSE specializations,
+and we believe they are also relevant for domains outside of the RSE community.
 
 But knowing a set of competencies is not enough, therefore we discuss explicitly how to make people aware that these skills are
 required and how these are taught(FIXME: Do we want to add this pedagogical dimension?).
@@ -72,10 +72,18 @@ _[Information on key contributions to add]_
 _[Overview of paper sections to add]_
 
 ## Intended Target Audience
-While this paper came out from the deRSE23 conference we believe the formulated competencies in here to have far-reaching impact beyond the domain of RSE into adjacent fields of science.
+While this paper came out from the deRSE23 conference we believe the formulated competencies
+in here to have far-reaching impact beyond the domain of RSE into adjacent fields of science.
 The most obvious examples are computer science, programmers in HPC and research data management.
-But also the traditional STEM sciences that focus on generating more graduates with a software focus or people that traditionally find jobs in the libraries or compute centers.
-Also funders and research managers can profit from the discussion in this paper in order to observe how software development in academia will be institututionalized.
+But also the traditional STEM sciences that focus on generating more graduates with
+a software focus or people who traditionally find jobs in the libraries or compute centers.
+With the increasing availability and accessibility of cluster resources to academic staff,
+and the growing pressure from funding agencies to prioritize projects that generate
+archived, annotated, re-usable and potentially remotely executable data,
+RSEs become a vital link to cross-pollinate computational skills and
+infrastructure know-how between domain scientists.
+Also funders and research managers can profit from the discussion in this paper in
+order to observe how software development in academia will be institutionalized.
 
 ## Related Work and Activities
 
@@ -385,8 +393,19 @@ interacting with job scheduling systems that are often used on HPC clusters to
 manage the queuing and running of computational tasks. HPC-focused RSEs may be
 involved with managing HPC infrastructure at the hardware or software level (or
 both) and understand how to calculate the environmental impact of large-scale
-computations. Their knowledge of how to run HPC jobs can be vitally important to
-researchers wanting to make use of HPC infrastructure.
+computations. Their knowledge of how to run HPC jobs and write successful HPC
+access proposals can be vitally important to researchers wanting to make use of
+HPC infrastructure.
+
+They may also be familiar with High-Throughput Computing (HTC) and manage
+a network of heterogeneous compute resources, typically desktop workstations
+equipped with multicore processors and possibly GPU accelerators.
+They can apply their node-level performance engineering skills to maximize
+utilization of the available resources.
+Finally, they typically have expert knowledge in at least one compiled language,
+and can assist domain scientists who have excellent command of scripting languages
+but only a cursory understanding of compiled languages get up to speed with
+compiled software.
 
 #### Research Infrastructure RSE
 This RSE is interested in SysOps and sets up infrastructures for and with researchers.
