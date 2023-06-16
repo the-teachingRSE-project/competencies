@@ -58,7 +58,7 @@ The challenges of understanding the current state of skills within the research 
 
 ### Identifying skills and pathways
 
-As an area that generally requires a range of advanced skills, High Performance Computing (HPC) is one field where there is ongoing work to identify relevant sets of skills for HPC practitioners and potential paths to develop these skills. The HPC Certification Forum has developed a "competence standard" (CS) for HPC that defines a range of skills and how they are related in the context of a skill tree [@HPC-CF Competencies], [@Kunkel2020a], [@Kunkel2020b]. This competence standard is currently being built upon by the CASTIEL 2 [@CASTIEL2] project in collaboration with initiatives funded by the European High Performance Computing Joint Undertaking (EuroHPC JU) to create a framework for HPC certification [@EuroHPCJU2023]. Also looking at pathways and how different skills are related, the UNIVERSE-HPC project [@UNIVERSE-HPC], funded under the UK's ExCALIBUR research programme [@EXCALIBUR], is looking to understand and develop training pathways to support the development of specialist skills in the HPC and exascale domains. The project is gathering open source training materials to develop curricula that support the training pathways that are underpinned by high-quality training materials.
+As an area that generally requires a range of advanced skills, High Performance Computing (HPC) is one field where there is ongoing work to identify relevant sets of skills for HPC practitioners and potential paths to develop these skills. The HPC Certification Forum has developed a "competence standard" (CS) for HPC that defines a range of skills and how they are related in the context of a skill tree [@HPCCFCompetencies], [@Kunkel2020a], [@Kunkel2020b]. This competence standard is currently being built upon by the CASTIEL 2 [@CASTIEL2] project in collaboration with initiatives funded by the European High Performance Computing Joint Undertaking (EuroHPC JU) to create a framework for HPC certification [@EuroHPCJU2023]. Also looking at pathways and how different skills are related, the UNIVERSE-HPC project [@UNIVERSE-HPC], funded under the UK's ExCALIBUR research programme [@EXCALIBUR], is looking to understand and develop training pathways to support the development of specialist skills in the HPC and exascale domains. The project is gathering open source training materials to develop curricula that support the training pathways that are underpinned by high-quality training materials.
 
  - There are some projects / papers looking at skills pathways - if we're going to include a separate section on related work, as proposed here, this should probably be expanded to include more of this content?
  - FIXME: include the ELIXIR part here
@@ -68,11 +68,11 @@ As an area that generally requires a range of advanced skills, High Performance 
 A wide range of software-related training materials and supporting organisations exist within the research software community and beyond.
 
 #### The Carpentries
-The Carpentries [@The Carpentries] is a non-profit entity that supports a range of open source training materials and international communities of volunteer instructors and helpers who run courses around these materials.
+The Carpentries [@Carpentries] is a non-profit entity that supports a range of open source training materials and international communities of volunteer instructors and helpers who run courses around these materials.
 The community also maintains the materials which are based around three core syllabuses - Software Carpentry, Data Carpentry and Library Carpentry.
 The training materials within these areas have been developed, reviewed and enhanced over several years ensuring that they represent best practice in training on these topics.
 The core Carpentries lessons are targeted primarily at the beginner level.
-However, the Carpentries Incubator [@Carpentries Incubator] provides an environment for hosting additional community-developed training modules covering a wide range of other topics that have not gone through the peer review process of the core lessons.
+However, the Carpentries Incubator [@CarpentriesIncubator] provides an environment for hosting additional community-developed training modules covering a wide range of other topics that have not gone through the peer review process of the core lessons.
 The material in the Incubator increasingly includes more intermediate-level training modules.
 
 #### Coderefinery
