@@ -6,6 +6,8 @@ output:
     toc: true
     number_sections: true
 bibliography: bibliography.bib
+header-includes:
+    - \PassOptionsToPackage{style=alphabetic,backend=biber,giveninits=true}{biblatex}
 ---
 ## Working Title: Identifying core competencies of an RSE and an application with a sample curriculum.
 
