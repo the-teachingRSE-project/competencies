@@ -1,4 +1,27 @@
-# Teaching and Learning Research Software Engineering
+---
+title: "Teaching and Learning Research Software Engineering"
+geometry: margin=2.5cm
+author:
+  - Heidi Seibold
+  - Florian Goth
+  - Jan Linxweiler
+  - Jan Philipp Thiele
+  - Jeremy Cohen
+  - Renato Alves
+  - Samatha Wittke
+  - Jean-Noël Grad
+  - Fredo Erxleben
+output:
+  pdf_document:
+    citation_package: biblatex
+    toc: true
+    number_sections: true
+bibliography: bibliography.bib
+header-includes:
+    - \usepackage{pdflscape}
+    - \newcommand{\blandscape}{\begin{landscape}}
+    - \newcommand{\elandscape}{\end{landscape}}
+---
 ## Working Title: Identifying core competencies of an RSE and an application with a sample curriculum.
 
 ---
@@ -32,7 +55,8 @@ Computers and software have played a key role in the research lifecycle for many
 
 With the ability to capture and process ever more data, undertake larger scale, higher resolution simulations and, increasingly, automate complex tasks through Artificial Intelligence and Machine Learning approaches, computers and software are now vital elements of the research process across almost all domains. However, this shift means that there is a much greater need for core research software skills across a vast array of research fields where these were not previously required.
 
-The people who focus on writing research software are now known as Research Software Engineers (RSEs) - a term that was coined a little over 10 years ago [Hettrick2016].  RSEs may work within one of the many Research Software Engineering teams that have been set up at universities and research organisations over the last decade, or they may be embedded within a research team. They may have a job title that officially recognises them as an RSE, or they may have a standard research or technical job title such as Research Assistant, Research Fellow or Software Engineer. Regardless of their job title, RSEs share a set of core skills that are required to write software, understand the research environment and ensure that they produce sustainable, maintainable code that supports reproducible research outputs.
+The people who focus on writing research software are now known as Research Software Engineers (RSEs) - a term that was coined a little over 10 years ago [@Hettrick2016].
+RSEs may work within one of the many Research Software Engineering teams that have been set up at universities and research organisations over the last decade, or they may be embedded within a research team. They may have a job title that officially recognises them as an RSE, or they may have a standard research or technical job title such as Research Assistant, Research Fellow or Software Engineer. Regardless of their job title, RSEs share a set of core skills that are required to write software, understand the research environment and ensure that they produce sustainable, maintainable code that supports reproducible research outputs.
 In order to do so the draw upon skills from traditional software engineering, established research culture and a commitment to being part of a team.
 
 Developing and maintaining these skills is time consuming and often challenging. Part of the challenge is that there is not a standard pathway to becoming an RSE and, partly as a result of this, there is something of an ad hoc approach to training within the community. We also see increasing amounts of basic-level training materials that are great to put researchers or technical professionals on a path towards gaining significant RSE expertise, but the trail often ends as developing RSEs want to progress to intermediate and advanced level material. In particular, recent technology developments are ensuring that there is a growing need for specialist expertise, for example in areas such as making efficient use of high-performance computing infrastructure. This is an area where there is a skills shortage and a shortage of training materials.
@@ -49,13 +73,13 @@ The challenges of understanding the current state of skills within the research 
 
 ### Identifying skills and pathways
 
-As an area that generally requires a range of advanced skills, High Performance Computing (HPC) is one field where there is ongoing work to identify relevant sets of skills for HPC practitioners and potential paths to develop these skills. The HPC Certification Forum has developed a "competence standard" (CS) for HPC that defines a range of skills and how they are related in the context of a skill tree [HPC-CF Competencies], [Kunkel2020a], [Kunkel2020b]. This competence standard is currently being built upon by the CASTIEL 2 [CASTIEL2] project in collaboration with initiatives funded by the European High Performance Computing Joint Undertaking (EuroHPC JU) to create a framework for HPC certification [EuroHPCJU2023]. Also looking at pathways and how different skills are related, the UNIVERSE-HPC project [UNIVERSE-HPC], funded under the UK's ExCALIBUR research programme [EXCALIBUR], is looking to understand and develop training pathways to support the development of specialist skills in the HPC and exascale domains. The project is gathering open source training materials to develop curricula that support the training pathways that are underpinned by high-quality training materials.
+As an area that generally requires a range of advanced skills, High Performance Computing (HPC) is one field where there is ongoing work to identify relevant sets of skills for HPC practitioners and potential paths to develop these skills. The HPC Certification Forum has developed a "competence standard" (CS) for HPC that defines a range of skills and how they are related in the context of a skill tree [@HPCCFCompetencies], [@Kunkel2020a], [@Kunkel2020b]. This competence standard is currently being built upon by the CASTIEL 2 [@CASTIEL2] project in collaboration with initiatives funded by the European High Performance Computing Joint Undertaking (EuroHPC JU) to create a framework for HPC certification [@EuroHPCJU2023]. Also looking at pathways and how different skills are related, the UNIVERSE-HPC project [@UNIVERSEHPC], funded under the UK's ExCALIBUR research programme [@EXCALIBUR], is looking to understand and develop training pathways to support the development of specialist skills in the HPC and exascale domains. The project is gathering open source training materials to develop curricula that support the training pathways that are underpinned by high-quality training materials.
 
 - There are some projects / papers looking at skills pathways
 - if we're going to include a separate section on related work, as proposed here,
   this should probably be expanded to include more of this content?
-- [Cosden2022]
-- [Hannay2009] skill gaps (fig 1)
+- [@Cosden2022b]
+- [@Hannay2009] skill gaps (fig 1)
 - FIXME: include the ELIXIR part here
 
 ### RSE-related Training Materials
@@ -63,15 +87,15 @@ As an area that generally requires a range of advanced skills, High Performance 
 A wide range of software-related training materials and supporting organisations exist within the research software community and beyond.
 
 #### The Carpentries
-The Carpentries [The Carpentries] is a non-profit entity that supports a range of open source training materials and international communities of volunteer instructors and helpers who run courses around these materials.
+The Carpentries [@Carpentries] is a non-profit entity that supports a range of open source training materials and international communities of volunteer instructors and helpers who run courses around these materials.
 The community also maintains the materials which are based around three core syllabuses - Software Carpentry, Data Carpentry and Library Carpentry.
 The training materials within these areas have been developed, reviewed and enhanced over several years ensuring that they represent best practice in training on these topics.
 The core Carpentries lessons are targeted primarily at the beginner level.
-However, the Carpentries Incubator [Carpentries Incubator] provides an environment for hosting additional community-developed training modules covering a wide range of other topics that have not gone through the peer review process of the core lessons.
+However, the Carpentries Incubator [@CarpentriesIncubator] provides an environment for hosting additional community-developed training modules covering a wide range of other topics that have not gone through the peer review process of the core lessons.
 The material in the Incubator increasingly includes more intermediate-level training modules.
 
 #### Coderefinery
-[CodeRefinery] is a project currently funded by the Nordic e-Infrastructure and thus active primarily in the Nordics with the goal of teaching essential tools around research software development, that are usually skipped in academic education.
+[@CodeRefinery] is a project currently funded by the Nordic e-Infrastructure and thus active primarily in the Nordics with the goal of teaching essential tools around research software development, that are usually skipped in academic education.
 CodeRefinery hosts a set of open source training materials including both beginner and intermediate level material and organizes multiple highly interactive large scale workshops per year.
 Skills learned from the workshops and/or materials allow researchers to produce more reproducible, open and efficient software and thus promote FAIR research practices.
 One goal of the project is to evolve into a community project that seamlessly integrates with other initiatives. FIXME: elaborate on the integration part if it's relevant, else leave out.
@@ -82,39 +106,39 @@ of published papers with the methods described there or ideally with the softwar
 FIXME: This is applied FAIR principles elaborate a bit on why this is related for RSE competencies? Or do we want to make the point, that this teaches reproducible science?
 
 #### PRACE
-The Partnership for Advanced Computing in Europe (PRACE) [PRACE] offers training
+The Partnership for Advanced Computing in Europe (PRACE) [@PRACE] offers training
 in the form of massive open online courses (MOOCs), online and on-site training
 events at European HPC facilities (aggregated on various websites, e.g. EuroCC
-Training [EuroCCTraining]), and white papers. While most training events are
+Training [@EuroCCTraining]), and white papers. While most training events are
 tailored for HPC-RSE, several recurring courses about programming languages
 (C++, Fortran, Python) are suitable for general RSEs, as they teach coding
-best practices, modern software design [LRZModernCpp], project management and
-version control [LRZIntroCpp].
+best practices, modern software design [@LRZModernCpp], project management and
+version control [@LRZIntroCpp].
 
 #### Helmholtz
-As part of its push towards a better RSE environment, the Helmholtz Association launched the [Helmholtz Federated IT Services] platform which provides educational material and trainings amongst other services for an audience of over 10.000 scientists in Germany and internationally.
+As part of its push towards a better RSE environment, the Helmholtz Association launched the [@HIFIS] platform which provides educational material and trainings amongst other services for an audience of over 10.000 scientists in Germany and internationally.
 All of these materials focus on RSE basics to refresh and expand the software engineering knowledge for recent graduates or to update the existing knowledge in established researchers.
 They are published under OER licenses and can serve as either self-learning instructions or form the basis of a hands-on training.
-To allow these educational offers to be easier brought to the scientists, the [Helmholtz Information & Data Science Academy] sustains a large network within the Helmholtz Association and beyond with a strong focus on graduate schools.
-Further RSE training offers within the Helmholtz context are provided by the [Helmholtz AI] and [Helmholtz Imaging] platforms as well as the [Helmholtz Metadata Collaboration].
+To allow these educational offers to be easier brought to the scientists, the [@HIDA] sustains a large network within the Helmholtz Association and beyond with a strong focus on graduate schools.
+Further RSE training offers within the Helmholtz context are provided by the [@HAI] and [@HImaging] platforms as well as the [@HMC].
 
 #### Open Source Resources
 Due to the ever-evolving nature of skills and infrastructure in the RSE field,
 training material is often version-controlled, so that trainers can update it
 between iterations. For example, core lessons from the Carpentries and CodeRefinery
 are stored on GitHub, and any change is automatically mirrored to their website.
-Likewise, the reference work on RSE by Fogel [Fogel2005] was released in its
-second edition as a living document [Fogel2017].
+Likewise, the reference work on RSE by Fogel [@Fogel2005] was released in its
+second edition as a living document [@Fogel2017].
 
-Reference works are also available for self-study [Fogel2005], [Irving2021].
+Reference works are also available for self-study [@Fogel2005], [@Irving2021].
 
-The National Competence Center Sweden (ENCCS) [ENCCS] provides instructor training material [ENCCSInstructorTraining], [ENCCS2022] developed from Carpentries and CodeRefinery material, as well as lessons for HPC-oriented RSEs [ENCCSLessons].
+The [National Competence Center Sweden (ENCCS)](https://enccs.se/) provides instructor training material [@ENCCSInstructorTraining], [@ENCCS2022] developed from Carpentries and CodeRefinery material, as well as lessons for HPC-oriented RSEs [@ENCCSLessons].
 
-The [Intersect] project ....
+The [Intersect](https://intersect-training.org/) project ....
 
-[Better Scientific Software (BSSW)] ...
+[Better Scientific Software (BSSW)](https://bssw.io/) ...
 
-SSI? [Crouch2013] ...
+[Software Sustainability Institute (SSI)](https://www.software.ac.uk/) [@Crouch2013] ...
 
 
  - FIXME: Add NFDI initiatives like edutrain.
@@ -141,7 +165,7 @@ We elaborate on some facets in tables.
 
 #### Software Engineering Skills
 There are lots of software engineering curricula out there, that try to define which tasks a software engineer should be able to perform.
-A recent one highlighting some aspects in more detail than what we are doing here is (Landwehr2017).
+A recent one highlighting some aspects in more detail than what we are doing here is [@Landwehr2017].
 
 #### Creating documented code building blocks (DOCBB)
 The RSE should be able to create building blocks from source code that are reusable. This ranges from simple libraries of functions up to complex architectures consisting of multiple softwares.
@@ -188,7 +212,7 @@ Apart from the functionality, licensing, integration with other software and exp
 Finally, after obtaining results by modifying and/or using the software, it has to be ensured that the original authors get the proper attribution.
 
 #### Use Domain repositories/directories (DOMREP)
-Almost all Research software is developed within a specific scientific domain.
+Almost all research software is developed within a specific scientific domain.
 Some software may be able to cross boundaries, but the majority will have a home domain, with which it needs to be able to interact.
 Especially for data-driven research having software that is able to use existing sets and repositories is a valuable part.
 The RSE should be able to interact with the repositories of this specific domain.
@@ -203,7 +227,8 @@ etc. to be able to implement software that is up-to-date with the body of knowle
 #### Team Skills
 #### Teaching (TEACH)
 Working in a group means being able to effectively perform e.g. onboarding, or more formal teaching procedures to their colleagues.
-We deliberately mention, that giving code reviews is also part of teaching.
+This includes tasks such as consulting and mentoring since these also often aim at educating people.
+We deliberately mention, that giving code reviews is also part of this skill, since
 Code review can be part of teaching people on improving their skills.
 
 #### Project Management (PM)
@@ -224,7 +249,7 @@ Among the top five things mentioned were:
 - When or why to keep repositories private. This decision requires knowledge in the RC, to understand when it makes sense, USERS and TEAM in order to do accepted decisions and sometimes LEG. This requires domain and location knowledge in the sense that one should know what the practices of ones own institution are.
 - Proper Development. This broad topic requires all of the SE skills. Of course these are the competencies that are the most fluid since they have to adapt at a high rate to the technological advancements. Additionally proper SE skills often require knowledge of TEAM, and PM.
 Today this means effective use of IDEs, static analysis tools, design patterns, documentation (for oneself and others), etc. 
-- Finding a community. This can be interpreted in two different facets. First we have the aspect of community building for a research project. Since this deals with software that is supposed to be used in research this requires knowledge of RC, USERS, and also NEW, in order to effectively interact with domain scientists. Today, an example is a presence on social media. The other TEAM-related aspect is the embedding of RSE graduates into the community of RSEs. We envision our RSE graduates to be a part in a strong network of other RSEs, tool-related communities and the classical domain communities. This point is further elaborated in **How do we reach people in different stages of their careers**(link)
+- Finding a community. This can be interpreted in two different facets. First we have the aspect of community building for a research project. Since this deals with software that is supposed to be used in research this requires knowledge of RC, USERS, and also NEW, in order to effectively interact with domain scientists. Today, an example is a presence on social media. The other TEAM-related aspect is the embedding of RSE graduates into the community of RSEs. We envision our RSE graduates to be a part in a strong network of other RSEs, tool-related communities and the classical domain communities. This point is further elaborated in [How do we reach people in different stages of their careers](#how-do-we-reach-people-in-different-stages-of-their-careers)
 
 
 ### How much do different people need to know?
@@ -240,6 +265,8 @@ At different career levels, differing skills are required. We have set this up a
 
 The required skills are distributed according to this table
 First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (less -> lot)
+
+\blandscape
 
 |       | Junior | Senior | Principal RSE(brings in funding)  |
 | ----  | ------ | ------ | --- |
@@ -257,6 +284,8 @@ First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (l
 | TEACH | should be able to perform simple peer-to-peer onboarding tasks | should be able to explain logical components to other RSEs | Should be able to effectively communicate about all large-scale parts of the project. |
 | PM    | Awareness about the employed project managemement method | Should be able to use the employed PM method | Should be able to design and adapt the employed PM method. |
 | TEAM  | Should be able to work in the team in order to effectively fulfill the given tasks. Should be able to learn from code review. | Should be able to break down tasks into more easily digestable sub-tasks | Should be able to lead the team and set the respective direction. |
+
+\elandscape
 
 #### Academic Progression / Career Path? (Help me for better title) 
 Modern digital science requires some digital proficiency at every level.
@@ -278,6 +307,8 @@ Additionally, this table tries to cover all domains that rely on software tools 
 Certain fields, e.g. sciences relying on simulations, might require higher skill levels in the SE competencies 
 as software development is a large part of their actual research.
 
+\blandscape
+
 |       | Bachelor | Master | PhD | PostDoc | PI/Professor | 
 | ----  | ------ | ------ | ---   | ------  | ---|
 | DOCBB | They should be aware that RSEs exist and that software has different quality aspects | Same as Bachelor | They should know where they can get help, and maybe able to use libraries | same as PhD | They should know the skills of an RSE and when they might need one in their group |
@@ -295,6 +326,7 @@ as software development is a large part of their actual research.
 | PM    | Awareness about project management optional | Awareness that research teams are structured according to some project management   | same as Master, or more depending on structure of research |  same as PhD | Should know about the required project management they require for their group |
 | TEAM  | Awareness that research is often performed in groups | Ability to work in their group for doing their master's thesis | same as master |  same as master | Should be able to lead a research team |
 
+\elandscape
 
 #### Project team Size
 Some explanation of the team sizes:
@@ -302,6 +334,8 @@ Some explanation of the team sizes:
 - individual: A single person working on their research software
 - Small team(~4 persons) This is a small team, that has decided to work together on something
 - Organizations( >10 persons): These are big organizations with clear structures and a bigger degree of specialization.
+
+\blandscape
 
 |       | individual | small team | organization  |
 | ----  | ------ | ------ | --- |
@@ -320,9 +354,11 @@ Some explanation of the team sizes:
 | PM    |   Not much required  |  able to follow checklist     | Working with PM tools, or use them for organization |
 | TEAM  |   N/A    |   should be able to give equal feedback to their colleagues    | should be able to work within their role |
 
+\elandscape
+
 Bonus points may be distributed if managing teams remotely
 
-https://competency.ebi.ac.uk/framework/bioexcel/3.0/carreer-profiles
+[BIO Excel framework](https://competency.ebi.ac.uk/framework/bioexcel/3.0/carreer-profiles)
 
 ### RSE specializations
 What we have defined above are intended to be base skills that an RSE irrespective of domain, place, and time should know about.
@@ -413,19 +449,20 @@ is of utmost importance we envision compulsory events introducing that to young 
 
 Short primers on RSE skills, infrastructure and good coding practices
 can be found in field-specific scientific articles and conference proceedings,
-such as [Roberts1969], [Baxter2006], [Prlic2012], [Leprevost2014], [Wilson2014],
-[Stodden2014], [Crusoe2016], [Crick2017], [Fehr2021], [Grossfield2022], some of
+such as [@Roberts1969; @Baxter2006; @Prlic2012; @Leprevost2014; @Wilson2014;
+@Stodden2014; @Crusoe2016; @Crick2017; @Fehr2021; @Grossfield2022], some of
 which are specifically tailored to group leaders, institutions and scientific
-journal editors rather than RSEs [ChueHong2013], [ChueHong2014], [Katerbow2018], [Strasser2022].
+journal editors rather than RSEs [@ChueHong2013; @ChueHong2014; @Katerbow2018; @Strasser2022].
 Scientific journals have the advantage of reaching a large spectrum of
 research scientists at all stages of their career.
 
 Further ideas:
-- teaching RSE infrastructure in relevant undergraduate courses of domain scientists, e.g. in statistics [Reinhart2021], [Beckman2021], [CetinkayaRundel2018]
-- teach scientific software and research infrastructure early, e.g. in high school [Form2011], [Bain2020]
-- adapting Carpentries and CodeRefinery material [ENCCS2022] for RSEs from industry and HPC facilities
-- localizing RSE teaching material and RSE information in languages other than English, e.g. [Astigarraga2022], [ClementFontaine2019b], [Appel2021], [Haim2021] (FIXME: find more examples of teaching material)
-- making RSE best practice guides fun to read with memes or satire [Balaban2021], [Laginja2022], [Astigarraga2022], [Fehr2021]
+
+- teaching RSE infrastructure in relevant undergraduate courses of domain scientists, e.g. in statistics [@Reinhart2021; @Beckman2021; @CetinkayaRundel2018]
+- teach scientific software and research infrastructure early, e.g. in high school [@Form2011; @Bain2020]
+- adapting Carpentries and CodeRefinery material [@ENCCS2022] for RSEs from industry and HPC facilities
+- localizing RSE teaching material and RSE information in languages other than English, e.g. [@Astigarraga2022; @ClementFontaine2019b; @Appel2021; @Haim2021] (FIXME: find more examples of teaching material)
+- making RSE best practice guides fun to read with memes or satire [@Balaban2021; @Laginja2022; @Astigarraga2022; @Fehr2021]
 
 ## Organizational Infrastructures
 So we have defined our set of competencies that we feel every RSE should possess.
@@ -442,14 +479,14 @@ There are already some people out there who are teaching RSE related topics some
 The community discussion shed some light on the issues our trainers are facing now.
 Currently, they are often teaching workshop like formats in research institutions.
 
-- There are outreach issues. We emphasize that there are two dimensions to this: First it is important that we inform students that workshops exist, and then, the more important part, we also need to motivate people to invest the time for a workshop. [EuroCC2022]
+- There are outreach issues. We emphasize that there are two dimensions to this: First it is important that we inform students that workshops exist, and then, the more important part, we also need to motivate people to invest the time for a workshop. [@EuroCC2022]
 - Adaptation of material to the target audience has been identified as a time consuming task.
 - Organization and preparation is a challenge, since currently no standardized formats exist.
 - Expectation management of students. Existing knowledge of students is often diverse.
 - Language barriers. This can range from the use of technical jargon up to the disparities of you teaching in a foreign language.
 - Setting up a feedback loop that facilitates a reflection of the workshop for the teacher.
 - staying up-to-date with fast-moving RSE topics.
-- Understanding the difficulties of students [Cereceda2020].
+- Understanding the difficulties of students [@Cereceda2020].
 
 
 #### What mindset makes up a good teacher
@@ -506,17 +543,17 @@ the public display of user activity are usually limited to basic statistics,
 such as the number of commits or merge requests, but provide APIs to collect
 this data and process it into more helpful metrics.
 
-Digital badges [Fanfarelli2015], [McDaniel2016] are increasingly popular,
+Digital badges [@Fanfarelli2015; @McDaniel2016] are increasingly popular,
 from personal badges rewarding contributions to a specific community,
 or project badges highlighting coding practices, e.g. code coverage,
 continuous integration status, or code quality indicators.
-The Fedora community developed a significant body of personal badges [FedoraBadges]
+The Fedora community developed a significant body of personal badges [@FedoraBadges]
 that reward contributions to open source software documentation, podcasts, conferences,
 and code maintenance in the form of bugfixes, security fixes, code reviews and package releases.
-The official GitHub Achievements [GitHubProfileAchievements] reward social behavior,
+The official GitHub Achievements [@GitHubProfileAchievements] reward social behavior,
 such as the number of merge requests, the number of commits with co-authors,
 or the number of answered questions.
-The GitHub user community also created unofficial trophies [GitHubProfileTrophy]
+The GitHub user community also created unofficial trophies [@GitHubProfileTrophy]
 to highlight additional metrics, such as the number of repositories and opened tickets,
 with a ranking system to introduce competition between users.
 
@@ -524,16 +561,17 @@ By default, platforms like GitHub and GitLab display the commit activity on user
 in the form of a color-coded chart that measures the number of commits per day.
 This statistic doesn't reflect the number of lines of code changed by a commit,
 nor the nature of the change (bugfix, maintenance, documentation, etc.), and
-can easily be gamed by automated tools [Rockstar], making its usefulness as a
+can easily be gamed by automated tools [@Rockstar], making its usefulness as a
 performance indicator debatable.
 Yet, its ubiquity on personal pages and the lack of more objective metrics makes
 it a de facto standard. The presence of this indicator can steer RSE behavior,
 potentially in a counter-productive way since it priviledges quantity over quality.
-For example, users can engage in contribution "streaking" to pad the chart [Moldon2021] and
-compete with other users via custom badges displaying their streaking performance [GitHubStreakStats].
+For example, users can engage in contribution "streaking" to pad the chart [@Moldon2021] and
+compete with other users via custom badges displaying their streaking performance [@GitHubStreakStats].
 
 miscellaneous:
-- [Badreddin2019] for designing new metrics
+
+- [@Badreddin2019] for designing new metrics
 
 #### A possible graduation path within the classical university structures
 We have put forward the idea that familiarity with research is a prerequisite for an RSE in order to be able to work effectively in the research space and in collaboration with researchers. In this particular example, we consider a path into RSE via a traditional university route involving Bachelors and Masters degree studies that include an RSE element. However, we recognise that there are other routes into an RSE career and these are increasing. For example, some RSEs come from an industry background, others may come through apprenticeship or similar programmes. In both cases, gaining knowledge of the research lifecycle and understanding the ways that researchers work towards solutions to research challenges is something that can be developed on-the-job alongside training opportunities and the chance to work directly with researchers.
@@ -566,6 +604,7 @@ Where appropriate similar programs should also be established in other domains.
 ## Required Next steps
 ### Implementation Strategies
 - Ideally over time scientific software engineering becomes part of the curricula at universities 
+
 #### Academic Considerations
 - Awareness of existing teaching programs
 - "Branded" Add-on courses
@@ -590,143 +629,3 @@ Therefore this closes the gap, that the research landscape requires RSEs, but th
 
 ### An example of a possible career path
 - We can follow Kim, who has been the protagonist of the original deRSE Paper.
-
-
-## References
-
-[HPC-CF Competencies] The HPC Certification Forum, Competencies. [https://www.hpc-certification.org/cs/](https://www.hpc-certification.org/cs/). Accessed 16th March 2023.
-
-[UNIVERSE-HPC] UNIVERSE-HPC: Understanding and Nurturing an Integrated Vision for Education in RSE and HPC. [https://www.universe-hpc.ac.uk](https://www.universe-hpc.ac.uk). Accessed 16th March 2023.   _(new URL not yet active, currently at https://universe-hpc.github.io/)_
-
-[EXCALIBUR] ExCALIBUR - Exascale Computing ALgorithms & Infrastructures Benefiting UK Research. [https://excalibur.ac.uk/](https://excalibur.ac.uk/). Accessed 17th March 2023.
-
-[The Carpentries] The Carpentries. [https://carpentries.org/](https://carpentries.org/). Accessed 16th March 2023.
-
-[Carpentries Incubator] The Carpentries Incubator. [https://carpentries-incubator.org/](https://carpentries-incubator.org/). Accessed 16th March 2023.
-
-[CodeRefinery] CodeRefinery. [https://coderefinery.org/](https://coderefinery.org/).  Accessed 16th March 2023.
-
-[Better Scientific Software] BSSW [https://bssw.io/](https://bssw.io/) . Accessed 30th March 2023.
-
-[Intersect] project [https://intersect-training.org/](https://intersect-training.org/). Accessed 30th March 2023.
-
-
-[PRACE] Partnership for Advanced Computing in Europe. [https://prace-ri.eu/](https://prace-ri.eu/). Accessed 8th June 2023.
-
-[EuroCCTraining] EuroCC Training. [https://www.eurocc-access.eu/services/training/](https://www.eurocc-access.eu/services/training/). Accessed 8th June 2023.
-
-[ENCCS] National Competence Center Sweden. [https://enccs.se/](https://enccs.se/). Accessed 6th June 2023.
-
-[ENCCSInstructorTraining] ENCCS instructor training. [https://enccs.github.io/instructor-training/](https://enccs.github.io/instructor-training/). Accessed 6th June 2023.
-
-[ENCCSLessons] ENCCS lessons. [https://enccs.github.io/instructor-training/enccs-lessons/](https://enccs.github.io/instructor-training/enccs-lessons/). Accessed 6th June 2023.
-
-[ENCCS2022] ENCCS, ENCCS Instructor Training, EuroCC National Competence Center Sweden, Training Material to Train the Trainer, November 2022. Available at [https://www.eurocc-access.eu/wp-content/uploads/2022/12/EuroCC_NCC_Sweden_instructor_training_workshop.pdf](https://www.eurocc-access.eu/wp-content/uploads/2022/12/EuroCC_NCC_Sweden_instructor_training_workshop.pdf). Accessed 5th June 2023.
-
-[LRZIntroCpp] C. Guillen, C. Navarrete, Introduction to C++, annual course, Leibniz Supercomputing Centre [https://doku.lrz.de/2022-09-21-introduction-to-c++-hcpb2s22-11497182.html](https://doku.lrz.de/2022-09-21-introduction-to-c++-hcpb2s22-11497182.html). Accessed 8th June 2023.
-
-[LRZModernCpp] K. Iglberger, Modern C++ Software Design, annual course, Leibniz Supercomputing Centre, [https://doku.lrz.de/2022-10-26-modern-c++-software-design-hcpa1w22-11497188.html)(https://doku.lrz.de/2022-10-26-modern-c++-software-design-hcpa1w22-11497188.html). Accessed 8th June 2023.
-
-[Kunkel2020a] J. Kunkel, W. Filinger, C. Meesters, A. Gerbes, The HPC Certification Forum: Toward a Globally Acknowledged HPC Certification, _Computing in Science & Engineering_, 22(4), pp. 110-114, 2020. DOI: [10.1109/MCSE.2020.2996073](https://doi.org/10.1109/MCSE.2020.2996073)
-
-[Kunkel2020b] J. M. Kunkel, K. Himstedt, W. Filinger, J.-T. Acquaviva, A. Gerbes, L. Lafayette, One Year HPC Certification Forum in Retrospective, _Journal of Computational Science Education_, 11(1), pp. 29-35, 2020. DOI: [10.22369/issn.2153-4136/11/1/6](https://doi.org/10.22369/issn.2153-4136/11/1/6)
-
-[EuroHPCJU2023] Governing Board of the EuroHPC Joint Undertaking, "Amending the Joint Undertaking's Work Programme and Budget for the year 2023 (Work Programme and Budget Amendment no. 1)", EuroHPC Joint Undertaking, EuroHPC JU Decision No 03/2023, March 2023. Available at [https://eurohpc-ju.europa.eu/system/files/2023-03/Decision%203.2023.-%201st%20Amendment%20WP%202023.pdf](https://eurohpc-ju.europa.eu/system/files/2023-03/Decision%203.2023.-%201st%20Amendment%20WP%202023.pdf). Accessed 5th June 2023.
-
-[CASTIEL2] EuroHPC Joint Undertaking, "EuroCC 2 and CASTIEL 2: Promoting HPC to boost digital skills, jobs and industrial competitiveness in Europe", EuroHPC Joint Undertaking, February 2023. Available at [https://eurohpc-ju.europa.eu/eurocc-2-and-castiel-2-promoting-hpc-boost-digital-skills-jobs-and-industrial-competitiveness-europe-2023-02-03_en](https://eurohpc-ju.europa.eu/eurocc-2-and-castiel-2-promoting-hpc-boost-digital-skills-jobs-and-industrial-competitiveness-europe-2023-02-03_en). Accessed 5th June 2023.
-
-[EuroCC2022] CASTIEL, EuroCC Network, "Best Practice Guide: How to Find New Attendees for Training Courses", In: Training Best Practice Seminar (CASTIEL), EuroCC, January 2022. Available at [https://www.eurocc-access.eu/wp-content/uploads/2022/04/20220401_Best_Practice_Guide-Training_Best_Practice_Seminar_final.pdf](https://www.eurocc-access.eu/wp-content/uploads/2022/04/20220401_Best_Practice_Guide-Training_Best_Practice_Seminar_final.pdf). Accessed 5th June 2023.
-
-[Fogel2005] K. Fogel, Producing Open Source Software: How to Run a Successful Free Software Project, first edition, O'Reilly Media, October 2005. ISBN: 978-0-596-00759-1. Available at [https://www.oreilly.com/library/view/producing-open-source/0596007590/](https://www.oreilly.com/library/view/producing-open-source/0596007590/). Accessed 5th June 2023.
-
-[Fogel2017] K. Fogel, Producing Open Source Software: How to Run a Successful Free Software Project, second edition, January 2017. Available at [https://www.producingoss.com](https://www.producingoss.com). Accessed 5th June 2023.
-
-[Irving2021] D. Irving, K. Hertweck, L. Johnston, J. Ostblom, C. Wickham, G. Wilson, Research Software Engineering with Python: Building software that makes research possible, CRC Press, 2021. ISBN: 978-1-003-14348-2. DOI: [10.1201/9781003143482](https://doi.org/10.1201/9781003143482)
-
-[Grossfield2022] A. Grossfield, How to be a Good Member of a Scientific Software Community [Article v1.0], _Living Journal of Computational Molecular Science_, 3(1), p. 1473, 2022. DOI: [10.33011/livecoms.3.1.1473](https://doi.org/10.33011/livecoms.3.1.1473)
-
-[Fehr2021] J. Fehr, C. Himpe, S. Rave, J. Saak, Sustainable Research Software Hand-Over, _Journal of Open Research Software_, 9(1), p. 5, 2021. DOI: [10.5334/jors.307](https://doi.org/10.5334/jors.307)
-
-[Baxter2006] Baxter, Day, Fetrow, Reisinger, Scientific Software Development Is Not an Oxymoron, _PLoS Computational Biology_, 2, p. e87, 2006. DOI: [10.1371/journal.pcbi.0020087](https://doi.org/10.1371/journal.pcbi.0020087)
-
-[Leprevost2014] Leprevost, Barbosa, Francisco, Perez-Riverol, Carvalho, On best practices in the development of bioinformatics software, _Frontiers in Genetics_, 5, 2014. DOI: [10.3389/fgene.2014.00199](https://doi.org/10.3389/fgene.2014.00199)
-
-[Crick2017] Crick, Hall, Ishtiaq, Reproducibility in Research: Systems, Infrastructure, Culture, _Journal of Open Research Software_, 5(1), p. 32, 2017. DOI: [10.5334/jors.73](https://doi.org/10.5334/jors.73)
-
-[Crusoe2016] Crusoe, Brown, Walking the Talk: Adopting and Adapting Sustainable Scientific Software Development processes in a Small Biology Lab, _Journal of Open Research Software_, 4(1), p. e44, 2016. DOI: [10.5334/jors.35](https://doi.org/10.5334/jors.35)
-
-[Wilson2014] Wilson, Aruliah, Brown, Chue Hong et al. Best Practices for Scientific Computing, _PLoS Biology_, 12(1), p. e1001745, 2014. DOI: [10.1371/journal.pbio.1001745](https://doi.org/10.1371/journal.pbio.1001745)
-
-[Prlic2012] Prlić, Procter, Ten Simple Rules for the Open Development of Scientific Software, _PLoS Computational Biology_, 8(12), p. e1002802, 2012. DOI: [10.1371/journal.pcbi.1002802](https://doi.org/10.1371/journal.pcbi.1002802)
-
-[Stodden2014] Stodden, Miguez, Best Practices for Computational Science: Software Infrastructure and Environments for Reproducible and Extensible Research, _Journal of Open Research Software_, 2(1), p.e21, 2014. DOI: [10.5334/jors.ay](https://openresearchsoftware.metajnl.com/articles/10.5334/jors.ay)
-
-[Roberts1969] Roberts, The publication of scientific Fortran programs, _Computer Physics Communications_, 1(1), pp. 1-9, 1969. DOI: [10.1016/0010-4655(69)90011-3](https://doi.org/10.1016/0010-4655(69)90011-3)
-
-[Crouch2013] Crouch, Chue Hong, Hettrick, Jackson, Pawlik, Sufi, Carr, De Roure, Goble, Parsons, The Software Sustainability Institute: Changing Research Software Attitudes and Practices, _Computing in Science & Engineering_, 15(6), pp. 74-80, 2013. DOI: [10.1109/mcse.2013.133](https://doi.org/10.1109/mcse.2013.133)
-
-[Katerbow2018] Katerbow, Feulner, Recommendations on the Development, Use and Provision of Research Software, _Zenodo_, 2018. DOI: [10.5281/zenodo.1172988](https://doi.org/10.5281/zenodo.1172988)
-
-[ChueHong2013] Chue Hong, Hole, Moore, "Software Papers: improving the reusability and sustainability of scientific software", In: 1st Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE1), figshare, September 2013. DOI: [10.6084/m9.figshare.795303](https://doi.org/10.6084/m9.figshare.795303)
-
-[ChueHong2014] Chue Hong, "Minimal information for reusable scientific software", In: 2nd Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2), figshare, July 2014. DOI: [10.6084/m9.figshare.1112528](https://doi.org/10.6084/m9.figshare.1112528)
-
-[Strasser2022] Strasser, Hertweck, Greenberg, Taraborelli, Vu, Ten simple rules for funding scientific open source software. _PLOS Computational Biology_, 2022, 18, p. e1010627. DOI: [10.1371/journal.pcbi.1010627](https://doi.org/10.1371/journal.pcbi.1010627)
-
-[Helmholtz Federated IT Services] Helmholtz Federated IT Services (HIFIS). [https://hifis.net](https://hifis.net) . Accessed 08th June 2023.
-
-[Helmholtz Information & Data Science Academy] Helmholtz Information & Data Science Academy (HIDA). [https://www.helmholtz-hida.de](https://www.helmholtz-hida.de) . Accessed 08th June 2023.
-
-[Helmholtz AI] Helmholtz AI. [https://www.helmholtz.ai/](https://www.helmholtz.ai/) . Accessed 08th June 2023.
-
-[Helmholtz Imaging] Helmholtz Imaging [https://helmholtz-imaging.de/](https://helmholtz-imaging.de/) . Accessed 08th June 2023.
-
-[Helmholtz Metadata Collaboration] Helmholtz Metadata Collaboration (HMC) [https://helmholtz-metadaten.de](https://helmholtz-metadaten.de) . Accessed 08th June 2023.
-
-[Hettrick2016] S. Hettrick. A not-so-brief history of Research Software Engineers. Software Susitainability Institute blog, August 2016. Available at [https://www.software.ac.uk/blog/2016-08-17-not-so-brief-history-research-software-engineers-0](https://www.software.ac.uk/blog/2016-08-17-not-so-brief-history-research-software-engineers-0). Accessed 16th March 2023.
-
-[Cohen2021] J. Cohen, D. S. Katz, M. Barker, N. Chue Hong, R. Haines and C. Jay, "The Four Pillars of Research Software Engineering," in IEEE Software, vol. 38, no. 1, pp. 97-105, Jan-Feb. 2021, DOI: [https://doi.org/10.1109/MS.2020.2973362](https://doi.org/10.1109/MS.2020.2973362).
-
-[Lamprecht2022] A-L. Lamprecht, C. Martinez-Ortiz, M. Barker, et al. What Do We (Not) Know About Research Software Engineering?. _Journal of Open Research Software_, 2022, 10(1), p. 11. DOI: [https://doi.org/10.5334/jors.384](https://doi.org/10.5334/jors.384)
-
-[Landwehr2017] Landwehr, Ludewig, Meersman, Parnas, Shoval, Wand, Weiss, Weyuker, Software Systems Engineering programmes a capability approach. _Journal of Systems and Software_, 2017, 125, pp. 354-364. DOI: [10.1016/j.jss.2016.12.016](https://doi.org/10.1016/j.jss.2016.12.016)
-
-[Cereceda2020] Cereceda, Quinn, A graduate student perspective on overcoming barriers to interacting with open-source software. _FACETS_, 2020, 5, pp. 289-303. DOI: [10.1139/facets-2019-0020}](https://doi.org/10.1139/facets-2019-0020})
-
-[Balaban2021] Balaban, Grytten, Rand, Scheffer, Sandve, Ten simple rules for quick and dirty scientific programming. _PLOS Computational Biology_, 2021, 17(3), p. e1008549. DOI: [10.1371/journal.pcbi.1008549](https://doi.org/10.1371/journal.pcbi.1008549)
-
-[Laginja2022] Laginja, Robles, Barjot, Leboulleux, Jensen-Clem, Brooks, Moriarty, Connecting the astronomical testbed community - the CAOTIC project: optimized teaching methods for software version control concepts. In: "Adaptive Optics Systems VIII", p. 121853A, eds. Schreiber, Schmidt, Vernet. Volume 12185. SPIE, Bellingham, Washington, USA, 2022. ISBN: 9781510653528. DOI: [10.1117/12.2629483](https://doi.org/10.1117/12.2629483)
-
-[Reinhart2021] Reinhart, Genovese, Expanding the Scope of Statistical Computing: Training Statisticians to Be Software Engineers. _Journal of Statistics and Data Science Education_, 2021, 29, pp. S7-S15. DOI: [10.1080/10691898.2020.1845109](https://doi.org/10.1080/10691898.2020.1845109)
-
-[Beckman2021] Beckman, Çetinkaya-Rundel, Horton, Rundel, Sullivan, Tackett, Implementing Version Control With Git and GitHub as a Learning Objective in Statistics and Data Science Courses. _Journal of Statistics and Data Science Education_, 2021, 29(sup1), pp. S132-S144. DOI: [10.1080/10691898.2020.1848485](https://doi.org/10.1080/10691898.2020.1848485)
-
-[CetinkayaRundel2018] Çetinkaya-Rundel, Rundel, Infrastructure and Tools for Teaching Computing Throughout the Statistical Curriculum. _The American Statistician_, 2018, 72(1), pp. 58-65. DOI: [10.1080/00031305.2017.1397549](https://doi.org/10.1080/00031305.2017.1397549)
-
-[Form2011] Form, Lewitter, Ten Simple Rules for Teaching Bioinformatics at the High School Level. _PLoS Computational Biology_, 2011, 7, p. e1002243. DOI: [10.1371/journal.pcbi.1002243](https://doi.org/10.1371/journal.pcbi.1002243)
-
-[Bain2020] Bain, Meagher, Barker, Design, delivery and evaluation of a bioinformatics education workshop for 13-16-year-olds. _Journal of Biological Education_, 2020, 56, pp. 570-580.  DOI: [10.1080/00219266.2020.1858932](https://doi.org/10.1080/00219266.2020.1858932)
-
-[Astigarraga2022] Astigarraga, Cruz-Alonso, ¡Se puede entender cómo funcionan Git y GitHub! *Ecosistemas*, 2022, 31, p. 2332.  DOI: [10.7818/ecos.2332](https://doi.org/10.7818/ecos.2332)
-
-[ClementFontaine2019b] Clément-Fontaine et al. Encouraging a wider usage of software derived from research. Research Report. Comité pour la science ouverte, Nov. 2019. DOI: [10.52949/4](https://doi.org/10.52949/4) Translation of "Note d'opportunité sur la valorisation des logiciels issus de la recherche." Research Report. Comité pour la science ouverte, Nov. 2019. DOI: [10.52949/17](https://doi.org/10.52949/17)
-
-[Appel2021] Appel, Loewe, Forschungssoftware - Nachhaltige Entwicklung und Unterstützung. IAMO Policy Brief, Leibniz Institute of Agricultural Development in Transition Economies (IAMO), 2021. ISBN: 978-3-95992-124-4. [https://hdl.handle.net/10419/240937](https://hdl.handle.net/10419/240937)
-
-[Haim2021] Haim, Gütekriterien und Handlungsempfehlungen für die Entwicklung von Forschungssoftware in der Kommunikations- und Medienwissenschaft. _Medien & Kommunikationswissenschaft_, 2021, 69, pp. 65-79. DOI: [10.5771/1615-634x-2021-1-65](https://doi.org/10.5771/1615-634x-2021-1-65)
-
-[Hannay2009] Hannay, MacLeod, Singer, Langtangen, Pfahl, Wilson, How do scientists develop and use scientific software? In: "Proceedings of the 2009 ICSE Workshop on Software Engineering for Computational Science and Engineering", IEEE, 2009. DOI: [10.1109/secse.2009.5069155](https://doi.org/10.1109/secse.2009.5069155)
-
-[Cosden2022] Cosden, McHenry, Katz, Research Software Engineers: Career Entry Points and Training Gaps. _Computing in Science & Engineering_, 2022, 24(6), pp. 14-21. DOI: [10.1109/mcse.2023.3258630](https://doi.org/10.1109/mcse.2023.3258630)
-
-[Segal2009] Segal, Some challenges facing software engineers developing software for scientists. In: "Proceedings of the 2009 ICSE Workshop on Software Engineering for Computational Science and Engineering", IEEE, 2009. DOI: [10.1109/secse.2009.5069156](https://doi.org/10.1109/secse.2009.5069156)
-
-[FedoraBadges] The Fedora Project, Fedora Badges, 2013-2023 [https://badges.fedoraproject.org/explore/badges](https://badges.fedoraproject.org/explore/badges) . Accessed 15th June 2023.
-
-[GitHubProfileAchievements] Schweinepriester, GitHub Profile Achievements, 2021-2023. [https://github.com/Schweinepriester/github-profile-achievements](https://github.com/Schweinepriester/github-profile-achievements) . Accessed 15th June 2023.
-
-[GitHubProfileTrophy] Ryota Sakamoto, GitHub Profile Trophy, 2020-2023. [https://github.com/ryo-ma/github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy) . Accessed 14th June 2023.
-
-[Rockstar] Avinash Sajjanshetty, Rockstar, 2015-2021. [https://github.com/avinassh/rockstar](https://github.com/avinassh/rockstar) . Accessed 14th June 2023.
-
-[GitHubStreakStats] Jonah Lawrence, Github Readme Streak Stats, v1.0.0, 2023. [https://github.com/DenverCoder1/github-readme-streak-stats](https://github.com/DenverCoder1/github-readme-streak-stats) . Accessed 14th June 2023.
