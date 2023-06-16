@@ -17,7 +17,7 @@ jobs:
       - name: pandoc compile
         working-directory: ${{ env.DIR }}
         #run: latexmk -pdf -bibtex ${{ env.FILE }}
-        run: pandoc -o output.pdf ${{ env.FILE }}; bibtex ${{ env.FILE }}; pandoc -o output.pdf ${{ env.FILE }}; pandoc -o output.pdf ${{ env.FILE }};
+        run: pandoc -o output.pdf ${{ env.FILE }};# bibtex ${{ env.FILE }}; pandoc -o output.pdf ${{ env.FILE }}; pandoc -o output.pdf ${{ env.FILE }};
       - name: move
         run: mkdir -p github_artifacts && mv ${{ env.DIR }}/output.pdf ./github_artifacts/
       - name: Upload pdf as artifact
