@@ -1,5 +1,6 @@
 ---
 title: "Teaching and Learning Research Software Engineering"
+geometry: margin=2.5cm
 output:
   pdf_document:
     citation_package: biblatex
@@ -8,6 +9,9 @@ output:
 bibliography: bibliography.bib
 header-includes:
     - \PassOptionsToPackage{style=alphabetic,backend=biber,giveninits=true}{biblatex}
+    - \usepackage{pdflscape}
+    - \newcommand{\blandscape}{\begin{landscape}}
+    - \newcommand{\elandscape}{\end{landscape}}
 ---
 ## Working Title: Identifying core competencies of an RSE and an application with a sample curriculum.
 
@@ -28,6 +32,8 @@ The discussion in this paper is meant to be general therefore we will discuss do
 ---
 
 **Keywords**: research software engineering, training, learning, competencies
+
+\tableofcontents
 
 ## Introduction
 - background
@@ -248,6 +254,8 @@ At different career levels, differing skills are required. We have set this up a
 The required skills are distributed according to this table
 First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (less -> lot)
 
+\blandscape
+
 |       | Junior | Senior | Principal RSE(brings in funding)  |
 | ----  | ------ | ------ | --- |
 | DOCBB | should be able to write reusable building blocks |same as junior, but the quality should set the standard for the project, while following current best practices | should know the current best practices and point its people to the right resources. |
@@ -264,6 +272,8 @@ First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (l
 | TEACH | should be able to perform simple peer-to-peer onboarding tasks | should be able to explain logical components to other RSEs | Should be able to effectively communicate about all large-scale parts of the project. |
 | PM    | Awareness about the employed project managemement method | Should be able to use the employed PM method | Should be able to design and adapt the employed PM method. |
 | TEAM  | Should be able to work in the team in order to effectively fulfill the given tasks. Should be able to learn from code review. | Should be able to break down tasks into more easily digestable sub-tasks | Should be able to lead the team and set the respective direction. |
+
+\elandscape
 
 #### Academic Progression / Career Path? (Help me for better title) 
 Modern digital science requires some digital proficiency at every level.
@@ -285,6 +295,8 @@ Additionally, this table tries to cover all domains that rely on software tools 
 Certain fields, e.g. sciences relying on simulations, might require higher skill levels in the SE competencies 
 as software development is a large part of their actual research.
 
+\blandscape
+
 |       | Bachelor | Master | PhD | PostDoc | PI/Professor | 
 | ----  | ------ | ------ | ---   | ------  | ---|
 | DOCBB | They should be aware that RSEs exist and that software has different quality aspects | Same as Bachelor | They should know where they can get help, and maybe able to use libraries | same as PhD | They should know the skills of an RSE and when they might need one in their group |
@@ -302,6 +314,7 @@ as software development is a large part of their actual research.
 | PM    | Awareness about project management optional | Awareness that research teams are structured according to some project management   | same as Master, or more depending on structure of research |  same as PhD | Should know about the required project management they require for their group |
 | TEAM  | Awareness that research is often performed in groups | Ability to work in their group for doing their master's thesis | same as master |  same as master | Should be able to lead a research team |
 
+\elandscape
 
 #### Project team Size
 Some explanation of the team sizes:
@@ -309,6 +322,8 @@ Some explanation of the team sizes:
 - individual: A single person working on their research software
 - Small team(~4 persons) This is a small team, that has decided to work together on something
 - Organizations( >10 persons): These are big organizations with clear structures and a bigger degree of specialization.
+
+\blandscape
 
 |       | individual | small team | organization  |
 | ----  | ------ | ------ | --- |
@@ -326,6 +341,8 @@ Some explanation of the team sizes:
 | TEACH |   N/A   |   able to peer teach    | teaching to groups |
 | PM    |   Not much required  |  able to follow checklist     | Working with PM tools, or use them for organization |
 | TEAM  |   N/A    |   should be able to give equal feedback to their colleagues    | should be able to work within their role |
+
+\elandscape
 
 Bonus points may be distributed if managing teams remotely
 
