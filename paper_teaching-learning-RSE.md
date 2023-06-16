@@ -58,7 +58,7 @@ The challenges of understanding the current state of skills within the research 
 
 ### Identifying skills and pathways
 
-As an area that generally requires a range of advanced skills, High Performance Computing (HPC) is one field where there is ongoing work to identify relevant sets of skills for HPC practitioners and potential paths to develop these skills. The HPC Certification Forum has developed a "competence standard" (CS) for HPC that defines a range of skills and how they are related in the context of a skill tree [@HPCCFCompetencies], [@Kunkel2020a], [@Kunkel2020b]. This competence standard is currently being built upon by the CASTIEL 2 [@CASTIEL2] project in collaboration with initiatives funded by the European High Performance Computing Joint Undertaking (EuroHPC JU) to create a framework for HPC certification [@EuroHPCJU2023]. Also looking at pathways and how different skills are related, the UNIVERSE-HPC project [@UNIVERSE-HPC], funded under the UK's ExCALIBUR research programme [@EXCALIBUR], is looking to understand and develop training pathways to support the development of specialist skills in the HPC and exascale domains. The project is gathering open source training materials to develop curricula that support the training pathways that are underpinned by high-quality training materials.
+As an area that generally requires a range of advanced skills, High Performance Computing (HPC) is one field where there is ongoing work to identify relevant sets of skills for HPC practitioners and potential paths to develop these skills. The HPC Certification Forum has developed a "competence standard" (CS) for HPC that defines a range of skills and how they are related in the context of a skill tree [@HPCCFCompetencies], [@Kunkel2020a], [@Kunkel2020b]. This competence standard is currently being built upon by the CASTIEL 2 [@CASTIEL2] project in collaboration with initiatives funded by the European High Performance Computing Joint Undertaking (EuroHPC JU) to create a framework for HPC certification [@EuroHPCJU2023]. Also looking at pathways and how different skills are related, the UNIVERSE-HPC project [@UNIVERSEHPC], funded under the UK's ExCALIBUR research programme [@EXCALIBUR], is looking to understand and develop training pathways to support the development of specialist skills in the HPC and exascale domains. The project is gathering open source training materials to develop curricula that support the training pathways that are underpinned by high-quality training materials.
 
  - There are some projects / papers looking at skills pathways - if we're going to include a separate section on related work, as proposed here, this should probably be expanded to include more of this content?
  - FIXME: include the ELIXIR part here
@@ -97,11 +97,11 @@ best practices, modern software design [@LRZModernCpp], project management and
 version control [@LRZIntroCpp].
 
 #### Helmholtz
-As part of its push towards a better RSE environment, the Helmholtz Association launched the [@Helmholtz Federated IT Services] platform which provides educational material and trainings amongst other services for an audience of over 10.000 scientists in Germany and internationally.
+As part of its push towards a better RSE environment, the Helmholtz Association launched the [@HIFIS] platform which provides educational material and trainings amongst other services for an audience of over 10.000 scientists in Germany and internationally.
 All of these materials focus on RSE basics to refresh and expand the software engineering knowledge for recent graduates or to update the existing knowledge in established researchers.
 They are published under OER licenses and can serve as either self-learning instructions or form the basis of a hands-on training.
-To allow these educational offers to be easier brought to the scientists, the [@Helmholtz Information & Data Science Academy] sustains a large network within the Helmholtz Association and beyond with a strong focus on graduate schools.
-Further RSE training offers within the Helmholtz context are provided by the [@Helmholtz AI] and [@Helmholtz Imaging] platforms as well as the [@Helmholtz Metadata Collaboration].
+To allow these educational offers to be easier brought to the scientists, the [@HIDA] sustains a large network within the Helmholtz Association and beyond with a strong focus on graduate schools.
+Further RSE training offers within the Helmholtz context are provided by the [@HAI] and [@HImaging] platforms as well as the [@HMC].
 
 #### Open Source Resources
 Due to the ever-evolving nature of skills and infrastructure in the RSE field,
@@ -113,11 +113,11 @@ second edition as a living document [@Fogel2017].
 
 Reference works are also available for self-study [@Fogel2005], [@Irving2021].
 
-The National Competence Center Sweden (ENCCS) [@ENCCS] provides instructor training material [@ENCCSInstructorTraining], [@ENCCS2022] developed from Carpentries and CodeRefinery material, as well as lessons for HPC-oriented RSEs [@ENCCSLessons].
+The National Competence Center Sweden (ENCCS) [https://enccs.se/] provides instructor training material [@ENCCSInstructorTraining], [@ENCCS2022] developed from Carpentries and CodeRefinery material, as well as lessons for HPC-oriented RSEs [@ENCCSLessons].
 
-The [@Intersect] project ....
+The (Intersect)[https://intersect-training.org/] project ....
 
-[Better Scientific Software (BSSW)] ...
+(BSSW)[https://bssw.io/] ...
 
 SSI? [@Crouch2013] ...
 
@@ -193,7 +193,7 @@ Apart from the functionality, licensing, integration with other software and exp
 Finally, after obtaining results by modifying and/or using the software, it has to be ensured that the original authors get the proper attribution.
 
 #### Use Domain repositories/directories (DOMREP)
-Almost all Research software is developed within a specific scientific domain.
+Almost all research software is developed within a specific scientific domain.
 Some software may be able to cross boundaries, but the majority will have a home domain, with which it needs to be able to interact.
 Especially for data-driven research having software that is able to use existing sets and repositories is a valuable part.
 The RSE should be able to interact with the repositories of this specific domain.
@@ -229,7 +229,7 @@ Among the top five things mentioned were:
 - When or why to keep repositories private. This decision requires knowledge in the RC, to understand when it makes sense, USERS and TEAM in order to do accepted decisions and sometimes LEG. This requires domain and location knowledge in the sense that one should know what the practices of ones own institution are.
 - Proper Development. This broad topic requires all of the SE skills. Of course these are the competencies that are the most fluid since they have to adapt at a high rate to the technological advancements. Additionally proper SE skills often require knowledge of TEAM, and PM.
 Today this means effective use of IDEs, static analysis tools, design patterns, documentation (for oneself and others), etc. 
-- Finding a community. This can be interpreted in two different facets. First we have the aspect of community building for a research project. Since this deals with software that is supposed to be used in research this requires knowledge of RC, USERS, and also NEW, in order to effectively interact with domain scientists. Today, an example is a presence on social media. The other TEAM-related aspect is the embedding of RSE graduates into the community of RSEs. We envision our RSE graduates to be a part in a strong network of other RSEs, tool-related communities and the classical domain communities. This point is further elaborated in **How do we reach people in different stages of their careers**(link)
+- Finding a community. This can be interpreted in two different facets. First we have the aspect of community building for a research project. Since this deals with software that is supposed to be used in research this requires knowledge of RC, USERS, and also NEW, in order to effectively interact with domain scientists. Today, an example is a presence on social media. The other TEAM-related aspect is the embedding of RSE graduates into the community of RSEs. We envision our RSE graduates to be a part in a strong network of other RSEs, tool-related communities and the classical domain communities. This point is further elaborated in [How do we reach people in different stages of their careers](#how-do-we-reach-people-in-different-stages-of-their-careers)
 
 
 ### How much do different people need to know?
@@ -327,7 +327,7 @@ Some explanation of the team sizes:
 
 Bonus points may be distributed if managing teams remotely
 
-https://competency.ebi.ac.uk/framework/bioexcel/3.0/carreer-profiles
+[BIO Excel framework](https://competency.ebi.ac.uk/framework/bioexcel/3.0/carreer-profiles)
 
 ### RSE specializations
 What we have defined above are intended to be base skills that an RSE irrespective of domain, place, and time should know about.
