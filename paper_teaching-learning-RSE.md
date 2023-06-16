@@ -1,6 +1,16 @@
 ---
 title: "Teaching and Learning Research Software Engineering"
 geometry: margin=2.5cm
+author:
+  - Heidi Seibold
+  - Florian Goth
+  - Jan Linxweiler
+  - Jan Philipp Thiele
+  - Jeremy Cohen
+  - Renato Alves
+  - Samatha Wittke
+  - Jean-Noël Grad
+  - Fredo Erxleben
 output:
   pdf_document:
     citation_package: biblatex
