@@ -2,6 +2,8 @@
 
 Output of the de-RSE 2022 Conference Workshop on "Teaching and Learning Research Software Engineering".
 
+Get the [latest version of the PDF](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/output.pdf).
+
 ## How to contribute
 
 This paper is intended as a collaborative effort and we are looking for input from you. 
