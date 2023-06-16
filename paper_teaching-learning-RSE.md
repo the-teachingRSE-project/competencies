@@ -51,8 +51,12 @@ The challenges of understanding the current state of skills within the research 
 
 As an area that generally requires a range of advanced skills, High Performance Computing (HPC) is one field where there is ongoing work to identify relevant sets of skills for HPC practitioners and potential paths to develop these skills. The HPC Certification Forum has developed a "competence standard" (CS) for HPC that defines a range of skills and how they are related in the context of a skill tree [HPC-CF Competencies], [Kunkel2020a], [Kunkel2020b]. This competence standard is currently being built upon by the CASTIEL 2 [CASTIEL2] project in collaboration with initiatives funded by the European High Performance Computing Joint Undertaking (EuroHPC JU) to create a framework for HPC certification [EuroHPCJU2023]. Also looking at pathways and how different skills are related, the UNIVERSE-HPC project [UNIVERSE-HPC], funded under the UK's ExCALIBUR research programme [EXCALIBUR], is looking to understand and develop training pathways to support the development of specialist skills in the HPC and exascale domains. The project is gathering open source training materials to develop curricula that support the training pathways that are underpinned by high-quality training materials.
 
- - There are some projects / papers looking at skills pathways - if we're going to include a separate section on related work, as proposed here, this should probably be expanded to include more of this content?
- - FIXME: include the ELIXIR part here
+- There are some projects / papers looking at skills pathways
+- if we're going to include a separate section on related work, as proposed here,
+  this should probably be expanded to include more of this content?
+- [Cosden2022]
+- [Hannay2009] skill gaps (fig 1)
+- FIXME: include the ELIXIR part here
 
 ### RSE-related Training Materials
 
@@ -374,7 +378,7 @@ when practicing Open Science, such as "How do I make my code presentable?",
 #### Project/Community manager RSEs
 When research software projects become larger, they need someone who manages
 processes and people. Building a community around a research project is an
-important building block in building sustainable software, so these RSEs play
+important building block in building sustainable software [Segal2009], so these RSEs play
 an important role, even if they do not necessarily touch much of the code themselves.
 
 #### Teaching RSEs
@@ -412,7 +416,7 @@ can be found in field-specific scientific articles and conference proceedings,
 such as [Roberts1969], [Baxter2006], [Prlic2012], [Leprevost2014], [Wilson2014],
 [Stodden2014], [Crusoe2016], [Crick2017], [Fehr2021], [Grossfield2022], some of
 which are specifically tailored to group leaders, institutions and scientific
-journals rather than RSEs [ChueHong2013], [ChueHong2014], [Katerbow2018].
+journal editors rather than RSEs [ChueHong2013], [ChueHong2014], [Katerbow2018], [Strasser2022].
 Scientific journals have the advantage of reaching a large spectrum of
 research scientists at all stages of their career.
 
@@ -527,6 +531,9 @@ it a de facto standard. The presence of this indicator can steer RSE behavior,
 potentially in a counter-productive way since it priviledges quantity over quality.
 For example, users can engage in contribution "streaking" to pad the chart [Moldon2021] and
 compete with other users via custom badges displaying their streaking performance [GitHubStreakStats].
+
+miscellaneous:
+- [Badreddin2019] for designing new metrics
 
 #### A possible graduation path within the classical university structures
 We have put forward the idea that familiarity with research is a prerequisite for an RSE in order to be able to work effectively in the research space and in collaboration with researchers. In this particular example, we consider a path into RSE via a traditional university route involving Bachelors and Masters degree studies that include an RSE element. However, we recognise that there are other routes into an RSE career and these are increasing. For example, some RSEs come from an industry background, others may come through apprenticeship or similar programmes. In both cases, gaining knowledge of the research lifecycle and understanding the ways that researchers work towards solutions to research challenges is something that can be developed on-the-job alongside training opportunities and the chance to work directly with researchers.
@@ -664,6 +671,8 @@ Therefore this closes the gap, that the research landscape requires RSEs, but th
 
 [ChueHong2014] Chue Hong, "Minimal information for reusable scientific software", In: 2nd Workshop on Sustainable Software for Science: Practice and Experiences (WSSSPE2), figshare, July 2014. DOI: [10.6084/m9.figshare.1112528](https://doi.org/10.6084/m9.figshare.1112528)
 
+[Strasser2022] Strasser, Hertweck, Greenberg, Taraborelli, Vu, Ten simple rules for funding scientific open source software. _PLOS Computational Biology_, 2022, 18, p. e1010627. DOI: [10.1371/journal.pcbi.1010627](https://doi.org/10.1371/journal.pcbi.1010627)
+
 [Helmholtz Federated IT Services] Helmholtz Federated IT Services (HIFIS). [https://hifis.net](https://hifis.net) . Accessed 08th June 2023.
 
 [Helmholtz Information & Data Science Academy] Helmholtz Information & Data Science Academy (HIDA). [https://www.helmholtz-hida.de](https://www.helmholtz-hida.de) . Accessed 08th June 2023.
@@ -678,9 +687,9 @@ Therefore this closes the gap, that the research landscape requires RSEs, but th
 
 [Cohen2021] J. Cohen, D. S. Katz, M. Barker, N. Chue Hong, R. Haines and C. Jay, "The Four Pillars of Research Software Engineering," in IEEE Software, vol. 38, no. 1, pp. 97-105, Jan-Feb. 2021, DOI: [https://doi.org/10.1109/MS.2020.2973362](https://doi.org/10.1109/MS.2020.2973362).
 
-[Lamprecht2022] A-L. Lamprecht, C. Martinez-Ortiz, M. Barker, et al. What Do We (Not) Know About Research Software Engineering?. _Journal of Open Research Software_, 10(1), p.11. DOI: [https://doi.org/10.5334/jors.384](https://doi.org/10.5334/jors.384)
+[Lamprecht2022] A-L. Lamprecht, C. Martinez-Ortiz, M. Barker, et al. What Do We (Not) Know About Research Software Engineering?. _Journal of Open Research Software_, 2022, 10(1), p. 11. DOI: [https://doi.org/10.5334/jors.384](https://doi.org/10.5334/jors.384)
 
-[Landwehr2017] Carl Landwehr, Jochen Ludewig, Robert Meersman, David Lorge Parnas, Peretz Shoval, Yair Wand, David Weiss, Elaine Weyuker, Software Systems Engineering programmes a capability approach, [https://doi.org/10.1016/j.jss.2016.12.016](https://doi.org/10.1016/j.jss.2016.12.016)
+[Landwehr2017] Landwehr, Ludewig, Meersman, Parnas, Shoval, Wand, Weiss, Weyuker, Software Systems Engineering programmes a capability approach. _Journal of Systems and Software_, 2017, 125, pp. 354-364. DOI: [10.1016/j.jss.2016.12.016](https://doi.org/10.1016/j.jss.2016.12.016)
 
 [Cereceda2020] Cereceda, Quinn, A graduate student perspective on overcoming barriers to interacting with open-source software. _FACETS_, 2020, 5, pp. 289-303. DOI: [10.1139/facets-2019-0020}](https://doi.org/10.1139/facets-2019-0020})
 
@@ -705,6 +714,12 @@ Therefore this closes the gap, that the research landscape requires RSEs, but th
 [Appel2021] Appel, Loewe, Forschungssoftware - Nachhaltige Entwicklung und Unterstützung. IAMO Policy Brief, Leibniz Institute of Agricultural Development in Transition Economies (IAMO), 2021. ISBN: 978-3-95992-124-4. [https://hdl.handle.net/10419/240937](https://hdl.handle.net/10419/240937)
 
 [Haim2021] Haim, Gütekriterien und Handlungsempfehlungen für die Entwicklung von Forschungssoftware in der Kommunikations- und Medienwissenschaft. _Medien & Kommunikationswissenschaft_, 2021, 69, pp. 65-79. DOI: [10.5771/1615-634x-2021-1-65](https://doi.org/10.5771/1615-634x-2021-1-65)
+
+[Hannay2009] Hannay, MacLeod, Singer, Langtangen, Pfahl, Wilson, How do scientists develop and use scientific software? In: "Proceedings of the 2009 ICSE Workshop on Software Engineering for Computational Science and Engineering", IEEE, 2009. DOI: [10.1109/secse.2009.5069155](https://doi.org/10.1109/secse.2009.5069155)
+
+[Cosden2022] Cosden, McHenry, Katz, Research Software Engineers: Career Entry Points and Training Gaps. _Computing in Science & Engineering_, 2022, 24(6), pp. 14-21. DOI: [10.1109/mcse.2023.3258630](https://doi.org/10.1109/mcse.2023.3258630)
+
+[Segal2009] Segal, Some challenges facing software engineers developing software for scientists. In: "Proceedings of the 2009 ICSE Workshop on Software Engineering for Computational Science and Engineering", IEEE, 2009. DOI: [10.1109/secse.2009.5069156](https://doi.org/10.1109/secse.2009.5069156)
 
 [FedoraBadges] The Fedora Project, Fedora Badges, 2013-2023 [https://badges.fedoraproject.org/explore/badges](https://badges.fedoraproject.org/explore/badges) . Accessed 15th June 2023.
 
