@@ -223,7 +223,8 @@ etc. to be able to implement software that is up-to-date with the body of knowle
 #### Team Skills
 #### Teaching (TEACH)
 Working in a group means being able to effectively perform e.g. onboarding, or more formal teaching procedures to their colleagues.
-We deliberately mention, that giving code reviews is also part of teaching.
+This includes tasks such as consulting and mentoring since these also often aim at educating people.
+We deliberately mention, that giving code reviews is also part of this skill, since
 Code review can be part of teaching people on improving their skills.
 
 #### Project Management (PM)
