@@ -255,6 +255,9 @@ Today this means effective use of IDEs, static analysis tools, design patterns, 
 - Finding a community. This can be interpreted in two different facets. First we have the aspect of community building for a research project. Since this deals with software that is supposed to be used in research this requires knowledge of RC, USERS, and also NEW, in order to effectively interact with domain scientists. Today, an example is a presence on social media. The other TEAM-related aspect is the embedding of RSE graduates into the community of RSEs.
   We envision our RSE graduates to be a part in a strong network of other RSEs, tool-related communities and the classical domain communities. This point is further elaborated in [How do we reach people in different stages of their careers](#how-do-we-reach-people-in-different-stages-of-their-careers)
 
+Other important tasks of RSEs are
+- Teaching, consulting, mentoring and generally educating colleagues.
+
 
 ### How much do different people need to know?
 Now that we have the different competencies, we can explore various dimensions of these competencies,
