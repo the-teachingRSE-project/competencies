@@ -249,7 +249,8 @@ Among the top five things mentioned were:
 - When or why to keep repositories private. This decision requires knowledge in the RC, to understand when it makes sense, USERS and TEAM in order to do accepted decisions and sometimes LEG. This requires domain and location knowledge in the sense that one should know what the practices of ones own institution are.
 - Proper Development. This broad topic requires all of the SE skills. Of course these are the competencies that are the most fluid since they have to adapt at a high rate to the technological advancements. Additionally proper SE skills often require knowledge of TEAM, and PM.
 Today this means effective use of IDEs, static analysis tools, design patterns, documentation (for oneself and others), etc. 
-- Finding a community. This can be interpreted in two different facets. First we have the aspect of community building for a research project. Since this deals with software that is supposed to be used in research this requires knowledge of RC, USERS, and also NEW, in order to effectively interact with domain scientists. Today, an example is a presence on social media. The other TEAM-related aspect is the embedding of RSE graduates into the community of RSEs. We envision our RSE graduates to be a part in a strong network of other RSEs, tool-related communities and the classical domain communities. This point is further elaborated in [How do we reach people in different stages of their careers](#how-do-we-reach-people-in-different-stages-of-their-careers)
+- Finding a community. This can be interpreted in two different facets. First we have the aspect of community building for a research project. Since this deals with software that is supposed to be used in research this requires knowledge of RC, USERS, and also NEW, in order to effectively interact with domain scientists. Today, an example is a presence on social media. The other TEAM-related aspect is the embedding of RSE graduates into the community of RSEs.
+  We envision our RSE graduates to be a part in a strong network of other RSEs, tool-related communities and the classical domain communities. This point is further elaborated in [How do we reach people in different stages of their careers](#how-do-we-reach-people-in-different-stages-of-their-careers)
 
 
 ### How much do different people need to know?
@@ -445,7 +446,7 @@ A perfect first step for forming this network is topic-related conferences, work
 Beyond that, there is the broader RSE community organized at the local and regional level with chapters or local/regional communities, at the national level with societies and the international RSE society. Each of them offers possibilities for connecting within or beyond an individual institution and is a great way to find like-minded people to grow a wider network and thereby facilitate the sharing of information on interesting events or help each other out.
 This available layered network can greatly benefit the RSE in finding help with issues outside of their own comfort zone
 and provides a welcoming, social safety net providing a home for the RSE. Since we feel providing aspiring RSEs this net
-is of utmost importance we envision compulsory events introducing that to young RSEs.
+is of utmost importance we envision compulsory events introducing that to young RSEs. Qualification badges are another venue, that RSEs to find people with the same technical interest.
 
 Short primers on RSE skills, infrastructure and good coding practices
 can be found in field-specific scientific articles and conference proceedings,
@@ -549,7 +550,8 @@ Having certificates provides finally a clear understanding of which tasks an RSE
 A big demand for specialized RSEs will certainly come from the newly established RSE centers at research institutions that require skilled people to fill their vacant positions.
 And using the certificates, the demand can now be satisfied with people offering this skill.
 
-Some exemplary skills for which courses are already held are version control tools like git, HPC topics like multithreading, MPI and GPU computations, FAIR principles. 
+Some exemplary skills for which courses are already held are version control tools like git, HPC topics like multithreading, MPI and GPU computations, FAIR principles.
+
 
 ##### Metrics and reward systems
 
@@ -567,12 +569,14 @@ such as the number of commits or merge requests, but provide APIs to collect
 this data and process it into more helpful metrics.
 
 Digital badges [@Fanfarelli2015; @McDaniel2016] are increasingly popular,
-from personal badges rewarding contributions to a specific community or
-contribution behavior,
+from personal badges rewarding contributions to a specific community or contribution behavior,
 or project badges highlighting coding practices, e.g. code coverage,
 continuous integration status, or code quality indicators.
 While project badges can help drive teams improve the quality of their
 research software, personal badges are more subjective in nature.
+RSEs are very likely subject to life-long learning, and personal or technical badges
+are one possibility for older RSEs to showcase that they posess a certain technical skill.
+
 The Software Carpentries minted digital badges in 2012 [@Wilson2012a; @Wilson2012c],
 in an effort incentivize participation with institutional accreditation.
 Despite initial plans to create more fine-grained badges that rewarded
