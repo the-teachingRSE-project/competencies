@@ -449,19 +449,40 @@ is of utmost importance we envision compulsory events introducing that to young 
 
 Short primers on RSE skills, infrastructure and good coding practices
 can be found in field-specific scientific articles and conference proceedings,
-such as [@Roberts1969; @Baxter2006; @Prlic2012; @Leprevost2014; @Wilson2014;
+such as [@Roberts1969; @Baxter2006; @Prlic2012; @Leprevost2014; @Wilson2014c;
 @Stodden2014; @Crusoe2016; @Crick2017; @Fehr2021; @Grossfield2022], some of
 which are specifically tailored to group leaders, institutions and scientific
 journal editors rather than RSEs [@ChueHong2013; @ChueHong2014; @Katerbow2018; @Strasser2022].
 Scientific journals have the advantage of reaching a large spectrum of
 research scientists at all stages of their career.
 
+Localizing RSE teaching material and RSE information in languages other than English
+can help reach a much wider audience by lowering the barrier to entry in the field.
+In 2014 the community behind The Carpentries engaged in an international
+effort to translate their training material in Spanish [@Wilson2014a],
+Korean [@Wilson2014b] and Portuguese [@Silva2014].
+Core lessons have been translated to Korean in 2015 [@Lee2015], and the Spanish
+core lessons are now officially part of the Software Carpentry [@CarpentriesSpanish].
+Similarly, in the period 2015-2017, the Stack Overflow website launched localized
+versions in Portuguese [@StackOverflowPortuguese], Russian [@StackOverflowRussian]
+and Spanish [@StackOverflowSpanish] to reach a wider community.
+There are also RSE short primers [@Astigarraga2022] and
+RSE guidelines [@ClementFontaine2019b; @Appel2021; @Haim2021] in non-English
+languages to address the need of specific communities.
+FIXME: find more examples of teaching material in non-English languages
+
+Teaching RSE in relevant undergraduate courses of domain scientists can be
+the first point of entry in the field. For example, statistics curricula can
+be used to showcase RSE infrastructure, e.g. the R programming language and
+its ecosystem of statistics libraries and integrated development environments
+[@Reinhart2021; @Beckman2021; @CetinkayaRundel2018].
+There are also bioinformatics courses designed for high school students that
+covers topics such as pen-and-paper algorithm design, genomic database querying
+and data mining, and open data [@Form2011; @Bain2020].
+
 Further ideas:
 
-- teaching RSE infrastructure in relevant undergraduate courses of domain scientists, e.g. in statistics [@Reinhart2021; @Beckman2021; @CetinkayaRundel2018]
-- teach scientific software and research infrastructure early, e.g. in high school [@Form2011; @Bain2020]
 - adapting Carpentries and CodeRefinery material [@ENCCS2022] for RSEs from industry and HPC facilities
-- localizing RSE teaching material and RSE information in languages other than English, e.g. [@Astigarraga2022; @ClementFontaine2019b; @Appel2021; @Haim2021] (FIXME: find more examples of teaching material)
 - making RSE best practice guides fun to read with memes or satire [@Balaban2021; @Laginja2022; @Astigarraga2022; @Fehr2021]
 
 ## Organizational Infrastructures
@@ -487,6 +508,7 @@ Currently, they are often teaching workshop like formats in research institution
 - Setting up a feedback loop that facilitates a reflection of the workshop for the teacher.
 - staying up-to-date with fast-moving RSE topics.
 - Understanding the difficulties of students [@Cereceda2020].
+- Carpentries retrospective [@Wilson2016a].
 
 
 #### What mindset makes up a good teacher
@@ -535,7 +557,8 @@ The development of a standardized list of RSE competencies could help
 develop metrics to measure an individual's progression in specific RSE
 skill sets. These indicators would supplement the traditional grading
 system by providing gamification elements that gratify learning and
-incentivizes the discovery of new skill sets.
+incentivizes the discovery of new skill sets, and thus contribute
+to reducing skill gaps in the RSE community.
 Some indicators could be used in GitHub/Lab to stimulate continuous learning or
 steer RSE behavior in a direction that would benefit all users of research software.
 Currently, code hosting platforms and software packaging services that allow
@@ -544,17 +567,41 @@ such as the number of commits or merge requests, but provide APIs to collect
 this data and process it into more helpful metrics.
 
 Digital badges [@Fanfarelli2015; @McDaniel2016] are increasingly popular,
-from personal badges rewarding contributions to a specific community,
+from personal badges rewarding contributions to a specific community or
+contribution behavior,
 or project badges highlighting coding practices, e.g. code coverage,
 continuous integration status, or code quality indicators.
+While project badges can help drive teams improve the quality of their
+research software, personal badges are more subjective in nature.
+The Software Carpentries minted digital badges in 2012 [@Wilson2012a; @Wilson2012c],
+in an effort incentivize participation with institutional accreditation.
+Despite initial plans to create more fine-grained badges that rewarded
+specific skills [@Wilson2012b], such as version control or Unix shell,
+the learner badges were ultimately abandoned in 2013 [@Wilson2013a] and recycled
+as participation certificates and attendance sheets [@CarpentriesCertificates].
+The idea of institutional accreditation remained,
+but in the form of instructor badges [@Wilson2013a],
+which are now mandatory tokens to lead a Carpentry workshop or vote in the
+Carpentries Executive Council elections [@CarpentriesInstructorBadges].
+
+Digital badges can have a few downsides, for example the number of badges
+can grow quickly when minting badges with a very fine level of detail,
+such as skill-based badges or badges displaying a proficiency level.
+Badges can also fade away, i.e. have diminishing relevance or usefulness over time.
+This is for example the case of badges awarded for participating in old workshops
+or for learning technologies that have since become less relevant in the RSE field.
 The Fedora community developed a significant body of personal badges [@FedoraBadges]
 that reward contributions to open source software documentation, podcasts, conferences,
 and code maintenance in the form of bugfixes, security fixes, code reviews and package releases.
+These badges do not stack, making it difficult to extract information from a user profile,
+and the infrastructure that automatically awards these badges is fragile and unreliable [@Siddharth2022].
+
 The official GitHub Achievements [@GitHubProfileAchievements] reward social behavior,
 such as the number of merge requests, the number of commits with co-authors,
-or the number of answered questions.
+or the number of answered questions. In addition, users who join organizations
+or financially contribute to open source software obtain additional descriptors.
 The GitHub user community also created unofficial trophies [@GitHubProfileTrophy]
-to highlight additional metrics, such as the number of repositories and opened tickets,
+to highlight alternative metrics, such as the number of repositories and opened tickets,
 with a ranking system to introduce competition between users.
 
 By default, platforms like GitHub and GitLab display the commit activity on users' profile pages,
@@ -564,13 +611,16 @@ nor the nature of the change (bugfix, maintenance, documentation, etc.), and
 can easily be gamed by automated tools [@Rockstar], making its usefulness as a
 performance indicator debatable.
 Yet, its ubiquity on personal pages and the lack of more objective metrics makes
-it a de facto standard. The presence of this indicator can steer RSE behavior,
+it a de facto standard. The presence of this indicator can alter RSE behavior,
 potentially in a counter-productive way since it priviledges quantity over quality.
 For example, users can engage in contribution "streaking" to pad the chart [@Moldon2021] and
 compete with other users via custom badges displaying their streaking performance [@GitHubStreakStats].
 
-miscellaneous:
+FIXME:
 
+- badges should not be used as performance indicators (for hiring and/or career progress)
+- an argument could be made for having less metrics (GitHub allows users to hide their badges)
+- which institution would create RSE-badges? how would this institution drive adoption of RSE-badges?
 - [@Badreddin2019] for designing new metrics
 
 #### A possible graduation path within the classical university structures
