@@ -78,9 +78,9 @@ In public research alone we have better numbers and 71,733 researchers were reco
 Taking a rough estimate of requiring around one RSE per 10 researchers (FIXME!! Number anecdotal!!)(A number that has been put forward in another workshop
 in Paderborn) brings us to a need of around 6.000 RSEs in Germany. Assuming an equal distribution with regard to age
 and an average time in the RSE workforce of 40 years, yields an average need of around 150 RSEs per year.
-If we assume that half of the workforce is made up by researchers coming from domain specific graduation programs and the other half are properly minted RSE graduates this suggests that there is a requirement for around four dedicated RSE education places each producing graduating classes
-of around 20 persons each year.
-This calculation assumes that RSEs remain within the research community and do not move into industry with their transferable skillset.
+If we assume that half of the workforce is made up by researchers coming from domain specific graduation programs and the other half are properly minted
+RSE graduates this suggests that there is a requirement for around four dedicated RSE education places each producing graduating classes of around 20 persons each year.
+This calculation assumes that RSEs remain within the research community and do not move into industry with their highly transferable skillset.
 While this calculation is only supposed to give a rough ballpark estimate, we note that Germany has 319 places of higher education [destatis2023].
 Having only three RSEs at each site already gives a requirement of 1000 persons.
 
