@@ -7,6 +7,9 @@ Get the [latest version of the PDF](https://github.com/CaptainSifff/paper_teachi
 ## How to contribute
 
 This paper is intended as a collaborative effort and we are looking for input from you. 
+** We follow gitlab/github flow **
+** Please utilize newlines for changes! **
+
 You can contribute in various ways:
 
 1. Propose content/text via pull request
