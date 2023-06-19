@@ -22,7 +22,7 @@ header-includes:
     - \newcommand{\blandscape}{\begin{landscape}}
     - \newcommand{\elandscape}{\end{landscape}}
 ---
-## Working Title: Identifying core competencies of an RSE and an application with a sample curriculum.
+
 ## Working Title: Identifying foundational competencies of Research Software Engineers across all specializations.
 
 ---
@@ -73,10 +73,11 @@ _[Overview of paper sections to add]_
 
 ## Intended Target Audience
 While this paper came out from the deRSE23 conference we believe the formulated competencies
-in here to have far-reaching impact beyond the domain of RSE into adjacent fields of science.
-The most obvious examples are computer science, programmers in HPC and research data management.
+in this publication to have far-reaching impact beyond the domain of RSE into adjacent fields of science.
+The most obvious users are computer science, programmers in HPC and research data management.
 But also the traditional STEM sciences that focus on generating more graduates with
 a software focus or people who traditionally find jobs in the libraries or compute centers.
+Beyond that we also explicitely mention the medical domains and the digital humanities as use-cases.
 With the increasing availability and accessibility of cluster resources to academic staff,
 and the growing pressure from funding agencies to prioritize projects that generate
 archived, annotated, re-usable and potentially remotely executable data,
@@ -84,6 +85,7 @@ RSEs become a vital link to cross-pollinate computational skills and
 infrastructure know-how between domain scientists.
 Also funders and research managers can profit from the discussion in this paper in
 order to observe how software development in academia will be institutionalized.
+The strong emphasis on team-skills should also provide valuable graduates for industry.
 
 ## Related Work and Activities
 
