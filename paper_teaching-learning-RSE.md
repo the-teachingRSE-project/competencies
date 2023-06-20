@@ -141,8 +141,8 @@ The [Intersect](https://intersect-training.org/) project ....
 [Software Sustainability Institute (SSI)](https://www.software.ac.uk/) [@Crouch2013] ...
 
 
- - FIXME: Add NFDI initiatives like edutrain.
-
+- FIXME: Add NFDI initiatives like edutrain.
+- ELIXIR/EXCELERATE/GOBLET train-the-trainer programme [@Via2017; @Morgan2017]
 
 ## Challenges
 - Point out gaps
@@ -468,9 +468,10 @@ Similarly, in the period 2015-2017, the Stack Overflow website launched localize
 versions in Portuguese [@StackOverflowPortuguese], Russian [@StackOverflowRussian]
 and Spanish [@StackOverflowSpanish] to reach a wider community.
 There are also RSE short primers [@Astigarraga2022] and
-RSE guidelines [@ClementFontaine2019b; @Appel2021; @Haim2021] in non-English
-languages to address the need of specific communities.
-FIXME: find more examples of teaching material in non-English languages
+RSE guidelines [@ClementFontaine2019b; @Appel2021; @Haim2021; @Schlauch2018b]
+in non-English languages to address the need of specific communities.
+FIXME: find more examples of teaching material in non-English languages.
+FIXME: discuss the role of translations in overcoming linguistic and cultural barriers?
 
 Teaching RSE in relevant undergraduate courses of domain scientists can be
 the first point of entry in the field. For example, statistics curricula can
@@ -657,7 +658,7 @@ Where appropriate similar programs should also be established in other domains.
 
 ## Required Next steps
 ### Implementation Strategies
-- Ideally over time scientific software engineering becomes part of the curricula at universities 
+- Ideally over time scientific software engineering becomes part of the curricula at universities.
 
 #### Academic Considerations
 - Awareness of existing teaching programs
