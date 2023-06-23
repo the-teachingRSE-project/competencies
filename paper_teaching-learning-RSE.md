@@ -215,7 +215,7 @@ The RSE should be able to interact with the repositories of this specific domain
 
 
 #### Outside Party interaction (USERS)
-Software developed for research is often developed as part of the research process itself, and like the research process, it will change often and not unlikely in unpredictive ways.
+Research software is often developed as part of the research process itself, and like the research process, it will change often and not unlikely in unpredictive ways.
 Because of this, research software often has to be developed very close to its users, the researchers.
 This often means that it is hard to distinguish roles like developers and users because people represent multiple roles.
 However, regardless if this is the case or not: compared to other SE environments, in research there is an unusually high interaction between and within different RSE roles like developers and users, but also between expoerts from different backgrounds.
