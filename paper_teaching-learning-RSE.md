@@ -199,13 +199,10 @@ Knowing that ones own research is not only a means to personal ends, but that on
 should foster an appreciation for the underlying principles of science like review and reproducibility.
 
 #### Finding/discovering software and attribution (SD)
-One goal of FAIR software is to avoid reimplementation of already working packages and thereby reducing the need for doubled work. 
-To (re-) use software the individual researchers have to be able to find out if that software already exists.
-
-After finding the software the researcher has to be able to evaluate if the software actually suits their needs.
-Apart from the functionality, licensing, integration with other software and expandability have to be part of this evaluation.
-
-Finally, after obtaining results by modifying and/or using the software, it has to be ensured that the original authors get the proper attribution.
+One goal of FAIR software is to avoid unnecessary duplication of work by reusing existing work instead.
+To (re-) use software, individual researchers have to be able to find it and then to easily evaluate if the software actually suits their needs.
+Apart from functionality also licensing, integration with other software, expected sustainability and expandability have to be part of this evaluation.
+Finally, after obtaining/publishing results by modifying and/or using the software, the original authors need to receive proper attribution.
 
 #### Use Domain repositories/directories (DOMREP)
 Almost all research software is developed within a specific scientific domain.
