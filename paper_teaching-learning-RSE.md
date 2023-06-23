@@ -190,7 +190,7 @@ Using that, an RSE should be able to make predictions about a software's behavio
 
 #### The research skills
 #### Curiosity (NEW)
-The RSE gains its reputation from its effectiveness to interact with their domain peers. Therefore some curiosity together with a broad overview of the research field is required.
+RSEs gain their reputation from their effectiveness to interact with their domain peers. Therefore some curiosity together with a broad overview of the research field is required.
 A manifestation can also be the curiosity for new tools which is a great asset for an RSE.
 Lifelong learning then becomes more bearable.
 
