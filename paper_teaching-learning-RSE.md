@@ -181,7 +181,7 @@ The RSE should be able to use public platforms to share the artifacts they have 
 #### Legal things (LEG)
 The RSE should know licenses and their respective domains for data or software. On an entry level, the competency is mostly about awareness. 
 Namely that different (open source) licenses exist, 
-that those might not be combinable when using multiple libraries with different licenses 
+that those might not be compatible with each other,
 and that use of third party software might restrict licensing of the resulting work.
 
 #### Software Behaviour Awareness and Analysis(MOD)
