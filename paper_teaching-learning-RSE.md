@@ -195,8 +195,9 @@ A manifestation can also be the curiosity for new tools which is a great asset f
 Lifelong learning then becomes more bearable.
 
 #### Understanding the research cycle (RC)
-Knowing that ones own research is not only a means to personal ends, but that one is part of a bigger cycle that involves a lot of other parties in and outside of your domain
-should foster an appreciation for the underlying principles of science like review and reproducibility.
+One of the crucial skills of RSEs is their mental proximity to research.
+Ideally having worked or still working as researchers as well, RSEs embrace being part of a larger community which, despite friendly competition, shares the common goal of gaining knowledge for its own sake and not just for personal or commercial gain.
+Like other researchers, RSEs should be open to discussions and arguments beyond their own expertise and foster an appreciation for the underlying principles of good research, like publications, review and reproducibility.
 
 #### Finding/discovering software and attribution (SD)
 One goal of FAIR software is to avoid reimplementation of already working packages and thereby reducing the need for doubled work. 
