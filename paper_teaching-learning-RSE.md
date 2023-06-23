@@ -215,12 +215,12 @@ The RSE should be able to interact with the repositories of this specific domain
 
 
 #### Outside Party interaction (USERS)
-Research software is often developed as part of the research process itself, and like the research process, it will change often and not unlikely in unpredictive ways.
-Because of this, research software often has to be developed very close to its users, the researchers.
-This often means that it is hard to distinguish roles like developers and users because people represent multiple roles.
-However, regardless if this is the case or not: compared to other SE environments, in research there is an unusually high interaction between and within different RSE roles like developers and users, but also between expoerts from different backgrounds.
+Research software is often developed as part of the research process itself, and like the research process, it will change often and not unlikely in unpredictible ways.
+Because of this, research software often has to be developed very closely to its users, the researchers.
+This often means that it is hard to distinguish roles like developers and users because people often represent multiple roles.
+However, regardless if this is the case or not: compared to other SE environments, there is an unusually close interaction between and within different roles in research, as well as between experts from different domains.
 Often this means it is necessary for an RSE to think "outside their comfort zone", but at the same time to be able to convey their knowledge and experience to experts of other fields in a way they can understand more easily.
-This includes their own domain knowledge when they discuss with other RSEs as well as their SE knowledge when talking to domain scientists.
+This includes their own domain knowledge in discussions with RSEs (from other domains), as well as their SE knowledge when talking to domain scientists.
 
 #### Team Skills
 #### Teaching (TEACH)
