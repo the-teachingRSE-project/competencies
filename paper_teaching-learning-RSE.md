@@ -208,10 +208,9 @@ Apart from the functionality, licensing, integration with other software and exp
 Finally, after obtaining results by modifying and/or using the software, it has to be ensured that the original authors get the proper attribution.
 
 #### Use Domain repositories/directories (DOMREP)
-Almost all research software is developed within a specific scientific domain.
-Some software may be able to cross boundaries, but the majority will have a home domain, with which it needs to be able to interact.
-Especially for data-driven research having software that is able to use existing sets and repositories is a valuable part.
-The RSE should be able to interact with the repositories of this specific domain.
+Almost all research software is developed within and for only one or at most a few specific scientific domains.
+This means that software that has to interact with research data often needs to be able to interact with the existing domain-specific data repositories.
+Thus, RSEs should have experience in handling data within repositories of their software's target domain(s).
 
 
 #### Outside Party interaction (USERS)
