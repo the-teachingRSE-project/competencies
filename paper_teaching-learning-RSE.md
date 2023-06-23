@@ -119,6 +119,8 @@ To allow these educational offers to be easier brought to the scientists, the [@
 Further RSE training offers within the Helmholtz context are provided by the [@HAI] and [@HImaging] platforms as well as the [@HMC].
 
 #### Open Source Resources
+- This needs another name: the resources above are also, at least mostly, open source.
+
 Due to the ever-evolving nature of skills and infrastructure in the RSE field,
 training material is often version-controlled, so that trainers can update it
 between iterations. For example, core lessons from the Carpentries and CodeRefinery
@@ -145,7 +147,15 @@ SSI? [@Crouch2013] ...
 - What is missing
 - domain application?
 
-Depending on the specific domain there is a gap between the basic software carpentry courses and the required skills to build domain-specific research software. For example, scientists in the field of High Performance Computing (HPC) need to know how to make effective use of concurrency to speed up their simulations and communicate efficiently using message-passing interface (MPI) libraries. The same is true for researchers from other domains who make use of other specialized technologies, methods and/or tools. To bridge those gaps more specialized courses would be needed like the one mentioned in section [Identifying skills and pathways] for the HPC community.
+As seen in the previous section, there already exist a number of open educational resources in the field of RSE. However, what is missing is a practical way to search all of these at once. This is mainly due to the lack of a metadata standard concerning EOR resources within the RSE community, as well as some simple way to collect potentially existing metadata in one place in order to enable a comprehensive search.
+
+Builing on this: courses exist on different knowledge and experience levels and, at least in part, build upon each other. However, there is currently no (unified) way to clearly label
+- what are the topics taught by a course
+- what are the topics recommended to know to start the course
+- what are the topics required to know to start the course
+This, in part, it due to a missing (metadata) standard to express these dependencies.
+
+Continuing along thes line of course dependencies and also depending on the specific domain there are gaps between very basic and very advanced courses, e.g., there is a gap between the basic software carpentry courses and the required skills to build domain-specific research software. For example, scientists in the field of High Performance Computing (HPC) need to know how to make effective use of concurrency to speed up their simulations and communicate efficiently using message-passing interface (MPI) libraries. The same is true for researchers from other domains who make use of other specialized technologies, methods and/or tools. To bridge those gaps more specialized courses would be needed like the one mentioned in section [Identifying skills and pathways] for the HPC community.
 
 Moreover, software development is a craft, i.e. it is not only about knowledge but also requires practical experience. Hence we need to create an environment that allows less experienced researchers to practice and gain experience efficiently. Ideally, this learning environment would allow less experienced scientists to be guided by more experienced RSEs. We know such practices e.g. from human medicine, where junior doctors first assist experienced doctors before they work independently. In the field of software development, this approach could be implemented in the form of peer programming, for example. The prerequisite for this, however, is that experienced academics get better career opportunities at German universities so that they do not leave for industry roles. 
 
