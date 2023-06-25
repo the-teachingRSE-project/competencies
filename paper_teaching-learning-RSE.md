@@ -22,15 +22,18 @@ header-includes:
     - \newcommand{\blandscape}{\begin{landscape}}
     - \newcommand{\elandscape}{\end{landscape}}
 ---
-## Working Title: Identifying core competencies of an RSE and an application with a sample curriculum.
+
+## Working Title: Identifying foundational competencies of Research Software Engineers across all specializations.
 
 ---
 
 **Abstract**:
 Being an outcome of a community workshop held in Paderborn, Germany in February 2023 this paper tries 
 for the first time(FIXME: ? true?) to define which competencies are required to participate in modern digital sciences.
-Some of these competencies are required in more depth, therefore, giving rise to the trade of the RSE, scientific personnel that specializes in writing research software that facilitates research in all stages of the research cycle.
-Due to their generality, we explore these competencies in various contexts and elaborate on some examples for further specialization.
+Some of these competencies are required in more depth, therefore, giving rise to the trade of the RSE:
+scientific personnel that specializes in writing research software that facilitates work in all stages of the research cycle.
+Due to their generality, these competencies are often shared between RSE specializations,
+and we believe they are also relevant for domains outside of the RSE community.
 
 But knowing a set of competencies is not enough, therefore we discuss explicitly how to make people aware that these skills are
 required and how these are taught(FIXME: Do we want to add this pedagogical dimension?).
@@ -61,11 +64,28 @@ In order to do so the draw upon skills from traditional software engineering, es
 
 Developing and maintaining these skills is time consuming and often challenging. Part of the challenge is that there is not a standard pathway to becoming an RSE and, partly as a result of this, there is something of an ad hoc approach to training within the community. We also see increasing amounts of basic-level training materials that are great to put researchers or technical professionals on a path towards gaining significant RSE expertise, but the trail often ends as developing RSEs want to progress to intermediate and advanced level material. In particular, recent technology developments are ensuring that there is a growing need for specialist expertise, for example in areas such as making efficient use of high-performance computing infrastructure. This is an area where there is a skills shortage and a shortage of training materials.
 
-In this paper, we look at the challenge of understanding the core competencies that underpin Research Software Engineering and the way that these competencies may be combined to help support a more coordinated approach to future RSE skills development. The paper builds on a workshop session held as part of the German Research Software Engineering Conference (deRSE23), held in Paderborn, Germany in February 2023.
+In this paper, we look at the challenge of understanding the core competencies that underpin Research Software Engineering and the way that these competencies may be combined to help support a more coordinated approach to future RSE skills development.
+The paper builds on a workshop session held as part of the German Research Software Engineering Conference (deRSE23), held in Paderborn, Germany in February 2023.
 
 _[Information on key contributions to add]_
 
 _[Overview of paper sections to add]_
+
+## Intended Target Audience
+While this paper came out from the deRSE23 conference we believe the formulated competencies
+in this publication to have far-reaching impact beyond the domain of RSE into adjacent fields of science.
+The most obvious users are computer science, programmers in HPC and research data management.
+But also the traditional STEM sciences that focus on generating more graduates with
+a software focus or people who traditionally find jobs in the libraries or compute centers.
+Beyond that we also explicitely mention the medical domains and the digital humanities as use-cases.
+With the increasing availability and accessibility of cluster resources to academic staff,
+and the growing pressure from funding agencies to prioritize projects that generate
+archived, annotated, re-usable and potentially remotely executable data,
+RSEs become a vital link to cross-pollinate computational skills and
+infrastructure know-how between domain scientists.
+Also funders and research managers can profit from the discussion in this paper in
+order to observe how software development in academia will be institutionalized.
+The strong emphasis on team-skills should also provide valuable graduates for industry.
 
 ## Related Work and Activities
 
@@ -375,8 +395,19 @@ interacting with job scheduling systems that are often used on HPC clusters to
 manage the queuing and running of computational tasks. HPC-focused RSEs may be
 involved with managing HPC infrastructure at the hardware or software level (or
 both) and understand how to calculate the environmental impact of large-scale
-computations. Their knowledge of how to run HPC jobs can be vitally important to
-researchers wanting to make use of HPC infrastructure.
+computations. Their knowledge of how to run HPC jobs and write successful HPC
+access proposals can be vitally important to researchers wanting to make use of
+HPC infrastructure.
+
+They may also be familiar with High-Throughput Computing (HTC) and manage
+a network of heterogeneous compute resources, typically desktop workstations
+equipped with multicore processors and possibly GPU accelerators.
+They can apply their node-level performance engineering skills to maximize
+utilization of the available resources.
+Finally, they typically have expert knowledge in at least one compiled language,
+and can assist domain scientists who have excellent command of scripting languages
+but only a cursory understanding of compiled languages get up to speed with
+compiled software.
 
 #### Research Infrastructure RSE
 This RSE is interested in SysOps and sets up infrastructures for and with researchers.
@@ -431,7 +462,6 @@ While this is not a core concern of this paper, we wanted to highlight this impo
 With regard to which additional competency is required, these are people having experience with ancient software stacks that are not anymore part of the general curricula(think of COBOL and FORTRAN).
 
 FIXME: I think it would be nice if we could move each of these optional competencies to a different specialization.
-
 
 
 ## How do we reach people in different stages of their careers?
