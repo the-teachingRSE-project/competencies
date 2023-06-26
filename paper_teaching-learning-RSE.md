@@ -39,7 +39,7 @@ But knowing a set of competencies is not enough, therefore we discuss explicitly
 required and how these are taught(FIXME: Do we want to add this pedagogical dimension?).
 In order to also facilitate structural change in the German research institution landscape
 we will discuss the organizations and structures that support this change and educate new RSEs.
-The discussion in this paper is meant to be general therefore we will discuss domain specific applications in an appendix.
+The discussion in this paper is meant to be general. Therefore, we will discuss domain specific applications in an appendix.
 
 ---
 
@@ -111,7 +111,7 @@ However, the Carpentries Incubator [@CarpentriesIncubator] provides an environme
 The material in the Incubator increasingly includes more intermediate-level training modules.
 
 #### Coderefinery
-[@CodeRefinery] is a project currently funded by the Nordic e-Infrastructure and thus active primarily in the Nordics with the goal of teaching essential tools around research software development, that are usually skipped in academic education.
+CodeRefinery [@CodeRefinery] is a project currently funded by the Nordic e-Infrastructure and thus active primarily in the Nordics with the goal of teaching essential tools around research software development, that are usually skipped in academic education.
 CodeRefinery hosts a set of open source training materials including both beginner and intermediate level material and organizes multiple highly interactive large scale workshops per year.
 Skills learned from the workshops and/or materials allow researchers to produce more reproducible, open and efficient software and thus promote FAIR [@FAIR] research practices.
 One goal of the project is to evolve into a community project that seamlessly integrates with other initiatives. FIXME: elaborate on the integration part if it's relevant, else leave out.
@@ -132,11 +132,11 @@ best practices, modern software design [@LRZModernCpp], project management and
 version control [@LRZIntroCpp].
 
 #### Helmholtz
-As part of its push towards a better RSE environment, the Helmholtz Association launched the [@HIFIS] platform which provides educational material and trainings amongst other services for an audience of over 10.000 scientists in Germany and internationally.
+As part of its push towards a better RSE environment, the Helmholtz Association launched the Helmholtz Federated IT Services platform (HIFIS) [@HIFIS] which provides educational material and trainings amongst other services for an audience of over 10.000 scientists in Germany and internationally.
 All of these materials focus on RSE basics to refresh and expand the software engineering knowledge for recent graduates or to update the existing knowledge in established researchers.
 They are published under OER licenses and can serve as either self-learning instructions or form the basis of a hands-on training.
-To allow these educational offers to be easier brought to the scientists, the [@HIDA] sustains a large network within the Helmholtz Association and beyond with a strong focus on graduate schools.
-Further RSE training offers within the Helmholtz context are provided by the [@HAI] and [@HImaging] platforms as well as the [@HMC].
+To allow these educational offers to be easier brought to the scientists, the Helmholtz Information and Data Science Academy (HIDA) [@HIDA] sustains a large network within the Helmholtz Association and beyond with a strong focus on graduate schools.
+Further RSE training offers within the Helmholtz context are provided by the Helmholtz-AI [@HAI] and Helmholtz-Imaging [@HImaging] platforms as well as the Helmholtz Metadata Collaboration plaftorm [@HMC].
 
 #### Open Source Resources
 Due to the ever-evolving nature of skills and infrastructure in the RSE field,
@@ -172,7 +172,7 @@ Moreover, software development is a craft, i.e. it is not only about knowledge b
 ## Results
 
 ### Required Generic RSE skills
-As it stands the RSE role requires competencies in two fields.
+As it stands, the RSE role requires competencies in two fields.
 The "R", the person being a researcher, and the "SE" the software skills.
 And this hybrid nature is brought about, since RSEs need to apply their knowledge usually in teams.
 Therefore we structure our competencies among SE skills, research skills and team skills with key notions being the software and the research cycle and the scientific process.
@@ -251,7 +251,7 @@ Code review can be part of teaching people on improving their skills.
 The RSE should have knowledge about project management. At some institutes, it follows the practices of the local research groups,
 but it is useful, if an RSE knows its place in a PM scheme, or can bring in new ideas for improvement.
 
-#### working in a team (TEAM)
+#### Working in a team (TEAM)
 There are various facets to working in a team. They range from functioning in a team to leading a team.
 It includes following measures that increase team cohesion like performing code reviews.
 
