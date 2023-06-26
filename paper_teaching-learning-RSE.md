@@ -113,7 +113,7 @@ The material in the Incubator increasingly includes more intermediate-level trai
 #### Coderefinery
 [@CodeRefinery] is a project currently funded by the Nordic e-Infrastructure and thus active primarily in the Nordics with the goal of teaching essential tools around research software development, that are usually skipped in academic education.
 CodeRefinery hosts a set of open source training materials including both beginner and intermediate level material and organizes multiple highly interactive large scale workshops per year.
-Skills learned from the workshops and/or materials allow researchers to produce more reproducible, open and efficient software and thus promote FAIR research practices.
+Skills learned from the workshops and/or materials allow researchers to produce more reproducible, open and efficient software and thus promote FAIR [@FAIR] research practices.
 One goal of the project is to evolve into a community project that seamlessly integrates with other initiatives. FIXME: elaborate on the integration part if it's relevant, else leave out.
 
 #### Reprohack
