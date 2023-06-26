@@ -204,9 +204,9 @@ Namely that different (open source) licenses exist,
 that those might not be compatible with each other,
 and that use of third party software might restrict licensing of the resulting work.
 
-#### Software Behaviour Awareness and Analysis(MOD)
-By this, we mean a certain quality of analytical thinking that enables you to form a mental model of the piece of software under consideration in the current environment.
-Using that, an RSE should be able to make predictions about a software's behaviour. This is a required skill for tasks like debugging, profiling, designing good tests, or predicting user interaction.
+#### Software Behaviour Awareness and Analysis (MOD)
+We define this as a certain quality of analytical thinking that enables an RSE to form a mental model of a piece of software in a specific environment.
+Using that, an RSE should be able to make predictions about a software's behaviour. This is a required skill for common tasks like debugging, profiling, designing good tests, or predicting user interaction.
 
 #### The research skills
 #### Curiosity (NEW)
