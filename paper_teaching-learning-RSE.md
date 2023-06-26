@@ -212,7 +212,7 @@ Using that, an RSE should be able to make predictions about a software's behavio
 #### Curiosity (NEW)
 RSEs gain their reputation from their effectiveness to interact with their domain peers. Therefore some curiosity together with a broad overview of the research field is required.
 A manifestation can also be the curiosity for new tools which is a great asset for an RSE.
-Lifelong learning then becomes more bearable.
+Lifelong learning then becomes not only bearable, but a motivation to work.
 
 #### Understanding the research cycle (RC)
 Knowing that ones own research is not only a means to personal ends, but that one is part of a bigger cycle that involves a lot of other parties in and outside of your domain
