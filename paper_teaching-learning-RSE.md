@@ -172,35 +172,39 @@ Moreover, software development is a craft, i.e. it is not only about knowledge b
 ## Results
 
 ### Required Generic RSE skills
-As it stands, the RSE role requires competencies in two fields.
-The "R", the person being a researcher, and the "SE" the software skills.
-And this hybrid nature is brought about, since RSEs need to apply their knowledge usually in teams.
-Therefore we structure our competencies among SE skills, research skills and team skills with key notions being the software and the research cycle and the scientific process.
-Since these skills are meant to be relevant in a broad setting and form the foundation for a specific specialization.
-We elaborate on some facets in tables.
+As it stands, the RSE role requires competencies in two fields: 1. the person
+is a researcher (the "R") with 2. software skills (the "SE"). RSEs typically
+apply their knowledge and experience in larger teams which allows them to
+cultivate this hybrid nature. Therefore we categorise the competencies into
+software engineering skills, research skills and team skills with particular
+focus on the software and research cycle and the scientific process. The
+generic skills are relevant in a broad setting and form the foundation for
+specific specialisations.
+We elaborate on some facets in tables. (FIXME: not sure about this sentence)
 
 #### Software Engineering Skills
-There are lots of software engineering curricula out there, that try to define which tasks a software engineer should be able to perform.
-A recent one highlighting some aspects in more detail than what we are doing here is [@Landwehr2017].
+There are many software engineering curricula out there, that try to define
+which tasks a software engineer should be able to perform. A recent example
+highlighting some aspects in more detail than here is [@Landwehr2017].
 
 #### Creating documented code building blocks (DOCBB)
-The RSE should be able to create building blocks from source code that are reusable. This ranges from simple libraries of functions up to complex architectures consisting of multiple softwares.
-An important part of reusability is that at least oneself, and ideally others, are able to understand what a piece of code aims to do and how to use the provided functionality, which is primarily achieved through a "clean" implementation and enhanced by documentation. This ranges from commenting code blocks to the usage of documentation (building) tools.
+The RSE should be able to create building blocks from source code that are reusable. This ranges from simple libraries of functions up to complex architectures consisting of multiple software packages.
+An important part of reusability is that at least oneself, and ideally others, are able to understand what a piece of code aims to do and how to use the provided functionality. This is primarily achieved through a "clean" implementation and enhanced by documentation. Documentation ranges from commenting code blocks to using documentation (building) tools.
 
 #### Building distributable libraries (LIBS)
 The RSE should be able to distribute their code with their domain/language specific distribution platforms.
-This almost always encompasses handling/documenting dependencies to other packages/libraries and sometimes 
+This almost always encompasses handling/documenting dependencies with other packages/libraries. It sometimes 
 requires knowledge of using build systems to enable interoperability with other systems.
 
 #### Understanding the software lifecycle (SWLC)
 Software has a lifetime and this necessitates the respective strategies for its usage along the intended time scale.
 
 #### Use repositories (SWREPOS)
-The RSE should be able to use public platforms to share the artifacts they have created and invite public scrutiny on them for public review.
+The RSE should be able to use public platforms to share the artefacts they have been created and invite the public to scrutinise them during public review.
 
-#### Legal things (LEG)
-The RSE should know licenses and their respective domains for data or software. On an entry level, the competency is mostly about awareness. 
-Namely that different (open source) licenses exist, 
+#### Legal aspects (LEG)
+The RSE should know licenses and their respective domains for data or software. On an entry level, the competency is mostly about awareness: 
+namely that different (open source) licenses exist, 
 that those might not be compatible with each other,
 and that use of third party software might restrict licensing of the resulting work.
 
@@ -210,24 +214,23 @@ Using that, an RSE should be able to make predictions about a software's behavio
 
 #### The research skills
 #### Curiosity (NEW)
-RSEs gain their reputation from their effectiveness to interact with their domain peers. Therefore some curiosity together with a broad overview of the research field is required.
-A manifestation can also be the curiosity for new tools which is a great asset for an RSE.
-Lifelong learning then becomes not only bearable, but a motivation to work.
+RSEs gain their reputation from their effectiveness to interact with their domain peers. Therefore, some curiosity together with a broad overview of the research field is required. Curiosity is also reflected when an RSE looks for new tools.
+Lifelong learning is then no longer just a phrase, but becomes a motivation to work.
 
 #### Understanding the research cycle (RC)
-Knowing that ones own research is not only a means to personal ends, but that one is part of a bigger cycle that involves a lot of other parties in and outside of your domain
+Knowing that one's own research is not only a means to personal ends, but that one is part of a bigger cycle that involves many other parties in and outside of the RSE's domain
 should foster an appreciation for the underlying principles of science like review and reproducibility.
 
 #### Finding/discovering software and attribution (SD)
 One goal of FAIR software is to avoid unnecessary duplication of work by reusing existing work instead.
-To (re-) use software, individual researchers have to be able to find it and then to easily evaluate if the software actually suits their needs.
+To (re-) use software, researchers have to be able to find it and then to easily evaluate if the software actually suits their needs.
 Apart from functionality also licensing, integration with other software, expected sustainability and expandability have to be part of this evaluation.
 Finally, after obtaining/publishing results by modifying and/or using the software, the original authors need to receive proper attribution.
 
 #### Use Domain repositories/directories (DOMREP)
 Almost all research software is developed within a specific scientific domain.
 Some software may be able to cross boundaries, but the majority will have a home domain, with which it needs to be able to interact.
-Especially for data-driven research having software that is able to use existing sets and repositories is a valuable part.
+Especially for data-driven research having software that is able to use existing data sets and repositories is a valuable part.
 The RSE should be able to interact with the repositories of this specific domain.
 
 
