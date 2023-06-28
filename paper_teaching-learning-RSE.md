@@ -72,20 +72,21 @@ _[Information on key contributions to add]_
 _[Overview of paper sections to add]_
 
 ## Intended Target Audience
-While this paper came out from the deRSE23 conference we believe the formulated competencies
-in this publication to have far-reaching impact beyond the domain of RSE into adjacent fields of science.
-The most obvious users are computer science, programmers in HPC and research data management.
-But also the traditional STEM sciences that focus on generating more graduates with
-a software focus or people who traditionally find jobs in the libraries or compute centers.
-Beyond that we also explicitely mention the medical domains and the digital humanities as use-cases.
-With the increasing availability and accessibility of cluster resources to academic staff,
-and the growing pressure from funding agencies to prioritize projects that generate
-archived, annotated, re-usable and potentially remotely executable data,
-RSEs become a vital link to cross-pollinate computational skills and
-infrastructure know-how between domain scientists.
-Also funders and research managers can profit from the discussion in this paper in
-order to observe how software development in academia will be institutionalized.
-The strong emphasis on team-skills should also provide valuable graduates for industry.
+While this paper is based on discussions held during a workshop at the deRSE23 conference we believe
+that the competencies formulated here have a far-reaching impact beyond the domain of RSE into
+adjacent fields of science. The most obvious users come from computer science, are HPC programmers
+with a background in physical sciences, or manage research data. However, these days most research
+involves some amount of data management, processing and visualisation. Graduates from traditional
+STEM sciences with a focus on software or some library or IT staff will find this paper interesting.
+Furthermore, the role of RSEs is becoming increasingly important in medical domains and the digital
+humanities. Access to central compute resources ranging from small departmental sizes to national
+facilities is becoming readily available. Additionally, pressure is growing from funding bodies to
+prioritise projects that generate archived, annotated, re-usable and potentially remotely executable
+data. These resources and requirements fall within the skill set of RSEs. They become a vital link to
+cross-pollinate computational skills and infrastructure know-how between domain scientists. Funders
+and research managers will find the discussion in this paper valuable in order to observe how
+software development in academia will be institutionalised. Finally, the strong emphasis on
+team-skills allows RSEs to be very employable in industrial workplaces.
 
 ## Related Work and Activities
 
