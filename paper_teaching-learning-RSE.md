@@ -604,18 +604,6 @@ The GitHub user community also created unofficial trophies [@GitHubProfileTrophy
 to highlight alternative metrics, such as the number of repositories and opened tickets,
 with a ranking system to introduce competition between users.
 
-By default, platforms like GitHub and GitLab display the commit activity on users' profile pages,
-in the form of a color-coded chart that measures the number of commits per day.
-This statistic doesn't reflect the number of lines of code changed by a commit,
-nor the nature of the change (bugfix, maintenance, documentation, etc.), and
-can easily be gamed by automated tools [@Rockstar], making its usefulness as a
-performance indicator debatable.
-Yet, its ubiquity on personal pages and the lack of more objective metrics makes
-it a de facto standard. The presence of this indicator can alter RSE behavior,
-potentially in a counter-productive way since it priviledges quantity over quality.
-For example, users can engage in contribution "streaking" to pad the chart [@Moldon2021] and
-compete with other users via custom badges displaying their streaking performance [@GitHubStreakStats].
-
 FIXME:
 
 - badges should not be used as performance indicators (for hiring and/or career progress)
