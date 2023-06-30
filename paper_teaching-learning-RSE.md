@@ -590,19 +590,6 @@ such as skill-based badges or badges displaying a proficiency level.
 Badges can also fade away, i.e. have diminishing relevance or usefulness over time.
 This is for example the case of badges awarded for participating in old workshops
 or for learning technologies that have since become less relevant in the RSE field.
-The Fedora community developed a significant body of personal badges [@FedoraBadges]
-that reward contributions to open source software documentation, podcasts, conferences,
-and code maintenance in the form of bugfixes, security fixes, code reviews and package releases.
-These badges do not stack, making it difficult to extract information from a user profile,
-and the infrastructure that automatically awards these badges is fragile and unreliable [@Siddharth2022].
-
-The official GitHub Achievements [@GitHubProfileAchievements] reward social behavior,
-such as the number of merge requests, the number of commits with co-authors,
-or the number of answered questions. In addition, users who join organizations
-or financially contribute to open source software obtain additional descriptors.
-The GitHub user community also created unofficial trophies [@GitHubProfileTrophy]
-to highlight alternative metrics, such as the number of repositories and opened tickets,
-with a ranking system to introduce competition between users.
 
 FIXME:
 
