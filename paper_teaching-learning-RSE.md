@@ -171,6 +171,7 @@ Moreover, software development is a craft, i.e. it is not only about knowledge b
 
 ## Results
 
+### Required Generic RSE skills
 As it stands, the RSE role requires competencies in two fields: 1. the person
 is a researcher (the "R") with 2. software skills (the "SE"). RSEs typically
 apply their knowledge and experience in larger teams which allows them to
@@ -179,6 +180,8 @@ software engineering skills, research skills, and team skills with particular
 focus on the software and research cycle and the scientific process. The
 generic skills are relevant in a broad setting and form the foundation for
 specific specialisations.
+
+(FIXME: extract some info from tables)
 
 ### Software Engineering Skills
 There are many software engineering curricula out there, that try to define
