@@ -181,7 +181,14 @@ focus on the software and research cycle and the scientific process. The
 generic skills are relevant in a broad setting and form the foundation for
 specific specialisations.
 
-(FIXME: extract some info from tables)
+These skills and competencies come into play in various forms: first of all the
+RSEs themselves need to acquire and develop them as their career progresses
+(**Career level**). However, some knowledge of software and data processing is
+required at all academic levels and for all positions
+(**Academic Progression/better title**). The relative importance of the skills
+and competencies also depend on the size of the RSE team
+(**Project team size**). Finally, different sets of skills are emphasised in
+the different RSE specialisations (**RSE specialisations**).
 
 ### Software Engineering Skills
 There are many software engineering curricula out there, that try to define
