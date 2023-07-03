@@ -259,10 +259,12 @@ this specific domain.
 
 
 #### Outside Party interaction (USERS)
-While in a traditional SE context, you might get away with not interacting with people outside your project.
-But in a research context, this will certainly be the case and involves users, other developers,  upto funders.
-Additionally, this is oftentimes a two-way interaction with RSEs in a specific domain learning new findings, techniques, algorithms, 
-etc. to be able to implement software that is up-to-date with the body of knowledge of that domain.
+While in a traditional SE context, you might get away with not interacting with
+people outside your project. But in a research context, this will certainly be
+the case and involves users, other developers,  upto funders. Additionally, this
+is oftentimes a two-way interaction with RSEs in a specific domain learning new
+findings, techniques, algorithms, etc. to be able to implement software that is
+up-to-date with the body of knowledge of that domain.
 
 #### Team Skills
 #### Teaching (TEACH)
