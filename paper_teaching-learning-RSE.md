@@ -470,7 +470,7 @@ In 2014 the community behind The Carpentries engaged in an international
 effort to translate their training material in Spanish [@Wilson2014a],
 Korean [@Wilson2014b] and Portuguese [@Silva2014].
 Core lessons have been translated to Korean in 2015 [@Lee2015], and the Spanish
-core lessons are now officially part of the Software Carpentry [@CarpentriesSpanish].
+core lessons are now officially part of the Software Carpentry material [@CarpentriesSpanish].
 Similarly, in the period 2015-2017, the Stack Overflow website launched localized
 versions in Portuguese [@StackOverflowPortuguese], Russian [@StackOverflowRussian]
 and Spanish [@StackOverflowSpanish] to reach a wider community.
@@ -484,7 +484,7 @@ be used to showcase RSE infrastructure, e.g. the R programming language and
 its ecosystem of statistics libraries and integrated development environments
 [@Reinhart2021; @Beckman2021; @CetinkayaRundel2018].
 There are also bioinformatics courses designed for high school students that
-covers topics such as pen-and-paper algorithm design, genomic database querying
+cover topics such as pen-and-paper algorithm design, genomic database querying
 and data mining, and open data [@Form2011; @Bain2020].
 Teaching incubators can be leveraged to develop and test new academic curricula
 that introduce basic RSE topics, such as the "Algorithmic Battle"
@@ -578,9 +578,9 @@ The development of a standardized list of RSE competencies could help
 develop metrics to measure an individual's progression in specific RSE
 skill sets. These indicators would supplement the traditional grading
 system by providing gamification elements that gratify learning and
-incentivizes the discovery of new skill sets, and thus contribute
+incentivize the discovery of new skill sets, and thus contribute
 to reducing skill gaps in the RSE community.
-Some indicators could be used in GitHub/Lab to stimulate continuous learning or
+Some indicators could be used in collaborative Web platforms to stimulate continuous learning or
 steer RSE behavior in a direction that would benefit all users of research software.
 Currently, code hosting platforms and software packaging services that allow
 the public display of user activity are usually limited to basic statistics,
