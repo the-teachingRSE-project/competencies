@@ -22,21 +22,24 @@ header-includes:
     - \newcommand{\blandscape}{\begin{landscape}}
     - \newcommand{\elandscape}{\end{landscape}}
 ---
-## Working Title: Identifying core competencies of an RSE and an application with a sample curriculum.
+
+## Working Title: Identifying foundational competencies of Research Software Engineers across all specializations.
 
 ---
 
 **Abstract**:
 Being an outcome of a community workshop held in Paderborn, Germany in February 2023 this paper tries 
 for the first time(FIXME: ? true?) to define which competencies are required to participate in modern digital sciences.
-Some of these competencies are required in more depth, therefore, giving rise to the trade of the RSE, scientific personnel that specializes in writing research software that facilitates research in all stages of the research cycle.
-Due to their generality, we explore these competencies in various contexts and elaborate on some examples for further specialization.
+Some of these competencies are required in more depth, therefore, giving rise to the trade of the RSE:
+scientific personnel that specializes in writing research software that facilitates work in all stages of the research cycle.
+Due to their generality, these competencies are often shared between RSE specializations,
+and we believe they are also relevant for domains outside of the RSE community.
 
 But knowing a set of competencies is not enough, therefore we discuss explicitly how to make people aware that these skills are
 required and how these are taught(FIXME: Do we want to add this pedagogical dimension?).
 In order to also facilitate structural change in the German research institution landscape
 we will discuss the organizations and structures that support this change and educate new RSEs.
-The discussion in this paper is meant to be general therefore we will discuss domain specific applications in an appendix.
+The discussion in this paper is meant to be general. Therefore, we will discuss domain specific applications in an appendix.
 
 ---
 
@@ -68,11 +71,28 @@ In order to do them RSEs draw upon skills from traditional software engineering,
 Developing and maintaining these skills is time consuming and often challenging.
 Part of the challenge is that there is not a standard pathway to becoming an RSE and, partly as a result of this, there is something of an ad hoc approach to training within the community. We also see increasing amounts of basic-level training materials that are great to put researchers or technical professionals on a path towards gaining significant RSE expertise, but the trail often ends as developing RSEs want to progress to intermediate and advanced level material. In particular, recent technology developments are ensuring that there is a growing need for specialist expertise, for example in areas such as making efficient use of high-performance computing infrastructure. This is an area where there is a skills shortage and a shortage of training materials.
 
-In this paper, we look at the challenge of understanding the core competencies that underpin Research Software Engineering and the way that these competencies may be combined to help support a more coordinated approach to future RSE skills development. The paper builds on a workshop session held as part of the German Research Software Engineering Conference (deRSE23), held in Paderborn, Germany in February 2023.
+In this paper, we look at the challenge of understanding the core competencies that underpin Research Software Engineering and the way that these competencies may be combined to help support a more coordinated approach to future RSE skills development.
+The paper builds on a workshop session held as part of the German Research Software Engineering Conference (deRSE23), held in Paderborn, Germany in February 2023.
 
 _[Information on key contributions to add]_
 
 _[Overview of paper sections to add]_
+
+## Intended Target Audience
+While this paper came out from the deRSE23 conference we believe the formulated competencies
+in this publication to have far-reaching impact beyond the domain of RSE into adjacent fields of science.
+The most obvious users are computer science, programmers in HPC and research data management.
+But also the traditional STEM sciences that focus on generating more graduates with
+a software focus or people who traditionally find jobs in the libraries or compute centers.
+Beyond that we also explicitely mention the medical domains and the digital humanities as use-cases.
+With the increasing availability and accessibility of cluster resources to academic staff,
+and the growing pressure from funding agencies to prioritize projects that generate
+archived, annotated, re-usable and potentially remotely executable data,
+RSEs become a vital link to cross-pollinate computational skills and
+infrastructure know-how between domain scientists.
+Also funders and research managers can profit from the discussion in this paper in
+order to observe how software development in academia will be institutionalized.
+The strong emphasis on team-skills should also provide valuable graduates for industry.
 
 ## Related Work and Activities
 
@@ -98,9 +118,9 @@ However, the Carpentries Incubator [@CarpentriesIncubator] provides an environme
 The material in the Incubator increasingly includes more intermediate-level training modules.
 
 #### Coderefinery
-[@CodeRefinery] is a project currently funded by the Nordic e-Infrastructure and thus active primarily in the Nordics with the goal of teaching essential tools around research software development, that are usually skipped in academic education.
+CodeRefinery [@CodeRefinery] is a project currently funded by the Nordic e-Infrastructure and thus active primarily in the Nordics with the goal of teaching essential tools around research software development, that are usually skipped in academic education.
 CodeRefinery hosts a set of open source training materials including both beginner and intermediate level material and organizes multiple highly interactive large scale workshops per year.
-Skills learned from the workshops and/or materials allow researchers to produce more reproducible, open and efficient software and thus promote FAIR research practices.
+Skills learned from the workshops and/or materials allow researchers to produce more reproducible, open and efficient software and thus promote FAIR [@FAIR] research practices.
 One goal of the project is to evolve into a community project that seamlessly integrates with other initiatives. FIXME: elaborate on the integration part if it's relevant, else leave out.
 
 #### Reprohack
@@ -119,11 +139,11 @@ best practices, modern software design [@LRZModernCpp], project management and
 version control [@LRZIntroCpp].
 
 #### Helmholtz
-As part of its push towards a better RSE environment, the Helmholtz Association launched the [@HIFIS] platform which provides educational material and trainings amongst other services for an audience of over 10.000 scientists in Germany and internationally.
+As part of its push towards a better RSE environment, the Helmholtz Association launched the Helmholtz Federated IT Services platform (HIFIS) [@HIFIS] which provides educational material and trainings amongst other services for an audience of over 10.000 scientists in Germany and internationally.
 All of these materials focus on RSE basics to refresh and expand the software engineering knowledge for recent graduates or to update the existing knowledge in established researchers.
 They are published under OER licenses and can serve as either self-learning instructions or form the basis of a hands-on training.
-To allow these educational offers to be easier brought to the scientists, the [@HIDA] sustains a large network within the Helmholtz Association and beyond with a strong focus on graduate schools.
-Further RSE training offers within the Helmholtz context are provided by the [@HAI] and [@HImaging] platforms as well as the [@HMC].
+To allow these educational offers to be easier brought to the scientists, the Helmholtz Information and Data Science Academy (HIDA) [@HIDA] sustains a large network within the Helmholtz Association and beyond with a strong focus on graduate schools.
+Further RSE training offers within the Helmholtz context are provided by the Helmholtz-AI [@HAI] and Helmholtz-Imaging [@HImaging] platforms as well as the Helmholtz Metadata Collaboration plaftorm [@HMC].
 
 #### Open Source Resources
 Due to the ever-evolving nature of skills and infrastructure in the RSE field,
@@ -159,7 +179,7 @@ Moreover, software development is a craft, i.e. it is not only about knowledge b
 ## Results
 
 ### Required Generic RSE skills
-As it stands the RSE role requires competencies in two fields.
+As it stands, the RSE role requires competencies in two fields.
 The "R", the person being a researcher, and the "SE" the software skills.
 And this hybrid nature is brought about, since RSEs need to apply their knowledge usually in teams.
 Therefore we structure our competencies among SE skills, research skills and team skills with key notions being the software and the research cycle and the scientific process.
@@ -188,31 +208,28 @@ The RSE should be able to use public platforms to share the artifacts they have 
 #### Legal things (LEG)
 The RSE should know licenses and their respective domains for data or software. On an entry level, the competency is mostly about awareness. 
 Namely that different (open source) licenses exist, 
-that those might not be combinable when using multiple libraries with different licenses 
+that those might not be compatible with each other,
 and that use of third party software might restrict licensing of the resulting work.
 
-#### Software Behaviour Awareness and Analysis(MOD)
-By this, we mean a certain quality of analytical thinking that enables you to form a mental model of the piece of software under consideration in the current environment.
-Using that, an RSE should be able to make predictions about a software's behaviour. This is a required skill for tasks like debugging, profiling, designing good tests, or predicting user interaction.
+#### Software Behaviour Awareness and Analysis (MOD)
+We define this as a certain quality of analytical thinking that enables an RSE to form a mental model of a piece of software in a specific environment.
+Using that, an RSE should be able to make predictions about a software's behaviour. This is a required skill for common tasks like debugging, profiling, designing good tests, or predicting user interaction.
 
 #### The research skills
 #### Curiosity (NEW)
-The RSE gains its reputation from its effectiveness to interact with their domain peers. Therefore some curiosity together with a broad overview of the research field is required.
+RSEs gain their reputation from their effectiveness to interact with their domain peers. Therefore some curiosity together with a broad overview of the research field is required.
 A manifestation can also be the curiosity for new tools which is a great asset for an RSE.
-Lifelong learning then becomes more bearable.
+Lifelong learning then becomes not only bearable, but a motivation to work.
 
 #### Understanding the research cycle (RC)
 Knowing that ones own research is not only a means to personal ends, but that one is part of a bigger cycle that involves a lot of other parties in and outside of your domain
 should foster an appreciation for the underlying principles of science like review and reproducibility.
 
 #### Finding/discovering software and attribution (SD)
-One goal of FAIR software is to avoid reimplementation of already working packages and thereby reducing the need for doubled work. 
-To (re-) use software the individual researchers have to be able to find out if that software already exists.
-
-After finding the software the researcher has to be able to evaluate if the software actually suits their needs.
-Apart from the functionality, licensing, integration with other software and expandability have to be part of this evaluation.
-
-Finally, after obtaining results by modifying and/or using the software, it has to be ensured that the original authors get the proper attribution.
+One goal of FAIR software is to avoid unnecessary duplication of work by reusing existing work instead.
+To (re-) use software, individual researchers have to be able to find it and then to easily evaluate if the software actually suits their needs.
+Apart from functionality also licensing, integration with other software, expected sustainability and expandability have to be part of this evaluation.
+Finally, after obtaining/publishing results by modifying and/or using the software, the original authors need to receive proper attribution.
 
 #### Use Domain repositories/directories (DOMREP)
 Almost all research software is developed within a specific scientific domain.
@@ -238,7 +255,7 @@ Code review can be part of teaching people on improving their skills.
 The RSE should have knowledge about project management. At some institutes, it follows the practices of the local research groups,
 but it is useful, if an RSE knows its place in a PM scheme, or can bring in new ideas for improvement.
 
-#### working in a team (TEAM)
+#### Working in a team (TEAM)
 There are various facets to working in a team. They range from functioning in a team to leading a team.
 It includes following measures that increase team cohesion like performing code reviews.
 
@@ -385,8 +402,19 @@ interacting with job scheduling systems that are often used on HPC clusters to
 manage the queuing and running of computational tasks. HPC-focused RSEs may be
 involved with managing HPC infrastructure at the hardware or software level (or
 both) and understand how to calculate the environmental impact of large-scale
-computations. Their knowledge of how to run HPC jobs can be vitally important to
-researchers wanting to make use of HPC infrastructure.
+computations. Their knowledge of how to run HPC jobs and write successful HPC
+access proposals can be vitally important to researchers wanting to make use of
+HPC infrastructure.
+
+They may also be familiar with High-Throughput Computing (HTC) and manage
+a network of heterogeneous compute resources, typically desktop workstations
+equipped with multicore processors and possibly GPU accelerators.
+They can apply their node-level performance engineering skills to maximize
+utilization of the available resources.
+Finally, they typically have expert knowledge in at least one compiled language,
+and can assist domain scientists who have excellent command of scripting languages
+but only a cursory understanding of compiled languages get up to speed with
+compiled software.
 
 #### Research Infrastructure RSE
 This RSE is interested in SysOps and sets up infrastructures for and with researchers.
@@ -441,7 +469,6 @@ While this is not a core concern of this paper, we wanted to highlight this impo
 With regard to which additional competency is required, these are people having experience with ancient software stacks that are not anymore part of the general curricula(think of COBOL and FORTRAN).
 
 FIXME: I think it would be nice if we could move each of these optional competencies to a different specialization.
-
 
 
 ## How do we reach people in different stages of their careers?
