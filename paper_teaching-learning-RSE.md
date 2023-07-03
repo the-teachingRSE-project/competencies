@@ -69,6 +69,12 @@ However, this shift means that there is a much greater need for core research
 software skills across a vast array of research fields where these were not
 previously required.
 
+The need to access both research data and software has been formalised with the
+FAIR principles: software and data need to be easily findable by both people and
+machines, and they also need to be accessible, interoperable and reusable. More
+recently the FAIR principles have been extended specifically to research
+software [@FAIR4RS].
+
 The people who focus on writing research software are now known as Research
 Software Engineers (RSEs) - a term that was coined a little over 10 years ago
 [@Hettrick2016]. RSEs may work within one of the many Research Software
@@ -79,9 +85,10 @@ they may have a standard research or technical job title such as Research
 Assistant, Research Fellow or Software Engineer. Regardless of their job title,
 RSEs share a set of core skills that are required to write software, understand
 the research environment and ensure that they produce sustainable, maintainable
-code that supports reproducible research outputs. In order to do so the draw
-upon skills from traditional software engineering, established research culture
-and a commitment to being part of a team.
+code that supports reproducible research outputs. They are the ones who
+implement the FAIR principles that make digital research output more valuable.
+In order to do so the draw upon skills from traditional software engineering,
+established research culture and a commitment to being part of a team.
 
 Developing and maintaining these skills is time consuming and often challenging.
 Part of the challenge is that there is not a standard pathway to becoming an RSE
