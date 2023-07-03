@@ -171,18 +171,16 @@ Moreover, software development is a craft, i.e. it is not only about knowledge b
 
 ## Results
 
-### Required Generic RSE skills
 As it stands, the RSE role requires competencies in two fields: 1. the person
 is a researcher (the "R") with 2. software skills (the "SE"). RSEs typically
 apply their knowledge and experience in larger teams which allows them to
-cultivate this hybrid nature. Therefore we categorise the competencies into
-software engineering skills, research skills and team skills with particular
+cultivate this hybrid nature. Therefore, we categorise the competencies into
+software engineering skills, research skills, and team skills with particular
 focus on the software and research cycle and the scientific process. The
 generic skills are relevant in a broad setting and form the foundation for
 specific specialisations.
-We elaborate on some facets in tables. (FIXME: not sure about this sentence)
 
-#### Software Engineering Skills
+### Software Engineering Skills
 There are many software engineering curricula out there, that try to define
 which tasks a software engineer should be able to perform. A recent example
 highlighting some aspects in more detail than here is [@Landwehr2017].
@@ -210,29 +208,28 @@ usage along the intended time scale.
 
 #### Use repositories (SWREPOS)
 The RSE should be able to use public platforms to share the artefacts they have
-been created and invite the public to scrutinise them during public review.
+created and invite the public to scrutinise them for public review.
 
 #### Legal aspects (LEG)
 The RSE should know licenses and their respective domains for data or software.
-On an entry level, the competency is mostly about awareness: namely that
-different (open source) licenses exist, that those might not be compatible with
-each other, and that use of third party software might restrict licensing of the
-resulting work.
+On an entry level, the competency is mostly about awareness: namely that different
+(open source) licenses exist, that those might not be compatible with each other,
+and that use of third party software might restrict licensing of the resulting work.
 
 #### Software Behaviour Awareness and Analysis (MOD)
-We define this as a certain quality of analytical thinking that enables an RSE
-to form a mental model of a piece of software in a specific environment. Using
-that, an RSE should be able to make predictions about a software's behaviour.
-This is a required skill for common tasks like debugging, profiling, designing
-good tests, or predicting user interaction.
+We define this as a certain quality of analytical thinking that enables an RSE to
+form a mental model of a piece of software in a specific environment.
+Using that, an RSE should be able to make predictions about a software's behaviour.
+This is a required skill for common tasks like debugging, profiling, designing good
+tests, or predicting user interaction.
 
-#### The research skills
+### The research skills
 #### Curiosity (NEW)
 RSEs gain their reputation from their effectiveness to interact with their
 domain peers. Therefore, some curiosity together with a broad overview of the
-research field is required. Curiosity is also reflected when an RSE looks for
-new tools. Lifelong learning is then no longer just a phrase, but becomes a
-motivation to work.
+research field is required. Curiosity is also reflected when an RSE is actively
+trying out new tools. Lifelong learning is then no longer just a phrase, but
+becomes a motivation to work.
 
 #### Understanding the research cycle (RC)
 Knowing that one's own research is not only a means to personal ends, but that
@@ -249,24 +246,24 @@ expected sustainability and expandability have to be part of this evaluation.
 Finally, after obtaining/publishing results by modifying and/or using the
 software, the original authors need to receive proper attribution.
 
-#### Use Domain repositories/directories (DOMREP)
+#### Using domain repositories/directories (DOMREP)
 Almost all research software is developed within a specific scientific domain.
-Some software may be able to cross boundaries, but the majority will have a home
-domain, with which it needs to be able to interact. Especially for data-driven
-research having software that is able to use existing data sets and repositories
-is a valuable part. The RSE should be able to interact with the repositories of
-this specific domain.
-
+Some software may be able to cross boundaries, but the majority will have a
+home domain, with which it needs to be able to interact. The RSE needs to be
+aware of any domain specific software repositories, data sets and catalogues.
+This is especially important for data-driven research software. The software
+developed by the RSE needs to be able to interact with catalogues and the data
+sets can be used for software testing. 
 
 #### Outside Party interaction (USERS)
-While in a traditional SE context, you might get away with not interacting with
-people outside your project. But in a research context, this will certainly be
-the case and involves users, other developers,  upto funders. Additionally, this
-is oftentimes a two-way interaction with RSEs in a specific domain learning new
-findings, techniques, algorithms, etc. to be able to implement software that is
-up-to-date with the body of knowledge of that domain.
+In a traditional SE context the developer might not interact with many people
+outside their immediate project. However, in a research context, a RSE will have
+to interact with users, RSEs from other projects, and possibly funders. The
+exchange with other projects, maybe from different domains, is particularly
+important since this allows the RSE to find out about new techniques and algorithms
+relevant to their own project and to keep their software up-to-date.
 
-#### Team Skills
+### Team Skills
 #### Teaching (TEACH)
 Working in a group means being able to effectively perform e.g. onboarding, or more formal teaching procedures to their colleagues.
 This includes tasks such as consulting and mentoring since these also often aim at educating people.
@@ -281,7 +278,7 @@ but it is useful, if an RSE knows its place in a PM scheme, or can bring in new 
 There are various facets to working in a team. They range from functioning in a team to leading a team.
 It includes following measures that increase team cohesion like performing code reviews.
 
-#### Current Day Contextualization
+### Current Day Contextualization
 These skills, while already numerous are also on purpose generic. Concrete examples can be obtained by the outcome from the Paderborn workshop, where we asked learners and beginner RSEs of what they would liked to have learnt.
 Among the top five things mentioned were:
 
