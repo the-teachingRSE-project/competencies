@@ -75,12 +75,16 @@ The challenges of understanding the current state of skills within the research 
 
 As an area that generally requires a range of advanced skills, High Performance Computing (HPC) is one field where there is ongoing work to identify relevant sets of skills for HPC practitioners and potential paths to develop these skills. The HPC Certification Forum has developed a "competence standard" (CS) for HPC that defines a range of skills and how they are related in the context of a skill tree [@HPCCFCompetencies], [@Kunkel2020a], [@Kunkel2020b]. This competence standard is currently being built upon by the CASTIEL 2 [@CASTIEL2] project in collaboration with initiatives funded by the European High Performance Computing Joint Undertaking (EuroHPC JU) to create a framework for HPC certification [@EuroHPCJU2023]. Also looking at pathways and how different skills are related, the UNIVERSE-HPC project [@UNIVERSEHPC], funded under the UK's ExCALIBUR research programme [@EXCALIBUR], is looking to understand and develop training pathways to support the development of specialist skills in the HPC and exascale domains. The project is gathering open source training materials to develop curricula that support the training pathways that are underpinned by high-quality training materials.
 
+FIXME:
+
 - There are some projects / papers looking at skills pathways
 - if we're going to include a separate section on related work, as proposed here,
   this should probably be expanded to include more of this content?
 - [@Cosden2022b]
 - [@Hannay2009] skill gaps (fig 1)
 - FIXME: include the ELIXIR part here
+- librarian-RSE skillset [@Federer2020]
+- software evaluation criteria [@Jackson2011a; @ChueHong2014]
 
 ### RSE-related Training Materials
 
@@ -88,7 +92,9 @@ A wide range of software-related training materials and supporting organisations
 
 #### The Carpentries
 The Carpentries [@Carpentries] is a non-profit entity that supports a range of open source training materials and international communities of volunteer instructors and helpers who run courses around these materials.
-The community also maintains the materials which are based around three core syllabuses - Software Carpentry, Data Carpentry and Library Carpentry.
+The community also maintains the materials which are based around three core syllabuses --
+Software Carpentry [@Wilson2006; @Wilson2016a], Data Carpentry [@Teal2015] and
+Library Carpentry [@Baker2016; @Cope2018].
 The training materials within these areas have been developed, reviewed and enhanced over several years ensuring that they represent best practice in training on these topics.
 The core Carpentries lessons are targeted primarily at the beginner level.
 However, the Carpentries Incubator [@CarpentriesIncubator] provides an environment for hosting additional community-developed training modules covering a wide range of other topics that have not gone through the peer review process of the core lessons.
@@ -141,8 +147,10 @@ The [Intersect](https://intersect-training.org/) project ....
 [Software Sustainability Institute (SSI)](https://www.software.ac.uk/) [@Crouch2013] ...
 
 
- - FIXME: Add NFDI initiatives like edutrain.
+FIXME:
 
+- Add NFDI initiatives like edutrain.
+- Library-RSE resources [@Clarke2019] (no longer updated since 2019)
 
 ## Challenges
 - Point out gaps
@@ -469,7 +477,6 @@ and Spanish [@StackOverflowSpanish] to reach a wider community.
 There are also RSE short primers [@Astigarraga2022] and
 RSE guidelines [@ClementFontaine2019b; @Appel2021; @Haim2021] in non-English
 languages to address the need of specific communities.
-FIXME: find more examples of teaching material in non-English languages
 
 Teaching RSE in relevant undergraduate courses of domain scientists can be
 the first point of entry in the field. For example, statistics curricula can
@@ -479,11 +486,25 @@ its ecosystem of statistics libraries and integrated development environments
 There are also bioinformatics courses designed for high school students that
 covers topics such as pen-and-paper algorithm design, genomic database querying
 and data mining, and open data [@Form2011; @Bain2020].
+Teaching incubators can be leveraged to develop and test new academic curricula
+that introduce basic RSE topics, such as the "Algorithmic Battle"
+[@AlgorithmicBattle] (version control, documentation, good coding practices),
+"digit@L" [@DigitalLearning] (coding, data analysis, machine learning)
+and "DigiFlex" [@DigiFlex] (digital tools) experimental modules funded by the German
+Foundation for Innovation in Higher Education [@StiftungInnovationHochschullehre]
+to reduce skill gaps among first-year university students.
+
+FIXME:
+
+- find more examples of teaching material in non-English languages
 
 Further ideas:
 
 - adapting Carpentries and CodeRefinery material [@ENCCS2022] for RSEs from industry and HPC facilities
 - making RSE best practice guides fun to read with memes or satire [@Balaban2021; @Laginja2022; @Astigarraga2022; @Fehr2021]
+- reducing the skill gap by organizing more inclusive workshops [@McInerney2017; @Akoh2017; @Shelton2017; @NatlAcadSci2022],
+  to address disparities of gender, economic status, cultural background, or special educational needs
+- related discussion in CSE [@Webb2017]
 
 ## Organizational Infrastructures
 So we have defined our set of competencies that we feel every RSE should possess.
@@ -566,23 +587,45 @@ the public display of user activity are usually limited to basic statistics,
 such as the number of commits or merge requests, but provide APIs to collect
 this data and process it into more helpful metrics.
 
-Digital badges [@Fanfarelli2015; @McDaniel2016] are increasingly popular,
-from personal badges rewarding contributions to a specific community or
-contribution behavior,
-or project badges highlighting coding practices, e.g. code coverage,
-continuous integration status, or code quality indicators.
+Digital badges [@Ifenthaler2016; @Chakroun2018; @Fanfarelli2015; @McDaniel2016]
+are increasingly popular, from personal badges rewarding contributions
+to a specific community [@FedoraBadges] or contribution behavior
+[@GitHubProfileAchievements; @GitHubProfileTrophy],
+to project badges highlighting coding practices, e.g. code coverage,
+continuous integration status, or code quality indicators [@Trockman2018; @Legay2020].
+Most project badges can be automatically generated by online platforms based on
+publicly-available open source software data. Some project badges may require
+evaluation by human reviewers, such as the software projects and events badges
+delivered by the CHAOSS Diversity and Inclusion Badging organization
+[@CHAOSSDEIBadging; @GitHubCHAOSS]. There are also infrastructures
+to create standardized and verifiable badges [@Peer2Peer2011].
+
 While project badges can help drive teams improve the quality of their
-research software, personal badges are more subjective in nature.
-The Software Carpentries minted digital badges in 2012 [@Wilson2012a; @Wilson2012c],
-in an effort incentivize participation with institutional accreditation.
+research software, personal badges are more subjective in nature [@Lemoine2015].
+The Software Carpentries minted digital badges in 2012 [@Wilson2012a; @Wilson2012c]
+as a form of institutional accreditation, in an effort incentivize participation.
 Despite initial plans to create more fine-grained badges that rewarded
 specific skills [@Wilson2012b], such as version control or Unix shell,
-the learner badges were ultimately abandoned in 2013 [@Wilson2013a] and recycled
+learner badges were ultimately abandoned in 2013 [@Wilson2013a] and recycled
 as participation certificates and attendance sheets [@CarpentriesCertificates].
 The idea of institutional accreditation remained,
 but in the form of instructor badges [@Wilson2013a],
 which are now mandatory tokens to lead a Carpentry workshop or vote in the
 Carpentries Executive Council elections [@CarpentriesInstructorBadges].
+Similarly, Ireland's Professional Development Framework (PDF) [@Donnelly2018]
+provides accreditation to higher education teachers who successfully complete
+training on the National Forum's Open Courses in the form of digital badges [@OpenCoursesBadges].
+The Extreme Science and Engineering Discovery Environment (XSEDE) organization
+created badges to incentivize participation in HPC training and summer schools
+[@Kappes2015; @Sale2017]. IBM created badges to promote continuous learning and
+provide micro-credentials to its staff and customers [@Leaser2020; @Leaser2019];
+these badges eventually became recognized by a few academic institutions,
+such as Northeastern University [@NortheasternUniversityIBMBadges],
+North Carolina Central University [@NCCentralUniversityIBMBadges], or
+Bluefield State University [@BluefieldIBMBadges], some of which made them
+convertible to graduate credit in relevant degree programs [@Leaser2020].
+There are 1360 badges as of July 2023 [@IBMBadges]
+and 1 million badges were issued as of July 2018 [@Daniels2018].
 
 Digital badges can have a few downsides, for example the number of badges
 can grow quickly when minting badges with a very fine level of detail,
@@ -593,10 +636,10 @@ or for learning technologies that have since become less relevant in the RSE fie
 
 FIXME:
 
-- badges should not be used as performance indicators (for hiring and/or career progress)
+- reference book on digital badges [@Ifenthaler2016]
 - an argument could be made for having less metrics (GitHub allows users to hide their badges)
 - which institution would create RSE-badges? how would this institution drive adoption of RSE-badges?
-- [@Badreddin2019] for designing new metrics
+- reviews [@Zhou2019; @Hansch2015; @Ahsan2023; @Liyanagunawardena2017] and case studies [@Morris2019; @BorrasGene2018; @Higashi2020] on digital badges
 
 #### A possible graduation path within the classical university structures
 We have put forward the idea that familiarity with research is a prerequisite for an RSE in order to be able to work effectively in the research space and in collaboration with researchers. In this particular example, we consider a path into RSE via a traditional university route involving Bachelors and Masters degree studies that include an RSE element. However, we recognise that there are other routes into an RSE career and these are increasing. For example, some RSEs come from an industry background, others may come through apprenticeship or similar programmes. In both cases, gaining knowledge of the research lifecycle and understanding the ways that researchers work towards solutions to research challenges is something that can be developed on-the-job alongside training opportunities and the chance to work directly with researchers.
