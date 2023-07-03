@@ -59,7 +59,10 @@ Fast forward 50-60 years and software and computation are all around us, underpi
 
 With the ability to capture and process ever more data, undertake larger scale, higher resolution simulations and, increasingly, automate complex tasks through Artificial Intelligence and Machine Learning approaches, computers and software are now vital elements of the research process across almost all domains.
 However, this shift means that there is a much greater need for core research software skills across a vast array of research fields where these were not previously required.
-In this paper we take a broad working definition of what constitutes research software as any kind of software or computer supported process that facilitates research, which is broader than in [@hong2022fair].
+
+In this paper we define Research Software to include source code files,
+algorithms, scripts, computational workflows and executables that were created during the research process or for a research purpose.
+This definition is broader than in [@hong2022fair] and is the outcome of a recent discussion in [@definingrs2021].
 
 The people who focus on writing research software are now known as Research Software Engineers (RSEs) - a term that was coined a little over 10 years ago [@Hettrick2016].
 RSEs may work within one of the many Research Software Engineering teams that have been set up at universities and research organisations over the last decade, or they may be embedded within a research team.
