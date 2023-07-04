@@ -62,12 +62,11 @@ expertise. Fast forward 50-60 years and software and computation are all around
 us, underpinning our everyday lives. This shift is also true within research.
 
 With the ability to capture and process ever more data, undertake larger scale,
-higher resolution simulations and, increasingly, automate complex tasks through
-Artificial Intelligence and Machine Learning approaches, computers and software
-are now vital elements of the research process across almost all domains.
-However, this shift means that there is a much greater need for core research
-software skills across a vast array of research fields where these were not
-previously required.
+higher resolution simulations and, increasingly, leverage new self-adapting
+approaches through Machine Learning, computers and software are now vital
+elements of the research process across almost all domains. However, this shift
+means that there is a much greater need for core research software skills across
+a vast array of research fields where these were not previously required.
 
 The need to access both research data and software has been formalised with the
 FAIR principles: software and data need to be easily findable by both people and
