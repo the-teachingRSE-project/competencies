@@ -105,8 +105,10 @@ FIXME:
   this should probably be expanded to include more of this content?
 - [@Cosden2022b]
 - [@Hannay2009] skill gaps (fig 1)
-- FIXME: include the ELIXIR part here
+- include the ELIXIR part here
+- ELIXIR [@Gurwitz2020]
 - librarian-RSE skillset [@Federer2020]
+- bioinformatics-RSE skillset [@Tractenberg2019; @Mulder2018; @WilsonSayres2018]
 - software evaluation criteria [@Jackson2011a; @ChueHong2014]
 
 ### RSE-related Training Materials
