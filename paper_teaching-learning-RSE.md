@@ -109,6 +109,8 @@ FIXME:
 - ELIXIR [@Gurwitz2020]
 - librarian-RSE skillset [@Federer2020]
 - bioinformatics-RSE skillset [@Tractenberg2019; @Mulder2018; @WilsonSayres2018]
+- clinical informatics skillset [@Davies2022; @Davies2020; @Gardner2009; @Brouat2022]
+- RSE Competencies Toolkit [@RSECompetenciesToolkit2023]
 - software evaluation criteria [@Jackson2011a; @ChueHong2014]
 
 ### RSE-related Training Materials
