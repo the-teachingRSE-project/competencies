@@ -127,13 +127,13 @@ The core Carpentries lessons are targeted primarily at the beginner level.
 However, the Carpentries Incubator [@CarpentriesIncubator] provides an environment for hosting additional community-developed training modules covering a wide range of other topics that have not gone through the peer review process of the core lessons.
 The material in the Incubator increasingly includes more intermediate-level training modules.
 
-#### Coderefinery
+#### CodeRefinery
 CodeRefinery [@CodeRefinery] is a project currently funded by the Nordic e-Infrastructure and thus active primarily in the Nordics with the goal of teaching essential tools around research software development, that are usually skipped in academic education.
 CodeRefinery hosts a set of open source training materials including both beginner and intermediate level material and organizes multiple highly interactive large scale workshops per year.
 Skills learned from the workshops and/or materials allow researchers to produce more reproducible, open and efficient software and thus promote FAIR [@FAIR] research practices.
 One goal of the project is to evolve into a community project that seamlessly integrates with other initiatives. FIXME: elaborate on the integration part if it's relevant, else leave out.
 
-#### Reprohack
+#### ReproHack
 The ReproHack Team offers resources to host events where students and researchers can get together to try and reproduce the results 
 of published papers with the methods described there or ideally with the software provided by the authors.
 FIXME: This is applied FAIR principles elaborate a bit on why this is related for RSE competencies? Or do we want to make the point, that this teaches reproducible science?
@@ -155,30 +155,52 @@ They are published under OER licenses and can serve as either self-learning inst
 To allow these educational offers to be easier brought to the scientists, the Helmholtz Information and Data Science Academy (HIDA) [@HIDA] sustains a large network within the Helmholtz Association and beyond with a strong focus on graduate schools.
 Further RSE training offers within the Helmholtz context are provided by the Helmholtz-AI [@HAI] and Helmholtz-Imaging [@HImaging] platforms as well as the Helmholtz Metadata Collaboration plaftorm [@HMC].
 
+#### ENCCS
+The [National Competence Center Sweden (ENCCS)](https://enccs.se/)
+has created a collection of lessons for HPC-oriented RSEs [@ENCCSLessons] and
+has adapted instructor training material from The Carpentries and CodeRefinery
+to create their own instructor manual [@ENCCSInstructorTraining; @ENCCS2022].
+The ENCCS lessons are targeted at individuals who already have general RSE
+skills and are seeking new skills relevant to HPC and software engineering.
+
 #### Open Source Resources
 Due to the ever-evolving nature of skills and infrastructure in the RSE field,
 training material is often version-controlled, so that trainers can update it
 between iterations. For example, core lessons from the Carpentries and CodeRefinery
 are stored on GitHub, and any change is automatically mirrored to their website.
 Likewise, the reference work on RSE by Fogel [@Fogel2005] was released in its
-second edition as a living document [@Fogel2017].
+second edition as a living document [@Fogel2017], the ENCCS instructor
+training manual [@ENCCS2022] is also available as a living document
+[@ENCCSInstructorTraining], and the Carpentry instructor guide [@Wilson2019a]
+is available as living documents in English [@Wilson2019b] and Spanish [@Wilson2019c].
 
-Reference works are also available for self-study [@Fogel2005], [@Irving2021].
-
-The [National Competence Center Sweden (ENCCS)](https://enccs.se/) provides instructor training material [@ENCCSInstructorTraining], [@ENCCS2022] developed from Carpentries and CodeRefinery material, as well as lessons for HPC-oriented RSEs [@ENCCSLessons].
-
-The [Intersect](https://intersect-training.org/) project ....
-
-[Better Scientific Software (BSSW)](https://bssw.io/) ...
-
-[Software Sustainability Institute (SSI)](https://www.software.ac.uk/) [@Crouch2013] ...
-
+More generally, it is important for training material to follow the FAIR
+principles [@FAIR], so that the community of trainers and learners can make
+the most out of it [@Garcia2020].
+Core lessons from The Carpentries were translated in multiple languages
+to make workshops more accessible to communities where the English language
+poses a barrier to learning (for more details, see section
+[How do we reach people in different stages of their careers?]).
+Material with rich metadata are indexed in online databases, such as
+the INTERSECT [@Carver2020] collection [@INTERSECTOnlineResources]
+and the US-RSE collection [@usRSETraining] for all RSE specialisations,
+the ELIXIR [@Gurwitz2020] Training e-Support System (TeSS) platform
+[@Beard2020; @Bacall2023] for bioinformatics and life sciences,
+or the now-defunct Educational Resource Discovery Index (ERuDIte)
+[@VanHorn2017; @Ambite2021] for data science.
 
 FIXME:
 
+- [Better Scientific Software (BSSW)](https://bssw.io/) ...
+- [Software Sustainability Institute (SSI)](https://www.software.ac.uk/) [@Crouch2013] ...
 - Add NFDI initiatives like edutrain.
 - ELIXIR/EXCELERATE/GOBLET train-the-trainer programme [@Via2017; @Morgan2017]
 - Library-RSE resources [@Clarke2019] (no longer updated since 2019)
+- Happy Belly Bioinformatics [@Lee2019]
+- software energy consumption and "green software engineering"
+  [@Pinto2017; @Pereira2021; @Oprescu2022],
+  teaching by SusTrainable [@SusTrainable; @Koopman2022]
+- reference works for self-study [@Fogel2005], [@Irving2021], [@Wilson2019a]
 
 ## Challenges
 - Point out gaps
@@ -459,7 +481,7 @@ when practicing Open Science, such as "How do I make my code presentable?",
 #### Project/Community manager RSEs
 When research software projects become larger, they need someone who manages
 processes and people. Building a community around a research project is an
-important building block in building sustainable software [Segal2009], so these RSEs play
+important building block in building sustainable software [@Segal2009], so these RSEs play
 an important role, even if they do not necessarily touch much of the code themselves.
 
 #### Teaching RSEs
@@ -537,7 +559,8 @@ FIXME:
 
 Further ideas:
 
-- adapting Carpentries and CodeRefinery material [@ENCCS2022] for RSEs from industry and HPC facilities
+- make domain-specific Carpentry courses modular to be easily re-usable in different scientific fields
+  as well as at different stages of the academic cursus (e.g. college vs. university classrooms) [@White2022]
 - making RSE best practice guides fun to read with memes or satire [@Balaban2021; @Laginja2022; @Astigarraga2022; @Fehr2021]
 - reducing the skill gap by organizing more inclusive workshops [@McInerney2017; @Akoh2017; @Shelton2017; @NatlAcadSci2022],
   to address gender disparities or take into account economic status, cultural background, or special educational needs
@@ -565,7 +588,7 @@ Currently, they are often teaching workshop like formats in research institution
 - Language barriers. This can range from the use of technical jargon up to the disparities of you teaching in a foreign language.
 - Setting up a feedback loop that facilitates a reflection of the workshop for the teacher.
 - staying up-to-date with fast-moving RSE topics.
-- Understanding the difficulties of students [@Cereceda2020].
+- Understanding the difficulties of students [@Cereceda2020; @Williams2019].
 - Carpentries retrospective [@Wilson2016a].
 
 
@@ -574,6 +597,7 @@ Irrespective of where people come from they need to have the proper mindset to p
 
 - "If you want to go fast, go alone; if you want to go far, go together?"
 - Not every "good" scientist wants to become a "good" software engineer, too!
+- The Carpentries philosophy [@Duckles2016]
 
 #### Where do we get our teachers from
 The community discussion brought about the need for a mixture of people, thereby 
