@@ -96,7 +96,20 @@ The challenges of understanding the current state of skills within the research 
 
 ### Identifying skills and pathways
 
-As an area that generally requires a range of advanced skills, High Performance Computing (HPC) is one field where there is ongoing work to identify relevant sets of skills for HPC practitioners and potential paths to develop these skills. The HPC Certification Forum has developed a "competence standard" (CS) for HPC that defines a range of skills and how they are related in the context of a skill tree [@HPCCFCompetencies], [@Kunkel2020a], [@Kunkel2020b]. This competence standard is currently being built upon by the CASTIEL 2 [@CASTIEL2] project in collaboration with initiatives funded by the European High Performance Computing Joint Undertaking (EuroHPC JU) to create a framework for HPC certification [@EuroHPCJU2023]. Also looking at pathways and how different skills are related, the UNIVERSE-HPC project [@UNIVERSEHPC], funded under the UK's ExCALIBUR research programme [@EXCALIBUR], is looking to understand and develop training pathways to support the development of specialist skills in the HPC and exascale domains. The project is gathering open source training materials to develop curricula that support the training pathways that are underpinned by high-quality training materials.
+As an area that generally requires a range of advanced skills,
+High Performance Computing (HPC) is one field where there is ongoing work
+to identify relevant sets of skills for HPC practitioners and potential paths
+to develop these skills.
+The HPC Certification Forum has developed a "competence standard" (CS) for HPC
+that defines a range of skills and how they are related in the context
+of a skill tree [@HPCCFCompetencies; @Kunkel2020a].
+Also looking at pathways and how different skills are related,
+the UNIVERSE-HPC project [@UNIVERSEHPC], funded under the UK's ExCALIBUR
+research programme [@EXCALIBUR], is looking to understand and develop
+training pathways to support the development of specialist skills in the HPC
+and exascale domains. The project is gathering open source training materials
+to develop curricula that support the training pathways that are underpinned
+by high-quality training materials.
 
 FIXME:
 
@@ -107,10 +120,6 @@ FIXME:
 - [@Hannay2009] skill gaps (fig 1)
 - include the ELIXIR part here
 - ELIXIR [@Gurwitz2020]
-- librarian-RSE skillset [@Federer2020]
-- bioinformatics-RSE skillset [@Tractenberg2019; @Mulder2018; @WilsonSayres2018]
-- clinical informatics skillset [@Davies2022; @Davies2020; @Gardner2009; @Brouat2022]
-- RSE Competencies Toolkit [@RSECompetenciesToolkit2023]
 - software evaluation criteria [@Jackson2011a; @ChueHong2014]
 
 ### RSE-related Training Materials
@@ -633,21 +642,15 @@ And using the certificates, the demand can now be satisfied with people offering
 
 Some exemplary skills for which courses are already held are version control tools like git, HPC topics like multithreading, MPI and GPU computations, FAIR principles.
 
+##### HPC certification
+
+The HPC Certification Forum has developed a competence standard [@HPCCFCompetencies]
+to facilitate the creation of a HPC certification program [@Kunkel2020a; @Kunkel2020b].
+This competence standard is currently being built upon by the CASTIEL 2 [@CASTIEL2] project
+in collaboration with initiatives funded by the European High Performance Computing
+Joint Undertaking (EuroHPC JU) to create a framework for HPC certification [@EuroHPCJU2023].
 
 ##### Metrics and reward systems
-
-The development of a standardized list of RSE competencies could help
-develop metrics to measure an individual's progression in specific RSE
-skill sets. These indicators would supplement the traditional grading
-system by providing gamification elements that gratify learning and
-incentivize the discovery of new skill sets, and thus contribute
-to reducing skill gaps in the RSE community.
-Some indicators could be used in collaborative Web platforms to stimulate continuous learning or
-steer RSE behavior in a direction that would benefit all users of research software.
-Currently, code hosting platforms and software packaging services that allow
-the public display of user activity are usually limited to basic statistics,
-such as the number of commits or merge requests, but provide APIs to collect
-this data and process it into more helpful metrics.
 
 Digital badges [@Ifenthaler2016; @Chakroun2018; @Fanfarelli2015; @McDaniel2016]
 are increasingly popular, from personal badges rewarding contributions
@@ -755,6 +758,35 @@ We fleshed them out with some possible specializations of RSEs.
 Given the competencies and a demand(FIXME: Do the calculation) in the research landscape for them we moved on to define who the teachers are for this new field.
 We closed with a discussion of possible structures and organization forms that educate new generations of RSEs in more structured programs than what is available today(FIXME: this is currently aspirational).
 Therefore this closes the gap, that the research landscape requires RSEs, but there are no structures where these persons are educated, by detailing the career path that a young person might want to take to become an RSE.(FIXME: also aspirational...)
+
+## Outlook
+
+### RSE skills ontology
+Special interest groups have in the past outlined the core competencies
+of various RSE disciplines, such as
+HPC-RSE [@HPCCFCompetencies; @Kunkel2020a],
+bioinformatics-RSE [@Tractenberg2019; @Mulder2018; @WilsonSayres2018],
+clinical informatics-RSE [@Davies2022; @Davies2020; @Gardner2009; @Brouat2022],
+librarian/RDM-RSE [@Federer2020], community manager-RSE [@Woodley2021],
+and generalist RSE [@usRSESkills].
+However, the present document is, to our knowledge, the first attempt
+at defining the skills of a generalist RSE at different levels of seniority.
+
+The development of a standardized list of RSE competencies could help develop
+metrics to measure an individual's progression in specific RSE skill sets,
+e.g. using the Software Sustainability Institute's RSE Competencies
+Toolkit [@RSECompetenciesToolkit2023].
+These indicators would supplement the traditional grading system by providing
+gamification elements that gratify learning and incentivize the discovery of
+new skill sets, and thus contribute to reducing skill gaps in the RSE community.
+Some indicators could be used in collaborative Web platforms to stimulate continuous learning
+or steer RSE behavior in a direction that would benefit all users of research software.
+
+Similar to HPC certification program [@Kunkel2020a; @Kunkel2020b],
+one could envision a RSE certification program.
+This certification could take the form of academic credit,
+such as ECTS in higher education institution within the European Union,
+or digital certificates delivered upon completion of RSE training.
 
 ## Appendix
 ### An applied example curriculum
