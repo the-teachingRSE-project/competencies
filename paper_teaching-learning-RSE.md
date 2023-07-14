@@ -246,6 +246,10 @@ We elaborate on some facets in tables.
 #### Software Engineering Skills
 There are lots of software engineering curricula out there, that try to define which tasks a software engineer should be able to perform.
 A recent one highlighting some aspects in more detail than what we are doing here is [@Landwehr2017].
+The software skills outlined here are required to make research software adhere
+to the FAIR principles. [@ChueHong2014] defines different levels of research
+software reuseability and the extent to which the software engineering skills
+need to be applied to reach them.
 
 #### Creating documented code building blocks (DOCBB)
 The RSE should be able to create building blocks from source code that are reusable. This ranges from simple libraries of functions up to complex architectures consisting of multiple softwares.
@@ -257,7 +261,15 @@ This almost always encompasses handling/documenting dependencies to other packag
 requires knowledge of using build systems to enable interoperability with other systems.
 
 #### Understanding the software lifecycle (SWLC)
-Software has a lifetime and this necessitates the respective strategies for its usage along the intended time scale.
+Research software often starts out as a tool to answer a personal research
+question. The software becomes more important when other researchers or entire
+research groups rely on it. Some research software might even be used to deal
+with critical questions such as weather forecasting or medical diagnosis.
+Software tools can move from one category to another as it matures or is
+superseded by different tools. [@dlr121502] classify applications based on their
+scope and criticality and provide software engineering recommendations. The RSE
+needs to be able to identify the application class they are dealing with and
+apply the warranted software engineering approaches.
 
 #### Use repositories (SWREPOS)
 The RSE should be able to use public platforms to share the artifacts they have created and invite public scrutiny on them for public review.
