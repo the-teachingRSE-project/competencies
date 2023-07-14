@@ -204,7 +204,7 @@ Further RSE training offers within the Helmholtz context are provided by the Hel
 
 #### SureSoft
 Suresoft [@SURESOFTLink] is a DFG funded project at TU Braunschweig and FAU Erlangen-Nürnberg fostering the sustainability of research software by helping researchers adopt practices and tools from the software engineering community [@SURESOFT2022]. 
-In addition to regular workshops, the knowledge hub  provides additional guidelines, principles and teaching material. 
+The project implements a twofold approach that combines tools and infrastructure with education in the form of workshops and training.
 
 #### Open Source Resources
 Due to the ever-evolving nature of skills and infrastructure in the RSE field,
