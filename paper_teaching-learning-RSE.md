@@ -11,6 +11,7 @@ author:
   - Samatha Wittke
   - Jean-Noël Grad
   - Fredo Erxleben
+  - Magnus Hagdorn
 output:
   pdf_document:
     citation_package: biblatex
