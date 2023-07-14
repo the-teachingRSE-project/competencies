@@ -168,7 +168,7 @@ A wide range of software-related training materials and supporting organisations
 exist within the research software community and beyond. The day-to-day work of
 many RSEs often includes teaching activities, e.g. in university courses,
 workshops or one-on-one, to improve the RSE-related skill-set of researchers.
-The resources given below are helpful one the one hand to support such
+The resources given below are helpful on the one hand to support such
 activities but can be also used to fill gaps in the capabilities of
 professional RSEs.
 
