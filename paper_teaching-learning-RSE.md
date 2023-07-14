@@ -325,10 +325,9 @@ software, the original authors need to receive proper attribution.
 Almost all research software is developed within a specific scientific domain.
 Some software may be able to cross boundaries, but the majority will have a
 home domain, with which it needs to be able to interact. The RSE needs to be
-aware of any domain specific software repositories, data sets and catalogues.
-This is especially important for data-driven research software. The software
-developed by the RSE needs to be able to interact with catalogues and the data
-sets can be used for software testing. 
+aware of any domain specific software repositories, data sets and catalogues
+and the RSE's software needs to be able to interact with the existing
+domain-specific data repositories.
 
 #### Outside Party interaction (USERS)
 In a traditional SE context the developer might not interact with many people
