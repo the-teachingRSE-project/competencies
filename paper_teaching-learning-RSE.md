@@ -307,10 +307,15 @@ trying out new tools. Lifelong learning is then no longer just a phrase, but
 becomes a motivation to work.
 
 #### Understanding the research cycle (RC)
-Knowing that one's own research is not only a means to personal ends, but that
-one is part of a bigger cycle that involves many other parties in and outside of
-the RSE's domain should foster an appreciation for the underlying principles of
-science like review and reproducibility.
+One of the crucial skills of RSEs is their mental proximity to research
+and they embrace being part of a larger community which,
+despite friendly competition, shares the common goal of gaining knowledge
+for its own sake and not just for personal or commercial gain.
+Thereby they know, that theya are part of a bigger cycle that involves many other parties in and outside of
+their domain, and also that their software can be utilized in different stages of the research cycle by different persons.
+Like other researchers, RSEs are open to discussions and arguments beyond
+their own expertise and appreciate the underlying principles of
+good research, like publications, review and reproducibility.
 
 #### Finding/discovering software and attribution (SD)
 One goal of FAIR software is to avoid unnecessary duplication of work by reusing
