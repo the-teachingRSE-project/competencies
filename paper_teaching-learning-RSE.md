@@ -217,7 +217,8 @@ The National Competence Center Sweden (ENCCS) [https://enccs.se/] provides instr
 From the MIT Computer Science & Artificial Intelligence Laboratory comes an
 unofficial course [The Missing Semester of Your CS
 Education](https://missing.csail.mit.edu/) which covers a lot of basic computer
-skills typically taught by RSEs.
+skills typically taught by RSEs. The skills covered here also provide an
+important set of core capabilities for anyone looking to become an RSE.
 
 The (Intersect)[https://intersect-training.org/] project ....
 
