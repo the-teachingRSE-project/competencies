@@ -330,14 +330,22 @@ and the RSE's software needs to be able to interact with the existing
 domain-specific data repositories.
 
 #### Outside Party interaction (USERS)
-In a traditional SE context the developer might not interact with many people
-outside their immediate project. However, in a research context, a RSE will have
-to interact with users, RSEs from other projects, and possibly funders. The
-exchange with other projects, maybe from different domains, is particularly
-important since this allows the RSE to find out about new techniques and algorithms
-relevant to their own project and to keep their software up-to-date.
+Research software is often developed as part of the research process itself,
+and like research, it will change in unpredictible ways
+hence it often has to be developed very closely to its users, the researchers.
+Therefore, roles like developers and users can seldom be distinguished
+as most people represent multiple roles ranging from end-users, up to funders.
+However, regardless if this is the case or not: compared to other SE environments,
+there is an unusually close interaction between and within different roles in research,
+as well as between experts from different domains.
+Often this means it is necessary for an RSE to think "outside their comfort zone",
+but at the same time to be able to convey their knowledge and experience to experts
+of other fields in a way they can understand more easily.
+This includes their own domain knowledge in discussions with RSEs (from other domains),
+as well as their SE knowledge when talking to domain scientists and also the
+exchange of new techniques and algorithms to keep their software up-to-date.
 
-### Team Skills
+#### Team Skills
 #### Teaching (TEACH)
 Working in a group means being able to effectively perform e.g. onboarding, or more formal teaching procedures to their colleagues.
 This includes tasks such as consulting and mentoring since these also often aim at educating people.
