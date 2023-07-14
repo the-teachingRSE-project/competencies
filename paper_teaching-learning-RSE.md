@@ -110,7 +110,25 @@ in February 2023.
 
 _[Information on key contributions to add]_
 
-_[Overview of paper sections to add]_
+'Related work and activities' gives a brief overview over other initiatives in the area of digital skills for researchers.
+The content is twofold. Firstly, we consider other initiatives trying to identify relevant skills for and pathways to becoming an expert at their specific but related area, 
+e.g. high performance computing, . Secondly, we look at groups and organisations that compose specific training material that can be 
+used for teaching RSE skills.
+
+'Challenges' discusses the challenges in the current academic training and research landscape when it comes to 
+students and researchers learning the necessary skills to write FAIR software in their specific domain.
+
+In 'Results' we describe the main results of the workshop, namely the set of relevant skills as well as 
+the levels of expertise needed in these skills for students and researchers at different career levels.
+Furthermore, we look at different RSE specializations which may additonally need skills not relevant 
+to RSEs of different specialisations.
+The skills themselves belong to one of the three main categories needed to perform RSE tasks. 
+Those are the 'R', i.e. an understanding of how research is performed, 
+the 'SE', i.e. writing and maintaining reusable software, as well as team skills.
+
+'Organizational Infrastructures' focuses on 
+
+FIXME (finalization): Exchange chapter titles by numbers?
 
 ## Intended Target Audience
 While this paper is based on discussions held during a workshop at the deRSE23
