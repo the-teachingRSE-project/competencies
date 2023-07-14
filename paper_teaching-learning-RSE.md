@@ -234,7 +234,7 @@ Depending on the specific domain there is a gap between the basic software carpe
 
 Moreover, software development is a craft, i.e. it is not only about knowledge but also requires practical experience. Hence we need to create an environment that allows less experienced researchers to practice and gain experience efficiently. Ideally, this learning environment would allow less experienced scientists to be guided by more experienced RSEs. We know such practices e.g. from human medicine, where junior doctors first assist experienced doctors before they work independently. In the field of software development, this approach could be implemented in the form of peer programming, for example. The prerequisite for this, however, is that experienced academics get better career opportunities at German universities so that they do not leave for industry roles. 
 
-## Results
+## Workshop Results
 
 ### Required Generic RSE skills
 The role of an RSE lies somewhere on the spectrum between that of a researcher
