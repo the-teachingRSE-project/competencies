@@ -164,7 +164,13 @@ As an area that generally requires a range of advanced skills, High Performance 
 
 ### RSE-related Training Materials
 
-A wide range of software-related training materials and supporting organisations exist within the research software community and beyond.
+A wide range of software-related training materials and supporting organisations
+exist within the research software community and beyond. The day-to-day work of
+typical RSEs often includes teaching activities, e.g. in university courses,
+workshops or one-on-one, to improve the RSE-related skill-set of researchers.
+The resources given below are helpful one the one hand to support such
+activities but can be also used to fill gaps in the capabilities of
+professional RSEs.
 
 #### The Carpentries
 The Carpentries [@Carpentries] is a non-profit entity that supports a range of open source training materials and international communities of volunteer instructors and helpers who run courses around these materials.
@@ -213,6 +219,7 @@ second edition as a living document [@Fogel2017].
 Reference works are also available for self-study [@Fogel2005], [@Irving2021].
 
 The National Competence Center Sweden (ENCCS) [https://enccs.se/] provides instructor training material [@ENCCSInstructorTraining], [@ENCCS2022] developed from Carpentries and CodeRefinery material, as well as lessons for HPC-oriented RSEs [@ENCCSLessons].
+
 
 The (Intersect)[https://intersect-training.org/] project ....
 
