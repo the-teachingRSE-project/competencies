@@ -86,7 +86,7 @@ RSEs share a set of core skills that are required to write software, understand
 the research environment and ensure that they produce sustainable, maintainable
 code that supports reproducible research outputs. They are the ones who
 implement the FAIR principles that make digital research output more valuable.
-In order to do so the draw upon skills from traditional software engineering,
+In order to do so they draw upon skills from traditional software engineering,
 established research culture and a commitment to being part of a team.
 
 Developing and maintaining these skills is time consuming and often challenging.
@@ -196,7 +196,7 @@ best practices, modern software design [@LRZModernCpp], project management and
 version control [@LRZIntroCpp].
 
 #### Helmholtz
-As part of its push towards a better RSE environment, the Helmholtz Association launched the Helmholtz Federated IT Services platform (HIFIS) [@HIFIS] which provides educational material and trainings amongst other services for an audience of over 10.000 scientists in Germany and internationally.
+As part of its push towards a better RSE environment, the Helmholtz Association launched the Helmholtz Federated IT Services platform (HIFIS) [@HIFIS] which provides educational material and trainings amongst other services for an audience of over 10,000 scientists in Germany and internationally.
 All of these materials focus on RSE basics to refresh and expand the software engineering knowledge for recent graduates or to update the existing knowledge in established researchers.
 They are published under OER licenses and can serve as either self-learning instructions or form the basis of a hands-on training.
 To allow these educational offers to be easier brought to the scientists, the Helmholtz Information and Data Science Academy (HIDA) [@HIDA] sustains a large network within the Helmholtz Association and beyond with a strong focus on graduate schools.
@@ -260,7 +260,7 @@ requires knowledge of using build systems to enable interoperability with other 
 Software has a lifetime and this necessitates the respective strategies for its usage along the intended time scale.
 
 #### Use repositories (SWREPOS)
-The RSE should be able to use public platforms to share the artifacts they have created and invite public scrutiny on them for public review.
+The RSE should be able to use public platforms to share the artefacts they have created and invite public scrutiny on them for public review.
 
 #### Legal things (LEG)
 The RSE should know licenses and their respective domains for data or software. On an entry level, the competency is mostly about awareness. 
@@ -418,7 +418,7 @@ Some explanation of the team sizes:
 |       | individual | small team | organization  |
 | ----  | ------ | ------ | --- |
 | DOCBB |   you might get away with less satisfactory code, as long as the product is OK | think about your colleagues    | your organization most likely has guides here |
-| LIBS  |   you will only be successful if your artifact is usable by others    |  same here   | your organization probably has rules here |
+| LIBS  |   you will only be successful if your artefact is usable by others    |  same here   | your organization probably has rules here |
 | MOD   | you should precisely know what your entire code is doing where | you should know what your part is doing and have a feeling about the others contributions | You should know what your small part is doing |
 | SWLC  | it's you and your software | You should know the Bus factor | The organization takes care of that |
 |SWREPOS|   you need academic credit.    |   same here    | your organization probably has rules here |
