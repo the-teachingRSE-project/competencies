@@ -214,6 +214,11 @@ Reference works are also available for self-study [@Fogel2005], [@Irving2021].
 
 The National Competence Center Sweden (ENCCS) [https://enccs.se/] provides instructor training material [@ENCCSInstructorTraining], [@ENCCS2022] developed from Carpentries and CodeRefinery material, as well as lessons for HPC-oriented RSEs [@ENCCSLessons].
 
+From the MIT Computer Science & Artificial Intelligence Laboratory comes an
+unofficial course [The Missing Semester of Your CS
+Education](https://missing.csail.mit.edu/) which covers a lot of basic computer
+skills typically taught by RSEs.
+
 The (Intersect)[https://intersect-training.org/] project ....
 
 (BSSW)[https://bssw.io/] ...
