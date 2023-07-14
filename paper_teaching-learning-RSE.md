@@ -221,8 +221,15 @@ The (Intersect)[https://intersect-training.org/] project ....
 
 SSI? [@Crouch2013] ...
 
+##### EduTrain
+Training & Education (EduTrain) [@EDUTRAIN] is a section of the German National Research Data Infrastructure (NFDI) [@NFDI].
+Based on the slogan "data literacy from the beginning", it contributes to the further development of scientific methods and good scientific practice.
+Education in data literacy enables the formal quality of the resource "data" to be increased in such a way that it can be used both for knowledge and for sustainable solutions to societal challenges [@EduTrain2022].
 
- - FIXME: Add NFDI initiatives like edutrain.
+#### NFDI4Ing
+According to the goals of the NFDI consortium National Research Data Infrastructure for Engineering Sciences (NFDI4Ing) [@NFDI4ING], engineers treat software as research data that possibly connects the different stages of stored data.
+Therefore, it aims to enable engineers to develop validated quality-assured engineering research software. 
+One specific example is the lecture 'Sustainable Development of Simulation Software' that has been developed as master's course at the Institute for Modelling Hydraulic and Environmental Systems at the University of Stuttgart [@SDSSCOURSE], [@SDSSMATERIAL].
 
 
 ## Challenges
