@@ -311,7 +311,7 @@ One of the crucial skills of RSEs is their mental proximity to research
 and they embrace being part of a larger community which,
 despite friendly competition, shares the common goal of gaining knowledge
 for its own sake and not just for personal or commercial gain.
-Thereby they know, that theya are part of a bigger cycle that involves many other parties in and outside of
+Thereby they know, that they are part of a bigger cycle that involves many other parties in and outside of
 their domain, and also that their software can be utilized in different stages of the research cycle by different persons.
 Like other researchers, RSEs are open to discussions and arguments beyond
 their own expertise and appreciate the underlying principles of
@@ -338,7 +338,7 @@ domain-specific data repositories.
 Research software is often developed as part of the research process itself,
 and like research, it will change in unpredictible ways
 hence it often has to be developed very closely to its users, the researchers.
-Therefore, roles like developers and users can seldom be distinguished
+Therefore, roles like developers and users can seldomly be distinguished
 as most people represent multiple roles ranging from end-users, up to funders.
 However, regardless if this is the case or not: compared to other SE environments,
 there is an unusually close interaction between and within different roles in research,
