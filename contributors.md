@@ -24,6 +24,8 @@ Jean-Noël Grad, Institute for Computational Physics, University of Stuttgart, G
 
 Fredo Erxleben, Helmholtz-Zentrum Dresden-Rossendorf, 0000-0001-7233-3005, f.erxleben@hzdr.de
 
+Magnus Hagdorn, Charité Universitätsmedizin Berlin, 0000-0002-5076-4864, magnus.hagdorn@charite.de
+
 your name, affiliation, orcid, e-mail
 
 
