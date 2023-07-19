@@ -133,7 +133,8 @@ The skills themselves belong to one of the three main categories needed to perfo
 Those are the 'R', i.e. an understanding of how research is performed, 
 the 'SE', i.e. writing and maintaining reusable software, as well as team skills.
 
-'Organizational Infrastructures' focuses on 
+'Organizational Infrastructures' focuses on changes that are required to at best support
+the training of new RSEs.
 
 FIXME (finalization): Exchange chapter titles by numbers?
 
@@ -157,6 +158,13 @@ scientists. Funders and research managers will find the discussion in this paper
 valuable in order to observe how software development in academia will be
 institutionalised. Finally, the strong emphasis on team-skills allows RSEs to be
 very employable in industrial workplaces.
+
+## National Context in contrast to international relevance
+Having been developed at a workshop in Paderborn in Germany, naturally a part
+of the discussion in this paper focusses on changes to the german academic landscape.
+But since we are dealing with the education of humans to become RSEs these topics are of
+relevance also in an international context.
+
 
 ## Related Work and Activities
 
