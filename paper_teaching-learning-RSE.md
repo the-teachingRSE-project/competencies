@@ -159,12 +159,21 @@ valuable in order to observe how software development in academia will be
 institutionalised. Finally, the strong emphasis on team-skills allows RSEs to be
 very employable in industrial workplaces.
 
-## National Context in contrast to international relevance
+## National Context
 Having been developed at a workshop in Paderborn in Germany, naturally a part
-of the discussion in this paper focusses on changes to the german academic landscape.
-But since we are dealing with the education of humans to become RSEs these topics are of
-relevance also in an international context.
-
+of the discussion in this paper focusses on the german academic landscape.
+And, since we expect a sizeable portion of readers from Germany we
+quickly want to address a common false friend.
+The german 'Wissenschaft' encompasses all domains of publicly funded
+research, while the english 'science' is generally limited to natural sciences.
+Therefore, we will use 'research' to encompass all domains therefore gives the employability of RSEs.
+Of course 'research' as well as 'Forschung' is not limited to public funding
+but also part of industrial and other private companies.
+We surmise that the same software engineering and team skills will be needed there,
+but we limit our considerations to the views of public research.
+So, although there are germany specific traits found in this document
+we are nevertheless dealing with the education of humans to become RSEs -
+A topic that is of major relevance also in an international context.
 
 ## Related Work and Activities
 
