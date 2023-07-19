@@ -366,7 +366,7 @@ There are various facets to working in a team. They range from functioning in a 
 It includes following measures that increase team cohesion like performing code reviews.
 
 ### RSE Tasks and Responsibilities
-These skills, while already numerous are also on purpose generic. They span a
+These skills, while already numerous are also generic on purpose. They span a
 multidimensional space in which the day-to-day tasks and responsibilities of a
 RSE can be found. During the Paderborn workshop we asked learners and novice
 RSEs what they would like to have learnt. Among the top five things mentioned
