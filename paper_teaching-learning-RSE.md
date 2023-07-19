@@ -489,35 +489,20 @@ Bonus points may be distributed if managing teams remotely
 
 ### RSE specializations
 What we have defined above are intended to be base skills that an RSE irrespective of domain, place, and time should know about.
-But not all RSEs are created equal, they specialize in different areas,
-some of which we want to present below. Many of the specializations may overlap,
-so the same RSE might for example work on data management and on Open Science.
+But not all RSEs are created equal, they specialize in different areas, some of which we want to present below. 
+Many of the specializations may overlap, so the same RSE might for example work on data management and on Open Science.
 
 #### HPC-RSE
-RSEs with a focus on High Performance Computing (HPC) have specialist knowledge
-about programming models that can be used to efficiently undertake large-scale
-computations on parallel computing clusters. They may have knowledge of (automatic)
-code optimization tools and methods and will understand how to write code that is
-optimized for different types of computing platforms, leveraging various efficiency
-related features of the target hardware. They are familiar with HPC-specific
-package managers and can build dependencies from sources. They also understand the process of
-interacting with job scheduling systems that are often used on HPC clusters to
-manage the queuing and running of computational tasks. HPC-focused RSEs may be
-involved with managing HPC infrastructure at the hardware or software level (or
-both) and understand how to calculate the environmental impact of large-scale
-computations. Their knowledge of how to run HPC jobs and write successful HPC
-access proposals can be vitally important to researchers wanting to make use of
-HPC infrastructure.
+RSEs with a focus on High Performance Computing (HPC) have specialist knowledge about programming models that can be used to efficiently undertake large-scale computations on parallel computing clusters. 
+They may have knowledge of (automatic) code optimization tools and methods and will understand how to write code that is optimized for different types of computing platforms, leveraging various efficiency related features of the target hardware. 
+They are familiar with HPC-specific package managers and can build dependencies from sources. 
+They also understand the process of interacting with job scheduling systems that are often used on HPC clusters to manage the queuing and running of computational tasks. 
+HPC-focused RSEs may be involved with managing HPC infrastructure at the hardware or software level (or both) and understand how to calculate the environmental impact of large-scale computations. 
+Their knowledge of how to run HPC jobs and write successful HPC access proposals can be vitally important to researchers wanting to make use of HPC infrastructure.
 
-They may also be familiar with High-Throughput Computing (HTC) and manage
-a network of heterogeneous compute resources, typically desktop workstations
-equipped with multicore processors and possibly GPU accelerators.
-They can apply their node-level performance engineering skills to maximize
-utilization of the available resources.
-Finally, they typically have expert knowledge in at least one compiled language,
-and can assist domain scientists who have excellent command of scripting languages
-but only a cursory understanding of compiled languages get up to speed with
-compiled software.
+They may also be familiar with High-Throughput Computing (HTC) and manage a network of heterogeneous compute resources, typically desktop workstations equipped with multicore processors and possibly GPU accelerators.
+They can apply their node-level performance engineering skills to maximize utilization of the available resources.
+Finally, they typically have expert knowledge in at least one compiled language, and can assist domain scientists who have excellent command of scripting languages but only a cursory understanding of compiled languages get up to speed with compiled software.
 
 #### Research Infrastructure RSE
 This RSE is interested in SysOps and sets up infrastructures for and with researchers.
@@ -525,10 +510,8 @@ This RSE, therefore, requires a deep knowledge of physical computer and network 
 FIXME: While required, is this an RSE? this sets off the usual infrastructure vs. research discussion....
 
 #### Web-Development RSE
-This RSE is skilled in web applications, front- and/or backend, and/or building 
-and using APIs, for example for research data portals or big research projects.
-Ideally, this RSE should also have knowledge about (web) accessibility to allow a broad
-range of researchers or even the public to use the resulting applications.
+This RSE is skilled in web applications, front- and/or backend, and/or building and using APIs, for example for research data portals or big research projects.
+Ideally, this RSE should also have knowledge about (web) accessibility to allow a broad range of researchers or even the public to use the resulting applications.
 Therefore a deep knowledge of web skills is a required skill for this RSE.
 
 #### Legal-RSE
@@ -537,27 +520,19 @@ They are the go-to person if people have a question about licensing, mixing and 
 
 #### Data-focused RSE
 RSEs working at the flourishing intersection between data science and RSE. 
-They are skilled in cleaning data and/or running data analyses and can help researchers
-in setting up their analysis pipeline and/or research data management (RDM) solutions.
-When the field requires research on sensitive data or information, e.g. patient information in medicine, 
-this RSE should have knowledge about secure transfer methods and/or ways to anonymize the data. 
+They are skilled in cleaning data and/or running data analyses and can help researchers in setting up their analysis pipeline and/or research data management (RDM) solutions.
+When the field requires research on sensitive data or information, e.g. patient information in medicine, this RSE should have knowledge about secure transfer methods and/or ways to anonymize the data. 
 
 #### OpenScience RSE
 Open Science and FAIRness of Data and Software are increasingly important topics in research, as exemplified by the demand of an increasing amount of research funding agencies requiring openness.
-Open Science RSEs can help researchers navigate the technical questions that come up 
-when practicing Open Science, such as "How do I make my code presentable?", 
-"What do I need to consider when it comes to licensing?", or 
-"How can I use version control / automation for my project?".
+Open Science RSEs can help researchers navigate the technical questions that come up when practicing Open Science, such as "How do I make my code presentable?", "What do I need to consider when it comes to licensing?", or "How can I use version control / automation for my project?".
 
 #### Project/Community manager RSEs
-When research software projects become larger, they need someone who manages
-processes and people. Building a community around a research project is an
-important building block in building sustainable software, so these RSEs play
-an important role, even if they do not necessarily touch much of the code themselves.
+When research software projects become larger, they need someone who manages processes and people. 
+Building a community around a research project is an important building block in building sustainable software, so these RSEs play an important role, even if they do not necessarily touch much of the code themselves.
 
 #### Teaching RSEs
-RSEs who focus on teaching the next generation of researchers and/or RSEs play
-a vital role in quality research software.
+RSEs who focus on teaching the next generation of researchers and/or RSEs play a vital role in quality research software.
 
 #### ${DOMAIN}-RSE
 While software is the lingua franca of all RSEs there will be RSEs that have specialized in the initricacies of one particular research domain, such as medical RSEs, digital humanities RSEs or physics RSEs.
@@ -565,9 +540,11 @@ While software is the lingua franca of all RSEs there will be RSEs that have spe
 ### Optional RSE competencies -> Maintenance RSEs 
 Oftentimes, a significant amount of effort in (research) software development needs to be spent on maintenance to ensure that software remains useful for researchers now and in the future.
 The research environment is constantly changing and this can also apply to the software requirements.
-Accordingly, software often needs to be adapted continuously. If it isn't, the software can reach a point where it simply isn't useful to the researchers anymore.
+Accordingly, software often needs to be adapted continuously. 
+If it isn't, the software can reach a point where it simply isn't useful to the researchers anymore.
 To avoid this, regular work needs to be invested. 
-While ensuring maintenance and sustainability of research software is of huge importance to the communities that build and use it, a particular challenge is that it's often very difficult to obtain ongoing research funding for software maintenance tasks. As a result, when a project that developed or extended a piece of software finishes, it can often be the case that support for the software fades as team members move on to other research, academic or RSE roles, or become busy with other funded work.
+While ensuring maintenance and sustainability of research software is of huge importance to the communities that build and use it, a particular challenge is that it's often very difficult to obtain ongoing research funding for software maintenance tasks. 
+As a result, when a project that developed or extended a piece of software finishes, it can often be the case that support for the software fades as team members move on to other research, academic or RSE roles, or become busy with other funded work.
 While this is not a core concern of this paper, we wanted to highlight this important issue that is frequently faced when working with software in the research community.
 With regard to which additional competency is required, these are people having experience with ancient software stacks that are not anymore part of the general curricula(think of COBOL and FORTRAN).
 
