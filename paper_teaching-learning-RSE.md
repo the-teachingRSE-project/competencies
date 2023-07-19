@@ -366,17 +366,41 @@ There are various facets to working in a team. They range from functioning in a 
 It includes following measures that increase team cohesion like performing code reviews.
 
 ### Current Day Contextualization
-These skills, while already numerous are also on purpose generic. Concrete examples can be obtained by the outcome from the Paderborn workshop, where we asked learners and beginner RSEs of what they would liked to have learnt.
+These skills, while already numerous are also on purpose generic. Concrete
+examples can be obtained by the outcome from the Paderborn workshop, where we
+asked learners and beginner RSEs of what they would liked to have learnt.
 Among the top five things mentioned were:
 
-- Testing. This task is a manifestation of the SE competencies of DOCBB and MOD since a model of the software is required in order to write good test that facilitate understanding and documentation. Today this encompasses the knowledge of testing frameworks and CI/CD practices.
-- Contributing to large projects. This is a topic that requires competency in SWREPOS
-, LEG, in order to understand the ramifications of sharing, DOCBB, since the contributed code has to be understood by others, and TEAM, since one is becoming part of the project depending on the involvement. Today this entails the effecive use of collaborative platforms like github/gitlab, honoring a projects Code of Conduct, and some knowledge of software licenses like the GPL.
-- When or why to keep repositories private. This decision requires knowledge in the RC, to understand when it makes sense, USERS and TEAM in order to do accepted decisions and sometimes LEG. This requires domain and location knowledge in the sense that one should know what the practices of ones own institution are.
-- Proper Development. This broad topic requires all of the SE skills. Of course these are the competencies that are the most fluid since they have to adapt at a high rate to the technological advancements. Additionally proper SE skills often require knowledge of TEAM, and PM.
-Today this means effective use of IDEs, static analysis tools, design patterns, documentation (for oneself and others), etc. 
-- Finding a community. This can be interpreted in two different facets. First we have the aspect of community building for a research project. Since this deals with software that is supposed to be used in research this requires knowledge of RC, USERS, and also NEW, in order to effectively interact with domain scientists. Today, an example is a presence on social media. The other TEAM-related aspect is the embedding of RSE graduates into the community of RSEs.
-  We envision our RSE graduates to be a part in a strong network of other RSEs, tool-related communities and the classical domain communities. This point is further elaborated in [How do we reach people in different stages of their careers](#how-do-we-reach-people-in-different-stages-of-their-careers)
+- Testing. This task is a manifestation of the SE competencies of DOCBB and MOD
+since a model of the software is required in order to write good test that
+facilitate understanding and documentation. Today this encompasses the
+knowledge of testing frameworks and CI/CD practices.
+- Contributing to large projects. This is a topic that requires competency in
+SWREPOS, LEG, in order to understand the ramifications of sharing, DOCBB, since
+the contributed code has to be understood by others, and TEAM, since one is
+becoming part of the project depending on the involvement. Today this entails
+the effecive use of collaborative platforms like github/gitlab, honoring a
+projects Code of Conduct, and some knowledge of software licenses like the GPL.
+- When or why to keep repositories private. This decision requires knowledge in
+the RC, to understand when it makes sense, USERS and TEAM in order to do
+accepted decisions and sometimes LEG. This requires domain and location
+knowledge in the sense that one should know what the practices of ones own
+institution are.
+- Proper Development. This broad topic requires all of the SE skills. Of course
+these are the competencies that are the most fluid since they have to adapt at
+a high rate to the technological advancements. Additionally proper SE skills
+often require knowledge of TEAM, and PM. Today this means effective use of IDEs,
+static analysis tools, design patterns, documentation (for oneself and others),
+etc.
+- Finding a community. This can be interpreted in two different facets. First
+we have the aspect of community building for a research project. Since this
+deals with software that is supposed to be used in research this requires
+knowledge of RC, USERS, and also NEW, in order to effectively interact with
+domain scientists. Today, an example is a presence on social media. The other
+TEAM-related aspect is the embedding of RSE graduates into the community of
+RSEs. We envision our RSE graduates to be a part in a strong network of other
+RSEs, tool-related communities and the classical domain communities. This point
+is further elaborated in [How do we reach people in different stages of their careers](#how-do-we-reach-people-in-different-stages-of-their-careers).
 
 
 ### How much do different people need to know?
