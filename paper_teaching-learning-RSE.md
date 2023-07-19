@@ -365,27 +365,28 @@ but it is useful, if an RSE knows its place in a PM scheme, or can bring in new 
 There are various facets to working in a team. They range from functioning in a team to leading a team.
 It includes following measures that increase team cohesion like performing code reviews.
 
-### Current Day Contextualization
-These skills, while already numerous are also on purpose generic. Concrete
-examples can be obtained by the outcome from the Paderborn workshop, where we
-asked learners and beginner RSEs of what they would liked to have learnt.
-Among the top five things mentioned were:
+### RSE Tasks and Responsibilities
+These skills, while already numerous are also on purpose generic. They span a
+multidimensional space in which the day-to-day tasks and responsibilities of a
+RSE can be found. During the Paderborn workshop we asked learners and novice
+RSEs what they would like to have learnt. Among the top five things mentioned
+were:
 
 - Testing. This task is a manifestation of the SE competencies of DOCBB and MOD
 since a model of the software is required in order to write good test that
 facilitate understanding and documentation. Today this encompasses the
 knowledge of testing frameworks and CI/CD practices.
 - Contributing to large projects. This is a topic that requires competency in
-SWREPOS, LEG, in order to understand the ramifications of sharing, DOCBB, since
-the contributed code has to be understood by others, and TEAM, since one is
-becoming part of the project depending on the involvement. Today this entails
-the effecive use of collaborative platforms like github/gitlab, honoring a
-projects Code of Conduct, and some knowledge of software licenses like the GPL.
+SWREPOS, LEG, in order to understand the ramifications of sharing, and DOCBB,
+since the contributed code has to be understood by others. Interacting with
+project members depends on the the TEAM skill. Today this entails the effective
+use of collaborative platforms like github/gitlab, honouring a projects Code of
+Conduct, and some knowledge of software licenses like the GPL.
 - When or why to keep repositories private. This decision requires knowledge in
-the RC, to understand when it makes sense, USERS and TEAM in order to do
-accepted decisions and sometimes LEG. This requires domain and location
-knowledge in the sense that one should know what the practices of ones own
-institution are.
+the RC, to understand when it makes sense to open up or close down a repository.
+The USERS, TEAM and sometimes LEG skills are required to make this decision.
+Furthermore, knowledge of the practices and contractual regulations of the
+RSE's institution are also required.
 - Proper Development. This broad topic requires all of the SE skills. Of course
 these are the competencies that are the most fluid since they have to adapt at
 a high rate to the technological advancements. Additionally proper SE skills
