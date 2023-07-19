@@ -504,6 +504,11 @@ They may also be familiar with High-Throughput Computing (HTC) and manage a netw
 They can apply their node-level performance engineering skills to maximize utilization of the available resources.
 Finally, they typically have expert knowledge in at least one compiled language, and can assist domain scientists who have excellent command of scripting languages but only a cursory understanding of compiled languages get up to speed with compiled software.
 
+#### ML-RSE
+Machine learning is becoming increasingly important in many areas of research.
+Due to its complexity, it requires ...
+FIXME: Add content....
+
 #### Research Infrastructure RSE
 This RSE is interested in SysOps and system administration and sets up infrastructures for and with researchers.
 Therefore, this specialization on the one hand requires a deep knowledge of physical computer and network hardware, on the one hand knowledge about setup and configuration of software services which run on servers is essential.
