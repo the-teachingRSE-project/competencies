@@ -595,47 +595,72 @@ research scientists at all stages of their career.
 
 ## Organizational Infrastructures
 So we have defined our set of competencies that we feel every RSE should possess.
-Table 2 above nevertheless already hints at the fact that some RSE skills are required during the domain studies,
-while Table 1 tells us that we also need an ongoing qualification programme for people that want to become specialized RSEs.
-In order to set up a proper educational scheme we need to discuss two more items:
+Table 2 above nevertheless already hints at the fact that some RSE skills are required during the domain studies, while Table 1 tells us that we also need an ongoing qualification programme for people that want to become specialized RSEs.
 
+In order to set up a proper educational scheme we need to discuss two more items:
 - Who are our teachers?
 - How is this teaching organised?
 
 ### The teachers
 #### What issues are trainers facing today?
-There are already some people out there who are teaching RSE related topics sometimes in university structures, but often outside of formal structures.
-The community discussion shed some light on the issues our trainers are facing now.
-Currently, they are often teaching workshop like formats in research institutions.
-
+There are already some people teaching RSE-related topics, sometimes within university structures, but often outside of formal structures.
+Currently, they often teach in workshop-like formats at research institutions.
+The community discussion shed light on the issues our trainers are faced with nowadays:
 - There are outreach issues. We emphasize that there are two dimensions to this: First it is important that we inform students that workshops exist, and then, the more important part, we also need to motivate people to invest the time for a workshop. [@EuroCC2022]
 - Adaptation of material to the target audience has been identified as a time consuming task.
 - Organization and preparation is a challenge, since currently no standardized formats exist.
 - Expectation management of students. Existing knowledge of students is often diverse.
 - Language barriers. This can range from the use of technical jargon up to the disparities of you teaching in a foreign language.
 - Setting up a feedback loop that facilitates a reflection of the workshop for the teacher.
-- staying up-to-date with fast-moving RSE topics.
-
+- Staying up-to-date with specific fast-moving RSE topics.
+- Acknowledgment for teaching. Besides offering RSE training as part of a job description, there are also trainers who teach RSE topics out of conviction without getting any further appreciation for their committment that could qualify as advanced trainig for further job qualification.
 
 #### What mindset makes up a good teacher
 Irrespective of where people come from they need to have the proper mindset to properly foster aspiring RSEs.
-
-- "If you want to go fast, go alone; if you want to go far, go together?"
-- Not every "good" scientist wants to become a "good" software engineer, too!
+We propose that such an expected mindset should encompass the conviction that research software engineering (RSEing) improves reproducible research as well as the motivation to improve the RSE skills of researchers. 
+Good teachers must engage with the different scientific backgrounds of the learners, regardless of their prior knowledge.
+In order to identify relevant content and adapt it to the learners needs, they need to understand and appreciate the academic environment.
+Additionally, we would presume good teachers being interested in improving their own educational skills to make their teaching more effective, which would reflect in increased learning success and better RSE applied by the learners. 
+The proper mindset should also include the acknowledgment that some learners acquire additional RSE skills out of necessity and not out of interest, meaning that not every "good" scientist wants to become a "good" software engineer, too.
+Inspired by the proverb "If you want to go fast, go alone; if you want to go far, go together?", RSE teachers should continue to accompany and support researchers individually after official teaching has ended. 
 
 #### Where do we get our teachers from
-The community discussion brought about the need for a mixture of people, thereby 
-the education of aspiring RSEs will involve people from close domain sciences or experienced RSEs
-and people that have respective additional skills to teach RSE competencies to the new generation.
+The community discussion brought to light the need for a mixture of people, thereby the education of aspiring RSEs will involve people from close domain sciences or experienced RSEs and people that have respective additional skills to teach RSE competencies to the new generation.
 In that respect, this follows the carpentries model that offers certifications but is still open to non-certified trainers.
-We highlight and emphasize, that since a topic like RSE education, is constantly evolving, trainers strongly require the opportunity to and the recognition to educate themselves.
+We highlight and emphasize that, since a topic like RSE education is constantly evolving, trainers strongly require the opportunity and the recognition to educate themselves.
 Therefore our teachers will be sourced from the workplace but there will also be certified RSE Trainers.
+
+
+
 (FIXME: in classical university speak, these would be people who have done their habilitation on that topic, right?)
 
-We propose to create common Infrastructures that can be utilized in this ongoing effort to professionalize the RSE education further, to easily share education resources across the country.
+
+
+- courses from computer science / difference?
+- https://www.simtech.uni-stuttgart.de/exc/people/Uekermann/
+- edx, coursera -> Profs around the worls (Harvard)
+- postdocs that work for longer time on specific RS -> expereince in domain knowledge and requirements for software
+Use exisiting platforms that offer international webinars
+Coursera and edX are highly rated open online course providers that offers many courses related to the required knowledge of RSEs. 
+Participants get a certificate for successful participation. 
+Upon successful completion, the Cluster of Excellence SimTech covers the expenses of specific Coursera courses for doctoral students and a course can count as graduate school unit. 
+At the Cluster of Excellence IntCDC we are in the process to also offer financial support.
+Rely on existing platfoms, that are already established but keep material 
+Recrute teachers from those platforms
+
+
+
+We propose to create common infrastructures that can be utilized in this ongoing effort to professionalize the RSE education further and to easily share education resources across the country.
+
+
+
 (FIXME: DETAIL ME FURTHER!!!!)
 
+
 ### Organization of teaching
+
+How can we define the path from the status quo of available courses to a generally accepted curriculum for a student?
+How can we define establish unified concensual curriculum?
 
 #### Certificates
 
