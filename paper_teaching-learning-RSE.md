@@ -505,9 +505,13 @@ They can apply their node-level performance engineering skills to maximize utili
 Finally, they typically have expert knowledge in at least one compiled language, and can assist domain scientists who have excellent command of scripting languages but only a cursory understanding of compiled languages get up to speed with compiled software.
 
 #### Research Infrastructure RSE
-This RSE is interested in SysOps and sets up infrastructures for and with researchers.
-This RSE, therefore, requires a deep knowledge of physical computer and network hardware.
-FIXME: While required, is this an RSE? this sets off the usual infrastructure vs. research discussion....
+This RSE is interested in SysOps and system administration and sets up infrastructures for and with researchers.
+Therefore, this specialization on the one hand requires a deep knowledge of physical computer and network hardware, on the one hand knowledge about setup and configuration of software services which run on servers is essential.
+The necessity for such RSEs arises from the need for special domain specific IT services that are not provided by the central IT services of a university.
+Such a service could be an cluster of compute servers for GPU based machine learning.
+Those RSEs may alternatively provide services that are based on existing IT infrastructure of a university, e.g. provide VMS on hypervisor run by the university.
+Their tasks may involve to operate as an interface between the researchers and the service by taking care of the user management, access permissions and configuration of a service but not the actual maintenance of server.
+Additionally, teaching other researchers in how to use such specialized services could be part of their responsibility.
 
 #### Web-Development RSE
 This RSE is skilled in web applications, front- and/or backend, and/or building and using APIs, for example for research data portals or big research projects.
