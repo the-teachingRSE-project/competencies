@@ -75,12 +75,6 @@ machines, and they also need to be accessible, interoperable and reusable. More
 recently the FAIR principles have been extended specifically to research
 software [@FAIR4RS].
 
-In this paper we define Research Software to include source code files,
-algorithms, scripts, computational workflows and executables that were created
-during the research process or for a research purpose.
-This definition is broader than in [@FAIR4RS] and is the outcome of a recent 
-discussion in [@definingrs2021].
-
 The people who focus on writing research software are now known as Research
 Software Engineers (RSEs) - a term that was coined a little over 10 years ago
 [@Hettrick2016]. RSEs may work within one of the many Research Software
@@ -138,6 +132,30 @@ the training of new RSEs.
 
 FIXME (finalization): Exchange chapter titles by numbers?
 
+
+## Some Definitions
+A couple of definitions are in order.
+First as software we define source code, documentation, tests
+and all other human-created artifacts during the development process
+that are necessary to understand its purpose.
+
+We define research to encompass all domains of research.
+Since we expect a sizeable portion of readers from Germany we
+quickly want to address a common false friend.
+The german 'Wissenschaft' encompasses all domains of publicly funded
+research, while the english 'science' is generally limited to natural sciences.
+Therefore, we will use 'research' to encompass all domains therefore gives the employability of RSEs.
+Of course 'research' as well as 'Forschung' is not limited to public funding
+but also part of industrial and other private companies.
+We surmise that the same software engineering and team skills will be needed there,
+but we limit our considerations to the views of public research.
+
+This enables us to define Research Software in this paper to include source code files,
+algorithms, scripts, computational workflows and executables that were created
+during the research process or for a research purpose.
+This definition is broader than in [@FAIR4RS] and is the outcome of a recent
+discussion in [@definingrs2021].
+
 ## Intended Target Audience
 While this paper is based on discussions held during a workshop at the deRSE23
 conference we believe that the competencies formulated here have a far-reaching
@@ -162,15 +180,6 @@ very employable in industrial workplaces.
 ## National Context
 Having been developed at a workshop in Paderborn in Germany, naturally a part
 of the discussion in this paper focusses on the german academic landscape.
-And, since we expect a sizeable portion of readers from Germany we
-quickly want to address a common false friend.
-The german 'Wissenschaft' encompasses all domains of publicly funded
-research, while the english 'science' is generally limited to natural sciences.
-Therefore, we will use 'research' to encompass all domains therefore gives the employability of RSEs.
-Of course 'research' as well as 'Forschung' is not limited to public funding
-but also part of industrial and other private companies.
-We surmise that the same software engineering and team skills will be needed there,
-but we limit our considerations to the views of public research.
 So, although there are germany specific traits found in this document
 we are nevertheless dealing with the education of humans to become RSEs -
 A topic that is of major relevance also in an international context.
