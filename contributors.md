@@ -20,6 +20,9 @@ Renato Alves, European Molecular Biology Laboratory, 0000-0002-7212-0234, renato
 
 Samantha Wittke, CSC- IT center for science, Espoo, Finland , 0000-0002-9625-7235 , samantha.wittke@csc.fi
 
+Jean-Noël Grad, Institute for Computational Physics, University of Stuttgart, Germany, 0000-0002-5821-4912, jgrad@icp.uni-stuttgart.de
+
+Fredo Erxleben, Helmholtz-Zentrum Dresden-Rossendorf, 0000-0001-7233-3005, f.erxleben@hzdr.de
 
 your name, affiliation, orcid, e-mail
 
