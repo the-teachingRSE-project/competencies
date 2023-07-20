@@ -2,7 +2,12 @@
 
 Project teams working on research software may have different sizes and structures, and different approaches to how they undertake their work. Within a project, there may be only a single RSE undertaking software development, based either locally or within an RSE team. For individual developers based locally in research groups/teams, they may be classed as a researcher, even if the bulk of their work is software development. Alternatively, in a larger project, a group of RSEs might be involved - these RSEs could be based locally within a research group or team and the individuals may be classed as researchers, or they could be a group of RSEs from a departmental or central RSE team. In the context of an RSE team, RSEs may be working on multiple projects which can change the way that they plan and work on development tasks and the tools and approaches that they use.
 
-In this table, we look at individual or team competencies and approaches to them, considering how these differ depending on whether and RSE or researcher is working alone on a software project, or whether they are workign as part of a team of research software developers. We extend this to consider how things differ when a developer or group of developers are based locally within a research team or department, or when they are based in a dedicated RSE team. We also look at organizational aspects in the context of each of the considered competencies since there are a variety of ways that organizations can contribute to and support them. We first summarise the meaning of each of the columns in the table:
+In this table, we look at individual or team competencies and approaches to them,
+considering how these differ depending on whether an RSE or researcher is working alone on a software project,
+or whether they are working as part of a team of research software developers.
+We extend this to consider how things differ when a developer or a group of developers is based locally within a research team or department,
+or when they are based in a dedicated RSE team.
+We also look at organizational aspects in the context of each of the considered competencies since there are a variety of ways that organizations can contribute to and support them. We first summarise the meaning of each of the columns in the table:
 
 - **Competency:** The code assigned to the competency being considered. See the list in **[Table ?????]**.
 - **Individual developer (Locally-based):** A single person working on some research software - often a researcher with RSE skills.
