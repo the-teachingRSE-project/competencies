@@ -551,8 +551,9 @@ There are also RSE short primers [@Astigarraga2022] and
 RSE guidelines [@ClementFontaine2019b; @Appel2021; @Haim2021] in non-English
 languages to address the need of specific communities.
 
-Teaching RSE in relevant undergraduate courses of domain scientists can be
-the first point of entry in the field. For example, statistics curricula can
+Teaching RSE in relevant undergraduate courses of domain scientists can be the first point of entry in the field.
+However, considering many RSEs come from domain studies, only fundamental concepts (of RDM and RSE) can be explained to and experienced by all of them. Those interested in computer-related work or even programming will gain the special knowledge in classes and projects they choose.
+For example, statistics curricula can
 be used to showcase RSE infrastructure, e.g. the R programming language and
 its ecosystem of statistics libraries and integrated development environments
 [@Reinhart2021; @Beckman2021; @CetinkayaRundel2018].
