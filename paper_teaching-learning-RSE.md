@@ -107,22 +107,21 @@ Some indicators could be used in collaborative Web platforms to stimulate contin
 or steer RSE behavior in a direction that would benefit all users of research software.
 
 Special interest groups have in the past outlined the core competencies
-of various RSE disciplines, such as
-HPC-RSE [@HPCCFCompetencies; @Kunkel2020a],
-bioinformatics-RSE [@Tractenberg2019; @Mulder2018; @WilsonSayres2018],
+of various RSE disciplines, such as HPC-RSE [@HPCCFCompetencies; @Kunkel2020a],
+bioinformatics-RSE [@Tractenberg2019; @Mulder2018; @WilsonSayres2018; @Welch2014],
 clinical informatics-RSE [@Davies2022; @Davies2020; @Gardner2009; @Brouat2022],
-librarian/RDM-RSE [@Federer2020], community manager-RSE [@Woodley2021],
-and generalist RSE [@usRSESkills].
+librarian/RDM-RSE [@Federer2020; @Demchenko2021; @Scholtens2019],
+community manager-RSE [@Woodley2021], and generalist RSE [@usRSESkills].
 However, the present document is, to our knowledge, the first attempt
 at defining the skills of a generalist RSE at different levels of seniority.
 
 As an area that generally requires a range of advanced skills,
 High Performance Computing (HPC) is one field where there is ongoing work
 to identify relevant sets of skills for HPC practitioners and potential paths
-to develop these skills.
-The HPC Certification Forum has developed a "competence standard" (CS) for HPC
-that defines a range of skills and how they are related in the context
-of a skill tree [@HPCCFCompetencies; @Kunkel2020a].
+to develop these skills. The HPC Certification Forum [@HPCCFCompetencies] has
+developed a "competence standard" (CS) for HPC that defines a range of skills and
+how they are related in the context of a skill tree [@Kunkel2020a; @Kunkel2020b].
+
 Also looking at pathways and how different skills are related,
 the UNIVERSE-HPC project [@UNIVERSEHPC], funded under the UK's ExCALIBUR
 research programme [@EXCALIBUR], is looking to understand and develop
@@ -131,15 +130,24 @@ and exascale domains. The project is gathering open source training materials
 to develop curricula that support the training pathways that are underpinned
 by high-quality training materials.
 
+Bioinformatics is another field that actively works on competency frameworks.
+The Bioinformatics Core Competencies [@Mulder2018; @Welch2016; @Welch2014],
+BioExcel competency framework [@Matser2016], PerMedCoE competency
+framework [@Lloret-Llinares2021], Research Data Management and Data
+Stewardship competence framework [@Demchenko2021] and ELIXIR Data Stewardship
+Competency Framework for Life Sciences [@Scholtens2019] eventually converged
+into the EMBL-EBI Competency Hub [@CompetencyHub; @Lloret-Llinares2022],
+where typical RSE and bioinformatician profiles at different levels
+of seniority can be queried and compared against one another.
+The Mastery Rubric for Bioinformatics [@Tractenberg2019] took a different
+approach by identifying knowledge, skills and abilities instead
+of competencies, and organising them in a taxonomy.
+
 FIXME:
 
-- There are some projects / papers looking at skills pathways
-- if we're going to include a separate section on related work, as proposed here,
-  this should probably be expanded to include more of this content?
 - [@Cosden2022b]
-- [@Hannay2009] skill gaps (fig 1)
-- include the ELIXIR part here
-- ELIXIR [@Gurwitz2020]
+- skill gaps for software verification/testing (fig. 1 in [@Hannay2009])
+  and bioinformatics [@MacLean1999; @Pevzner2009]
 - software evaluation criteria [@Jackson2011a; @ChueHong2014]
 
 ### RSE-related Training Materials
@@ -571,15 +579,20 @@ There are also RSE short primers [@Astigarraga2022] and
 RSE guidelines [@ClementFontaine2019b; @Appel2021; @Haim2021] in non-English
 languages to address the need of specific communities.
 
-Teaching RSE in relevant undergraduate courses of domain scientists can be the first point of entry in the field.
-However, considering many RSEs come from domain studies, only fundamental concepts (of RDM and RSE) can be explained to and experienced by all of them. Those interested in computer-related work or even programming will gain the special knowledge in classes and projects they choose.
+Teaching RSE in relevant undergraduate courses of domain scientists
+can be the first point of entry in the field.
+However, considering many RSEs come from domain studies, only fundamental
+concepts (of RDM and RSE) can be explained to and experienced by all of them.
+Those interested in domain-specific RSE skills or even programming will gain the
+special knowledge in classes and projects they choose.
 For example, statistics curricula can
 be used to showcase RSE infrastructure, e.g. the R programming language and
 its ecosystem of statistics libraries and integrated development environments
 [@Reinhart2021; @Beckman2021; @CetinkayaRundel2018].
 There are also bioinformatics courses designed for high school students that
 cover topics such as pen-and-paper algorithm design, genomic database querying
-and data mining, and open data [@Form2011; @Bain2020].
+and data mining, and open data [@Form2011; @Bain2020], as well as graduate
+courses designed for Master's degrees and Ph.D. programs [@BioinformaticsCertification].
 Teaching incubators can be leveraged to develop and test new academic curricula
 that introduce basic RSE topics, such as the "Algorithmic Battle"
 [@AlgorithmicBattle] (version control, documentation, good coding practices),
@@ -677,6 +690,14 @@ to facilitate the creation of a HPC certification program [@Kunkel2020a; @Kunkel
 This competence standard is currently being built upon by the CASTIEL 2 [@CASTIEL2] project
 in collaboration with initiatives funded by the European High Performance Computing
 Joint Undertaking (EuroHPC JU) to create a framework for HPC certification [@EuroHPCJU2023].
+
+##### Bioinformatics certification
+
+The Curriculum Task Force of the International Society for Computational
+Biology (ISCB) curates a database of degrees and certificates in bioinformatics
+[@BioinformaticsCertification; @Mulder2018].
+The database includes Bachelor and Master's degree programs and specializations,
+Ph.D. programs, and certificates from graduate schools.
 
 ##### Micro-accreditation and digital certificates
 
