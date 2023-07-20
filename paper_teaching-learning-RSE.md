@@ -613,49 +613,25 @@ The community discussion shed light on the issues our trainers are faced with no
 - Language barriers. This can range from the use of technical jargon up to the disparities of you teaching in a foreign language.
 - Setting up a feedback loop that facilitates a reflection of the workshop for the teacher.
 - Staying up-to-date with specific fast-moving RSE topics.
-- Acknowledgment for teaching. Besides offering RSE training as part of a job description, there are also trainers who teach RSE topics out of conviction without getting any further appreciation for their committment that could qualify as advanced trainig for further job qualification.
 
 #### What mindset makes up a good teacher
 Irrespective of where people come from they need to have the proper mindset to properly foster aspiring RSEs.
 We propose that such an expected mindset should encompass the conviction that research software engineering (RSEing) improves reproducible research as well as the motivation to improve the RSE skills of researchers. 
 Good teachers must engage with the different scientific backgrounds of the learners, regardless of their prior knowledge.
-In order to identify relevant content and adapt it to the learners needs, they need to understand and appreciate the academic environment.
-Additionally, we would presume good teachers being interested in improving their own educational skills to make their teaching more effective, which would reflect in increased learning success and better RSE applied by the learners. 
+In order to identify relevant content and adapt content to the learners needs, they need to understand and appreciate the academic environment.
+Additionally, we would presume good teachers being interested in improving their own educational skills to make their teaching more effective, which would reflect in increased learning success and better RSEing applied by the learners. 
 The proper mindset should also include the acknowledgment that some learners acquire additional RSE skills out of necessity and not out of interest, meaning that not every "good" scientist wants to become a "good" software engineer, too.
-Inspired by the proverb "If you want to go fast, go alone; if you want to go far, go together?", RSE teachers should continue to accompany and support researchers individually after official teaching has ended. 
+Inspired by the proverb "If you want to go fast, go alone; if you want to go far, go together?", learners should be able to get the opportunity to get continued individual support by the teacher even after the official training has ended. 
 
 #### Where do we get our teachers from
 The community discussion brought to light the need for a mixture of people, thereby the education of aspiring RSEs will involve people from close domain sciences or experienced RSEs and people that have respective additional skills to teach RSE competencies to the new generation.
 In that respect, this follows the carpentries model that offers certifications but is still open to non-certified trainers.
 We highlight and emphasize that, since a topic like RSE education is constantly evolving, trainers strongly require the opportunity and the recognition to educate themselves.
 Therefore our teachers will be sourced from the workplace but there will also be certified RSE Trainers.
-
-
-
 (FIXME: in classical university speak, these would be people who have done their habilitation on that topic, right?)
 
-
-
-- courses from computer science / difference?
-- https://www.simtech.uni-stuttgart.de/exc/people/Uekermann/
-- edx, coursera -> Profs around the worls (Harvard)
-- postdocs that work for longer time on specific RS -> expereince in domain knowledge and requirements for software
-Use exisiting platforms that offer international webinars
-Coursera and edX are highly rated open online course providers that offers many courses related to the required knowledge of RSEs. 
-Participants get a certificate for successful participation. 
-Upon successful completion, the Cluster of Excellence SimTech covers the expenses of specific Coursera courses for doctoral students and a course can count as graduate school unit. 
-At the Cluster of Excellence IntCDC we are in the process to also offer financial support.
-Rely on existing platfoms, that are already established but keep material 
-Recrute teachers from those platforms
-
-
-
 We propose to create common infrastructures that can be utilized in this ongoing effort to professionalize the RSE education further and to easily share education resources across the country.
-
-
-
 (FIXME: DETAIL ME FURTHER!!!!)
-
 
 ### Organization of teaching
 
@@ -667,23 +643,28 @@ How can we define establish unified concensual curriculum?
 With the ever-growing demand for RSEs in science it could be helpful for people to earn certificates for skills needed in certain RSE positions.
 This would possibly make hiring easier and could incentivise researcher to go through proper courses on these skills instead of learning on the go.
 For certain skills it would also be good for finding jobs outside academia, e.g. in industry where certain practices are already state-of-the-art.
-However, these certificates are only helpful if there is a certain level of standardization, which would require a central authority or collaboration 
-between multiple stakeholders to decide on contents and allow participating institutions to issue these certificates.
+However, these certificates are only helpful if there is a certain level of standardization, which would require a central authority or collaboration between multiple stakeholders to decide on contents and allow participating institutions to issue these certificates.
 Additionally, it can be excluding capable applicants that already use these skills but never got a certificate for it. 
 
 The possible types of certificates can of course differ. 
-Badges are increasingly popular, from personal badges rewarding contributions to a specific community, e.g. [Fedora Badges](https://badges.fedoraproject.org/explore/badges) or [Github Achievements](https://github.com/Schweinepriester/github-profile-achievements), 
-or project badges highlighting coding practices, e.g. Build and CI status or code coverage.
+Badges are increasingly popular, from personal badges rewarding contributions to a specific community, e.g. [Fedora Badges](https://badges.fedoraproject.org/explore/badges) or [Github Achievements](https://github.com/Schweinepriester/github-profile-achievements), or project badges highlighting coding practices, e.g. Build and CI status or code coverage.
 RSEs are very likely subject to life-long learning and personal, technical badges are one possibility for older RSEs to showcase that they posess a certain technical skill.
 Classical attendance sheets for courses are another option. 
-To further incentivise participation by students, some of these courses might also award academic credit points like ECTS and 
-benefit them on their way to graduation.
+To further incentivise participation by students, some of these courses might also award academic credit points like ECTS and benefit them on their way to graduation.
+
+Renowned online learning platform like edX [@edx] and Coursera [@coursera] offer free or charged RSE related courses that are provided by leading institutions (Harvard, MIT, TUM, ...) and large companies (IBM, Google, META, ...).
+Those platforms offers webinars for different levels (introductory, intermediate, advanced) and skills as well as job-ready certificates and degree programs which could be incorporated into an academic curiculum.
+Making use of exisiting, already established courses at teaching platforms, could be an inital source for compiling and curiculum of certified courses.
+Specifically selecting and promoting courses held by teachers working in academia would also support the training of more academic RSEs.
+In addition those platforms provide a valuable source to recrute teachers.
+(FIXME: Move to 'Where do we get our teachers from')
+For example, upon successful completion, the Cluster of Excellence SimTech covers the expenses of specific Coursera courses for doctoral students and a course can count as one graduate school unit (ETC).
 
 Having certificates provides finally a clear understanding of which tasks an RSE can perform and thereby helps defining the career path and the job description.
 A big demand for specialized RSEs will certainly come from the newly established RSE centers at research institutions that require skilled people to fill their vacant positions.
 And using the certificates, the demand can now be satisfied with people offering this skill.
 
-Some exemplary skills for which courses are already held are version control tools like git, HPC topics like multithreading, MPI and GPU computations, FAIR principles.
+Some exemplary skills for which courses are already held are version control tools like git, HPC topics like multithreading, MPI and GPU computations, FAIR principles, and simulation software [@UniStgtSimTech].
 
 
 #### A possible graduation path within the classical university structures
