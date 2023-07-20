@@ -96,6 +96,26 @@ The challenges of understanding the current state of skills within the research 
 
 ### Identifying skills and pathways
 
+The development of a standardized list of RSE competencies could help develop
+metrics to measure an individual's progression in specific RSE skill sets,
+e.g. using the Software Sustainability Institute's RSE Competencies
+Toolkit [@RSECompetenciesToolkit2023].
+These indicators would supplement the traditional grading system by providing
+gamification elements that gratify learning and incentivise the discovery of
+new skill sets, and thus contribute to reducing skill gaps in the RSE community.
+Some indicators could be used in collaborative Web platforms to stimulate continuous learning
+or steer RSE behavior in a direction that would benefit all users of research software.
+
+Special interest groups have in the past outlined the core competencies
+of various RSE disciplines, such as
+HPC-RSE [@HPCCFCompetencies; @Kunkel2020a],
+bioinformatics-RSE [@Tractenberg2019; @Mulder2018; @WilsonSayres2018],
+clinical informatics-RSE [@Davies2022; @Davies2020; @Gardner2009; @Brouat2022],
+librarian/RDM-RSE [@Federer2020], community manager-RSE [@Woodley2021],
+and generalist RSE [@usRSESkills].
+However, the present document is, to our knowledge, the first attempt
+at defining the skills of a generalist RSE at different levels of seniority.
+
 As an area that generally requires a range of advanced skills,
 High Performance Computing (HPC) is one field where there is ongoing work
 to identify relevant sets of skills for HPC practitioners and potential paths
@@ -759,37 +779,6 @@ We fleshed them out with some possible specializations of RSEs.
 Given the competencies and a demand(FIXME: Do the calculation) in the research landscape for them we moved on to define who the teachers are for this new field.
 We closed with a discussion of possible structures and organization forms that educate new generations of RSEs in more structured programs than what is available today(FIXME: this is currently aspirational).
 Therefore this closes the gap, that the research landscape requires RSEs, but there are no structures where these persons are educated, by detailing the career path that a young person might want to take to become an RSE.(FIXME: also aspirational...)
-
-## Outlook
-
-### RSE skills ontology
-Special interest groups have in the past outlined the core competencies
-of various RSE disciplines, such as
-HPC-RSE [@HPCCFCompetencies; @Kunkel2020a],
-bioinformatics-RSE [@Tractenberg2019; @Mulder2018; @WilsonSayres2018],
-clinical informatics-RSE [@Davies2022; @Davies2020; @Gardner2009; @Brouat2022],
-librarian/RDM-RSE [@Federer2020], community manager-RSE [@Woodley2021],
-and generalist RSE [@usRSESkills].
-However, the present document is, to our knowledge, the first attempt
-at defining the skills of a generalist RSE at different levels of seniority.
-
-The development of a standardized list of RSE competencies could help develop
-metrics to measure an individual's progression in specific RSE skill sets,
-e.g. using the Software Sustainability Institute's RSE Competencies
-Toolkit [@RSECompetenciesToolkit2023].
-These indicators would supplement the traditional grading system by providing
-gamification elements that gratify learning and incentivise the discovery of
-new skill sets, and thus contribute to reducing skill gaps in the RSE community.
-Some indicators could be used in collaborative Web platforms to stimulate continuous learning
-or steer RSE behavior in a direction that would benefit all users of research software.
-
-Similar to HPC certification program [@Kunkel2020a; @Kunkel2020b],
-one could envision a RSE certification program.
-This certification could take the form of academic credit,
-such as ECTS in higher education institution within the European Union,
-or digital certificates delivered upon completion of RSE training
-or after evaluation of a candidate's proficiency in a particular
-RSE skill by a recognized institution.
 
 ## Appendix
 ### An applied example curriculum
