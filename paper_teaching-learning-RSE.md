@@ -137,9 +137,9 @@ However, the Carpentries Incubator [@CarpentriesIncubator] provides an environme
 The material in the Incubator increasingly includes more intermediate-level training modules.
 After completion of a Carpentry workshop, learners can claim a certificate
 of attendance [@CarpentriesLearnerCertificates].
-Carpentry instructors must be certified before organizing a workshop;
-there is a selection process [@CarpentriesBecomingInstructor] as well as
-an instructor training course, upon whic a certificate is delivered
+Carpentry instructors must be certified before organizing a workshop.
+There is a selection process [@CarpentriesBecomingInstructor] as well as
+an instructor training course, upon which a certificate is delivered
 in the form of a digital badge [@Wilson2013a].
 
 #### CodeRefinery
@@ -184,10 +184,10 @@ training material is often version-controlled, so that trainers can update it
 between iterations. For example, core lessons from the Carpentries and CodeRefinery
 are stored on GitHub, and any change is automatically mirrored to their website.
 Likewise, the reference work on RSE by Fogel [@Fogel2005] was released in its
-second edition as a living document [@Fogel2017], the ENCCS instructor
+second edition as a living document [@Fogel2017]. The ENCCS instructor
 training manual [@ENCCS2022] is also available as a living document
-[@ENCCSInstructorTraining], and the Carpentry instructor guide [@Wilson2019a]
-is available as living documents in English [@Wilson2019b] and Spanish [@Wilson2019c].
+[@ENCCSInstructorTraining]. The Carpentry instructor guide [@Wilson2019a]
+is available as living documents in both English [@Wilson2019b] and Spanish [@Wilson2019c].
 
 More generally, it is important for training material to follow the FAIR
 principles [@FAIR], so that the community of trainers and learners can make
@@ -540,7 +540,7 @@ research scientists at all stages of their career.
 Localizing RSE teaching material and RSE information in languages other than English
 can help reach a much wider audience by lowering the barrier to entry in the field.
 In 2014 the community behind The Carpentries engaged in an international
-effort to translate their training material in Spanish [@Wilson2014a],
+effort to translate their training material into Spanish [@Wilson2014a],
 Korean [@Wilson2014b] and Portuguese [@Silva2014].
 Core lessons have been translated to Korean in 2015 [@Lee2015], and the Spanish
 core lessons are now officially part of the Software Carpentry material [@CarpentriesSpanish].
@@ -685,7 +685,7 @@ Ireland's Professional Development Framework [@Donnelly2018]
 provides accreditation to higher education teachers who successfully complete
 training on the National Forum's Open Courses via digital badges [@OpenCoursesBadges].
 The Extreme Science and Engineering Discovery Environment organization
-delivers badges to incentivize participation in HPC training events
+delivers badges to incentivise participation in HPC training events
 [@Kappes2015; @Sale2017]. IBM delivers badges to promote continuous learning and
 provide micro-credentials to its staff and customers [@Leaser2020; @Leaser2019]
 There are 1360 badges as of July 2023 [@IBMBadges]
@@ -694,7 +694,7 @@ they are recognized by a few academic institutions
 [@NortheasternUniversityIBMBadges; @NCCentralUniversityIBMBadges; @BluefieldIBMBadges]
 and in some cases are convertible to graduate credit [@Leaser2020].
 The Open Source Software Security Mobilization Plan [@OSSMobilizationPlan]
-is proposing that code repositories and recruiting sites work on recognizing
+is proposing that code repositories and recruiting sites work on recognising
 digital badges certifying RSE skills in secure software development.
 
 FIXME:
@@ -778,7 +778,7 @@ metrics to measure an individual's progression in specific RSE skill sets,
 e.g. using the Software Sustainability Institute's RSE Competencies
 Toolkit [@RSECompetenciesToolkit2023].
 These indicators would supplement the traditional grading system by providing
-gamification elements that gratify learning and incentivize the discovery of
+gamification elements that gratify learning and incentivise the discovery of
 new skill sets, and thus contribute to reducing skill gaps in the RSE community.
 Some indicators could be used in collaborative Web platforms to stimulate continuous learning
 or steer RSE behavior in a direction that would benefit all users of research software.
