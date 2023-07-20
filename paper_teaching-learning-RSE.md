@@ -224,7 +224,9 @@ SSI? [@Crouch2013] ...
 ##### EduTrain
 Training & Education (EduTrain) [@EDUTRAIN] is a section of the German National Research Data Infrastructure (NFDI) [@NFDI].
 Based on the slogan "data literacy from the beginning", it contributes to the further development of scientific methods and good scientific practice.
-Education in data literacy enables the formal quality of the resource "data" to be increased in such a way that it can be used both for knowledge and for sustainable solutions to societal challenges [@EduTrain2022].
+Education in data literacy enables the formal quality of the resource "data" to be increased in such a way that it can be used both for knowledge and for sustainable solutions to societal challenges.
+Therefrore, the targeted education also involves resarch software engineering.
+As described in the concept of EduTrain[@EduTrain2022], there will be an collaboration with "The Carpentries" regarding their lesson program and the approach of how "The Carpentries" are organized will be adopted.
 
 #### NFDI4Ing
 According to the goals of the NFDI consortium National Research Data Infrastructure for Engineering Sciences (NFDI4Ing) [@NFDI4ING], engineers treat software as research data that possibly connects the different stages of stored data.
