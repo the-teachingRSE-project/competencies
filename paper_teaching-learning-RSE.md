@@ -506,19 +506,19 @@ Finally, they typically have expert knowledge in at least one compiled language,
 
 #### ML-RSE
 Machine learning (ML) is becoming increasingly important in many areas of research.
-Due to its complexity, it requires specialized theoretical background and experienced handling of appropriate software and hardware are necessary in ordr to produce meaningful results.
-The specialization of ML-RSEs involve the skills of a Machine Learning Engineers and a Machine Learning Scientists.
-In detail those skills imply knowledge about data analysis and feature engineering, metrics that are involved in ML, ML algorithm selection, and cross validation, and relevant math and statistics.
-They analyse and check the suitability of an algorithm if it fulfills the needs of the current task and play a main role in deciding and selecting machine learning libraries for a given task.
+Due to its complexity, it requires specialized theoretical background, and experienced handling of appropriate software and hardware are necessary in ordr to produce meaningful results.
+The specialization of ML-RSEs involve the skills of Machine Learning Engineers and Machine Learning Scientists.
+In detail those skills imply knowledge about data analysis and feature engineering, metrics that are involved in ML, ML algorithm selection and cross validation, and knowledge in math and statistics.
+ML-RSEs analyse and check the suitability of an algorithm if it fulfills the needs of the current task, and they play a main role in deciding and selecting machine learning libraries for a given task.
 FIXME: Improve and extend ...  
 
 #### Research Infrastructure RSE
 This RSE is interested in SysOps and system administration and sets up infrastructures for and with researchers.
 Therefore, this specialization on the one hand requires a deep knowledge of physical computer and network hardware, on the one hand knowledge about setup and configuration of software services which run on servers is essential.
-The necessity for such RSEs arises from the need for special domain specific IT services that are not provided by the central IT services of a university.
+The necessity for such RSEs arises from the need for special domain specific IT services that are not available otherwise, e.g. not provided by the central IT services of a university.
 Such a service could be an cluster of compute servers for GPU based machine learning.
-Those RSEs may alternatively provide services that are based on existing IT infrastructure of a university, e.g. provide VMS on hypervisor run by the university.
-Their tasks may involve to operate as an interface between the researchers and the service by taking care of the user management, access permissions, and configuration of a service but not the actual maintenance of server.
+Those RSEs may also provide services that are based on existing IT infrastructure of a university, e.g. configure virtual machines on hypervisors run by the university.
+They operate as an interface between the researchers and the service, by taking care of the user management, access permissions, and configuration of a service but not the actual maintenance of server.
 Additionally, teaching other researchers in how to use such specialized services could be part of their responsibility.
 
 #### Web-Development RSE
