@@ -595,9 +595,10 @@ research scientists at all stages of their career.
 
 ## Organizational Infrastructures
 So we have defined our set of competencies that we feel every RSE should possess.
-Table 2 above nevertheless already hints at the fact that some RSE skills are required during the domain studies, while Table 1 tells us that we also need an ongoing qualification programme for people that want to become specialized RSEs.
-
+Table 2 above nevertheless already hints at the fact that some RSE skills are required during the domain studies,
+while Table 1 tells us that we also need an ongoing qualification programme for people that want to become specialized RSEs.
 In order to set up a proper educational scheme we need to discuss two more items:
+
 - Who are our teachers?
 - How is this teaching organised?
 
@@ -624,19 +625,20 @@ The proper mindset should also include the acknowledgment that some learners acq
 Inspired by the proverb "If you want to go fast, go alone; if you want to go far, go together?", learners should be able to get the opportunity to get continued individual support by the teacher even after the official training has ended. 
 
 #### Where do we get our teachers from
-The community discussion brought to light the need for a mixture of people, thereby the education of aspiring RSEs will involve people from close domain sciences or experienced RSEs and people that have respective additional skills to teach RSE competencies to the new generation.
+The community discussion brought to light the need for a mixture of people, thereby 
+the education of aspiring RSEs will involve people from close domain sciences or experienced RSEs
+and people that have respective additional skills to teach RSE competencies to the new generation.
 In that respect, this follows the carpentries model that offers certifications but is still open to non-certified trainers.
 We highlight and emphasize that, since a topic like RSE education is constantly evolving, trainers strongly require the opportunity and the recognition to educate themselves.
 Therefore our teachers will be sourced from the workplace but there will also be certified RSE Trainers.
 (FIXME: in classical university speak, these would be people who have done their habilitation on that topic, right?)
 
-We propose to create common infrastructures that can be utilized in this ongoing effort to professionalize the RSE education further and to easily share education resources across the country.
+We propose to create common infrastructures that can be utilized in this ongoing effort to professionalize the RSE education further, to easily share education resources across the country.
 (FIXME: DETAIL ME FURTHER!!!!)
 
 ### Organization of teaching
 
-How can we define the path from the status quo of available courses to a generally accepted curriculum for a student?
-How can we define establish unified concensual curriculum?
+- How can we define the path from the status quo of available courses to a generally accepted, unified curriculum?
 
 #### Certificates
 
@@ -650,7 +652,8 @@ The possible types of certificates can of course differ.
 Badges are increasingly popular, from personal badges rewarding contributions to a specific community, e.g. [Fedora Badges](https://badges.fedoraproject.org/explore/badges) or [Github Achievements](https://github.com/Schweinepriester/github-profile-achievements), or project badges highlighting coding practices, e.g. Build and CI status or code coverage.
 RSEs are very likely subject to life-long learning and personal, technical badges are one possibility for older RSEs to showcase that they posess a certain technical skill.
 Classical attendance sheets for courses are another option. 
-To further incentivise participation by students, some of these courses might also award academic credit points like ECTS and benefit them on their way to graduation.
+To further incentivise participation by students, some of these courses might also award academic credit points like ECTS
+and benefit them on their way to graduation.
 
 Renowned online learning platform like edX [@edx] and Coursera [@coursera] offer free or charged RSE related courses that are provided by leading institutions (Harvard, MIT, TUM, ...) and large companies (IBM, Google, META, ...).
 Those platforms offers webinars for different levels (introductory, intermediate, advanced) and skills as well as job-ready certificates and degree programs which could be incorporated into an academic curiculum.
