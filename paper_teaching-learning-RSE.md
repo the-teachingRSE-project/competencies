@@ -65,8 +65,15 @@ With the ability to capture and process ever more data, undertake larger scale,
 higher resolution simulations and, increasingly, leverage new self-adapting
 approaches through Machine Learning, computers and software are now vital
 elements of the research process across almost all domains. However, this shift
-means that there is a much greater need for core research software skills across
-a vast array of research fields where these were not previously required.
+means that basic research software skills are now required by researchers of all
+career-levels across a vast array of research fields where these were not
+previously required. Researchers often lack the skills to write and use software
+for their research and even to effectively request help from and interact with
+more experienced staff at their institutions. There still exists a gap in the
+academic education, as many curricula do not sufficiently prepare their students
+in that regard. This situation is exemplified by the extracurricular MIT class
+"The Missing Semester of Your CS Education" [@MIT], which aims to convey computing
+ecosystem literacy to MIT students in Computer Science.
 
 The need to access both research data and software has been formalised with the
 FAIR principles: software and data need to be easily findable by both people and
