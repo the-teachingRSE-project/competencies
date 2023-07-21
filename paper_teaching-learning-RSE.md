@@ -12,6 +12,7 @@ author:
   - Jean-Noël Grad
   - Fredo Erxleben
   - Magnus Hagdorn
+  - Matthias Braun
 output:
   pdf_document:
     citation_package: biblatex
