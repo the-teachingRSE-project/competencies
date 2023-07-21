@@ -164,6 +164,11 @@ during the research process or for a research purpose.
 This definition is broader than in [@FAIR4RS] and is the outcome of a recent
 discussion in [@definingrs2021].
 
+Using this, Research Software Engineers are now people that 
+create or improve research software and/or the structures that the software interacts with
+in the computational ecosystem of a research domain.
+They are highly skilled team members who can also conduct their own research as part of their role.
+
 ## Intended Target Audience
 While this paper is based on discussions held during a workshop at the deRSE23
 conference we believe that the competencies formulated here have a far-reaching
