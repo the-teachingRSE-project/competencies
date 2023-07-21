@@ -173,6 +173,12 @@ The resources given below are helpful on the one hand to support such
 activities but can be also used to fill gaps in the capabilities of
 professional RSEs.
 
+Due to the ever-evolving nature of skills and infrastructure in the RSE field,
+training material is often version-controlled, so that trainers can update it
+between iterations. For example, core lessons from the Carpentries and
+CodeRefinery are stored on GitHub, and any change is automatically mirrored to
+their website.
+
 #### The Carpentries
 The Carpentries [@Carpentries] is a non-profit entity that supports a range of open source training materials and international communities of volunteer instructors and helpers who run courses around these materials.
 The community also maintains the materials which are based around three core syllabuses - Software Carpentry, Data Carpentry and Library Carpentry.
@@ -209,15 +215,9 @@ They are published under OER licenses and can serve as either self-learning inst
 To allow these educational offers to be easier brought to the scientists, the Helmholtz Information and Data Science Academy (HIDA) [@HIDA] sustains a large network within the Helmholtz Association and beyond with a strong focus on graduate schools.
 Further RSE training offers within the Helmholtz context are provided by the Helmholtz-AI [@HAI] and Helmholtz-Imaging [@HImaging] platforms as well as the Helmholtz Metadata Collaboration plaftorm [@HMC].
 
-#### Open Source Resources
-Due to the ever-evolving nature of skills and infrastructure in the RSE field,
-training material is often version-controlled, so that trainers can update it
-between iterations. For example, core lessons from the Carpentries and CodeRefinery
-are stored on GitHub, and any change is automatically mirrored to their website.
-Likewise, the reference work on RSE by Fogel [@Fogel2005] was released in its
-second edition as a living document [@Fogel2017].
+#### Various Resources
 
-Reference works are also available for self-study [@Fogel2005], [@Irving2021].
+Reference works are available for self-study [@Fogel2005], [@Irving2021].
 
 The National Competence Center Sweden (ENCCS) [https://enccs.se/] provides instructor training material [@ENCCSInstructorTraining], [@ENCCS2022] developed from Carpentries and CodeRefinery material, as well as lessons for HPC-oriented RSEs [@ENCCSLessons].
 
@@ -566,7 +566,7 @@ an important role, even if they do not necessarily touch much of the code themse
 RSEs who focus on teaching the next generation of researchers and/or RSEs play
 a vital role in quality research software.
 
-#### ${DOMAIN}-RSE
+#### {DOMAIN}-RSE
 While software is the lingua franca of all RSEs there will be RSEs that have specialized in the initricacies of one particular research domain, such as medical RSEs, digital humanities RSEs or physics RSEs.
 
 ### Optional RSE competencies -> Maintenance RSEs 
