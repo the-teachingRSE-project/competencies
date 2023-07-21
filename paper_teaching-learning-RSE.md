@@ -144,7 +144,7 @@ FIXME (finalization): Exchange chapter titles by numbers?
 ## Some Definitions
 A couple of definitions are in order.
 First as software we define source code, documentation, tests
-and all other human-created artifacts during the development process
+and all other artefacts that are created by humans during the development process
 that are necessary to understand its purpose.
 
 We define research to encompass all domains of research.
