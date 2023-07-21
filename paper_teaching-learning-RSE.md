@@ -12,6 +12,7 @@ author:
   - Jean-Noël Grad
   - Fredo Erxleben
   - Magnus Hagdorn
+  - Harald von Waldow
 output:
   pdf_document:
     citation_package: biblatex
@@ -74,7 +75,7 @@ more experienced staff at their institutions. There still exists a gap in the
 academic education, as many curricula do not sufficiently prepare their students
 in that regard. This situation is exemplified by the extracurricular MIT class
 "The Missing Semester of Your CS Education" [@MIT], which aims to convey computing
-ecosystem literacy to MIT students in Computer Science.
+ecosystem literacy even to students of Computer Science at MIT.
 
 The need to access both research data and software has been formalised with the
 FAIR principles: software and data need to be easily findable by both people and
