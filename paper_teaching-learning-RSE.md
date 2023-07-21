@@ -152,6 +152,23 @@ valuable in order to observe how software development in academia will be
 institutionalised. Finally, the strong emphasis on team-skills allows RSEs to be
 very employable in industrial workplaces.
 
+## Values
+FIXME: at this stage just a place where we can put the paragraph on ethics and
+values. Depending on how it goes we will need to find a better place.
+
+The skills and activities of an RSE are guided by ethical values. The list of
+values given here is not exhaustive and is loosely based on the Software
+Engineering Code of Ethics [@Gotterbarn1999]. Foremost, RSE like other
+researchers and professionals, act in the interest of the public. They think
+about the wider implications of the research their software supports. They take
+great care to develop software that adheres to current best practices. Their
+judgement is independent and they maintain their professional integrity. They
+treat their colleagues and collaborators with respect and work towards a fair
+and inclusive environment. RSEs need to partake in lifelong learning to keep
+their practice current. Whenever possible they will promote these values and
+make sure that they are passed on to new practitioners. The values listed here
+are reflected throughout this paper.
+
 ## Related Work and Activities
 
 The challenges of understanding the current state of skills within the research software community and related areas, as well as identifying required competencies, developing training pathways and providing training materials are areas that are being looked at and addressed by various groups and projects. In this section, we highlight some of these other projects and activities.
