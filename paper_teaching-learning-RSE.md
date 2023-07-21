@@ -100,11 +100,6 @@ The development of a standardized list of RSE competencies could help develop
 metrics to measure an individual's progression in specific RSE skill sets,
 e.g. using the Software Sustainability Institute's RSE Competencies
 Toolkit [@RSECompetenciesToolkit2023].
-These indicators would supplement the traditional grading system by providing
-gamification elements that gratify learning and incentivise the discovery of
-new skill sets, and thus contribute to reducing skill gaps in the RSE community.
-Some indicators could be used in collaborative Web platforms to stimulate continuous learning
-or steer RSE behavior in a direction that would benefit all users of research software.
 
 Special interest groups have in the past outlined the core competencies
 of various RSE disciplines, such as HPC-RSE [@HPCCFCompetencies; @Kunkel2020a],
