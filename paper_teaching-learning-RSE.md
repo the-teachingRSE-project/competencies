@@ -510,7 +510,7 @@ Due to its complexity, it requires specialized theoretical background, and exper
 The specialization of ML-RSEs involve the skills of Machine Learning Engineers and Machine Learning Scientists.
 In detail those skills imply knowledge about data analysis and feature engineering, metrics that are involved in ML, ML algorithm selection and cross validation, and knowledge in math and statistics.
 ML-RSEs analyse and check the suitability of an algorithm if it fulfills the needs of the current task, and they play a main role in deciding and selecting machine learning libraries for a given task.
-FIXME: Improve and extend ...  
+FIXME: Improve and extend, relation to 'Data-focused RSE', add something about ethics/values
 
 #### Research Infrastructure RSE
 This RSE is interested in SysOps and system administration and sets up infrastructures for and with researchers.
@@ -552,13 +552,12 @@ While software is the lingua franca of all RSEs there will be RSEs that have spe
 ### Optional RSE competencies -> Maintenance RSEs 
 Oftentimes, a significant amount of effort in (research) software development needs to be spent on maintenance to ensure that software remains useful for researchers now and in the future.
 The research environment is constantly changing and this can also apply to the software requirements.
-Accordingly, software often needs to be adapted continuously. 
-If it isn't, the software can reach a point where it simply isn't useful to the researchers anymore.
-To avoid this, regular work needs to be invested. 
+If software is not properly maintained, it becomes increasingly difficult to install and use. 
+At some point, the software is no longer available and cannot be used to reproduce results.
 While ensuring maintenance and sustainability of research software is of huge importance to the communities that build and use it, a particular challenge is that it's often very difficult to obtain ongoing research funding for software maintenance tasks. 
-As a result, when a project that developed or extended a piece of software finishes, it can often be the case that support for the software fades as team members move on to other research, academic or RSE roles, or become busy with other funded work.
+As a result, when a project that developed or extended a piece of software finishes, support for the software fades as team members move on to other research, academic or RSE roles, or become busy with other funded work.
 While this is not a core concern of this paper, we wanted to highlight this important issue that is frequently faced when working with software in the research community.
-With regard to which additional competency is required, these are people having experience with ancient software stacks that are not anymore part of the general curricula(think of COBOL and FORTRAN).
+With regard to which additional competency is required, these are people having experience with ancient software stacks that are not anymore part of the general curricula (think of COBOL and FORTRAN).
 
 FIXME: I think it would be nice if we could move each of these optional competencies to a different specialization.
 
