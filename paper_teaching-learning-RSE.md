@@ -614,6 +614,7 @@ The community discussion shed light on the issues our trainers are faced with no
 - Language barriers. This can range from the use of technical jargon up to the disparities of you teaching in a foreign language.
 - Setting up a feedback loop that facilitates a reflection of the workshop for the teacher.
 - Staying up-to-date with specific fast-moving RSE topics.
+- Acknowledgment for teaching. Besides offering RSE training as part of a job description, there are also trainers who teach RSE topics out of conviction without getting any further appreciation for their committment that could qualify as advanced trainig for further job qualification.
 
 #### What mindset makes up a good teacher
 Irrespective of where people come from they need to have the proper mindset to properly foster aspiring RSEs.
@@ -645,15 +646,17 @@ We propose to create common infrastructures that can be utilized in this ongoing
 With the ever-growing demand for RSEs in science it could be helpful for people to earn certificates for skills needed in certain RSE positions.
 This would possibly make hiring easier and could incentivise researcher to go through proper courses on these skills instead of learning on the go.
 For certain skills it would also be good for finding jobs outside academia, e.g. in industry where certain practices are already state-of-the-art.
-However, these certificates are only helpful if there is a certain level of standardization, which would require a central authority or collaboration between multiple stakeholders to decide on contents and allow participating institutions to issue these certificates.
+However, these certificates are only helpful if there is a certain level of standardization, which would require a central authority or collaboration 
+between multiple stakeholders to decide on contents and allow participating institutions to issue these certificates.
 Additionally, it can be excluding capable applicants that already use these skills but never got a certificate for it. 
 
 The possible types of certificates can of course differ. 
-Badges are increasingly popular, from personal badges rewarding contributions to a specific community, e.g. [Fedora Badges](https://badges.fedoraproject.org/explore/badges) or [Github Achievements](https://github.com/Schweinepriester/github-profile-achievements), or project badges highlighting coding practices, e.g. Build and CI status or code coverage.
+Badges are increasingly popular, from personal badges rewarding contributions to a specific community, e.g. [Fedora Badges](https://badges.fedoraproject.org/explore/badges) or [Github Achievements](https://github.com/Schweinepriester/github-profile-achievements), 
+or project badges highlighting coding practices, e.g. Build and CI status or code coverage.
 RSEs are very likely subject to life-long learning and personal, technical badges are one possibility for older RSEs to showcase that they posess a certain technical skill.
 Classical attendance sheets for courses are another option. 
-To further incentivise participation by students, some of these courses might also award academic credit points like ECTS
-and benefit them on their way to graduation.
+To further incentivise participation by students, some of these courses might also award academic credit points like ECTS and 
+benefit them on their way to graduation.
 
 Renowned online learning platform like edX [@edx] and Coursera [@coursera] offer free or charged RSE related courses that are provided by leading institutions (Harvard, MIT, TUM, ...) and large companies (IBM, Google, META, ...).
 Those platforms offers webinars for different levels (introductory, intermediate, advanced) and skills as well as job-ready certificates and degree programs which could be incorporated into an academic curiculum.
