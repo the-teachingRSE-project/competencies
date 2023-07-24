@@ -12,6 +12,7 @@ author:
   - Jean-Noël Grad
   - Fredo Erxleben
   - Magnus Hagdorn
+  - Harald von Waldow
 output:
   pdf_document:
     citation_package: biblatex
@@ -66,8 +67,15 @@ With the ability to capture and process ever more data, undertake larger scale,
 higher resolution simulations and, increasingly, leverage new self-adapting
 approaches through Machine Learning, computers and software are now vital
 elements of the research process across almost all domains. However, this shift
-means that there is a much greater need for core research software skills across
-a vast array of research fields where these were not previously required.
+means that basic research software skills are now required by researchers of all
+career-levels across a vast array of research fields where these were not
+previously required. Researchers often lack the skills to write and use software
+for their research and even to effectively request help from and interact with
+more experienced staff at their institutions. There still exists a gap in the
+academic education, as many curricula do not sufficiently prepare their students
+in that regard. This situation is exemplified by the extracurricular MIT class
+"The Missing Semester of Your CS Education" [@MIT], which aims to convey computing
+ecosystem literacy even to students of Computer Science at MIT.
 
 The need to access both research data and software has been formalised with the
 FAIR principles: software and data need to be easily findable by both people and
@@ -215,6 +223,12 @@ second edition as a living document [@Fogel2017].
 Reference works are also available for self-study [@Fogel2005], [@Irving2021].
 
 The National Competence Center Sweden (ENCCS) [https://enccs.se/] provides instructor training material [@ENCCSInstructorTraining], [@ENCCS2022] developed from Carpentries and CodeRefinery material, as well as lessons for HPC-oriented RSEs [@ENCCSLessons].
+
+From the MIT Computer Science & Artificial Intelligence Laboratory comes an
+unofficial course [The Missing Semester of Your CS
+Education](https://missing.csail.mit.edu/) which covers a lot of basic computer
+skills typically taught by RSEs. The skills covered here also provide an
+important set of core capabilities for anyone looking to become an RSE.
 
 The (Intersect)[https://intersect-training.org/] project ....
 
