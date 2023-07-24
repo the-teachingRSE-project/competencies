@@ -334,15 +334,12 @@ requires knowledge of using build systems to enable interoperability with other
 systems.
 
 #### Understanding the software lifecycle (SWLC)
-Research software often starts out as a tool to answer a personal research
-question. The software becomes more important when other researchers or entire
-research groups rely on it. Some research software might even be used to deal
-with critical questions such as weather forecasting or medical diagnosis.
-Software tools can move from one category to another as it matures or is
-superseded by different tools. [@dlr121502] classify applications based on their
-scope and criticality and provide software engineering recommendations. The RSE
-needs to be able to identify the application class they are dealing with and
-apply the warranted software engineering approaches.
+The traditional software lifecycle defines the stages that form the process of building a piece of software.
+This generally involves a creative process where you try to understand what it is that you need to build,
+work out how you are going to build it and then implement it.
+This is then followed by testing that things work as expected and that they continue to do so into the future.
+We emphasize the the lifecycle is not complete here but also includes periods of maintaining a software
+and also phasing out a software of its original use.
 
 #### Use repositories (SWREPOS)
 The RSE should be able to use public platforms to share the artefacts they have
@@ -469,7 +466,17 @@ is further elaborated in [How do we reach people in different stages of their ca
 
 Beyond that, we feel that today Other important tasks of RSEs are
 
-- Teaching, consulting, mentoring and generally educating colleagues.
+- Mentoring colleagues.
+  This necessitates giving good advice that fits to a projects stage in its lifecycle,
+  thereby requiring knowledge of (SWLC), and its context in its research domain, thereby requiring knowledge of (RC).
+  Research software often starts out as a tool to answer a personal research
+  question and becomes more important when other researchers rely on it.
+  Some research software might even be used to deal with critical questions such as weather forecasting or medical diagnosis.
+  To formalize the process of giving good advice a classification of software is commonly used [@WANG2012, @dlr121502]
+  where research software can move from one class to another during its lifecycle.
+  [@dlr121502] classify applications based on their scope and criticality and provide software engineering recommendations.
+  The RSE needs to be able to identify the application class they are dealing with and apply the respective RSE practices.
+
 - Enforcing reproducibility. Projects like [@ReproHack] can greatly help in fostering that competency.
 
 ### How much do different people need to know?
