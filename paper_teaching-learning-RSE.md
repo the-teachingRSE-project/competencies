@@ -455,9 +455,11 @@ RSEs. We envision our RSE graduates to be a part in a strong network of other
 RSEs, tool-related communities and the classical domain communities. This point
 is further elaborated in [How do we reach people in different stages of their careers](#how-do-we-reach-people-in-different-stages-of-their-careers).
 
-Other important tasks of RSEs are
-- Teaching, consulting, mentoring and generally educating colleagues.
 
+Beyond that, we feel that today Other important tasks of RSEs are
+
+- Teaching, consulting, mentoring and generally educating colleagues.
+- Enforcing reproducibility. Projects like [@ReproHack] can greatly help in fostering that competency.
 
 ### How much do different people need to know?
 Now that we have the different competencies, we can explore various dimensions of these competencies,
