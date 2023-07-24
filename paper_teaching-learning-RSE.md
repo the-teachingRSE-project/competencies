@@ -135,9 +135,39 @@ The skills themselves belong to one of the three main categories needed to perfo
 Those are the 'R', i.e. an understanding of how research is performed, 
 the 'SE', i.e. writing and maintaining reusable software, as well as team skills.
 
-'Organizational Infrastructures' focuses on 
+'Organizational Infrastructures' focuses on changes that are required to at best support
+the training of new RSEs.
 
 FIXME (finalization): Exchange chapter titles by numbers?
+
+
+## Some Definitions
+A couple of definitions are in order.
+First as software we define source code, documentation, tests
+and all other artefacts that are created by humans during the development process
+that are necessary to understand its purpose.
+
+We define research to encompass all domains of research.
+Since we expect a sizeable portion of readers from Germany we
+quickly want to address a common false friend.
+The german 'Wissenschaft' encompasses all domains of publicly funded
+research, while the english 'science' is generally limited to natural sciences.
+Therefore, we will use 'research' to encompass all domains therefore gives the employability of RSEs.
+Of course 'research' as well as 'Forschung' is not limited to public funding
+but also part of industrial and other private companies.
+We surmise that the same software engineering and team skills will be needed there,
+but we limit our considerations to the views of public research.
+
+This enables us to define Research Software in this paper to include source code files,
+algorithms, scripts, computational workflows and executables that were created
+during the research process or for a research purpose.
+This definition is broader than in [@FAIR4RS] and is the outcome of a recent
+discussion in [@definingrs2021].
+
+Using this, Research Software Engineers are now people that 
+create or improve research software and/or the structures that the software interacts with
+in the computational ecosystem of a research domain.
+They are highly skilled team members who can also conduct their own research as part of their role.
 
 ## Intended Target Audience
 While this paper is based on discussions held during a workshop at the deRSE23
@@ -159,6 +189,13 @@ scientists. Funders and research managers will find the discussion in this paper
 valuable in order to observe how software development in academia will be
 institutionalised. Finally, the strong emphasis on team-skills allows RSEs to be
 very employable in industrial workplaces.
+
+## National Context
+Having been developed at a workshop in Paderborn in Germany, naturally a part
+of the discussion in this paper focusses on the german academic landscape.
+So, although there are germany specific traits found in this document
+we are nevertheless dealing with the education of humans to become RSEs -
+A topic that is of major relevance also in an international context.
 
 ## Related Work and Activities
 
@@ -417,6 +454,9 @@ TEAM-related aspect is the embedding of RSE graduates into the community of
 RSEs. We envision our RSE graduates to be a part in a strong network of other
 RSEs, tool-related communities and the classical domain communities. This point
 is further elaborated in [How do we reach people in different stages of their careers](#how-do-we-reach-people-in-different-stages-of-their-careers).
+
+Other important tasks of RSEs are
+- Teaching, consulting, mentoring and generally educating colleagues.
 
 
 ### How much do different people need to know?
