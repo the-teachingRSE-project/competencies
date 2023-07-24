@@ -12,6 +12,7 @@ author:
   - Jean-Noël Grad
   - Fredo Erxleben
   - Magnus Hagdorn
+  - Harald von Waldow
 output:
   pdf_document:
     citation_package: biblatex
@@ -66,8 +67,15 @@ With the ability to capture and process ever more data, undertake larger scale,
 higher resolution simulations and, increasingly, leverage new self-adapting
 approaches through Machine Learning, computers and software are now vital
 elements of the research process across almost all domains. However, this shift
-means that there is a much greater need for core research software skills across
-a vast array of research fields where these were not previously required.
+means that basic research software skills are now required by researchers of all
+career-levels across a vast array of research fields where these were not
+previously required. Researchers often lack the skills to write and use software
+for their research and even to effectively request help from and interact with
+more experienced staff at their institutions. There still exists a gap in the
+academic education, as many curricula do not sufficiently prepare their students
+in that regard. This situation is exemplified by the extracurricular MIT class
+"The Missing Semester of Your CS Education" [@MIT], which aims to convey computing
+ecosystem literacy even to students of Computer Science at MIT.
 
 The need to access both research data and software has been formalised with the
 FAIR principles: software and data need to be easily findable by both people and
@@ -127,9 +135,39 @@ The skills themselves belong to one of the three main categories needed to perfo
 Those are the 'R', i.e. an understanding of how research is performed, 
 the 'SE', i.e. writing and maintaining reusable software, as well as team skills.
 
-'Organizational Infrastructures' focuses on 
+'Organizational Infrastructures' focuses on changes that are required to at best support
+the training of new RSEs.
 
 FIXME (finalization): Exchange chapter titles by numbers?
+
+
+## Some Definitions
+A couple of definitions are in order.
+First as software we define source code, documentation, tests
+and all other artefacts that are created by humans during the development process
+that are necessary to understand its purpose.
+
+We define research to encompass all domains of research.
+Since we expect a sizeable portion of readers from Germany we
+quickly want to address a common false friend.
+The german 'Wissenschaft' encompasses all domains of publicly funded
+research, while the english 'science' is generally limited to natural sciences.
+Therefore, we will use 'research' to encompass all domains therefore gives the employability of RSEs.
+Of course 'research' as well as 'Forschung' is not limited to public funding
+but also part of industrial and other private companies.
+We surmise that the same software engineering and team skills will be needed there,
+but we limit our considerations to the views of public research.
+
+This enables us to define Research Software in this paper to include source code files,
+algorithms, scripts, computational workflows and executables that were created
+during the research process or for a research purpose.
+This definition is broader than in [@FAIR4RS] and is the outcome of a recent
+discussion in [@definingrs2021].
+
+Using this, Research Software Engineers are now people that 
+create or improve research software and/or the structures that the software interacts with
+in the computational ecosystem of a research domain.
+They are highly skilled team members who can also conduct their own research as part of their role.
 
 ## Intended Target Audience
 While this paper is based on discussions held during a workshop at the deRSE23
@@ -151,6 +189,13 @@ scientists. Funders and research managers will find the discussion in this paper
 valuable in order to observe how software development in academia will be
 institutionalised. Finally, the strong emphasis on team-skills allows RSEs to be
 very employable in industrial workplaces.
+
+## National Context
+Having been developed at a workshop in Paderborn in Germany, naturally a part
+of the discussion in this paper focusses on the german academic landscape.
+So, although there are germany specific traits found in this document
+we are nevertheless dealing with the education of humans to become RSEs -
+A topic that is of major relevance also in an international context.
 
 ## Related Work and Activities
 
@@ -182,8 +227,9 @@ Skills learned from the workshops and/or materials allow researchers to produce 
 One goal of the project is to evolve into a community project that seamlessly integrates with other initiatives. FIXME: elaborate on the integration part if it's relevant, else leave out.
 
 #### Reprohack
-The ReproHack Team offers resources to host events where students and researchers can get together to try and reproduce the results 
-of published papers with the methods described there or ideally with the software provided by the authors.
+The ReproHack Team offers resources to host events where students and researchers
+can get together to try and reproduce the results of published papers with the methods
+described there or ideally with the software provided by the authors.
 FIXME: This is applied FAIR principles elaborate a bit on why this is related for RSE competencies? Or do we want to make the point, that this teaches reproducible science?
 
 #### PRACE
@@ -214,6 +260,12 @@ second edition as a living document [@Fogel2017].
 Reference works are also available for self-study [@Fogel2005], [@Irving2021].
 
 The National Competence Center Sweden (ENCCS) [https://enccs.se/] provides instructor training material [@ENCCSInstructorTraining], [@ENCCS2022] developed from Carpentries and CodeRefinery material, as well as lessons for HPC-oriented RSEs [@ENCCSLessons].
+
+From the MIT Computer Science & Artificial Intelligence Laboratory comes an
+unofficial course [The Missing Semester of Your CS
+Education](https://missing.csail.mit.edu/) which covers a lot of basic computer
+skills typically taught by RSEs. The skills covered here also provide an
+important set of core capabilities for anyone looking to become an RSE.
 
 The (Intersect)[https://intersect-training.org/] project ....
 
@@ -376,19 +428,49 @@ but it is useful, if an RSE knows its place in a PM scheme, or can bring in new 
 There are various facets to working in a team. They range from functioning in a team to leading a team.
 It includes following measures that increase team cohesion like performing code reviews.
 
-### Current Day Contextualization
-These skills, while already numerous are also on purpose generic. Concrete examples can be obtained by the outcome from the Paderborn workshop, where we asked learners and beginner RSEs of what they would liked to have learnt.
-Among the top five things mentioned were:
+### RSE Tasks and Responsibilities
+These skills, while already numerous are also generic on purpose. They span a
+multidimensional space in which the day-to-day tasks and responsibilities of a
+RSE can be found. A snapshot of what this means today can be obtained 
+from  learners and novice RSEs that we asked during the Paderborn workshop
+what they would like to have learnt. Among the top five things mentioned were:
 
-- Testing. This task is a manifestation of the SE competencies of DOCBB and MOD since a model of the software is required in order to write good test that facilitate understanding and documentation. Today this encompasses the knowledge of testing frameworks and CI/CD practices.
-- Contributing to large projects. This is a topic that requires competency in SWREPOS
-, LEG, in order to understand the ramifications of sharing, DOCBB, since the contributed code has to be understood by others, and TEAM, since one is becoming part of the project depending on the involvement. Today this entails the effecive use of collaborative platforms like github/gitlab, honoring a projects Code of Conduct, and some knowledge of software licenses like the GPL.
-- When or why to keep repositories private. This decision requires knowledge in the RC, to understand when it makes sense, USERS and TEAM in order to do accepted decisions and sometimes LEG. This requires domain and location knowledge in the sense that one should know what the practices of ones own institution are.
-- Proper Development. This broad topic requires all of the SE skills. Of course these are the competencies that are the most fluid since they have to adapt at a high rate to the technological advancements. Additionally proper SE skills often require knowledge of TEAM, and PM.
-Today this means effective use of IDEs, static analysis tools, design patterns, documentation (for oneself and others), etc. 
-- Finding a community. This can be interpreted in two different facets. First we have the aspect of community building for a research project. Since this deals with software that is supposed to be used in research this requires knowledge of RC, USERS, and also NEW, in order to effectively interact with domain scientists. Today, an example is a presence on social media. The other TEAM-related aspect is the embedding of RSE graduates into the community of RSEs.
-  We envision our RSE graduates to be a part in a strong network of other RSEs, tool-related communities and the classical domain communities. This point is further elaborated in [How do we reach people in different stages of their careers](#how-do-we-reach-people-in-different-stages-of-their-careers)
+- Testing. This task is a manifestation of the SE competencies of DOCBB and MOD
+since a model of the software is required in order to write good tests that
+facilitate understanding and documentation. Today this encompasses the
+knowledge of testing frameworks and CI/CD practices.
+- Contributing to large projects. This is a topic that requires competency in
+SWREPOS, LEG, in order to understand the ramifications of sharing, and DOCBB,
+since the contributed code has to be understood by others. Interacting with
+project members depends on the the TEAM skill. Today this entails the effective
+use of collaborative platforms like github/gitlab, honouring a projects Code of
+Conduct, and some knowledge of software licenses like the GPL.
+- When or why to keep repositories private. This decision requires knowledge in
+the RC, to understand when it makes sense to open up or close down a repository.
+The USERS, TEAM and sometimes LEG skills are required to make this decision.
+Furthermore, knowledge of the practices and contractual regulations of the
+RSE's institution are also required.
+- Proper Development. This broad topic requires all of the SE skills. Of course
+these are the competencies that are the most fluid since they have to adapt at
+a high rate to the technological advancements. Additionally proper SE skills
+often require knowledge of TEAM, and PM. Today this means effective use of IDEs,
+static analysis tools, design patterns, documentation (for oneself and others),
+etc.
+- Finding a community. This can be interpreted in two different facets. First
+we have the aspect of community building for a research project. Since this
+deals with software that is supposed to be used in research this requires
+knowledge of RC, USERS, and also NEW, in order to effectively interact with
+domain scientists. Today, an example is a presence on social media. The other
+TEAM-related aspect is the embedding of RSE graduates into the community of
+RSEs. We envision our RSE graduates to be a part in a strong network of other
+RSEs, tool-related communities and the classical domain communities. This point
+is further elaborated in [How do we reach people in different stages of their careers](#how-do-we-reach-people-in-different-stages-of-their-careers).
 
+
+Beyond that, we feel that today Other important tasks of RSEs are
+
+- Teaching, consulting, mentoring and generally educating colleagues.
+- Enforcing reproducibility. Projects like [@ReproHack] can greatly help in fostering that competency.
 
 ### How much do different people need to know?
 Now that we have the different competencies, we can explore various dimensions of these competencies,
