@@ -373,7 +373,7 @@ RSEs what they would like to have learnt. Among the top five things mentioned
 were:
 
 - Testing. This task is a manifestation of the SE competencies of DOCBB and MOD
-since a model of the software is required in order to write good test that
+since a model of the software is required in order to write good tests that
 facilitate understanding and documentation. Today this encompasses the
 knowledge of testing frameworks and CI/CD practices.
 - Contributing to large projects. This is a topic that requires competency in
