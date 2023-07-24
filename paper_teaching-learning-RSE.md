@@ -227,8 +227,9 @@ Skills learned from the workshops and/or materials allow researchers to produce 
 One goal of the project is to evolve into a community project that seamlessly integrates with other initiatives. FIXME: elaborate on the integration part if it's relevant, else leave out.
 
 #### Reprohack
-The ReproHack Team offers resources to host events where students and researchers can get together to try and reproduce the results 
-of published papers with the methods described there or ideally with the software provided by the authors.
+The ReproHack Team offers resources to host events where students and researchers
+can get together to try and reproduce the results of published papers with the methods
+described there or ideally with the software provided by the authors.
 FIXME: This is applied FAIR principles elaborate a bit on why this is related for RSE competencies? Or do we want to make the point, that this teaches reproducible science?
 
 #### PRACE
@@ -416,22 +417,49 @@ but it is useful, if an RSE knows its place in a PM scheme, or can bring in new 
 There are various facets to working in a team. They range from functioning in a team to leading a team.
 It includes following measures that increase team cohesion like performing code reviews.
 
-### Current Day Contextualization
-These skills, while already numerous are also on purpose generic. Concrete examples can be obtained by the outcome from the Paderborn workshop, where we asked learners and beginner RSEs of what they would liked to have learnt.
-Among the top five things mentioned were:
+### RSE Tasks and Responsibilities
+These skills, while already numerous are also generic on purpose. They span a
+multidimensional space in which the day-to-day tasks and responsibilities of a
+RSE can be found. A snapshot of what this means today can be obtained 
+from  learners and novice RSEs that we asked during the Paderborn workshop
+what they would like to have learnt. Among the top five things mentioned were:
 
-- Testing. This task is a manifestation of the SE competencies of DOCBB and MOD since a model of the software is required in order to write good test that facilitate understanding and documentation. Today this encompasses the knowledge of testing frameworks and CI/CD practices.
-- Contributing to large projects. This is a topic that requires competency in SWREPOS
-, LEG, in order to understand the ramifications of sharing, DOCBB, since the contributed code has to be understood by others, and TEAM, since one is becoming part of the project depending on the involvement. Today this entails the effecive use of collaborative platforms like github/gitlab, honoring a projects Code of Conduct, and some knowledge of software licenses like the GPL.
-- When or why to keep repositories private. This decision requires knowledge in the RC, to understand when it makes sense, USERS and TEAM in order to do accepted decisions and sometimes LEG. This requires domain and location knowledge in the sense that one should know what the practices of ones own institution are.
-- Proper Development. This broad topic requires all of the SE skills. Of course these are the competencies that are the most fluid since they have to adapt at a high rate to the technological advancements. Additionally proper SE skills often require knowledge of TEAM, and PM.
-Today this means effective use of IDEs, static analysis tools, design patterns, documentation (for oneself and others), etc. 
-- Finding a community. This can be interpreted in two different facets. First we have the aspect of community building for a research project. Since this deals with software that is supposed to be used in research this requires knowledge of RC, USERS, and also NEW, in order to effectively interact with domain scientists. Today, an example is a presence on social media. The other TEAM-related aspect is the embedding of RSE graduates into the community of RSEs.
-  We envision our RSE graduates to be a part in a strong network of other RSEs, tool-related communities and the classical domain communities. This point is further elaborated in [How do we reach people in different stages of their careers](#how-do-we-reach-people-in-different-stages-of-their-careers)
+- Testing. This task is a manifestation of the SE competencies of DOCBB and MOD
+since a model of the software is required in order to write good tests that
+facilitate understanding and documentation. Today this encompasses the
+knowledge of testing frameworks and CI/CD practices.
+- Contributing to large projects. This is a topic that requires competency in
+SWREPOS, LEG, in order to understand the ramifications of sharing, and DOCBB,
+since the contributed code has to be understood by others. Interacting with
+project members depends on the the TEAM skill. Today this entails the effective
+use of collaborative platforms like github/gitlab, honouring a projects Code of
+Conduct, and some knowledge of software licenses like the GPL.
+- When or why to keep repositories private. This decision requires knowledge in
+the RC, to understand when it makes sense to open up or close down a repository.
+The USERS, TEAM and sometimes LEG skills are required to make this decision.
+Furthermore, knowledge of the practices and contractual regulations of the
+RSE's institution are also required.
+- Proper Development. This broad topic requires all of the SE skills. Of course
+these are the competencies that are the most fluid since they have to adapt at
+a high rate to the technological advancements. Additionally proper SE skills
+often require knowledge of TEAM, and PM. Today this means effective use of IDEs,
+static analysis tools, design patterns, documentation (for oneself and others),
+etc.
+- Finding a community. This can be interpreted in two different facets. First
+we have the aspect of community building for a research project. Since this
+deals with software that is supposed to be used in research this requires
+knowledge of RC, USERS, and also NEW, in order to effectively interact with
+domain scientists. Today, an example is a presence on social media. The other
+TEAM-related aspect is the embedding of RSE graduates into the community of
+RSEs. We envision our RSE graduates to be a part in a strong network of other
+RSEs, tool-related communities and the classical domain communities. This point
+is further elaborated in [How do we reach people in different stages of their careers](#how-do-we-reach-people-in-different-stages-of-their-careers).
 
-Other important tasks of RSEs are
+
+Beyond that, we feel that today Other important tasks of RSEs are
+
 - Teaching, consulting, mentoring and generally educating colleagues.
-
+- Enforcing reproducibility. Projects like [@ReproHack] can greatly help in fostering that competency.
 
 ### How much do different people need to know?
 Now that we have the different competencies, we can explore various dimensions of these competencies,
