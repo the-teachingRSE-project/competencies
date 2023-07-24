@@ -182,8 +182,9 @@ Skills learned from the workshops and/or materials allow researchers to produce 
 One goal of the project is to evolve into a community project that seamlessly integrates with other initiatives. FIXME: elaborate on the integration part if it's relevant, else leave out.
 
 #### Reprohack
-The ReproHack Team offers resources to host events where students and researchers can get together to try and reproduce the results 
-of published papers with the methods described there or ideally with the software provided by the authors.
+The ReproHack Team offers resources to host events where students and researchers
+can get together to try and reproduce the results of published papers with the methods
+described there or ideally with the software provided by the authors.
 FIXME: This is applied FAIR principles elaborate a bit on why this is related for RSE competencies? Or do we want to make the point, that this teaches reproducible science?
 
 #### PRACE
@@ -368,9 +369,9 @@ It includes following measures that increase team cohesion like performing code 
 ### RSE Tasks and Responsibilities
 These skills, while already numerous are also generic on purpose. They span a
 multidimensional space in which the day-to-day tasks and responsibilities of a
-RSE can be found. During the Paderborn workshop we asked learners and novice
-RSEs what they would like to have learnt. Among the top five things mentioned
-were:
+RSE can be found. A snapshot of what this means today can be obtained 
+from  learners and novice RSEs that we asked during the Paderborn workshop
+what they would like to have learnt. Among the top five things mentioned were:
 
 - Testing. This task is a manifestation of the SE competencies of DOCBB and MOD
 since a model of the software is required in order to write good tests that
