@@ -141,8 +141,7 @@ After completion of a Carpentry workshop, learners can claim a certificate
 of attendance [@CarpentriesLearnerCertificates].
 Carpentry instructors must be certified before organizing a workshop.
 There is a selection process [@CarpentriesBecomingInstructor] as well as
-an instructor training course, upon which a certificate is delivered
-in the form of a digital badge [@Wilson2013a].
+an instructor training course, upon which a certificate is delivered [@Wilson2013a].
 
 #### CodeRefinery
 CodeRefinery [@CodeRefinery] is a project currently funded by the Nordic e-Infrastructure and thus active primarily in the Nordics with the goal of teaching essential tools around research software development, that are usually skipped in academic education.
@@ -642,74 +641,30 @@ We propose to create common Infrastructures that can be utilized in this ongoing
 
 #### Certificates
 
-With the ever-growing demand for RSEs in science it could be helpful for people to earn certificates for skills needed in certain RSE positions.
-This would possibly make hiring easier and could incentivise researcher to go through proper courses on these skills instead of learning on the go.
-For certain skills it would also be good for finding jobs outside academia, e.g. in industry where certain practices are already state-of-the-art.
-However, these certificates are only helpful if there is a certain level of standardization, which would require a central authority or collaboration 
-between multiple stakeholders to decide on contents and allow participating institutions to issue these certificates.
-Additionally, it can be excluding capable applicants that already use these skills but never got a certificate for it. 
+With the ever-growing demand for RSEs in science it could be helpful for
+people to earn certificates for skills needed in certain RSE positions.
+This would possibly make hiring easier and could incentivise researchers
+to go through proper courses on these skills instead of learning on the go.
+For certain skills it would also be good for finding jobs outside academia,
+e.g. in industry where certain practices are already state-of-the-art.
+However, these certificates are only helpful if there is a certain level of
+standardization, which would require a central authority or collaboration
+between multiple stakeholders to decide on contents and allow participating
+institutions to issue these certificates.
+Additionally, it can be excluding capable applicants who already use these
+skills but never got a certificate for it.
 
-The possible types of certificates can of course differ. 
-Classical attendance sheets for courses are another option. 
-To further incentivise participation by students, some of these courses might also award academic credit points like ECTS and 
-benefit them on their way to graduation.
+The possible types of certificates can of course differ.
+The [HPC skills and certification] Appendix explores current efforts at creating
+a HPC certification program for both academic and industry RSEs. Course attendance
+sheets and digital tokens [@Ifenthaler2016; @Chakroun2018; @Fanfarelli2015; @McDaniel2016]
+are another option (see Appendix: [Micro-accreditation]).
 
 Having certificates provides finally a clear understanding of which tasks an RSE can perform and thereby helps defining the career path and the job description.
 A big demand for specialized RSEs will certainly come from the newly established RSE centers at research institutions that require skilled people to fill their vacant positions.
 And using the certificates, the demand can now be satisfied with people offering this skill.
 
 Some exemplary skills for which courses are already held are version control tools like git, HPC topics like multithreading, MPI and GPU computations, FAIR principles.
-
-##### Micro-accreditation and digital certificates
-
-Individuals who wish to measure or showcase their RSE skills currently rely on
-publicly-available code contributions stats, or micro-accreditation tokens
-like courses/workshops participation certificates and digital certificates.
-The latter are often delivered as digital badges
-[@Ifenthaler2016; @Chakroun2018; @Fanfarelli2015; @McDaniel2016], from
-personal badges measuring user activity in specific aspects of community work
-(e.g. documentation, outreach, or package maintenance in Fedora [@FedoraBadges])
-or contribution behavior [@GitHubProfileAchievements; @GitHubProfileTrophy],
-to project badges that highlight specific RSE skills in an organization
-[@OSSFBestPracticeBadge; @Trockman2018; @Legay2020].
-
-RSEs are subject to life-long learning. As such, personal and technical badges
-are one possibility for experienced RSEs to showcase that they posess a certain
-technical skill. The Software Carpentries minted digital badges in 2012
-[@Wilson2012a; @Wilson2012c] as a form of institutional accreditation.
-Despite initial plans to create skill-specific badges [@Wilson2012b],
-learner badges were ultimately abandoned in 2013 [@Wilson2013a] and recycled
-as participation certificates [@CarpentriesCertificates].
-Instructor badges were introduced instead [@Wilson2013a],
-which are now mandatory tokens to lead a Carpentry workshop or vote in
-council elections [@CarpentriesInstructorBadges].
-Ireland's Professional Development Framework [@Donnelly2018]
-provides accreditation to higher education teachers who successfully complete
-training on the National Forum's Open Courses via digital badges [@OpenCoursesBadges].
-The Extreme Science and Engineering Discovery Environment organization
-delivers badges to incentivise participation in HPC training events
-[@Kappes2015; @Sale2017]. IBM delivers badges to promote continuous learning and
-provide micro-credentials to its staff and customers [@Leaser2020; @Leaser2019]
-There are 1360 badges as of July 2023 [@IBMBadges]
-and 1 million badges were issued as of July 2018 [@Daniels2018];
-they are recognized by a few academic institutions
-[@NortheasternUniversityIBMBadges; @NCCentralUniversityIBMBadges; @BluefieldIBMBadges]
-and in some cases are convertible to graduate credit [@Leaser2020].
-The Open Source Software Security Mobilization Plan [@OSSMobilizationPlan]
-is proposing that code repositories and recruiting sites work on recognising
-digital badges certifying RSE skills in secure software development.
-
-FIXME:
-
-- reference book on digital badges [@Ifenthaler2016]
-- an argument could be made for having less metrics (GitHub allows users to hide their badges)
-- which institution would create RSE-badges? how would this institution drive adoption of RSE-badges?
-- downside of fine-grained badges: number of badges can grow quickly
-- badges can also fade away, i.e. have diminishing relevance or usefulness over
-  time (e.g. old workshop participation badge, or technologies that have since
-  become less relevant in the RSE field)
-- reviews [@Zhou2019; @Hansch2015; @Ahsan2023; @Liyanagunawardena2017] and
-  case studies [@Morris2019; @BorrasGene2018; @Higashi2020] on digital badges
 
 #### A possible graduation path within the classical university structures
 We have put forward the idea that familiarity with research is a prerequisite for an RSE in order to be able to work effectively in the research space and in collaboration with researchers. In this particular example, we consider a path into RSE via a traditional university route involving Bachelors and Masters degree studies that include an RSE element. However, we recognise that there are other routes into an RSE career and these are increasing. For example, some RSEs come from an industry background, others may come through apprenticeship or similar programmes. In both cases, gaining knowledge of the research lifecycle and understanding the ways that researchers work towards solutions to research challenges is something that can be developed on-the-job alongside training opportunities and the chance to work directly with researchers.
@@ -821,3 +776,51 @@ Biology (ISCB) curates a database of degrees and certificates
 in bioinformatics [@BioinformaticsCertification; @Mulder2018].
 The database includes Bachelor and Master's degree programs and specializations,
 Ph.D. programs, and certificates from graduate schools.
+
+### Micro-accreditation
+
+RSEs are subject to life-long learning. As such, digital certificates and
+learner badges [@Ifenthaler2016] are one possibility for experienced RSEs
+to showcase that they posess a certain technical skill.
+For example, the Software Carpentries minted digital badges in 2012
+[@Wilson2012a; @Wilson2012c] as a form of institutional accreditation.
+Despite initial plans to create skill-specific badges [@Wilson2012b],
+learner badges were ultimately abandoned in 2013 [@Wilson2013a] and recycled
+as participation certificates [@CarpentriesCertificates].
+Instructor badges were introduced instead [@Wilson2013a],
+which are now mandatory tokens to lead a Carpentry workshop or vote in
+council elections [@CarpentriesInstructorBadges].
+Ireland's Professional Development Framework [@Donnelly2018]
+provides accreditation to higher education teachers who successfully complete
+training on the National Forum's Open Courses via digital badges [@OpenCoursesBadges].
+The Extreme Science and Engineering Discovery Environment organization
+delivers badges to incentivise participation in HPC training events
+[@Kappes2015; @Sale2017]. IBM delivers badges to promote continuous learning and
+provide micro-credentials to its staff and customers [@Leaser2020; @Leaser2019]
+There are 1360 badges as of July 2023 [@IBMBadges]
+and 1 million badges were issued as of July 2018 [@Daniels2018];
+they are recognized by a few academic institutions
+[@NortheasternUniversityIBMBadges; @NCCentralUniversityIBMBadges; @BluefieldIBMBadges]
+and in some cases are convertible to graduate credit [@Leaser2020].
+
+The Open Source Software Security Mobilization Plan [@OSSMobilizationPlan]
+is proposing that code repositories and recruiting sites work on recognising
+digital badges certifying RSE skills in secure software development.
+Some code repositories already feature an infrastructure to automatically issue
+digital tokens, from personal badges measuring contributions
+[@GitHubProfileAchievements; @GitHubProfileTrophy] or community work
+(e.g. outreach efforts, workshop attendance and package maintenance in Fedora [@FedoraBadges]),
+to project-specific badges [@OSSFBestPracticeBadge; @Trockman2018; @Legay2020]
+that illustrate best practices, such as high code coverage or code quality,
+or signal commitment to diversity, equity, and inclusion [@CHAOSSDEIBadging; @GitHubCHAOSS].
+
+FIXME or remove me:
+
+- an argument could be made for having less metrics (GitHub allows users to hide their badges)
+- which institution would create RSE-badges? how would this institution drive adoption of RSE-badges?
+- downside of fine-grained badges: number of badges can grow quickly
+- badges can also fade away, i.e. have diminishing relevance or usefulness over
+  time (e.g. old workshop participation badge, or technologies that have since
+  become less relevant in the RSE field)
+- reviews [@Zhou2019; @Hansch2015; @Ahsan2023; @Liyanagunawardena2017] and
+  case studies [@Morris2019; @BorrasGene2018; @Higashi2020] on digital badges
