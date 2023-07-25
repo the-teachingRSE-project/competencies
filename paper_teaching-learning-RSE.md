@@ -102,41 +102,15 @@ e.g. using the Software Sustainability Institute's RSE Competencies
 Toolkit [@RSECompetenciesToolkit2023].
 
 Special interest groups have in the past outlined the core competencies
-of various RSE disciplines, such as HPC-RSE [@HPCCFCompetencies; @Kunkel2020a],
-bioinformatics-RSE [@Tractenberg2019; @Mulder2018; @WilsonSayres2018; @Welch2014],
+of various RSE disciplines, such as HPC-RSE [@HPCCFCompetencies; @Kunkel2020a]
+(see Appendix: [HPC skills and certification]),
+bioinformatics-RSE [@Tractenberg2019; @Mulder2018; @WilsonSayres2018; @Welch2014]
+(see Appendix: [Bioinformatics skills and certification])
 clinical informatics-RSE [@Davies2022; @Davies2020; @Gardner2009; @Brouat2022],
 librarian/RDM-RSE [@Federer2020; @Demchenko2021; @Scholtens2019],
 community manager-RSE [@Woodley2021], and generalist RSE [@usRSESkills].
 However, the present document is, to our knowledge, the first attempt
 at defining the skills of a generalist RSE at different levels of seniority.
-
-As an area that generally requires a range of advanced skills,
-High Performance Computing (HPC) is one field where there is ongoing work
-to identify relevant sets of skills for HPC practitioners and potential paths
-to develop these skills. The HPC Certification Forum [@HPCCFCompetencies] has
-developed a "competence standard" (CS) for HPC that defines a range of skills and
-how they are related in the context of a skill tree [@Kunkel2020a; @Kunkel2020b].
-
-Also looking at pathways and how different skills are related,
-the UNIVERSE-HPC project [@UNIVERSEHPC], funded under the UK's ExCALIBUR
-research programme [@EXCALIBUR], is looking to understand and develop
-training pathways to support the development of specialist skills in the HPC
-and exascale domains. The project is gathering open source training materials
-to develop curricula that support the training pathways that are underpinned
-by high-quality training materials.
-
-Bioinformatics is another field that actively works on competency frameworks.
-The Bioinformatics Core Competencies [@Mulder2018; @Welch2016; @Welch2014],
-BioExcel competency framework [@Matser2016], PerMedCoE competency
-framework [@Lloret-Llinares2021], Research Data Management and Data
-Stewardship competence framework [@Demchenko2021] and ELIXIR Data Stewardship
-Competency Framework for Life Sciences [@Scholtens2019] eventually converged
-into the EMBL-EBI Competency Hub [@CompetencyHub; @Lloret-Llinares2022],
-where typical RSE and bioinformatician profiles at different levels
-of seniority can be queried and compared against one another.
-The Mastery Rubric for Bioinformatics [@Tractenberg2019] took a different
-approach by identifying knowledge, skills and abilities instead
-of competencies, and organising them in a taxonomy.
 
 FIXME:
 
@@ -152,11 +126,16 @@ A wide range of software-related training materials and supporting organisations
 #### The Carpentries
 The Carpentries [@Carpentries] is a non-profit entity that supports a range of open source training materials and international communities of volunteer instructors and helpers who run courses around these materials.
 The community also maintains the materials which are based around three core syllabuses --
-Software Carpentry [@Wilson2006; @Wilson2016a], Data Carpentry [@Teal2015] and
-Library Carpentry [@Baker2016; @Cope2018].
-The training materials within these areas have been developed, reviewed and enhanced over several years ensuring that they represent best practice in training on these topics.
+Software Carpentry [@CarpentriesSoftware; @Wilson2006; @Wilson2016a],
+Data Carpentry [@CarpentriesData; @Teal2015] and
+Library Carpentry [@CarpentriesLibrary; @Baker2016; @Cope2018].
+The training materials within these areas have been developed,
+reviewed and enhanced over several years ensuring that they represent
+best practice in training on these topics.
 The core Carpentries lessons are targeted primarily at the beginner level.
-However, the Carpentries Incubator [@CarpentriesIncubator] provides an environment for hosting additional community-developed training modules covering a wide range of other topics that have not gone through the peer review process of the core lessons.
+However, the Carpentries Incubator [@CarpentriesIncubator] provides an environment
+for hosting additional community-developed training modules covering a wide range
+of other topics that have not gone through the peer review process of the core lessons.
 The material in the Incubator increasingly includes more intermediate-level training modules.
 After completion of a Carpentry workshop, learners can claim a certificate
 of attendance [@CarpentriesLearnerCertificates].
@@ -588,6 +567,7 @@ There are also bioinformatics courses designed for high school students that
 cover topics such as pen-and-paper algorithm design, genomic database querying
 and data mining, and open data [@Form2011; @Bain2020], as well as graduate
 courses designed for Master's degrees and Ph.D. programs [@BioinformaticsCertification].
+
 Teaching incubators can be leveraged to develop and test new academic curricula
 that introduce basic RSE topics, such as the "Algorithmic Battle"
 [@AlgorithmicBattle] (version control, documentation, good coding practices),
@@ -595,6 +575,10 @@ that introduce basic RSE topics, such as the "Algorithmic Battle"
 and "DigiFlex" [@DigiFlex] (digital tools) experimental modules funded by the German
 Foundation for Innovation in Higher Education [@StiftungInnovationHochschullehre]
 to reduce skill gaps among first-year university students.
+Likewise, The Carpentries teaching material can be made more modular
+and re-usable in domain-specific contexts to better suit the needs
+of specialized RSEs. Examples include HPC Carpentry [@OCais2020]
+and Data Carpentry for Biologists [@White2022].
 
 FIXME:
 
@@ -603,8 +587,6 @@ FIXME:
 
 Further ideas:
 
-- make domain-specific Carpentry courses modular to be easily re-usable in different scientific fields
-  as well as at different stages of the academic cursus (e.g. college vs. university classrooms) [@White2022]
 - making RSE best practice guides fun to read with memes or satire [@Balaban2021; @Laginja2022; @Astigarraga2022; @Fehr2021]
 - reducing the skill gap by organizing more inclusive workshops [@McInerney2017; @Akoh2017; @Shelton2017; @NatlAcadSci2022],
   to address gender disparities or take into account economic status, cultural background, or special educational needs;
@@ -677,22 +659,6 @@ A big demand for specialized RSEs will certainly come from the newly established
 And using the certificates, the demand can now be satisfied with people offering this skill.
 
 Some exemplary skills for which courses are already held are version control tools like git, HPC topics like multithreading, MPI and GPU computations, FAIR principles.
-
-##### HPC certification
-
-The HPC Certification Forum has developed a competence standard [@HPCCFCompetencies]
-to facilitate the creation of a HPC certification program [@Kunkel2020a; @Kunkel2020b].
-This competence standard is currently being built upon by the CASTIEL 2 [@CASTIEL2] project
-in collaboration with initiatives funded by the European High Performance Computing
-Joint Undertaking (EuroHPC JU) to create a framework for HPC certification [@EuroHPCJU2023].
-
-##### Bioinformatics certification
-
-The Curriculum Task Force of the International Society for Computational
-Biology (ISCB) curates a database of degrees and certificates in bioinformatics
-[@BioinformaticsCertification; @Mulder2018].
-The database includes Bachelor and Master's degree programs and specializations,
-Ph.D. programs, and certificates from graduate schools.
 
 ##### Micro-accreditation and digital certificates
 
@@ -770,7 +736,8 @@ Support from RSEs is one way to resolve this challenge.
 Another would be to lay more effective foundations for future RSE work at a much earlier stage in undergraduate/postgraduate studies.
 We see scope for establishing dedicated RSE Master's programmes which specialise in developing RSE skills and practices.
 Some universities already offer dedicated master's programs in some domains. 
-Examples would be Computational Sciences in Engineering (CSE) or Bioinformatics. 
+Examples would be Computational Sciences in Engineering (CSE) or Bioinformatics
+(see Appendix: [Bioinformatics skills and certification]).
 Where appropriate similar programs should also be established in other domains.
 
 ## Required Next steps
@@ -801,3 +768,56 @@ Therefore this closes the gap, that the research landscape requires RSEs, but th
 
 ### An example of a possible career path
 - We can follow Kim, who has been the protagonist of the original deRSE Paper.
+
+### HPC skills and certification
+
+As an area that generally requires a range of advanced skills,
+High Performance Computing (HPC) is one field where there is ongoing work
+to identify relevant sets of skills for HPC practitioners and potential paths
+to develop these skills. The HPC Certification Forum [@HPCCFCompetencies] has
+developed a competence standard for HPC that defines a range of skills and
+how they are related in the context of a skill tree [@Kunkel2020a; @Kunkel2020b].
+This competence standard is currently being built upon by the CASTIEL 2 [@CASTIEL2] project
+in collaboration with initiatives funded by the European High Performance Computing
+Joint Undertaking (EuroHPC JU) to create a framework for HPC certification [@EuroHPCJU2023].
+
+Also looking at pathways and how different skills are related,
+the UNIVERSE-HPC project [@UNIVERSEHPC], funded under the UK's ExCALIBUR
+research programme [@EXCALIBUR], is looking to understand and develop
+training pathways to support the development of specialist skills in the HPC
+and exascale domains. The project is gathering open source training materials
+to develop curricula that support the training pathways that are underpinned
+by high-quality training materials.
+
+### Bioinformatics skills and certification
+
+Bioinformatics is another field that actively works on developing skill trees.
+The Bioinformatics Core Competencies [@Mulder2018; @Welch2016; @Welch2014],
+the BioExcel competency framework [@Matser2016],
+the PerMedCoE competency framework [@Lloret-Llinares2021],
+the Research Data Management and Data Stewardship competence framework [@Demchenko2021]
+and the ELIXIR Data Stewardship Competency Framework for Life Sciences [@Scholtens2019]
+are examples of grassroot efforts aiming at defining the set of skills
+of various bioinformatics specialties,
+one of them as a taxonomy [@Mulder2018].
+These frameworks eventually converged into the EMBL-EBI Competency Hub
+[@CompetencyHub; @Lloret-Llinares2022],
+where typical RSE and bioinformatician profiles at different levels
+of seniority can be queried
+(e.g. [Junior RSE](https://competency.ebi.ac.uk/framework/bioexcel/3.0/profile/view/10115/alex-2),
+[Senior Computational Chemist](https://competency.ebi.ac.uk/framework/bioexcel/3.0/profile/view/10121/kim-0))
+and compared against one another
+(e.g. [Junior vs. Senior RSE](https://competency.ebi.ac.uk/framework/bioexcel/3.0/profiles/compare/10115/10117)).
+
+Competencies can be divided into more fine-grained building blocks:
+knowledge, skills and abilities (KSAs). They can be organized in a taxonomy,
+and are also transferable, i.e. a KSA can be a pre-requisite to multiple competencies.
+The Mastery Rubric for Bioinformatics [@Tractenberg2019] and the ELIXIR
+Data Stewardship Competency Framework for Life Sciences [@Scholtens2019]
+are examples of KSA frameworks for bioinformatics curricula.
+
+The Curriculum Task Force of the International Society for Computational
+Biology (ISCB) curates a database of degrees and certificates
+in bioinformatics [@BioinformaticsCertification; @Mulder2018].
+The database includes Bachelor and Master's degree programs and specializations,
+Ph.D. programs, and certificates from graduate schools.
