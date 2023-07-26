@@ -919,6 +919,33 @@ Examples would be Computational Sciences in Engineering (CSE) or Bioinformatics
 Where appropriate similar programs should also be established in other domains.
 
 ## Required Next steps
+We have identified the RSE has an individual that brings a unique set of skills on digital tools into research groups.
+We have elaborated on the basic competencies, and we have elaborated on how these competencies manifest along different dimensions.
+We discussed who can teach them, and now in the final step we want to discuss how this specialization can 
+become a natural part of the landscape of professions and which steps we need to take to professionalize their education.
+
+We foresee, that this education will rest on two pillars.
+Initial studies through possibly academic structures as well as insitutionalized structures for continuous learning
+These can very well be outside of the academic system and can be 
+
+
+Plan:
+- klassische akademische Ausbildung mit Ba+Master-
+- Integration des MATSE?
+- Außer-akademische Einrichtungen zur Fortbildung. Nutzbar zur Vertiefung für RSEs, aber auch zur Qualifizierung von Wissenschaftlern oder anderen industriellen Berufen(Stuttgarts HPC Akademie).
+- Kann man argumentieren, das mit der Verfügbarkeit dieser Fortbildungseinrichtungen diese dann auch besser angenommen werden?
+- Diese können dann auch Outreach Programme bündeln.
+- Lehrer ist damit natürlich ein Karriere-Pfad für RSEs
+- Einbindung exisitierender Resourcen. -> Metadatenschema? Dahlia?
+- Hier passt dann auch die badge diskussion dran.
+- Gathering Expereince through Exposure
+- beides braucht geeignete Lehrer
+- pointer to the qualification paths and career paths outside of the appendix.
+
+FIXME: The career path discussion.
+
+
+
 ### Implementation Strategies
 - Ideally over time scientific software engineering becomes part of the curricula at universities.
 
