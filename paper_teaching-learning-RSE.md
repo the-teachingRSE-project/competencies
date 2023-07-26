@@ -141,7 +141,7 @@ the training of new RSEs.
 FIXME (finalization): Exchange chapter titles by numbers?
 
 
-## Some Definitions
+### Some Definitions
 A couple of definitions are in order.
 First as software we define source code, documentation, tests
 and all other artefacts that are created by humans during the development process
@@ -169,7 +169,7 @@ create or improve research software and/or the structures that the software inte
 in the computational ecosystem of a research domain.
 They are highly skilled team members who can also conduct their own research as part of their role.
 
-## Intended Target Audience
+### Intended Target Audience
 While this paper is based on discussions held during a workshop at the deRSE23
 conference we believe that the competencies formulated here have a far-reaching
 impact beyond the domain of RSE into adjacent fields of science. The most
@@ -190,18 +190,18 @@ valuable in order to observe how software development in academia will be
 institutionalised. Finally, the strong emphasis on team-skills allows RSEs to be
 very employable in industrial workplaces.
 
-## National Context
+### National Context
 Having been developed at a workshop in Paderborn in Germany, naturally a part
 of the discussion in this paper focusses on the german academic landscape.
 So, although there are germany specific traits found in this document
 we are nevertheless dealing with the education of humans to become RSEs -
 A topic that is of major relevance also in an international context.
 
-## Related Work and Activities
+### Related Work and Activities
 
 The challenges of understanding the current state of skills within the research software community and related areas, as well as identifying required competencies, developing training pathways and providing training materials are areas that are being looked at and addressed by various groups and projects. In this section, we highlight some of these other projects and activities.
 
-### Identifying skills and pathways
+## Identifying skills and pathways
 
 The development of a standardized list of RSE competencies could help develop
 metrics to measure an individual's progression in specific RSE skill sets,
@@ -287,7 +287,7 @@ to create their own instructor manual [@ENCCSInstructorTraining; @ENCCS2022].
 The ENCCS lessons are targeted at individuals who already have general RSE
 skills and are seeking new skills relevant to HPC and software engineering.
 
-#### Open Source Resources
+### Open Source Resources
 Due to the ever-evolving nature of skills and infrastructure in the RSE field,
 training material is often version-controlled, so that trainers can update it
 between iterations. For example, core lessons from the Carpentries and CodeRefinery
@@ -342,7 +342,7 @@ Moreover, software development is a craft, i.e. it is not only about knowledge b
 
 ## Workshop Results
 
-### Required Generic RSE skills
+## Required Generic RSE skills
 The role of an RSE lies somewhere on the spectrum between that of a researcher
 (the "R") and a software engineer (the "SE") and, therefore, requires
 competencies in both fields. RSEs typically apply their knowledge and
@@ -464,7 +464,7 @@ This includes their own domain knowledge in discussions with RSEs (from other do
 as well as their SE knowledge when talking to domain scientists and also the
 exchange of new techniques and algorithms to keep their software up-to-date.
 
-#### Team Skills
+### Team Skills
 #### Teaching (TEACH)
 Working in a group means being able to effectively perform e.g. onboarding, or more formal teaching procedures to their colleagues.
 This includes tasks such as consulting and mentoring since these also often aim at educating people.
@@ -533,11 +533,11 @@ Beyond that, we feel that today Other important tasks of RSEs are
 
 - Enforcing reproducibility. Projects like [@ReproHack] can greatly help in fostering that competency.
 
-### How much do different people need to know?
+## How much do different people need to know?
 Now that we have the different competencies, we can explore various dimensions of these competencies,
 depending on their circumstances. A strong beneficiary of specialized RSEs can also be newly formed RSE centers at research institutions.
 
-#### Career level
+### Career level
 At different career levels, differing skills are required. We have set this up according to the following separation often applied within a single project:
 
 - Junior RSE: These are persons that have just started, but generally speaking they should have the skills to contribute to software projects
@@ -568,7 +568,7 @@ First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (l
 
 \elandscape
 
-#### Academic Progression / Career Path? (Help me for better title) 
+### Academic Progression / Career Path? (Help me for better title) 
 Modern digital science requires some digital proficiency at every level.
 To be a bit more precise, these are how we define the academic levels:
 
@@ -609,7 +609,7 @@ as software development is a large part of their actual research.
 
 \elandscape
 
-#### Project team Size
+### Project team Size
 Some explanation of the team sizes:
 
 - individual: A single person working on their research software
@@ -641,13 +641,13 @@ Bonus points may be distributed if managing teams remotely
 
 [BIO Excel framework](https://competency.ebi.ac.uk/framework/bioexcel/3.0/carreer-profiles)
 
-### RSE specializations
+## RSE specializations
 What we have defined above are intended to be base skills that an RSE irrespective of domain, place, and time should know about.
 But not all RSEs are created equal, they specialize in different areas,
 some of which we want to present below. Many of the specializations may overlap,
 so the same RSE might for example work on data management and on Open Science.
 
-#### HPC-RSE
+### HPC-RSE
 RSEs with a focus on High Performance Computing (HPC) have specialist knowledge
 about programming models that can be used to efficiently undertake large-scale
 computations on parallel computing clusters. They may have knowledge of (automatic)
@@ -673,47 +673,47 @@ and can assist domain scientists who have excellent command of scripting languag
 but only a cursory understanding of compiled languages get up to speed with
 compiled software.
 
-#### Research Infrastructure RSE
+### Research Infrastructure RSE
 This RSE is interested in SysOps and sets up infrastructures for and with researchers.
 This RSE, therefore, requires a deep knowledge of physical computer and network hardware.
 FIXME: While required, is this an RSE? this sets off the usual infrastructure vs. research discussion....
 
-#### Web-Development RSE
+### Web-Development RSE
 This RSE is skilled in web applications, front- and/or backend, and/or building 
 and using APIs, for example for research data portals or big research projects.
 Ideally, this RSE should also have knowledge about (web) accessibility to allow a broad
 range of researchers or even the public to use the resulting applications.
 Therefore a deep knowledge of web skills is a required skill for this RSE.
 
-#### Legal-RSE
+### Legal-RSE
 With the prevalence of software, we foresee the need for RSEs that specialize in legal questions around software.
 They are the go-to person if people have a question about licensing, mixing and matching software, and/or patenting.
 
-#### Data-focused RSE
+### Data-focused RSE
 RSEs working at the flourishing intersection between data science and RSE. 
 They are skilled in cleaning data and/or running data analyses and can help researchers
 in setting up their analysis pipeline and/or research data management (RDM) solutions.
 When the field requires research on sensitive data or information, e.g. patient information in medicine, 
 this RSE should have knowledge about secure transfer methods and/or ways to anonymize the data. 
 
-#### OpenScience RSE
+### OpenScience RSE
 Open Science and FAIRness of Data and Software are increasingly important topics in research, as exemplified by the demand of an increasing amount of research funding agencies requiring openness.
 Open Science RSEs can help researchers navigate the technical questions that come up 
 when practicing Open Science, such as "How do I make my code presentable?", 
 "What do I need to consider when it comes to licensing?", or 
 "How can I use version control / automation for my project?".
 
-#### Project/Community manager RSEs
+### Project/Community manager RSEs
 When research software projects become larger, they need someone who manages
 processes and people. Building a community around a research project is an
 important building block in building sustainable software [@Segal2009], so these RSEs play
 an important role, even if they do not necessarily touch much of the code themselves.
 
-#### Teaching RSEs
+### Teaching RSEs
 RSEs who focus on teaching the next generation of researchers and/or RSEs play
 a vital role in quality research software.
 
-#### ${DOMAIN}-RSE
+### ${DOMAIN}-RSE
 While software is the lingua franca of all RSEs there will be RSEs that have specialized in the initricacies of one particular research domain, such as medical RSEs, digital humanities RSEs or physics RSEs.
 
 ### Optional RSE competencies -> Maintenance RSEs 
