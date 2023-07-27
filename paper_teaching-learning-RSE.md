@@ -924,7 +924,8 @@ such that both pillars are suitably covered and they were able to observe how re
 
 #### Specialised Master's Programs
 On the other hand, when pursuing a PhD,
-scientists are increasingly required to do RSE-type work as part of their research as data and computation are becoming part of research tasks in a huge range of fields.
+scientists are increasingly required to do RSE-type work as part of their research as data
+and computation are becoming part of research tasks in a huge range of fields.
 It is not uncommon for researchers to be faced with RSE topics for the first time, because it has not been part of their academic curricula.
 Many are faced with a steep learning curve that requires them to invest a huge amount of time to catch up.
 Naturally, many would only invest as much as necessary to get the job done regardless of whether the solution is sustainable or not.
@@ -941,6 +942,66 @@ For completeness we mention that vocational programs like the MATSE [@MATSE] can
 Since a certain amount of overlap with sciences is expected, it is expected that programs can be switched with minimal friction.
 
 ### Extra-academic institutions for continuous learning
+As elaborated in the instruction the dynamic working place of an RSE requires continuous learning.
+Knowledge-based industries have long recognized the value of qualifying their employees and hence invest time and money into this.
+We propose institutionalized structures that offer graduates a venue for life-long learning, or to deepn their skills.
+Centralizing this notion in a few institutions has some major benefits for society and industry as well,
+since these become central hubs for offering the skills with digital tools.
+The HPC-Akademie [@HPCAkademie] is a good example in the HPC space that offers its services to graduated
+researchers that want to deepen their HPC skills for research or to practitioners tht require them for industrial applications.
+specializing the centres to certain skillsets enables thwm to effectively reach out into the sciences with their brand.
+The tasks of these centres is facilitated by reusing the work of initiatives like edutrain and platforms like DALIA [@DALIA].
+
+### Micro-accreditation
+
+RSEs are subject to life-long learning. As such, digital certificates and
+learner badges [@Ifenthaler2016] are one possibility for experienced RSEs
+to showcase that they posess a certain technical skill.
+For example, the Software Carpentries minted digital badges in 2012
+[@Wilson2012a; @Wilson2012c] as a form of institutional accreditation.
+Despite initial plans to create skill-specific badges [@Wilson2012b],
+learner badges were ultimately abandoned in 2013 [@Wilson2013a] and recycled
+as participation certificates [@CarpentriesCertificates].
+Instructor badges were introduced instead [@Wilson2013a],
+which are now mandatory tokens to lead a Carpentry workshop or vote in
+council elections [@CarpentriesInstructorBadges].
+Ireland's Professional Development Framework [@Donnelly2018]
+provides accreditation to higher education teachers who successfully complete
+training on the National Forum's Open Courses via digital badges [@OpenCoursesBadges].
+The Extreme Science and Engineering Discovery Environment organization
+delivers badges to incentivise participation in HPC training events
+[@Kappes2015; @Sale2017]. IBM delivers badges to promote continuous learning and
+provide micro-credentials to its staff and customers [@Leaser2020; @Leaser2019]
+There are 1360 badges as of July 2023 [@IBMBadges]
+and 1 million badges were issued as of July 2018 [@Daniels2018];
+they are recognized by a few academic institutions
+[@NortheasternUniversityIBMBadges; @NCCentralUniversityIBMBadges; @BluefieldIBMBadges]
+and in some cases are convertible to graduate credit [@Leaser2020].
+
+The Open Source Software Security Mobilization Plan [@OSSMobilizationPlan]
+is proposing that code repositories and recruiting sites work on recognising
+digital badges certifying RSE skills in secure software development.
+Some code repositories already feature an infrastructure to automatically issue
+digital tokens, from personal badges measuring contributions
+[@GitHubProfileAchievements; @GitHubProfileTrophy] or community work
+(e.g. outreach efforts, workshop attendance and package maintenance in Fedora [@FedoraBadges]),
+to project-specific badges [@OSSFBestPracticeBadge; @Trockman2018; @Legay2020]
+that illustrate best practices, such as high code coverage or code quality,
+or signal commitment to diversity, equity, and inclusion [@CHAOSSDEIBadging; @GitHubCHAOSS].
+
+FIXME or remove me:
+
+- an argument could be made for having less metrics (GitHub allows users to hide their badges)
+- which institution would create RSE-badges? how would this institution drive adoption of RSE-badges?
+- downside of fine-grained badges: number of badges can grow quickly
+- badges can also fade away, i.e. have diminishing relevance or usefulness over
+  time (e.g. old workshop participation badge, or technologies that have since
+  become less relevant in the RSE field)
+- reviews [@Zhou2019; @Hansch2015; @Ahsan2023; @Liyanagunawardena2017] and
+  case studies [@Morris2019; @BorrasGene2018; @Higashi2020] on digital badges
+
+
+
 - Außer-akademische Einrichtungen zur Fortbildung. Nutzbar zur Vertiefung für RSEs, aber auch zur Qualifizierung von Wissenschaftlern oder anderen industriellen Berufen(Stuttgarts HPC Akademie). -> mentioned
 - Kann man argumentieren, das mit der Verfügbarkeit dieser Fortbildungseinrichtungen diese dann auch besser angenommen werden?
 - Diese können dann auch Outreach Programme bündeln.
@@ -1042,50 +1103,3 @@ in bioinformatics [@BioinformaticsCertification; @Mulder2018].
 The database includes Bachelor and Master's degree programs and specializations,
 Ph.D. programs, and certificates from graduate schools.
 
-### Micro-accreditation
-
-RSEs are subject to life-long learning. As such, digital certificates and
-learner badges [@Ifenthaler2016] are one possibility for experienced RSEs
-to showcase that they posess a certain technical skill.
-For example, the Software Carpentries minted digital badges in 2012
-[@Wilson2012a; @Wilson2012c] as a form of institutional accreditation.
-Despite initial plans to create skill-specific badges [@Wilson2012b],
-learner badges were ultimately abandoned in 2013 [@Wilson2013a] and recycled
-as participation certificates [@CarpentriesCertificates].
-Instructor badges were introduced instead [@Wilson2013a],
-which are now mandatory tokens to lead a Carpentry workshop or vote in
-council elections [@CarpentriesInstructorBadges].
-Ireland's Professional Development Framework [@Donnelly2018]
-provides accreditation to higher education teachers who successfully complete
-training on the National Forum's Open Courses via digital badges [@OpenCoursesBadges].
-The Extreme Science and Engineering Discovery Environment organization
-delivers badges to incentivise participation in HPC training events
-[@Kappes2015; @Sale2017]. IBM delivers badges to promote continuous learning and
-provide micro-credentials to its staff and customers [@Leaser2020; @Leaser2019]
-There are 1360 badges as of July 2023 [@IBMBadges]
-and 1 million badges were issued as of July 2018 [@Daniels2018];
-they are recognized by a few academic institutions
-[@NortheasternUniversityIBMBadges; @NCCentralUniversityIBMBadges; @BluefieldIBMBadges]
-and in some cases are convertible to graduate credit [@Leaser2020].
-
-The Open Source Software Security Mobilization Plan [@OSSMobilizationPlan]
-is proposing that code repositories and recruiting sites work on recognising
-digital badges certifying RSE skills in secure software development.
-Some code repositories already feature an infrastructure to automatically issue
-digital tokens, from personal badges measuring contributions
-[@GitHubProfileAchievements; @GitHubProfileTrophy] or community work
-(e.g. outreach efforts, workshop attendance and package maintenance in Fedora [@FedoraBadges]),
-to project-specific badges [@OSSFBestPracticeBadge; @Trockman2018; @Legay2020]
-that illustrate best practices, such as high code coverage or code quality,
-or signal commitment to diversity, equity, and inclusion [@CHAOSSDEIBadging; @GitHubCHAOSS].
-
-FIXME or remove me:
-
-- an argument could be made for having less metrics (GitHub allows users to hide their badges)
-- which institution would create RSE-badges? how would this institution drive adoption of RSE-badges?
-- downside of fine-grained badges: number of badges can grow quickly
-- badges can also fade away, i.e. have diminishing relevance or usefulness over
-  time (e.g. old workshop participation badge, or technologies that have since
-  become less relevant in the RSE field)
-- reviews [@Zhou2019; @Hansch2015; @Ahsan2023; @Liyanagunawardena2017] and
-  case studies [@Morris2019; @BorrasGene2018; @Higashi2020] on digital badges
