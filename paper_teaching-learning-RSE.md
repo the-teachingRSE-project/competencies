@@ -322,7 +322,6 @@ FIXME:
 
 - [Better Scientific Software (BSSW)](https://bssw.io/) ...
 - [Software Sustainability Institute (SSI)](https://www.software.ac.uk/) [@Crouch2013] ...
-- Add NFDI initiatives like edutrain.
 - ELIXIR/EXCELERATE/GOBLET train-the-trainer programme [@Via2017; @Morgan2017]
 - Library-RSE resources [@Clarke2019] (no longer updated since 2019)
 - Happy Belly Bioinformatics [@Lee2019]
@@ -335,15 +334,18 @@ FIXME:
 
 SSI? [@Crouch2013] ...
 
-##### EduTrain
-Training & Education (EduTrain) [@EDUTRAIN] is a section of the German National Research Data Infrastructure (NFDI) [@NFDI].
-Based on the slogan "data literacy from the beginning", it contributes to the further development of scientific methods and good scientific practice.
-Education in data literacy enables the formal quality of the resource "data" to be increased in such a way that it can be used both for knowledge and for sustainable solutions to societal challenges.
-Therefrore, the targeted education also involves resarch software engineering.
-As described in the concept of EduTrain[@EduTrain2022], there will be an collaboration with "The Carpentries" regarding their lesson program and the approach of how "The Carpentries" are organized will be adopted.
+#### German National Research Data Infrastructure (NFDI)
 
-#### NFDI4Ing
-According to the goals of the NFDI consortium National Research Data Infrastructure for Engineering Sciences (NFDI4Ing) [@NFDI4ING], engineers treat software as research data that possibly connects the different stages of stored data.
+EduTrain (Training & Education) [@EDUTRAIN] is a section of the NFDI [@NFDI].
+Based on the slogan "data literacy from the beginning", it contributes to the further development of scientific methods and good scientific practice.
+The targeted education also involves research software engineering.
+As described in its concept [@EduTrain2022], there will be a collaboration with "The Carpentries" regarding their lesson program.
+Moreover, the approach of how "The Carpentries" are organized will be adopted.
+
+Through the close connection to the DALIA project [@DALIA], the NFDI and its section EduTrain will benefit from an knowledge-base which is implemented as semantically linked knowledge graph.
+- FIXME: Connection to RSE?
+
+According to the goals of the NFDI consortium NFDI4Ing (National Research Data Infrastructure for Engineering Sciences) [@NFDI4ING], engineers treat software as research data that possibly connects the different stages of stored data.
 Therefore, it aims to enable engineers to develop validated quality-assured engineering research software. 
 One specific example is the lecture 'Sustainable Development of Simulation Software' that has been developed as master's course at the Institute for Modelling Hydraulic and Environmental Systems at the University of Stuttgart [@SDSSCOURSE], [@SDSSMATERIAL].
 
