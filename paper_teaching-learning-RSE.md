@@ -925,14 +925,18 @@ We discussed who can teach them, and now in the final step we want to discuss ho
 become a natural part of the landscape of professions and which steps we need to take to professionalize their education.
 
 We foresee, that this education will rest on two pillars.
-Initial studies through possibly academic structures as well as insitutionalized structures for continuous learning
-These can very well be outside of the academic system and can be 
+A first qualification phase possibly academic structures
+and afterwards an institutionalized strucctures that facilitate continuous learning.
+These can very well be outside of the academic system and can also be used to provide education on
+digital skills into the society or industry(See [@HPCAkademie] for an existing, HPC focused instance of this)
+
+
 
 
 Plan:
 - klassische akademische Ausbildung mit Ba+Master-
 - Integration des MATSE?
-- Außer-akademische Einrichtungen zur Fortbildung. Nutzbar zur Vertiefung für RSEs, aber auch zur Qualifizierung von Wissenschaftlern oder anderen industriellen Berufen(Stuttgarts HPC Akademie).
+- Außer-akademische Einrichtungen zur Fortbildung. Nutzbar zur Vertiefung für RSEs, aber auch zur Qualifizierung von Wissenschaftlern oder anderen industriellen Berufen(Stuttgarts HPC Akademie). -> mentioned
 - Kann man argumentieren, das mit der Verfügbarkeit dieser Fortbildungseinrichtungen diese dann auch besser angenommen werden?
 - Diese können dann auch Outreach Programme bündeln.
 - Lehrer ist damit natürlich ein Karriere-Pfad für RSEs
