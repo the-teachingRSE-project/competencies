@@ -925,24 +925,27 @@ We discussed who can teach them, and now in the final step we want to discuss ho
 become a natural part of the landscape of professions and which steps we need to take to professionalize their education.
 
 We foresee, that this education will rest on two pillars.
-A first qualification phase possibly academic structures
-and afterwards an institutionalized strucctures that facilitate continuous learning.
+A first qualification phase, possibly through academic structures, giving young people highly sought after professional skills after high school.
+But since the workplace of the RSE is highly dynamic and rests on knowledge about latest technologies
+we put forward the idea of having institutionalized structures that facilitate continuous learning.
 These can very well be outside of the academic system and can also be used to provide education on
 digital skills into the society or industry(See [@HPCAkademie] for an existing, HPC focused instance of this)
 
-
-
-
-Plan:
+### Classical Progression
 - klassische akademische Ausbildung mit Ba+Master-
 - Integration des MATSE?
+- Gathering Expereince through Exposure
+
+### Extra-academic institutions for continuous learning
 - Außer-akademische Einrichtungen zur Fortbildung. Nutzbar zur Vertiefung für RSEs, aber auch zur Qualifizierung von Wissenschaftlern oder anderen industriellen Berufen(Stuttgarts HPC Akademie). -> mentioned
 - Kann man argumentieren, das mit der Verfügbarkeit dieser Fortbildungseinrichtungen diese dann auch besser angenommen werden?
 - Diese können dann auch Outreach Programme bündeln.
-- Lehrer ist damit natürlich ein Karriere-Pfad für RSEs
 - Einbindung exisitierender Resourcen. -> Metadatenschema? Dahlia?
 - Hier passt dann auch die badge diskussion dran.
-- Gathering Expereince through Exposure
+
+Plan:
+
+- Lehrer ist damit natürlich ein Karriere-Pfad für RSEs
 - beides braucht geeignete Lehrer
 - pointer to the qualification paths and career paths outside of the appendix.
 
