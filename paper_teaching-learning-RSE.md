@@ -894,6 +894,7 @@ We have put forward the idea that familiarity with research is a prerequisite fo
 To generate the required number of skilled persons
 We propose to offer a classical Bachelors and Master curriculum at select sites.
 In this particular example, we consider a path into RSE via a traditional university route involving Bachelors and Masters degree studies that include an RSE element.
+
 However, we recognise that there are other routes into an RSE career and these are increasing.
 For example, some RSEs come from an industry background, others may come through apprenticeship or similar programmes.
 In both cases, gaining knowledge of the research lifecycle and understanding the ways that researchers work towards solutions
@@ -904,8 +905,14 @@ it is not helpful for everybody working in RSE to have a background in computing
 Indeed, we consider it much more useful if new graduates looking to work in the RSE space come from a wide range of different domains.
 Expertise, beyond software development skills,
 in another research domain can be an important element of an RSE team being able to support RSE projects in that domain.
-Assuming for a moment, that people have done their masters studies in a particular domain, e.g. from the natural sciences,
-and that we can assume that the lectures to that point contain a mixture of domain specific content and RSE specific content
+
+A \${Domain}-RSE in the STEM domains can start with a Bachelor degree in their domain that shares large portions
+of the curriculum with their original domain. There will only be some courses that advance peoples knowledge about digital
+tools and how to create tools from them.
+The Master's years bring them forward to actually applying their knowledge. So during these years they
+simultaneously work on deepening their knowledge about team skills, a topic they have been neglecting so far,
+they work towards getting to the current research in their domain, and getting up to speed about the current collaborative development practices.
+So we can assume that the lectures to that point contain a mixture of domain specific content and RSE specific content
 (A good starting point for an RSE in the natural sciences), then we come to the question of the topic of the masters thesis.
 In order for young RSEs to get their research experience we believe it is necessary that already
 in their master's thesis young RSE students are given computational research tasks
@@ -914,13 +921,15 @@ This gives them a Master's degree of a ${DOMAIN}-RSE that has learnt in their le
 and enabled them to get a first dip into actual science in their master's thesis.
 Of course special care has to be taken to integrate them at some point in their studies into mature projects
 to expose them to the eperience of senior RSEs and how they approach problems.
+An example of this \${DOMAIN} - RSE can be found in Appendix: [Bioinformatics skills and certification].
 Of course, the next question for their future is whether a master's degree enables them to really be effective parts of a research group.
 While we accept this is something of a generalisation, we argue that this is most likely not the case since
 undertaking a PhD provides a much more extensive set of research training and experience that can be vital for a researcher's future.
 Research environments differ internationally but in many cases there are formal barriers in the research landscape that require a PhD (e.g. eligibility for funding).
 Hence a PhD is required to actively participate in science and hence we argue the regular RSE
 should do a PhD that on one end combines knowledge of a research domain with software engineering heavy task
-such that both pillars are suitably covered and they were able to observe how research functions.
+such that both pillars are suitably covered and have been exposed to research, software development and team dynamics.
+Having gone through this, this opens to them a future career as a lead RSE in their domain.
 
 #### Specialised Master's Programs
 On the other hand, when pursuing a PhD,
@@ -949,13 +958,17 @@ Centralizing this notion in a few institutions has some major benefits for socie
 since these become central hubs for offering the skills with digital tools.
 The HPC-Akademie [@HPCAkademie] is a good example in the HPC space that offers its services to graduated
 researchers that want to deepen their HPC skills for research or to practitioners tht require them for industrial applications.
-specializing the centres to certain skillsets enables thwm to effectively reach out into the sciences with their brand.
-The tasks of these centres is facilitated by reusing the work of initiatives like edutrain and platforms like DALIA [@DALIA].
+specializing the centres to certain skillsets enables them to effectively reach out into the sciences with their brand.
+With the existence of these resources we believe that their acceptance gradually increases over time.
+The tasks of these centres is facilitated by reusing the work of initiatives like edutrain [@edutrain] and platforms like DALIA [@DALIA].
+Naturally, other existing structures outside of academia mentioned before like the Carpentries [@Carpentries] can be nicely integrated
+and offered to a broad audience on a regular basis.
 
 ### Micro-accreditation
-
-RSEs are subject to life-long learning. As such, digital certificates and
-learner badges [@Ifenthaler2016] are one possibility for experienced RSEs
+With the existence of institutions for continuous learning
+after the first professional level of education the question of certification arises.
+We propose, digital certificates and
+learner badges [@Ifenthaler2016] as one possibility for experienced RSEs
 to showcase that they posess a certain technical skill.
 For example, the Software Carpentries minted digital badges in 2012
 [@Wilson2012a; @Wilson2012c] as a form of institutional accreditation.
@@ -1000,19 +1013,6 @@ FIXME or remove me:
 - reviews [@Zhou2019; @Hansch2015; @Ahsan2023; @Liyanagunawardena2017] and
   case studies [@Morris2019; @BorrasGene2018; @Higashi2020] on digital badges
 
-
-
-- Außer-akademische Einrichtungen zur Fortbildung. Nutzbar zur Vertiefung für RSEs, aber auch zur Qualifizierung von Wissenschaftlern oder anderen industriellen Berufen(Stuttgarts HPC Akademie). -> mentioned
-- Kann man argumentieren, das mit der Verfügbarkeit dieser Fortbildungseinrichtungen diese dann auch besser angenommen werden?
-- Diese können dann auch Outreach Programme bündeln.
-- Einbindung exisitierender Resourcen. -> Metadatenschema? Dahlia?
-- Hier passt dann auch die badge diskussion dran.
-
-
-
-
-
-
 remaining Plan:
 - Lehrer ist damit natürlich ein Karriere-Pfad für RSEs
 - beides braucht geeignete Lehrer
@@ -1020,10 +1020,6 @@ remaining Plan:
 
 FIXME: The career path discussion.
 
-
-
-### Implementation Strategies
-- Ideally over time scientific software engineering becomes part of the curricula at universities.
 
 #### Academic Considerations
 - Awareness of existing teaching programs
@@ -1041,7 +1037,7 @@ We have indentified the RSE as an individual that contributes to research teams 
 Then we have defined generic core competencies from the pillars of Software Engineering, Research and Team processes.
 We fleshed them out with some possible specializations of RSEs.
 Given the competencies and a demand(FIXME: Do the calculation) in the research landscape for them we moved on to define who the teachers are for this new field.
-We closed with a discussion of possible structures and organization forms that educate new generations of RSEs in more structured programs than what is available today(FIXME: this is currently aspirational).
+We closed with a discussion of possible structures and organization forms that educate new generations of RSEs in more structured programs than what is available today.
 Therefore this closes the gap, that the research landscape requires RSEs, but there are no structures where these persons are educated, by detailing the career path that a young person might want to take to become an RSE.(FIXME: also aspirational...)
 
 ## Appendix
