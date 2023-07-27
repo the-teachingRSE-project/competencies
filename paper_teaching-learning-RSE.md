@@ -875,27 +875,45 @@ And using the certificates, the demand can now be satisfied with people offering
 
 Some exemplary skills for which courses are already held are version control tools like git, HPC topics like multithreading, MPI and GPU computations, FAIR principles.
 
+## Required Next steps
+We have identified the RSE has an individual that brings a unique set of skills on digital tools into research groups.
+We have elaborated on the basic competencies, and we have elaborated on how these competencies manifest along different dimensions.
+We discussed who can teach them, and now in the final step we want to discuss how this specialization can 
+become a natural part of the landscape of professions and which steps we need to take to professionalize their education.
 
+We foresee, that this education will rest on two pillars.
+A first qualification phase, possibly through academic structures, giving young people highly sought after professional skills after high school.
+But since the workplace of the RSE is highly dynamic and rests on knowledge about latest technologies
+we put forward the idea of having institutionalized structures that facilitate continuous learning.
+These can very well be outside of the academic system and can also be used to provide education on
+digital skills into the society or industry(See [@HPCAkademie] for an existing, HPC focused instance of this)
+
+### First Professional Qualification
 #### A possible graduation path within the classical university structures
 We have put forward the idea that familiarity with research is a prerequisite for an RSE in order to be able to work effectively in the research space and in collaboration with researchers.
+To generate the required number of skilled persons
+We propose to offer a classical Bachelors and Master curriculum at select sites.
 In this particular example, we consider a path into RSE via a traditional university route involving Bachelors and Masters degree studies that include an RSE element.
 However, we recognise that there are other routes into an RSE career and these are increasing.
 For example, some RSEs come from an industry background, others may come through apprenticeship or similar programmes.
 In both cases, gaining knowledge of the research lifecycle and understanding the ways that researchers work towards solutions
 to research challenges is something that can be developed on-the-job alongside training opportunities and the chance to work directly with researchers.
-This leads naturally to the question, whether it is possible to become an RSE without a home research domain. 
+This leads naturally to the question, whether it is possible to become an RSE without a home research domain.
 With software being a core element of the research process in so many different domains,
 it is not helpful for everybody working in RSE to have a background in computing or software engineering.
 Indeed, we consider it much more useful if new graduates looking to work in the RSE space come from a wide range of different domains.
-Expertise, beyond software development skills, in another research domain can be an important element of an RSE team being able to support RSE projects in that domain.
+Expertise, beyond software development skills,
+in another research domain can be an important element of an RSE team being able to support RSE projects in that domain.
 Assuming for a moment, that people have done their masters studies in a particular domain, e.g. from the natural sciences,
 and that we can assume that the lectures to that point contain a mixture of domain specific content and RSE specific content
 (A good starting point for an RSE in the natural sciences), then we come to the question of the topic of the masters thesis.
 In order for young RSEs to get their research experience we believe it is necessary that already
 in their master's thesis young RSE students are given computational research tasks
-that can be solved with the RSE specific skills of that domain. 
+that can be solved with the RSE specific skills of that domain.
 This gives them a Master's degree of a ${DOMAIN}-RSE that has learnt in their lectures a research domain specific part and a software engineering specific part,
 and enabled them to get a first dip into actual science in their master's thesis.
+Of course special care has to be taken to integrate them at some point in their studies into mature projects
+to expose them to the eperience of senior RSEs and how they approach problems.
 Of course, the next question for their future is whether a master's degree enables them to really be effective parts of a research group.
 While we accept this is something of a generalisation, we argue that this is most likely not the case since
 undertaking a PhD provides a much more extensive set of research training and experience that can be vital for a researcher's future.
@@ -910,31 +928,17 @@ scientists are increasingly required to do RSE-type work as part of their resear
 It is not uncommon for researchers to be faced with RSE topics for the first time, because it has not been part of their academic curricula.
 Many are faced with a steep learning curve that requires them to invest a huge amount of time to catch up.
 Naturally, many would only invest as much as necessary to get the job done regardless of whether the solution is sustainable or not.
-Support from RSEs is one way to resolve this challenge. 
+Support from RSEs is one way to resolve this challenge.
 Another would be to lay more effective foundations for future RSE work at a much earlier stage in undergraduate/postgraduate studies.
 We see scope for establishing dedicated RSE Master's programmes which specialise in developing RSE skills and practices.
-Some universities already offer dedicated master's programs in some domains. 
+Some universities already offer dedicated master's programs in some domains.
 Examples would be Computational Sciences in Engineering (CSE) or Bioinformatics
 (see Appendix: [Bioinformatics skills and certification]).
 Where appropriate similar programs should also be established in other domains.
 
-## Required Next steps
-We have identified the RSE has an individual that brings a unique set of skills on digital tools into research groups.
-We have elaborated on the basic competencies, and we have elaborated on how these competencies manifest along different dimensions.
-We discussed who can teach them, and now in the final step we want to discuss how this specialization can 
-become a natural part of the landscape of professions and which steps we need to take to professionalize their education.
-
-We foresee, that this education will rest on two pillars.
-A first qualification phase, possibly through academic structures, giving young people highly sought after professional skills after high school.
-But since the workplace of the RSE is highly dynamic and rests on knowledge about latest technologies
-we put forward the idea of having institutionalized structures that facilitate continuous learning.
-These can very well be outside of the academic system and can also be used to provide education on
-digital skills into the society or industry(See [@HPCAkademie] for an existing, HPC focused instance of this)
-
-### Classical Progression
-- klassische akademische Ausbildung mit Ba+Master-
-- Integration des MATSE?
-- Gathering Expereince through Exposure
+#### Alternative first qualification paths
+For completeness we mention that vocational programs like the MATSE [@MATSE] can provide a more application oriented less research oriented profile for individuals.
+Since a certain amount of overlap with sciences is expected, it is expected that programs can be switched with minimal friction.
 
 ### Extra-academic institutions for continuous learning
 - Außer-akademische Einrichtungen zur Fortbildung. Nutzbar zur Vertiefung für RSEs, aber auch zur Qualifizierung von Wissenschaftlern oder anderen industriellen Berufen(Stuttgarts HPC Akademie). -> mentioned
@@ -943,8 +947,12 @@ digital skills into the society or industry(See [@HPCAkademie] for an existing, 
 - Einbindung exisitierender Resourcen. -> Metadatenschema? Dahlia?
 - Hier passt dann auch die badge diskussion dran.
 
-Plan:
 
+
+
+
+
+remaining Plan:
 - Lehrer ist damit natürlich ein Karriere-Pfad für RSEs
 - beides braucht geeignete Lehrer
 - pointer to the qualification paths and career paths outside of the appendix.
