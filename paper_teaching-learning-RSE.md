@@ -875,18 +875,29 @@ And using the certificates, the demand can now be satisfied with people offering
 
 Some exemplary skills for which courses are already held are version control tools like git, HPC topics like multithreading, MPI and GPU computations, FAIR principles.
 
-## Required Next steps
-We have identified the RSE has an individual that brings a unique set of skills on digital tools into research groups.
-We have elaborated on the basic competencies, and we have elaborated on how these competencies manifest along different dimensions.
-We discussed who can teach them, and now in the final step we want to discuss how this specialization can 
-become a natural part of the landscape of professions and which steps we need to take to professionalize their education.
+## Required Next Steps
+We have identified the RSE as an individual who brings a unique set of skills for
+supporting and undertaking modern digital research into research groups and teams.
+We have elaborated on the basic competencies that RSEs may have, and we have
+provided a detailed picture of how these competencies manifest along different
+dimensions.
+We have discussed who can deliver the necessary skills and and the approaches to
+support skills development. Now, in the final step, we want to discuss how this
+specialization can become a natural part of the landscape of professions and which
+steps we need to take to professionalize their education.
 
-We foresee, that this education will rest on two pillars.
-A first qualification phase, possibly through academic structures, giving young people highly sought after professional skills after high school.
-But since the workplace of the RSE is highly dynamic and rests on knowledge about latest technologies
-we put forward the idea of having institutionalized structures that facilitate continuous learning.
-These can very well be outside of the academic system and can also be used to provide education on
-digital skills into the society or industry(See [@HPCAkademie] for an existing, HPC focused instance of this)
+We foresee that the development of RSE skills will rest on two pillars:
+A first qualification phase, possibly through academic structures, giving newcomers
+to the field highly sought after professional skills, either directly from high school,
+or as a result of a career change. But since the type of work undertaken by RSEs is
+highly dynamic and often relies on knowledge about latest technologies, things change
+quickly and an ongoing learning phase is also necessary to remain up-to-date with the
+current developments, tools and techniques. 
+In this context, we put forward the idea of having institutionalized structures that
+facilitate continuous learning. These structures may be integrated within an academic
+environment but they may also exist fully or partially outside of the academic sphere,
+also providing opportunities for education on digital skills into wider society or
+industry (see [@HPCAkademie] for an existing, HPC focused instance of this).
 
 ### First Professional Qualification
 #### A possible graduation path within the classical university structures
