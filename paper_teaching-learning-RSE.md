@@ -881,7 +881,7 @@ supporting and undertaking modern digital research into research groups and team
 We have elaborated on the basic competencies that RSEs may have, and we have
 provided a detailed picture of how these competencies manifest along different
 dimensions.
-We have discussed who can deliver the necessary skills and and the approaches to
+We have discussed who can deliver the necessary skills and the approaches to
 support skills development. Now, in the final step, we want to discuss how this
 specialization can become a natural part of the landscape of professions and which
 steps we need to take to professionalize their education.
