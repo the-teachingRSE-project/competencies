@@ -343,8 +343,8 @@ Moreover, software development is a craft, i.e. it is not only about knowledge b
 As outlined in [@UniStgtRS], the lack of long-term funding options and centralized agencies also complicate the sustainable development and delivery of research software. 
 RSE positions at universities depend on the institutional support, which requires improvement.
 The establishment of a RSE curriculum must go hand in hand with the creation of new permanent positions for RSEs at universities or other research institutions.
-Attractive working conditions are indispensable in order to retain trained RSEs at universities and, ideally, to attract highly qualified and experienced software developers from the industry to the field of research software.
-The discussion of this challenge is not part of this paper, but goes hand in hand with the challenge of how RSEs should be trained.
+Attractive working conditions are indispensable in order to employ RSE teachers. 
+They are also required to retain trained RSEs at universities and, ideally, to attract highly qualified and experienced software developers from the industry to the field of research software.
 
 Research software also requires available infrastructure for development.
 Sustainable software development benefits greatly from services for developing, testing and validating software.
