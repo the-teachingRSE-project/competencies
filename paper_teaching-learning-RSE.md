@@ -346,9 +346,11 @@ The establishment of a RSE curriculum must go hand in hand with the creation of 
 Attractive working conditions are indispensable in order to employ RSE teachers. 
 They are also required to retain trained RSEs at universities and, ideally, to attract highly qualified and experienced software developers from the industry to the field of research software.
 
-Research software also requires available infrastructure for development.
+Since research software also requires (domain-specific) infrastructure for development. 
+RSEs either must be given access to available infrastructure or must be provided with the required infrastructure.
 Sustainable software development benefits greatly from services for developing, testing and validating software.
-Specifically, the lack of hardware and personnel support for Continuous Integration (CI) and Continuous Delivery (CD) limits the efficincy of software development.
+Specifically, the lack of hardware and personnel support for Continuous Integration (CI) and Continuous Delivery (CD) limits efficency of software development.
+
 
 ## Workshop Results
 
