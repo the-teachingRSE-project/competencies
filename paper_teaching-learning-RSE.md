@@ -340,6 +340,16 @@ Depending on the specific domain there is a gap between the basic software carpe
 
 Moreover, software development is a craft, i.e. it is not only about knowledge but also requires practical experience. Hence we need to create an environment that allows less experienced researchers to practice and gain experience efficiently. Ideally, this learning environment would allow less experienced scientists to be guided by more experienced RSEs. We know such practices e.g. from human medicine, where junior doctors first assist experienced doctors before they work independently. In the field of software development, this approach could be implemented in the form of peer programming, for example. The prerequisite for this, however, is that experienced academics get better career opportunities at German universities so that they do not leave for industry roles. 
 
+As outlined in [@UniStgtRS], the lack of long-term funding options and centralized agencies also complicate the sustainable development and delivery of research software. 
+RSE positions at universities depend on the institutional support, which requires improvement.
+The establishment of a RSE curriculum must go hand in hand with the creation of new permanent positions for RSEs at universities or other research institutions.
+Attractive working conditions are indispensable in order to retain trained RSEs at universities and, ideally, to attract highly qualified and experienced software developers from the industry to the field of research software.
+The discussion of this challenge is not part of this paper, but goes hand in hand with the challenge of how RSEs should be trained.
+
+Research software also requires available infrastructure for development.
+Sustainable software development benefits greatly from services for developing, testing and validating software.
+Specifically, the lack of hardware and personnel support for Continuous Integration (CI) and Continuous Delivery (CD) limits the efficincy of software development.
+
 ## Workshop Results
 
 ## Required Generic RSE skills
