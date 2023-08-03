@@ -12,7 +12,7 @@ Florian Goth, Universität Würzburg, 0000-0003-2707-4790, fgoth@physik.uni-wuer
 
 Jan Linxweiler, Technische Universität Braunschweig, 0000-0002-2755-5087, j.linxweiler@tu-braunschweig.de
 
-Jan Philipp Thiele, Leibniz Universität Hannover, 0000-0002-8901-6660, thiele@ifam.uni-hannover.de
+Jan Philipp Thiele, Weierstrass Institute, 0000-0002-8901-6660, thiele@ifam.uni-hannover.de
 
 Jeremy Cohen, Imperial College London, 0000-0003-4312-2537, jeremy.cohen@imperial.ac.uk
 
