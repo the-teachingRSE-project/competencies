@@ -153,7 +153,7 @@ Building on this: courses exist on different knowledge and experience levels and
 - what are the topics taught by a course
 - what are the topics recommended to know to start the course
 - what are the topics required to know to start the course
-This, in part, it due to a missing (metadata) standard to express these dependencies.
+This, in part, is due to a missing (metadata) standard to express these dependencies.
 
 Continuing along thes line of course dependencies and also depending on the specific domain there are gaps between very basic and very advanced courses, e.g., there is a gap between the basic software carpentry courses and the required skills to build domain-specific research software. For example, scientists in the field of High Performance Computing (HPC) need to know how to make effective use of concurrency to speed up their simulations and communicate efficiently using message-passing interface (MPI) libraries. The same is true for researchers from other domains who make use of other specialized technologies, methods and/or tools. To bridge those gaps more specialized courses would be needed like the one mentioned in section [Identifying skills and pathways] for the HPC community.
 
