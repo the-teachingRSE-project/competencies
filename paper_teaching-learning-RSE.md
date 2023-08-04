@@ -340,17 +340,19 @@ Depending on the specific domain there is a gap between the basic software carpe
 
 Moreover, software development is a craft, i.e. it is not only about knowledge but also requires practical experience. Hence we need to create an environment that allows less experienced researchers to practice and gain experience efficiently. Ideally, this learning environment would allow less experienced scientists to be guided by more experienced RSEs. We know such practices e.g. from human medicine, where junior doctors first assist experienced doctors before they work independently. In the field of software development, this approach could be implemented in the form of peer programming, for example. The prerequisite for this, however, is that experienced academics get better career opportunities at German universities so that they do not leave for industry roles. 
 
-As outlined in [@UniStgtRS], the lack of long-term funding options and centralized agencies also complicate the sustainable development and delivery of research software. 
+For the sake of completeness, we also would like to mention challenges that relate to the topic covered but are out of scope and would be subject of separate more in-depth considerations.
+
+As outlined in [@UniStgtRS], the lack of long-term funding options and centralized agencies complicate the sustainable development and delivery of research software. 
 RSE positions at universities depend on the institutional support, which requires improvement.
-The establishment of a RSE curriculum must go hand in hand with the creation of new permanent positions for RSEs at universities or other research institutions.
-Attractive working conditions are indispensable in order to employ RSE teachers. 
-They are also required to retain trained RSEs at universities and, ideally, to attract highly qualified and experienced software developers from the industry to the field of research software.
+FIXME: Insert source(s)....
+The creation of a curriculum for the continuing education of RSEs must go hand in hand with the creation of new permanent positions for RSEs at research institutions.
+For one thing, attractive working conditions are indispensable in order to employ RSE teachers, e.g. to attract qualified and experienced software engineers from the industry to the field of research software.
+For another thing, they are also important to retain trained RSEs at research institutions. 
 
-Since research software also requires (domain-specific) infrastructure for development. 
-RSEs either must be given access to available infrastructure or must be provided with the required infrastructure.
+As a basic requirement, training and building up experience in research software engineering also relies on the long-term availability of required (domain-specific) infrastructure for software development. 
+If this requirement is not met, in the first place, research institutions either have to enable RSEs to access infrastructure that already exists off-premise or they have to provid the required infrastructure on-premise.
 Sustainable software development benefits greatly from services for developing, testing and validating software.
-Specifically, the lack of hardware and personnel support for Continuous Integration (CI) and Continuous Delivery (CD) limits efficency of software development.
-
+Specifically, the lack of hardware and personnel support for Continuous Integration (CI) and Continuous Delivery (CD) limits efficient and up to date software development.
 
 ## Workshop Results
 
