@@ -349,7 +349,7 @@ For one thing, attractive working conditions are indispensable in order to emplo
 For another thing, they are also important to retain trained RSEs at research institutions. 
 
 Training and building up experience in research software engineering also rely on the long-term availability of required (domain-specific) infrastructure for software development. 
-If this prerequisite is not met, in the first place, research institutions either have to enable RSEs to access infrastructure that already exists off-premise or they have to provide the required infrastructure on-premise.
+If this prerequisite is not met in the first place, research institutions either have to enable RSEs to access infrastructure that already exists off-premise or they have to provide the required infrastructure on-premise.
 Sustainable software development benefits greatly from services for developing, testing and validating software.
 Specifically, the lack of hardware and personnel support for Continuous Integration (CI) and Continuous Delivery (CD) limits efficient and up to date software development.
 
