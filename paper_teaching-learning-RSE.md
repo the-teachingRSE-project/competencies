@@ -163,21 +163,15 @@ As an area that generally requires a range of advanced skills, High Performance 
  - There are some projects / papers looking at skills pathways - if we're going to include a separate section on related work, as proposed here, this should probably be expanded to include more of this content?
  - FIXME: include the ELIXIR part here
 
-### RSE-related Training Materials
+### RSE-related training ressources
 
-A wide range of software-related training materials and supporting organisations
-exist within the research software community and beyond. The day-to-day work of
-many RSEs often includes teaching activities, e.g. in university courses,
-workshops or one-on-one, to improve the RSE-related skill-set of researchers.
-The resources given below are helpful on the one hand to support such
-activities but can be also used to fill gaps in the capabilities of
-professional RSEs.
-
-Due to the ever-evolving nature of skills and infrastructure in the RSE field,
-training material is often version-controlled, so that trainers can update it
-between iterations. For example, core lessons from the Carpentries and
-CodeRefinery are stored on GitHub, and any change is automatically mirrored to
-their website.
+The day-to-day work of many RSEs often includes teaching activities, e.g. in university courses, workshops or one-on-one, to improve the RSE-related skill-set of researchers.
+Therefore, RSEs' work often includes the use of as well as the contribution to pertinent teaching material.
+Various organizations and initiatives provide courses and workshops to convey software-related capabilities aimed at the research community.
+Often they make their training materials available as Open Educational Resources permitting free access, re-use, adaptation and redistribution.
+The collaborative advancement of these resources in the fast evolving environment of RSE related skills and infrastructure can be further facilitated by putting them under version control.
+For example, core lessons from the Carpentries and CodeRefinery are stored on GitHub, and any change is automatically mirrored to their website.
+The organizations and initiatives listed below provide support for teaching activities conducted by RSEs but are also helpful to fill gaps in the capabilities of professional RSEs.
 
 #### The Carpentries
 The Carpentries [@Carpentries] is a non-profit entity that supports a range of open source training materials and international communities of volunteer instructors and helpers who run courses around these materials.
@@ -192,11 +186,6 @@ CodeRefinery [@CodeRefinery] is a project currently funded by the Nordic e-Infra
 CodeRefinery hosts a set of open source training materials including both beginner and intermediate level material and organizes multiple highly interactive large scale workshops per year.
 Skills learned from the workshops and/or materials allow researchers to produce more reproducible, open and efficient software and thus promote FAIR [@FAIR] research practices.
 One goal of the project is to evolve into a community project that seamlessly integrates with other initiatives. FIXME: elaborate on the integration part if it's relevant, else leave out.
-
-#### Reprohack
-The ReproHack Team offers resources to host events where students and researchers can get together to try and reproduce the results 
-of published papers with the methods described there or ideally with the software provided by the authors.
-FIXME: This is applied FAIR principles elaborate a bit on why this is related for RSE competencies? Or do we want to make the point, that this teaches reproducible science?
 
 #### PRACE
 The Partnership for Advanced Computing in Europe (PRACE) [@PRACE] offers training
@@ -214,23 +203,6 @@ All of these materials focus on RSE basics to refresh and expand the software en
 They are published under OER licenses and can serve as either self-learning instructions or form the basis of a hands-on training.
 To allow these educational offers to be easier brought to the scientists, the Helmholtz Information and Data Science Academy (HIDA) [@HIDA] sustains a large network within the Helmholtz Association and beyond with a strong focus on graduate schools.
 Further RSE training offers within the Helmholtz context are provided by the Helmholtz-AI [@HAI] and Helmholtz-Imaging [@HImaging] platforms as well as the Helmholtz Metadata Collaboration plaftorm [@HMC].
-
-#### Various Resources
-
-Reference works are available for self-study [@Fogel2005], [@Irving2021].
-
-The National Competence Center Sweden (ENCCS) [https://enccs.se/] provides instructor training material [@ENCCSInstructorTraining], [@ENCCS2022] developed from Carpentries and CodeRefinery material, as well as lessons for HPC-oriented RSEs [@ENCCSLessons].
-
-
-The (Intersect)[https://intersect-training.org/] project ....
-
-(BSSW)[https://bssw.io/] ...
-
-SSI? [@Crouch2013] ...
-
-
- - FIXME: Add NFDI initiatives like edutrain.
-
 
 ## Challenges
 - Point out gaps
@@ -720,7 +692,23 @@ We closed with a discussion of possible structures and organization forms that e
 Therefore this closes the gap, that the research landscape requires RSEs, but there are no structures where these persons are educated, by detailing the career path that a young person might want to take to become an RSE.(FIXME: also aspirational...)
 
 ## Appendix
-### An applied example curriculum
+### Various Resources for RSE-realted training
 
+Reference works are available for self-study [@Fogel2005], [@Irving2021].
+
+The National Competence Center Sweden (ENCCS) [https://enccs.se/] provides instructor training material [@ENCCSInstructorTraining], [@ENCCS2022] developed from Carpentries and CodeRefinery material, as well as lessons for HPC-oriented RSEs [@ENCCSLessons].
+
+
+The (Intersect)[https://intersect-training.org/] project ....
+
+(BSSW)[https://bssw.io/] ...
+
+SSI? [@Crouch2013] ...
+
+
+ - FIXME: Add NFDI initiatives like edutrain.
+
+
+### An applied example curriculum
 ### An example of a possible career path
 - We can follow Kim, who has been the protagonist of the original deRSE Paper.
