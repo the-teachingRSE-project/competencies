@@ -149,7 +149,7 @@ SSI? [@Crouch2013] ...
 
 As seen in the previous section, there already exist a number of open educational resources in the field of RSE. However, what is missing is a practical way to search all of these at once. This is mainly due to the lack of a metadata standard concerning EOR resources within the RSE community, as well as some simple way to collect potentially existing metadata in one place in order to enable a comprehensive search.
 
-Builing on this: courses exist on different knowledge and experience levels and, at least in part, build upon each other. However, there is currently no (unified) way to clearly label
+Building on this: courses exist on different knowledge and experience levels and, at least in part, build upon each other. However, there is currently no (unified) way to clearly label
 - what are the topics taught by a course
 - what are the topics recommended to know to start the course
 - what are the topics required to know to start the course
