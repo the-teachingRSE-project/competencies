@@ -343,14 +343,13 @@ Moreover, software development is a craft, i.e. it is not only about knowledge b
 For the sake of completeness, we also would like to mention challenges that relate to the topic covered but are out of scope and would be subject of separate more in-depth considerations.
 
 As outlined in [@UniStgtRS], the lack of long-term funding options and centralized agencies complicate the sustainable development and delivery of research software. 
-RSE positions at universities depend on the institutional support, which requires improvement.
-FIXME: Insert source(s)....
+Where applicable, it is important to raise awareness of the need for institutional support.
 The creation of a curriculum for the continuing education of RSEs must go hand in hand with the creation of new permanent positions for RSEs at research institutions.
 For one thing, attractive working conditions are indispensable in order to employ RSE teachers, e.g. to attract qualified and experienced software engineers from the industry to the field of research software.
 For another thing, they are also important to retain trained RSEs at research institutions. 
 
-As a basic requirement, training and building up experience in research software engineering also relies on the long-term availability of required (domain-specific) infrastructure for software development. 
-If this requirement is not met, in the first place, research institutions either have to enable RSEs to access infrastructure that already exists off-premise or they have to provid the required infrastructure on-premise.
+Training and building up experience in research software engineering also rely on the long-term availability of required (domain-specific) infrastructure for software development. 
+If this prerequisite is not met, in the first place, research institutions either have to enable RSEs to access infrastructure that already exists off-premise or they have to provide the required infrastructure on-premise.
 Sustainable software development benefits greatly from services for developing, testing and validating software.
 Specifically, the lack of hardware and personnel support for Continuous Integration (CI) and Continuous Delivery (CD) limits efficient and up to date software development.
 
