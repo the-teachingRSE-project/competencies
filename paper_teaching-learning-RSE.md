@@ -846,12 +846,19 @@ Finally, teachers should be motivated to follow up and offer continued support t
 The community discussion brought to light the need for a mixture of people, thereby 
 the education of aspiring RSEs will involve people from close domain sciences or experienced RSEs
 and people that have respective additional skills to teach RSE competencies to the new generation.
-In that respect, this follows the carpentries model that offers certifications but is still open to non-certified trainers.
+In that respect, this follows The Carpentries model that offers certifications but is still open to non-certified trainers.
 We highlight and emphasize that, since a topic like RSE education is constantly evolving, trainers strongly require the opportunity and the recognition to educate themselves.
 Therefore our teachers will be sourced from the workplace but there will also be certified RSE Trainers.
 (FIXME: in classical university speak, these would be people who have done their habilitation on that topic, right?)
 
 We propose to create common infrastructures that can be utilized in this ongoing effort to professionalize the RSE education further, to easily share education resources across the country.
+For the ongoing development, from the status quo of available courses and material to generally accepted, unified curriculums, we propose a centralized online RSE education platform.
+Such a platform should allow to:
+- collect and adapt available and new teaching material, like written lessons or pre-recorded courses
+- review and evaluate uploaded teaching material
+- compile curriculums from the available material
+- create different variations of a curriculum to fit specific national or institutional requirements
+- align curriculum with requirements of academid credit systems, like the European Credit Transfer and Accumulation System (ECTS) [@ECTS]
 (FIXME: DETAIL ME FURTHER!!!!)
 
 ### Organization of teaching
