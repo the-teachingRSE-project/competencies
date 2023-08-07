@@ -674,21 +674,17 @@ but only a cursory understanding of compiled languages get up to speed with
 compiled software.
 
 #### ML-RSE
-Machine learning (ML) is becoming increasingly important in many areas of research.
-Due to its complexity, it requires specialized theoretical background, and experienced handling of appropriate software and hardware are necessary in ordr to produce meaningful results.
-The specialization of ML-RSEs involve the skills of Machine Learning Engineers and Machine Learning Scientists.
-In detail those skills imply knowledge about data analysis and feature engineering, metrics that are involved in ML, ML algorithm selection and cross validation, and knowledge in math and statistics.
-ML-RSEs analyse and check the suitability of an algorithm if it fulfills the needs of the current task, and they play a main role in deciding and selecting machine learning libraries for a given task.
-FIXME: Improve and extend, relation to 'Data-focused RSE', add something about ethics/values
+The development of research software based on machine learning (ML) requires specialized theoretical background and experienced handling of appropriate software in order to produce meaningful results.
+This involves knowledge about data analysis and feature engineering, metrics that are involved in ML, ML algorithm selection and cross validation, and knowledge in mathematical optimization methods and statistics.
+ML-RSEs analyse and check the suitability of an algorithm if it fulfils the needs of a certain task and they play a main role in deciding and selecting machine learning libraries for a given task.
+The increasing usage of ML in numerous scientific areas with social impact, involves an emphasized awareness and consideration of possible manipulative or discriminatory influences.
+At the intersection of data science [@SSIDataScience] and Data-focused RSEs, the complex way of solving problems utilizing machine learning calls for this separate specialization.
 
 #### Research Infrastructure RSE
-This RSE is interested in SysOps and system administration and sets up infrastructures for and with researchers.
-Therefore, this specialization on the one hand requires a deep knowledge of physical computer and network hardware, on the other hand knowledge about setup and configuration of software services which run on servers is essential.
-The necessity for such RSEs arises from the need for special domain specific IT services that are not available otherwise, e.g. not provided by the central IT services of a university.
-Such a service could be an cluster of compute servers for GPU based machine learning.
-Those RSEs may also provide services that are based on existing IT infrastructure of a university, e.g. configure virtual machines on hypervisors run by the university.
-They operate as an interface between the researchers and the service, by taking care of the user management, access permissions, and configuration of a service but not the actual maintenance of servers.
-Additionally, teaching other researchers in how to use such specialized services could be part of their responsibility.
+This RSE is interested in SysOps and system administration and sets up IT infrastructures for and with researchers.
+Therefore, this specialization on the one hand requires a deep knowledge of physical computer and network hardware and on the other hand knowledge about setup and configuration of particular server software.
+Those specialised RSEs know how to acquire, setup and maintain general-purpose as well as domain specific infrastructure, e.g. setup of virtual machines on hypervisors or build-up of compute server cluster for GPU based machine learning.
+As an interface between the researchers and the infrastructure, they take care of user management, access permissions, and configuration of required services, for example.
 
 ### Web-Development RSE
 This RSE is skilled in web applications, front- and/or backend, and/or building 
@@ -699,14 +695,18 @@ Therefore a deep knowledge of web skills is a required skill for this RSE.
 
 ### Legal-RSE
 With the prevalence of software, we foresee the need for RSEs that specialize in legal questions around software.
-They are the go-to person if people have a question about licensing, mixing and matching software, and/or patenting.
+They are the go-to person if people have a question about licensing, mixing and matching of software as well as patenting or copyright.
+The publication of research software also requires knowledge about particular laws or regulatory frameworks concerning data protection, like the GDPR within the EU [@GDPR].
+Familiarity with legal aspects of cybersecurity and export control in science and research (see [@ExportControl] for Germany) complete the competencies of those RSEs.
 
 ### Data-focused RSE
 RSEs working at the flourishing intersection between data science and RSE. 
 They are skilled in cleaning data and/or running data analyses and can help researchers
 in setting up their analysis pipeline and/or research data management (RDM) solutions.
 When the field requires research on sensitive data or information, e.g. patient information in medicine, 
-this RSE should have knowledge about secure transfer methods and/or ways to anonymize the data. 
+this RSE should have knowledge about secure transfer methods and/or ways to anonymize the data.
+As part of RDM, this RSE profile includes support at all stages research data undergo in the so call research data lifecycle, with synchronous data management processes. 
+Those processes implement established best practices for planning and documenting of data acquisition in a data management plan (DMP) as well as for management, storage and preservation of data, and publication and sharing of data in repositories according to the FAIR principles [@FAIR].
 
 ### OpenScience RSE
 Open Science and FAIRness of Data and Software are increasingly important topics in research, as exemplified by the demand of an increasing amount of research funding agencies requiring openness.
