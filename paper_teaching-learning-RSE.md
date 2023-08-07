@@ -850,7 +850,7 @@ In that respect, this follows The Carpentries model that offers certifications b
 We highlight and emphasize that, since a topic like RSE education is constantly evolving, trainers strongly require the opportunity and the recognition to educate themselves.
 Therefore our teachers will be sourced from the workplace but there will also be certified RSE Trainers.
 (FIXME: in classical university speak, these would be people who have done their habilitation on that topic, right?)
-Large online learning platforms such as edX [@edx] or Coursera [@coursera] serve as a resource of international teachers, who share their experiences in specific RSE-related topics in courses on those platforms. 
+Large online learning platforms such as edX [@edx] or Coursera [@coursera] serve as a resource of international teachers, who share their experiences in specific RSE-related topics in webinars. 
 These platforms enable the targeted recruitment of academic teachers, including those from leading research institutions.
 
 We propose to create common infrastructures that can be utilized in this ongoing effort to professionalize the RSE education further and to easily share education resources across the country.
