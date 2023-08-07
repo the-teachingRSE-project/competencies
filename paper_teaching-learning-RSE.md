@@ -816,26 +816,30 @@ There are already some people teaching RSE-related topics, sometimes within univ
 Currently, they often teach in workshop-like formats at research institutions.
 The community discussion shed light on the issues our trainers are faced with nowadays:
 - There are outreach issues. We emphasize that there are two dimensions to this: First it is important that we inform students that workshops exist, and then, the more important part, we also need to motivate people to invest the time for a workshop. [@EuroCC2022]
-- Adaptation of material to the target audience has been identified as a time consuming task.
-- Organization and preparation is a challenge, since currently no standardized formats exist.
+- Adaptation of material to the target audience has been identified as a time-consuming task.
+- Organization and preparation are a challenge, since currently no standardized formats exist.
 - Expectation management of students. Existing knowledge of students is often diverse.
 - Language barriers. This can range from the use of technical jargon up to the disparities of you teaching in a foreign language.
 - Setting up a feedback loop that facilitates a reflection of the workshop for the teacher.
-- Staying up-to-date with specific fast-moving RSE topics.
-- Acknowledgment for teaching. Besides offering RSE training as part of a job description, there are also trainers who teach RSE topics out of conviction without getting any further appreciation for their committment that could qualify as advanced training for further job qualification.
+- Staying up-to-date with fast-moving RSE topics.
 - Understanding the difficulties of students [@Cereceda2020; @Williams2019].
 - Carpentries retrospective [@Wilson2016a].
+- Lack of 'Train the Trainer' workshops make self-improvement difficult. 
+- Attribution of teaching as upskilling that counts as a professional qualification.
 
 #### What mindset makes up a good teacher
-Irrespective of where people come from they need to have the proper mindset to properly foster aspiring RSEs.
-We propose that such an expected mindset should encompass the conviction that research software engineering (RSEing) improves reproducible research as well as the motivation to improve the RSE skills of researchers. 
-Good teachers must engage with the different scientific backgrounds of the learners, regardless of their prior knowledge.
-In order to identify relevant content and adapt content to the learners needs, they need to understand and appreciate the academic environment.
-Additionally, we would presume good teachers being interested in improving their own educational skills to make their teaching more effective, which would reflect in increased learning success and better RSEing applied by the learners. 
-The proper mindset should also include the acknowledgment that some learners acquire additional RSE skills out of necessity and not out of interest, meaning that not every "good" scientist wants to become a "good" software engineer, too.
-Inspired by the proverb "If you want to go fast, go alone; if you want to go far, go together?", learners should be able to get the opportunity to get continued individual support by the teacher even after the official training has ended. 
-
-- The Carpentries philosophy [@Duckles2016]
+Irrespective of where people come from they need to have the proper mindset to properly foster RSEs-to-be.
+The basis for our proposed mindset is the conviction that research software engineering (RSEing) is an important topic that supports good scientific practice and reproducible research as well as the motivation to share their experience and skills with prospective RSEs. 
+Good teachers engage with the different scientific backgrounds of the learners, regardless of their prior knowledge.
+In order to identify relevant content and adapt content to the learners needs, they understand and appreciate the respective research environment.
+We would presume good teachers to take responsibility in improving their own educational skills to make their teaching more effective.
+Since it is difficult to measure increased learning success and better RSEing applied by the learners, better methods for evaluation of a teacher’s effectiveness would be beneficial for teachers.
+A survey by The Carpentries [@Duckles2016] provides a detailed evaluation on the value and benefits of Software and Data Carpentry workshops to their instructors.
+The expected mindset also encompasses that teachers should see setbacks and feedback as an opportunity to learn and grow their own skills.
+A teacher's mindset should also include the acknowledgment that some learners acquire additional RSE skills out of necessity and not out of interest, meaning that not every "good" scientist wants to become a "good" software engineer, too.
+Therefore, it is also inevitable that teachers have positive and high expectations of their students.
+Inspired by the proverb "If you want to go fast, go alone; if you want to go far, go together?", teachers should actively engage with the RSE community and see the benefits of networking.
+Finally, teachers should be motivated to follow up and offer continued support to their students after the training has ended.
 
 #### Where do we get our teachers from
 The community discussion brought to light the need for a mixture of people, thereby 
