@@ -12,7 +12,7 @@ Florian Goth, Universität Würzburg, 0000-0003-2707-4790, fgoth@physik.uni-wuer
 
 Jan Linxweiler, Technische Universität Braunschweig, 0000-0002-2755-5087, j.linxweiler@tu-braunschweig.de
 
-Jan Philipp Thiele, Leibniz Universität Hannover, 0000-0002-8901-6660, thiele@ifam.uni-hannover.de
+Jan Philipp Thiele, Weierstrass Institute, 0000-0002-8901-6660, thiele@ifam.uni-hannover.de
 
 Jeremy Cohen, Imperial College London, 0000-0003-4312-2537, jeremy.cohen@imperial.ac.uk
 
@@ -33,6 +33,8 @@ your name, affiliation, orcid, e-mail
 
 ## Acknowledgements
 
+JC acknowledges support from the UK Engineering and Physical Sciences Research Council (UKI-EPSRC) under grants EP/R025460/1 and EP/W035731/1.
+FG thanks the GRF for funding through the SFB 1170 “Tocotronics” under the grant number Z03.
 MB acknowledges support by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany´s Excellence Strategy – EXC 2120/1 – 390831618
 
 your name, affiliation, orcid, e-mail
