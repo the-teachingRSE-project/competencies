@@ -830,6 +830,7 @@ The community discussion shed light on the issues our trainers are faced with no
 #### What mindset makes up a good teacher
 Irrespective of where people come from they need to have the proper mindset to properly foster RSEs-to-be.
 The basis for our proposed mindset is the conviction that research software engineering (RSEing) is an important topic that supports good scientific practice and reproducible research as well as the motivation to share their experience and skills with prospective RSEs. 
+In addition, we expect it is a fundamental part of a teacher's mindset to adopt a set of shared values, which we have detailed above in the [values](#values) section.
 Good teachers engage with the different scientific backgrounds of the learners, regardless of their prior knowledge.
 In order to identify relevant content and adapt content to the learners needs, they understand and appreciate the respective research environment.
 We would presume good teachers to take responsibility in improving their own educational skills to make their teaching more effective.
