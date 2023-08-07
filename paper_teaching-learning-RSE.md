@@ -142,7 +142,7 @@ FIXME (finalization): Exchange chapter titles by numbers?
 
 
 ### Some Definitions
-A couple of definitions are in order.
+A few definitions are in order.
 First as software we define source code, documentation, tests
 and all other artefacts that are created by humans during the development process
 that are necessary to understand its purpose.
@@ -150,8 +150,8 @@ that are necessary to understand its purpose.
 We define research to encompass all domains of research.
 Since we expect a sizeable portion of readers from Germany we
 quickly want to address a common false friend.
-The german 'Wissenschaft' encompasses all domains of publicly funded
-research, while the english 'science' is generally limited to natural sciences.
+The German term 'Wissenschaft' encompasses all domains of publicly funded
+research, while the English term 'science' is generally limited to natural sciences.
 Therefore, we will use 'research' to encompass all domains therefore gives the employability of RSEs.
 Of course 'research' as well as 'Forschung' is not limited to public funding
 but also part of industrial and other private companies.
@@ -192,8 +192,8 @@ very employable in industrial workplaces.
 
 ### National Context
 Having been developed at a workshop in Paderborn in Germany, naturally a part
-of the discussion in this paper focusses on the german academic landscape.
-So, although there are germany specific traits found in this document
+of the discussion in this paper focusses on the German academic landscape.
+So, although there are Germany specific traits found in this document
 we are nevertheless dealing with the education of humans to become RSEs -
 A topic that is of major relevance also in an international context.
 
