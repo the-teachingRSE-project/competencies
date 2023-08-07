@@ -824,8 +824,8 @@ The community discussion shed light on the issues our trainers are faced with no
 - Staying up-to-date with fast-moving RSE topics.
 - Understanding the difficulties of students [@Cereceda2020; @Williams2019].
 - Carpentries retrospective [@Wilson2016a].
-- Lack of 'Train the Trainer' workshops make self-improvement difficult. 
-- Attribution of teaching as upskilling that counts as a professional qualification.
+- Lack of 'Train the Trainer' opportunities makes self-improvement difficult. 
+- Get teaching effort attributed as upskilling that counts as a professional qualification.
 
 #### What mindset makes up a good teacher
 Irrespective of where people come from they need to have the proper mindset to properly foster RSEs-to-be.
@@ -835,7 +835,7 @@ Good teachers engage with the different scientific backgrounds of the learners, 
 In order to identify relevant content and adapt content to the learners needs, they understand and appreciate the respective research environment.
 We would presume good teachers to take responsibility in improving their own educational skills to make their teaching more effective.
 Since it is difficult to measure increased learning success and better RSEing applied by the learners, better methods for evaluation of a teacher’s effectiveness would be beneficial for teachers.
-A survey by The Carpentries [@Duckles2016] provides a detailed evaluation on the value and benefits of Software and Data Carpentry workshops to their instructors.
+For example, a survey by The Carpentries [@Duckles2016] provides a detailed evaluation on the value and benefits of Software and Data Carpentry workshops to their instructors.
 The expected mindset also encompasses that teachers should see setbacks and feedback as an opportunity to learn and grow their own skills.
 A teacher's mindset should also include the acknowledgment that some learners acquire additional RSE skills out of necessity and not out of interest, meaning that not every "good" scientist wants to become a "good" software engineer, too.
 Therefore, it is also inevitable that teachers have positive and high expectations of their students.
@@ -850,20 +850,20 @@ In that respect, this follows The Carpentries model that offers certifications b
 We highlight and emphasize that, since a topic like RSE education is constantly evolving, trainers strongly require the opportunity and the recognition to educate themselves.
 Therefore our teachers will be sourced from the workplace but there will also be certified RSE Trainers.
 (FIXME: in classical university speak, these would be people who have done their habilitation on that topic, right?)
+Large online learning platforms such as edX [@edx] or Coursera [@coursera] serve as a resource of international teachers, who share their experiences in specific RSE-related topics in courses on those platforms. 
+These platforms enable the targeted recruitment of academic teachers, including those from leading research institutions.
 
-We propose to create common infrastructures that can be utilized in this ongoing effort to professionalize the RSE education further, to easily share education resources across the country.
-For the ongoing development, from the status quo of available courses and material to generally accepted, unified curriculums, we propose a centralized online RSE education platform.
+We propose to create common infrastructures that can be utilized in this ongoing effort to professionalize the RSE education further and to easily share education resources across the country.
+For the ongoing development, from the status quo of available courses and material to generally accepted, unified curriculums, we suggest a centralized online RSE education platform.
 Such a platform should allow to:
 - collect and adapt available and new teaching material, like written lessons or pre-recorded courses
 - review and evaluate uploaded teaching material
 - compile curriculums from the available material
-- create different variations of a curriculum to fit specific national or institutional requirements
+- create different variations of a curriculum to fit domain specific or institutional requirements
 - align curriculum with requirements of academid credit systems, like the European Credit Transfer and Accumulation System (ECTS) [@ECTS]
 (FIXME: DETAIL ME FURTHER!!!!)
 
 ### Organization of teaching
-
-- How can we define the path from the status quo of available courses to a generally accepted, unified curriculum?
 
 #### Certificates
 
@@ -881,25 +881,18 @@ Additionally, it can be excluding capable applicants who already use these
 skills but never got a certificate for it.
 
 The possible types of certificates can of course differ.
+Specific online learning platforms offer a wide range of RSE related, job-ready certified courses as well as complete degree programs.
+
 The [HPC skills and certification] Appendix explores current efforts at creating
 a HPC certification program for both academic and industry RSEs. Course attendance
 sheets and digital tokens [@Ifenthaler2016; @Chakroun2018; @Fanfarelli2015; @McDaniel2016]
 are another option (see Appendix: [Micro-accreditation]).
-
-Renowned online learning platform like edX [@edx] and Coursera [@coursera] offer free or charged RSE related courses that are provided by leading institutions (Harvard, MIT, TUM, ...) and large companies (IBM, Google, META, ...).
-Those platforms offers webinars for different levels (introductory, intermediate, advanced) and skills as well as job-ready certificates and degree programs which could be incorporated into an academic curiculum.
-Making use of exisiting, already established courses at teaching platforms, could be an inital source for compiling and curiculum of certified courses.
-Specifically selecting and promoting courses held by teachers working in academia would also support the training of more academic RSEs.
-In addition those platforms provide a valuable source to recrute teachers.
-(FIXME: Move to 'Where do we get our teachers from')
-For example, upon successful completion, the Cluster of Excellence SimTech covers the expenses of specific Coursera courses for doctoral students and a course can count as one graduate school unit (ETC).
 
 Having certificates provides finally a clear understanding of which tasks an RSE can perform and thereby helps defining the career path and the job description.
 A big demand for specialized RSEs will certainly come from the newly established RSE centers at research institutions that require skilled people to fill their vacant positions.
 And using the certificates, the demand can now be satisfied with people offering this skill.
 
 Some exemplary skills for which courses are already held are version control tools like git, HPC topics like multithreading, MPI and GPU computations, FAIR principles, and simulation software [@UniStgtSimTech].
-
 
 #### A possible graduation path within the classical university structures
 We have put forward the idea that familiarity with research is a prerequisite for an RSE in order to be able to work effectively in the research space and in collaboration with researchers. In this particular example, we consider a path into RSE via a traditional university route involving Bachelors and Masters degree studies that include an RSE element. However, we recognise that there are other routes into an RSE career and these are increasing. For example, some RSEs come from an industry background, others may come through apprenticeship or similar programmes. In both cases, gaining knowledge of the research lifecycle and understanding the ways that researchers work towards solutions to research challenges is something that can be developed on-the-job alongside training opportunities and the chance to work directly with researchers.
