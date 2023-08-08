@@ -295,12 +295,12 @@ The targeted education also involves research software engineering.
 As described in its concept [@EduTrain2022], there will be a collaboration with "The Carpentries" regarding their lesson program.
 Moreover, the approach of how "The Carpentries" are organized will be adopted.
 
-Through the close connection to the DALIA project [@DALIA], the NFDI and its section EduTrain will benefit from an knowledge-base which is implemented as semantically linked knowledge graph.
-- FIXME: Connection to RSE?
+Through the close connection to the DALIA project [@DALIA], the NFDI and its section EduTrain will benefit from a knowledge-base which is implemented as semantically linked knowledge graph.
+- FIXME: Is there any connection to RSE?
 
 According to the goals of the NFDI consortium NFDI4Ing (National Research Data Infrastructure for Engineering Sciences) [@NFDI4ING], engineers treat software as research data that possibly connects the different stages of stored data.
 Therefore, it aims to enable engineers to develop validated quality-assured engineering research software. 
-One specific example is the lecture 'Sustainable Development of Simulation Software' that has been developed as master's course at the Institute for Modelling Hydraulic and Environmental Systems at the University of Stuttgart [@SDSSCOURSE], [@SDSSMATERIAL].
+One specific example is the lecture 'Sustainable Development of Simulation Software' that has been developed as master's course at the Institute for Modelling Hydraulic and Environmental Systems at the University of Stuttgart [@SDSSCOURSE; @SDSSMATERIAL].
 
 ### Open Source Resources
 Due to the ever-evolving nature of skills and infrastructure in the RSE field,
@@ -344,7 +344,6 @@ FIXME:
   [@Pinto2017; @Pereira2021; @Oprescu2022],
   teaching by SusTrainable [@SusTrainable; @Koopman2022]
 - reference works for self-study [@Fogel2005], [@Irving2021], [@Wilson2019a]
-
 
 ## Challenges
 - Point out gaps
