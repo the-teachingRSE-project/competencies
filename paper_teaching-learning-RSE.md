@@ -201,18 +201,92 @@ A topic that is of major relevance also in an international context.
 FIXME: at this stage just a place where we can put the paragraph on ethics and
 values. Depending on how it goes we will need to find a better place.
 
-The skills and activities of an RSE are guided by ethical values. The list of
-values given here is not exhaustive and is loosely based on the Software
-Engineering Code of Ethics [@Gotterbarn1999]. Foremost, RSE like other
-researchers and professionals, act in the interest of the public. They think
-about the wider implications of the research their software supports. They take
-great care to develop software that adheres to current best practices. Their
-judgement is independent and they maintain their professional integrity. They
-treat their colleagues and collaborators with respect and work towards a fair
-and inclusive environment. RSEs need to partake in lifelong learning to keep
-their practice current. Whenever possible they will promote these values and
-make sure that they are passed on to new practitioners. The values listed here
-are reflected throughout this paper.
+[hvw: Other possible spots would be
+
+1. a sub-section of "RSE Tasks and Responsibilities" or
+2. a sub-section of "Required Generic RSE skills" (one level above).
+
+]
+
+
+#### Steinbruch
+
+Quite a bit of the discussion was focused around teaching and the need
+to cover ethical aspects. e.g. issues around software citation
+(@flöffler); inclusion of ethical aspects in training curricula
+(@hvwaldow). @jcohen put some links in the chat around RSE research
+and groups advocating for better recognition for software as a
+research output,
+
++ https://dl.acm.org/doi/abs/10.1145/317665.317682
++ https://research.vu.nl/en/publications/ethics-in-software-engineering-a-systematic-literature-review
++ https://link.springer.com/article/10.1007/s11948-006-0032-9
++ Alidoosti et al. Incorporating Ethical Values into Software Architecture Design Practices, Proceedings of the 2022 IEEE 19th International Conference on Software Architecture Companion (ICSA-C), IEEE, 2022, doi:10.1109/icsa-c54293.2022.00031
++ Tavani, Ethics & Technology: Controversies, Questions, and Strategies for Ethical Computing, 4th edition, 2012, John Wiley & Sons, ISBN: 978-1-118-28172-7
++ Himma et Tavani (Eds.) The Handbook of Information and Computer Ethics, 2008, John Wiley & Sons, ISBN: 978-0-471-79959-7
+
++ How does my software interact with society in general? Does it serve the Public?
+
++ I guess the other “general” ethical aspect (diversity was mentioned
+  a couple of times earlier in the discussion) is ensuring that you
+  help to underpin diversity and good ethical practices in the way you
+  treat colleagues, collaborators and people more generally in the
+  context of the work that you do - the people aspect of ethics.
+
++ Suggestion from the paper meeting: briefly mention software citation.
++ Resources shared in the chat about RSE output assessment:
+
++ https://www.se-rwth.de/publications/Toward-Research-Software-Engineering-Research-Preprint.pdf
+RSE Research : conducting research on understanding and improving how software is developed for research
+
++ https://sfdora.org/ The Declaration on Research Assessment (DORA) recognizes the need to improve the ways in which researchers and the outputs of scholarly research are evaluated
+
++ https://coara.eu/ Coalition for Advancing Research Assessment
+
++ My main reason for including notes on ethics is that RSEs need to be
+  aware of the issues such as the various biases that come into play
+  when training models or privacy implications when dealing with
+  spatial data. RSE need to make personal value calls just like any
+  other researcher. What others do with a particular software project
+  is an entirely different problem (and depends on them being
+  sensitised to these issues). I think in the context of this paper we
+  need to state the basics and provide signposts to furhter reading.
+
+#### DRAFT
+
+**[hvw: suggested content based on discussion last meeting]**
+
+1. "General Ethics". Inclusivity, public interest, scientific norms (ciatation, ...) -> Guidelines
+
+2. RSE specific topic that warrant special attention:
+
+There are ethical values that are specifically important for RSEs.
+
++ Personal data: Independent from the encoding into the respective national law in an RSE's jurisdiction, the right to
+information privacy is internationally recognized as a fundamental human right, e.g. in the European Convention on Human
+Rights [@council_of_europe_protocol_1988, @hirvela_right_2022]. RSEs need to be aware of this topic's importance and
+deal with potential tensions that might arise between researchers' desire for frictionless sharing of data. Handling
+personal data also has ramnifications for information security considerations in the software development process. Data
+protection is a difficult subject and RSEs should notice when they need to consult external expertise in special topics
+such as cryptography or re-identification attacks (e.g. [@sweeney_k-anonymity_2002]).
+
++ Research integrity
+
+
+
+skills and activities of an RSE are guided by ethical values. The list
+of values given here is not exhaustive and is loosely based on the
+Software Engineering Code of Ethics [@Gotterbarn1999]. Foremost, RSE
+like other researchers and professionals, act in the interest of the
+public. They think about the wider implications of the research their
+software supports. They take great care to develop software that
+adheres to current best practices. Their judgement is independent and
+they maintain their professional integrity. They treat their
+colleagues and collaborators with respect and work towards a fair and
+inclusive environment. RSEs need to partake in lifelong learning to
+keep their practice current. Whenever possible they will promote these
+values and make sure that they are passed on to new practitioners. The
+values listed here are reflected throughout this paper.
 
 ## Related Work and Activities
 
