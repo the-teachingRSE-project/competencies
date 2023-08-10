@@ -221,7 +221,7 @@ We list some example areas that could be addressed in RSE courses or workshops.
 
 Independent from the encoding into the respective national law in an RSE's jurisdiction,
 the right to informationprivacy is internationally recognized as a fundamental human right,
-e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988, @Hirvela2022].
+e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988], [@Hirvela2022].
 RSEs need to be aware of this topic's importance
 and deal with potential tensions that might arise with researchers' desire for frictionless sharing of data.
 Handling personal data also has ramifications for information security considerations in the software development process.
