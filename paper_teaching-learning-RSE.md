@@ -833,7 +833,7 @@ The basis for our proposed mindset is the conviction that research software engi
 In addition, we expect it is a fundamental part of a teacher's mindset to adopt a set of shared values, which we have detailed above in the [values](#values) section.
 Good teachers engage with the different scientific backgrounds of the learners, regardless of their prior knowledge.
 In order to identify relevant content and adapt content to the learners needs, they understand and appreciate the respective research environment.
-We would presume good teachers to take responsibility in improving their own educational skills to make their teaching more effective.
+We would presume good teachers to take responsibility in improving their own pedagogical skills to make their teaching more effective.
 Since it is difficult to measure increased learning success and better RSEing applied by the learners, better methods for evaluation of a teacher’s effectiveness would be beneficial for teachers.
 For example, a survey by The Carpentries [@Duckles2016] provides a detailed evaluation on the value and benefits of Software and Data Carpentry workshops to their instructors.
 The expected mindset also encompasses that teachers should see setbacks and feedback as an opportunity to learn and grow their own skills.
@@ -843,7 +843,7 @@ Inspired by the proverb "If you want to go fast, go alone; if you want to go far
 Finally, teachers should be motivated to follow up and offer continued support to their students after the training has ended.
 
 #### Where do we get our teachers from
-The community discussion brought to light the need for a mixture of people, thereby 
+The community discussion brought to light the need for a mixture of people, therefore 
 the education of aspiring RSEs will involve people from close domain sciences or experienced RSEs
 and people that have respective additional skills to teach RSE competencies to the new generation.
 In that respect, this follows The Carpentries model that offers certifications but is still open to non-certified trainers.
