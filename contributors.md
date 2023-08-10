@@ -33,7 +33,13 @@ your name, affiliation, orcid, e-mail
 
 JC acknowledges support from the UK Engineering and Physical Sciences Research Council (UKI-EPSRC) under grants EP/R025460/1 and EP/W035731/1.
 FG thanks the GRF for funding through the SFB 1170 “Tocotronics” under the grant number Z03.
-
+JNG acknowledges funding from the Deutsche Forschungsgemeinschaft
+(DFG, German Research Foundation) Research Software Sustainability
+grant no. [391126171](https://gepris.dfg.de/gepris/projekt/391126171?language=en)
+(PI: Holm) and from the European Union – this work has received funding
+from the European High Performance Computing Joint Undertaking (JU) and
+countries participating in the project under grant agreement
+No [101093169](https://doi.org/10.3030/101093169).
 
 your name, affiliation, orcid, e-mail
 
