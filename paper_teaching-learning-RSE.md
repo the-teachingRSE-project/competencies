@@ -221,19 +221,19 @@ We list some example areas that could be addressed in RSE courses or workshops.
 
 Independent from the encoding into the respective national law in an RSE's jurisdiction,
 the right to informationprivacy is internationally recognized as a fundamental human right,
-e.g. in the European Convention on Human Rights [@council_of_europe_protocol_1988, @hirvela_right_2022].
+e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988, @Hirvela2022].
 RSEs need to be aware of this topic's importance
 and deal with potential tensions that might arise with researchers' desire for frictionless sharing of data.
 Handling personal data also has ramifications for information security considerations in the software development process.
 Data protection is a difficult subject and RSEs should notice when they need to consult external expertise
-in special topics such as cryptography or re-identification attacks (e.g. [@sweeney_k-anonymity_2002]).
+in special topics such as cryptography or re-identification attacks (e.g. [@Sweeney2002]).
 
 ### Mentoring and diversity
 
 RSEs are often experienced professionals who instruct and work closely with early career researches.
 Similarly to academic supervisors, they bear a certain responsibility to guide and advise younger colleagues
 with respect to career development and the achievement of academic goals.
-Software engineering is still strongly dominated by white males [@stack_overflow_stack_2022].
+Software engineering is still strongly dominated by white males [@StackOverflow2022].
 In their work RSEs might frequently find themselves in a position
 to encourage, mentor and empower people who gravitate towards software-related occupations.
 In this capacity they should be aware of the diversity problem and help to mediate it
