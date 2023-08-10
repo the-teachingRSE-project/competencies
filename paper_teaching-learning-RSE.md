@@ -191,6 +191,7 @@ institutionalised. Finally, the strong emphasis on team-skills allows RSEs to be
 very employable in industrial workplaces.
 
 ### National Context
+
 Having been developed at a workshop in Paderborn in Germany, naturally a part
 of the discussion in this paper focusses on the German academic landscape.
 So, although there are Germany specific traits found in this document
@@ -198,95 +199,62 @@ we are nevertheless dealing with the education of humans to become RSEs -
 A topic that is of major relevance also in an international context.
 
 ## Values
-FIXME: at this stage just a place where we can put the paragraph on ethics and
-values. Depending on how it goes we will need to find a better place.
 
-[hvw: Other possible spots would be
+The activities of an RSE are guided by ethical values.
+A general list of applicable values is given in the Software Engineering Code of Ethics [@Gotterbarn1999].
+Central to that code is the RSE's obligation to act in the public interest.
+Further values loosely based on that code include the obligations
 
-1. a sub-section of "RSE Tasks and Responsibilities" or
-2. a sub-section of "Required Generic RSE skills" (one level above).
++ to take great care to develop software that adheres to current best practices,
++ to judge independently and maintain professional integrity,
++ to treat colleagues and collaborators with respect and work towards a fair and inclusive environment, and
++ to promote these values whenever possible and make sure that they are passed on to new practitioners.
 
-]
+RSEs often assume a multifaceted role at the junction of research, software engineering and data management.
+They work with a varying and diverse set of colleagues that might include other developers,
+support unit staff and academics of different fields and all career-stages.
+This situation yields a specific set of challenges RSEs should be aware of
+to consciously make ethically sound judgment calls.
+We list some example areas that could be addressed in RSE courses or workshops.
 
+### Personal data
 
-#### Steinbruch
+Independent from the encoding into the respective national law in an RSE's jurisdiction,
+the right to informationprivacy is internationally recognized as a fundamental human right,
+e.g. in the European Convention on Human Rights [@council_of_europe_protocol_1988, @hirvela_right_2022].
+RSEs need to be aware of this topic's importance
+and deal with potential tensions that might arise with researchers' desire for frictionless sharing of data.
+Handling personal data also has ramifications for information security considerations in the software development process.
+Data protection is a difficult subject and RSEs should notice when they need to consult external expertise
+in special topics such as cryptography or re-identification attacks (e.g. [@sweeney_k-anonymity_2002]).
 
-Quite a bit of the discussion was focused around teaching and the need
-to cover ethical aspects. e.g. issues around software citation
-(@flöffler); inclusion of ethical aspects in training curricula
-(@hvwaldow). @jcohen put some links in the chat around RSE research
-and groups advocating for better recognition for software as a
-research output,
+### Mentoring and diversity
 
-+ https://dl.acm.org/doi/abs/10.1145/317665.317682
-+ https://research.vu.nl/en/publications/ethics-in-software-engineering-a-systematic-literature-review
-+ https://link.springer.com/article/10.1007/s11948-006-0032-9
-+ Alidoosti et al. Incorporating Ethical Values into Software Architecture Design Practices, Proceedings of the 2022 IEEE 19th International Conference on Software Architecture Companion (ICSA-C), IEEE, 2022, doi:10.1109/icsa-c54293.2022.00031
-+ Tavani, Ethics & Technology: Controversies, Questions, and Strategies for Ethical Computing, 4th edition, 2012, John Wiley & Sons, ISBN: 978-1-118-28172-7
-+ Himma et Tavani (Eds.) The Handbook of Information and Computer Ethics, 2008, John Wiley & Sons, ISBN: 978-0-471-79959-7
+RSEs are often experienced professionals who instruct and work closely with early career researches.
+Similarly to academic supervisors, they bear a certain responsibility to guide and advise younger colleagues
+with respect to career development and the achievement of academic goals.
+Software engineering is still strongly dominated by white males [@stack_overflow_stack_2022].
+In their work RSEs might frequently find themselves in a position
+to encourage, mentor and empower people who gravitate towards software-related occupations.
+In this capacity they should be aware of the diversity problem and help to mediate it
+whenever they have then chance to do so.
 
-+ How does my software interact with society in general? Does it serve the Public?
+### The scientific community
 
-+ I guess the other “general” ethical aspect (diversity was mentioned
-  a couple of times earlier in the discussion) is ensuring that you
-  help to underpin diversity and good ethical practices in the way you
-  treat colleagues, collaborators and people more generally in the
-  context of the work that you do - the people aspect of ethics.
+Through writing research software, RSEs have a pivotal position in the process of scientific production.
+Their choices might determine whether the respective research is reproducible or not,
+whether the results can be re-used, whether future research can build on existing tools or has to start from scratch.
+Builders of larger research-infrastructure projects determine to some extent
+the possibilities and limitations of future research
+and therefore need to be aware of concepts such as Open Science, path dependence and vendor lock-in.
 
-+ Suggestion from the paper meeting: briefly mention software citation.
-+ Resources shared in the chat about RSE output assessment:
+### Emerging challenges
 
-+ https://www.se-rwth.de/publications/Toward-Research-Software-Engineering-Research-Preprint.pdf
-RSE Research : conducting research on understanding and improving how software is developed for research
-
-+ https://sfdora.org/ The Declaration on Research Assessment (DORA) recognizes the need to improve the ways in which researchers and the outputs of scholarly research are evaluated
-
-+ https://coara.eu/ Coalition for Advancing Research Assessment
-
-+ My main reason for including notes on ethics is that RSEs need to be
-  aware of the issues such as the various biases that come into play
-  when training models or privacy implications when dealing with
-  spatial data. RSE need to make personal value calls just like any
-  other researcher. What others do with a particular software project
-  is an entirely different problem (and depends on them being
-  sensitised to these issues). I think in the context of this paper we
-  need to state the basics and provide signposts to furhter reading.
-
-#### DRAFT
-
-**[hvw: suggested content based on discussion last meeting]**
-
-1. "General Ethics". Inclusivity, public interest, scientific norms (ciatation, ...) -> Guidelines
-
-2. RSE specific topic that warrant special attention:
-
-There are ethical values that are specifically important for RSEs.
-
-+ Personal data: Independent from the encoding into the respective national law in an RSE's jurisdiction, the right to
-information privacy is internationally recognized as a fundamental human right, e.g. in the European Convention on Human
-Rights [@council_of_europe_protocol_1988, @hirvela_right_2022]. RSEs need to be aware of this topic's importance and
-deal with potential tensions that might arise between researchers' desire for frictionless sharing of data. Handling
-personal data also has ramnifications for information security considerations in the software development process. Data
-protection is a difficult subject and RSEs should notice when they need to consult external expertise in special topics
-such as cryptography or re-identification attacks (e.g. [@sweeney_k-anonymity_2002]).
-
-+ Research integrity
-
-
-
-skills and activities of an RSE are guided by ethical values. The list
-of values given here is not exhaustive and is loosely based on the
-Software Engineering Code of Ethics [@Gotterbarn1999]. Foremost, RSE
-like other researchers and professionals, act in the interest of the
-public. They think about the wider implications of the research their
-software supports. They take great care to develop software that
-adheres to current best practices. Their judgement is independent and
-they maintain their professional integrity. They treat their
-colleagues and collaborators with respect and work towards a fair and
-inclusive environment. RSEs need to partake in lifelong learning to
-keep their practice current. Whenever possible they will promote these
-values and make sure that they are passed on to new practitioners. The
-values listed here are reflected throughout this paper.
+RSEs often operate at the cutting edge of technological development
+and therefore might have to deal with technologies the dangers and drawbacks of which are still poorly understood.
+A current example is the rush for the application of Large Language Models (LLMs),
+where RSEs working in these fields should stay up-to-date and be able to help researchers to assess topics
+such as training-data bias, LLM "hallucinations" or malicious use.
 
 ## Related Work and Activities
 
