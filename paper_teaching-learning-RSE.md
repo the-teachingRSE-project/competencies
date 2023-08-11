@@ -963,7 +963,7 @@ Since a certain amount of overlap with sciences is expected, it is expected that
 ### Extra-academic institutions for continuous learning
 As elaborated in the instruction the dynamic working place of an RSE requires continuous learning.
 Knowledge-based industries have long recognized the value of qualifying their employees and hence invest time and money into this.
-We propose institutionalized structures that offer graduates a venue for life-long learning, or to deepn their skills.
+We propose institutionalized structures that offer graduates a venue for life-long learning, or to deepen their skills.
 Centralizing this notion in a few institutions has some major benefits for society and industry as well,
 since these become central hubs for offering the skills with digital tools.
 The HPC-Akademie [@HPCAkademie] is a good example in the HPC space that offers its services to graduated
