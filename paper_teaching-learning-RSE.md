@@ -220,11 +220,11 @@ We list some example areas that could be addressed in RSE courses or workshops.
 ### Personal data
 
 Independent from the encoding into the respective national law in an RSE's jurisdiction,
-the right to informationprivacy is internationally recognized as a fundamental human right,
+the right to information privacy is internationally recognized as a fundamental human right,
 e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988], [@Hirvela2022].
 RSEs need to be aware of this topic's importance
-and deal with potential tensions that might arise with researchers' desire for frictionless sharing of data.
-Handling personal data also has ramifications for information security considerations in the software development process.
+and deal with tensions that might arise with researchers' desire for frictionless sharing of data.
+Handling personal data also has ramifications for information security considerations during the software development process.
 Data protection is a difficult subject and RSEs should notice when they need to consult external expertise
 in special topics such as cryptography or re-identification attacks (e.g. [@Sweeney2002]).
 
@@ -237,7 +237,7 @@ Software engineering is still strongly dominated by white males [@StackOverflow2
 In their work RSEs might frequently find themselves in a position
 to encourage, mentor and empower people who gravitate towards software-related occupations.
 In this capacity they should be aware of the diversity problem and help to mediate it
-whenever they have then chance to do so.
+whenever they have the chance to do so.
 
 ### The scientific community
 
@@ -251,7 +251,7 @@ and therefore need to be aware of concepts such as Open Science, path dependence
 ### Emerging challenges
 
 RSEs often operate at the cutting edge of technological development
-and therefore might have to deal with technologies the dangers and drawbacks of which are still poorly understood.
+and therefore might have to deal with technologies of which the dangers and drawbacks are still poorly understood.
 A current example is the rush for the application of Large Language Models (LLMs),
 where RSEs working in these fields should stay up-to-date and be able to help researchers to assess topics
 such as training-data bias, LLM "hallucinations" or malicious use.
