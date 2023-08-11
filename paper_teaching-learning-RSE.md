@@ -923,7 +923,7 @@ The Master's years bring them forward to actually applying their knowledge. So d
 simultaneously work on deepening their knowledge about team skills, a topic they have been neglecting so far,
 they work towards getting to the current research in their domain, and getting up to speed about the current collaborative development practices.
 So we can assume that the lectures to that point contain a mixture of domain specific content and RSE specific content
-(A good starting point for an RSE in the natural sciences), then we come to the question of the topic of the masters thesis.
+(A good starting point for an RSE in the natural sciences), then we come to the question of the topic of the master's thesis.
 In order for young RSEs to get their research experience we believe it is necessary that already
 in their master's thesis young RSE students are given computational research tasks
 that can be solved with the RSE specific skills of that domain.
