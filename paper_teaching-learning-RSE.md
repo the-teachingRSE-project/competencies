@@ -197,6 +197,9 @@ So, although there are Germany specific traits found in this document
 we are nevertheless dealing with the education of humans to become RSEs -
 A topic that is of major relevance also in an international context.
 
+
+*** A SURVEY OF INITIATIVES PROVIDING EDUCATIVE MATERIAL IN THE RSE SPACE ***
+
 ### Related Work and Activities
 
 The challenges of understanding the current state of skills within the research software community and related areas, as well as identifying required competencies, developing training pathways and providing training materials are areas that are being looked at and addressed by various groups and projects. In this section, we highlight some of these other projects and activities.
@@ -340,8 +343,9 @@ Depending on the specific domain there is a gap between the basic software carpe
 
 Moreover, software development is a craft, i.e. it is not only about knowledge but also requires practical experience. Hence we need to create an environment that allows less experienced researchers to practice and gain experience efficiently. Ideally, this learning environment would allow less experienced scientists to be guided by more experienced RSEs. We know such practices e.g. from human medicine, where junior doctors first assist experienced doctors before they work independently. In the field of software development, this approach could be implemented in the form of peer programming, for example. The prerequisite for this, however, is that experienced academics get better career opportunities at German universities so that they do not leave for industry roles. 
 
-## Workshop Results
+*** AN ATTEMPT TO DEFINE COMPETENCIES AND RESPONSIBILITIES OF AN RSE ***
 
+## Workshop Results
 ## Required Generic RSE skills
 The role of an RSE lies somewhere on the spectrum between that of a researcher
 (the "R") and a software engineer (the "SE") and, therefore, requires
@@ -801,6 +805,9 @@ Further ideas:
   peer-reviewing of code of conducts by the CHAOSS Diversity and Inclusion Badging organization [@CHAOSSDEIBadging; @GitHubCHAOSS]
 - related discussion in CSE [@Webb2017]
 
+
+*** INSTITUTIONALIZED ORGANIZATION OF RSE EDUCATION ***
+
 ## Organizational Infrastructures
 So we have defined our set of competencies that we feel every RSE should possess.
 Table 2 above nevertheless already hints at the fact that some RSE skills are required during the domain studies,
@@ -904,6 +911,8 @@ Some universities already offer dedicated master's programs in some domains.
 Examples would be Computational Sciences in Engineering (CSE) or Bioinformatics
 (see Appendix: [Bioinformatics skills and certification]).
 Where appropriate similar programs should also be established in other domains.
+
+*** EDUCATING RSEs in GERMANY - WHAT NEEDS TO BE DONE ***
 
 ## Required Next steps
 ### Implementation Strategies
