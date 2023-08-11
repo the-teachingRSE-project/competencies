@@ -716,10 +716,19 @@ However, it is worth highlighting that answering the need for more RSEs
 can only be achieved by simultaneously having a clear training path,
 but also by ensuring that existing and trained RSEs are retained in academia.
 This paper focused on the first component: training RSEs, but we still believe
-that a discussion on incentives and brain drain by the private sector is necessary.
+that a discussion on creating viable RSE career paths in academia is necessary.
 This might be even more true for RSEs than traditional researchers as RSEs
 may have more opportunities to perform similar activities in the private sector,
 while benefiting from better salaries and working conditions.
+
+RSEs are valuable members of research teams in academia,
+but the lack of institutional support leads to high turnover
+and difficulties attracting applicants with the right skill set.
+Several institutions have recognized these challenges and are taking steps
+to professionalize RSE profiles and make them more visible via dedicated
+funding programs [@Godoy2022; @DFGResearchSoftwareCall2022;
+@EdinburghRSECollaborationCall2023; @EdinburghRSEFellowshipCall2023]
+or by establishing RSE departments.
 
 ## Appendix
 ### An applied example curriculum
