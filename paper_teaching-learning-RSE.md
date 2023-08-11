@@ -228,8 +228,7 @@ FIXME:
 
 ### RSE-related training ressources
 
-The day-to-day work of many RSEs often includes teaching activities
-to improve the RSE-related skill-set of researchers,
+The day-to-day work of many RSEs often includes teaching activities to improve the RSE-related skill-set of researchers,
 e.g. in university courses, workshops or one-on-one.
 Therefore, RSEs' work often includes the use of as well as the contribution to pertinent teaching material.
 Various organizations and initiatives provide courses and workshops
@@ -244,6 +243,7 @@ The organizations and initiatives listed below provide support for teaching acti
 but are also helpful to fill gaps in the capabilities of professional RSEs.
 
 #### The Carpentries
+
 The Carpentries [@Carpentries] is a non-profit entity that supports a range of open source training materials and international communities of volunteer instructors and helpers who run courses around these materials.
 The community also maintains the materials which are based around three core syllabuses --
 Software Carpentry [@CarpentriesSoftware; @Wilson2006; @Wilson2016a],
@@ -264,12 +264,14 @@ There is a selection process [@CarpentriesBecomingInstructor] as well as
 an instructor training course, upon which a certificate is delivered [@Wilson2013a].
 
 #### Coderefinery
+
 CodeRefinery [@CodeRefinery] is a project currently funded by the Nordic e-Infrastructure and thus active primarily in the Nordics with the goal of teaching essential tools around research software development, that are usually skipped in academic education.
 CodeRefinery hosts a set of open source training materials including both beginner and intermediate level material and organizes multiple highly interactive large scale workshops per year.
 Skills learned from the workshops and/or materials allow researchers to produce more reproducible, open and efficient software and thus promote FAIR [@FAIR] research practices.
 One goal of the project is to evolve into a community project that seamlessly integrates with other initiatives. FIXME: elaborate on the integration part if it's relevant, else leave out.
 
 #### PRACE
+
 The Partnership for Advanced Computing in Europe (PRACE) [@PRACE] offers training
 in the form of massive open online courses (MOOCs), online and on-site training
 events at European HPC facilities (aggregated on various websites, e.g. EuroCC
@@ -293,14 +295,7 @@ has adapted instructor training material from The Carpentries and CodeRefinery
 to create their own instructor manual [@ENCCSInstructorTraining; @ENCCS2022].
 The ENCCS lessons are targeted at individuals who already have general RSE
 skills and are seeking new skills relevant to HPC and software engineering.
-## Challenges
-- Point out gaps
-- What is missing
-- domain application?
 
-Depending on the specific domain there is a gap between the basic software carpentry courses and the required skills to build domain-specific research software. For example, scientists in the field of High Performance Computing (HPC) need to know how to make effective use of concurrency to speed up their simulations and communicate efficiently using message-passing interface (MPI) libraries. The same is true for researchers from other domains who make use of other specialized technologies, methods and/or tools. To bridge those gaps more specialized courses would be needed like the one mentioned in section [Identifying skills and pathways] for the HPC community.
-
-Moreover, software development is a craft, i.e. it is not only about knowledge but also requires practical experience. Hence we need to create an environment that allows less experienced researchers to practice and gain experience efficiently. Ideally, this learning environment would allow less experienced scientists to be guided by more experienced RSEs. We know such practices e.g. from human medicine, where junior doctors first assist experienced doctors before they work independently. In the field of software development, this approach could be implemented in the form of peer programming, for example. The prerequisite for this, however, is that experienced academics get better career opportunities at German universities so that they do not leave for industry roles. 
 
 ## Workshop Results
 
@@ -893,54 +888,35 @@ Therefore this closes the gap, that the research landscape requires RSEs, but th
 ## Appendix
 ### Sources for RSE-related training material
 
-[This is supposed to become a list of good sources of training material.
-WORK IN PROGRESS
-]
+#### Books
 
-Likewise, the reference work on RSE by Fogel [@Fogel2005] was released in its
-second edition as a living document [@Fogel2017]. The ENCCS instructor
-training manual [@ENCCS2022] is also available as a living document
-[@ENCCSInstructorTraining]. The Carpentry instructor guide [@Wilson2019a]
-is available as living documents in both English [@Wilson2019b] and Spanish [@Wilson2019c].
-From the MIT Computer Science & Artificial Intelligence Laboratory comes an
-unofficial course [The Missing Semester of Your CS
-Education](https://missing.csail.mit.edu/) which covers a lot of basic computer
-skills typically taught by RSEs. The skills covered here also provide an
-important set of core capabilities for anyone looking to become an RSE.
++ "Producing Open Source Software" ([@Fogel2005; @Fogel2017]) describes a lot of aspects for running a free software project.
 
-Reference works are available for self-study [@Fogel2005], [@Irving2021].
++ "Research Software Engineering with Python" ([@Irving2021]) targets
+  Python programming novices and introduces a set of essential tools
+  next to the programming language itself.
 
-The National Competence Center Sweden (ENCCS) [https://enccs.se/] provides
-instructor training material [@ENCCSInstructorTraining], [@ENCCS2022] developed
-from Carpentries and CodeRefinery material, as well as lessons for HPC-oriented
-RSEs [@ENCCSLessons].
+#### Course material
 
-Core lessons from The Carpentries were translated in multiple languages
-to make workshops more accessible to communities where the English language
-poses a barrier to learning (for more details, see section
-[How do we reach people in different stages of their careers?]).
-Material with rich metadata are indexed in online databases, such as
-the INTERSECT [@Carver2020] collection [@INTERSECTOnlineResources]
-and the US-RSE collection [@usRSETraining] for all RSE specialisations,
-the ELIXIR [@Gurwitz2020] Training e-Support System (TeSS) platform
-[@Beard2020; @Bacall2023] for bioinformatics and life sciences,
-or the now-defunct Educational Resource Discovery Index (ERuDIte)
-[@VanHorn2017; @Ambite2021] for data science.
++ The Software Carpentries Lessons [@CarpentriesSoftware] provide extensive teaching material
+for basic research software skills geared towards researchers.
 
-The (Intersect)[https://intersect-training.org/] project ....
-(BSSW)[https://bssw.io/] ...
-SSI? [@Crouch2013] ...
++ The unofficial MIT course "The Missing Semester of Your CS Education" ([@Athalye2023])
+covers a lot of basic computer skills typically taught by RSEs.
 
-- [Better Scientific Software (BSSW)](https://bssw.io/) (Collection of ressources for computational science and engineering)
-- Add NFDI initiatives like edutrain.
-- ELIXIR/EXCELERATE/GOBLET train-the-trainer programme [@Via2017; @Morgan2017]
-- Library-RSE resources [@Clarke2019] (no longer updated since 2019)
-- Happy Belly Bioinformatics [@Lee2019]
-- software energy consumption and "green software engineering"
-  [@Pinto2017; @Pereira2021; @Oprescu2022],
-  teaching by SusTrainable [@SusTrainable; @Koopman2022]
-- reference works for self-study [@Fogel2005], [@Irving2021], [@Wilson2019a]
-- FIXME: Add NFDI initiatives like edutrain.
+#### Train-the-trainers material
+
++ "Teaching Tech Together" is a book that derives from and extends the Carpentries Instructor Training [@Brown2023],
+which is a continuously updated and extended online-resource.
+
++ The National Competence Center Sweden (ENCCS) [https://enccs.se/] provides instructor training material
+[@ENCCSInstructorTraining], [@ENCCS2022] developed from Carpentries and CodeRefinery material, as well as lessons for
+HPC-oriented RSEs [@ENCCSLessons].
+
+
+#### Directories  of resources
+
++ Better Scientific Software (BSSW)(https://bssw.io/) (Collection of resources for computational science and engineering) w
 
 
 ### An applied example curriculum
