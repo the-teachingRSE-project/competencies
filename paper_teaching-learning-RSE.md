@@ -902,9 +902,8 @@ industry (see [@HPCAkademie] for an existing, HPC focused instance of this).
 ### First Professional Qualification
 #### A possible graduation path within the classical university structures
 We have put forward the idea that familiarity with research is a prerequisite for an RSE in order to be able to work effectively in the research space and in collaboration with researchers.
-To generate the required number of skilled persons
-We propose to offer a classical Bachelors and Master curriculum at select sites.
-In this particular example, we consider a path into RSE via a traditional university route involving Bachelors and Masters degree studies that include an RSE element.
+To generate the required number of skilled persons we propose to offer a classical Bachelor's and Master's curriculum at selected sites.
+In this particular example, we consider a path into RSE via a traditional university route involving Bachelor's and Master's degree studies that include a RSE element.
 
 However, we recognise that there are other routes into an RSE career and these are increasing.
 For example, some RSEs come from an industry background, others may come through apprenticeship or similar programmes.
