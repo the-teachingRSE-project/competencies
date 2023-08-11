@@ -905,7 +905,7 @@ We have put forward the idea that familiarity with research is a prerequisite fo
 To generate the required number of skilled persons we propose to offer a classical Bachelor's and Master's curriculum at selected sites.
 In this particular example, we consider a path into RSE via a traditional university route involving Bachelor's and Master's degree studies that include a RSE element.
 
-However, we recognise that there are other routes into an RSE career and these are increasing.
+However, we recognise that there are other routes into a RSE career and these are increasing.
 For example, some RSEs come from an industry background, others may come through apprenticeship or similar programmes.
 In both cases, gaining knowledge of the research lifecycle and understanding the ways that researchers work towards solutions
 to research challenges is something that can be developed on-the-job alongside training opportunities and the chance to work directly with researchers.
