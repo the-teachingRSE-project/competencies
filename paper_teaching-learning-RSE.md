@@ -967,7 +967,7 @@ We propose institutionalized structures that offer graduates a venue for life-lo
 Centralizing this notion in a few institutions has some major benefits for society and industry as well,
 since these become central hubs for offering the skills with digital tools.
 The HPC-Akademie [@HPCAkademie] is a good example in the HPC space that offers its services to graduated
-researchers that want to deepen their HPC skills for research or to practitioners tht require them for industrial applications.
+researchers that want to deepen their HPC skills for research or to practitioners that require them for industrial applications.
 Specializing the centres to certain skill sets enables them to effectively reach out into the sciences with their brand.
 With the existence of these resources we believe that their acceptance gradually increases over time.
 The tasks of these centres is facilitated by reusing the work of initiatives like edutrain [@edutrain] and platforms like DALIA [@DALIA].
