@@ -916,7 +916,7 @@ Indeed, we consider it much more useful if new graduates looking to work in the 
 Expertise, beyond software development skills,
 in another research domain can be an important element of an RSE team being able to support RSE projects in that domain.
 
-A \${Domain}-RSE in the STEM domains can start with a Bachelor degree in their domain that shares large portions
+A \${Domain}-RSE in the STEM domains can start with a Bachelor's degree in their domain that shares large portions
 of the curriculum with their original domain. There will only be some courses that advance peoples knowledge about digital
 tools and how to create tools from them.
 The Master's years bring them forward to actually applying their knowledge. So during these years they
