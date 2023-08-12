@@ -552,9 +552,11 @@ The required skills are distributed according to this table
 First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (less -> lot)
 
 \blandscape
+\small
+\renewcommand*{\arraystretch}{1.4}
 
 |       | Junior | Senior | Principal RSE(brings in funding)  |
-| ----  | ------ | ------ | --- |
+| ----  | -------------- | -------------- | ------------------ |
 | DOCBB | should be able to write reusable building blocks |same as junior, but the quality should set the standard for the project, while following current best practices | should know the current best practices and point its people to the right resources. |
 | LIBS  | should be able to use package distribution platforms      | same as junior, but should set the project standard and follow current best practices. | should ensure that their project is in an up-to-date distribution platform |
 | MOD   | should have a basic grasp of their piece of the software in order to use basic tools like a debugger | Should understand the characteristics of large parts of the codebase considering a variety of the metrics | Should understand the big idea of the software project in order to define the task that the software solves  |
@@ -593,9 +595,11 @@ Certain fields, e.g. sciences relying on simulations, might require higher skill
 as software development is a large part of their actual research.
 
 \blandscape
+\small
+\renewcommand*{\arraystretch}{1.4}
 
 |       | Bachelor | Master | PhD | PostDoc | PI/Professor | 
-| ----  | ------ | ------ | ---   | ------  | ---|
+| ----  | ----------- | ----------- | ----------- | ------ | --------------- |
 | DOCBB | They should be aware that RSEs exist and that software has different quality aspects | Same as Bachelor | They should know where they can get help, and maybe able to use libraries | same as PhD | They should know the skills of an RSE and when they might need one in their group |
 | LIBS  | They should be aware that RSEs exist and that there are tools available in their domain | They should be aware that there are tools that they can use in their research and maybe are able to use these libraries  | same as Master, but able to use libraries |  same as PhD  | They should be aware of the output of RSEs and motivate their students to use developed tools  |
 | MOD   | It is sufficient to consider digital tools as black boxes | It is sufficient to be able to _use_ software as black boxes |  same as Master, but being able to write bug reports | same as PhD | same as PostDoc  |
@@ -621,9 +625,11 @@ Some explanation of the team sizes:
 - Organizations( >10 persons): These are big organizations with clear structures and a bigger degree of specialization.
 
 \blandscape
+\small
+\renewcommand*{\arraystretch}{1.4}
 
 |       | individual | small team | organization  |
-| ----  | ------ | ------ | --- |
+| ----  | ----------- | ----------- | --------------- |
 | DOCBB |   you might get away with less satisfactory code, as long as the product is OK | think about your colleagues    | your organization most likely has guides here |
 | LIBS  |   you will only be successful if your artefact is usable by others    |  same here   | your organization probably has rules here |
 | MOD   | you should precisely know what your entire code is doing where | you should know what your part is doing and have a feeling about the others contributions | You should know what your small part is doing |
