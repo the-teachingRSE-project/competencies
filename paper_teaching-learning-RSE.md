@@ -13,6 +13,7 @@ author:
   - Fredo Erxleben
   - Magnus Hagdorn
   - Harald von Waldow
+  - Morith Schwarzmeier
 output:
   pdf_document:
     citation_package: biblatex
@@ -198,6 +199,7 @@ So, although there are Germany specific traits found in this document
 we are nevertheless dealing with the education of humans to become RSEs -
 A topic that is of major relevance also in an international context.
 
+
 ## Values
 
 The activities of an RSE are guided by ethical values.
@@ -256,7 +258,10 @@ A current example is the rush for the application of Large Language Models (LLMs
 where RSEs working in these fields should stay up-to-date and be able to help researchers to assess topics
 such as training-data bias, LLM "hallucinations" or malicious use.
 
+*** A SURVEY OF INITIATIVES PROVIDING EDUCATIVE MATERIAL IN THE RSE SPACE ***
+
 ## Related Work and Activities
+
 
 The challenges of understanding the current state of skills within the research software community and related areas, as well as identifying required competencies, developing training pathways and providing training materials are areas that are being looked at and addressed by various groups and projects. In this section, we highlight some of these other projects and activities.
 
@@ -399,8 +404,9 @@ Depending on the specific domain there is a gap between the basic software carpe
 
 Moreover, software development is a craft, i.e. it is not only about knowledge but also requires practical experience. Hence we need to create an environment that allows less experienced researchers to practice and gain experience efficiently. Ideally, this learning environment would allow less experienced scientists to be guided by more experienced RSEs. We know such practices e.g. from human medicine, where junior doctors first assist experienced doctors before they work independently. In the field of software development, this approach could be implemented in the form of peer programming, for example. The prerequisite for this, however, is that experienced academics get better career opportunities at German universities so that they do not leave for industry roles. 
 
-## Workshop Results
+*** AN ATTEMPT TO DEFINE COMPETENCIES AND RESPONSIBILITIES OF AN RSE ***
 
+## Workshop Results
 ## Required Generic RSE skills
 The role of an RSE lies somewhere on the spectrum between that of a researcher
 (the "R") and a software engineer (the "SE") and, therefore, requires
@@ -607,9 +613,11 @@ The required skills are distributed according to this table
 First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (less -> lot)
 
 \blandscape
+\small
+\renewcommand*{\arraystretch}{1.4}
 
 |       | Junior | Senior | Principal RSE(brings in funding)  |
-| ----  | ------ | ------ | --- |
+| ----  | -------------- | -------------- | ------------------ |
 | DOCBB | should be able to write reusable building blocks |same as junior, but the quality should set the standard for the project, while following current best practices | should know the current best practices and point its people to the right resources. |
 | LIBS  | should be able to use package distribution platforms      | same as junior, but should set the project standard and follow current best practices. | should ensure that their project is in an up-to-date distribution platform |
 | MOD   | should have a basic grasp of their piece of the software in order to use basic tools like a debugger | Should understand the characteristics of large parts of the codebase considering a variety of the metrics | Should understand the big idea of the software project in order to define the task that the software solves  |
@@ -648,9 +656,11 @@ Certain fields, e.g. sciences relying on simulations, might require higher skill
 as software development is a large part of their actual research.
 
 \blandscape
+\small
+\renewcommand*{\arraystretch}{1.4}
 
 |       | Bachelor | Master | PhD | PostDoc | PI/Professor | 
-| ----  | ------ | ------ | ---   | ------  | ---|
+| ----  | ----------- | ----------- | ----------- | ------ | --------------- |
 | DOCBB | They should be aware that RSEs exist and that software has different quality aspects | Same as Bachelor | They should know where they can get help, and maybe able to use libraries | same as PhD | They should know the skills of an RSE and when they might need one in their group |
 | LIBS  | They should be aware that RSEs exist and that there are tools available in their domain | They should be aware that there are tools that they can use in their research and maybe are able to use these libraries  | same as Master, but able to use libraries |  same as PhD  | They should be aware of the output of RSEs and motivate their students to use developed tools  |
 | MOD   | It is sufficient to consider digital tools as black boxes | It is sufficient to be able to _use_ software as black boxes |  same as Master, but being able to write bug reports | same as PhD | same as PostDoc  |
@@ -676,9 +686,11 @@ Some explanation of the team sizes:
 - Organizations( >10 persons): These are big organizations with clear structures and a bigger degree of specialization.
 
 \blandscape
+\small
+\renewcommand*{\arraystretch}{1.4}
 
 |       | individual | small team | organization  |
-| ----  | ------ | ------ | --- |
+| ----  | ----------- | ----------- | --------------- |
 | DOCBB |   you might get away with less satisfactory code, as long as the product is OK | think about your colleagues    | your organization most likely has guides here |
 | LIBS  |   you will only be successful if your artefact is usable by others    |  same here   | your organization probably has rules here |
 | MOD   | you should precisely know what your entire code is doing where | you should know what your part is doing and have a feeling about the others contributions | You should know what your small part is doing |
@@ -860,6 +872,9 @@ Further ideas:
   peer-reviewing of code of conducts by the CHAOSS Diversity and Inclusion Badging organization [@CHAOSSDEIBadging; @GitHubCHAOSS]
 - related discussion in CSE [@Webb2017]
 
+
+*** INSTITUTIONALIZED ORGANIZATION OF RSE EDUCATION ***
+
 ## Organizational Infrastructures
 So we have defined our set of competencies that we feel every RSE should possess.
 Table 2 above nevertheless already hints at the fact that some RSE skills are required during the domain studies,
@@ -963,6 +978,8 @@ Some universities already offer dedicated master's programs in some domains.
 Examples would be Computational Sciences in Engineering (CSE) or Bioinformatics
 (see Appendix: [Bioinformatics skills and certification]).
 Where appropriate similar programs should also be established in other domains.
+
+*** EDUCATING RSEs in GERMANY - WHAT NEEDS TO BE DONE ***
 
 ## Required Next steps
 ### Implementation Strategies
