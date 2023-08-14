@@ -13,7 +13,7 @@ author:
   - Fredo Erxleben
   - Magnus Hagdorn
   - Harald von Waldow
-  - Morith Schwarzmeier
+  - Moritz Schwarzmeier
 output:
   pdf_document:
     citation_package: biblatex
