@@ -258,12 +258,18 @@ A current example is the rush for the application of Large Language Models (LLMs
 where RSEs working in these fields should stay up-to-date and be able to help researchers to assess topics
 such as training-data bias, LLM "hallucinations" or malicious use.
 
-*** A SURVEY OF INITIATIVES PROVIDING EDUCATIVE MATERIAL IN THE RSE SPACE ***
-
-## Related Work and Activities
-
-
-The challenges of understanding the current state of skills within the research software community and related areas, as well as identifying required competencies, developing training pathways and providing training materials are areas that are being looked at and addressed by various groups and projects. In this section, we highlight some of these other projects and activities.
+### Number of required RSE graduates
+In order to set up the argument for dedicated RSE education we need at least a ballpark estimate of the number of required graduates.
+We start from the number of researchers in Germany. The OECD Data [OECD2023] reports a number of 667,394 researchers in 2019.
+In public research alone we have better numbers and 71,733 researchers were recorded in 2020.
+Taking a rough estimate of requiring around one RSE per 10 researchers (FIXME!! Number anecdotal!!)(A number that has been put forward in another workshop
+in Paderborn) brings us to a need of around 6.000 RSEs in Germany. Assuming an equal distribution with regard to age
+and an average time in the RSE workforce of 40 years, yields an average need of around 150 RSEs per year.
+If we assume that half of the workforce is made up by researchers coming from domain specific graduation programs and the other half are properly minted
+RSE graduates this suggests that there is a requirement for around four dedicated RSE education places each producing graduating classes of around 20 persons each year.
+This calculation assumes that RSEs remain within the research community and do not move into industry with their highly transferable skillset.
+While this calculation is only supposed to give a rough ballpark estimate, we note that Germany has 319 places of higher education [destatis2023].
+Having only three RSEs at each site already gives a requirement of 1000 persons.
 
 ## Identifying skills and pathways
 
@@ -283,12 +289,22 @@ community manager-RSE [@Woodley2021], and generalist RSE [@usRSESkills].
 However, the present document is, to our knowledge, the first attempt
 at defining the skills of a generalist RSE at different levels of seniority.
 
+
 FIXME:
 
 - [@Cosden2022b]
 - skill gaps for software verification/testing (fig. 1 in [@Hannay2009])
   and bioinformatics [@MacLean1999; @Pevzner2009]
 - software evaluation criteria [@Jackson2011a; @ChueHong2014]
+
+*** A SURVEY OF INITIATIVES PROVIDING EDUCATIVE MATERIAL IN THE RSE SPACE ***
+
+## Related Work and Activities
+
+The challenges of understanding the current state of skills within the research software community and related areas,
+as well as identifying required competencies, developing training pathways and providing training materials are areas that are being looked at and addressed by various groups and projects.
+In this section, we highlight some of these other projects and activities.
+
 
 ### RSE-related Training Materials
 
