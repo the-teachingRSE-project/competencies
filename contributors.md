@@ -12,7 +12,7 @@ Florian Goth, Universität Würzburg, 0000-0003-2707-4790, fgoth@physik.uni-wuer
 
 Jan Linxweiler, Technische Universität Braunschweig, 0000-0002-2755-5087, j.linxweiler@tu-braunschweig.de
 
-Jan Philipp Thiele, Leibniz Universität Hannover, 0000-0002-8901-6660, thiele@ifam.uni-hannover.de
+Jan Philipp Thiele, Weierstrass Institute, 0000-0002-8901-6660, thiele@ifam.uni-hannover.de
 
 Jeremy Cohen, Imperial College London, 0000-0003-4312-2537, jeremy.cohen@imperial.ac.uk
 
@@ -24,10 +24,25 @@ Jean-Noël Grad, Institute for Computational Physics, University of Stuttgart, G
 
 Fredo Erxleben, Helmholtz-Zentrum Dresden-Rossendorf, 0000-0001-7233-3005, f.erxleben@hzdr.de
 
+Magnus Hagdorn, Charité Universitätsmedizin Berlin, 0000-0002-5076-4864, magnus.hagdorn@charite.de
+
+Moritz Schwarzmeier, TU Darmstadt, 0000-0001-8992-6245, moritz.schwarzmeier@tu-darmstadt.de
+
 your name, affiliation, orcid, e-mail
 
 
 ## Acknowledgements
+
+JC acknowledges support from the UK Engineering and Physical Sciences Research Council (UKI-EPSRC) under grants EP/R025460/1 and EP/W035731/1.
+FG thanks the GRF for funding through the SFB 1170 “Tocotronics” under the grant number Z03.
+MS would like to thank the Federal Government and the Heads of Government of the Länder, as well as the Joint Science Conference (GWK), for their funding and support within the framework of the NFDI4Ing consortium. Funded by the German Research Foundation (DFG) - project number 442146713.
+JNG acknowledges funding from the Deutsche Forschungsgemeinschaft
+(DFG, German Research Foundation) Research Software Sustainability
+grant no. [391126171](https://gepris.dfg.de/gepris/projekt/391126171?language=en)
+(PI: Holm) and from the European Union – this work has received funding
+from the European High Performance Computing Joint Undertaking (JU) and
+countries participating in the project under grant agreement
+No [101093169](https://doi.org/10.3030/101093169).
 
 your name, affiliation, orcid, e-mail
 
