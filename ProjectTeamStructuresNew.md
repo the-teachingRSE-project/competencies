@@ -16,6 +16,23 @@ We also look at organizational aspects in the context of each of the considered 
 - **Group of developers (RSE team-based):** A group of members of the RSE team working together on a research software project for a research group.
 - **Organization-level support:** How the defined competencies are recognised and represented at organisational level.
 
+
+
+
+Table: Required Competencies in different organization forms.
+
++---------------------+---------------------------------------+---------------------------------------+---------------------------------------+
+| Competency          |   *Working as an individual developer*|   *Working with a group of developers*|  *Organization-level support*         |
+|                     +-------------------+-------------------+-------------------+-------------------+-------------------+-------------------+
+|                     |   Locally-based   |    RSE Team-based |   Locally-based   |    RSE Team-based |   Locally-based   |    RSE Team-based |
++=====================+===================+===================+===================+===================+===================+===================+
+|  DOCBB              | Focus on          |  Likely greater   | -89.2 °C          |                   | -89.2 °C          |                   |
++---------------------+-------------------+-------------------+-------------------+-------------------+-------------------+-------------------+
+
+
+
+
+
 <table>
   <thead>
     <tr>
