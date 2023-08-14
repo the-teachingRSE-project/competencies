@@ -13,6 +13,7 @@ author:
   - Fredo Erxleben
   - Magnus Hagdorn
   - Harald von Waldow
+  - Moritz Schwarzmeier
 output:
   pdf_document:
     citation_package: biblatex
@@ -142,7 +143,7 @@ FIXME (finalization): Exchange chapter titles by numbers?
 
 
 ### Some Definitions
-A couple of definitions are in order.
+A few definitions are in order.
 First as software we define source code, documentation, tests
 and all other artefacts that are created by humans during the development process
 that are necessary to understand its purpose.
@@ -150,8 +151,8 @@ that are necessary to understand its purpose.
 We define research to encompass all domains of research.
 Since we expect a sizeable portion of readers from Germany we
 quickly want to address a common false friend.
-The german 'Wissenschaft' encompasses all domains of publicly funded
-research, while the english 'science' is generally limited to natural sciences.
+The German term 'Wissenschaft' encompasses all domains of publicly funded
+research, while the English term 'science' is generally limited to natural sciences.
 Therefore, we will use 'research' to encompass all domains therefore gives the employability of RSEs.
 Of course 'research' as well as 'Forschung' is not limited to public funding
 but also part of industrial and other private companies.
@@ -191,15 +192,84 @@ institutionalised. Finally, the strong emphasis on team-skills allows RSEs to be
 very employable in industrial workplaces.
 
 ### National Context
+
 Having been developed at a workshop in Paderborn in Germany, naturally a part
-of the discussion in this paper focusses on the german academic landscape.
-So, although there are germany specific traits found in this document
+of the discussion in this paper focusses on the German academic landscape.
+So, although there are Germany specific traits found in this document
 we are nevertheless dealing with the education of humans to become RSEs -
 A topic that is of major relevance also in an international context.
 
-### Related Work and Activities
 
-The challenges of understanding the current state of skills within the research software community and related areas, as well as identifying required competencies, developing training pathways and providing training materials are areas that are being looked at and addressed by various groups and projects. In this section, we highlight some of these other projects and activities.
+## Values
+
+The activities of an RSE are guided by ethical values.
+A general list of applicable values is given in the Software Engineering Code of Ethics [@Gotterbarn1999].
+Central to that code is the RSE's obligation to act in the public interest.
+Further values loosely based on that code include the obligations
+
++ to take great care to develop software that adheres to current best practices,
++ to judge independently and maintain professional integrity,
++ to treat colleagues and collaborators with respect and work towards a fair and inclusive environment, and
++ to promote these values whenever possible and make sure that they are passed on to new practitioners.
+
+RSEs often assume a multifaceted role at the junction of research, software engineering and data management.
+They work with a varying and diverse set of colleagues that might include other developers,
+support unit staff and academics of different fields and all career-stages.
+This situation yields a specific set of challenges RSEs should be aware of
+to consciously make ethically sound judgment calls.
+We list some example areas that could be addressed in RSE courses or workshops.
+
+### Personal data
+
+Independent from the encoding into the respective national law in an RSE's jurisdiction,
+the right to information privacy is internationally recognized as a fundamental human right,
+e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988], [@Hirvela2022].
+RSEs need to be aware of this topic's importance
+and deal with tensions that might arise with researchers' desire for frictionless sharing of data.
+Handling personal data also has ramifications for information security considerations during the software development process.
+Data protection is a difficult subject and RSEs should notice when they need to consult external expertise for example when dealing with
+special topics such as cryptography or re-identification attacks (e.g. [@Sweeney2002]).
+
+### Mentoring and diversity
+
+RSEs are often experienced professionals who instruct and work closely with early career researches.
+Similarly to academic supervisors, they bear a certain responsibility to guide and advise younger colleagues
+with respect to career development and the achievement of academic goals.
+Software engineering is still strongly dominated by white males [@StackOverflow2022].
+In their work RSEs might frequently find themselves in a position
+to encourage, mentor and empower people who gravitate towards software-related occupations.
+In this capacity they should be aware of the diversity problem and help to mediate it
+whenever they have the chance to do so.
+
+### The scientific community
+
+Through writing research software, RSEs have a pivotal position in the process of scientific production.
+Their choices might determine whether the respective research is reproducible or not,
+whether the results can be re-used, whether future research can build on existing tools or has to start from scratch.
+Builders of larger research-infrastructure projects determine to some extent
+the possibilities and limitations of future research
+and therefore need to be aware of concepts such as Open Science, path dependence and vendor lock-in.
+
+### Emerging challenges
+
+RSEs often operate at the cutting edge of technological development
+and therefore might have to deal with technologies of which the dangers and drawbacks are still poorly understood.
+A current example is the rush for the application of Large Language Models (LLMs),
+where RSEs working in these fields should stay up-to-date and be able to help researchers to assess topics
+such as training-data bias, LLM "hallucinations" or malicious use.
+
+### Number of required RSE graduates
+In order to set up the argument for dedicated RSE education we need at least a ballpark estimate of the number of required graduates.
+We start from the number of researchers in Germany. The OECD Data [OECD2023] reports a number of 667,394 researchers in 2019.
+In public research alone we have better numbers and 71,733 researchers were recorded in 2020.
+Taking a rough estimate of requiring around one RSE per 10 researchers (FIXME!! Number anecdotal!!)(A number that has been put forward in another workshop
+in Paderborn) brings us to a need of around 6.000 RSEs in Germany. Assuming an equal distribution with regard to age
+and an average time in the RSE workforce of 40 years, yields an average need of around 150 RSEs per year.
+If we assume that half of the workforce is made up by researchers coming from domain specific graduation programs and the other half are properly minted
+RSE graduates this suggests that there is a requirement for around four dedicated RSE education places each producing graduating classes of around 20 persons each year.
+This calculation assumes that RSEs remain within the research community and do not move into industry with their highly transferable skillset.
+While this calculation is only supposed to give a rough ballpark estimate, we note that Germany has 319 places of higher education [destatis2023].
+Having only three RSEs at each site already gives a requirement of 1000 persons.
 
 ## Identifying skills and pathways
 
@@ -219,12 +289,22 @@ community manager-RSE [@Woodley2021], and generalist RSE [@usRSESkills].
 However, the present document is, to our knowledge, the first attempt
 at defining the skills of a generalist RSE at different levels of seniority.
 
+
 FIXME:
 
 - [@Cosden2022b]
 - skill gaps for software verification/testing (fig. 1 in [@Hannay2009])
   and bioinformatics [@MacLean1999; @Pevzner2009]
 - software evaluation criteria [@Jackson2011a; @ChueHong2014]
+
+*** A SURVEY OF INITIATIVES PROVIDING EDUCATIVE MATERIAL IN THE RSE SPACE ***
+
+## Related Work and Activities
+
+The challenges of understanding the current state of skills within the research software community and related areas,
+as well as identifying required competencies, developing training pathways and providing training materials are areas that are being looked at and addressed by various groups and projects.
+In this section, we highlight some of these other projects and activities.
+
 
 ### RSE-related Training Materials
 
@@ -287,11 +367,12 @@ to create their own instructor manual [@ENCCSInstructorTraining; @ENCCS2022].
 The ENCCS lessons are targeted at individuals who already have general RSE
 skills and are seeking new skills relevant to HPC and software engineering.
 
+
 #### SureSoft
 Suresoft [@SURESOFTLink] is a DFG funded project at TU Braunschweig and FAU Erlangen-Nürnberg fostering the sustainability of research software by helping researchers adopt practices and tools from the software engineering community [@SURESOFT2022]. 
 The project implements a twofold approach that combines tools and infrastructure with education in the form of workshops and training.
 
-### Open Source Resources
+### FAIRness of RSE-related materials
 Due to the ever-evolving nature of skills and infrastructure in the RSE field,
 training material is often version-controlled, so that trainers can update it
 between iterations. For example, core lessons from the Carpentries and CodeRefinery
@@ -340,12 +421,21 @@ FIXME:
 - What is missing
 - domain application?
 
-Depending on the specific domain there is a gap between the basic software carpentry courses and the required skills to build domain-specific research software. For example, scientists in the field of High Performance Computing (HPC) need to know how to make effective use of concurrency to speed up their simulations and communicate efficiently using message-passing interface (MPI) libraries. The same is true for researchers from other domains who make use of other specialized technologies, methods and/or tools. To bridge those gaps more specialized courses would be needed like the one mentioned in section [Identifying skills and pathways] for the HPC community.
+As seen in the previous section, there already exist a number of open educational resources in the field of RSE. However, what is missing is a practical way to search all of these at once. This is mainly due to the lack of a metadata standard concerning EOR resources within the RSE community, as well as some simple way to collect potentially existing metadata in one place in order to enable a comprehensive search.
+
+Building on this: courses exist on different knowledge and experience levels and, at least in part, build upon each other. However, there is currently no (unified) way to clearly label
+- what are the topics taught by a course
+- what are the topics recommended to know to start the course
+- what are the topics required to know to start the course
+This, in part, is due to a missing (metadata) standard to express these dependencies.
+
+Continuing along thes line of course dependencies and also depending on the specific domain there are gaps between very basic and very advanced courses, e.g., there is a gap between the basic software carpentry courses and the required skills to build domain-specific research software. For example, scientists in the field of High Performance Computing (HPC) need to know how to make effective use of concurrency to speed up their simulations and communicate efficiently using message-passing interface (MPI) libraries. The same is true for researchers from other domains who make use of other specialized technologies, methods and/or tools. To bridge those gaps more specialized courses would be needed like the one mentioned in section [Identifying skills and pathways] for the HPC community.
 
 Moreover, software development is a craft, i.e. it is not only about knowledge but also requires practical experience. Hence we need to create an environment that allows less experienced researchers to practice and gain experience efficiently. Ideally, this learning environment would allow less experienced scientists to be guided by more experienced RSEs. We know such practices e.g. from human medicine, where junior doctors first assist experienced doctors before they work independently. In the field of software development, this approach could be implemented in the form of peer programming, for example. The prerequisite for this, however, is that experienced academics get better career opportunities at German universities so that they do not leave for industry roles. 
 
-## Workshop Results
+*** AN ATTEMPT TO DEFINE COMPETENCIES AND RESPONSIBILITIES OF AN RSE ***
 
+## Workshop Results
 ## Required Generic RSE skills
 The role of an RSE lies somewhere on the spectrum between that of a researcher
 (the "R") and a software engineer (the "SE") and, therefore, requires
@@ -552,9 +642,11 @@ The required skills are distributed according to this table
 First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (less -> lot)
 
 \blandscape
+\small
+\renewcommand*{\arraystretch}{1.4}
 
 |       | Junior | Senior | Principal RSE(brings in funding)  |
-| ----  | ------ | ------ | --- |
+| ----  | -------------- | -------------- | ------------------ |
 | DOCBB | should be able to write reusable building blocks |same as junior, but the quality should set the standard for the project, while following current best practices | should know the current best practices and point its people to the right resources. |
 | LIBS  | should be able to use package distribution platforms      | same as junior, but should set the project standard and follow current best practices. | should ensure that their project is in an up-to-date distribution platform |
 | MOD   | should have a basic grasp of their piece of the software in order to use basic tools like a debugger | Should understand the characteristics of large parts of the codebase considering a variety of the metrics | Should understand the big idea of the software project in order to define the task that the software solves  |
@@ -593,9 +685,11 @@ Certain fields, e.g. sciences relying on simulations, might require higher skill
 as software development is a large part of their actual research.
 
 \blandscape
+\small
+\renewcommand*{\arraystretch}{1.4}
 
 |       | Bachelor | Master | PhD | PostDoc | PI/Professor | 
-| ----  | ------ | ------ | ---   | ------  | ---|
+| ----  | ----------- | ----------- | ----------- | ------ | --------------- |
 | DOCBB | They should be aware that RSEs exist and that software has different quality aspects | Same as Bachelor | They should know where they can get help, and maybe able to use libraries | same as PhD | They should know the skills of an RSE and when they might need one in their group |
 | LIBS  | They should be aware that RSEs exist and that there are tools available in their domain | They should be aware that there are tools that they can use in their research and maybe are able to use these libraries  | same as Master, but able to use libraries |  same as PhD  | They should be aware of the output of RSEs and motivate their students to use developed tools  |
 | MOD   | It is sufficient to consider digital tools as black boxes | It is sufficient to be able to _use_ software as black boxes |  same as Master, but being able to write bug reports | same as PhD | same as PostDoc  |
@@ -621,9 +715,11 @@ Some explanation of the team sizes:
 - Organizations( >10 persons): These are big organizations with clear structures and a bigger degree of specialization.
 
 \blandscape
+\small
+\renewcommand*{\arraystretch}{1.4}
 
 |       | individual | small team | organization  |
-| ----  | ------ | ------ | --- |
+| ----  | ----------- | ----------- | --------------- |
 | DOCBB |   you might get away with less satisfactory code, as long as the product is OK | think about your colleagues    | your organization most likely has guides here |
 | LIBS  |   you will only be successful if your artefact is usable by others    |  same here   | your organization probably has rules here |
 | MOD   | you should precisely know what your entire code is doing where | you should know what your part is doing and have a feeling about the others contributions | You should know what your small part is doing |
@@ -805,6 +901,9 @@ Further ideas:
   peer-reviewing of code of conducts by the CHAOSS Diversity and Inclusion Badging organization [@CHAOSSDEIBadging; @GitHubCHAOSS]
 - related discussion in CSE [@Webb2017]
 
+
+*** INSTITUTIONALIZED ORGANIZATION OF RSE EDUCATION ***
+
 ## Organizational Infrastructures
 So we have defined our set of competencies that we feel every RSE should possess.
 Table 2 above nevertheless already hints at the fact that some RSE skills are required during the domain studies,
@@ -867,7 +966,7 @@ institutions to issue these certificates.
 Additionally, it can be excluding capable applicants who already use these
 skills but never got a certificate for it.
 
-The possible types of certificates can of course differ.
+The possible types of certificates can of course differ. 
 The [HPC skills and certification] Appendix explores current efforts at creating
 a HPC certification program for both academic and industry RSEs. Course attendance
 sheets and digital tokens [@Ifenthaler2016; @Chakroun2018; @Fanfarelli2015; @McDaniel2016]
@@ -908,6 +1007,8 @@ Some universities already offer dedicated master's programs in some domains.
 Examples would be Computational Sciences in Engineering (CSE) or Bioinformatics
 (see Appendix: [Bioinformatics skills and certification]).
 Where appropriate similar programs should also be established in other domains.
+
+*** EDUCATING RSEs in GERMANY - WHAT NEEDS TO BE DONE ***
 
 ## Required Next steps
 ### Implementation Strategies
