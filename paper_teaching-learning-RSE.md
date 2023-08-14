@@ -13,6 +13,7 @@ author:
   - Fredo Erxleben
   - Magnus Hagdorn
   - Harald von Waldow
+  - Morith Schwarzmeier
 output:
   pdf_document:
     citation_package: biblatex
@@ -191,6 +192,7 @@ institutionalised. Finally, the strong emphasis on team-skills allows RSEs to be
 very employable in industrial workplaces.
 
 ### National Context
+
 Having been developed at a workshop in Paderborn in Germany, naturally a part
 of the discussion in this paper focusses on the German academic landscape.
 So, although there are Germany specific traits found in this document
@@ -198,9 +200,68 @@ we are nevertheless dealing with the education of humans to become RSEs -
 A topic that is of major relevance also in an international context.
 
 
+## Values
+
+The activities of an RSE are guided by ethical values.
+A general list of applicable values is given in the Software Engineering Code of Ethics [@Gotterbarn1999].
+Central to that code is the RSE's obligation to act in the public interest.
+Further values loosely based on that code include the obligations
+
++ to take great care to develop software that adheres to current best practices,
++ to judge independently and maintain professional integrity,
++ to treat colleagues and collaborators with respect and work towards a fair and inclusive environment, and
++ to promote these values whenever possible and make sure that they are passed on to new practitioners.
+
+RSEs often assume a multifaceted role at the junction of research, software engineering and data management.
+They work with a varying and diverse set of colleagues that might include other developers,
+support unit staff and academics of different fields and all career-stages.
+This situation yields a specific set of challenges RSEs should be aware of
+to consciously make ethically sound judgment calls.
+We list some example areas that could be addressed in RSE courses or workshops.
+
+### Personal data
+
+Independent from the encoding into the respective national law in an RSE's jurisdiction,
+the right to information privacy is internationally recognized as a fundamental human right,
+e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988], [@Hirvela2022].
+RSEs need to be aware of this topic's importance
+and deal with tensions that might arise with researchers' desire for frictionless sharing of data.
+Handling personal data also has ramifications for information security considerations during the software development process.
+Data protection is a difficult subject and RSEs should notice when they need to consult external expertise for example when dealing with
+special topics such as cryptography or re-identification attacks (e.g. [@Sweeney2002]).
+
+### Mentoring and diversity
+
+RSEs are often experienced professionals who instruct and work closely with early career researches.
+Similarly to academic supervisors, they bear a certain responsibility to guide and advise younger colleagues
+with respect to career development and the achievement of academic goals.
+Software engineering is still strongly dominated by white males [@StackOverflow2022].
+In their work RSEs might frequently find themselves in a position
+to encourage, mentor and empower people who gravitate towards software-related occupations.
+In this capacity they should be aware of the diversity problem and help to mediate it
+whenever they have the chance to do so.
+
+### The scientific community
+
+Through writing research software, RSEs have a pivotal position in the process of scientific production.
+Their choices might determine whether the respective research is reproducible or not,
+whether the results can be re-used, whether future research can build on existing tools or has to start from scratch.
+Builders of larger research-infrastructure projects determine to some extent
+the possibilities and limitations of future research
+and therefore need to be aware of concepts such as Open Science, path dependence and vendor lock-in.
+
+### Emerging challenges
+
+RSEs often operate at the cutting edge of technological development
+and therefore might have to deal with technologies of which the dangers and drawbacks are still poorly understood.
+A current example is the rush for the application of Large Language Models (LLMs),
+where RSEs working in these fields should stay up-to-date and be able to help researchers to assess topics
+such as training-data bias, LLM "hallucinations" or malicious use.
+
 *** A SURVEY OF INITIATIVES PROVIDING EDUCATIVE MATERIAL IN THE RSE SPACE ***
 
-### Related Work and Activities
+## Related Work and Activities
+
 
 The challenges of understanding the current state of skills within the research software community and related areas, as well as identifying required competencies, developing training pathways and providing training materials are areas that are being looked at and addressed by various groups and projects. In this section, we highlight some of these other projects and activities.
 
@@ -876,7 +937,7 @@ institutions to issue these certificates.
 Additionally, it can be excluding capable applicants who already use these
 skills but never got a certificate for it.
 
-The possible types of certificates can of course differ.
+The possible types of certificates can of course differ. 
 The [HPC skills and certification] Appendix explores current efforts at creating
 a HPC certification program for both academic and industry RSEs. Course attendance
 sheets and digital tokens [@Ifenthaler2016; @Chakroun2018; @Fanfarelli2015; @McDaniel2016]
