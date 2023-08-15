@@ -773,10 +773,18 @@ and can assist domain scientists who have excellent command of scripting languag
 but only a cursory understanding of compiled languages get up to speed with
 compiled software.
 
-### Research Infrastructure RSE
-This RSE is interested in SysOps and sets up infrastructures for and with researchers.
-This RSE, therefore, requires a deep knowledge of physical computer and network hardware.
-FIXME: While required, is this an RSE? this sets off the usual infrastructure vs. research discussion....
+#### ML-RSE
+The development of research software based on machine learning (ML) requires specialized theoretical background and experienced handling of appropriate software in order to produce meaningful results.
+This involves knowledge about data analysis and feature engineering, metrics that are involved in ML, ML algorithm selection and cross validation, and knowledge in mathematical optimization methods and statistics.
+ML-RSEs analyse and check the suitability of an algorithm if it fulfils the needs of a certain task and they play a main role in deciding and selecting machine learning libraries for a given task.
+The increasing usage of ML in numerous scientific areas with social impact, involves an emphasized awareness and consideration of possible manipulative or discriminatory influences.
+At the intersection of data science [@SSIDataScience] and Data-focused RSEs, the complex way of solving problems utilizing machine learning calls for this separate specialization.
+
+#### Research Infrastructure RSE
+This RSE is interested in SysOps and system administration and sets up IT infrastructures for and with researchers.
+Therefore, this specialization on the one hand requires a deep knowledge of physical computer and network hardware and on the other hand knowledge about setup and configuration of particular server software.
+Those specialised RSEs know how to acquire, setup and maintain general-purpose as well as domain specific infrastructure, e.g. setup of virtual machines on hypervisors or build-up of compute server cluster for GPU based machine learning.
+As an interface between the researchers and the infrastructure, they take care of user management, access permissions, and configuration of required services, for example.
 
 ### Web-Development RSE
 This RSE is skilled in web applications, front- and/or backend, and/or building 
@@ -787,14 +795,18 @@ Therefore a deep knowledge of web skills is a required skill for this RSE.
 
 ### Legal-RSE
 With the prevalence of software, we foresee the need for RSEs that specialize in legal questions around software.
-They are the go-to person if people have a question about licensing, mixing and matching software, and/or patenting.
+They are the go-to person if people have a question about licensing, mixing and matching of software as well as patenting or copyright.
+The publication of research software also requires knowledge about particular laws or regulatory frameworks concerning data protection, like the GDPR within the EU [@GDPR].
+Familiarity with legal aspects of cybersecurity and export control in science and research (see [@ExportControl] for Germany) complete the competencies of those RSEs.
 
 ### Data-focused RSE
 RSEs working at the flourishing intersection between data science and RSE. 
 They are skilled in cleaning data and/or running data analyses and can help researchers
 in setting up their analysis pipeline and/or research data management (RDM) solutions.
 When the field requires research on sensitive data or information, e.g. patient information in medicine, 
-this RSE should have knowledge about secure transfer methods and/or ways to anonymize the data. 
+this RSE should have knowledge about secure transfer methods and/or ways to anonymize the data.
+As part of RDM, this RSE profile includes support at all stages research data undergo in the so call research data lifecycle, with synchronous data management processes. 
+Those processes implement established best practices for planning and documenting of data acquisition in a data management plan (DMP) as well as for management, storage and preservation of data, and publication and sharing of data in repositories according to the FAIR principles [@FAIR].
 
 ### OpenScience RSE
 Open Science and FAIRness of Data and Software are increasingly important topics in research, as exemplified by the demand of an increasing amount of research funding agencies requiring openness.
@@ -819,11 +831,12 @@ While software is the lingua franca of all RSEs there will be RSEs that have spe
 ### Optional RSE competencies -> Maintenance RSEs 
 Oftentimes, a significant amount of effort in (research) software development needs to be spent on maintenance to ensure that software remains useful for researchers now and in the future.
 The research environment is constantly changing and this can also apply to the software requirements.
-Accordingly, software often needs to be adapted continuously. If it isn't, the software can reach a point where it simply isn't useful to the researchers anymore.
-To avoid this, regular work needs to be invested. 
-While ensuring maintenance and sustainability of research software is of huge importance to the communities that build and use it, a particular challenge is that it's often very difficult to obtain ongoing research funding for software maintenance tasks. As a result, when a project that developed or extended a piece of software finishes, it can often be the case that support for the software fades as team members move on to other research, academic or RSE roles, or become busy with other funded work.
+If software is not properly maintained, it becomes increasingly difficult to install and use. 
+At some point, the software is no longer available and cannot be used to reproduce results.
+While ensuring maintenance and sustainability of research software is of huge importance to the communities that build and use it, a particular challenge is that it's often very difficult to obtain ongoing research funding for software maintenance tasks. 
+As a result, when a project that developed or extended a piece of software finishes, support for the software fades as team members move on to other research, academic or RSE roles, or become busy with other funded work.
 While this is not a core concern of this paper, we wanted to highlight this important issue that is frequently faced when working with software in the research community.
-With regard to which additional competency is required, these are people having experience with ancient software stacks that are not anymore part of the general curricula(think of COBOL and FORTRAN).
+With regard to which additional competency is required, these are people having experience with ancient software stacks that are not anymore part of the general curricula (think of COBOL and FORTRAN).
 
 FIXME: I think it would be nice if we could move each of these optional competencies to a different specialization.
 
