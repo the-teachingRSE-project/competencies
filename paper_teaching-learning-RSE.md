@@ -1012,7 +1012,7 @@ Such a platform should allow to:
 - review and evaluate uploaded teaching material
 - compile curriculums from the available material
 - create different variations of a curriculum to fit domain specific or institutional requirements
-- align curriculum with requirements of academid credit systems, like the European Credit Transfer and Accumulation System (ECTS) [@ECTS]
+- align a curriculum with the requirements of academic credit systems, like the European Credit Transfer and Accumulation System (ECTS) [@ECTS]
 (FIXME: DETAIL ME FURTHER!!!!)
 
 ### Organization of teaching
