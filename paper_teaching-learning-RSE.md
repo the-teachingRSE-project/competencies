@@ -1088,8 +1088,8 @@ but also by ensuring that existing and trained RSEs are retained in academia.
 This paper focused on the first component: training RSEs, but we still believe
 that a discussion on creating viable RSE career paths in academia is necessary.
 This might be even more true for RSEs than traditional researchers as RSEs
-may have more opportunities to perform similar activities in the private sector,
-while benefiting from better salaries and working conditions.
+may have more opportunities to perform similar activities in the commercial sector,
+while benefitting from better salaries and working conditions.
 
 RSEs are valuable members of research teams in academia,
 but the lack of institutional support leads to high turnover
