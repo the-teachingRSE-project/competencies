@@ -306,11 +306,24 @@ as well as identifying required competencies, developing training pathways and p
 In this section, we highlight some of these other projects and activities.
 
 
-### RSE-related Training Materials
+### RSE-related training ressources
 
-A wide range of software-related training materials and supporting organisations exist within the research software community and beyond.
+The day-to-day work of many RSEs often includes teaching activities to improve the RSE-related skill-set of researchers,
+e.g. in university courses, workshops or one-on-one.
+Therefore, RSEs' work often includes the use of as well as the contribution to pertinent teaching material.
+Various organizations and initiatives provide courses and workshops
+to convey software-related capabilities aimed at the research community.
+Often they make their training material available as Open Educational Resources
+permitting free access, re-use, adaptation and redistribution.
+The collaborative advancement of these resources in the fast evolving environment
+of RSE related skills and infrastructure can be further facilitated by putting them under version control.
+For example, core lessons from the Carpentries and CodeRefinery are stored on GitHub,
+and any change is automatically mirrored to their websites.
+The organizations and initiatives listed below provide support for teaching activities conducted by RSEs
+but are also helpful to fill gaps in the capabilities of professional RSEs.
 
 #### The Carpentries
+
 The Carpentries [@Carpentries] is a non-profit entity that supports a range of open source training materials and international communities of volunteer instructors and helpers who run courses around these materials.
 The community also maintains the materials which are based around three core syllabuses --
 Software Carpentry [@CarpentriesSoftware; @Wilson2006; @Wilson2016a],
@@ -331,18 +344,14 @@ There is a selection process [@CarpentriesBecomingInstructor] as well as
 an instructor training course, upon which a certificate is delivered [@Wilson2013a].
 
 #### Coderefinery
+
 CodeRefinery [@CodeRefinery] is a project currently funded by the Nordic e-Infrastructure and thus active primarily in the Nordics with the goal of teaching essential tools around research software development, that are usually skipped in academic education.
 CodeRefinery hosts a set of open source training materials including both beginner and intermediate level material and organizes multiple highly interactive large scale workshops per year.
 Skills learned from the workshops and/or materials allow researchers to produce more reproducible, open and efficient software and thus promote FAIR [@FAIR] research practices.
 One goal of the project is to evolve into a community project that seamlessly integrates with other initiatives. FIXME: elaborate on the integration part if it's relevant, else leave out.
 
-#### Reprohack
-The ReproHack Team offers resources to host events where students and researchers
-can get together to try and reproduce the results of published papers with the methods
-described there or ideally with the software provided by the authors.
-FIXME: This is applied FAIR principles elaborate a bit on why this is related for RSE competencies? Or do we want to make the point, that this teaches reproducible science?
-
 #### PRACE
+
 The Partnership for Advanced Computing in Europe (PRACE) [@PRACE] offers training
 in the form of massive open online courses (MOOCs), online and on-site training
 events at European HPC facilities (aggregated on various websites, e.g. EuroCC
@@ -368,7 +377,6 @@ The ENCCS lessons are targeted at individuals who already have general RSE
 skills and are seeking new skills relevant to HPC and software engineering.
 
 #### German National Research Data Infrastructure (NFDI)
-
 EduTrain (Training & Education) [@EDUTRAIN] is a section of the NFDI [@NFDI].
 Based on the slogan "data literacy from the beginning", it contributes to the further development of scientific methods and good scientific practice.
 The targeted education also involves research software engineering.
@@ -1200,13 +1208,11 @@ remaining Plan:
 
 FIXME: The career path discussion.
 
-=======
 *** EDUCATING RSEs in GERMANY - WHAT NEEDS TO BE DONE ***
 
 ## Required Next steps
 ### Implementation Strategies
 - Ideally over time scientific software engineering becomes part of the curricula at universities.
->>>>>>> main
 
 #### Academic Considerations
 - Awareness of existing teaching programs
@@ -1258,8 +1264,40 @@ Sustainable software development benefits greatly from services for developing, 
 Specifically, the lack of hardware and personnel support for Continuous Integration (CI) and Continuous Delivery (CD) limits efficient and up to date software development.
 
 ## Appendix
-### An applied example curriculum
+### Sources for RSE-related training material
 
+#### Books
+
++ "Producing Open Source Software" ([@Fogel2005; @Fogel2017]) describes a lot of aspects for running a free software project.
+
++ "Research Software Engineering with Python" ([@Irving2021]) targets
+  Python programming novices and introduces a set of essential tools
+  next to the programming language itself.
+
+#### Course material
+
++ The Software Carpentries Lessons [@CarpentriesSoftware] provide extensive teaching material
+for basic research software skills geared towards researchers.
+
++ The unofficial MIT course "The Missing Semester of Your CS Education" ([@Athalye2023])
+covers a lot of basic computer skills typically taught by RSEs.
+
+#### Train-the-trainers material
+
++ "Teaching Tech Together" is a book that derives from and extends the Carpentries Instructor Training [@Brown2023],
+which is a continuously updated and extended online-resource.
+
++ The National Competence Center Sweden (ENCCS) [https://enccs.se/] provides instructor training material
+[@ENCCSInstructorTraining], [@ENCCS2022] developed from Carpentries and CodeRefinery material, as well as lessons for
+HPC-oriented RSEs [@ENCCSLessons].
+
+
+#### Directories  of resources
+
++ Better Scientific Software (BSSW)(https://bssw.io/) (Collection of resources for computational science and engineering) w
+
+
+### An applied example curriculum
 ### An example of a possible career path
 - We can follow Kim, who has been the protagonist of the original deRSE Paper.
 
