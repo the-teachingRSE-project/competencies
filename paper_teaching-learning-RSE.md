@@ -367,7 +367,6 @@ to create their own instructor manual [@ENCCSInstructorTraining; @ENCCS2022].
 The ENCCS lessons are targeted at individuals who already have general RSE
 skills and are seeking new skills relevant to HPC and software engineering.
 
-
 #### SureSoft
 Suresoft [@SURESOFTLink] is a DFG funded project at TU Braunschweig and FAU Erlangen-Nürnberg fostering the sustainability of research software by helping researchers adopt practices and tools from the software engineering community [@SURESOFT2022]. 
 The project implements a twofold approach that combines tools and infrastructure with education in the form of workshops and training.
@@ -782,8 +781,10 @@ At the intersection of data science [@SSIDataScience] and Data-focused RSEs, the
 
 #### Research Infrastructure RSE
 This RSE is interested in SysOps and system administration and sets up IT infrastructures for and with researchers.
-Therefore, this specialization on the one hand requires a deep knowledge of physical computer and network hardware and on the other hand knowledge about setup and configuration of particular server software.
-Those specialised RSEs know how to acquire, setup and maintain general-purpose as well as domain specific infrastructure, e.g. setup of virtual machines on hypervisors or build-up of compute server cluster for GPU based machine learning.
+Therefore, this specialization on the one hand requires a deep knowledge of physical computer and network hardware and
+on the other hand knowledge about setup and configuration of particular server software.
+Those specialised RSEs know how to acquire, setup and maintain general-purpose as well as domain specific infrastructure,
+e.g. setup of virtual machines on hypervisors or the planning and setup of compute server clusters for GPU based machine learning.
 As an interface between the researchers and the infrastructure, they take care of user management, access permissions, and configuration of required services, for example.
 
 ### Web-Development RSE
@@ -805,8 +806,9 @@ They are skilled in cleaning data and/or running data analyses and can help rese
 in setting up their analysis pipeline and/or research data management (RDM) solutions.
 When the field requires research on sensitive data or information, e.g. patient information in medicine, 
 this RSE should have knowledge about secure transfer methods and/or ways to anonymize the data.
-As part of RDM, this RSE profile includes support at all stages research data undergo in the so call research data lifecycle, with synchronous data management processes. 
-Those processes implement established best practices for planning and documenting of data acquisition in a data management plan (DMP) as well as for management, storage and preservation of data, and publication and sharing of data in repositories according to the FAIR principles [@FAIR].
+As part of RDM, this RSE profile is able to support all stages of the research data lifecycle[@Nieva2020], with synchronous data management processes. 
+Those processes implement established best practices for planning and documenting of data acquisition in a data management plan (DMP) as well as for management,
+storage, and preservation of data, and publication and sharing of data in repositories according to the FAIR principles [@FAIR].
 
 ### OpenScience RSE
 Open Science and FAIRness of Data and Software are increasingly important topics in research, as exemplified by the demand of an increasing amount of research funding agencies requiring openness.
@@ -823,23 +825,26 @@ an important role, even if they do not necessarily touch much of the code themse
 
 ### Teaching RSEs
 RSEs who focus on teaching the next generation of researchers and/or RSEs play
-a vital role in quality research software.
+a vital role in improving the quality research software.
 
 ### ${DOMAIN}-RSE
-While software is the lingua franca of all RSEs there will be RSEs that have specialized in the initricacies of one particular research domain, such as medical RSEs, digital humanities RSEs or physics RSEs.
+While software is the lingua franca of all RSEs there will be RSEs that have specialized in the initricacies of one particular research domain,
+ such as medical RSEs, digital humanities RSEs or physics RSEs.
 
 ### Optional RSE competencies -> Maintenance RSEs 
 Oftentimes, a significant amount of effort in (research) software development needs to be spent on maintenance to ensure that software remains useful for researchers now and in the future.
 The research environment is constantly changing and this can also apply to the software requirements.
 If software is not properly maintained, it becomes increasingly difficult to install and use. 
 At some point, the software is no longer available and cannot be used to reproduce results.
-While ensuring maintenance and sustainability of research software is of huge importance to the communities that build and use it, a particular challenge is that it's often very difficult to obtain ongoing research funding for software maintenance tasks. 
-As a result, when a project that developed or extended a piece of software finishes, support for the software fades as team members move on to other research, academic or RSE roles, or become busy with other funded work.
+While ensuring maintenance and sustainability of research software is of huge importance to the communities that build and use it,
+a particular challenge is that it is often very difficult to obtain ongoing research funding for software maintenance tasks.
+As a result, when a project that developed or extended a piece of software finishes, support for the software fades as team members move on to other research,
+academic or RSE roles, or become busy with other funded work.
 While this is not a core concern of this paper, we wanted to highlight this important issue that is frequently faced when working with software in the research community.
-With regard to which additional competency is required, these are people having experience with ancient software stacks that are not anymore part of the general curricula (think of COBOL and FORTRAN).
+With regard to which additional competency is required,
+these are people having experience with ancient software stacks that are not anymore part of the general curricula (think of COBOL and FORTRAN).
 
 FIXME: I think it would be nice if we could move each of these optional competencies to a different specialization.
-
 
 ## How do we reach people in different stages of their careers?
 
