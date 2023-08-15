@@ -13,6 +13,7 @@ author:
   - Fredo Erxleben
   - Magnus Hagdorn
   - Harald von Waldow
+  - Moritz Schwarzmeier
 output:
   pdf_document:
     citation_package: biblatex
@@ -190,16 +191,85 @@ valuable in order to observe how software development in academia will be
 institutionalised. Finally, the strong emphasis on team-skills allows RSEs to be
 very employable in industrial workplaces.
 
-### National Context
+### National Contexthttps://docs.google.com/document/d/1sfevW3Qbh8jcAwMRYkNTD8PstEy-MBqn2xbQH2ogYzU/edit#heading=h.w2secxckj3tq
+
 Having been developed at a workshop in Paderborn in Germany, naturally a part
 of the discussion in this paper focusses on the German academic landscape.
 So, although there are Germany specific traits found in this document
 we are nevertheless dealing with the education of humans to become RSEs -
 A topic that is of major relevance also in an international context.
 
-### Related Work and Activities
 
-The challenges of understanding the current state of skills within the research software community and related areas, as well as identifying required competencies, developing training pathways and providing training materials are areas that are being looked at and addressed by various groups and projects. In this section, we highlight some of these other projects and activities.
+## Values
+
+The activities of an RSE are guided by ethical values.
+A general list of applicable values is given in the Software Engineering Code of Ethics [@Gotterbarn1999].
+Central to that code is the RSE's obligation to act in the public interest.
+Further values loosely based on that code include the obligations
+
++ to take great care to develop software that adheres to current best practices,
++ to judge independently and maintain professional integrity,
++ to treat colleagues and collaborators with respect and work towards a fair and inclusive environment, and
++ to promote these values whenever possible and make sure that they are passed on to new practitioners.
+
+RSEs often assume a multifaceted role at the junction of research, software engineering and data management.
+They work with a varying and diverse set of colleagues that might include other developers,
+support unit staff and academics of different fields and all career-stages.
+This situation yields a specific set of challenges RSEs should be aware of
+to consciously make ethically sound judgment calls.
+We list some example areas that could be addressed in RSE courses or workshops.
+
+### Personal data
+
+Independent from the encoding into the respective national law in an RSE's jurisdiction,
+the right to information privacy is internationally recognized as a fundamental human right,
+e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988], [@Hirvela2022].
+RSEs need to be aware of this topic's importance
+and deal with tensions that might arise with researchers' desire for frictionless sharing of data.
+Handling personal data also has ramifications for information security considerations during the software development process.
+Data protection is a difficult subject and RSEs should notice when they need to consult external expertise for example when dealing with
+special topics such as cryptography or re-identification attacks (e.g. [@Sweeney2002]).
+
+### Mentoring and diversity
+
+RSEs are often experienced professionals who instruct and work closely with early career researches.
+Similarly to academic supervisors, they bear a certain responsibility to guide and advise younger colleagues
+with respect to career development and the achievement of academic goals.
+Software engineering is still strongly dominated by white males [@StackOverflow2022].
+In their work RSEs might frequently find themselves in a position
+to encourage, mentor and empower people who gravitate towards software-related occupations.
+In this capacity they should be aware of the diversity problem and help to mediate it
+whenever they have the chance to do so.
+
+### The scientific community
+
+Through writing research software, RSEs have a pivotal position in the process of scientific production.
+Their choices might determine whether the respective research is reproducible or not,
+whether the results can be re-used, whether future research can build on existing tools or has to start from scratch.
+Builders of larger research-infrastructure projects determine to some extent
+the possibilities and limitations of future research
+and therefore need to be aware of concepts such as Open Science, path dependence and vendor lock-in.
+
+### Emerging challenges
+
+RSEs often operate at the cutting edge of technological development
+and therefore might have to deal with technologies of which the dangers and drawbacks are still poorly understood.
+A current example is the rush for the application of Large Language Models (LLMs),
+where RSEs working in these fields should stay up-to-date and be able to help researchers to assess topics
+such as training-data bias, LLM "hallucinations" or malicious use.
+
+### Number of required RSE graduates
+In order to set up the argument for dedicated RSE education we need at least a ballpark estimate of the number of required graduates.
+We start from the number of researchers in Germany. The OECD Data [OECD2023] reports a number of 667,394 researchers in 2019.
+In public research alone we have better numbers and 71,733 researchers were recorded in 2020.
+Taking a rough estimate of requiring around one RSE per 10 researchers (FIXME!! Number anecdotal!!)(A number that has been put forward in another workshop
+in Paderborn) brings us to a need of around 6.000 RSEs in Germany. Assuming an equal distribution with regard to age
+and an average time in the RSE workforce of 40 years, yields an average need of around 150 RSEs per year.
+If we assume that half of the workforce is made up by researchers coming from domain specific graduation programs and the other half are properly minted
+RSE graduates this suggests that there is a requirement for around four dedicated RSE education places each producing graduating classes of around 20 persons each year.
+This calculation assumes that RSEs remain within the research community and do not move into industry with their highly transferable skillset.
+While this calculation is only supposed to give a rough ballpark estimate, we note that Germany has 319 places of higher education [destatis2023].
+Having only three RSEs at each site already gives a requirement of 1000 persons.
 
 ## Identifying skills and pathways
 
@@ -219,12 +289,22 @@ community manager-RSE [@Woodley2021], and generalist RSE [@usRSESkills].
 However, the present document is, to our knowledge, the first attempt
 at defining the skills of a generalist RSE at different levels of seniority.
 
+
 FIXME:
 
 - [@Cosden2022b]
 - skill gaps for software verification/testing (fig. 1 in [@Hannay2009])
   and bioinformatics [@MacLean1999; @Pevzner2009]
 - software evaluation criteria [@Jackson2011a; @ChueHong2014]
+
+*** A SURVEY OF INITIATIVES PROVIDING EDUCATIVE MATERIAL IN THE RSE SPACE ***
+
+## Related Work and Activities
+
+The challenges of understanding the current state of skills within the research software community and related areas,
+as well as identifying required competencies, developing training pathways and providing training materials are areas that are being looked at and addressed by various groups and projects.
+In this section, we highlight some of these other projects and activities.
+
 
 ### RSE-related Training Materials
 
@@ -287,7 +367,27 @@ to create their own instructor manual [@ENCCSInstructorTraining; @ENCCS2022].
 The ENCCS lessons are targeted at individuals who already have general RSE
 skills and are seeking new skills relevant to HPC and software engineering.
 
-### Open Source Resources
+#### German National Research Data Infrastructure (NFDI)
+
+EduTrain (Training & Education) [@EDUTRAIN] is a section of the NFDI [@NFDI].
+Based on the slogan "data literacy from the beginning", it contributes to the further development of scientific methods and good scientific practice.
+The targeted education also involves research software engineering.
+As described in its concept [@EduTrain2022], there will be a collaboration with "The Carpentries" regarding their lesson program.
+Moreover, the approach of how "The Carpentries" are organized will be adopted.
+
+Through the close connection to the DALIA project [@DALIA], the NFDI and its section EduTrain will benefit from a knowledge-base which is implemented as semantically linked knowledge graph.
+- FIXME: Is there any connection to RSE?
+
+According to the goals of the NFDI consortium NFDI4Ing (National Research Data Infrastructure for Engineering Sciences) [@NFDI4ING], engineers treat software as research data that possibly connects the different stages of stored data.
+Therefore, it aims to enable engineers to develop validated quality-assured engineering research software. 
+One specific example is the lecture 'Sustainable Development of Simulation Software' that has been developed as master's course at the Institute for Modelling Hydraulic and Environmental Systems at the University of Stuttgart [@SDSSCOURSE; @SDSSMATERIAL].
+
+
+#### SureSoft
+Suresoft [@SURESOFTLink] is a DFG funded project at TU Braunschweig and FAU Erlangen-Nürnberg fostering the sustainability of research software by helping researchers adopt practices and tools from the software engineering community [@SURESOFT2022]. 
+The project implements a twofold approach that combines tools and infrastructure with education in the form of workshops and training.
+
+### FAIRness of RSE-related materials
 Due to the ever-evolving nature of skills and infrastructure in the RSE field,
 training material is often version-controlled, so that trainers can update it
 between iterations. For example, core lessons from the Carpentries and CodeRefinery
@@ -318,11 +418,10 @@ the ELIXIR [@Gurwitz2020] Training e-Support System (TeSS) platform
 or the now-defunct Educational Resource Discovery Index (ERuDIte)
 [@VanHorn2017; @Ambite2021] for data science.
 
-FIXME:
+ADDME:
 
 - [Better Scientific Software (BSSW)](https://bssw.io/) ...
 - [Software Sustainability Institute (SSI)](https://www.software.ac.uk/) [@Crouch2013] ...
-- Add NFDI initiatives like edutrain.
 - ELIXIR/EXCELERATE/GOBLET train-the-trainer programme [@Via2017; @Morgan2017]
 - Library-RSE resources [@Clarke2019] (no longer updated since 2019)
 - Happy Belly Bioinformatics [@Lee2019]
@@ -336,9 +435,35 @@ FIXME:
 - What is missing
 - domain application?
 
-Depending on the specific domain there is a gap between the basic software carpentry courses and the required skills to build domain-specific research software. For example, scientists in the field of High Performance Computing (HPC) need to know how to make effective use of concurrency to speed up their simulations and communicate efficiently using message-passing interface (MPI) libraries. The same is true for researchers from other domains who make use of other specialized technologies, methods and/or tools. To bridge those gaps more specialized courses would be needed like the one mentioned in section [Identifying skills and pathways] for the HPC community.
+### A fundamental skills gap
 
-Moreover, software development is a craft, i.e. it is not only about knowledge but also requires practical experience. Hence we need to create an environment that allows less experienced researchers to practice and gain experience efficiently. Ideally, this learning environment would allow less experienced scientists to be guided by more experienced RSEs. We know such practices e.g. from human medicine, where junior doctors first assist experienced doctors before they work independently. In the field of software development, this approach could be implemented in the form of peer programming, for example. The prerequisite for this, however, is that experienced academics get better career opportunities at German universities so that they do not leave for industry roles. 
+A major challenge for the future of Research Software Engineering is the significant gap between the availability of basic training and the comparatively
+small number of experts in specialist topics such as High Performance Computing (HPC), parallel algorithms and neural network design.
+For example, scientists working with HPC may need to know how to make effective use of concurrency to speed up their simulations and communicate efficiently using message-passing interface (MPI) libraries.
+The same is true for researchers from other domains who make use of other specialized technologies, methods and/or tools.
+Organisations such as **[The Carpentries]** and **[CodeRefinery]** provide extensive introductory training materials and, increasingly some more intermediate-level content.
+However, to bridge the gap between introductory and expert-level skills, more specialized courses are needed like the ones mentioned in section [Identifying skills and pathways] for the HPC community.
+
+Moreover, software development is a craft, i.e. it is not only about knowledge but also requires practical experience.
+Hence we need to create an environment that allows less experienced researchers to practice and gain experience efficiently.
+Ideally, this would be facilitated through learning environments that allow less experienced scientists to be guided by more experienced RSEs.
+We know such practices e.g. from human medicine, where junior doctors first assist experienced doctors before they work independently.
+In the field of software development, this approach could be implemented in the form of peer programming, for example.
+In the German context, the prerequisite for this, however, is that experienced academics/researchers get better career opportunities at German universities so that they do not leave for industry roles. 
+
+As the need for research software engineering skills and expertise grows, there is a fundamental need to address this challenge in order to support the future of computational research.
+Indeed, computational approaches are increasingly becoming the standard approach for tackling large research challenges across almost all domains and we see the potential for a huge growth in demand for the skills required to support this.
+
+As seen in the previous section, there already exist a number of open educational resources in the field of RSE. However, what is missing is a practical way to search all of these at once.
+This is mainly due to the lack of a metadata standard concerning EOR resources within the RSE community, as well as some simple way to collect potentially existing metadata in one place in order to enable a comprehensive search.
+
+Building on this: courses exist on different knowledge and experience levels and, at least in part, build upon each other. However, there is currently no (unified) way to clearly label
+- what are the topics taught by a course
+- what are the topics recommended to know to start the course
+- what are the topics required to know to start the course
+This, in part, is due to a missing (metadata) standard to express these dependencies.
+
+*** AN ATTEMPT TO DEFINE COMPETENCIES AND RESPONSIBILITIES OF AN RSE ***
 
 For the sake of completeness, we also would like to mention challenges that relate to the topic covered but are out of scope and would be subject of separate more in-depth considerations.
 
@@ -354,7 +479,6 @@ Sustainable software development benefits greatly from services for developing, 
 Specifically, the lack of hardware and personnel support for Continuous Integration (CI) and Continuous Delivery (CD) limits efficient and up to date software development.
 
 ## Workshop Results
-
 ## Required Generic RSE skills
 The role of an RSE lies somewhere on the spectrum between that of a researcher
 (the "R") and a software engineer (the "SE") and, therefore, requires
@@ -561,9 +685,11 @@ The required skills are distributed according to this table
 First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (less -> lot)
 
 \blandscape
+\small
+\renewcommand*{\arraystretch}{1.4}
 
 |       | Junior | Senior | Principal RSE(brings in funding)  |
-| ----  | ------ | ------ | --- |
+| ----  | -------------- | -------------- | ------------------ |
 | DOCBB | should be able to write reusable building blocks |same as junior, but the quality should set the standard for the project, while following current best practices | should know the current best practices and point its people to the right resources. |
 | LIBS  | should be able to use package distribution platforms      | same as junior, but should set the project standard and follow current best practices. | should ensure that their project is in an up-to-date distribution platform |
 | MOD   | should have a basic grasp of their piece of the software in order to use basic tools like a debugger | Should understand the characteristics of large parts of the codebase considering a variety of the metrics | Should understand the big idea of the software project in order to define the task that the software solves  |
@@ -602,9 +728,11 @@ Certain fields, e.g. sciences relying on simulations, might require higher skill
 as software development is a large part of their actual research.
 
 \blandscape
+\small
+\renewcommand*{\arraystretch}{1.4}
 
 |       | Bachelor | Master | PhD | PostDoc | PI/Professor | 
-| ----  | ------ | ------ | ---   | ------  | ---|
+| ----  | ----------- | ----------- | ----------- | ------ | --------------- |
 | DOCBB | They should be aware that RSEs exist and that software has different quality aspects | Same as Bachelor | They should know where they can get help, and maybe able to use libraries | same as PhD | They should know the skills of an RSE and when they might need one in their group |
 | LIBS  | They should be aware that RSEs exist and that there are tools available in their domain | They should be aware that there are tools that they can use in their research and maybe are able to use these libraries  | same as Master, but able to use libraries |  same as PhD  | They should be aware of the output of RSEs and motivate their students to use developed tools  |
 | MOD   | It is sufficient to consider digital tools as black boxes | It is sufficient to be able to _use_ software as black boxes |  same as Master, but being able to write bug reports | same as PhD | same as PostDoc  |
@@ -630,9 +758,11 @@ Some explanation of the team sizes:
 - Organizations( >10 persons): These are big organizations with clear structures and a bigger degree of specialization.
 
 \blandscape
+\small
+\renewcommand*{\arraystretch}{1.4}
 
 |       | individual | small team | organization  |
-| ----  | ------ | ------ | --- |
+| ----  | ----------- | ----------- | --------------- |
 | DOCBB |   you might get away with less satisfactory code, as long as the product is OK | think about your colleagues    | your organization most likely has guides here |
 | LIBS  |   you will only be successful if your artefact is usable by others    |  same here   | your organization probably has rules here |
 | MOD   | you should precisely know what your entire code is doing where | you should know what your part is doing and have a feeling about the others contributions | You should know what your small part is doing |
@@ -686,10 +816,20 @@ and can assist domain scientists who have excellent command of scripting languag
 but only a cursory understanding of compiled languages get up to speed with
 compiled software.
 
-### Research Infrastructure RSE
-This RSE is interested in SysOps and sets up infrastructures for and with researchers.
-This RSE, therefore, requires a deep knowledge of physical computer and network hardware.
-FIXME: While required, is this an RSE? this sets off the usual infrastructure vs. research discussion....
+#### ML-RSE
+The development of research software based on machine learning (ML) requires specialized theoretical background and experienced handling of appropriate software in order to produce meaningful results.
+This involves knowledge about data analysis and feature engineering, metrics that are involved in ML, ML algorithm selection and cross validation, and knowledge in mathematical optimization methods and statistics.
+ML-RSEs analyse and check the suitability of an algorithm if it fulfils the needs of a certain task and they play a main role in deciding and selecting machine learning libraries for a given task.
+The increasing usage of ML in numerous scientific areas with social impact, involves an emphasized awareness and consideration of possible manipulative or discriminatory influences.
+At the intersection of data science [@SSIDataScience] and Data-focused RSEs, the complex way of solving problems utilizing machine learning calls for this separate specialization.
+
+#### Research Infrastructure RSE
+This RSE is interested in SysOps and system administration and sets up IT infrastructures for and with researchers.
+Therefore, this specialization on the one hand requires a deep knowledge of physical computer and network hardware and
+on the other hand knowledge about setup and configuration of particular server software.
+Those specialised RSEs know how to acquire, setup and maintain general-purpose as well as domain specific infrastructure,
+e.g. setup of virtual machines on hypervisors or the planning and setup of compute server clusters for GPU based machine learning.
+As an interface between the researchers and the infrastructure, they take care of user management, access permissions, and configuration of required services, for example.
 
 ### Web-Development RSE
 This RSE is skilled in web applications, front- and/or backend, and/or building 
@@ -700,14 +840,19 @@ Therefore a deep knowledge of web skills is a required skill for this RSE.
 
 ### Legal-RSE
 With the prevalence of software, we foresee the need for RSEs that specialize in legal questions around software.
-They are the go-to person if people have a question about licensing, mixing and matching software, and/or patenting.
+They are the go-to person if people have a question about licensing, mixing and matching of software as well as patenting or copyright.
+The publication of research software also requires knowledge about particular laws or regulatory frameworks concerning data protection, like the GDPR within the EU [@GDPR].
+Familiarity with legal aspects of cybersecurity and export control in science and research (see [@ExportControl] for Germany) complete the competencies of those RSEs.
 
 ### Data-focused RSE
 RSEs working at the flourishing intersection between data science and RSE. 
 They are skilled in cleaning data and/or running data analyses and can help researchers
 in setting up their analysis pipeline and/or research data management (RDM) solutions.
 When the field requires research on sensitive data or information, e.g. patient information in medicine, 
-this RSE should have knowledge about secure transfer methods and/or ways to anonymize the data. 
+this RSE should have knowledge about secure transfer methods and/or ways to anonymize the data.
+As part of RDM, this RSE profile is able to support all stages of the research data lifecycle[@Nieva2020], with synchronous data management processes. 
+Those processes implement established best practices for planning and documenting of data acquisition in a data management plan (DMP) as well as for management,
+storage, and preservation of data, and publication and sharing of data in repositories according to the FAIR principles [@FAIR].
 
 ### OpenScience RSE
 Open Science and FAIRness of Data and Software are increasingly important topics in research, as exemplified by the demand of an increasing amount of research funding agencies requiring openness.
@@ -724,22 +869,26 @@ an important role, even if they do not necessarily touch much of the code themse
 
 ### Teaching RSEs
 RSEs who focus on teaching the next generation of researchers and/or RSEs play
-a vital role in quality research software.
+a vital role in improving the quality research software.
 
 ### ${DOMAIN}-RSE
-While software is the lingua franca of all RSEs there will be RSEs that have specialized in the initricacies of one particular research domain, such as medical RSEs, digital humanities RSEs or physics RSEs.
+While software is the lingua franca of all RSEs there will be RSEs that have specialized in the initricacies of one particular research domain,
+ such as medical RSEs, digital humanities RSEs or physics RSEs.
 
 ### Optional RSE competencies -> Maintenance RSEs 
 Oftentimes, a significant amount of effort in (research) software development needs to be spent on maintenance to ensure that software remains useful for researchers now and in the future.
 The research environment is constantly changing and this can also apply to the software requirements.
-Accordingly, software often needs to be adapted continuously. If it isn't, the software can reach a point where it simply isn't useful to the researchers anymore.
-To avoid this, regular work needs to be invested. 
-While ensuring maintenance and sustainability of research software is of huge importance to the communities that build and use it, a particular challenge is that it's often very difficult to obtain ongoing research funding for software maintenance tasks. As a result, when a project that developed or extended a piece of software finishes, it can often be the case that support for the software fades as team members move on to other research, academic or RSE roles, or become busy with other funded work.
+If software is not properly maintained, it becomes increasingly difficult to install and use. 
+At some point, the software is no longer available and cannot be used to reproduce results.
+While ensuring maintenance and sustainability of research software is of huge importance to the communities that build and use it,
+a particular challenge is that it is often very difficult to obtain ongoing research funding for software maintenance tasks.
+As a result, when a project that developed or extended a piece of software finishes, support for the software fades as team members move on to other research,
+academic or RSE roles, or become busy with other funded work.
 While this is not a core concern of this paper, we wanted to highlight this important issue that is frequently faced when working with software in the research community.
-With regard to which additional competency is required, these are people having experience with ancient software stacks that are not anymore part of the general curricula(think of COBOL and FORTRAN).
+With regard to which additional competency is required,
+these are people having experience with ancient software stacks that are not anymore part of the general curricula (think of COBOL and FORTRAN).
 
 FIXME: I think it would be nice if we could move each of these optional competencies to a different specialization.
-
 
 ## How do we reach people in different stages of their careers?
 
@@ -814,6 +963,9 @@ Further ideas:
   peer-reviewing of code of conducts by the CHAOSS Diversity and Inclusion Badging organization [@CHAOSSDEIBadging; @GitHubCHAOSS]
 - related discussion in CSE [@Webb2017]
 
+
+*** INSTITUTIONALIZED ORGANIZATION OF RSE EDUCATION ***
+
 ## Organizational Infrastructures
 So we have defined our set of competencies that we feel every RSE should possess.
 Table 2 above nevertheless already hints at the fact that some RSE skills are required during the domain studies,
@@ -825,38 +977,55 @@ In order to set up a proper educational scheme we need to discuss two more items
 
 ### The teachers
 #### What issues are trainers facing today?
-There are already some people out there who are teaching RSE related topics sometimes in university structures, but often outside of formal structures.
-The community discussion shed some light on the issues our trainers are facing now.
-Currently, they are often teaching workshop like formats in research institutions.
-
+There are already some people teaching RSE-related topics, sometimes within university structures, but often outside of formal structures.
+Currently, they often teach in workshop-like formats at research institutions.
+The community discussion shed light on the issues our trainers are faced with nowadays:
 - There are outreach issues. We emphasize that there are two dimensions to this: First it is important that we inform students that workshops exist, and then, the more important part, we also need to motivate people to invest the time for a workshop. [@EuroCC2022]
-- Adaptation of material to the target audience has been identified as a time consuming task.
-- Organization and preparation is a challenge, since currently no standardized formats exist.
+- Adaptation of material to the target audience has been identified as a time-consuming task.
+- Organization and preparation are a challenge, since currently no standardized formats exist.
 - Expectation management of students. Existing knowledge of students is often diverse.
 - Language barriers. This can range from the use of technical jargon up to the disparities of you teaching in a foreign language.
 - Setting up a feedback loop that facilitates a reflection of the workshop for the teacher.
-- staying up-to-date with fast-moving RSE topics.
+- Staying up-to-date with fast-moving RSE topics.
 - Understanding the difficulties of students [@Cereceda2020; @Williams2019].
 - Carpentries retrospective [@Wilson2016a].
-
+- Lack of 'Train the Trainer' opportunities makes self-improvement difficult. 
+- Get teaching effort attributed as upskilling that counts as a professional qualification.
 
 #### What mindset makes up a good teacher
-Irrespective of where people come from they need to have the proper mindset to properly foster aspiring RSEs.
-
-- "If you want to go fast, go alone; if you want to go far, go together?"
-- Not every "good" scientist wants to become a "good" software engineer, too!
-- The Carpentries philosophy [@Duckles2016]
+Irrespective of where people come from they need to have the proper mindset to properly foster RSEs-to-be.
+The basis for our proposed mindset is the conviction that research software engineering (RSEing) is an important topic that supports good scientific practice and reproducible research as well as the motivation to share their experience and skills with prospective RSEs. 
+In addition, we expect it is a fundamental part of a teacher's mindset to adopt a set of shared values, which we have detailed above in the [values](#values) section.
+Good teachers engage with the different scientific backgrounds of the learners, regardless of their prior knowledge.
+In order to identify relevant content and adapt content to the learners needs, they understand and appreciate the respective research environment.
+We would presume good teachers to take responsibility in improving their own pedagogical skills to make their teaching more effective.
+Since it is difficult to measure increased learning success and better RSEing applied by the learners, better methods for evaluation of a teacher’s effectiveness would be beneficial for teachers.
+For example, a survey by The Carpentries [@Duckles2016] provides a detailed evaluation on the value and benefits of Software and Data Carpentry workshops to their instructors.
+The expected mindset also encompasses that teachers should see setbacks and feedback as an opportunity to learn and grow their own skills.
+A teacher's mindset should also include the acknowledgment that some learners acquire additional RSE skills out of necessity and not out of interest, meaning that not every "good" scientist wants to become a "good" software engineer, too.
+Therefore, it is also inevitable that teachers have positive and high expectations of their students.
+Inspired by the proverb "If you want to go fast, go alone; if you want to go far, go together?", teachers should actively engage with the RSE community and see the benefits of networking.
+Finally, teachers should be motivated to follow up and offer continued support to their students after the training has ended.
 
 #### Where do we get our teachers from
-The community discussion brought about the need for a mixture of people, thereby 
+The community discussion brought to light the need for a mixture of people, therefore 
 the education of aspiring RSEs will involve people from close domain sciences or experienced RSEs
 and people that have respective additional skills to teach RSE competencies to the new generation.
-In that respect, this follows the carpentries model that offers certifications but is still open to non-certified trainers.
-We highlight and emphasize, that since a topic like RSE education, is constantly evolving, trainers strongly require the opportunity to and the recognition to educate themselves.
+In that respect, this follows The Carpentries model that offers certifications but is still open to non-certified trainers.
+We highlight and emphasize that, since a topic like RSE education is constantly evolving, trainers strongly require the opportunity and the recognition to educate themselves.
 Therefore our teachers will be sourced from the workplace but there will also be certified RSE Trainers.
 (FIXME: in classical university speak, these would be people who have done their habilitation on that topic, right?)
+Large online learning platforms such as edX [@edx] or Coursera [@coursera] serve as a resource of international teachers, who share their experiences in specific RSE-related topics in webinars. 
+These platforms enable the targeted recruitment of academic teachers, including those from leading research institutions.
 
-We propose to create common Infrastructures that can be utilized in this ongoing effort to professionalize the RSE education further, to easily share education resources across the country.
+We propose to create common infrastructures that can be utilized in this ongoing effort to professionalize the RSE education further and to easily share education resources across the country.
+For the ongoing development, from the status quo of available courses and material to generally accepted, unified curriculums, we suggest a centralized online RSE education platform.
+Such a platform should allow to:
+- collect and adapt available and new teaching material, like written lessons or pre-recorded courses
+- review and evaluate uploaded teaching material
+- compile curriculums from the available material
+- create different variations of a curriculum to fit domain specific or institutional requirements
+- align a curriculum with the requirements of academic credit systems, like the European Credit Transfer and Accumulation System (ECTS) [@ECTS]
 (FIXME: DETAIL ME FURTHER!!!!)
 
 ### Organization of teaching
@@ -876,7 +1045,10 @@ institutions to issue these certificates.
 Additionally, it can be excluding capable applicants who already use these
 skills but never got a certificate for it.
 
+
 The possible types of certificates can of course differ.
+Specific online learning platforms offer a wide range of RSE related, job-ready certified courses as well as complete degree programs.
+
 The [HPC skills and certification] Appendix explores current efforts at creating
 a HPC certification program for both academic and industry RSEs. Course attendance
 sheets and digital tokens [@Ifenthaler2016; @Chakroun2018; @Fanfarelli2015; @McDaniel2016]
@@ -885,42 +1057,170 @@ are another option (see Appendix: [Micro-accreditation]).
 Having certificates provides finally a clear understanding of which tasks an RSE can perform and thereby helps defining the career path and the job description.
 A big demand for specialized RSEs will certainly come from the newly established RSE centers at research institutions that require skilled people to fill their vacant positions.
 And using the certificates, the demand can now be satisfied with people offering this skill.
-
 Some exemplary skills for which courses are already held are version control tools like git, HPC topics like multithreading, MPI and GPU computations, FAIR principles.
 
+## Required Next Steps
+We have identified the RSE as an individual who brings a unique set of skills for
+supporting and undertaking modern digital research into research groups and teams.
+We have elaborated on the basic competencies that RSEs may have, and we have
+provided a detailed picture of how these competencies manifest along different
+dimensions.
+We have discussed who can deliver the necessary skills and the approaches to
+support skills development. Now, in the final section, we want to discuss how the
+RSE can become a natural part of the landscape of professions and which
+steps we need to take to professionalize their education.
 
+We foresee that the development of RSE skills will rest on two pillars:
+A first qualification phase, possibly through academic structures, giving newcomers
+to the field highly sought after professional skills, either directly from high school,
+or as a result of a career change. But since the type of work undertaken by RSEs is
+highly dynamic and often relies on knowledge about latest technologies, things change
+quickly and an ongoing learning phase is also necessary to remain up-to-date with the
+current developments, tools and techniques. 
+In this context, we put forward the idea of having institutionalized structures that
+facilitate continuous learning. These structures may be integrated within an academic
+environment but they may also exist fully or partially outside of the academic sphere,
+also providing opportunities for education on digital skills into wider society or
+industry (see [@HPCAkademie] for an existing, HPC focused instance of this).
+
+### First Professional Qualification
 #### A possible graduation path within the classical university structures
-We have put forward the idea that familiarity with research is a prerequisite for an RSE in order to be able to work effectively in the research space and in collaboration with researchers. In this particular example, we consider a path into RSE via a traditional university route involving Bachelors and Masters degree studies that include an RSE element. However, we recognise that there are other routes into an RSE career and these are increasing. For example, some RSEs come from an industry background, others may come through apprenticeship or similar programmes. In both cases, gaining knowledge of the research lifecycle and understanding the ways that researchers work towards solutions to research challenges is something that can be developed on-the-job alongside training opportunities and the chance to work directly with researchers.
-This leads naturally to the question, whether it is possible to become an RSE without a home research domain. 
-With software being a core element of the research process in so many different domains, it is not helpful for everybody working in RSE to have a background in computing or software engineering.
+We have put forward the idea that familiarity with research is a prerequisite for an RSE in order to be able to work effectively in the research space and in collaboration with researchers.
+To generate the required number of skilled persons we propose to offer a classical Bachelor's and Master's curriculum at selected sites.
+In this particular example, we consider a path into RSE via a traditional university route involving Bachelor's and Master's degree studies that include a RSE element.
+
+However, we recognise that there are other routes into an RSE career and these are increasing.
+For example, some RSEs come from an industry background, others may come through apprenticeship or similar programmes.
+In both cases, gaining knowledge of the research lifecycle and understanding the ways that researchers work towards solutions
+to research challenges is something that can be developed on-the-job alongside training opportunities and the chance to work directly with researchers.
+This leads naturally to the question, whether it is possible to become an RSE without a home research domain.
+With software being a core element of the research process in so many different domains,
+it is not helpful for everybody working in RSE to have a background in computing or software engineering.
 Indeed, we consider it much more useful if new graduates looking to work in the RSE space come from a wide range of different domains.
-Expertise, beyond software development skills, in another research domain can be an important element of an RSE team being able to support RSE projects in that domain.
-Assuming for a moment, that people have done their masters studies in a particular domain, e.g. from the natural sciences,
-and that we can assume that the lectures to that point contain a mixture of domain specific content and RSE specific content (A good starting point for an RSE in the natural sciences), then we come to the question of the topic of the masters thesis.
-In order for young RSEs to get their research experience we believe it is necessary that already in their master's thesis young RSE students are given computational research tasks that can be solved with the RSE specific skills of that domain. 
-This gives them a Master's degree of a ${DOMAIN}-RSE that has learnt in their lectures a research domain specific part and a software engineering specific part, and enabled them to get a first dip into actual science in their master's thesis.
+Expertise, beyond software development skills,
+in another research domain can be an important element of an RSE team being able to support RSE projects in that domain.
+
+A \${Domain}-RSE in the STEM domains can start with a Bachelor's degree in their domain that shares large portions
+of the curriculum with their original domain. There will only be some courses that advance peoples knowledge about digital
+tools and how to create tools from them.
+The Master's years bring them forward to actually applying their knowledge. So during these years they
+simultaneously work on deepening their knowledge about team skills, a topic they have been neglecting so far,
+they work towards getting to the current research in their domain, and getting up to speed about the current collaborative development practices.
+So we can assume that the lectures to that point contain a mixture of domain specific content and RSE specific content
+(A good starting point for an RSE in the natural sciences), then we come to the question of the topic of the master's thesis.
+In order for young RSEs to get their research experience we believe it is necessary that already
+in their master's thesis young RSE students are given computational research tasks
+that can be solved with the RSE specific skills of that domain.
+This gives them a Master's degree of a ${DOMAIN}-RSE that has learnt in their lectures a research domain specific part and a software engineering specific part,
+and enabled them to get a first dip into actual science in their master's thesis.
+Of course special care has to be taken to integrate them at some point in their studies into mature projects
+to expose them to the eperience of senior RSEs and how they approach problems.
+An example of this \${DOMAIN} - RSE can be found in Appendix: [Bioinformatics skills and certification].
 Of course, the next question for their future is whether a master's degree enables them to really be effective parts of a research group.
-While we accept this is something of a generalisation, we argue that this is most likely not the case since undertaking a PhD provides a much more extensive set of research training and experience that can be vital for a researcher's future.
-Research environments different internationally but in many cases there are formal barriers in the research landscape that require a PhD (e.g. eligibility for funding).
-Hence a PhD is required to actively participate in science and why we argue the regular RSE should do a PhD that on one end combines knowledge of a research domain with software engineering heavy task
-such that both pillars are suitably covered and they were able to observe how research functions.
+While we accept this is something of a generalisation, we argue that this is most likely not the case since
+undertaking a PhD provides a much more extensive set of research training and experience that can be vital for a researcher's future.
+Research environments differ internationally but in many cases there are formal barriers in the research landscape that require a PhD (e.g. eligibility for funding).
+Hence a PhD is required to actively participate in science and hence we argue the regular RSE
+should do a PhD that on one end combines knowledge of a research domain with software engineering heavy task
+such that both pillars are suitably covered and have been exposed to research, software development and team dynamics.
+Graduating from this PhD program, opens a future career path as a lead RSE in their domain to them.
 
 #### Specialised Master's Programs
-On the other hand, when pursuing a PhD, scientists are increasingly required to do RSE-type work as part of their research as data and computation are becoming part of research tasks in a huge range of fields.
+On the other hand, when pursuing a PhD,
+scientists are increasingly required to do RSE-type work as part of their research as data
+and computation are becoming part of research tasks in a huge range of fields.
 It is not uncommon for researchers to be faced with RSE topics for the first time, because it has not been part of their academic curricula.
 Many are faced with a steep learning curve that requires them to invest a huge amount of time to catch up.
 Naturally, many would only invest as much as necessary to get the job done regardless of whether the solution is sustainable or not.
-Support from RSEs is one way to resolve this challenge. 
+Support from RSEs is one way to resolve this challenge.
 Another would be to lay more effective foundations for future RSE work at a much earlier stage in undergraduate/postgraduate studies.
 We see scope for establishing dedicated RSE Master's programmes which specialise in developing RSE skills and practices.
-Some universities already offer dedicated master's programs in some domains. 
+Some universities already offer dedicated master's programs in some domains.
 Examples would be Computational Sciences in Engineering (CSE) or Bioinformatics
 (see Appendix: [Bioinformatics skills and certification]).
 Where appropriate similar programs should also be established in other domains.
 
+#### Alternative first qualification paths
+For completeness we mention that vocational programs like the MATSE [@MATSE] can provide a more application oriented less research oriented profile for individuals.
+Since a certain amount of overlap with sciences is expected, it is expected that programs can be switched with minimal friction.
+
+### Extra-academic institutions for continuous learning
+As elaborated in the instruction the dynamic working place of an RSE requires continuous learning.
+Knowledge-based industries have long recognized the value of qualifying their employees and hence invest time and money into this.
+We propose institutionalized structures that offer graduates a venue for life-long learning, or to deepen their skills.
+Centralizing this notion in a few institutions has some major benefits for society and industry as well,
+since these become central hubs for offering the skills with digital tools.
+The HPC-Akademie [@HPCAkademie] is a good example in the HPC space that offers its services to graduated
+researchers that want to deepen their HPC skills for research or to practitioners that require them for industrial applications.
+Specializing the centres to certain skill sets enables them to effectively reach out into the sciences with their brand.
+With the existence of these resources we believe that their acceptance gradually increases over time.
+The tasks of these centres is facilitated by reusing the work of initiatives like edutrain [@EDUTRAIN] and platforms like DALIA [@DALIA].
+Naturally, other existing structures outside of academia mentioned before like the Carpentries [@Carpentries] can be nicely integrated
+and offered to a broad audience on a regular basis.
+
+### Micro-accreditation
+With the existence of institutions for continuous learning
+after the first professional level of education the question of certification arises.
+We propose, digital certificates and
+learner badges [@Ifenthaler2016] as one possibility for experienced RSEs
+to showcase that they posess a certain technical skill.
+For example, the Software Carpentries minted digital badges in 2012
+[@Wilson2012a; @Wilson2012c] as a form of institutional accreditation.
+Despite initial plans to create skill-specific badges [@Wilson2012b],
+learner badges were ultimately abandoned in 2013 [@Wilson2013a] and recycled
+as participation certificates [@CarpentriesCertificates].
+Instructor badges were introduced instead [@Wilson2013a],
+which are now mandatory tokens to lead a Carpentry workshop or vote in
+council elections [@CarpentriesInstructorBadges].
+Ireland's Professional Development Framework [@Donnelly2018]
+provides accreditation to higher education teachers who successfully complete
+training on the National Forum's Open Courses via digital badges [@OpenCoursesBadges].
+The Extreme Science and Engineering Discovery Environment organization
+delivers badges to incentivise participation in HPC training events
+[@Kappes2015; @Sale2017]. IBM delivers badges to promote continuous learning and
+provide micro-credentials to its staff and customers [@Leaser2020; @Leaser2019]
+There are 1360 badges as of July 2023 [@IBMBadges]
+and 1 million badges were issued as of July 2018 [@Daniels2018];
+they are recognized by a few academic institutions
+[@NortheasternUniversityIBMBadges; @NCCentralUniversityIBMBadges; @BluefieldIBMBadges]
+and in some cases are convertible to graduate credit [@Leaser2020].
+
+The Open Source Software Security Mobilization Plan [@OSSMobilizationPlan]
+is proposing that code repositories and recruiting sites work on recognising
+digital badges certifying RSE skills in secure software development.
+Some code repositories already feature an infrastructure to automatically issue
+digital tokens, from personal badges measuring contributions
+[@GitHubProfileAchievements; @GitHubProfileTrophy] or community work
+(e.g. outreach efforts, workshop attendance and package maintenance in Fedora [@FedoraBadges]),
+to project-specific badges [@OSSFBestPracticeBadge; @Trockman2018; @Legay2020]
+that illustrate best practices, such as high code coverage or code quality,
+or signal commitment to diversity, equity, and inclusion [@CHAOSSDEIBadging; @GitHubCHAOSS].
+
+FIXME or remove me:
+
+- an argument could be made for having less metrics (GitHub allows users to hide their badges)
+- which institution would create RSE-badges? how would this institution drive adoption of RSE-badges?
+- downside of fine-grained badges: number of badges can grow quickly
+- badges can also fade away, i.e. have diminishing relevance or usefulness over
+  time (e.g. old workshop participation badge, or technologies that have since
+  become less relevant in the RSE field)
+- reviews [@Zhou2019; @Hansch2015; @Ahsan2023; @Liyanagunawardena2017] and
+  case studies [@Morris2019; @BorrasGene2018; @Higashi2020] on digital badges
+
+remaining Plan:
+- Lehrer ist damit natürlich ein Karriere-Pfad für RSEs
+- beides braucht geeignete Lehrer
+- pointer to the qualification paths and career paths outside of the appendix.
+
+FIXME: The career path discussion.
+
+=======
+*** EDUCATING RSEs in GERMANY - WHAT NEEDS TO BE DONE ***
+
 ## Required Next steps
 ### Implementation Strategies
 - Ideally over time scientific software engineering becomes part of the curricula at universities.
+>>>>>>> main
 
 #### Academic Considerations
 - Awareness of existing teaching programs
@@ -934,12 +1234,30 @@ Where appropriate similar programs should also be established in other domains.
 - Outreach to people that now have the feeling that they require this training.
 
 ## Conclusion
-We have indentified the RSE has an individual that contributes to research teams with their knowledge about digital tools.
+We have indentified the RSE as an individual that contributes to research teams with their knowledge about digital tools.
 Then we have defined generic core competencies from the pillars of Software Engineering, Research and Team processes.
 We fleshed them out with some possible specializations of RSEs.
 Given the competencies and a demand(FIXME: Do the calculation) in the research landscape for them we moved on to define who the teachers are for this new field.
-We closed with a discussion of possible structures and organization forms that educate new generations of RSEs in more structured programs than what is available today(FIXME: this is currently aspirational).
+We closed with a discussion of possible structures and organization forms that educate new generations of RSEs in more structured programs than what is available today.
 Therefore this closes the gap, that the research landscape requires RSEs, but there are no structures where these persons are educated, by detailing the career path that a young person might want to take to become an RSE.(FIXME: also aspirational...)
+
+However, it is worth highlighting that answering the need for more RSEs
+can only be achieved by simultaneously having a clear training path,
+but also by ensuring that existing and trained RSEs are retained in academia.
+This paper focused on the first component: training RSEs, but we still believe
+that a discussion on creating viable RSE career paths in academia is necessary.
+This might be even more true for RSEs than traditional researchers as RSEs
+may have more opportunities to perform similar activities in the commercial sector,
+while benefitting from better salaries and working conditions.
+
+RSEs are valuable members of research teams in academia,
+but the lack of institutional support leads to high turnover
+and difficulties attracting applicants with the right skill set.
+Several institutions have recognized these challenges and are taking steps
+to professionalize RSE profiles and make them more visible via dedicated
+funding programs [@Godoy2022; @DFGResearchSoftwareCall2022;
+@EdinburghRSECollaborationCall2023; @EdinburghRSEFellowshipCall2023]
+or by establishing RSE departments.
 
 ## Appendix
 ### An applied example curriculum
@@ -1000,50 +1318,3 @@ in bioinformatics [@BioinformaticsCertification; @Mulder2018].
 The database includes Bachelor and Master's degree programs and specializations,
 Ph.D. programs, and certificates from graduate schools.
 
-### Micro-accreditation
-
-RSEs are subject to life-long learning. As such, digital certificates and
-learner badges [@Ifenthaler2016] are one possibility for experienced RSEs
-to showcase that they posess a certain technical skill.
-For example, the Software Carpentries minted digital badges in 2012
-[@Wilson2012a; @Wilson2012c] as a form of institutional accreditation.
-Despite initial plans to create skill-specific badges [@Wilson2012b],
-learner badges were ultimately abandoned in 2013 [@Wilson2013a] and recycled
-as participation certificates [@CarpentriesCertificates].
-Instructor badges were introduced instead [@Wilson2013a],
-which are now mandatory tokens to lead a Carpentry workshop or vote in
-council elections [@CarpentriesInstructorBadges].
-Ireland's Professional Development Framework [@Donnelly2018]
-provides accreditation to higher education teachers who successfully complete
-training on the National Forum's Open Courses via digital badges [@OpenCoursesBadges].
-The Extreme Science and Engineering Discovery Environment organization
-delivers badges to incentivise participation in HPC training events
-[@Kappes2015; @Sale2017]. IBM delivers badges to promote continuous learning and
-provide micro-credentials to its staff and customers [@Leaser2020; @Leaser2019]
-There are 1360 badges as of July 2023 [@IBMBadges]
-and 1 million badges were issued as of July 2018 [@Daniels2018];
-they are recognized by a few academic institutions
-[@NortheasternUniversityIBMBadges; @NCCentralUniversityIBMBadges; @BluefieldIBMBadges]
-and in some cases are convertible to graduate credit [@Leaser2020].
-
-The Open Source Software Security Mobilization Plan [@OSSMobilizationPlan]
-is proposing that code repositories and recruiting sites work on recognising
-digital badges certifying RSE skills in secure software development.
-Some code repositories already feature an infrastructure to automatically issue
-digital tokens, from personal badges measuring contributions
-[@GitHubProfileAchievements; @GitHubProfileTrophy] or community work
-(e.g. outreach efforts, workshop attendance and package maintenance in Fedora [@FedoraBadges]),
-to project-specific badges [@OSSFBestPracticeBadge; @Trockman2018; @Legay2020]
-that illustrate best practices, such as high code coverage or code quality,
-or signal commitment to diversity, equity, and inclusion [@CHAOSSDEIBadging; @GitHubCHAOSS].
-
-FIXME or remove me:
-
-- an argument could be made for having less metrics (GitHub allows users to hide their badges)
-- which institution would create RSE-badges? how would this institution drive adoption of RSE-badges?
-- downside of fine-grained badges: number of badges can grow quickly
-- badges can also fade away, i.e. have diminishing relevance or usefulness over
-  time (e.g. old workshop participation badge, or technologies that have since
-  become less relevant in the RSE field)
-- reviews [@Zhou2019; @Hansch2015; @Ahsan2023; @Liyanagunawardena2017] and
-  case studies [@Morris2019; @BorrasGene2018; @Higashi2020] on digital badges
