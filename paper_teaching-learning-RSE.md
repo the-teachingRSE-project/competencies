@@ -191,7 +191,7 @@ valuable in order to observe how software development in academia will be
 institutionalised. Finally, the strong emphasis on team-skills allows RSEs to be
 very employable in industrial workplaces.
 
-### National Context
+### National Contexthttps://docs.google.com/document/d/1sfevW3Qbh8jcAwMRYkNTD8PstEy-MBqn2xbQH2ogYzU/edit#heading=h.w2secxckj3tq
 
 Having been developed at a workshop in Paderborn in Germany, naturally a part
 of the discussion in this paper focusses on the German academic landscape.
@@ -367,6 +367,22 @@ to create their own instructor manual [@ENCCSInstructorTraining; @ENCCS2022].
 The ENCCS lessons are targeted at individuals who already have general RSE
 skills and are seeking new skills relevant to HPC and software engineering.
 
+#### German National Research Data Infrastructure (NFDI)
+
+EduTrain (Training & Education) [@EDUTRAIN] is a section of the NFDI [@NFDI].
+Based on the slogan "data literacy from the beginning", it contributes to the further development of scientific methods and good scientific practice.
+The targeted education also involves research software engineering.
+As described in its concept [@EduTrain2022], there will be a collaboration with "The Carpentries" regarding their lesson program.
+Moreover, the approach of how "The Carpentries" are organized will be adopted.
+
+Through the close connection to the DALIA project [@DALIA], the NFDI and its section EduTrain will benefit from a knowledge-base which is implemented as semantically linked knowledge graph.
+- FIXME: Is there any connection to RSE?
+
+According to the goals of the NFDI consortium NFDI4Ing (National Research Data Infrastructure for Engineering Sciences) [@NFDI4ING], engineers treat software as research data that possibly connects the different stages of stored data.
+Therefore, it aims to enable engineers to develop validated quality-assured engineering research software. 
+One specific example is the lecture 'Sustainable Development of Simulation Software' that has been developed as master's course at the Institute for Modelling Hydraulic and Environmental Systems at the University of Stuttgart [@SDSSCOURSE; @SDSSMATERIAL].
+
+
 #### SureSoft
 Suresoft [@SURESOFTLink] is a DFG funded project at TU Braunschweig and FAU Erlangen-Nürnberg fostering the sustainability of research software by helping researchers adopt practices and tools from the software engineering community [@SURESOFT2022]. 
 The project implements a twofold approach that combines tools and infrastructure with education in the form of workshops and training.
@@ -406,7 +422,6 @@ FIXME:
 
 - [Better Scientific Software (BSSW)](https://bssw.io/) ...
 - [Software Sustainability Institute (SSI)](https://www.software.ac.uk/) [@Crouch2013] ...
-- Add NFDI initiatives like edutrain.
 - ELIXIR/EXCELERATE/GOBLET train-the-trainer programme [@Via2017; @Morgan2017]
 - Library-RSE resources [@Clarke2019] (no longer updated since 2019)
 - Happy Belly Bioinformatics [@Lee2019]
