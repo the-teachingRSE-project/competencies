@@ -418,7 +418,7 @@ the ELIXIR [@Gurwitz2020] Training e-Support System (TeSS) platform
 or the now-defunct Educational Resource Discovery Index (ERuDIte)
 [@VanHorn2017; @Ambite2021] for data science.
 
-FIXME:
+ADDME:
 
 - [Better Scientific Software (BSSW)](https://bssw.io/) ...
 - [Software Sustainability Institute (SSI)](https://www.software.ac.uk/) [@Crouch2013] ...
@@ -435,17 +435,33 @@ FIXME:
 - What is missing
 - domain application?
 
-As seen in the previous section, there already exist a number of open educational resources in the field of RSE. However, what is missing is a practical way to search all of these at once. This is mainly due to the lack of a metadata standard concerning EOR resources within the RSE community, as well as some simple way to collect potentially existing metadata in one place in order to enable a comprehensive search.
+### A fundamental skills gap
+
+A major challenge for the future of Research Software Engineering is the significant gap between the availability of basic training and the comparatively
+small number of experts in specialist topics such as High Performance Computing (HPC), parallel algorithms and neural network design.
+For example, scientists working with HPC may need to know how to make effective use of concurrency to speed up their simulations and communicate efficiently using message-passing interface (MPI) libraries.
+The same is true for researchers from other domains who make use of other specialized technologies, methods and/or tools.
+Organisations such as **[The Carpentries]** and **[CodeRefinery]** provide extensive introductory training materials and, increasingly some more intermediate-level content.
+However, to bridge the gap between introductory and expert-level skills, more specialized courses are needed like the ones mentioned in section [Identifying skills and pathways] for the HPC community.
+
+Moreover, software development is a craft, i.e. it is not only about knowledge but also requires practical experience.
+Hence we need to create an environment that allows less experienced researchers to practice and gain experience efficiently.
+Ideally, this would be facilitated through learning environments that allow less experienced scientists to be guided by more experienced RSEs.
+We know such practices e.g. from human medicine, where junior doctors first assist experienced doctors before they work independently.
+In the field of software development, this approach could be implemented in the form of peer programming, for example.
+In the German context, the prerequisite for this, however, is that experienced academics/researchers get better career opportunities at German universities so that they do not leave for industry roles. 
+
+As the need for research software engineering skills and expertise grows, there is a fundamental need to address this challenge in order to support the future of computational research.
+Indeed, computational approaches are increasingly becoming the standard approach for tackling large research challenges across almost all domains and we see the potential for a huge growth in demand for the skills required to support this.
+
+As seen in the previous section, there already exist a number of open educational resources in the field of RSE. However, what is missing is a practical way to search all of these at once.
+This is mainly due to the lack of a metadata standard concerning EOR resources within the RSE community, as well as some simple way to collect potentially existing metadata in one place in order to enable a comprehensive search.
 
 Building on this: courses exist on different knowledge and experience levels and, at least in part, build upon each other. However, there is currently no (unified) way to clearly label
 - what are the topics taught by a course
 - what are the topics recommended to know to start the course
 - what are the topics required to know to start the course
 This, in part, is due to a missing (metadata) standard to express these dependencies.
-
-Continuing along thes line of course dependencies and also depending on the specific domain there are gaps between very basic and very advanced courses, e.g., there is a gap between the basic software carpentry courses and the required skills to build domain-specific research software. For example, scientists in the field of High Performance Computing (HPC) need to know how to make effective use of concurrency to speed up their simulations and communicate efficiently using message-passing interface (MPI) libraries. The same is true for researchers from other domains who make use of other specialized technologies, methods and/or tools. To bridge those gaps more specialized courses would be needed like the one mentioned in section [Identifying skills and pathways] for the HPC community.
-
-Moreover, software development is a craft, i.e. it is not only about knowledge but also requires practical experience. Hence we need to create an environment that allows less experienced researchers to practice and gain experience efficiently. Ideally, this learning environment would allow less experienced scientists to be guided by more experienced RSEs. We know such practices e.g. from human medicine, where junior doctors first assist experienced doctors before they work independently. In the field of software development, this approach could be implemented in the form of peer programming, for example. The prerequisite for this, however, is that experienced academics get better career opportunities at German universities so that they do not leave for industry roles. 
 
 *** AN ATTEMPT TO DEFINE COMPETENCIES AND RESPONSIBILITIES OF AN RSE ***
 
