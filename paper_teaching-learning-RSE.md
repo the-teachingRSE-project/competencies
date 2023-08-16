@@ -8,7 +8,7 @@ author:
   - Jan Philipp Thiele
   - Jeremy Cohen
   - Renato Alves
-  - Samatha Wittke
+  - Samantha Wittke
   - Jean-Noël Grad
   - Fredo Erxleben
   - Magnus Hagdorn
