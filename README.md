@@ -2,15 +2,20 @@
 
 Output of the de-RSE 2022 Conference Workshop on "Teaching and Learning Research Software Engineering".
 
-Get the [latest version of the PDF](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/output.pdf).
+Get the latest version of the PDF files here:
+* "Teaching and Learning Research Software Engineering" ([intro.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/intro.pdf))
+* "Foundational competencies and responsibilities of an RSE" ([competencies.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/competencies.pdf))
+* "Institutionalized Organization of RSE Education" ([institutionalized_education.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/institutionalized_education.pdf))
+* "A Survey of Initiatives Providing Educative Material in the RSE Space" ([survey.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/survey.pdf))
+* "Educating RSEs in Germany - What Needs to Be Done" ([call_to_action.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/call_to_action.pdf))
 
 ## How to contribute
 
 This paper is intended as a collaborative effort and we are looking for input from you. 
 
-**We follow gitlab/github flow**
+**We follow GitLab/GitHub flow**
 
-**Please utilize newlines for changes!**
+**Please utilize semantic line breaks!**
 
 You can contribute in various ways:
 
@@ -22,7 +27,7 @@ You can contribute in various ways:
 
 - Fork this repository
 - Create your changes in your fork
-- Go to the [pull requests](https://github.com/HeidiSeibold/paper_teaching-learning-RSE/pulls) page of this repository and push `new pull request`
+- Go to the [pull requests](https://github.com/CaptainSifff/paper_teaching-learning-RSE/pulls) page of this repository and push `new pull request`
 - Add a short description 
 
 The community will review your pull request and may ask you for additional changes.
@@ -31,7 +36,7 @@ helpful as possible).
 
 #### How to review existing pull requests
 
-- Go to the [pull requests](https://github.com/HeidiSeibold/paper_teaching-learning-RSE/pulls) page of this repository
+- Go to the [pull requests](https://github.com/CaptainSifff/paper_teaching-learning-RSE/pulls) page of this repository
 - Click on any of the open pull requests
 - Leave comments under `Conversation` or do a full review under `Files changed`
 
@@ -39,6 +44,3 @@ helpful as possible).
 
 If you've contributed to this paper in any way, please add your name to 
 [contributors.md](contributors.md)
-
-
-

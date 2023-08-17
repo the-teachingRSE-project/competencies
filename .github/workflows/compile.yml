@@ -12,13 +12,13 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y texlive pandoc texlive-bibtex-extra texlive-xetex biber latexmk
       - name: pandoc compile
         working-directory: ${{ env.DIR }}
-        run: make
+        run: make all
       - name: move
-        run: mkdir -p github_artifacts && mv ${{ env.DIR }}/output.pdf ./github_artifacts/
+        run: mkdir -p github_artifacts && mv ${{ env.DIR }}/*.pdf ./github_artifacts/
       - name: Upload pdf as artifact
         uses: actions/upload-artifact@v2
         with:
-          name: output.pdf
+          name: PDF files
           path: ./github_artifacts
   deploy:
     needs: [paper]
