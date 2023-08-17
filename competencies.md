@@ -522,3 +522,61 @@ Further ideas:
   to address gender disparities or take into account economic status, cultural background, or special educational needs;
   peer-reviewing of code of conducts by the CHAOSS Diversity and Inclusion Badging organization [@CHAOSSDEIBadging; @GitHubCHAOSS]
 - related discussion in CSE [@Webb2017]
+
+## Appendix
+### An applied example curriculum
+### An example of a possible career path
+- We can follow Kim, who has been the protagonist of the original deRSE Paper.
+
+### HPC skills and certification
+
+As an area that generally requires a range of advanced skills,
+High Performance Computing (HPC) is one field where there is ongoing work
+to identify relevant sets of skills for HPC practitioners and potential paths
+to develop these skills. The HPC Certification Forum [@HPCCFCompetencies] has
+developed a competence standard for HPC that defines a range of skills and
+how they are related in the context of a skill tree [@Kunkel2020a; @Kunkel2020b].
+This competence standard is currently being built upon by the CASTIEL 2 [@CASTIEL2] project
+in collaboration with initiatives funded by the European High Performance Computing
+Joint Undertaking (EuroHPC JU) to create a framework for HPC certification [@EuroHPCJU2023].
+
+Also looking at pathways and how different skills are related,
+the UNIVERSE-HPC project [@UNIVERSEHPC], funded under the UK's ExCALIBUR
+research programme [@EXCALIBUR], is looking to understand and develop
+training pathways to support the development of specialist skills in the HPC
+and exascale domains. The project is gathering open source training materials
+to develop curricula that support the training pathways that are underpinned
+by high-quality training materials.
+
+### Bioinformatics skills and certification
+
+Bioinformatics is another field that actively works on developing skill trees.
+The Bioinformatics Core Competencies [@Mulder2018; @Welch2016; @Welch2014],
+the BioExcel competency framework [@Matser2016],
+the PerMedCoE competency framework [@Lloret-Llinares2021],
+the Research Data Management and Data Stewardship competence framework [@Demchenko2021]
+and the ELIXIR Data Stewardship Competency Framework for Life Sciences [@Scholtens2019]
+are examples of grassroot efforts aiming at defining the set of skills
+of various bioinformatics specialties,
+one of them as a taxonomy [@Mulder2018].
+These frameworks eventually converged into the EMBL-EBI Competency Hub
+[@CompetencyHub; @Lloret-Llinares2022],
+where typical RSE and bioinformatician profiles at different levels
+of seniority can be queried
+(e.g. [Junior RSE](https://competency.ebi.ac.uk/framework/bioexcel/3.0/profile/view/10115/alex-2),
+[Senior Computational Chemist](https://competency.ebi.ac.uk/framework/bioexcel/3.0/profile/view/10121/kim-0))
+and compared against one another
+(e.g. [Junior vs. Senior RSE](https://competency.ebi.ac.uk/framework/bioexcel/3.0/profiles/compare/10115/10117)).
+
+Competencies can be divided into more fine-grained building blocks:
+knowledge, skills and abilities (KSAs). They can be organized in a taxonomy,
+and are also transferable, i.e. a KSA can be a pre-requisite to multiple competencies.
+The Mastery Rubric for Bioinformatics [@Tractenberg2019] and the ELIXIR
+Data Stewardship Competency Framework for Life Sciences [@Scholtens2019]
+are examples of KSA frameworks for bioinformatics curricula.
+
+The Curriculum Task Force of the International Society for Computational
+Biology (ISCB) curates a database of degrees and certificates
+in bioinformatics [@BioinformaticsCertification; @Mulder2018].
+The database includes Bachelor and Master's degree programs and specializations,
+Ph.D. programs, and certificates from graduate schools.

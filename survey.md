@@ -205,3 +205,36 @@ Building on this: courses exist on different knowledge and experience levels and
 - what are the topics recommended to know to start the course
 - what are the topics required to know to start the course
 This, in part, is due to a missing (metadata) standard to express these dependencies.
+
+## Appendix
+### Sources for RSE-related training material
+
+#### Books
+
++ "Producing Open Source Software" ([@Fogel2005; @Fogel2017]) describes a lot of aspects for running a free software project.
+
++ "Research Software Engineering with Python" ([@Irving2021]) targets
+  Python programming novices and introduces a set of essential tools
+  next to the programming language itself.
+
+#### Course material
+
++ The Software Carpentries Lessons [@CarpentriesSoftware] provide extensive teaching material
+for basic research software skills geared towards researchers.
+
++ The unofficial MIT course "The Missing Semester of Your CS Education" ([@Athalye2023])
+covers a lot of basic computer skills typically taught by RSEs.
+
+#### Train-the-trainers material
+
++ "Teaching Tech Together" is a book that derives from and extends the Carpentries Instructor Training [@Brown2023],
+which is a continuously updated and extended online-resource.
+
++ The National Competence Center Sweden (ENCCS) [https://enccs.se/] provides instructor training material
+[@ENCCSInstructorTraining], [@ENCCS2022] developed from Carpentries and CodeRefinery material, as well as lessons for
+HPC-oriented RSEs [@ENCCSLessons].
+
+
+#### Directories  of resources
+
++ Better Scientific Software (BSSW)(https://bssw.io/) (Collection of resources for computational science and engineering) w
