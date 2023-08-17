@@ -27,7 +27,9 @@ header-includes:
 ---
 
 **Abstract**:
-
+Previous publications hav defined the core competencies of an RSE and surveyed the state of existing RSE-related resources.
+In this paper we detail how to structure the education of RSEs in exisiting structures and which additional structures are
+required.
 ---
 
 **Keywords**: research software engineering, training, learning, competencies

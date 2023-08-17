@@ -27,6 +27,7 @@ header-includes:
 ---
 
 **Abstract**:
+In this publication we survey the existing RSE-training related resources and initiatives.
 
 ---
 

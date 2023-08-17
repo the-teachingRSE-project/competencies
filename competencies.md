@@ -27,6 +27,11 @@ header-includes:
 ---
 
 **Abstract**:
+In this paper we define the broad notion of what an RSE is and
+give a list of foundational competencies that define the RSE profile.
+Using that we elaborate on the progression of these skills along different
+dimensions and give examples of future specializations.
+An Appendix details how existing curricula fit into this framwork.
 
 ---
 
