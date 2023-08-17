@@ -26,6 +26,13 @@ header-includes:
     - \newcommand{\elandscape}{\end{landscape}}
 ---
 
+**Abstract**:
+
+---
+
+**Keywords**: research software engineering, training, learning, competencies
+
+
 ## Related Work and Activities
 
 The challenges of understanding the current state of skills within the research software community and related areas,

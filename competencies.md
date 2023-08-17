@@ -26,6 +26,13 @@ header-includes:
     - \newcommand{\elandscape}{\end{landscape}}
 ---
 
+**Abstract**:
+
+---
+
+**Keywords**: research software engineering, training, learning, competencies
+
+
 # Workshop Results
 ## Required Generic RSE skills
 The role of an RSE lies somewhere on the spectrum between that of a researcher

@@ -26,6 +26,13 @@ header-includes:
     - \newcommand{\elandscape}{\end{landscape}}
 ---
 
+**Abstract**:
+
+---
+
+**Keywords**: research software engineering, training, learning, competencies
+
+
 ## Organizational Infrastructures
 So we have defined our set of competencies that we feel every RSE should possess.
 Table 2 above nevertheless already hints at the fact that some RSE skills are required during the domain studies,

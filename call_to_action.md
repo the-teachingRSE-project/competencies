@@ -26,10 +26,6 @@ header-includes:
     - \newcommand{\elandscape}{\end{landscape}}
 ---
 
-## Working Title: Identifying foundational competencies of Research Software Engineers across all specializations.
-
----
-
 **Abstract**:
 
 ---
