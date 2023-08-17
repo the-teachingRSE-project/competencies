@@ -9,7 +9,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Install pandoc
-        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends texlive pandoc texlive-bibtex-extra texlive-fonts-recommended texlive-xetex lmodern biber latexmk make gpg-agent
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends texlive pandoc texlive-bibtex-extra texlive-fonts-recommended texlive-xetex lmodern biber latexmk python3 python3-yaml xz-utils make gpg-agent
+      - name: Configure LaTeX environment
+        working-directory: ${{ env.DIR }}
+        run: |
+          mkdir -p "${HOME}/texmf"
+          tlmgr init-usertree
+          tlmgr option repository https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2021/tlnet-final/
+          tlmgr install academicons
       - name: pandoc compile
         working-directory: ${{ env.DIR }}
         run: make all

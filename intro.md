@@ -21,14 +21,6 @@ output:
     toc: true
     number_sections: true
 bibliography: bibliography.bib
-header-includes:
-    - \usepackage{pdflscape}
-    - \newcommand{\blandscape}{\begin{landscape}}
-    - \newcommand{\elandscape}{\end{landscape}}
----
-
-## Working Title: Identifying foundational competencies of Research Software Engineers across all specializations.
-
 ---
 
 **Abstract**:

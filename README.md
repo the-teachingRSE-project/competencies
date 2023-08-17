@@ -43,4 +43,6 @@ helpful as possible).
 #### How to get credit
 
 If you've contributed to this paper in any way, please add your name to 
-[contributors.md](contributors.md)
+[contributors.yml](contributors.yml) using the template at the bottom
+of the file. Make sure the name provided in the "author:" field matches
+exactly with the name in the Markdown preamble author list.

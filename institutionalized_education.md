@@ -20,10 +20,6 @@ output:
     toc: true
     number_sections: true
 bibliography: bibliography.bib
-header-includes:
-    - \usepackage{pdflscape}
-    - \newcommand{\blandscape}{\begin{landscape}}
-    - \newcommand{\elandscape}{\end{landscape}}
 ---
 
 **Abstract**:
