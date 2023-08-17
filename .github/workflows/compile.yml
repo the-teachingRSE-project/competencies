@@ -7,16 +7,16 @@ jobs:
       DIR: .
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Install pandoc
-        run: sudo apt-get update && sudo apt-get install -y texlive pandoc texlive-bibtex-extra texlive-xetex biber latexmk
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends texlive pandoc texlive-bibtex-extra texlive-fonts-recommended texlive-xetex lmodern biber latexmk make gpg-agent
       - name: pandoc compile
         working-directory: ${{ env.DIR }}
         run: make all
       - name: move
         run: mkdir -p github_artifacts && mv ${{ env.DIR }}/*.pdf ./github_artifacts/
       - name: Upload pdf as artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: PDF files
           path: ./github_artifacts
