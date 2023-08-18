@@ -1,5 +1,5 @@
 ---
-title: "EDUCATING RSEs in GERMANY - WHAT NEEDS TO BE DONE"
+title: "Educating RSEs in Germany - What Needs to Be Done"
 geometry: margin=2.5cm
 author:
   - Heidi Seibold

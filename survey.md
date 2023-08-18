@@ -1,5 +1,5 @@
 ---
-title: "A SURVEY OF INITIATIVES PROVIDING EDUCATIVE MATERIAL IN THE RSE SPACE"
+title: "A Survey of Initiatives Providing Educative Material in the RSE Space"
 geometry: margin=2.5cm
 author:
   - Heidi Seibold
@@ -74,7 +74,7 @@ Carpentry instructors must be certified before organizing a workshop.
 There is a selection process [@CarpentriesBecomingInstructor] as well as
 an instructor training course, upon which a certificate is delivered [@Wilson2013a].
 
-#### Coderefinery
+#### CodeRefinery
 
 CodeRefinery [@CodeRefinery] is a project currently funded by the Nordic e-Infrastructure and thus active primarily in the Nordics with the goal of teaching essential tools around research software development, that are usually skipped in academic education.
 CodeRefinery hosts a set of open source training materials including both beginner and intermediate level material and organizes multiple highly interactive large scale workshops per year.
@@ -180,7 +180,7 @@ A major challenge for the future of Research Software Engineering is the signifi
 small number of experts in specialist topics such as High Performance Computing (HPC), parallel algorithms and neural network design.
 For example, scientists working with HPC may need to know how to make effective use of concurrency to speed up their simulations and communicate efficiently using message-passing interface (MPI) libraries.
 The same is true for researchers from other domains who make use of other specialized technologies, methods and/or tools.
-Organisations such as **[The Carpentries]** and **[CodeRefinery]** provide extensive introductory training materials and, increasingly some more intermediate-level content.
+Organisations such as [The Carpentries] and [CodeRefinery] provide extensive introductory training materials and, increasingly some more intermediate-level content.
 However, to bridge the gap between introductory and expert-level skills, more specialized courses are needed like the ones mentioned in section [Identifying skills and pathways] for the HPC community.
 
 Moreover, software development is a craft, i.e. it is not only about knowledge but also requires practical experience.
