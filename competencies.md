@@ -223,9 +223,9 @@ Beyond that, we feel that today Other important tasks of RSEs are
   Research software often starts out as a tool to answer a personal research
   question and becomes more important when other researchers rely on it.
   Some research software might even be used to deal with critical questions such as weather forecasting or medical diagnosis.
-  To formalize the process of giving good advice a classification of software is commonly used [@WANG2012; @dlr121502]
+  To formalize the process of giving good advice a classification of software is commonly used [@Wang2012; @Schlauch2018b]
   where research software can move from one class to another during its lifecycle.
-  [@dlr121502] classify applications based on their scope and criticality and provide software engineering recommendations.
+  [@Schlauch2018b] classify applications based on their scope and criticality and provide software engineering recommendations.
   The RSE needs to be able to identify the application class they are dealing with and apply the respective RSE practices.
 
 - Enforcing reproducibility. Projects like [@ReproHack] can greatly help in fostering that competency.
