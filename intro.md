@@ -156,7 +156,7 @@ This enables us to define Research Software in this paper to include source code
 algorithms, scripts, computational workflows and executables that were created
 during the research process or for a research purpose.
 This definition is broader than in [@FAIR4RS] and is the outcome of a recent
-discussion in [@definingrs2021].
+discussion in [@Gruenpeter2021].
 
 Using this, Research Software Engineers are now people that 
 create or improve research software and/or the structures that the software interacts with
