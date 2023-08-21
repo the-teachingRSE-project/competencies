@@ -27,7 +27,7 @@ In this publication we survey the existing RSE-training related resources and in
 
 ---
 
-**Keywords**: research software engineering, training, learning, competencies
+**Keywords**: research software engineering, training, learning, open educational resources
 
 
 ## Related Work and Activities
@@ -168,49 +168,50 @@ engineering community [@SURESOFT2022].
 The project implements a twofold approach that combines tools and
 infrastructure with education in the form of workshops and training.
 
-### FAIRness of RSE-related materials
+### FAIRness and openness of RSE-related materials
 
 Due to the ever-evolving nature of skills and infrastructure in the RSE field,
 training material is often version-controlled, so that trainers can update it
 between iterations. For example, core lessons from the Carpentries and CodeRefinery
 are stored on GitHub, and any change is automatically mirrored to their website.
-Likewise, the reference work on RSE by Fogel [@Fogel2005] was released in its
-second edition as a living document [@Fogel2017]. The ENCCS instructor
-training manual [@ENCCS2022] is also available as a living document
-[@ENCCSInstructorTraining]. The Carpentry instructor guide [@Wilson2019a]
+The ENCCS instructor training manual [@ENCCS2022] is available as a living document
+[@ENCCSInstructorTraining], and The Carpentry instructor guide [@Wilson2019a]
 is available as living documents in both English [@Wilson2019b] and Spanish [@Wilson2019c].
-From the MIT Computer Science & Artificial Intelligence Laboratory comes an
-unofficial course [The Missing Semester of Your CS
-Education](https://missing.csail.mit.edu/) which covers a lot of basic computer
-skills typically taught by RSEs. The skills covered here also provide an
-important set of core capabilities for anyone looking to become an RSE.
-
-More generally, it is important for training material to follow the FAIR
-principles [@FAIR], so that the community of trainers and learners can make
-the most out of it [@Garcia2020].
 Core lessons from The Carpentries were translated in multiple languages
 to make workshops more accessible to communities where the English language
 poses a barrier to learning (for more details, see section
-[How do we reach people in different stages of their careers?]).
-Material with rich metadata are indexed in online databases, such as
-the INTERSECT [@Carver2020] collection [@INTERSECTOnlineResources]
+[How do we reach people in different stages of their careers?]
+from paper `competencies.pdf`).
+These considerations are part of the more general concept of Open Educational
+Resources (OER) [@Pownall2023], which are part of the UNESCO recommendations
+since 2019[@UNESCO2019].
+
+It is also important for training material to follow the FAIR principles [@FAIR],
+so that the community of trainers and learners can make the most out of it [@Garcia2020].
+Material with rich metadata can be indexed in online databases,
+such as the INTERSECT [@Carver2020] collection [@INTERSECTOnlineResources]
 and the US-RSE collection [@usRSETraining] for all RSE specialisations,
 the ELIXIR [@Gurwitz2020] Training e-Support System (TeSS) platform
 [@Beard2020; @Bacall2023] for bioinformatics and life sciences,
 or the now-defunct Educational Resource Discovery Index (ERuDIte)
 [@VanHorn2017; @Ambite2021] for data science.
 
+FIXME: better integrate this MIT course, maybe move it to the introduction?
+From the MIT Computer Science & Artificial Intelligence Laboratory comes an
+unofficial course "The Missing Semester of Your CS Education" [@Athalye2023]
+which covers a lot of basic computer
+skills typically taught by RSEs. The skills covered here also provide an
+important set of core capabilities for anyone looking to become an RSE.
+
 ADDME:
 
-- [Better Scientific Software (BSSW)](https://bssw.io/) ...
 - [Software Sustainability Institute (SSI)](https://www.software.ac.uk/) [@Crouch2013] ...
 - ELIXIR/EXCELERATE/GOBLET train-the-trainer programme [@Via2017; @Morgan2017]
 - Library-RSE resources [@Clarke2019] (no longer updated since 2019)
 - Happy Belly Bioinformatics [@Lee2019]
 - software energy consumption and "green software engineering"
-  [@Pinto2017; @Pereira2021; @Oprescu2022],
+  [@Pinto2017; @Pereira2021; @Oprescu2022; @Couto2020],
   teaching by SusTrainable [@SusTrainable; @Koopman2022]
-- reference works for self-study [@Fogel2005], [@Irving2021], [@Wilson2019a]
 
 ## Challenges
 - Point out gaps
