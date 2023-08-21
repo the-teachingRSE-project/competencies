@@ -32,12 +32,14 @@ In this publication we survey the existing RSE-training related resources and in
 
 ## Related Work and Activities
 
-The challenges of understanding the current state of skills within the research software community and related areas,
-as well as identifying required competencies, developing training pathways and providing training materials are areas that are being looked at and addressed by various groups and projects.
+The challenges of understanding the current state of skills
+within the research software community and related areas,
+as well as identifying required competencies, developing training pathways
+and providing training materials are areas that are being looked at
+and addressed by various groups and projects.
 In this section, we highlight some of these other projects and activities.
 
-
-### RSE-related training ressources
+### RSE-related training resources
 
 The day-to-day work of many RSEs often includes teaching activities to improve the RSE-related skill-set of researchers,
 e.g. in university courses, workshops or one-on-one.
@@ -55,7 +57,9 @@ but are also helpful to fill gaps in the capabilities of professional RSEs.
 
 #### The Carpentries
 
-The Carpentries [@Carpentries] is a non-profit entity that supports a range of open source training materials and international communities of volunteer instructors and helpers who run courses around these materials.
+The Carpentries [@Carpentries] is a non-profit entity that supports
+a range of open source training materials and international communities
+of volunteer instructors and helpers who run courses around these materials.
 The community also maintains the materials which are based around three core syllabuses --
 Software Carpentry [@CarpentriesSoftware; @Wilson2006; @Wilson2016a],
 Data Carpentry [@CarpentriesData; @Teal2015] and
@@ -76,10 +80,20 @@ an instructor training course, upon which a certificate is delivered [@Wilson201
 
 #### CodeRefinery
 
-CodeRefinery [@CodeRefinery] is a project currently funded by the Nordic e-Infrastructure and thus active primarily in the Nordics with the goal of teaching essential tools around research software development, that are usually skipped in academic education.
-CodeRefinery hosts a set of open source training materials including both beginner and intermediate level material and organizes multiple highly interactive large scale workshops per year.
-Skills learned from the workshops and/or materials allow researchers to produce more reproducible, open and efficient software and thus promote FAIR [@FAIR] research practices.
-One goal of the project is to evolve into a community project that seamlessly integrates with other initiatives. FIXME: elaborate on the integration part if it's relevant, else leave out.
+CodeRefinery [@CodeRefinery] is a project currently funded by the Nordic
+e-Infrastructure and thus active primarily in the Nordics with the goal
+of teaching essential tools around research software development,
+that are usually skipped in academic education.
+CodeRefinery hosts a set of open source training materials including
+both beginner and intermediate level material and organizes multiple
+highly interactive large scale workshops per year.
+Skills learned from the workshops and/or materials allow researchers
+to produce more reproducible, open and efficient software and thus
+promote FAIR [@FAIR] research practices.
+One goal of the project is to evolve into a community project that
+seamlessly integrates with other initiatives.
+
+FIXME: elaborate on the integration part if it's relevant, else leave out.
 
 #### PRACE
 
@@ -93,13 +107,26 @@ best practices, modern software design [@LRZModernCpp], project management and
 version control [@LRZIntroCpp].
 
 #### Helmholtz
-As part of its push towards a better RSE environment, the Helmholtz Association launched the Helmholtz Federated IT Services platform (HIFIS) [@HIFIS] which provides educational material and trainings amongst other services for an audience of over 10,000 scientists in Germany and internationally.
-All of these materials focus on RSE basics to refresh and expand the software engineering knowledge for recent graduates or to update the existing knowledge in established researchers.
-They are published under OER licenses and can serve as either self-learning instructions or form the basis of a hands-on training.
-To allow these educational offers to be easier brought to the scientists, the Helmholtz Information and Data Science Academy (HIDA) [@HIDA] sustains a large network within the Helmholtz Association and beyond with a strong focus on graduate schools.
-Further RSE training offers within the Helmholtz context are provided by the Helmholtz-AI [@HAI] and Helmholtz-Imaging [@HImaging] platforms as well as the Helmholtz Metadata Collaboration plaftorm [@HMC].
+
+As part of its push towards a better RSE environment, the Helmholtz Association
+launched the Helmholtz Federated IT Services platform (HIFIS) [@HIFIS]
+which provides educational material and trainings amongst other services
+for an audience of over 10,000 scientists in Germany and internationally.
+All of these materials focus on RSE basics to refresh and expand the software
+engineering knowledge for recent graduates or to update the existing
+knowledge in established researchers.
+They are published under OER licenses and can serve as either self-learning
+instructions or form the basis of a hands-on training.
+To allow these educational offers to be easier brought to the scientists,
+the Helmholtz Information and Data Science Academy (HIDA) [@HIDA] sustains
+a large network within the Helmholtz Association and beyond with a strong
+focus on graduate schools.
+Further RSE training offers within the Helmholtz context are provided
+by the Helmholtz-AI [@HAI] and Helmholtz-Imaging [@HImaging] platforms
+as well as the Helmholtz Metadata Collaboration plaftorm [@HMC].
 
 #### ENCCS
+
 The [National Competence Center Sweden (ENCCS)](https://enccs.se/)
 has created a collection of lessons for HPC-oriented RSEs [@ENCCSLessons] and
 has adapted instructor training material from The Carpentries and CodeRefinery
@@ -108,25 +135,41 @@ The ENCCS lessons are targeted at individuals who already have general RSE
 skills and are seeking new skills relevant to HPC and software engineering.
 
 #### German National Research Data Infrastructure (NFDI)
+
 EduTrain (Training & Education) [@EDUTRAIN] is a section of the NFDI [@NFDI].
-Based on the slogan "data literacy from the beginning", it contributes to the further development of scientific methods and good scientific practice.
+Based on the slogan "data literacy from the beginning",
+it contributes to the further development of scientific methods
+and good scientific practice.
 The targeted education also involves research software engineering.
-As described in its concept [@EduTrain2022], there will be a collaboration with "The Carpentries" regarding their lesson program.
+As described in its concept [@EduTrain2022], there will be a collaboration
+with "The Carpentries" regarding their lesson program.
 Moreover, the approach of how "The Carpentries" are organized will be adopted.
 
-Through the close connection to the DALIA project [@DALIA], the NFDI and its section EduTrain will benefit from a knowledge-base which is implemented as semantically linked knowledge graph.
+Through the close connection to the DALIA project [@DALIA],
+the NFDI and its section EduTrain will benefit from a knowledge-base
+which is implemented as semantically linked knowledge graph.
 - FIXME: Is there any connection to RSE?
 
-According to the goals of the NFDI consortium NFDI4Ing (National Research Data Infrastructure for Engineering Sciences) [@NFDI4ING], engineers treat software as research data that possibly connects the different stages of stored data.
-Therefore, it aims to enable engineers to develop validated quality-assured engineering research software. 
-One specific example is the lecture 'Sustainable Development of Simulation Software' that has been developed as master's course at the Institute for Modelling Hydraulic and Environmental Systems at the University of Stuttgart [@SDSSCOURSE; @SDSSMATERIAL].
-
+According to the goals of the NFDI consortium NFDI4Ing (National Research Data
+Infrastructure for Engineering Sciences) [@NFDI4ING], engineers treat software
+as research data that possibly connects the different stages of stored data.
+Therefore, it aims to enable engineers to develop validated quality-assured
+engineering research software.
+One specific example is the lecture 'Sustainable Development of Simulation Software'
+that has been developed as master's course at the Institute for Modelling Hydraulic
+and Environmental Systems at the University of Stuttgart [@SDSSCOURSE; @SDSSMATERIAL].
 
 #### SureSoft
-Suresoft [@SURESOFTLink] is a DFG funded project at TU Braunschweig and FAU Erlangen-Nürnberg fostering the sustainability of research software by helping researchers adopt practices and tools from the software engineering community [@SURESOFT2022]. 
-The project implements a twofold approach that combines tools and infrastructure with education in the form of workshops and training.
+
+SureSoft [@SURESOFTLink] is a DFG funded project at TU Braunschweig and
+FAU Erlangen-Nürnberg fostering the sustainability of research software
+by helping researchers adopt practices and tools from the software
+engineering community [@SURESOFT2022].
+The project implements a twofold approach that combines tools and
+infrastructure with education in the form of workshops and training.
 
 ### FAIRness of RSE-related materials
+
 Due to the ever-evolving nature of skills and infrastructure in the RSE field,
 training material is often version-controlled, so that trainers can update it
 between iterations. For example, core lessons from the Carpentries and CodeRefinery
@@ -176,27 +219,55 @@ ADDME:
 
 ### A fundamental skills gap
 
-A major challenge for the future of Research Software Engineering is the significant gap between the availability of basic training and the comparatively
-small number of experts in specialist topics such as High Performance Computing (HPC), parallel algorithms and neural network design.
-For example, scientists working with HPC may need to know how to make effective use of concurrency to speed up their simulations and communicate efficiently using message-passing interface (MPI) libraries.
-The same is true for researchers from other domains who make use of other specialized technologies, methods and/or tools.
-Organisations such as [The Carpentries] and [CodeRefinery] provide extensive introductory training materials and, increasingly some more intermediate-level content.
-However, to bridge the gap between introductory and expert-level skills, more specialized courses are needed like the ones mentioned in section [Identifying skills and pathways] for the HPC community.
+A major challenge for the future of Research Software Engineering
+is the significant gap between the availability of basic training
+and the comparatively small number of experts in specialist topics
+such as High Performance Computing (HPC), parallel algorithms and
+neural network design.
+For example, scientists working with HPC may need to know how to
+make effective use of concurrency to speed up their simulations and
+communicate efficiently using message-passing interface (MPI) libraries.
+The same is true for researchers from other domains who make use of
+other specialized technologies, methods and/or tools.
+Organisations such as [The Carpentries] and [CodeRefinery] provide
+extensive introductory training materials and, increasingly some more
+intermediate-level content.
+However, to bridge the gap between introductory and expert-level skills,
+more specialized courses are needed like the ones mentioned in section
+[Identifying skills and pathways] for the HPC community.
 
-Moreover, software development is a craft, i.e. it is not only about knowledge but also requires practical experience.
-Hence we need to create an environment that allows less experienced researchers to practice and gain experience efficiently.
-Ideally, this would be facilitated through learning environments that allow less experienced scientists to be guided by more experienced RSEs.
-We know such practices e.g. from human medicine, where junior doctors first assist experienced doctors before they work independently.
-In the field of software development, this approach could be implemented in the form of peer programming, for example.
-In the German context, the prerequisite for this, however, is that experienced academics/researchers get better career opportunities at German universities so that they do not leave for industry roles. 
+Moreover, software development is a craft, i.e. it is not only about
+knowledge but also requires practical experience.
+Hence we need to create an environment that allows less experienced
+researchers to practice and gain experience efficiently.
+Ideally, this would be facilitated through learning environments
+that allow less experienced scientists to be guided by more experienced RSEs.
+We know such practices e.g. from human medicine, where junior doctors
+first assist experienced doctors before they work independently.
+In the field of software development, this approach could be implemented
+in the form of peer programming, for example.
+In the German context, the prerequisite for this, however,
+is that experienced academics/researchers get better career opportunities
+at German universities so that they do not leave for industry roles.
 
-As the need for research software engineering skills and expertise grows, there is a fundamental need to address this challenge in order to support the future of computational research.
-Indeed, computational approaches are increasingly becoming the standard approach for tackling large research challenges across almost all domains and we see the potential for a huge growth in demand for the skills required to support this.
+As the need for research software engineering skills and expertise grows,
+there is a fundamental need to address this challenge in order to support
+the future of computational research.
+Indeed, computational approaches are increasingly becoming the standard
+approach for tackling large research challenges across almost all domains
+and we see the potential for a huge growth in demand for the skills
+required to support this.
 
-As seen in the previous section, there already exist a number of open educational resources in the field of RSE. However, what is missing is a practical way to search all of these at once.
-This is mainly due to the lack of a metadata standard concerning EOR resources within the RSE community, as well as some simple way to collect potentially existing metadata in one place in order to enable a comprehensive search.
+As seen in the previous section, there already exist a number
+of open educational resources in the field of RSE.
+However, what is missing is a practical way to search all of these at once.
+This is mainly due to the lack of a metadata standard concerning EOR resources
+within the RSE community, as well as some simple way to collect potentially
+existing metadata in one place in order to enable a comprehensive search.
 
-Building on this: courses exist on different knowledge and experience levels and, at least in part, build upon each other. However, there is currently no (unified) way to clearly label
+Building on this: courses exist on different knowledge and experience levels and,
+at least in part, build upon each other. However, there is currently no (unified)
+way to clearly label
 - what are the topics taught by a course
 - what are the topics recommended to know to start the course
 - what are the topics required to know to start the course
@@ -207,7 +278,8 @@ This, in part, is due to a missing (metadata) standard to express these dependen
 
 #### Books
 
-+ "Producing Open Source Software" ([@Fogel2005; @Fogel2017]) describes a lot of aspects for running a free software project.
++ "Producing Open Source Software" ([@Fogel2005; @Fogel2017]) describes
+  a lot of aspects for running a free software project.
 
 + "Research Software Engineering with Python" ([@Irving2021]) targets
   Python programming novices and introduces a set of essential tools
@@ -215,22 +287,23 @@ This, in part, is due to a missing (metadata) standard to express these dependen
 
 #### Course material
 
-+ The Software Carpentries Lessons [@CarpentriesSoftware] provide extensive teaching material
-for basic research software skills geared towards researchers.
++ The Software Carpentries Lessons [@CarpentriesSoftware] provide extensive teaching
+  material for basic research software skills geared towards researchers.
 
 + The unofficial MIT course "The Missing Semester of Your CS Education" ([@Athalye2023])
-covers a lot of basic computer skills typically taught by RSEs.
+  covers a lot of basic computer skills typically taught by RSEs.
 
 #### Train-the-trainers material
 
-+ "Teaching Tech Together" is a book that derives from and extends the Carpentries Instructor Training [@Brown2023],
-which is a continuously updated and extended online-resource.
++ "Teaching Tech Together" is a book that derives from and extends the
+  Carpentries Instructor Training [@Brown2023],
+  which is a continuously updated and extended online-resource.
++ The National Competence Center Sweden ([ENCCS](https://enccs.se/)) provides
+  instructor training material [@ENCCSInstructorTraining; @ENCCS2022]
+  developed from Carpentries and CodeRefinery material,
+  as well as lessons for HPC-oriented RSEs [@ENCCSLessons].
 
-+ The National Competence Center Sweden (ENCCS) [https://enccs.se/] provides instructor training material
-[@ENCCSInstructorTraining], [@ENCCS2022] developed from Carpentries and CodeRefinery material, as well as lessons for
-HPC-oriented RSEs [@ENCCSLessons].
+#### Directories of resources
 
-
-#### Directories  of resources
-
-+ Better Scientific Software (BSSW)(https://bssw.io/) (Collection of resources for computational science and engineering) w
++ Better Scientific Software [BSSW](https://bssw.io/)
+  (Collection of resources for computational science and engineering)
