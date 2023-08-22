@@ -37,6 +37,38 @@ An Appendix details how existing curricula fit into this framwork.
 
 **Keywords**: research software engineering, training, learning, competencies
 
+# Introduction
+This paper is an outcome of the discussions during the workshop 
+'Teaching and Learning RSE Skills' at the deRSE23 conference. 
+The aim is to provide a set of generic skills, 
+agnostic of specific software, 
+which a research software engineer (RSE) should 
+acquire during training and formal education.
+
+The outline of the paper is as follows.
+The first chapter condenses and generalizes 
+the workshop discussions into a set of generic skills.
+The skills themselves fall into three categories 
+'software engineering', 'research' and 'team skills'
+reflecting the hybrid nature of an RSE.
+To exemplify the generic skills,
+we also list some current day tasks 
+and discuss the skills used therein.
+
+As with any skill, not all RSEs will need 
+and use them to at the same level of expertise.
+Therefore, chapter 2 examines how much a person 
+needs to know depending on education or career level 
+or on the type of projects. 
+
+The third chapter gives a list of RSE specialisations
+and discusses the level of skill needed to work in each of them.
+
+The last chapter FIXME
+
+Finally, the appendix provides an example curriculum
+and lists existings skills and certifications in related fields
+like bioinfomatics.
 
 # Workshop Results
 ## Required Generic RSE skills
