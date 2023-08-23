@@ -216,6 +216,7 @@ ADDME:
 - [Software Sustainability Institute (SSI)](https://www.software.ac.uk/) [@Crouch2013] ...
 - ELIXIR/EXCELERATE/GOBLET train-the-trainer programme [@Via2017; @Morgan2017]
 - Library-RSE resources [@Clarke2019] (no longer updated since 2019)
+- deRSE19 collected resources [@Gey2019]
 - Happy Belly Bioinformatics [@Lee2019]
 - software energy consumption and "green software engineering"
   [@Pinto2017; @Pereira2021; @Oprescu2022; @Couto2020],
@@ -243,7 +244,7 @@ extensive introductory training materials and, increasingly some more
 intermediate-level content.
 However, to bridge the gap between introductory and expert-level skills,
 more specialized courses are needed like the ones mentioned in section
-[Identifying skills and pathways] for the HPC community.
+[Identifying skills and pathways] from paper `intro.pdf` for the HPC community.
 
 Moreover, software development is a craft, i.e. it is not only about
 knowledge but also requires practical experience.
@@ -281,6 +282,9 @@ way to clearly label
 - what are the topics recommended to know to start the course
 - what are the topics required to know to start the course
 This, in part, is due to a missing (metadata) standard to express these dependencies.
+
+FIXME:
+- metadata standards: Bioschemas [@Castro2023]
 
 ## Appendix
 ### Sources for RSE-related training material
