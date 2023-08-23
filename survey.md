@@ -168,6 +168,14 @@ engineering community [@SURESOFT2022].
 The project implements a twofold approach that combines tools and
 infrastructure with education in the form of workshops and training.
 
+#### Programming Historian
+
+The [Programming Historian](https://programminghistorian.org/)
+is an open-source, peer-reviewed journal of digital humanities
+edited in English, Spanish, French, and Portuguese.
+It publishes hands-on tutorials on shell, Python,
+and software specialized for digital humanities.
+
 ### FAIRness and openness of RSE-related materials
 
 Due to the ever-evolving nature of skills and infrastructure in the RSE field,
