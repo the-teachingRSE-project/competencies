@@ -285,6 +285,9 @@ This, in part, is due to a missing (metadata) standard to express these dependen
 
 FIXME:
 - metadata standards: Bioschemas [@Castro2023]
+- survey of 8 OER repositories with non-standardized metadata [@SimaodeDeus2020]
+- OER certification proposal in Austria [@Schon2023]
+- databases: see Appendix section [Directories of resources]
 
 ## Appendix
 ### Sources for RSE-related training material
@@ -320,3 +323,10 @@ FIXME:
 
 + Better Scientific Software [BSSW](https://bssw.io/)
   (Collection of resources for computational science and engineering)
++ TeSS platform [@Beard2020; @Bacall2023] for bioinformatics and life sciences
++ Curriculum Task Force of the International Society for Computational
+  Biology (ISCB) database of degrees and certificates in bioinformatics
+  [@BioinformaticsCertification; @Mulder2018]
++ HPC Portal: academic programmes database [@AcademicProgrammesHPC]
++ HPC Portal: training events database [@TrainingEventsHPC]
+  (successor of EuroCC Training [@EuroCCTraining])
