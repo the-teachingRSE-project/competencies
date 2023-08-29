@@ -115,8 +115,11 @@ The possible types of certificates can of course differ.
 Specific online learning platforms offer a wide range of RSE related, job-ready certified courses as well as complete degree programs.
 
 The [HPC skills and certification] Appendix explores current efforts at creating
-a HPC certification program for both academic and industry RSEs. Course attendance
-sheets and digital tokens [@Ifenthaler2016; @Chakroun2018; @Fanfarelli2015; @McDaniel2016]
+a HPC certification program for both academic and industry RSEs.
+The [Digital competencies and certification] Appendix explores the European
+"DigComp" framework [@Vuorikari2016].
+Course attendance sheets and digital tokens
+[@Ifenthaler2016; @Chakroun2018; @Fanfarelli2015; @McDaniel2016]
 are another option (see Appendix: [Micro-accreditation]).
 
 Having certificates provides finally a clear understanding of which tasks an RSE can perform and thereby helps defining the career path and the job description.
@@ -338,3 +341,50 @@ in bioinformatics [@BioinformaticsCertification; @Mulder2018].
 The database includes Bachelor and Master's degree programs and specializations,
 Ph.D. programs, and certificates from graduate schools.
 
+### Digital competencies and certification
+
+The European Commission Joint Research Center developed the "DigComp" framework
+to categorize general digital competencies in 8 levels of proficiency
+[@Vuorikari2016; @Carretero2017; @Vuorikari2022a].
+Proficiency levels 1 and 2 ("Foundation") represent simple tasks that can be
+carried out with proper guidance from more experienced peers, levels 3 and 4
+("Intermediate") represent tasks that can be carried out autonomously and
+demonstrate a basic understanding of digital technologies, levels 5 and 6
+("Advanced") demonstrate collaborative digital problem-solving skills,
+and levels 7 and 8 ("Highly specialised") demonstrate the capacity to
+contribute to the advancement of a discipline through digital technologies.
+In a scientific work environment, proficiency levels 5-6 could correspond
+to a Junior RSE while levels 7-8 could correspond to a Senior RSE.
+
+For illustration purposes, individuals at levels 1-2 are able to formulate the
+specifications and requirements of an algorithm to more experienced peers who
+can use that information to find a suitable program for the digital environment
+of the workplace. They are also able to write an actionable bug report.
+At level 3-4, they are able to discover the programs they need in software
+repositories, and can find workaround solutions to temporarily fix a bug.
+They can guide their peers in finding the right software at level 5,
+including in other scientific disciplines at level 6.
+They can also write their own software at level 5. At level 6, they know good
+coding practices, performance aspects of algorithms, and can submit successful
+bug fixes in existing software.
+At level 7 they have excellent command of digital tools, and can e.g. setup a
+collaborative platform (wiki, instant messaging app, etc.), manage software
+projects and write guidelines for their peers.
+At level 8, they can develop complex software with many interacting factors
+and propose new ideas in their field.
+
+The "DigCompEdu" framework [@Redecker2017] was developed to foster educators'
+digital competence. The scale is based on the six proficiency levels used by
+the Common European Framework of Reference for Languages, ranging from A1
+(no use of digital technologies in the classroom) to C2 (champion the use
+of digital technologies in teaching environments, actively contribute
+to the ecosystem of digital tools and curate open educational resources).
+
+The "DigCompOrg" framework [@Kampylis2015] aims to facilitate the inclusion
+of digital learning technologies by education organisation and provide
+strategies to improve the digital competence of teachers and learners.
+The latter can take several forms, e.g. assessing the digital competency
+of the teaching staff and factoring it in performance reviews, creating
+new roles centered around digital technologies, offering training and
+accredited professional development opportunities, promoting the use and
+creation of open educational resources.

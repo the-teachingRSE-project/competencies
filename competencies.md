@@ -482,6 +482,9 @@ and Spanish [@StackOverflowSpanish] to reach a wider community.
 There are also RSE short primers [@Astigarraga2022] and
 RSE guidelines [@ClementFontaine2019b; @Appel2021; @Haim2021] in non-English
 languages to address the need of specific communities.
+The European Commission report Digital Competence Framework for Educators
+(DigCompEdu) [@Redecker2017] was translated to German [@Redecker2019]
+and French with modifications [@P8FutureUniversity2023a].
 
 Teaching RSE in relevant undergraduate courses of domain scientists
 can be the first point of entry in the field.

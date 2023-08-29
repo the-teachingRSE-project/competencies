@@ -288,6 +288,7 @@ FIXME:
 - [@Cosden2022b]
 - skill gaps:
    - bioinformatics: clear need for more graduate programs [@Attwood2017; @Isik2023]
+   - information and communications technology [@AllDigital2022]
    - basic digital skills [@DigitalSkillsGap2023]
    - software verification/testing (fig. 1 in [@Hannay2009])
 - software evaluation criteria [@Jackson2011a; @ChueHong2014]
