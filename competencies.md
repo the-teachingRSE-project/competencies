@@ -403,20 +403,13 @@ Ideally, this RSE should also have knowledge about (web) accessibility to allow 
 range of researchers or even the public to use the resulting applications.
 Therefore a deep knowledge of web skills is a required skill for this RSE.
 
-#### Optional RSE competencies -> Maintenance RSEs 
-Oftentimes, a significant amount of effort in (research) software development needs to be spent on maintenance to ensure that software remains useful for researchers now and in the future.
-The research environment is constantly changing and this can also apply to the software requirements.
-If software is not properly maintained, it becomes increasingly difficult to install and use. 
-At some point, the software is no longer available and cannot be used to reproduce results.
-While ensuring maintenance and sustainability of research software is of huge importance to the communities that build and use it,
-a particular challenge is that it is often very difficult to obtain ongoing research funding for software maintenance tasks.
-As a result, when a project that developed or extended a piece of software finishes, support for the software fades as team members move on to other research,
-academic or RSE roles, or become busy with other funded work.
-While this is not a core concern of this paper, we wanted to highlight this important issue that is frequently faced when working with software in the research community.
+#### Maintenance RSEs 
+In a constantly changing environment, a significant amount of effort in (research) software development
+needs to be spent on maintenance to ensure that software remains useful or even installable.
+This can prevent reproducibility.
 With regard to which additional competency is required,
-these are people having experience with ancient software stacks that are not anymore part of the general curricula (think of COBOL and FORTRAN).
-
-FIXME: I think it would be nice if we could move each of these optional competencies to a different specialization.
+these are people having experience with ancient software stacks that are not part of the general curricula anymore (think of COBOL and FORTRAN).
+Another skillset required is (automated) testing.
 
 ### Specializations outside the core RSE competencies
 
