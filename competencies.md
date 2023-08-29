@@ -351,7 +351,7 @@ some of which we want to present below. Many of the specializations may overlap,
 so the same RSE might for example work on data management and on Open Science.
 We figure many RSEs to have more than one of the specializations mentioned below.
 We categorize them into those, that can be viewed as a specialization within RSE-specific topics,
-while other RSEs might epxand their skill set and profession to areas, that are not typical for a RSE.
+while other RSEs might expand their skill set and profession to areas, that are not typical for a RSE.
 
 ### Specializations within the core RSE competencies
 
