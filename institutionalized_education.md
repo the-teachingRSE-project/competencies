@@ -117,7 +117,8 @@ Specific online learning platforms offer a wide range of RSE related, job-ready 
 The [HPC skills and certification] Appendix explores current efforts at creating
 a HPC certification program for both academic and industry RSEs.
 The [Digital competencies and certification] Appendix explores the European
-"DigComp" framework [@Vuorikari2016].
+"DigComp" framework [@Vuorikari2016] and a pilot study for the
+European Digital Skills Certificate.
 Course attendance sheets and digital tokens
 [@Ifenthaler2016; @Chakroun2018; @Fanfarelli2015; @McDaniel2016]
 are another option (see Appendix: [Micro-accreditation]).
@@ -372,6 +373,16 @@ collaborative platform (wiki, instant messaging app, etc.), manage software
 projects and write guidelines for their peers.
 At level 8, they can develop complex software with many interacting factors
 and propose new ideas in their field.
+
+The DigComp framework can be used to:
+
+- identify skill gaps (librarian: [@Zignani2020], information and communications
+  technology: [@AllDigital2022])
+- design curricula, e.g. [@Kluzer2019a] for proficiency levels 1 and 2
+- design micro-credentials [@Centeno2022], such as in the European
+  Digital Skills Certificate pilot study [@ESDCConsulation2023]
+  <!-- pilot study report should be due November 2023 -->
+- map digital skills to existing frameworks [@Law2018; @ICDLEurope2021]
 
 The "DigCompEdu" framework [@Redecker2017] was developed to foster educators'
 digital competence. The scale is based on the six proficiency levels used by
