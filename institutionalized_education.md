@@ -45,6 +45,7 @@ In order to set up a proper educational scheme we need to discuss two more items
 There are already some people teaching RSE-related topics, sometimes within university structures, but often outside of formal structures.
 Currently, they often teach in workshop-like formats at research institutions.
 The community discussion shed light on the issues our trainers are faced with nowadays:
+
 - There are outreach issues. We emphasize that there are two dimensions to this: First it is important that we inform students that workshops exist, and then, the more important part, we also need to motivate people to invest the time for a workshop. [@EuroCC2022]
 - Adaptation of material to the target audience has been identified as a time-consuming task.
 - Organization and preparation are a challenge, since currently no standardized formats exist.
