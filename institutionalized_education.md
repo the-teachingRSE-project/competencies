@@ -225,6 +225,12 @@ The tasks of these centres is facilitated by reusing the work of initiatives lik
 Naturally, other existing structures outside of academia mentioned before like the Carpentries [@Carpentries] can be nicely integrated
 and offered to a broad audience on a regular basis.
 
+### Improve findability of open educational resources
+
+Although multiple organizations have published open educational resources for RSEs, in particular for foundational skills, their findability can be significantly improved.
+The RSE community of lacks an agreed-upon standard of metadata with which to annotate RSE OER, which would help learners as well as teachers to find suitable resources to satisfy their concerns.
+Building on such annotations, a community agreed-upon registry for RSE OER would additionally improve the situation.
+
 ### Micro-accreditation
 With the existence of institutions for continuous learning
 after the first professional level of education the question of certification arises.
