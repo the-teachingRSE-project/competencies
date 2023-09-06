@@ -170,6 +170,8 @@ infrastructure with education in the form of workshops and training.
 
 ### FAIRness of RSE-related materials
 
+FIXME: Should we call it (open) educational resources, as that seems to be the technical term?
+
 Due to the ever-evolving nature of skills and infrastructure in the RSE field,
 training material is often version-controlled, so that trainers can update it
 between iterations. For example, core lessons from the Carpentries and CodeRefinery
