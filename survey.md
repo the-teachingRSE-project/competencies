@@ -202,6 +202,10 @@ the ELIXIR [@Gurwitz2020] Training e-Support System (TeSS) platform
 or the now-defunct Educational Resource Discovery Index (ERuDIte)
 [@VanHorn2017; @Ambite2021] for data science.
 
+Many RSE OER lack in findability, which could be greatly improved by better annotation with metadata.
+The RSE community of lacks an agreed-upon standard of metadata with which to annotate RSE OER, which would help learners as well as teachers to find suitable resources to satisfy their concerns.
+Building on such annotations, a community agreed-upon registry for RSE OER would additionally improve the situation.
+
 ADDME:
 
 - [Better Scientific Software (BSSW)](https://bssw.io/) ...
