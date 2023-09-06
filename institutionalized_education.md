@@ -48,6 +48,7 @@ The community discussion shed light on the issues our trainers are faced with no
 
 - There are outreach issues. We emphasize that there are two dimensions to this: First it is important that we inform students that workshops exist, and then, the more important part, we also need to motivate people to invest the time for a workshop. [@EuroCC2022]
 - Adaptation of material to the target audience has been identified as a time-consuming task.
+- Findability of existing open educational resources.
 - Organization and preparation are a challenge, since currently no standardized formats exist.
 - Expectation management of students. Existing knowledge of students is often diverse.
 - Language barriers. This can range from the use of technical jargon up to the disparities of you teaching in a foreign language.
