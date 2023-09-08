@@ -50,8 +50,29 @@ Table: Required Competencies in different organization forms.
 |  DOCBB              | Focus on          |  Likely greater   | -89.2 °C          |                   | -89.2 °C          |                   |
 +---------------------+-------------------+-------------------+-------------------+-------------------+-------------------+-------------------+
 
-
-
+Latex MWE
+\begin{table}
+    \begin{tabular}{|m{2.5cm}|m{3.5cm}|m{3.5cm}|m{3.5cm}|m{3.cm}|m{5cm}|}
+    \hline
+    \multirow{2}{*}{Competency} & \multicolumn{2}{c|}{Working as an individual developer} & \multicolumn{2}{c|}{Working with a group of developers} & \multirow{2}{*}{Organization-level support} \\
+    \cline{2-5}
+    & locally-based & RSE-Team based & locally-based & RSE-Team based &\\\hline
+%     \hline
+    DOCBB & 
+    Focus on getting outputs to support research. Often time-constrained,
+          may be self-taught, less awareness/familiarity with code quality and
+          structure best practices. &
+    Likely greater focus on reusability, documentation, and best practice
+          but potential lack of developer support.&
+    More opportunity to discuss and share ideas but team members may be
+          self-taught and less aware of key practices.&
+    Stronger focus on team-based project management and development
+          methodologies resulting in higher quality, more reusable code.&
+    Can offer training in core topics to support self-taught/embedded developers.
+          May have research software guidance/policies that provide advice.\\
+    \hline
+    \end{tabular}
+\end{table}
 
 
 <table>
