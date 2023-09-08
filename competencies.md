@@ -268,7 +268,19 @@ First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (l
 \elandscape
 
 ### Academic Progression / Career Path? (Help me for better title) 
-In the previous sections the competencies are mapped to RSEs. However, modern science requires some digital proficiency at every level. 
+In the previous section, 
+we looked at the competency levels needed for RSE specialists.
+However, many of these competencies are important for typical researchers in academia.
+Naturally, the 'R' competencies apply 
+and research in general is increasingly team based.
+Additionally, many researchers in fields from classical examples like 
+numerical mathematics or theoretical physics 
+to newer disciplines like digital humanities
+will spend time in their research on writing and developing software.
+Therefore, RSE focused training, e.g. in a Masters programme, 
+is also beneficial for students in these fields
+resulting in a broader audience. 
+
 This section outlines how the RSE competencies could be reflected at all academic levels. 
 It is important to note that this section does not reflect the current state of academic training and research institutions.
 Instead, it summarises the discussions with and between workshop participants at different levels of academic progression on what they would have liked to learn at an earlier stage or know before starting their current position.
@@ -276,7 +288,10 @@ While individuals already work at implementing some of these changes and teachin
 
 The text is organised along the academic progression path (Bachelor, Master, PhD, PostDoc, PI/Professor). 
 Since each level is based on the previous levels we presume that the skills and competencies at each level also encompass those of the previous levels.
-Certain fields, eg. sciences relying on simulations, will require higher skill levels in the SE competencies than outlined below as software development is a large part of their actual research.
+Due to the broad need throughout academic specializations,
+the described levels serve as a baseline 
+and certain fields will require higher SE skill levels 
+as development is a larg part of their actual research.
 
 #### Bachelor
 Students at undergraduate level mostly consume science/knowledge.
