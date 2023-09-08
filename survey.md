@@ -168,12 +168,10 @@ engineering community [@SURESOFT2022].
 The project implements a twofold approach that combines tools and
 infrastructure with education in the form of workshops and training.
 
-### FAIRness of RSE-related materials
-
-FIXME: Should we call it (open) educational resources, as that seems to be the technical term?
+### FAIRness of RSE-related (open) educational resources(OER)
 
 Due to the ever-evolving nature of skills and infrastructure in the RSE field,
-training material is often version-controlled, so that trainers can update it
+training materials are often open educational resources(OER) that are often version-controlled, so that trainers can update them
 between iterations. For example, core lessons from the Carpentries and CodeRefinery
 are stored on GitHub, and any change is automatically mirrored to their website.
 Likewise, the reference work on RSE by Fogel [@Fogel2005] was released in its
