@@ -22,6 +22,9 @@ output:
 bibliography: bibliography.bib
 header-includes:
     - \usepackage{pdflscape}
+    - \usepackage{multirow}
+    - \usepackage{array}
+    - \usepackage{longtable}
     - \newcommand{\blandscape}{\begin{landscape}}
     - \newcommand{\elandscape}{\end{landscape}}
 ---
