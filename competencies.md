@@ -351,6 +351,7 @@ to and support them. We first summarise the meaning of each of the columns in th
 - **Organization-level support:** How the defined competencies are recognised
   and represented at organisational level.
 
+\blandscape
 \begin{longtable}{|m{2.5cm}|m{3.5cm}|m{3.5cm}|m{3.5cm}|m{3.cm}|m{5cm}|}
     \hline
     \multirow{2}{*}{Competency} & \multicolumn{2}{c|}{Working as an individual developer} 
@@ -543,6 +544,7 @@ to and support them. We first summarise the meaning of each of the columns in th
       working effectively in a team.
     \\\hline
 \end{longtable}
+\elandscape
 
 In the table above, we've looked at how different competencies can be related
 to and handled by researchers and RSEs working in different environments within
