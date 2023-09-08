@@ -352,7 +352,9 @@ to and support them. We first summarise the meaning of each of the columns in th
   and represented at organisational level.
 
 \blandscape
-\begin{longtable}{|m{2.5cm}|m{3.5cm}|m{3.5cm}|m{3.5cm}|m{3.cm}|m{5cm}|}
+\small
+\renewcommand*{\arraystretch}{1.4}
+\begin{longtable}{|p{1.8cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{4.5cm}|}
     \hline
     \multirow{2}{*}{Competency} & \multicolumn{2}{c|}{Working as an individual developer} 
     & \multicolumn{2}{c|}{Working with a group of developers} & \multirow{2}{*}{Organization-level support} \\
