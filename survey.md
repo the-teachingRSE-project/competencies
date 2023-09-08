@@ -170,6 +170,8 @@ infrastructure with education in the form of workshops and training.
 
 ### FAIRness of RSE-related materials
 
+FIXME: Should we call it (open) educational resources, as that seems to be the technical term?
+
 Due to the ever-evolving nature of skills and infrastructure in the RSE field,
 training material is often version-controlled, so that trainers can update it
 between iterations. For example, core lessons from the Carpentries and CodeRefinery
@@ -199,6 +201,10 @@ the ELIXIR [@Gurwitz2020] Training e-Support System (TeSS) platform
 [@Beard2020; @Bacall2023] for bioinformatics and life sciences,
 or the now-defunct Educational Resource Discovery Index (ERuDIte)
 [@VanHorn2017; @Ambite2021] for data science.
+
+Many RSE OER lack in findability, which could be greatly improved by better annotation with metadata.
+The RSE community of lacks an agreed-upon standard of metadata with which to annotate RSE OER, which would help learners as well as teachers to find suitable resources to satisfy their concerns.
+Building on such annotations, a community agreed-upon registry for RSE OER would additionally improve the situation.
 
 ADDME:
 
