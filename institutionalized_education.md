@@ -45,8 +45,10 @@ In order to set up a proper educational scheme we need to discuss two more items
 There are already some people teaching RSE-related topics, sometimes within university structures, but often outside of formal structures.
 Currently, they often teach in workshop-like formats at research institutions.
 The community discussion shed light on the issues our trainers are faced with nowadays:
+
 - There are outreach issues. We emphasize that there are two dimensions to this: First it is important that we inform students that workshops exist, and then, the more important part, we also need to motivate people to invest the time for a workshop. [@EuroCC2022]
 - Adaptation of material to the target audience has been identified as a time-consuming task.
+- Findability of existing open educational resources.
 - Organization and preparation are a challenge, since currently no standardized formats exist.
 - Expectation management of students. Existing knowledge of students is often diverse.
 - Language barriers. This can range from the use of technical jargon up to the disparities of you teaching in a foreign language.
@@ -222,6 +224,12 @@ With the existence of these resources we believe that their acceptance gradually
 The tasks of these centres is facilitated by reusing the work of initiatives like edutrain [@EDUTRAIN] and platforms like DALIA [@DALIA].
 Naturally, other existing structures outside of academia mentioned before like the Carpentries [@Carpentries] can be nicely integrated
 and offered to a broad audience on a regular basis.
+
+### Improve findability of open educational resources
+
+Although multiple organizations have published open educational resources for RSEs, in particular for foundational skills, their findability can be significantly improved.
+The RSE community of lacks an agreed-upon standard of metadata with which to annotate RSE OER, which would help learners as well as teachers to find suitable resources to satisfy their concerns.
+Building on such annotations, a community agreed-upon registry for RSE OER would additionally improve the situation.
 
 ### Micro-accreditation
 With the existence of institutions for continuous learning
