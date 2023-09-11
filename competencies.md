@@ -291,7 +291,7 @@ Since each level is based on the previous levels we presume that the skills and 
 Due to the broad need throughout academic specializations,
 the described levels serve as a baseline 
 and certain fields will require higher SE skill levels 
-as development is a larg part of their actual research.
+as development is a large part of their actual research.
 
 #### Bachelor
 Students at undergraduate level mostly consume science/knowledge.
@@ -305,10 +305,10 @@ During practicals they will have an opportunity for peer learning (TEACH).
 
 #### Master
 A student at Master level can participate in science and should therefore be able to use "some" digital structures. 
-A master student needs to be aware of relevant tools and data sets, where to find them and how to use them (LIBS, SWREPOS, DOMREP). 
-They should be able to process and present their data (MOD). 
-They need to understand how their research depends on software (SWLC). 
-Working on their master thesis allows them to understand the research cycle (RC), practice project management (PM) and collaborate with other members of their research group (TEAM). 
+A master student needs to be aware of relevant tools and data sets for their domain, where to find them and how to use them (LIBS, SWREPOS, DOMREP).
+They should be able to process and present their data (MOD).
+They need to understand how their research depends on software (SWLC).
+Working on their master thesis allows them to understand the research cycle (RC), practice project management (PM) and collaborate with other members of their research group (TEAM).
 
 #### PhD
 A PhD student performs independent research under guidance. 
@@ -324,8 +324,8 @@ They should be able to supervise a student (TEACH).
 
 #### PostDoc
 PostDocs are independent researchers. 
-Their role is similar to that of a PhD student.
-However, they are proficient users of all relevant tools. 
+Their role is similar to that of a PhD student with a deepened focus on their research career.
+However, they are proficient users of all relevant tools, that make them active contributors to their domain of research.
 They need to be aware of patents (LEG).
 
 #### PI/Professor
@@ -334,7 +334,7 @@ They should be aware of the skills of an RSE and when they might need one in the
 They should encourage their students to use relevant tools (LIBS). 
 They need to be able to judge the suitability of the software (SWLC) and follow the interactions between relevant projects (SWREPOS). 
 They should be able to advise their students on legal aspects of the software (LEG). 
-The should be able to contribute meaningfully to the steering decisions of the software in their field (USERS). 
+They should be able to contribute meaningfully to the steering decisions of the software in their field (USERS).
 They need to guide students and give full-size lectures (TEACH). 
 They need to manage and lead their research group (PM, TEAM).
 
