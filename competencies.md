@@ -268,47 +268,75 @@ First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (l
 \elandscape
 
 ### Academic Progression / Career Path? (Help me for better title) 
-Modern digital science requires some digital proficiency at every level.
-To be a bit more precise, these are how we define the academic levels:
+In the previous section, 
+we looked at the competency levels needed for RSE specialists.
+However, many of these competencies are important for typical researchers in academia.
+Naturally, the 'R' competencies apply 
+and research in general is increasingly team based.
+Additionally, many researchers in fields from classical examples like 
+numerical mathematics or theoretical physics 
+to newer disciplines like digital humanities
+will spend time in their research on writing and developing software.
+Therefore, RSE focused training, e.g. in a Masters programme, 
+is also beneficial for students in these fields
+resulting in a broader audience. 
 
-- Bachelor: These are people in their undergrad studies, that mostly consume science/knowledge. They should also learn about the existence of certain digital structures.
-- Master: Ultimately, their study should have brought them to a level, where they can participate in science, hence they should be able to use "some" digital structures.
-- PhD: Under guidance they perform independent research and hence they should get to know all relevant structures.
-- PostDoc: Independent researchers, they are proficient users of all tools.
-- PI/Professor: Experts in their field, they should be able to give proper guidance to their students on which digital tools are currently relevant.
+This section outlines how the RSE competencies could be reflected at all academic levels. 
+It is important to note that this section does not reflect the current state of academic training and research institutions.
+Instead, it summarises the discussions with and between workshop participants at different levels of academic progression on what they would have liked to learn at an earlier stage or know before starting their current position.
+While individuals already work at implementing some of these changes and teaching these skills it has not yet reached a systemic level.
 
-It is important to note that the following table does not reflect the current state of academic training and research institutions.
-Instead, it summarizes the discussions with and between workshop participants at different levels of academic progression on 
-what they would have liked to learn at an earlier stage or know before starting their current position.
-While individuals already work at implementing some of these changes and teaching these skills it has not yet reached 
-a systemic level.
+The text is organised along the academic progression path (Bachelor, Master, PhD, PostDoc, PI/Professor). 
+Since each level is based on the previous levels we presume that the skills and competencies at each level also encompass those of the previous levels.
+Due to the broad need throughout academic specializations,
+the described levels serve as a baseline 
+and certain fields will require higher SE skill levels 
+as development is a large part of their actual research.
 
-Additionally, this table tries to cover all domains that rely on software tools in at least a basic level.
-Certain fields, e.g. sciences relying on simulations, might require higher skill levels in the SE competencies 
-as software development is a large part of their actual research.
+#### Bachelor
+Students at undergraduate level mostly consume science/knowledge.
+During their studies they should also learn about the existence of digital tools and structures.
+Undergrad students should be aware that RSEs exist and that software has different quality aspects (DOCBB).
+They should be aware of domain specific tools (LIBS, SD) and where to find them (SWREPOS, DOMREP).
+At this level it is sufficient to consider software as black boxes (USERS) although some training in data presentation would be very helpful and a good way to find out about programming (MOD, NEW).
+They should have an awareness of software licenses and who to ask if they have any questions (LEG).
+They will be taught about the research cycle (RC) and that researchers often work in groups (TEAM).
+During practicals they will have an opportunity for peer learning (TEACH).
 
-\blandscape
-\small
-\renewcommand*{\arraystretch}{1.4}
+#### Master
+A student at Master level can participate in science and should therefore be able to use "some" digital structures. 
+A master student needs to be aware of relevant tools and data sets for their domain, where to find them and how to use them (LIBS, SWREPOS, DOMREP).
+They should be able to process and present their data (MOD).
+They need to understand how their research depends on software (SWLC).
+Working on their master thesis allows them to understand the research cycle (RC), practice project management (PM) and collaborate with other members of their research group (TEAM).
 
-|       | Bachelor | Master | PhD | PostDoc | PI/Professor | 
-| ----  | ----------- | ----------- | ----------- | ------ | --------------- |
-| DOCBB | They should be aware that RSEs exist and that software has different quality aspects | Same as Bachelor | They should know where they can get help, and maybe able to use libraries | same as PhD | They should know the skills of an RSE and when they might need one in their group |
-| LIBS  | They should be aware that RSEs exist and that there are tools available in their domain | They should be aware that there are tools that they can use in their research and maybe are able to use these libraries  | same as Master, but able to use libraries |  same as PhD  | They should be aware of the output of RSEs and motivate their students to use developed tools  |
-| MOD   | It is sufficient to consider digital tools as black boxes | It is sufficient to be able to _use_ software as black boxes |  same as Master, but being able to write bug reports | same as PhD | same as PostDoc  |
-| SWLC  | Awareness of the SWLC  | Know that one depends on software in their own research | Being able to evaluate software for their research |  same as PhD | Should be able to judge the sustainability of the performed research |
-|SWREPOS| Should know that swrepos exist | same as Bachelor | same as Master, but should be able to find information on them |  same as PhD | same as PostDoc, but should be able to follow the interactions among different projects relevant for their research |
-| LEG   | Should know that mixing/using software has legal issues and whom to ask | same as Bachelor | same as Bachelor |  same as PhD, but should know some simple Open Source guidelines | same as PostDoc, but should know the relevant patterns for their domain and sensitive their students  |
-| NEW   | Still consumers of lectures | same as Bachelor | Curiosity for their research is required, curiosity for digital tools helpful |  same as PhD | same as PostDoc and expert in their field  |
-| RC    | An awareness that research follows a cycle | Know that research follows a cycle and locate their masters thesis' stages in it. | Same as Master, but applied to the PhD. Additionally awareness about interaction with services |  Same as PhD. But proficient in the domain | Same as PostDoc, but ability to lead a topic  |
-| SD    | They should know that their domain has relevant tools | same as Bachelor | Should know how to find full applications for their research | same as PhD | Should motivate their students to reuse existing tools  |
-| DOMREP| Should be aware that their domain has repos | same as Bachelor      | Should be able to interact with their domain repos | Proficient users of their domain repos | same as PostDoc |
-| USERS | Should be aware that they are users of a software | same as Bachelor  | Should be aware that their user view is different from the developer, in order to write bug reports |  same as PhD | Should be able to contribute meaningfully to the steering decisions of the software in their fields |
-| TEACH | Ability to peer-to-peer teaching | Small exercise groups | Ability to supervise a student. |  Ability to supervise students and create a course? | Ability to guide students. Give full-size lectures |
-| PM    | Awareness about project management optional | Awareness that research teams are structured according to some project management   | same as Master, or more depending on structure of research |  same as PhD | Should know about the required project management they require for their group |
-| TEAM  | Awareness that research is often performed in groups | Ability to work in their group for doing their master's thesis | same as master |  same as master | Should be able to lead a research team |
+#### PhD
+A PhD student performs independent research under guidance. 
+They need to know relevant tools and structures. 
+They should know where to find information about tools and where to find help using them (DOCBB, SWREPOS). 
+They should be able to use the tools (LIBS) and identify and report bugs (MOD). 
+They need to be aware that the user's perspective is different from the developer's perspective in order to be able to write bug reports (USERS). 
+They might produce new software (MOD, SD) in which case they need to understand how to license their code (LEG). 
+PhD students need to be curious to be able to conduct their research. 
+In order to be able to explore new tools (NEW) they must be able to evaluate research software (SWLC). 
+They need to be able to interact with services (RC) and domain specific repositories (DOMREP). 
+They should be able to supervise a student (TEACH).
 
-\elandscape
+#### PostDoc
+PostDocs are independent researchers. 
+Their role is similar to that of a PhD student with a deepened focus on their research career.
+However, they are proficient users of all relevant tools, that make them active contributors to their domain of research.
+They need to be aware of patents (LEG).
+
+#### PI/Professor
+They are experts in their field and should be able to give proper guidance to their students on which digital tools are currently relevant. 
+They should be aware of the skills of an RSE and when they might need one in their group (DOCBB). 
+They should encourage their students to use relevant tools (LIBS). 
+They need to be able to judge the suitability of the software (SWLC) and follow the interactions between relevant projects (SWREPOS). 
+They should be able to advise their students on legal aspects of the software (LEG). 
+They should be able to contribute meaningfully to the steering decisions of the software in their field (USERS).
+They need to guide students and give full-size lectures (TEACH). 
+They need to manage and lead their research group (PM, TEAM).
 
 ### Project team Size
 Some explanation of the team sizes:
