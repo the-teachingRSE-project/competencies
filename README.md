@@ -2,7 +2,9 @@
 
 Output of the de-RSE 2022 Conference Workshop on "Teaching and Learning Research Software Engineering".
 
-Get the latest version of the PDF files here:
+Sine the original idea grew in size and scope we had to split the paper in different subpapers highlighting different aspects
+
+Get the latest version of the respective PDF files here:
 * "Teaching and Learning Research Software Engineering" ([intro.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/intro.pdf))
 * "Foundational competencies and responsibilities of an RSE" ([competencies.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/competencies.pdf))
 * "Institutionalized Organization of RSE Education" ([institutionalized_education.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/institutionalized_education.pdf))
@@ -16,6 +18,8 @@ This paper is intended as a collaborative effort and we are looking for input fr
 **We follow GitLab/GitHub flow**
 
 **Please utilize semantic line breaks!**
+
+We utilize tags to categorize issues and MRs to the respective paper.
 
 You can contribute in various ways:
 
