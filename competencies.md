@@ -268,47 +268,75 @@ First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (l
 \elandscape
 
 ### Academic Progression / Career Path? (Help me for better title) 
-Modern digital science requires some digital proficiency at every level.
-To be a bit more precise, these are how we define the academic levels:
+In the previous section, 
+we looked at the competency levels needed for RSE specialists.
+However, many of these competencies are important for typical researchers in academia.
+Naturally, the 'R' competencies apply 
+and research in general is increasingly team based.
+Additionally, many researchers in fields from classical examples like 
+numerical mathematics or theoretical physics 
+to newer disciplines like digital humanities
+will spend time in their research on writing and developing software.
+Therefore, RSE focused training, e.g. in a Masters programme, 
+is also beneficial for students in these fields
+resulting in a broader audience. 
 
-- Bachelor: These are people in their undergrad studies, that mostly consume science/knowledge. They should also learn about the existence of certain digital structures.
-- Master: Ultimately, their study should have brought them to a level, where they can participate in science, hence they should be able to use "some" digital structures.
-- PhD: Under guidance they perform independent research and hence they should get to know all relevant structures.
-- PostDoc: Independent researchers, they are proficient users of all tools.
-- PI/Professor: Experts in their field, they should be able to give proper guidance to their students on which digital tools are currently relevant.
+This section outlines how the RSE competencies could be reflected at all academic levels. 
+It is important to note that this section does not reflect the current state of academic training and research institutions.
+Instead, it summarises the discussions with and between workshop participants at different levels of academic progression on what they would have liked to learn at an earlier stage or know before starting their current position.
+While individuals already work at implementing some of these changes and teaching these skills it has not yet reached a systemic level.
 
-It is important to note that the following table does not reflect the current state of academic training and research institutions.
-Instead, it summarizes the discussions with and between workshop participants at different levels of academic progression on 
-what they would have liked to learn at an earlier stage or know before starting their current position.
-While individuals already work at implementing some of these changes and teaching these skills it has not yet reached 
-a systemic level.
+The text is organised along the academic progression path (Bachelor, Master, PhD, PostDoc, PI/Professor). 
+Since each level is based on the previous levels we presume that the skills and competencies at each level also encompass those of the previous levels.
+Due to the broad need throughout academic specializations,
+the described levels serve as a baseline 
+and certain fields will require higher SE skill levels 
+as development is a large part of their actual research.
 
-Additionally, this table tries to cover all domains that rely on software tools in at least a basic level.
-Certain fields, e.g. sciences relying on simulations, might require higher skill levels in the SE competencies 
-as software development is a large part of their actual research.
+#### Bachelor
+Students at undergraduate level mostly consume science/knowledge.
+During their studies they should also learn about the existence of digital tools and structures.
+Undergrad students should be aware that RSEs exist and that software has different quality aspects (DOCBB).
+They should be aware of domain specific tools (LIBS, SD) and where to find them (SWREPOS, DOMREP).
+At this level it is sufficient to consider software as black boxes (USERS) although some training in data presentation would be very helpful and a good way to find out about programming (MOD, NEW).
+They should have an awareness of software licenses and who to ask if they have any questions (LEG).
+They will be taught about the research cycle (RC) and that researchers often work in groups (TEAM).
+During practicals they will have an opportunity for peer learning (TEACH).
 
-\blandscape
-\small
-\renewcommand*{\arraystretch}{1.4}
+#### Master
+A student at Master level can participate in science and should therefore be able to use "some" digital structures. 
+A master student needs to be aware of relevant tools and data sets for their domain, where to find them and how to use them (LIBS, SWREPOS, DOMREP).
+They should be able to process and present their data (MOD).
+They need to understand how their research depends on software (SWLC).
+Working on their master thesis allows them to understand the research cycle (RC), practice project management (PM) and collaborate with other members of their research group (TEAM).
 
-|       | Bachelor | Master | PhD | PostDoc | PI/Professor | 
-| ----  | ----------- | ----------- | ----------- | ------ | --------------- |
-| DOCBB | They should be aware that RSEs exist and that software has different quality aspects | Same as Bachelor | They should know where they can get help, and maybe able to use libraries | same as PhD | They should know the skills of an RSE and when they might need one in their group |
-| LIBS  | They should be aware that RSEs exist and that there are tools available in their domain | They should be aware that there are tools that they can use in their research and maybe are able to use these libraries  | same as Master, but able to use libraries |  same as PhD  | They should be aware of the output of RSEs and motivate their students to use developed tools  |
-| MOD   | It is sufficient to consider digital tools as black boxes | It is sufficient to be able to _use_ software as black boxes |  same as Master, but being able to write bug reports | same as PhD | same as PostDoc  |
-| SWLC  | Awareness of the SWLC  | Know that one depends on software in their own research | Being able to evaluate software for their research |  same as PhD | Should be able to judge the sustainability of the performed research |
-|SWREPOS| Should know that swrepos exist | same as Bachelor | same as Master, but should be able to find information on them |  same as PhD | same as PostDoc, but should be able to follow the interactions among different projects relevant for their research |
-| LEG   | Should know that mixing/using software has legal issues and whom to ask | same as Bachelor | same as Bachelor |  same as PhD, but should know some simple Open Source guidelines | same as PostDoc, but should know the relevant patterns for their domain and sensitive their students  |
-| NEW   | Still consumers of lectures | same as Bachelor | Curiosity for their research is required, curiosity for digital tools helpful |  same as PhD | same as PostDoc and expert in their field  |
-| RC    | An awareness that research follows a cycle | Know that research follows a cycle and locate their masters thesis' stages in it. | Same as Master, but applied to the PhD. Additionally awareness about interaction with services |  Same as PhD. But proficient in the domain | Same as PostDoc, but ability to lead a topic  |
-| SD    | They should know that their domain has relevant tools | same as Bachelor | Should know how to find full applications for their research | same as PhD | Should motivate their students to reuse existing tools  |
-| DOMREP| Should be aware that their domain has repos | same as Bachelor      | Should be able to interact with their domain repos | Proficient users of their domain repos | same as PostDoc |
-| USERS | Should be aware that they are users of a software | same as Bachelor  | Should be aware that their user view is different from the developer, in order to write bug reports |  same as PhD | Should be able to contribute meaningfully to the steering decisions of the software in their fields |
-| TEACH | Ability to peer-to-peer teaching | Small exercise groups | Ability to supervise a student. |  Ability to supervise students and create a course? | Ability to guide students. Give full-size lectures |
-| PM    | Awareness about project management optional | Awareness that research teams are structured according to some project management   | same as Master, or more depending on structure of research |  same as PhD | Should know about the required project management they require for their group |
-| TEAM  | Awareness that research is often performed in groups | Ability to work in their group for doing their master's thesis | same as master |  same as master | Should be able to lead a research team |
+#### PhD
+A PhD student performs independent research under guidance. 
+They need to know relevant tools and structures. 
+They should know where to find information about tools and where to find help using them (DOCBB, SWREPOS). 
+They should be able to use the tools (LIBS) and identify and report bugs (MOD). 
+They need to be aware that the user's perspective is different from the developer's perspective in order to be able to write bug reports (USERS). 
+They might produce new software (MOD, SD) in which case they need to understand how to license their code (LEG). 
+PhD students need to be curious to be able to conduct their research. 
+In order to be able to explore new tools (NEW) they must be able to evaluate research software (SWLC). 
+They need to be able to interact with services (RC) and domain specific repositories (DOMREP). 
+They should be able to supervise a student (TEACH).
 
-\elandscape
+#### PostDoc
+PostDocs are independent researchers. 
+Their role is similar to that of a PhD student with a deepened focus on their research career.
+However, they are proficient users of all relevant tools, that make them active contributors to their domain of research.
+They need to be aware of patents (LEG).
+
+#### PI/Professor
+They are experts in their field and should be able to give proper guidance to their students on which digital tools are currently relevant. 
+They should be aware of the skills of an RSE and when they might need one in their group (DOCBB). 
+They should encourage their students to use relevant tools (LIBS). 
+They need to be able to judge the suitability of the software (SWLC) and follow the interactions between relevant projects (SWREPOS). 
+They should be able to advise their students on legal aspects of the software (LEG). 
+They should be able to contribute meaningfully to the steering decisions of the software in their field (USERS).
+They need to guide students and give full-size lectures (TEACH). 
+They need to manage and lead their research group (PM, TEAM).
 
 ### Project team Size
 Some explanation of the team sizes:
@@ -453,80 +481,23 @@ While software is the lingua franca of all RSEs there will be RSEs that have spe
 such as medical RSEs, digital humanities RSEs or physics RSEs.
 
 
-## How do we reach people in different stages of their careers?
-
-Many current RSEs have found their way to being an RSE during their doctoral studies. This transition usually happens slowly. You start programming a tool, and someone else likes it, it becomes known that you have programming skills and suddenly you are the RSE of the group that everyone would like to have in their projects. If you enjoy this role, you need to be aware that there is a RSE career path as well as that specialized training materials exist. One place to generate awareness of the career option and training is universities' doctoral onboarding processes or right thereafter. RSE training could be offered as elective courses at universities organized by some central organization. RSE could be presented as a career path in suitable events. Since many RSE-minded people also at some point find their way to an HPC cluster, mailing lists of said clusters could be utilized to advertise RSE courses. One important aspect to think about is also the wording in the advertisement. Potential future RSEs might not know the term yet or know that the course advertised includes topics that are of interest to them. If the university or organization has a GitHub/Lab organization/project, having a banner there might reach the right people. Most important is that people working in IT helpdesks know about the courses offered so that they can advise students/researchers on visiting the course/reviewing the materials if related questions are asked. 
-For an RSE it is important to be a part of a network with other RSEs, irrespective of the career level.
+## Reaching out to potential RSEs
+Many current RSEs have found their way to being an RSE during their doctoral studies.
+This transition usually happens slowly. You start programming a tool, and someone else likes it, it becomes known that you have programming skills and suddenly you are the RSE of the group that everyone would like to have in their projects.
+If you enjoy this role, you need to be aware that there is a RSE career path as well as that specialized training materials exist.
+Beyond that, for an RSE it is important to be a part of a network with other RSEs, irrespective of the career level.
 A perfect first step for forming this network is topic-related conferences, workshops or meetups.
-Beyond that, there is the broader RSE community organized at the local and regional level with chapters or local/regional communities, at the national level with societies and the international RSE society. Each of them offers possibilities for connecting within or beyond an individual institution and is a great way to find like-minded people to grow a wider network and thereby facilitate the sharing of information on interesting events or help each other out.
+Beyond that, there is the broader RSE community organized at the local and regional level with chapters or local/regional communities, at the national level with societies and the international RSE society.
+Each of them offers possibilities for connecting within or beyond an individual institution and is a great way to find like-minded people to grow a wider network and thereby facilitate the sharing of information on interesting events or help each other out.
 This available layered network can greatly benefit the RSE in finding help with issues outside of their own comfort zone
 and provides a welcoming, social safety net providing a home for the RSE. Since we feel providing aspiring RSEs this net
-is of utmost importance we envision compulsory events introducing that to young RSEs. Qualification badges are another venue, that RSEs to find people with the same technical interest.
-
-Short primers on RSE skills, infrastructure and good coding practices
-can be found in field-specific scientific articles and conference proceedings,
-such as [@Roberts1969; @Baxter2006; @Prlic2012; @Leprevost2014; @Wilson2014c;
-@Stodden2014; @Crusoe2016; @Crick2017; @Fehr2021; @Grossfield2022], some of
-which are specifically tailored to group leaders, institutions and scientific
-journal editors rather than RSEs [@ChueHong2013; @ChueHong2014; @Katerbow2018; @Strasser2022].
-Scientific journals have the advantage of reaching a large spectrum of
-research scientists at all stages of their career.
-
-Localizing RSE teaching material and RSE information in languages other than English
-can help reach a much wider audience by lowering the barrier to entry in the field.
-In 2014 the community behind The Carpentries engaged in an international
-effort to translate their training material into Spanish [@Wilson2014a],
-Korean [@Wilson2014b] and Portuguese [@Silva2014].
-Core lessons have been translated to Korean in 2015 [@Lee2015], and the Spanish
-core lessons are now officially part of the Software Carpentry material [@CarpentriesSpanish].
-Similarly, in the period 2015-2017, the Stack Overflow website launched localized
-versions in Portuguese [@StackOverflowPortuguese], Russian [@StackOverflowRussian]
-and Spanish [@StackOverflowSpanish] to reach a wider community.
-There are also RSE short primers [@Astigarraga2022] and
-RSE guidelines [@ClementFontaine2019b; @Appel2021; @Haim2021] in non-English
-languages to address the need of specific communities.
-
-Teaching RSE in relevant undergraduate courses of domain scientists
-can be the first point of entry in the field.
-However, considering many RSEs come from domain studies, only fundamental
-concepts (of RDM and RSE) can be explained to and experienced by all of them.
-Those interested in domain-specific RSE skills or even programming will gain the
-special knowledge in classes and projects they choose.
-For example, statistics curricula can
-be used to showcase RSE infrastructure, e.g. the R programming language and
-its ecosystem of statistics libraries and integrated development environments
-[@Reinhart2021; @Beckman2021; @CetinkayaRundel2018].
-There are also bioinformatics courses designed for high school students that
-cover topics such as pen-and-paper algorithm design, genomic database querying
-and data mining, and open data [@Form2011; @Bain2020], as well as graduate
-courses designed for Master's degrees and Ph.D. programs [@BioinformaticsCertification].
-
-Teaching incubators can be leveraged to develop and test new academic curricula
-that introduce basic RSE topics, such as the "Algorithmic Battle"
-[@AlgorithmicBattle] (version control, documentation, good coding practices),
-"digit@L" [@DigitalLearning] (coding, data analysis, machine learning)
-and "DigiFlex" [@DigiFlex] (digital tools) experimental modules funded by the German
-Foundation for Innovation in Higher Education [@StiftungInnovationHochschullehre]
-to reduce skill gaps among first-year university students.
-Likewise, The Carpentries teaching material can be made more modular
-and re-usable in domain-specific contexts to better suit the needs
-of specialized RSEs. Examples include HPC Carpentry [@OCais2020]
-and Data Carpentry for Biologists [@White2022].
-
-FIXME:
-
-- find more examples of teaching material in non-English languages
-- discuss the role of translations in overcoming linguistic and cultural barriers?
-
-Further ideas:
-
-- making RSE best practice guides fun to read with memes or satire [@Balaban2021; @Laginja2022; @Astigarraga2022; @Fehr2021]
-- reducing the skill gap by organizing more inclusive workshops [@McInerney2017; @Akoh2017; @Shelton2017; @NatlAcadSci2022],
-  to address gender disparities or take into account economic status, cultural background, or special educational needs;
-  peer-reviewing of code of conducts by the CHAOSS Diversity and Inclusion Badging organization [@CHAOSSDEIBadging; @GitHubCHAOSS]
-- related discussion in CSE [@Webb2017]
+is of utmost importance we envision compulsory events introducing that to young RSEs.
+Qualification badges are another venue, that RSEs to find people with the same technical interest.
+Structuring and institutionalizing the education and structures for the add-on courses that are also open to others in academia,
+will be topics of a follow-up paper.
 
 ## Appendix
+
 ### An applied example curriculum
 ### An example of a possible career path
 - We can follow Kim, who has been the protagonist of the original deRSE Paper.

@@ -168,10 +168,10 @@ engineering community [@SURESOFT2022].
 The project implements a twofold approach that combines tools and
 infrastructure with education in the form of workshops and training.
 
-### FAIRness of RSE-related materials
+### FAIRness of RSE-related (open) educational resources(OER)
 
 Due to the ever-evolving nature of skills and infrastructure in the RSE field,
-training material is often version-controlled, so that trainers can update it
+training materials are often open educational resources(OER) that are often version-controlled, so that trainers can update them
 between iterations. For example, core lessons from the Carpentries and CodeRefinery
 are stored on GitHub, and any change is automatically mirrored to their website.
 Likewise, the reference work on RSE by Fogel [@Fogel2005] was released in its
@@ -199,6 +199,10 @@ the ELIXIR [@Gurwitz2020] Training e-Support System (TeSS) platform
 [@Beard2020; @Bacall2023] for bioinformatics and life sciences,
 or the now-defunct Educational Resource Discovery Index (ERuDIte)
 [@VanHorn2017; @Ambite2021] for data science.
+
+Many RSE OER lack in findability, which could be greatly improved by better annotation with metadata.
+The RSE community of lacks an agreed-upon standard of metadata with which to annotate RSE OER, which would help learners as well as teachers to find suitable resources to satisfy their concerns.
+Building on such annotations, a community agreed-upon registry for RSE OER would additionally improve the situation.
 
 ADDME:
 
