@@ -267,7 +267,7 @@ languages to address the need of specific communities.
 Annotating RSE open educational resources with metadata about required previous knowledge, covered material, and medium or media of the resources improves their findability and accessibility.
 Though, a registry agreed on by the community, would be required to take full advantage of such annotations.
 As open educational resources are often living documents they do not lend themselves well to publishing in the form of snapshots in repositories, such as Zenodo.
-With the life sciences, there already exists a field, that started efforts to annotate their training data with the TrainingMaterial Schema [@Castro2023,@TrainingMaterial].
+With the life sciences, there already exists a field, that started efforts to annotate their training data with the TrainingMaterial Schema [@Castro2023; @TrainingMaterial].
 
 Teaching RSE in relevant undergraduate courses of domain scientists
 can be the first point of entry in the field.
