@@ -403,14 +403,14 @@ and can assist domain scientists who have excellent command of scripting languag
 but only a cursory understanding of compiled languages get up to speed with
 compiled software.
 
-### ML-RSE
+## ML-RSE
 The development of research software based on machine learning (ML) requires specialized theoretical background and experienced handling of appropriate software in order to produce meaningful results.
 This involves knowledge about data analysis and feature engineering, metrics that are involved in ML, ML algorithm selection and cross validation, and knowledge in mathematical optimization methods and statistics.
 ML-RSEs analyse and check the suitability of an algorithm if it fulfils the needs of a certain task and they play a main role in deciding and selecting machine learning libraries for a given task.
 The increasing usage of ML in numerous scientific areas with social impact, involves an emphasized awareness and consideration of possible manipulative or discriminatory influences.
 At the intersection of data science [@SSIDataScience] and Data-focused RSEs, the complex way of solving problems utilizing machine learning calls for this separate specialization.
 
-### Research Infrastructure RSE
+## Research Infrastructure RSE
 This RSE is interested in SysOps and system administration and sets up IT infrastructures for and with researchers.
 Therefore, this specialization on the one hand requires a deep knowledge of physical computer and network hardware and
 on the other hand knowledge about setup and configuration of particular server software.
@@ -418,7 +418,7 @@ Those specialised RSEs know how to acquire, setup and maintain general-purpose a
 e.g. setup of virtual machines on hypervisors or the planning and setup of compute server clusters for GPU based machine learning.
 As an interface between the researchers and the infrastructure, they take care of user management, access permissions, and configuration of required services, for example.
 
-### Web-Development RSE
+## Web-Development RSE
 This RSE is skilled in web applications, front- and/or backend, and/or building 
 and using APIs, for example for research data portals or big research projects.
 Ideally, this RSE should also have knowledge about (web) accessibility to allow a broad
