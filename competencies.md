@@ -129,9 +129,10 @@ which a research software engineer (RSE) should
 acquire during training and formal education.
 
 The outline of the paper is as follows.
-The first chapter elaborates on the values that
+We start with a non-exhaustive overview of existing initiatives.
+The next chapter elaborates on the values that
 provide the guiding principles for the work of an RSE.
-The second chapter condenses and generalizes 
+The third chapter condenses and generalizes 
 the workshop discussions into a set of generic skills.
 The skills themselves fall into three categories 
 'software engineering', 'research' and 'team skills'
@@ -142,14 +143,13 @@ and discuss the skills used therein.
 
 As with any skill, not all RSEs will need 
 and use them to at the same level of expertise.
-Therefore, chapter three examines how much a person 
+Therefore, chapter four examines how much a person 
 needs to know depending on education or career level 
 or on the type of projects. 
 
-The fourth chapter gives a list of RSE specialisations
-and discusses the level of skill needed to work in each of them.
-
-The last chapter FIXME
+The fifth chapter gives a list of RSE specialisations
+and discusses the level of skill needed to work in each of them,
+before we conclude the paper with a summary.
 
 Finally, the appendix provides an example curriculum
 and lists existings skills and certifications in related fields
@@ -173,6 +173,88 @@ scientists. Funders and research managers will find the discussion in this paper
 valuable in order to observe how software development in academia will be
 institutionalised. Finally, the strong emphasis on team-skills allows RSEs to be
 very employable in industrial workplaces.
+
+# Related Work
+The day-to-day work of many RSEs often includes teaching activities to improve the RSE-related skill-set of researchers,
+e.g. in university courses, workshops or one-on-one.
+Therefore, RSEs' work often includes the use of as well as the contribution to pertinent teaching material.
+Various organizations and initiatives provide courses and workshops
+to convey software-related capabilities aimed at the research community.
+Often they make their training material available as Open Educational Resources
+permitting free access, re-use, adaptation and redistribution.
+#### The Carpentries
+
+The Carpentries [@Carpentries] is a non-profit entity that supports
+a range of open source training materials and international communities
+of volunteer instructors and helpers who run courses around these materials.
+The community also maintains the materials which are based around three core syllabuses --
+Software Carpentry [@CarpentriesSoftware; @Wilson2006; @Wilson2016a],
+Data Carpentry [@CarpentriesData; @Teal2015] and
+Library Carpentry [@CarpentriesLibrary; @Baker2016; @Cope2018].
+
+#### CodeRefinery
+
+CodeRefinery [@CodeRefinery] is a project currently funded by the Nordic
+e-Infrastructure and thus active primarily in the Nordics with the goal
+of teaching essential tools around research software development,
+that are usually skipped in academic education.
+CodeRefinery hosts a set of open source training materials including
+both beginner and intermediate level material and organizes multiple
+highly interactive large scale workshops per year.
+
+#### PRACE
+
+The Partnership for Advanced Computing in Europe (PRACE) [@PRACE] offers training
+in the form of massive open online courses (MOOCs), online and on-site training
+events at European HPC facilities (aggregated on various websites, e.g. EuroCC
+Training [@EuroCCTraining]), and white papers. While most training events are
+tailored for HPC-RSE, several recurring courses about programming languages
+(C++, Fortran, Python) are suitable for general RSEs, as they teach coding
+best practices, modern software design [@LRZModernCpp], project management and
+version control [@LRZIntroCpp].
+
+#### Helmholtz
+An example of a research performing organization that actively shapes the education of their employees
+is the Helmholtz association.
+As part of its push towards a better RSE environment, the Helmholtz Association
+launched the Helmholtz Federated IT Services platform (HIFIS) [@HIFIS]
+which provides educational material and trainings amongst other services
+for an audience of over 10,000 scientists in Germany and internationally.
+All of these materials focus on RSE basics to refresh and expand the software
+engineering knowledge for recent graduates or to update the existing
+knowledge in established researchers.
+They are published under OER licenses and can serve as either self-learning
+instructions or form the basis of a hands-on training.
+
+#### ENCCS
+
+The [National Competence Center Sweden (ENCCS)](https://enccs.se/)
+has created a collection of lessons for HPC-oriented RSEs [@ENCCSLessons] and
+has adapted instructor training material from The Carpentries and CodeRefinery
+to create their own instructor manual [@ENCCSInstructorTraining; @ENCCS2022].
+The ENCCS lessons are targeted at individuals who already have general RSE
+skills and are seeking new skills relevant to HPC and software engineering.
+
+#### German National Research Data Infrastructure (NFDI)
+
+EduTrain (Training & Education) [@EDUTRAIN] is a section of the NFDI [@NFDI].
+Based on the slogan "data literacy from the beginning",
+it contributes to the further development of scientific methods
+and good scientific practice.
+The targeted education also involves research software engineering.
+As described in its concept [@EduTrain2022], there will be a collaboration
+with "The Carpentries" regarding their lesson program.
+Moreover, the approach of how "The Carpentries" are organized will be adopted.
+
+#### SureSoft
+
+SureSoft [@SURESOFTLink] is a DFG funded project at TU Braunschweig and
+FAU Erlangen-Nürnberg fostering the sustainability of research software
+by helping researchers adopt practices and tools from the software
+engineering community [@SURESOFT2022].
+The project implements a twofold approach that combines tools and
+infrastructure with education in the form of workshops and training.
+
 
 # Values
 
@@ -437,6 +519,7 @@ At different career levels, differing skills are required. We have set this up a
 - Principal RSE: Their actual job description varies a lot. These may be RSE team leaders based in a professional services type role, or they may be professors or research group leaders based in a more academic-focused role. They are often the people responsible for bringing in the money that supports new projects and sustains existing projects. Generally speaking, they do not need to to be actively involved in the day-to-day technical tasks but they should be able to guide projects from both a technical and a research perspective.
 
 The following table elaborates on the required facets of the competencies in different roles.
+
 \blandscape
 \small
 \renewcommand*{\arraystretch}{1.4}
