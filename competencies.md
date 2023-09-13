@@ -37,7 +37,7 @@ An Appendix details how existing curricula fit into this framwork.
 
 **Keywords**: research software engineering, training, learning, competencies
 
-## Introduction
+# Introduction
 
 Computers and software have played a key role in the research lifecycle for many
 decades. Traditionally, they were specialist tools used only in a small number
@@ -432,13 +432,11 @@ depending on their circumstances. A strong beneficiary of specialized RSEs can a
 ## Career level
 At different career levels, differing skills are required. We have set this up according to the following separation often applied within a single project:
 
-- Junior RSE: These are persons that have just started, but generally speaking they should have the skills to contribute to software projects
-- Senior RSE: They have gained experience and can set the examples in the software project.
-- Principal RSE: Their actual job description varies a lot. These may be RSE team leaders based in a professional services type role, or they may be professors or research group leaders based in a more academic-focused role. They are often the people responsible for bringing in the money that supports new projects and sustains existing projects. Generally speaking, they do not need to to be actively involved in the day-to-day technical tasks but they should be able to guide projects from both a technical and research perspective.
+- Junior RSE: These are persons that have just started, but generally speaking they should have the skills to contribute to software projects.
+- Senior RSE: They have gained experience and can set the standards in the software project.
+- Principal RSE: Their actual job description varies a lot. These may be RSE team leaders based in a professional services type role, or they may be professors or research group leaders based in a more academic-focused role. They are often the people responsible for bringing in the money that supports new projects and sustains existing projects. Generally speaking, they do not need to to be actively involved in the day-to-day technical tasks but they should be able to guide projects from both a technical and a research perspective.
 
-The required skills are distributed according to this table
-First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (less -> lot)
-
+The following table elaborates on the required facets of the competencies in different roles.
 \blandscape
 \small
 \renewcommand*{\arraystretch}{1.4}
@@ -462,7 +460,7 @@ First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (l
 
 \elandscape
 
-## Academic Progression / Career Path? (Help me for better title) 
+## Helpful academic RSE skills for researchers in an academic career
 In the previous section, 
 we looked at the competency levels needed for RSE specialists.
 However, many of these competencies are important for typical researchers in academia.
