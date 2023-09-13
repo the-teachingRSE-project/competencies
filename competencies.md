@@ -498,12 +498,12 @@ where people working in RSE related fields got together to figure out
 structures and ideas of educating newcomers to this field.
 One outcome of this diverse gathering is that RSEs from far away fields gather around similar concepts.
 In this publication we have tried to formalize them. We have formulated a set of values that
-guide our actions in society and manifestly makes RSEs part of the realm of values of science
+guide our actions in society and manifestly makes RSEs part of the community of values of scientists
 but at the same time, being Software Engineers, we have to take responsibility for our tools.
 We continue with core competencies that have on purpose been formulated 
 abstractly without referencing any particular information processing device.
-As expected we draw equally upon notions from software engineering and research,
-but find that we equally require teamwork capabilities.
+As expected, we draw equally upon notions from software engineering and research,
+but find that we likewise require teamwork capabilities.
 We continue with detailing these competencies in various dimensions, and find that
 a different amount is required in different positions and scientific domains.
 Nevertheless, they are required and hence the values and competencies form a common denominator
@@ -514,7 +514,6 @@ and their values make them responsible members of a digital society.
 This yields a qualification profile which makes
 an education based on them highly attractive to young people and the institutions that provide
 this education will be the topic of a follow-up paper.
-
 
 # Appendix
 
