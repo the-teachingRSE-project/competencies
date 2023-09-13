@@ -78,20 +78,13 @@ RSEs share a set of core skills that are required to write software, understand
 the research environment and ensure that they produce sustainable, maintainable
 code that supports reproducible research outputs. They are the ones who
 implement the FAIR principles that make digital research output more valuable.
-In order to do so they draw upon skills from traditional software engineering,
-established research culture and a commitment to being part of a team.
 
-Developing and maintaining these skills is time consuming and often challenging.
-Part of the challenge is that there is not a standard pathway to becoming an RSE
-and, partly as a result of this, there is something of an ad hoc approach to
-training within the community. We also see increasing amounts of basic-level
-training materials that are great to put researchers or technical professionals
-on a path towards gaining significant RSE expertise, but the trail often ends as
-developing RSEs want to progress to intermediate and advanced level material. In
-particular, recent technology developments are ensuring that there is a growing
-need for specialist expertise, for example in areas such as making efficient use
-of high-performance computing infrastructure. This is an area where there is a
-skills shortage and a shortage of training materials.
+Our contribution in this paper lies in identifying a set of values
+that guide the work of software developers an academia that are aware
+of the impact of their work on society.
+Upon these values we identify core competencies that facilitate
+effective participation in digital research drawing upon skills from traditional software engineering,
+established research culture and the commitment to being part of a team.
 
 A few definitions are in order.
 First as software we define source code, documentation, tests
@@ -99,16 +92,17 @@ and all other artefacts that are created by humans during the development proces
 that are necessary to understand its purpose.
 
 We define research to encompass all domains of research.
+<!--
 Since we expect a sizeable portion of readers from Germany we
 quickly want to address a common false friend.
-<!--The German term 'Wissenschaft' encompasses all domains of publicly funded
+The German term 'Wissenschaft' encompasses all domains of publicly funded
 research, while the English term 'science' is generally limited to natural sciences.
 Therefore, we will use 'research' to encompass all domains therefore gives the employability of RSEs.
 Of course 'research' as well as 'Forschung' is not limited to public funding
 but also part of industrial and other private companies.
 We surmise that the same software engineering and team skills will be needed there,
-but we limit our considerations to the views of public research.-->
-
+but we limit our considerations to the views of public research.
+-->
 This enables us to define Research Software in this paper to include source code files,
 algorithms, scripts, computational workflows and executables that were created
 during the research process or for a research purpose.
@@ -182,6 +176,7 @@ Various organizations and initiatives provide courses and workshops
 to convey software-related capabilities aimed at the research community.
 Often they make their training material available as Open Educational Resources
 permitting free access, re-use, adaptation and redistribution.
+
 #### The Carpentries
 
 The Carpentries [@Carpentries] is a non-profit entity that supports
@@ -214,6 +209,7 @@ best practices, modern software design [@LRZModernCpp], project management and
 version control [@LRZIntroCpp].
 
 #### Helmholtz
+
 An example of a research performing organization that actively shapes the education of their employees
 is the Helmholtz association.
 As part of its push towards a better RSE environment, the Helmholtz Association
