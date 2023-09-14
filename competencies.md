@@ -169,7 +169,7 @@ The team skills are therefore crucially important.
 
 ### Working in a team (TEAM)
 Working in a team is all about communication.
-For example they need to be able to explain particular implementation choices made and may even need to defend them.
+For example RSEs need to be able to explain particular implementation choices made and may even need to defend them.
 Within a team of RSEs code reviews improve knowledge transfer and increase team cohesion.
 Senior RSEs may lead a team of RSEs.
 The shared values come into play and each RSE needs to ensure that these values are lived by and passed on.
