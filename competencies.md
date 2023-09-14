@@ -176,7 +176,7 @@ The shared values come into play and each RSE needs to ensure that these values 
 
 ### Teaching (TEACH)
 RSEs have many opportunities to teach.
-These range from inducting new colleagues to teaching digital skills either through short courses, for example from the Carpentries [@Carpentries], or entire lecture series.
+These range from inducting new colleagues to teaching digital skills either through short courses, for example from The Carpentries [@Carpentries], or entire lecture series.
 RSEs may also act as mentors and consultants.
 Code review also includes aspects of the teaching skill.
 
