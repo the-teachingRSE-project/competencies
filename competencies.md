@@ -163,6 +163,8 @@ exchange of new techniques and algorithms to keep their software up-to-date.
 ## Team Skills
 RSEs do not work in isolation.
 They are embedded in a research group or work within a team of RSEs supporting particular research projects.
+RSEs often need to interact with and facilitate communication in-between colleagues, clients and contractors
+with a very broad spectrum of background-knowledge, specialization, expectations and experience.
 The team skills are therefore crucially important.
 
 ### Working in a team (TEAM)
