@@ -51,7 +51,7 @@ higher resolution simulations and, increasingly, leverage new self-adapting
 approaches through Machine Learning, computers and software are now vital
 elements of the research process across almost all domains. However, this shift
 means that basic research software skills are now required by researchers of all
-career-levels across a vast array of research fields where these were not
+career levels across a vast array of research fields where these were not
 previously required. Researchers often lack the skills to write and use software
 for their research and even to effectively request help from and interact with
 more experienced staff at their institutions. There still exists a gap in the
@@ -87,7 +87,7 @@ effective participation in digital research drawing upon skills from traditional
 established research culture and the commitment to being part of a team.
 
 A few definitions are in order.
-First as software we define source code, documentation, tests
+First, as software, we define source code, documentation, tests
 and all other artefacts that are created by humans during the development process
 that are necessary to understand its purpose.
 
@@ -109,7 +109,7 @@ during the research process or for a research purpose.
 This definition is broader than in [@FAIR4RS] and is the outcome of a recent
 discussion in [@Gruenpeter2021].
 
-Using this, Research Software Engineers are now people that 
+Using this, Research Software Engineers are now people who 
 create or improve research software and/or the structures that the software interacts with
 in the computational ecosystem of a research domain.
 They are highly skilled team members who can also conduct their own research as part of their role.
@@ -122,7 +122,7 @@ agnostic of specific software or the scientific domains,
 which a research software engineer (RSE) should 
 acquire during training and formal education.
 By defining these competencies, 
-we provide a framework to facilitate 
+we provide a guiding framework to facilitate 
 the training and continuous professional development of RSEs.
 
 The outline of the paper is as follows.
@@ -168,7 +168,7 @@ and requirements fall within the skill set of RSEs. They become a vital link to
 cross-pollinate computational skills and infrastructure know-how between domain
 scientists. Funders and research managers will find the discussion in this paper
 valuable in order to observe how software development in academia will be
-institutionalised. Finally, the strong emphasis on team-skills allows RSEs to be
+institutionalised. Finally, the strong emphasis on team skills allows RSEs to be
 very employable in industrial workplaces.
 
 # Related Work
@@ -269,7 +269,7 @@ Further values loosely based on that code include the obligations
 
 RSEs often assume a multifaceted role at the junction of research, software engineering and data management.
 They work with a varying and diverse set of colleagues that might include other developers,
-support unit staff and academics of different fields and all career-stages.
+support unit staff and academics of different fields and all career stages.
 This situation yields a specific set of challenges RSEs should be aware of
 to consciously make ethically sound judgment calls.
 We list some example areas that could be addressed in RSE courses or workshops.
@@ -293,7 +293,7 @@ with respect to career development and the achievement of academic goals.
 Software engineering is still strongly dominated by white males [@StackOverflow2022].
 In their work RSEs might frequently find themselves in a position
 to encourage, mentor and empower people who gravitate towards software-related occupations.
-In this capacity they should be aware of the diversity problem and help to mediate it
+In this capacity, they should be aware of the diversity problem and help to mediate it
 whenever they have the chance to do so.
 
 ## The scientific community
