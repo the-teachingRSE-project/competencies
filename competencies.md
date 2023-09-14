@@ -121,6 +121,9 @@ The aim is to provide a set of generic skills,
 agnostic of specific software or the scientific domains,
 which a research software engineer (RSE) should 
 acquire during training and formal education.
+By defining these competencies, 
+we provide a framework to facilitate 
+the training and continuous professional development of RSEs.
 
 The outline of the paper is as follows.
 We start with a non-exhaustive overview of existing initiatives.
