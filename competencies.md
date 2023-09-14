@@ -169,14 +169,14 @@ The team skills are therefore crucially important.
 
 ### Working in a team (TEAM)
 Working in a team is all about communication.
-For example they need to be able to explain particular implementation choices made and may even need to defend them.
+For example RSEs need to be able to explain particular implementation choices made and may even need to defend them.
 Within a team of RSEs code reviews improve knowledge transfer and increase team cohesion.
 Senior RSEs may lead a team of RSEs.
 The shared values come into play and each RSE needs to ensure that these values are lived by and passed on.
 
 ### Teaching (TEACH)
 RSEs have many opportunities to teach.
-These range from inducting new colleagues to teaching digital skills either through short courses, for example from the Carpentries [@Carpentries], or entire lecture series.
+These range from inducting new colleagues to teaching digital skills either through short courses, for example from The Carpentries [@Carpentries], or entire lecture series.
 RSEs may also act as mentors and consultants.
 Code review also includes aspects of the teaching skill.
 
