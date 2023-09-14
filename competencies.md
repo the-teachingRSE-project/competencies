@@ -373,11 +373,11 @@ Bonus points may be distributed if managing teams remotely
 [BIO Excel framework](https://competency.ebi.ac.uk/framework/bioexcel/3.0/carreer-profiles)
 
 ## RSE specializations
-What we have defined above are intended to be base skills that an RSE irrespective of domain, place, and time should know about.
+What we have defined above are intended to be base skills that a RSE
+irrespective of domain, place, and time should know about.
 But not all RSEs are created equal, they specialize in different areas,
 some of which we want to present below. Many of the specializations may overlap,
 so the same RSE might for example work on data management and on Open Science.
-We figure many RSEs to have more than one of the specializations mentioned below.
 We categorize them into those, that can be viewed as a specialization within RSE-specific topics,
 while other RSEs might expand their skill set and profession to areas, that are not typical for a RSE.
 
@@ -424,28 +424,31 @@ Those specialised RSEs know how to acquire, setup and maintain general-purpose a
 e.g. setup of virtual machines on hypervisors or the planning and setup of compute server clusters for GPU based machine learning.
 As an interface between the researchers and the infrastructure, they take care of user management, access permissions, and configuration of required services, for example.
 
+#### Legal-RSE
+With the prevalence of software, we foresee the need for RSEs that specialize in legal questions around software.
+They are the first go-to person if people have a question about licensing, mixing and matching of software as well as patenting or copyright.
+Further specialization in legal questions can be in the area of publication of research software,
+as this also requires knowledge about particular laws or regulatory frameworks concerning data protection, like the GDPR within the EU [@GDPR].
+Another area are legal aspects of cybersecurity and export control in science and research (see [@ExportControl] for Germany).
+They are able to communicate and collaborate with lawyers.
+
+#### Maintenance RSEs 
+The constantly evolving software environment can hinder or prevent reproducibility.
+In this changing environment, a significant amount of effort in (research) software development
+needs to be spent on maintenance to ensure that software remains useful or even installable.
+With regard to which additional competency is required,
+these are people having experience with ancient software stacks that are not part of the general curricula anymore (think of COBOL and FORTRAN).
+Another skillset required is (automated) testing.
+
+
+### Specializations outside the core RSE competencies
+
 #### Web-Development RSE
 This RSE is skilled in web applications, front- and/or backend, and/or building 
 and using APIs, for example for research data portals or big research projects.
 Ideally, this RSE should also have knowledge about (web) accessibility to allow a broad
 range of researchers or even the public to use the resulting applications.
 Therefore a deep knowledge of web skills is a required skill for this RSE.
-
-#### Maintenance RSEs 
-In a constantly changing environment, a significant amount of effort in (research) software development
-needs to be spent on maintenance to ensure that software remains useful or even installable.
-This can prevent reproducibility.
-With regard to which additional competency is required,
-these are people having experience with ancient software stacks that are not part of the general curricula anymore (think of COBOL and FORTRAN).
-Another skillset required is (automated) testing.
-
-### Specializations outside the core RSE competencies
-
-#### Legal-RSE
-With the prevalence of software, we foresee the need for RSEs that specialize in legal questions around software.
-They are the go-to person if people have a question about licensing, mixing and matching of software as well as patenting or copyright.
-The publication of research software also requires knowledge about particular laws or regulatory frameworks concerning data protection, like the GDPR within the EU [@GDPR].
-Familiarity with legal aspects of cybersecurity and export control in science and research (see [@ExportControl] for Germany) complete the competencies of those RSEs.
 
 #### Data-focused RSE
 RSEs working at the flourishing intersection between data science and RSE. 
@@ -461,8 +464,9 @@ storage, and preservation of data, and publication and sharing of data in reposi
 Open Science and FAIRness of Data and Software are increasingly important topics in research, as exemplified by the demand of an increasing amount of research funding agencies requiring openness.
 Open Science RSEs can help researchers navigate the technical questions that come up 
 when practicing Open Science, such as "How do I make my code presentable?", 
-"What do I need to consider when it comes to licensing?", or 
+"What do I need to do to make my software FAIR?", or 
 "How do I sustainably work with a (international) team on a large code base?".
+Like the Data-focused RSE they have a deep understanding of RDM topics.
 
 #### Project/Community manager RSEs
 When research software projects become larger, they need someone who manages
