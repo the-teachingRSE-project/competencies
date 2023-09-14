@@ -500,7 +500,7 @@ One outcome of this diverse gathering is that RSEs from far away fields gather a
 In this publication we have tried to formalize them. We have formulated a set of values that
 guide our actions in society and manifestly makes RSEs part of the community of values of scientists
 but at the same time, being Software Engineers, we have to take responsibility for our tools.
-We continue with core competencies that have on purpose been formulated 
+We continue with core competencies that have been intentionally formulated 
 abstractly without referencing any particular information processing device.
 As expected, we draw equally upon notions from software engineering and research,
 but find that we likewise require teamwork capabilities.
