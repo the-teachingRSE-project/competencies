@@ -160,19 +160,19 @@ This includes their own domain knowledge in discussions with RSEs (from other do
 as well as their SE knowledge when talking to domain scientists and also the
 exchange of new techniques and algorithms to keep their software up-to-date.
 
-### Team Skills
+## Team Skills
 RSEs do not work in isolation.
 They are embedded in a research group or work within a team of RSEs supporting particular research projects.
 The team skills are therefore crucially important.
 
-#### Working in a team (TEAM)
+### Working in a team (TEAM)
 Working in a team is all about communication.
 For example they need to be able to explain particular implementation choices made and may even need to defend them.
 Within a team of RSEs code reviews improve knowledge transfer and increase team cohesion.
 Senior RSEs may lead a team of RSEs.
 The shared values come into play and each RSE needs to ensure that these values are lived by and passed on.
 
-#### Teaching (TEACH)
+### Teaching (TEACH)
 RSEs have many opportunities to teach.
 These range from inducting new colleagues to teaching digital skills either through short courses, for example from the Carpentries [@Carpentries], or entire lecture series.
 RSEs may also act as mentors and consultants.
@@ -182,7 +182,7 @@ Code review also includes aspects of the teaching skill.
 The RSE should have knowledge about project management. At some institutes, it follows the practices of the local research groups,
 but it is useful, if an RSE knows its place in a PM scheme, or can bring in new ideas for improvement.
 
-### RSE Tasks and Responsibilities
+## RSE Tasks and Responsibilities
 These skills, while already numerous are also generic on purpose. They span a
 multidimensional space in which the day-to-day tasks and responsibilities of a
 RSE can be found. A snapshot of what this means today can be obtained 
