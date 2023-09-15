@@ -91,6 +91,16 @@ This is then followed by testing that things work as expected and that they cont
 We emphasize the the lifecycle is not complete here but also includes periods of maintaining a software
 and also phasing out a software of its original use.
 
+### Interaction with users and other stakeholders (USERS)
+
+Since research software is often developed as part of the research process
+itself, its requirements and specification might change with the progression of
+research. Stakeholders of research software often change across different
+research projects or even within the course of one project.
+Roles in connection with research software are often in flux and diffuse:
+For example a single person might be user, developer and project manager at the same time.
+These conditions pose specific challenges for requirements analysis, project management, training and support.
+
 ### Use repositories (SWREPOS)
 The RSE should be able to use public platforms to share the artefacts they have
 created and invite the public to scrutinise them for public review.
@@ -144,21 +154,6 @@ aware of any domain specific software repositories, data sets and catalogues
 and the RSE's software needs to be able to interact with the existing
 domain-specific data repositories.
 
-### Outside Party interaction (USERS)
-Research software is often developed as part of the research process itself,
-and like research, it will change in unpredictible ways
-hence it often has to be developed very closely to its users, the researchers.
-Therefore, roles like developers and users can seldomly be distinguished
-as most people represent multiple roles ranging from end-users, up to funders.
-However, regardless if this is the case or not: compared to other SE environments,
-there is an unusually close interaction between and within different roles in research,
-as well as between experts from different domains.
-Often this means it is necessary for an RSE to think "outside their comfort zone",
-but at the same time to be able to convey their knowledge and experience to experts
-of other fields in a way they can understand more easily.
-This includes their own domain knowledge in discussions with RSEs (from other domains),
-as well as their SE knowledge when talking to domain scientists and also the
-exchange of new techniques and algorithms to keep their software up-to-date.
 
 ## Team Skills
 RSEs do not work in isolation.
