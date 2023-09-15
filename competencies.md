@@ -426,7 +426,7 @@ As an interface between the researchers and the infrastructure, they take care o
 
 #### Legal-RSE
 With the prevalence of software, we foresee the need for RSEs that specialize in legal questions around software.
-They are the first go-to person if people have a question about licensing, mixing and matching of software as well as patenting or copyright.
+They are the go-to person for questions about licensing, mixing and matching of software as well as patenting or copyright.
 Further specialization in legal questions can be in the area of publication of research software,
 as this also requires knowledge about particular laws or regulatory frameworks concerning data protection, like the GDPR within the EU [@GDPR].
 Another area are legal aspects of cybersecurity and export control in science and research (see [@ExportControl] for Germany).
