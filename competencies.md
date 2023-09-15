@@ -375,7 +375,7 @@ Bonus points may be distributed if managing teams remotely
 ## RSE specializations
 What we have defined above are intended to be base skills that a RSE
 irrespective of domain, place, and time should know about.
-But not all RSEs are created equal, they specialize in different areas,
+But beyond these core skills, RSEs specialize in different areas,
 some of which we want to present below. Many of the specializations may overlap,
 so the same RSE might for example work on data management and on Open Science.
 We categorize them into those, that can be viewed as a specialization within RSE-specific topics,
