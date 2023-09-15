@@ -167,6 +167,8 @@ Working in a team is all about communication.
 For example RSEs need to be able to explain particular implementation choices made and may even need to defend them.
 Within a team of RSEs code reviews improve knowledge transfer and increase team cohesion.
 Senior RSEs may lead a team of RSEs.
+The team might change on a project-to-project basis and might be comprised of colleagues with very different backgrounds
+including, next to software engineers, for example IT staff, domain scientists and technicians.
 The shared values come into play and each RSE needs to ensure that these values are lived by and passed on.
 
 ### Teaching (TEACH)
