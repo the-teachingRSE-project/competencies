@@ -178,6 +178,7 @@ Code review also includes aspects of the teaching skill.
 ### Project Management (PM)
 The RSE should have knowledge about project management. At some institutes, it follows the practices of the local research groups,
 but it is useful, if an RSE knows its place in a PM scheme, or can bring in new ideas for improvement.
+Project management in research software engineering poses specific challenges that might require the capacity to flexibly adapt to changing conditions and deviate from common project management methods.
 
 ## RSE Tasks and Responsibilities
 These skills, while already numerous are also generic on purpose. They span a
