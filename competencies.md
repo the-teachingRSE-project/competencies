@@ -424,14 +424,6 @@ Those specialised RSEs know how to acquire, setup and maintain general-purpose a
 e.g. setup of virtual machines on hypervisors or the planning and setup of compute server clusters for GPU based machine learning.
 As an interface between the researchers and the infrastructure, they take care of user management, access permissions, and configuration of required services, for example.
 
-#### Legal-RSE
-With the prevalence of software, we foresee the need for RSEs that specialize in legal questions around software.
-They are the go-to person for questions about licensing, mixing and matching of software as well as patenting or copyright.
-Further specialization in legal questions can be in the area of publication of research software,
-as this also requires knowledge about particular laws or regulatory frameworks concerning data protection, like the GDPR within the EU [@GDPR].
-Another area are legal aspects of cybersecurity and export control in science and research (see [@ExportControl] for Germany).
-They are able to communicate and collaborate with lawyers.
-
 #### Maintenance RSEs 
 The constantly evolving software environment can hinder or prevent reproducibility.
 In this changing environment, a significant amount of effort in (research) software development
@@ -443,12 +435,13 @@ Another skillset required is (automated) testing.
 
 ### Specializations outside the core RSE competencies
 
-#### Web-Development RSE
-This RSE is skilled in web applications, front- and/or backend, and/or building 
-and using APIs, for example for research data portals or big research projects.
-Ideally, this RSE should also have knowledge about (web) accessibility to allow a broad
-range of researchers or even the public to use the resulting applications.
-Therefore a deep knowledge of web skills is a required skill for this RSE.
+<!--
+Research focused specializations
+-->
+
+#### ${DOMAIN}-RSE
+While software is the lingua franca of all RSEs there will be RSEs that have specialized in the initricacies of one particular research domain,
+such as medical RSEs, digital humanities RSEs or physics RSEs.
 
 #### Data-focused RSE
 RSEs working at the flourishing intersection between data science and RSE. 
@@ -468,6 +461,34 @@ when practicing Open Science, such as "How do I make my code presentable?",
 "How do I sustainably work with a (international) team on a large code base?".
 Like the Data-focused RSE they have a deep understanding of RDM topics.
 
+
+<!--
+New areas of expertise
+-->
+
+#### Web-Development RSE
+This RSE is skilled in web applications, front- and/or backend, and/or building 
+and using APIs, for example for research data portals or big research projects.
+Ideally, this RSE should also have knowledge about (web) accessibility to allow a broad
+range of researchers or even the public to use the resulting applications.
+Therefore a deep knowledge of web skills is a required skill for this RSE.
+
+#### Legal-RSE
+All RSEs are a go-to person for questions about licensing, mixing and matching of software.
+But with the rising requirements from legislation,
+we foresee the need for RSEs that specialize in legal questions.
+These may arise in the area of publication of research software,
+as this also requires knowledge about particular laws or regulatory frameworks concerning data protection,
+like the GDPR within the EU [@GDPR].
+Another area are legal aspects of cybersecurity and export control in science and research (see [@ExportControl] for Germany).
+Legal-RSEs focus on facilitating the achievement of technically feasible solutions while adhering to regulatory mandates.
+They are able to communicate and collaborate with lawyers.
+
+
+<!--
+social skill-set focused specializations
+-->
+
 #### Project/Community manager RSEs
 When research software projects become larger, they need someone who manages
 processes and people. Building a community around a research project is an
@@ -479,10 +500,6 @@ RSEs who focus on teaching the next generation of researchers and/or RSEs play
 a vital role in improving the quality research software.
 They need to have a good understanding of all RSE competencies relevant to their domain and
 additionally should have experience or training in the educational field.
-
-#### ${DOMAIN}-RSE
-While software is the lingua franca of all RSEs there will be RSEs that have specialized in the initricacies of one particular research domain,
-such as medical RSEs, digital humanities RSEs or physics RSEs.
 
 
 ## Reaching out to potential RSEs
