@@ -97,7 +97,7 @@ Since research software is often developed as part of the research process
 itself, its requirements and specification might change with the progression of
 research. Stakeholders of research software often change across different
 research projects or even within the course of one project.
-Roles in connection with research software are often in flux and diffuse:
+Roles in connection with research software are often in flux and diffuse.
 For example a single person might be user, developer and project manager at the same time.
 These conditions pose specific challenges for requirements analysis, project management, training and support.
 
