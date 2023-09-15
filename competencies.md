@@ -50,48 +50,70 @@ With the ability to capture and process ever more data, undertake larger scale,
 higher resolution simulations and, increasingly, leverage new self-adapting
 approaches through Machine Learning, computers and software are now vital
 elements of the research process across almost all domains. However, this shift
-means that basic research software skills are now required by researchers of all
+means that basic research software skills are now required by researchers at all
 career levels across a vast array of research fields where these were not
-previously required. Researchers often lack the skills to write and use software
-for their research and even to effectively request help from and interact with
-more experienced staff at their institutions. There still exists a gap in the
+previously required. Researchers often lack the skills to write and use specialist
+software for their research. If they come from a non-technical domain, they may
+also struggle to know what to ask when trying to request help from and interact with
+more experienced staff at their institutions. There still exists a gap in
 academic education, as many curricula do not sufficiently prepare their students
-in that regard. This situation is exemplified by the extracurricular MIT class
+in this regard. This situation is exemplified by the extracurricular MIT class
 "The Missing Semester of Your CS Education" [@MIT], which aims to convey computing
 ecosystem literacy even to students of Computer Science at MIT.
 
-The need to access both research data and software has been formalised with the
-FAIR principles: software and data need to be easily findable by both people and
-machines, and they also need to be accessible, interoperable and reusable. More
-recently the FAIR principles have been extended specifically to research
-software [@FAIR4RS].
+As the role of software in research has grown, a particular class of research-related staff
+has emerged.
+Researchers spending increasing amounts of their time developing their software engineering
+skills to support their research work can find themselves with little time to do the research
+itself.
+This, in turn, presents career development challenges since the experience required to gain
+and progress in research and academic roles is traditionally assessed through metrics that
+don't directly include software outputs.
+For an increasing number of researchers in the UK in the early 2000s, this presented a
+significant problem which ultimately led, a little over 10 years ago, to the emergence of the
+term and the role of ``Research Software Engineer'' or RSE [@Hettrick2016].
 
-The people who focus on writing research software are now known as Research
-Software Engineers (RSEs) - a term that was coined a little over 10 years ago
-[@Hettrick2016]. RSEs may work within one of the many Research Software
-Engineering teams that have been set up at universities and research
+From this starting point, the people who focus on writing research software are now increasingly
+known, internationally, as Research Software Engineers.
+This shift has provided a base on which to develop sustainable career opportunities, better
+training and more effective support for the development of quality research software.
+There is still a long way to go but positive change is well underway.
+
+RSEs may work within one of the many Research Software Engineering teams that
+have been set up at universities and research
 organisations over the last decade, or they may be embedded within a research
 team. They may have a job title that officially recognises them as an RSE, or
 they may have a standard research or technical job title such as Research
 Assistant, Research Fellow or Software Engineer. Regardless of their job title,
 RSEs share a set of core skills that are required to write software, understand
 the research environment and ensure that they produce sustainable, maintainable
-code that supports reproducible research outputs. They are the ones who
-implement the FAIR principles that make digital research output more valuable.
+code that supports reproducible research outputs.
 
-Our contribution in this paper lies in identifying a set of values
-that guide the work of software developers an academia that are aware
-of the impact of their work on society.
-Upon these values we identify core competencies that facilitate
-effective participation in digital research drawing upon skills from traditional software engineering,
+The need to access both research data and software has been formalised with the
+FAIR principles: software and data need to be easily findable by both people and
+machines, and they also need to be accessible, interoperable and reusable. More
+recently the FAIR principles have been extended specifically to research
+software [@FAIR4RS]. RSEs are the people who implement the FAIR principles in the
+context of software, helping to make digital research outputs more valuable.
+
+Our contribution in this paper lies in identifying a set of values that underpin
+the work of Research Software Engineers, helping to provide a positive impact on
+research outputs and, ultimately, society as whole.
+Upon these values we identify core competencies that support effective participation
+in digital research.
+These competencies draw upon skills from traditional software engineering practice,
 established research culture and the commitment to being part of a team.
 
-A few definitions are in order.
-First, as software, we define source code, documentation, tests
+There are a number of common terms that are used widely within this paper but we
+recognise that they may be understood differently depending on the national research
+environments and processes that readers are familiar with. So, a few defintions:
+
+First, as _software_, we define source code, documentation, tests
 and all other artefacts that are created by humans during the development process
 that are necessary to understand its purpose.
 
-We define research to encompass all domains of research.
+We define _research_ to encompass all domains of research.
+
 <!--
 Since we expect a sizeable portion of readers from Germany we
 quickly want to address a common false friend.
@@ -109,17 +131,21 @@ during the research process or for a research purpose.
 This definition is broader than in [@FAIR4RS] and is the outcome of a recent
 discussion in [@Gruenpeter2021].
 
-Using this, Research Software Engineers are now people who 
+Building on this, Research Software Engineers are classed as people who 
 create or improve research software and/or the structures that the software interacts with
 in the computational ecosystem of a research domain.
-They are highly skilled team members who can also conduct their own research as part of their role.
+They are highly skilled team members who may also choose to conduct their own research as
+part of their role.
+However, we also recognise that many RSEs have chosen specifically to focus on a technical
+role as an alternative to a traditional research role because they enjoy and wish to focus
+on the development of research software.
 
-The paper builds on a workshop session held as part of the German
+This paper builds on a workshop session held as part of the German
 Research Software Engineering Conference (deRSE23), held in Paderborn, Germany
-in February 2023.
-The aim is to provide a set of generic skills, 
-agnostic of specific software or the scientific domains,
-which a research software engineer (RSE) should 
+in February 2023 [@deRSE23].
+The aim is to define a set of generic skills, 
+agnostic of specific technical capabilities or research domains,
+which a Research Software Engineer (RSE) should 
 acquire during training and formal education.
 By defining these competencies, 
 we provide a guiding framework to facilitate 
@@ -127,9 +153,9 @@ the training and continuous professional development of RSEs.
 
 The outline of the paper is as follows.
 We start with a non-exhaustive overview of existing initiatives.
-The next chapter elaborates on the values that
+The next section elaborates on the values that
 provide the guiding principles for the work of an RSE.
-The third chapter condenses and generalizes 
+Section 3 condenses and generalizes 
 the workshop discussions into a set of generic skills.
 The skills themselves fall into three categories 
 'software engineering', 'research' and 'team skills'
@@ -140,11 +166,11 @@ and discuss the skills used therein.
 
 As with any skill, not all RSEs will need 
 and use them to at the same level of expertise.
-Therefore, chapter four examines how much a person 
-needs to know depending on education or career level 
-or on the type of projects. 
+Therefore, Section 4 examines how much a person 
+needs to know depending on their education or career level 
+or on the type of projects they would like to be involved with. 
 
-The fifth chapter gives a list of RSE specialisations
+Section 5 provides a list of RSE specialisations
 and discusses the level of skill needed to work in each of them,
 before we conclude the paper with a summary.
 
@@ -152,15 +178,18 @@ Finally, the appendix provides an example curriculum
 and lists existings skills and certifications in related fields
 like bioinfomatics.
 
-While this paper is based on the workshop discussions we believe that the competencies formulated here have a far-reaching
-impact beyond the domain of RSE into adjacent fields of science. The most
-obvious users come from computer science, are HPC programmers with a background
-in physical sciences, or manage research data. Graduates from traditional STEM
-sciences with a focus on software or some library or IT staff will also find 
-this paper interesting. However, these days most research involves some amount 
+While this paper is based on the workshop discussions that were attended largely by Research Software Engineers,
+we believe that the competencies formulated here have a far-reaching
+impact beyond the domain of RSE into adjacent fields of science and, indeed, the wider research community. 
+The most obvious beneficiaries are members of the computer science community,
+High Performance Computing (HPC) software developers with a background in physical sciences,
+and people who work with or manage specialist research data.
+We believe that graduates from traditional STEM domains with a focus on software, IT staff
+and library staff with a technical focus will also find this paper interesting.
+However, these days most research involves some amount 
 of data management, processing and visualisation and the role of RSEs is also
 becoming increasingly important in medical domains and the digital humanities. 
-Access to central compute resources ranging from small departmental sizes to 
+Access to compute resources ranging from small departmental clusters to 
 national facilities is becoming readily available. Additionally, pressure is 
 growing from funding bodies to prioritise projects that generate archived, 
 annotated, re-usable and potentially remotely executable data. These resources 
