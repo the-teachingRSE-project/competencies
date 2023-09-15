@@ -303,8 +303,10 @@ This situation yields a specific set of challenges RSEs should be aware of
 to consciously make ethically sound judgment calls.
 We list some example areas that could be addressed in RSE courses or workshops.
 
-## Personal data
-
+## Handling of data and personal data
+A lot of RSE work involves the manipulation or creation of data processing devices.
+We highlight that professional conduct requires these creations to be reliable and maintain data integrity.
+A particular example of data integrity that has implications far into society is the handling of personal data.
 Independent from the encoding into the respective national law in an RSE's jurisdiction,
 the right to information privacy is internationally recognized as a fundamental human right,
 e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988], [@Hirvela2022].
