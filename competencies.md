@@ -512,7 +512,7 @@ These competencies at the intersection of research and software engineering
 coupled with a firm believe in team processes makes RSEs sought after on the job market
 and their values make them responsible members of a digital society.
 This yields a qualification profile which makes
-an education based on them highly attractive to young people and the institutions that provide
+an education based on it highly attractive to young people and the institutions that provide
 this education will be the topic of a follow-up paper.
 
 # Appendix
