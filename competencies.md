@@ -77,7 +77,7 @@ documentation. Documentation ranges from commenting code blocks to using
 documentation (building) tools.
 
 ### Building distributable libraries (LIBS)
-The RSE should be able to distribute their code with their domain/language
+The RSE should be able to distribute their code on their domain/language
 specific distribution platforms. This almost always encompasses
 handling/documenting dependencies with other packages/libraries. It sometimes
 requires knowledge of using build systems to enable interoperability with other
@@ -88,8 +88,8 @@ The traditional software lifecycle defines the stages that form the process of b
 This generally involves a creative process where you try to understand what it is that you need to build,
 work out how you are going to build it and then implement it.
 This is then followed by testing that things work as expected and that they continue to do so into the future.
-We emphasize the the lifecycle is not complete here but also includes periods of maintaining a software
-and also phasing out a software of its original use.
+We emphasize that the lifecycle is not complete here but also includes periods of maintaining a software
+and also withdrawing software from its original use.
 
 ### Interaction with users and other stakeholders (USERS)
 
@@ -127,8 +127,8 @@ trying out new tools. Lifelong learning is then no longer just a phrase, but
 becomes a motivation to work.
 
 ### Understanding the research cycle (RC)
-One of the crucial skills of RSEs is their mental proximity to research
-and they embrace being part of a larger community which,
+One of the crucial skills of RSEs is their mental proximity to research.
+ They embrace being part of a larger community which,
 despite friendly competition, shares the common goal of gaining knowledge
 for its own sake and not just for personal or commercial gain.
 Thereby they know, that they are part of a bigger cycle that involves many other parties in and outside of
@@ -169,7 +169,7 @@ Within a team of RSEs code reviews improve knowledge transfer and increase team 
 Senior RSEs may lead a team of RSEs.
 The team might change on a project-to-project basis and might be comprised of colleagues with very different backgrounds
 including, next to software engineers, for example IT staff, domain scientists and technicians.
-The shared values come into play and each RSE needs to ensure that these values are lived by and passed on.
+The shared values come into play and each RSE needs to ensure that these values are lived by and passed on to others.
 
 ### Teaching (TEACH)
 RSEs have many opportunities to teach.
@@ -197,7 +197,7 @@ knowledge of testing frameworks and CI/CD practices.
 SWREPOS, LEG, in order to understand the ramifications of sharing, and DOCBB,
 since the contributed code has to be understood by others. Interacting with
 project members depends on the the TEAM skill. Today this entails the effective
-use of collaborative platforms like github/gitlab, honouring a projects Code of
+use of collaborative platforms like github/gitlab, honouring a project's Code of
 Conduct, and some knowledge of software licenses like the GPL.
 - When or why to keep repositories private. This decision requires knowledge in
 the RC, to understand when it makes sense to open up or close down a repository.
@@ -210,7 +210,7 @@ a high rate to the technological advancements. Additionally proper SE skills
 often require knowledge of TEAM, and PM. Today this means effective use of IDEs,
 static analysis tools, design patterns, documentation (for oneself and others),
 etc.
-- Finding a community. This can be interpreted in two different facets. First
+- Finding a community. This can be interpreted in two different ways. First
 we have the aspect of community building for a research project. Since this
 deals with software that is supposed to be used in research this requires
 knowledge of RC, USERS, and also NEW, in order to effectively interact with
@@ -221,11 +221,11 @@ RSEs, tool-related communities and the classical domain communities. This point
 is further elaborated in [How do we reach people in different stages of their careers](#how-do-we-reach-people-in-different-stages-of-their-careers).
 
 
-Beyond that, we feel that today Other important tasks of RSEs are
+Beyond that, we feel that today other important tasks of RSEs are
 
 - Mentoring colleagues.
   This necessitates giving good advice that fits to a projects stage in its lifecycle,
-  thereby requiring knowledge of (SWLC), and its context in its research domain, thereby requiring knowledge of (RC).
+  thereby requiring knowledge of (SWLC), and its context in its research domain and thus (RC).
   Research software often starts out as a tool to answer a personal research
   question and becomes more important when other researchers rely on it.
   Some research software might even be used to deal with critical questions such as weather forecasting or medical diagnosis.
