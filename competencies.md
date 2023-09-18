@@ -46,7 +46,7 @@ extensive technical training over several years to gain the necessary skills and
 expertise. Fast forward 50-60 years and software and computation are all around
 us, underpinning our everyday lives. This shift is also true within research.
 
-With the ability to capture and process ever more data, undertake larger scale,
+With the ability to capture and process ever more data, to undertake larger scale,
 higher resolution simulations and, increasingly, leverage new self-adapting
 approaches through Machine Learning, computers and software are now vital
 elements of the research process across almost all domains. However, this shift
@@ -68,10 +68,10 @@ skills to support their research work can find themselves with little time to do
 itself.
 This, in turn, presents career development challenges since the experience required to gain
 and progress in research and academic roles is traditionally assessed through metrics that
-don't directly include software outputs.
+do not directly include software outputs.
 For an increasing number of researchers in the UK in the early 2000s, this presented a
 significant problem which ultimately led, a little over 10 years ago, to the emergence of the
-term and the role of ``Research Software Engineer'' or RSE [@Hettrick2016].
+term and the role of "Research Software Engineer" or RSE [@Hettrick2016].
 
 From this starting point, the people who focus on writing research software are now increasingly
 known, internationally, as Research Software Engineers.
@@ -165,7 +165,7 @@ we also list some current day tasks
 and discuss the skills used therein.
 
 As with any skill, not all RSEs will need 
-and use them to at the same level of expertise.
+and use them to the same level of expertise.
 Therefore, Section 4 examines how much a person 
 needs to know depending on their education or career level 
 or on the type of projects they would like to be involved with. 
@@ -187,7 +187,7 @@ and people who work with or manage specialist research data.
 We believe that graduates from traditional STEM domains with a focus on software, IT staff
 and library staff with a technical focus will also find this paper interesting.
 However, these days most research involves some amount 
-of data management, processing and visualisation and the role of RSEs is also
+of data management, processing and visualisation. The role of RSEs is also
 becoming increasingly important in medical domains and the digital humanities. 
 Access to compute resources ranging from small departmental clusters to 
 national facilities is becoming readily available. Additionally, pressure is 
@@ -203,7 +203,7 @@ very employable in industrial workplaces.
 # Related Work
 The day-to-day work of many RSEs often includes teaching activities to improve the RSE-related skill-set of researchers,
 e.g. in university courses, workshops or one-on-one.
-Therefore, RSEs' work often includes the use of as well as the contribution to pertinent teaching material.
+Therefore, RSEs' work often includes both the use of and the contribution to pertinent teaching materials.
 Various organizations and initiatives provide courses and workshops
 to convey software-related capabilities aimed at the research community.
 Often they make their training material available as Open Educational Resources
@@ -242,8 +242,8 @@ version control [@LRZIntroCpp].
 
 #### Helmholtz
 
-An example of a research performing organization that actively shapes the education of their employees
-is the Helmholtz association.
+The Helmholtz association is an example of a research organization that
+actively shapes the education of their employees.
 As part of its push towards a better RSE environment, the Helmholtz Association
 launched the Helmholtz Federated IT Services platform (HIFIS) [@HIFIS]
 which provides educational material and trainings amongst other services
@@ -305,7 +305,7 @@ We list some example areas that could be addressed in RSE courses or workshops.
 
 ## Handling of data and personal data
 A lot of RSE work involves the manipulation or creation of data processing devices.
-We highlight that professional conduct requires these creations to be reliable and maintain data integrity.
+We highlight that professional conduct requires these creations to be reliable and to maintain data integrity.
 A particular example of data integrity that has implications far into society is the handling of personal data.
 Independent from the encoding into the respective national law in an RSE's jurisdiction,
 the right to information privacy is internationally recognized as a fundamental human right,
