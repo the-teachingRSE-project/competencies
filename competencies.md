@@ -572,7 +572,7 @@ The following table elaborates on the required facets of the competencies in dif
 
 \elandscape
 
-## Helpful academic RSE skills for researchers in an academic career
+## Helpful RSE skills for researchers in an academic career
 In the previous section, 
 we looked at the competency levels needed for RSE specialists.
 However, many of these competencies are important for typical researchers in academia.
