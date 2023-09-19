@@ -1,5 +1,5 @@
 ---
-title: "Foundational competencies and responsibilities of an RSE"
+title: "Foundational Competencies and Responsibilities of a Research Software Engineer"
 geometry: margin=2.5cm
 author:
   - Heidi Seibold
@@ -27,10 +27,19 @@ header-includes:
 ---
 
 **Abstract**:
-In this paper we define the broad notion of what an RSE is and
-give a list of foundational competencies that define the RSE profile.
-Using that we elaborate on the progression of these skills along different
-dimensions and give examples of future specializations.
+The term Research Software Engineer, or RSE, 
+emerged a little over 10 years ago as a way to represent 
+individuals working in the research community but focusing on software development.
+The term has been widely adopted and there are a number of high-level definitions of what an RSE is.
+However, RSE roles are varied. At one end, RSE roles may look similar to a traditional research role.
+At the other extreme, they resemble that of a software engineer in industry.
+Most RSE roles inhabit the space in between these two examples and providing a straightforward, 
+comprehensive definition of what an RSE does 
+and what experience, skills and competencies are required to become one is therefore challenging.
+In this paper we define the broad notion of what an RSE is, explore the different types of work they undertake, and
+define a list of foundational competencies as well as values that define the general profile of an RSE.
+Using this information, we elaborate on the progression of these skills along different
+dimensions, looking at specific types of RSE roles and giving examples of future specializations.
 An Appendix details how existing curricula fit into this framwork.
 
 ---
