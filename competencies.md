@@ -31,8 +31,8 @@ The term Research Software Engineer, or RSE,
 emerged a little over 10 years ago as a way to represent 
 individuals working in the research community but focusing on software development.
 The term has been widely adopted and there are a number of high-level definitions of what an RSE is.
-However, RSE roles are varied. At one end of the scale, RSE roles may look similar to a traditional research role.
-At the other extreme, they may be more like that of a software engineer in industry.
+However, RSE roles are varied. At one end, RSE roles may look similar to a traditional research role.
+At the other extreme, they resemble that of a software engineer in industry.
 Most RSE roles inhabit the space in between these two examples and providing a straightforward, 
 comprehensive definition of what an RSE does 
 and what experience, skills and competencies are required to become one is therefore challenging.
