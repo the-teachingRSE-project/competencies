@@ -1,5 +1,5 @@
 ---
-title: "Foundational competencies and responsibilities of a Research Software Engineer"
+title: "Foundational Competencies and Responsibilities of a Research Software Engineer"
 geometry: margin=2.5cm
 author:
   - Heidi Seibold
