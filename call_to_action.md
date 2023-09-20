@@ -14,6 +14,7 @@ author:
   - Magnus Hagdorn
   - Harald von Waldow
   - Moritz Schwarzmeier
+  - Matthias Braun
 output:
   pdf_document:
     citation_package: biblatex
