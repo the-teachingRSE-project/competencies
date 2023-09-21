@@ -305,7 +305,7 @@ the described levels serve as a baseline
 and certain fields will require higher SE skill levels 
 as development is a large part of their actual research.
 
-### Bachelor
+#### Bachelor
 Students at undergraduate level mostly consume science/knowledge.
 During their studies they should also learn about the existence of digital tools and structures.
 Undergrad students should be aware that RSEs exist and that software has different quality aspects (DOCBB).
@@ -315,14 +315,14 @@ They should have an awareness of software licenses and who to ask if they have a
 They will be taught about the research cycle (RC) and that researchers often work in groups (TEAM).
 During practicals they will have an opportunity for peer learning (TEACH).
 
-### Master
+#### Master
 A student at Master level can participate in science and should therefore be able to use "some" digital structures. 
 A master student needs to be aware of relevant tools and data sets for their domain, where to find them and how to use them (LIBS, SWREPOS, DOMREP).
 They should be able to process and present their data (MOD).
 They need to understand how their research depends on software (SWLC).
 Working on their master thesis allows them to understand the research cycle (RC), practice project management (PM) and collaborate with other members of their research group (TEAM).
 
-### PhD
+#### PhD
 A PhD student performs independent research under guidance. 
 They need to know relevant tools and structures. 
 They should know where to find information about tools and where to find help using them (DOCBB, SWREPOS). 
@@ -334,13 +334,13 @@ In order to be able to explore new tools (NEW) they must be able to evaluate res
 They need to be able to interact with services (RC) and domain specific repositories (DOMREP). 
 They should be able to supervise a student (TEACH).
 
-### PostDoc
+#### PostDoc
 PostDocs are independent researchers. 
 Their role is similar to that of a PhD student with a deepened focus on their research career.
 However, they are proficient users of all relevant tools, that make them active contributors to their domain of research.
 They need to be aware of patents (LEG).
 
-### PI/Professor
+#### PI/Professor
 They are experts in their field and should be able to give proper guidance to their students on which digital tools are currently relevant. 
 They should be aware of the skills of an RSE and when they might need one in their group (DOCBB). 
 They should encourage their students to use relevant tools (LIBS). 
@@ -395,8 +395,8 @@ to and support them. We first summarise the meaning of each of the columns in th
       self-taught and less aware of key practices.&
     Stronger focus on team-based project management and development
       methodologies resulting in higher quality, more reusable code.&
-    Can offer training in core topics to support self-taught/embedded developers.
-      May have research software guidance/policies that provide advice.\\
+    Will offer training in core topics to support self-taught/embedded developers.
+      Should have research software guidance/policies that provide advice.\\
     \hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     LIBS&
@@ -404,7 +404,7 @@ to and support them. We first summarise the meaning of each of the columns in th
     Greater focus on reusability/sharing but likely not part of project aims.&
     May be looking to develop reusable shareable outputs but likely case-by-case basis.&
     Focus on quality and practices, reusability/packaging driven by project needs and spec.&
-    May provide policies on sharing and reuse of software. May be driven by funder requirements/policies.
+    Should provide policies on sharing and reuse of software. May be driven by funder requirements/policies.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     MOD&
@@ -417,10 +417,10 @@ to and support them. We first summarise the meaning of each of the columns in th
       support from central services to support this. May only need to know
       part of code.&
     Internal team training important to ensure ability to build necessary
-      mental model of codebase and to document via text or tools to support
+      mental model of codebase and to document it via text or tools to support
       sustainability.&
     As local team but likely stronger awareness of tooling and practices
-      in place within RSE team to support this. It may only be necessary
+      in place within RSE team to support this. Distributinh work makes it only necessary
       for each developer to understand code related to their assigned tasks.&
     Training and experience are key here and organisations can help
       to coordinate and provide support for training and mentoring/community activities.
@@ -534,7 +534,7 @@ to and support them. We first summarise the meaning of each of the columns in th
     A team of RSEs can generally better prepare code for external users
       (e.g. by applying development best practices) and provide infrastructure
       or specialized RSEs for dealing with user support &
-    May be able to offer support with outreach and publicising outputs.
+    Should have institutions that are able to offer support with outreach and publicising outputs.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     TEACH&
@@ -543,7 +543,7 @@ to and support them. We first summarise the meaning of each of the columns in th
     Sharing knowledge and skills within their group - peer support.&
     Often support teaching more widely, either through organised courses
       or ad hoc activities such as "code clinics".&
-    Can run a range of teaching/training activities.
+    Should have programs for a diverse range of teaching/training activities.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     PM&
@@ -566,8 +566,8 @@ to and support them. We first summarise the meaning of each of the columns in th
       to support team-based software development?&
     Will need to be able to work and collaborate effectively in a team,
       use required tools and processes, infrastructure, etc.&
-    Can offer support with team work. Many examples of courses around
-      working effectively in a team.
+    Can offer support with team work. Should support team-building initiatives
+    also on a social level.
     \\\hline
 \end{longtable}
 \elandscape
