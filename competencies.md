@@ -102,10 +102,10 @@ This generally involves a creative process where you try to understand what it i
 work out how you are going to build it and then implement it.
 This is then followed by testing that things work as expected and that they continue to do so into the future.
 We emphasize the the lifecycle is not complete here but also includes periods of maintaining a software
-and also phasing out a software of its original use.
+and also phasing out a software of its original use. Each phase brings its own particular challenges.
 
 ### Use repositories (SWREPOS)
-The RSE should be able to use public platforms to share the artefacts they have
+The RSE should be able to use public platforms (so-called software repositories or repos) to share the artefacts they have
 created and invite the public to scrutinise them for public review.
 
 ### Legal aspects (LEG)
@@ -388,21 +388,21 @@ to and support them. We first summarise the meaning of each of the columns in th
     DOCBB & 
     Focus on getting outputs to support research. Often time-constrained,
       may be self-taught, less awareness/familiarity with code quality and
-      structure best practices. &
-    Likely greater focus on reusability, documentation, and best practice
-      but potential lack of developer support.&
+      structure. Simple Best Practice documents can be sufficient&
+    Likely greater focus on reusability, documentation, and knowledge of best practices
+      but potential lack of domain scientist support.&
     More opportunity to discuss and share ideas but team members may be
-      self-taught and less aware of key practices.&
-    Stronger focus on team-based project management and development
+      self-taught and less aware of key practices. &
+    Stronger ingrained focus on team-based project management and development
       methodologies resulting in higher quality, more reusable code.&
-    Will offer training in core topics to support self-taught/embedded developers.
+    Will offer training and other resources in core topics to support self-taught/embedded developers.
       Should have research software guidance/policies that provide advice.\\
     \hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     LIBS&
-    Reusability and sharing/distribution of code often not a focus or considered relevant.&
-    Greater focus on reusability/sharing but likely not part of project aims.&
-    May be looking to develop reusable shareable outputs but likely case-by-case basis.&
+    Reusability and sharing/distribution of code often not a focus or considered relevant. &
+    Greater trained focus on reusability/sharing but likely not part of the project aims.&
+    May be looking to develop reusable shareable outputs but likely case-by-case basis. Need easy resources.&
     Focus on quality and practices, reusability/packaging driven by project needs and spec.&
     Should provide policies on sharing and reuse of software. May be driven by funder requirements/policies.
     \\\hline
@@ -411,7 +411,7 @@ to and support them. We first summarise the meaning of each of the columns in th
     Needs full awareness of entire codebase to support extension/maintenance.
       May not need/get additional experience or support.
       If project taken on from another individual developer,
-      there may be challenges.&
+      there may be challenges in transferring this mental model of the software.&
     As local but greater awareness of need for future transition to other
       developer(s), likely provide e.g. docs/issues/project board and other
       support from central services to support this. May only need to know
@@ -420,10 +420,12 @@ to and support them. We first summarise the meaning of each of the columns in th
       mental model of codebase and to document it via text or tools to support
       sustainability.&
     As local team but likely stronger awareness of tooling and practices
-      in place within RSE team to support this. Distributinh work makes it only necessary
+      in place within RSE team to support this. Distributing work makes it only necessary
       for each developer to understand code related to their assigned tasks.&
     Training and experience are key here and organisations can help
       to coordinate and provide support for training and mentoring/community activities.
+      Establishing RSE departments with specialists for certain aspects of software
+      will improve overall turnaround times.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     SWLC&
@@ -446,8 +448,8 @@ to and support them. We first summarise the meaning of each of the columns in th
       May not have awareness/skills if self-taught.&
     As previous but professional RSEs generally very experienced
       with use of repositories and their many features.&
-    Repos a vital aspect of modern team-based development.
-      Is the necessary expertise available?&
+    Repos are a vital aspect of modern team-based development.
+      Short courses can facilitate effective use.&
     Repos used extensively by RSE teams - often the base for project
       management, issue tracking, etc. in addition to code itself.
       May train others.&
@@ -477,12 +479,12 @@ to and support them. We first summarise the meaning of each of the columns in th
       skills may be challenging and is often not the core aim.&
     RSE teams should support their team members, especially when working
       individually on a project, to explore new tools and approaches,
-      make relevant contacts and learn more about the project domain.&
+      make relevant contacts and learn more about the research in the project domain.&
     Likely to be an area of interest for an embedded development team
-      but if they are researchers, they may not have the local knowledge
-      or contacts to know where to look.&
+      but if they are researchers, they defintely have curiosity in their domain.
+      A curiosity for tools would be appreciated.&
     As per Individual (RSE team).&
-    Organizations can work with relevant groups locally to help share
+    Organizations should reach out to relevant groups locally to help share
       information on new technical processes and tooling, and facilitate training.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -490,7 +492,7 @@ to and support them. We first summarise the meaning of each of the columns in th
     This is likely to be familiar to individuals, who are often researchers,
       especially if they are embedded within a research team.&
     Many RSEs will have familiarity with the research lifecycle,
-      although they may not have domain knowledge.&
+      although they may not have domain knowledge. This can be alleviated by interacting with a group&
     Likely to be familiar to software teams (often researchers) working
       in a research group. Can share knowledge between themselves or reach
       out to colleagues.&
@@ -520,12 +522,13 @@ to and support them. We first summarise the meaning of each of the columns in th
     As per individual (Local).&
     As per individual (RSE Team)&
     May host domain-specific repositories for areas that they work
-      extensively in but this is likely to handled at research group level.
+      extensively in but this is likely to be handled at a research group level.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     USERS&
     Is the software developed to support external users?
-      If so, additional technical skills may be required.&
+      If so, additional technical skills may be required,
+      especially if future sustainability is an aim.&
     Is there a plan for external use? RSEs generally have the skills
       to support this or can access assistance via team colleagues.&
     If a team of embedded researchers/developers are involved in a larger
@@ -533,7 +536,7 @@ to and support them. We first summarise the meaning of each of the columns in th
       Do they have the skills and resources to support this?&
     A team of RSEs can generally better prepare code for external users
       (e.g. by applying development best practices) and provide infrastructure
-      or specialized RSEs for dealing with user support &
+      or specialized RSEs for dealing with user support. &
     Should have institutions that are able to offer support with outreach and publicising outputs.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -552,7 +555,7 @@ to and support them. We first summarise the meaning of each of the columns in th
     Limited requirement but team will likely have standard PM approaches
       to be followed.&
     Challenging for groups of local researchers/developers on larger projects.
-      May not have awareness/experience of key skills.&
+      May not have awareness/experience of key skills, but this can be alleviated with some low-key courses.&
     Likely have well structured approaches and tooling to support this.&
     Can offer training to support management of projects.
       May offer organisation-level tooling.
