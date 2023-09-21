@@ -34,10 +34,10 @@ We actively welcome your pull requests:
 
 ## Formatting, etc
 For writing text, **Please utilize semantic line breaks!**
-We utilize tags to categorize issues and MRs to the respective paper.
+We utilize tags to categorize issues and PRs to the respective paper.
 
 ## Becoming an Author
-If you want to become an author of the project open a MR that adds the relevant information
+If you want to become an author of the project open a PR that adds the relevant information
 to [contributors.yml](contributors.yml) (At the end of the file you find a template for the fields)
 Make sure the name provided in the "author:" field matches
 exactly with the name in the Markdown preamble author list.
@@ -48,6 +48,6 @@ We aim to be inclusive for everyone who wants to become a contributor.
 We currently have split the topic of teaching RSEs in Germany across four papers.
 We aim for a publication of most of these papers.
 All people that have participated in discussions with us,
-e.g. at deRSE23 or undeRSE23 are at least eligible for contributor status. 
-If you have particpated regularly at our weekly working meetings you are eligible for 
+e.g. at deRSE23 or undeRSE23 are at least eligible for contributor status.
+If you have particpated regularly at our weekly working meetings(try to reach out to fgoth@physik.uni-wuerzburg.de) you are eligible for 
 authorship.
