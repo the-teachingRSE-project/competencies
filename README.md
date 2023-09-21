@@ -1,8 +1,10 @@
 # Paper: Teaching and Learning Research Software Engineering
 
-Output of the de-RSE 2022 Conference Workshop on "Teaching and Learning Research Software Engineering".
+Output of the de-RSE 2023 Conference Workshop on "Teaching and Learning Research Software Engineering".
 
-Get the latest version of the PDF files here:
+Since the original idea grew in size and scope we had to split the paper in different subpapers highlighting different aspects
+
+Get the latest version of the respective PDF files here:
 * "Teaching and Learning Research Software Engineering" ([intro.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/intro.pdf))
 * "Foundational competencies and responsibilities of an RSE" ([competencies.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/competencies.pdf))
 * "Institutionalized Organization of RSE Education" ([institutionalized_education.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/institutionalized_education.pdf))
@@ -17,6 +19,8 @@ This paper is intended as a collaborative effort and we are looking for input fr
 
 **Please utilize semantic line breaks!**
 
+We utilize tags to categorize issues and PRs to the respective paper.
+
 You can contribute in various ways:
 
 1. Propose content/text via pull request
@@ -28,6 +32,7 @@ You can contribute in various ways:
 - Fork this repository
 - Create your changes in your fork
 - Go to the [pull requests](https://github.com/CaptainSifff/paper_teaching-learning-RSE/pulls) page of this repository and push `new pull request`
+- You can add DRAFT, or WIP to indicate work-in-progress PRs.
 - Add a short description 
 
 The community will review your pull request and may ask you for additional changes.
@@ -46,3 +51,11 @@ If you've contributed to this paper in any way, please add your name to
 [contributors.yml](contributors.yml) using the template at the bottom
 of the file. Make sure the name provided in the "author:" field matches
 exactly with the name in the Markdown preamble author list.
+
+## Publication
+We currently have split the topic of teaching RSEs in Germany across four papers.
+We aim for a publication of most of these papers.
+All people that have participated in discussions with us,
+e.g. at deRSE23 or undeRSE23 are at least eligible for contributor status.
+If you have particpated regularly at our weekly working meetings you are eligible for
+authorship.

@@ -102,11 +102,14 @@ authors:
     orcid: 0000-0001-8992-6245
     email: moritz.schwarzmeier@tu-darmstadt.de
     acknowledgements: |
-      MS would like to thank the Federal Government and the Heads of Government
-      of the Länder, as well as the Joint Science Conference (GWK), for their
+      MS would like to thank Hessian Ministry of Higher Education, Research, Science and the Arts
+      and the Federal Government and the Heads of Government of the Länder,
+      as well as the Joint Science Conference (GWK), for their
       funding and support within the framework of the NFDI4Ing consortium.
-      Funded by the German Research Foundation (DFG) - project number
+      Part of this work was funded by the German Research Foundation (DFG) - project number
       [442146713](https://gepris.dfg.de/gepris/projekt/442146713?language=en).
+      Part of this work was funded by the Hessian Ministry of Higher Education,
+      Research, Science and the Arts - cluster project Clean Circles.
 
   - author: "Matthias Braun"
     firstName: Matthias
