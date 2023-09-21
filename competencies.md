@@ -407,27 +407,6 @@ to and support them. We first summarise the meaning of each of the columns in th
     Should provide policies on sharing and reuse of software. May be driven by funder requirements/policies.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    MOD&
-    Needs full awareness of entire codebase to support extension/maintenance.
-      May not need/get additional experience or support.
-      If project taken on from another individual developer,
-      there may be challenges in transferring this mental model of the software.&
-    As local but greater awareness of need for future transition to other
-      developer(s), likely provide e.g. docs/issues/project board and other
-      support from central services to support this. May only need to know
-      part of code.&
-    Internal team training important to ensure ability to build necessary
-      mental model of codebase and to document it via text or tools to support
-      sustainability.&
-    As local team but likely stronger awareness of tooling and practices
-      in place within RSE team to support this. Distributing work makes it only necessary
-      for each developer to understand code related to their assigned tasks.&
-    Training and experience are key here and organisations can help
-      to coordinate and provide support for training and mentoring/community activities.
-      Establishing RSE departments with specialists for certain aspects of software
-      will improve overall turnaround times.
-    \\\hline
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     SWLC&
     It's down to you to manage the complete lifecycle, if you move on,
       what will happen to the code?&
@@ -456,6 +435,27 @@ to and support them. We first summarise the meaning of each of the columns in th
     Organizations can offer enterprise repository set ups,
       site licences etc. Also fund either internal or external training
       for this vital research software development tooling.
+    \\\hline
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    MOD&
+    Needs full awareness of entire codebase to support extension/maintenance.
+      May not need/get additional experience or support.
+      If project taken on from another individual developer,
+      there may be challenges in transferring this mental model of the software.&
+    As local but greater awareness of need for future transition to other
+      developer(s), likely provide e.g. docs/issues/project board and other
+      support from central services to support this. May only need to know
+      part of code.&
+    Internal team training important to ensure ability to build necessary
+      mental model of codebase and to document it via text or tools to support
+      sustainability.&
+    As local team but likely stronger awareness of tooling and practices
+      in place within RSE team to support this. Distributing work makes it only necessary
+      for each developer to understand code related to their assigned tasks.&
+    Training and experience are key here and organisations can help
+      to coordinate and provide support for training and mentoring/community activities.
+      Establishing RSE departments with specialists for certain aspects of software
+      will improve overall turnaround times.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     LEG&
