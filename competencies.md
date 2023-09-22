@@ -150,6 +150,9 @@ They are embedded in a research group or work within a team of RSEs supporting p
 RSEs often need to interact with and facilitate communication in-between colleagues, clients and contractors
 with a very broad spectrum of background-knowledge, specialization, expectations and experience.
 The team skills are therefore crucially important.
+Teams skills are also mentioned in common guides for software engineering such as the Software Engineering Body of Knowledge [swebok_2024].
+However, the interpersonal and organizational skills and the capacity for adaption required to work in a research setting
+warrants a much stronger emphasis on this field of competence.
 
 ### Working in a team (TEAM)
 Working in a team is all about communication.
