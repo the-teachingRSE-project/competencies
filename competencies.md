@@ -321,9 +321,9 @@ as development is a large part of their actual research.
 Students at undergraduate level mostly consume science/knowledge.
 During their studies they should also learn about the existence of digital tools and structures.
 Undergrad students should be aware that RSEs exist and that software has different quality aspects (DOCBB).
-They should be aware of domain specific tools (LIBS, SD) and where to find them (SWREPOS, DOMREP).
+They should be aware of domain specific tools (LIBS, SRU) and where to find them (SWREPOS, DOMREP).
 At this level it is sufficient to consider software as black boxes (USERS) although some training in data presentation would be very helpful and a good way to find out about programming (MOD, NEW).
-They should have an awareness of software licenses and who to ask if they have any questions (LEG).
+They should have an awareness of software licenses and who to ask if they have any questions (SP).
 They will be taught about the research cycle (RC) and that researchers often work in groups (TEAM).
 During practicals they will have an opportunity for peer learning (TEACH).
 
@@ -340,7 +340,7 @@ They need to know relevant tools and structures.
 They should know where to find information about tools and where to find help using them (DOCBB, SWREPOS). 
 They should be able to use the tools (LIBS) and identify and report bugs (MOD). 
 They need to be aware that the user's perspective is different from the developer's perspective in order to be able to write bug reports (USERS). 
-They might produce new software (MOD, SD) in which case they need to understand how to license their code (LEG). 
+They might produce new software (MOD, SRU) in which case they need to understand how to license their code for publication (SP). 
 PhD students need to be curious to be able to conduct their research. 
 In order to be able to explore new tools (NEW) they must be able to evaluate research software (SWLC). 
 They need to be able to interact with services (RC) and domain specific repositories (DOMREP). 
@@ -350,14 +350,14 @@ They should be able to supervise a student (TEACH).
 PostDocs are independent researchers. 
 Their role is similar to that of a PhD student with a deepened focus on their research career.
 However, they are proficient users of all relevant tools, that make them active contributors to their domain of research.
-They need to be aware of patents (LEG).
+They need to be aware of more advanced topics regarding intellectual property rights, such as patents (SP).
 
 #### PI/Professor
 They are experts in their field and should be able to give proper guidance to their students on which digital tools are currently relevant. 
 They should be aware of the skills of an RSE and when they might need one in their group (DOCBB). 
 They should encourage their students to use relevant tools (LIBS). 
 They need to be able to judge the suitability of the software (SWLC) and follow the interactions between relevant projects (SWREPOS). 
-They should be able to advise their students on legal aspects of the software (LEG). 
+They should be able to advise their students on the legal aspects of software production and distribution (SP). 
 They should be able to contribute meaningfully to the steering decisions of the software in their field (USERS).
 They need to guide students and give full-size lectures (TEACH). 
 They need to manage and lead their research group (PM, TEAM).
