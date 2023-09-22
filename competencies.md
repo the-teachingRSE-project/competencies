@@ -121,12 +121,14 @@ Like other researchers, RSEs are open to discussions and arguments beyond
 their own expertise and appreciate the underlying principles of
 good research, like publications, review and reproducibility.
 
-### Software re-use and publication (SP)
+### Software re-use (SRU)
 One goal of FAIR software is to avoid unnecessary duplication of work by reusing
 existing work instead. To (re-) use software, researchers have to be able to
 find it and then to easily evaluate if the software actually suits their needs.
 Apart from functionality also the integration with other software,
 expected sustainability and expandability have to be part of this evaluation.
+
+### Software publication (SP)
 The second part of FAIR software is concerned with publishing new and derived works
 and making them available for re-use by the research community and the general public.
 RSEs need to have a basic understanding of common software license types, such as "proprietary", "copyleft", and "permissive",
