@@ -91,16 +91,6 @@ This is then followed by testing that things work as expected and that they cont
 We emphasize that the lifecycle is not complete here but also includes periods of maintaining a software
 and also withdrawing software from its original use.
 
-### Interaction with users and other stakeholders (USERS)
-
-Since research software is often developed as part of the research process
-itself, its requirements and specification might change with the progression of
-research. Stakeholders of research software often change across different
-research projects or even within the course of one project.
-Roles in connection with research software are often in flux and diffuse.
-For example a single person might be user, developer and project manager at the same time.
-These conditions pose specific challenges for requirements analysis, project management, training and support.
-
 ### Use repositories (SWREPOS)
 The RSE should be able to use public platforms to share the artefacts they have
 created and invite the public to scrutinise them for public review.
@@ -154,7 +144,6 @@ aware of any domain specific software repositories, data sets and catalogues
 and the RSE's software needs to be able to interact with the existing
 domain-specific data repositories.
 
-
 ## Team Skills
 RSEs do not work in isolation.
 They are embedded in a research group or work within a team of RSEs supporting particular research projects.
@@ -181,6 +170,16 @@ Code review also includes aspects of the teaching skill.
 The RSE should have knowledge about project management. At some institutes, it follows the practices of the local research groups,
 but it is useful, if an RSE knows its place in a PM scheme, or can bring in new ideas for improvement.
 Project management in research software engineering poses specific challenges that might require the capacity to flexibly adapt to changing conditions and deviate from common project management methods.
+
+### Interaction with users and other stakeholders (USERS)
+Since research software is often developed as part of the research process itself,
+its requirements and specification might change with the progression of research.
+Stakeholders of research software often change across different research projects
+or even within the course of one project.
+Roles in connection with research software are often in flux and diffuse.
+For example a single person might be user, developer and project manager at the same time.
+These conditions pose specific challenges for requirements analysis, project management, training and support.
+
 
 ## RSE Tasks and Responsibilities
 These skills, while already numerous are also generic on purpose. They span a
