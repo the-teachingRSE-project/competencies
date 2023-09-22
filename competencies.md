@@ -212,14 +212,14 @@ since a model of the software is required in order to write good tests that
 facilitate understanding and documentation. Today this encompasses the
 knowledge of testing frameworks and CI/CD practices.
 - Contributing to large projects. This is a topic that requires competency in
-SWREPOS, LEG, in order to understand the ramifications of sharing, and DOCBB,
+SWREPOS, SRU, SP in order to understand the ramifications of sharing, and DOCBB,
 since the contributed code has to be understood by others. Interacting with
 project members depends on the the TEAM skill. Today this entails the effective
 use of collaborative platforms like github/gitlab, honouring a project's Code of
 Conduct, and some knowledge of software licenses like the GPL.
 - When or why to keep repositories private. This decision requires knowledge in
 the RC, to understand when it makes sense to open up or close down a repository.
-The USERS, TEAM and sometimes LEG skills are required to make this decision.
+The USERS, TEAM and sometimes SP skills are required to make this decision.
 Furthermore, knowledge of the practices and contractual regulations of the
 RSE's institution are also required.
 - Proper Development. This broad topic requires all of the SE skills. Of course
