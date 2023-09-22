@@ -50,6 +50,301 @@ An Appendix details how existing curricula fit into this framwork.
 
 **Keywords**: research software engineering, training, learning, competencies
 
+# Introduction
+
+Computers and software have played a key role in the research lifecycle for many
+decades. Traditionally, they were specialist tools used only in a small number
+of fields and the Computer Scientists who maintained and programmed them needed
+extensive technical training over several years to gain the necessary skills and
+expertise. Fast forward 50-60 years and software and computation are all around
+us, underpinning our everyday lives. This shift is also true within research.
+
+With the ability to capture and process ever more data, to undertake larger scale,
+higher resolution simulations and, increasingly, leverage new self-adapting
+approaches through Machine Learning, computers and software are now vital
+elements of the research process across almost all domains. However, this shift
+means that basic research software skills are now required by researchers at all
+career levels across a vast array of research fields where these were not
+previously required. Researchers often lack the skills to write and use specialist
+software for their research. If they come from a non-technical domain, they may
+also struggle to know what to ask when trying to request help from and interact with
+more experienced staff at their institutions. There still exists a gap in
+academic education, as many curricula do not sufficiently prepare their students
+in this regard. This situation is exemplified by the extracurricular MIT class
+"The Missing Semester of Your CS Education" [@MIT], which aims to convey computing
+ecosystem literacy even to students of Computer Science at MIT.
+
+As the role of software in research has grown, a particular class of research-related staff
+has emerged.
+Researchers spending increasing amounts of their time developing their software engineering
+skills to support their research work can find themselves with little time to do the research
+itself.
+This, in turn, presents career development challenges since the experience required to gain
+and progress in research and academic roles is traditionally assessed through metrics that
+do not directly include software outputs.
+For an increasing number of researchers in the UK in the early 2000s, this presented a
+significant problem which ultimately led, a little over 10 years ago, to the emergence of the
+term and the role of "Research Software Engineer" or RSE [@Hettrick2016].
+
+From this starting point, the people who focus on writing research software are now increasingly
+known, internationally, as Research Software Engineers.
+This shift has provided a base on which to develop sustainable career opportunities, better
+training and more effective support for the development of quality research software.
+There is still a long way to go but positive change is well underway.
+
+RSEs may work within one of the many Research Software Engineering teams that
+have been set up at universities and research
+organisations over the last decade, or they may be embedded within a research
+team. They may have a job title that officially recognises them as an RSE, or
+they may have a standard research or technical job title such as Research
+Assistant, Research Fellow or Software Engineer. Regardless of their job title,
+RSEs share a set of core skills that are required to write software, understand
+the research environment and ensure that they produce sustainable, maintainable
+code that supports reproducible research outputs.
+
+The need to access both research data and software has been formalised with the
+FAIR principles: software and data need to be easily findable by both people and
+machines, and they also need to be accessible, interoperable and reusable. More
+recently the FAIR principles have been extended specifically to research
+software [@FAIR4RS]. RSEs are the people who implement the FAIR principles in the
+context of software, helping to make digital research outputs more valuable.
+
+Our contribution in this paper lies in identifying a set of values that underpin
+the work of Research Software Engineers, helping to provide a positive impact on
+research outputs and, ultimately, society as whole.
+Upon these values we identify core competencies that support effective participation
+in digital research.
+These competencies draw upon skills from traditional software engineering practice,
+established research culture and the commitment to being part of a team.
+
+There are a number of common terms that are used widely within this paper but we
+recognise that they may be understood differently depending on the national research
+environments and processes that readers are familiar with. So, a few defintions:
+
+First, as _software_, we define source code, documentation, tests
+and all other artefacts that are created by humans during the development process
+that are necessary to understand its purpose.
+
+We define _research_ to encompass all domains of research.
+This enables us to define Research Software in this paper to include source code files,
+algorithms, scripts, computational workflows and executables that were created
+during the research process or for a research purpose.
+This definition is broader than in [@FAIR4RS] and is the outcome of a recent
+discussion in [@Gruenpeter2021].
+
+Building on this, Research Software Engineers are classed as people who 
+create or improve research software and/or the structures that the software interacts with
+in the computational ecosystem of a research domain.
+They are highly skilled team members who may also choose to conduct their own research as
+part of their role.
+However, we also recognise that many RSEs have chosen specifically to focus on a technical
+role as an alternative to a traditional research role because they enjoy and wish to focus
+on the development of research software.
+
+This paper builds on a workshop session held as part of the German
+Research Software Engineering Conference (deRSE23), held in Paderborn, Germany
+in February 2023 [@deRSE23].
+The aim is to define a set of generic skills, 
+agnostic of specific technical capabilities or research domains,
+which a Research Software Engineer (RSE) should 
+acquire during training and formal education.
+By defining these competencies, 
+we provide a guiding framework to facilitate 
+the training and continuous professional development of RSEs.
+
+The outline of the paper is as follows.
+We start with a non-exhaustive overview of existing initiatives.
+The next section elaborates on the values that
+provide the guiding principles for the work of an RSE.
+Section 3 condenses and generalizes 
+the workshop discussions into a set of generic skills.
+The skills themselves fall into three categories 
+'software engineering', 'research' and 'team skills'
+reflecting the hybrid nature of an RSE.
+To exemplify the generic skills,
+we also list some current day tasks 
+and discuss the skills used therein.
+
+As with any skill, not all RSEs will need 
+and use them to the same level of expertise.
+Therefore, Section 4 examines how much a person 
+needs to know depending on their education or career level 
+or on the type of projects they would like to be involved with. 
+
+Section 5 provides a list of RSE specialisations
+and discusses the level of skill needed to work in each of them,
+before we conclude the paper with a summary.
+
+Finally, the appendix provides an example curriculum
+and lists existings skills and certifications in related fields
+like bioinfomatics.
+
+While this paper is based on the workshop discussions that were attended largely by Research Software Engineers,
+we believe that the competencies formulated here have a far-reaching
+impact beyond the domain of RSE into adjacent fields of science and, indeed, the wider research community. 
+The most obvious beneficiaries are members of the computer science community,
+High Performance Computing (HPC) software developers with a background in physical sciences,
+and people who work with or manage specialist research data.
+We believe that graduates from traditional STEM domains with a focus on software, IT staff
+and library staff with a technical focus will also find this paper interesting.
+However, these days most research involves some amount 
+of data management, processing and visualisation. The role of RSEs is also
+becoming increasingly important in medical domains and the digital humanities. 
+Access to compute resources ranging from small departmental clusters to 
+national facilities is becoming readily available. Additionally, pressure is 
+growing from funding bodies to prioritise projects that generate archived, 
+annotated, re-usable and potentially remotely executable data. These resources 
+and requirements fall within the skill set of RSEs. They become a vital link to
+cross-pollinate computational skills and infrastructure know-how between domain
+scientists. Funders and research managers will find the discussion in this paper
+valuable in order to observe how software development in academia will be
+institutionalised. Finally, the strong emphasis on team skills allows RSEs to be
+very employable in industrial workplaces.
+
+# Related Work
+The day-to-day work of many RSEs often includes teaching activities to improve the RSE-related skill-set of researchers,
+e.g. in university courses, workshops or one-on-one.
+Therefore, RSEs' work often includes both the use of and the contribution to pertinent teaching materials.
+Various organizations and initiatives provide courses and workshops
+to convey software-related capabilities aimed at the research community.
+Often they make their training material available as Open Educational Resources
+permitting free access, re-use, adaptation and redistribution.
+
+#### The Carpentries
+
+The Carpentries [@Carpentries] is a non-profit entity that supports
+a range of open source training materials and international communities
+of volunteer instructors and helpers who run courses around these materials.
+The community also maintains the materials which are based around three core syllabuses --
+Software Carpentry [@CarpentriesSoftware; @Wilson2006; @Wilson2016a],
+Data Carpentry [@CarpentriesData; @Teal2015] and
+Library Carpentry [@CarpentriesLibrary; @Baker2016; @Cope2018].
+
+#### CodeRefinery
+
+CodeRefinery [@CodeRefinery] is a project currently funded by the Nordic
+e-Infrastructure and thus active primarily in the Nordics with the goal
+of teaching essential tools around research software development,
+that are usually skipped in academic education.
+CodeRefinery hosts a set of open source training materials including
+both beginner and intermediate level material and organizes multiple
+highly interactive large scale workshops per year.
+https://codebase.helmholtz.cloud/de-rse-2024/organisation/-/issues/5
+#### PRACE
+
+The Partnership for Advanced Computing in Europe (PRACE) [@PRACE] offers training
+in the form of massive open online courses (MOOCs), online and on-site training
+events at European HPC facilities (aggregated on various websites, e.g. EuroCC
+Training [@EuroCCTraining]), and white papers. While most training events are
+tailored for HPC-RSE, several recurring courses about programming languages
+(C++, Fortran, Python) are suitable for general RSEs, as they teach coding
+best practices, modern software design [@LRZModernCpp], project management and
+version control [@LRZIntroCpp].
+
+#### Helmholtz
+
+The Helmholtz association is an example of a research organization that
+actively shapes the education of their employees.
+As part of its push towards a better RSE environment, the Helmholtz Association
+launched the Helmholtz Federated IT Services platform (HIFIS) [@HIFIS]
+which provides educational material and trainings amongst other services
+for an audience of over 10,000 scientists in Germany and internationally.
+All of these materials focus on RSE basics to refresh and expand the software
+engineering knowledge for recent graduates or to update the existing
+knowledge in established researchers.
+They are published under OER licenses and can serve as either self-learning
+instructions or form the basis of a hands-on training.
+
+#### ENCCS
+
+The [National Competence Center Sweden (ENCCS)](https://enccs.se/)
+has created a collection of lessons for HPC-oriented RSEs [@ENCCSLessons] and
+has adapted instructor training material from The Carpentries and CodeRefinery
+to create their own instructor manual [@ENCCSInstructorTraining; @ENCCS2022].
+The ENCCS lessons are targeted at individuals who already have general RSE
+skills and are seeking new skills relevant to HPC and software engineering.
+
+#### German National Research Data Infrastructure (NFDI)
+
+EduTrain (Training & Education) [@EDUTRAIN] is a section of the NFDI [@NFDI].
+Based on the slogan "data literacy from the beginning",
+it contributes to the further development of scientific methods
+and good scientific practice.
+The targeted education also involves research software engineering.
+As described in its concept [@EduTrain2022], there will be a collaboration
+with "The Carpentries" regarding their lesson program.
+Moreover, the approach of how "The Carpentries" are organized will be adopted.
+
+#### SureSoft
+
+SureSoft [@SURESOFTLink] is a DFG funded project at TU Braunschweig and
+FAU Erlangen-Nürnberg fostering the sustainability of research software
+by helping researchers adopt practices and tools from the software
+engineering community [@SURESOFT2022]. Because tools are not enough on their own but require skill-full execution, the project implements a twofold approach that combines tools and
+infrastructure with education in the form of workshops and training. 
+
+
+# Values
+
+The activities of an RSE are guided by ethical values.
+A general list of applicable values is given in the Software Engineering Code of Ethics [@Gotterbarn1999].
+Central to that code is the RSE's obligation to act in the public interest.
+Further values loosely based on that code include the obligations
+
++ to take great care to develop software that adheres to current best practices,
++ to judge independently and maintain professional integrity,
++ to treat colleagues and collaborators with respect and work towards a fair and inclusive environment, and
++ to promote these values whenever possible and make sure that they are passed on to new practitioners.
+
+RSEs often assume a multifaceted role at the junction of research, software engineering and data management.
+They work with a varying and diverse set of colleagues that might include other developers,
+support unit staff and academics of different fields and all career stages.
+This situation yields a specific set of challenges RSEs should be aware of
+to consciously make ethically sound judgment calls.
+We list some example areas that could be addressed in RSE courses or workshops.
+
+## Handling of data and personal data
+A lot of RSE work involves the manipulation or creation of data processing devices.
+We highlight that professional conduct requires these creations to be reliable and to maintain data integrity.
+A particular example of data integrity that has implications far into society is the handling of personal data.
+Independent from the encoding into the respective national law in an RSE's jurisdiction,
+the right to information privacy is internationally recognized as a fundamental human right,
+e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988], [@Hirvela2022].
+RSEs need to be aware of this topic's importance
+and deal with tensions that might arise with researchers' desire for frictionless sharing of data.
+Handling personal data also has ramifications for information security considerations during the software development process.
+Data protection is a difficult subject and RSEs should notice when they need to consult external expertise for example when dealing with
+special topics such as cryptography or re-identification attacks (e.g. [@Sweeney2002]).
+
+## Mentoring and diversity
+
+RSEs are often experienced professionals who instruct and work closely with early career researches.
+Similarly to academic supervisors, they bear a certain responsibility to guide and advise younger colleagues
+with respect to career development and the achievement of academic goals.
+Software engineering is still strongly dominated by white males [@StackOverflow2022].
+In their work RSEs might frequently find themselves in a position
+to encourage, mentor and empower people who gravitate towards software-related occupations.
+In this capacity, they should be aware of the diversity problem and help to mediate it
+whenever they have the chance to do so.
+
+## The scientific community
+
+Through writing research software, RSEs have a pivotal position in the process of scientific production.
+Their choices might determine whether the respective research is reproducible or not,
+whether the results can be re-used, whether future research can build on existing tools or has to start from scratch.
+Builders of larger research-infrastructure projects determine to some extent
+the possibilities and limitations of future research
+and therefore need to be aware of concepts such as Open Science, path dependence and vendor lock-in.
+
+## Emerging challenges
+
+RSEs often operate at the cutting edge of technological development
+and therefore might have to deal with technologies of which the dangers and drawbacks are still poorly understood.
+A current example is the rush for the application of Large Language Models (LLMs),
+where RSEs working in these fields should stay up-to-date and be able to help researchers to assess topics
+such as training-data bias, LLM "hallucinations" or malicious use.
+
+
 
 # Required Generic RSE skills
 The role of an RSE lies somewhere on the spectrum between that of a researcher
@@ -249,12 +544,11 @@ depending on their circumstances. A strong beneficiary of specialized RSEs can a
 ## Career level
 At different career levels, differing skills are required. We have set this up according to the following separation often applied within a single project:
 
-- Junior RSE: These are persons that have just started, but generally speaking they should have the skills to contribute to software projects
-- Senior RSE: They have gained experience and can set the examples in the software project.
-- Principal RSE: Their actual job description varies a lot. These may be RSE team leaders based in a professional services type role, or they may be professors or research group leaders based in a more academic-focused role. They are often the people responsible for bringing in the money that supports new projects and sustains existing projects. Generally speaking, they do not need to to be actively involved in the day-to-day technical tasks but they should be able to guide projects from both a technical and research perspective.
+- Junior RSE: These are persons that have just started, but generally speaking they should have the skills to contribute to software projects.
+- Senior RSE: They have gained experience and can set the standards in the software project.
+- Principal RSE: Their actual job description varies a lot. These may be RSE team leaders based in a professional services type role, or they may be professors or research group leaders based in a more academic-focused role. They are often the people responsible for bringing in the money that supports new projects and sustains existing projects. Generally speaking, they do not need to to be actively involved in the day-to-day technical tasks but they should be able to guide projects from both a technical and a research perspective.
 
-The required skills are distributed according to this table
-First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (less -> lot)
+The following table elaborates on the required facets of the competencies in different roles.
 
 \blandscape
 \small
@@ -279,7 +573,7 @@ First Dimension: Career path e.g. Junior RSE -> Senior RSE -> PI scale (1->6) (l
 
 \elandscape
 
-## Academic Progression / Career Path? (Help me for better title) 
+## Helpful RSE skills for researchers in an academic career
 In the previous section, 
 we looked at the competency levels needed for RSE specialists.
 However, many of these competencies are important for typical researchers in academia.
