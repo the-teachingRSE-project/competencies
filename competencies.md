@@ -95,12 +95,6 @@ and also withdrawing software from its original use.
 The RSE should be able to use public platforms to share the artefacts they have
 created and invite the public to scrutinise them for public review.
 
-### Legal aspects (LEG)
-The RSE should know licenses and their respective domains for data or software.
-On an entry level, the competency is mostly about awareness: namely that different
-(open source) licenses exist, that those might not be compatible with each other,
-and that use of third party software might restrict licensing of the resulting work.
-
 ### Software Behaviour Awareness and Analysis (MOD)
 We define this as a certain quality of analytical thinking that enables an RSE to
 form a mental model of a piece of software in a specific environment.
@@ -127,14 +121,18 @@ Like other researchers, RSEs are open to discussions and arguments beyond
 their own expertise and appreciate the underlying principles of
 good research, like publications, review and reproducibility.
 
-### Finding/discovering software and attribution (SD)
+### Software re-use and publication (SP)
 One goal of FAIR software is to avoid unnecessary duplication of work by reusing
 existing work instead. To (re-) use software, researchers have to be able to
 find it and then to easily evaluate if the software actually suits their needs.
-Apart from functionality also licensing, integration with other software,
+Apart from functionality also the integration with other software,
 expected sustainability and expandability have to be part of this evaluation.
-Finally, after obtaining/publishing results by modifying and/or using the
-software, the original authors need to receive proper attribution.
+The second part of FAIR software is concerned with publishing new and derived works
+and making them available for re-use by the research community and the general public.
+RSEs need to have a basic understanding of common software license types, such as "proprietary", "copyleft", and "permissive",
+the compatibility of different common licenses and the ramifications for re-using and composing programs.
+Finally, RSEs will need to properly execute the technicalities of software publishing,
+such as applying licenses, honoring copyright statements and crediting contributors.
 
 ### Using domain repositories/directories (DOMREP)
 Almost all research software is developed within a specific scientific domain.
