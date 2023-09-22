@@ -470,21 +470,6 @@ to and support them. We first summarise the meaning of each of the columns in th
       will improve overall turnaround times.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    LEG&
-    Responsibility may be with individual but they may not have necessary
-      knowledge/skills.&
-    A developer from an RSE team should have basic awareness of aspects
-      such as licensing. Also know where to get additional support via
-      team/organization.&
-    As with individual (local) developer, are the skills available
-      within the group? Who can they ask?&
-    This is a core area that RSE teams need to be aware of.
-      Can also often provide advice to projects themselves or
-      provide links with other parties who can help.&
-    Organizational support, guidance and policies important.
-      So are knowing how to find them and who to contact for advice.
-    \\\hline
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     NEW&
     An individual's curiousity has now to be shared between the research
       goal and the software project, therefore learning new methods and
@@ -514,7 +499,7 @@ to and support them. We first summarise the meaning of each of the columns in th
       the research lifecycle, this can support researchers/RSEs.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    SD&
+    SRU&
     Need to know how to find other work to build awareness of existing
       solutions. Researchers sometimes like to do things themselves.
       Working individually means there may not be someone to highlight this.&
@@ -524,6 +509,15 @@ to and support them. We first summarise the meaning of each of the columns in th
     As per individual (RSE Team).&
     Can choose to run local environments to host software or catalogue software,
       they can also provide institution-level access to platforms that support this.
+    \\\hline
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    SP&
+    Responsibility may be with an individual but they may not have necessary knowledge/skills.&
+    This is a core area that RSE teams need to be aware of.
+    An RSE team might have established practices, workflows and policies at hand to routinely publish software.&
+    As with individual (local) developer.&
+    As with individual (RSE Team).&
+    The organization should raise awareness about software as publishable scientific output, provide recommendations and checklists to support software-publications and have legal experts in place to deal with complex cases.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     DOMREP&
