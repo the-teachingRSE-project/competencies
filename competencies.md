@@ -101,6 +101,9 @@ form a mental model of a piece of software in a specific environment.
 Using that, an RSE should be able to make predictions about a software's behaviour.
 This is a required skill for common tasks like debugging, profiling, designing good
 tests, or predicting user interaction.
+An important facet of this capability relates to information security.
+RSEs need to consider the safety and integrity of personal data and other sensitive information
+and make sure that they don't negatively impact the integrity of their institution's network.
 
 ## The research skills
 ### Curiosity (NEW)
