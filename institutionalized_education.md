@@ -24,8 +24,8 @@ bibliography: bibliography.bib
 ---
 
 **Abstract**:
-Previous publications hav defined the core competencies of an RSE and surveyed the state of existing RSE-related resources.
-In this paper we detail how to structure the education of RSEs in exisiting structures and which additional structures are
+Previous publications have defined the core competencies of an RSE and surveyed the state of existing RSE-related resources.
+In this paper we detail how to structure the education of RSEs in existing structures and which additional structures are
 required.
 ---
 
