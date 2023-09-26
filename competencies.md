@@ -400,7 +400,7 @@ We emphasize that the lifecycle is not complete here but also includes periods o
 and also withdrawing software from its original use.
 
 ### Use repositories (SWREPOS)
-The RSE should be able to use public platforms to share the artefacts they have
+The RSE should be able to use public platforms (so-called software repositories or repos) to share the artefacts they have
 created and invite the public to scrutinise them for public review.
 
 ### Software Behaviour Awareness and Analysis (MOD)
@@ -476,7 +476,7 @@ The shared values come into play and each RSE needs to ensure that these values 
 
 ### Teaching (TEACH)
 RSEs have many opportunities to teach.
-These range from inducting new colleagues to teaching digital skills either through short courses, for example from The Carpentries [@Carpentries], or entire lecture series.
+These range from inducting new colleagues, to teaching digital skills either through short courses, for example from The Carpentries [@Carpentries], or entire lecture series.
 RSEs may also act as mentors and consultants.
 Code review also includes aspects of the teaching skill.
 
