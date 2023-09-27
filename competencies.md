@@ -1031,6 +1031,47 @@ this education will be the topic of a follow-up paper.
 # Appendix
 
 ## An applied example curriculum
+
+### An MSc program Research Software Engineering
+
+The target audience for such masters would be students holding a BSc degree from
+a domain science, which we will call "home domain" in the following. There is explicitly
+no restriction on the candidates' home domain, it may be from the STEM disciplines, life
+sciences, humanities or social sciences. Candidates with a BSc in Computer Science are also
+explicitely included.
+
+Basic mandatory courses include the following:
+* Introduction to Programming: Students learn at least two languages: Python (because
+  of its prevalence in the scientific communities) and one compiled language.
+* Software Craftsmanship: Unix Shell, Git, Buildsystems, Documentation, Packaging, Software Discovery
+* Software Engineering
+* Software Design
+* Data Life Cycles
+* Interdisciplinary Science Communication
+
+Given that RSE work also involves a lot of craftsmanship skills, hands-on practice should
+be an integral part of the curriculum. We recommend at least two lab projects to be part
+of the mandatory curriculum. These should be executed as a team and involve a question from
+a domain science. We recommend covering both the candidate's home domain and a non-home domain.
+Ideally, projects stem from collaborations with scientists within the institution and RSE
+students take the role of a consultant.
+
+As interdisciplinarity plays a key role in RSE work, we recommend that RSEs study introductory
+courses from multiple domain sciences both from within and outside their home domain. This
+enables them to quickly adapt their vocubalary and thinking to other disciplines.
+
+During the MSc program, students should pick an RSE specialization from the list in this paper
+and attend additional courses to deepen their knowledge in the field. Exemplary courses
+for specialization might e.g. be HPC engineering/parallel programming, Numerics/Scientific Computing,
+Web Development, Data stewardship, AI models/statistics, Community Management/Training.
+
+The program is finalized with an MSc thesis which should be dual-supervised by an
+RSE supervisor and a domain supervisor. The thesis should answer a relevant research
+question from the domain using computational methods. Software development is required
+and the code is part of the gradeable deliverables. The RSE supervisor ensures and grades
+the software craftsmanship aspects of the project. Alternatively, interested candidates might
+also answer a research question from research software engineering research.
+
 ## An example of a possible career path
 - We can follow Kim, who has been the protagonist of the original deRSE Paper.
 
