@@ -410,7 +410,7 @@ This is a required skill for common tasks like debugging, profiling, optimising,
 tests, or predicting user interaction.
 An important facet of this capability relates to information security.
 RSEs need to consider the safety and integrity of personal data and other sensitive information
-and make sure that they don't negatively impact the integrity of their institution's network.
+and make sure that they do not negatively impact the integrity of their institution's network.
 
 ## The research skills
 ### Curiosity (NEW)
@@ -426,7 +426,7 @@ They embrace being part of a larger community which,
 despite friendly competition, shares the common goal of gaining knowledge
 for its own sake and not just for personal or commercial gain.
 Thereby they know, that they are part of a bigger cycle that involves many other parties in and outside of
-their domain, and also that their software can be utilized in different stages of the research cycle by different people.
+their domain, and also that their software can be utilized at different stages of the research cycle by different people.
 Like other researchers, RSEs are open to discussions and arguments beyond
 their own expertise and appreciate the underlying principles of
 good research, like publications, review and reproducibility.
@@ -435,8 +435,8 @@ good research, like publications, review and reproducibility.
 One goal of FAIR software is to avoid unnecessary duplication of work by reusing
 existing work instead. To (re-) use software, researchers have to be able to
 find it and then to easily evaluate if the software actually suits their needs.
-Apart from functionality also the integration with other software,
-expected sustainability and expandability have to be part of this evaluation.
+Apart from functionality the integration with other software,
+expected sustainability and expandability also have to be part of this evaluation.
 
 ### Software publication (SP)
 The second part of FAIR software is concerned with publishing new and derived works
@@ -450,17 +450,17 @@ such as applying licenses, honoring copyright statements and crediting contribut
 Almost all research software is developed within a specific scientific domain.
 Some software may be able to cross boundaries, but the majority will have a
 home domain, with which it needs to be able to interact. The RSE needs to be
-aware of any domain specific software repositories, data sets and catalogues
-and the RSE's software needs to be able to interact with the existing
+aware of any domain specific software repositories, data sets and catalogues.
+The RSE also needs to be aware of how their software can interact with the existing
 domain-specific data repositories.
 
 ## Team Skills
 RSEs do not work in isolation.
 They are embedded in a research group or work within a team of RSEs supporting particular research projects.
-RSEs often need to interact with and facilitate communication in-between colleagues, clients and contractors
+RSEs often need to interact with and facilitate communication among colleagues, clients and contractors
 with a very broad spectrum of background-knowledge, specialization, expectations and experience.
 The team skills are therefore crucially important.
-Teams skills are also mentioned in common guides for software engineering such as the Software Engineering Body of Knowledge [swebok_2024].
+Teams skills are also mentioned in common guides for software engineering such as the Software Engineering Body of Knowledge [@swebok_2024].
 However, the interpersonal and organizational skills and the capacity for adaption required to work in a research setting
 warrants a much stronger emphasis on this field of competence.
 
@@ -482,7 +482,7 @@ Code review also includes aspects of the teaching skill.
 ### Project Management (PM)
 The RSE should have knowledge about project management. At some institutes, it follows the practices of the local research groups,
 but it is useful, if an RSE knows its place in a PM scheme, or can bring in new ideas for improvement.
-Project management in research software engineering poses specific challenges that might require the capacity to flexibly adapt to changing conditions and deviate from common project management methods.
+Project management in research software engineering poses specific challenges (see USERS) that might require the capacity to flexibly adapt to changing conditions and deviate from common project management methods.
 
 ### Interaction with users and other stakeholders (USERS)
 Since research software is often developed as part of the research process itself,
@@ -571,7 +571,7 @@ The following table elaborates on the required facets of the competencies in dif
 | LIBS  | should be able to use package distribution platforms      | same as junior, but should set the project standard and follow current best practices. | should ensure that their project is in an up-to-date distribution platform |
 | MOD   | should have a basic grasp of their piece of the software in order to use basic tools like a debugger | Should understand the characteristics of large parts of the codebase considering a variety of the metrics | Should understand the big idea of the software project in order to define the task that the software solves  |
 | SWLC  | Awareness about the existence of the software lifecycle. | Should know which decisions lead to technical debt. | Should know in which part of the lifecycle their project is and how to steer development/project resources accordingly. |
-|SWREPOS| Seamless interaction with the swrepo of their project is a must | Should be well-versed in the intricacies of a swrepo, and probably interact with multiple projects' repo's | Should be able to effectively interact with swrepos and especially the interaction with the connecting projects. |
+|SWREPOS| Seamless interaction with the swrepo of their project is a must | Should be well-versed in the intricacies of a swrepo, and probably interact with multiple projects' repos | Should be able to effectively interact with swrepos and especially the interaction with the connecting projects. |
 | NEW   | Some curiosity required to fit into research teams | same as junior, but a curiosity to enhance the code base is required | Curiosity to know in which direction to steer the project is required |
 | RC    | Awareness about the RC | should know the position of the project in the RC | Should know what is necessary for the project to fit into its position in the RC |
 | SRU    | Should be aware about tools for SRU |   Should be able to find sth. with SRU tools    | Should be able to effectively find sth. with SRU tools and be able to evaluate and perform the integration of a library into the project. |
