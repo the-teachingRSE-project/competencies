@@ -54,7 +54,7 @@ An Appendix details how existing curricula fit into this framwork.
 
 Computers and software have played a key role in the research lifecycle for many
 decades. Traditionally, they were specialist tools used only in a small number
-of fields and the Computer Scientists who maintained and programmed them needed
+of fields. The Computer Scientists who maintained and programmed them needed
 extensive technical training over several years to gain the necessary skills and
 expertise. Fast forward 50-60 years and software and computation are all around
 us, underpinning our everyday lives. This shift is also true within research.
@@ -65,8 +65,8 @@ approaches through Machine Learning, computers and software are now vital
 elements of the research process across almost all domains. However, this shift
 means that basic research software skills are now required by researchers at all
 career levels across a vast array of research fields where these were not
-previously required. Researchers often lack the skills to write and use specialist
-software for their research. If they come from a non-technical domain, they may
+previously required. Researchers often lack the skills to use specialist software
+for their research, let alone write it. If they come from a non-technical domain, they may
 also struggle to know what to ask when trying to request help from and interact with
 more experienced staff at their institutions. There still exists a gap in
 academic education, as many curricula do not sufficiently prepare their students
@@ -199,7 +199,7 @@ cross-pollinate computational skills and infrastructure know-how between domain
 scientists. Funders and research managers will find the discussion in this paper
 valuable in order to observe how software development in academia will be
 institutionalised. Finally, the strong emphasis on team skills allows RSEs to be
-very employable in industrial workplaces.
+very employable in workplaces outside academia.
 
 # Related Work
 The day-to-day work of many RSEs often includes teaching activities to improve the RSE-related skill-set of researchers,
@@ -306,7 +306,7 @@ We list some example areas that could be addressed in RSE courses or workshops.
 ## Handling of data and personal data
 A lot of RSE work involves the manipulation or creation of data processing devices.
 We highlight that professional conduct requires these creations to be reliable and to maintain data integrity.
-A particular example of data integrity that has implications far into society is the handling of personal data.
+In particular handling of personal data may have far reaching implications for society.
 Independent from the encoding into the respective national law in an RSE's jurisdiction,
 the right to information privacy is internationally recognized as a fundamental human right,
 e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988], [@Hirvela2022].
@@ -393,8 +393,7 @@ systems.
 
 ### Understanding the software lifecycle (SWLC)
 The traditional software lifecycle defines the stages that form the process of building a piece of software.
-This generally involves a creative process where you try to understand what it is that you need to build,
-work out how you are going to build it and then implement it.
+This generally involves a creative process where requirements are gathered and analysed, a plan to fullfill them is formulated and then implemented.
 This is then followed by testing that things work as expected and that they continue to do so into the future.
 We emphasize that the lifecycle is not complete here but also includes periods of maintaining a software
 and also withdrawing software from its original use.
@@ -407,7 +406,7 @@ created and invite the public to scrutinise them for public review.
 We define this as a certain quality of analytical thinking that enables an RSE to
 form a mental model of a piece of software in a specific environment.
 Using that, an RSE should be able to make predictions about a software's behaviour.
-This is a required skill for common tasks like debugging, profiling, designing good
+This is a required skill for common tasks like debugging, profiling, optimising, designing good
 tests, or predicting user interaction.
 An important facet of this capability relates to information security.
 RSEs need to consider the safety and integrity of personal data and other sensitive information
@@ -427,7 +426,7 @@ They embrace being part of a larger community which,
 despite friendly competition, shares the common goal of gaining knowledge
 for its own sake and not just for personal or commercial gain.
 Thereby they know, that they are part of a bigger cycle that involves many other parties in and outside of
-their domain, and also that their software can be utilized in different stages of the research cycle by different persons.
+their domain, and also that their software can be utilized in different stages of the research cycle by different people.
 Like other researchers, RSEs are open to discussions and arguments beyond
 their own expertise and appreciate the underlying principles of
 good research, like publications, review and reproducibility.
@@ -497,8 +496,8 @@ These conditions pose specific challenges for requirements analysis, project man
 
 ## RSE Tasks and Responsibilities
 These skills, while already numerous are also generic on purpose. They span a
-multidimensional space in which the day-to-day tasks and responsibilities of a
-RSE can be found. A snapshot of what this means today can be obtained 
+multidimensional space in which the day-to-day tasks and responsibilities of an
+RSE can be found. A snapshot of what this means today was obtained 
 from  learners and novice RSEs that we asked during the Paderborn workshop
 what they would like to have learnt. Among the top five things mentioned were:
 
@@ -588,7 +587,7 @@ The following table elaborates on the required facets of the competencies in dif
 ## Helpful RSE skills for researchers in an academic career
 In the previous section, 
 we looked at the competency levels needed for RSE specialists.
-However, many of these competencies are important for typical researchers in academia.
+However, many of these competencies are important for researchers in academia as well.
 Naturally, the 'R' competencies apply 
 and research in general is increasingly team based.
 Additionally, many researchers in fields from classical examples like 
@@ -998,8 +997,11 @@ FIXME: I think it would be nice if we could move each of these optional competen
 
 # Reaching out to potential RSEs
 Many current RSEs have found their way to being an RSE during their doctoral studies.
-This transition usually happens slowly. You start programming a tool, and someone else likes it, it becomes known that you have programming skills and suddenly you are the RSE of the group that everyone would like to have in their projects.
-If you enjoy this role, you need to be aware that there is a RSE career path as well as that specialized training materials exist.
+This transition usually happens slowly. 
+A typical RSE development path starts off with a PhD student programming a tool that others notice and find useful. 
+Soon the proto RSE is known to have programming skills and is sought after to join other projects. 
+The researcher is now well on the way of becoming an RSE. 
+If they enjoy this role and would like to take it further they need to know that there is an RSE career path as well as that specialized training materials exist.
 Beyond that, for an RSE it is important to be a part of a network with other RSEs, irrespective of the career level.
 A perfect first step for forming this network is topic-related conferences, workshops or meetups.
 Beyond that, there is the broader RSE community organized at the local and regional level with chapters or local/regional communities, at the national level with societies and the international RSE society.
@@ -1016,7 +1018,7 @@ This paper started from a community workshop at deRSE23 in Paderborn
 where people working in RSE related fields got together to figure out 
 structures and ideas of educating newcomers to this field.
 One outcome of this diverse gathering is that RSEs from far away fields gather around similar concepts.
-In this publication we have tried to formalize them. We have formulated a set of values that
+In this publication we have tried to formalize these concepts. We have formulated a set of values that
 guide our actions in society and manifestly makes RSEs part of the community of values of scientists
 but at the same time, being Software Engineers, we have to take responsibility for our tools.
 We continue with core competencies that have been intentionally formulated 
