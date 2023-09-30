@@ -19,6 +19,8 @@ This paper is intended as a collaborative effort and we are looking for input fr
 
 **Please utilize semantic line breaks!**
 
+**We use British English**
+
 We utilize tags to categorize issues and PRs to the respective paper.
 
 You can contribute in various ways:
