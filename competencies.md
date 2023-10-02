@@ -1043,8 +1043,12 @@ These competencies at the intersection of research and software engineering
 coupled with a firm believe in team processes makes RSEs sought after on the job market
 and their values make them responsible members of a digital society.
 This yields a qualification profile which makes
-an education based on it highly attractive to young people; the new
-institutions that provide this education will be the topic of a follow-up paper.
+an education based on it highly attractive to young people.
+At an institutional level, research performing organizations have a growing 
+interest to foster RSE training to support the use of FAIR data and FAIR software in the academic world,
+a direction determined by new incentives created by scientific journals and librarians.
+How we update exisiting institions and set up new ones 
+that provide this education will be the topic of a follow-up paper.
 
 # Appendix
 
