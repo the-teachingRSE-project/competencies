@@ -1023,10 +1023,13 @@ will be topics of a follow-up paper.
 This paper started from a community workshop at deRSE23 in Paderborn
 where people working in RSE related fields got together to figure out 
 structures and ideas of educating newcomers to this field.
-One outcome of this diverse gathering is that RSEs from far away fields gather around similar concepts.
-In this publication we have tried to formalize these concepts. We have formulated a set of values that
-guide our actions in society and manifestly makes RSEs part of the community of values of scientists
-but at the same time, being Software Engineers, we have to take responsibility for our tools.
+One outcome of this diverse gathering is that RSEs from far away fields gather
+around similar core concepts but at the same time share a vision of how to 
+update the scientific ecosystem to the age of digitalization.
+In this publication we have tried to formalize these concepts.
+We have formulated a set of values that guide our actions in society
+and manifestly makes RSEs part of the community of values of scientists but at the same time,
+being Software Engineers, we cherish that we have to take responsibility for our tools.
 We continue with core competencies that have been intentionally formulated 
 abstractly without referencing any particular information processing device.
 As expected, we draw equally upon notions from software engineering and research,
@@ -1034,13 +1037,14 @@ but find that we likewise require teamwork capabilities.
 We continue with detailing these competencies in various dimensions, and find that
 a different amount is required in different positions and scientific domains.
 Nevertheless, they are required and hence the values and competencies form a common denominator
-that unifies RSEs and enables them to identify with this domain.
+that unifies RSEs and enables them to identify with this domain that will become critically
+important for many areas of science.
 These competencies at the intersection of research and software engineering 
 coupled with a firm believe in team processes makes RSEs sought after on the job market
 and their values make them responsible members of a digital society.
 This yields a qualification profile which makes
-an education based on it highly attractive to young people and the institutions that provide
-this education will be the topic of a follow-up paper.
+an education based on it highly attractive to young people; the new
+institutions that provide this education will be the topic of a follow-up paper.
 
 # Appendix
 
