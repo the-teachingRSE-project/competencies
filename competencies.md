@@ -269,8 +269,8 @@ skills and are seeking new skills relevant to HPC and software engineering.
 #### German National Research Data Infrastructure (NFDI)
 
 EduTrain (Training & Education) [@EDUTRAIN] is a section of the NFDI [@NFDI].
-Based on the slogan "data literacy from the beginning".
-It contributes to the further development of scientific methods
+Based on the slogan "data literacy from the beginning",
+it contributes to the further development of scientific methods
 and good scientific practice.
 The targeted education also involves research software engineering.
 As described in its concept [@EduTrain2022], there will be a collaboration
@@ -308,7 +308,7 @@ We list some example areas that could be addressed in RSE courses or workshops.
 ## Handling of data and personal data
 A lot of RSE work involves the manipulation or creation of data processing devices.
 We highlight that professional conduct requires these creations to be reliable and to maintain data integrity.
-In particular handling of personal data has far reaching implications for society.
+In particular handling of personal data may have far reaching implications for society.
 Independent from the encoding into the respective national law in an RSE's jurisdiction,
 the right to information privacy is internationally recognized as a fundamental human right,
 e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988], [@Hirvela2022].
@@ -397,18 +397,12 @@ systems.
 The traditional software lifecycle defines the stages that form the process of building a piece of software.
 This generally involves a creative process where requirements are gathered and analysed, a plan to fullfill them is formulated and then implemented.
 This is then followed by testing that things work as expected and that they continue to do so into the future.
-We emphasize the the lifecycle is not complete here but also includes periods of maintaining a software
-and also phasing out a software of its original use. Each phase brings its own particular challenges.
+We emphasize that the lifecycle is not complete here but also includes periods of maintaining a software
+and also withdrawing software from its original use.
 
 ### Use repositories (SWREPOS)
 The RSE should be able to use public platforms (so-called software repositories or repos) to share the artefacts they have
 created and invite the public to scrutinise them for public review.
-
-### Legal aspects (LEG)
-The RSE should know licenses and their respective domains for data or software.
-On an entry level, the competency is mostly about awareness: namely that different
-(open source) licenses exist, that those might not be compatible with each other,
-and that use of third party software might restrict licensing of the resulting work.
 
 ### Software Behaviour Awareness and Analysis (MOD)
 We define this as a certain quality of analytical thinking that enables an RSE to
@@ -416,73 +410,97 @@ form a mental model of a piece of software in a specific environment.
 Using that, an RSE should be able to make predictions about a software's behaviour.
 This is a required skill for common tasks like debugging, profiling, optimising, designing good
 tests, or predicting user interaction.
+An important facet of this capability relates to information security.
+RSEs need to consider the safety and integrity of personal data and other sensitive information
+and make sure that they do not negatively impact the integrity of their institution's network.
 
 ## The research skills
 ### Curiosity (NEW)
 RSEs gain their reputation from their effectiveness to interact with their
 domain peers. Therefore, some curiosity together with a broad overview of the
-research field is required. Curiosity is also reflected when an RSE is actively
+research field is required as this enables the RSE to learn new methods and algorithms directly from domain peers.
+Curiosity is also reflected when an RSE is actively
 trying out new tools. Lifelong learning is then no longer just a phrase, but
 becomes a motivation to work.
 
 ### Understanding the research cycle (RC)
-One of the crucial skills of RSEs is their mental proximity to research
-and that they embrace being part of a larger community which,
+One of the crucial skills of RSEs is their mental proximity to research.
+They embrace being part of a larger community which,
 despite friendly competition, shares the common goal of gaining knowledge
 for its own sake and not just for personal or commercial gain.
 Thereby they know, that they are part of a bigger cycle that involves many other parties in and outside of
-their domain, and also that their software can be utilized in different stages of the research cycle by different people.
+their domain, and also that their software can be utilized at different stages of the research cycle by different people.
 Like other researchers, RSEs are open to discussions and arguments beyond
 their own expertise and appreciate the underlying principles of
 good research, like publications, review and reproducibility.
 
-### Finding/discovering software and attribution (SD)
+### Software re-use (SRU)
 One goal of FAIR software is to avoid unnecessary duplication of work by reusing
 existing work instead. To (re-) use software, researchers have to be able to
 find it and then to easily evaluate if the software actually suits their needs.
-Apart from functionality also licensing, integration with other software,
-expected sustainability and expandability have to be part of this evaluation.
-Finally, after obtaining/publishing results by modifying and/or using the
-software, the original authors need to receive proper attribution.
+Apart from functionality, the integration with other software,
+expected sustainability, and expandability also have to be part of this evaluation.
+
+### Software publication (SP)
+The second part of FAIR software is concerned with publishing new and derived works
+and making them available for re-use by the research community and the general public.
+RSEs need to have a basic understanding of common software license types, such as "proprietary", "copyleft", and "permissive",
+the compatibility of different common licenses and the ramifications for re-using and composing programs.
+Finally, RSEs will need to properly execute the technicalities of software publishing,
+such as applying licenses, honouring copyright statements and crediting contributors.
 
 ### Using domain repositories/directories (DOMREP)
 Almost all research software is developed within a specific scientific domain.
 Some software may be able to cross boundaries, but the majority will have a
 home domain, with which it needs to be able to interact. The RSE needs to be
-aware of any domain specific software repositories, data sets and catalogues
-and the RSE's software needs to be able to interact with the existing
+aware of any domain specific software repositories, data sets and catalogues.
+The RSE also needs to be aware of how their software can interact with the existing
 domain-specific data repositories.
 
-### Outside Party interaction (USERS)
-Research software is often developed as part of the research process itself,
-and like research, it will change in unpredictible ways.
-Hence it often has to be developed very closely to its users, the researchers.
-Therefore, roles like developers and users can seldomly be distinguished
-as most people represent multiple roles ranging from end-users, up to funders.
-However, regardless if this is the case or not: compared to other SE environments,
-there is an unusually close interaction between and within different roles in research,
-as well as between experts from different domains.
-Often this means it is necessary for an RSE to think "outside their comfort zone",
-but at the same time to be able to convey their knowledge and experience to experts
-of other fields in a way they can understand more easily.
-This includes their own domain knowledge in discussions with RSEs (from other domains),
-as well as their SE knowledge when talking to domain scientists and also the
-exchange of new techniques and algorithms to keep their software up-to-date.
-
 ## Team Skills
+RSEs do not work in isolation.
+They are embedded in a research group or work within a team of RSEs supporting particular research projects.
+RSEs often need to interact with and facilitate communication among colleagues, clients and contractors
+with a very broad spectrum of background-knowledge, specialization, expectations and experience.
+The team skills are therefore crucially important.
+Team skills are also mentioned in common guides for software engineering such as the Software Engineering Body of Knowledge [@swebok_2024].
+However, the interpersonal and organizational skills and the capacity for adaption required to work in a research setting
+warrants a much stronger emphasis on this field of competence.
+
+### Working in a team (TEAM)
+Working in a team is all about communication.
+For example RSEs need to be able to explain particular implementation choices made and may even need to defend them.
+Within a team of RSEs code reviews improve knowledge transfer and increase team cohesion.
+Senior RSEs may lead a team of RSEs.
+The team might change on a project-to-project basis and might be comprised of colleagues with very different backgrounds
+including, next to software engineers, for example IT staff, domain scientists and technicians.
+The shared values come into play and each RSE needs to ensure that these values are lived by and passed on to others.
+
 ### Teaching (TEACH)
-Working in a group means being able to effectively perform e.g. onboarding, or more formal teaching procedures to their colleagues.
-This includes tasks such as consulting and mentoring since these also often aim at educating people.
-We deliberately mention, that giving code reviews is also part of this skill, since
-Code review can be part of teaching people on improving their skills.
+RSEs have many opportunities to teach.
+These range from inducting new colleagues, to teaching digital skills either through short courses,
+for example from The Carpentries [@Carpentries], or entire lecture series.
+RSEs may also act as mentors and consultants.
+Code review also includes aspects of the teaching skill.
 
 ### Project Management (PM)
 The RSE should have knowledge about project management. At some institutes, it follows the practices of the local research groups,
 but it is useful, if an RSE knows its place in a PM scheme, or can bring in new ideas for improvement.
+Project management in research software engineering poses specific challenges (see USERS) that might require the capacity
+to flexibly adapt to changing conditions and deviate from common project management methods.
 
-### Working in a team (TEAM)
-There are various facets to working in a team. They range from functioning in a team to leading a team.
-It includes following measures that increase team cohesion like performing code reviews.
+### Interaction with users and other stakeholders (USERS)
+Since research software is often developed as part of the research process itself,
+its requirements and specification might change with the progression of research.
+Stakeholders of research software often change across different research projects
+or even within the course of one project.
+Roles in connection with research software are often in flux and diffuse.
+For example a single person might be user, developer and project manager at the same time.
+Often this means it is necessary for an RSE to think "outside their comfort zone",
+but at the same time to be able to convey their knowledge and experience to experts
+of other fields or persons at different hierarchy levels in a way they can understand more easily.
+These conditions pose specific challenges for requirements analysis, project management, training and support.
+
 
 ## RSE Tasks and Responsibilities
 These skills, while already numerous are also generic on purpose. They span a
@@ -496,14 +514,14 @@ since a model of the software is required in order to write good tests that
 facilitate understanding and documentation. Today this encompasses the
 knowledge of testing frameworks and CI/CD practices.
 - Contributing to large projects. This is a topic that requires competency in
-SWREPOS, LEG, in order to understand the ramifications of sharing, and DOCBB,
+SWREPOS, SRU, SP in order to understand the ramifications of sharing, and DOCBB,
 since the contributed code has to be understood by others. Interacting with
 project members depends on the the TEAM skill. Today this entails the effective
-use of collaborative platforms like github/gitlab, honouring a projects Code of
-Conduct, and some knowledge of software licenses like the GPL.
+use of collaborative platforms like github/gitlab, honouring a project's Code of
+Conduct, and some knowledge of popular software licenses like e.g. GPL.
 - When or why to keep repositories private. This decision requires knowledge in
 the RC, to understand when it makes sense to open up or close down a repository.
-The USERS, TEAM and sometimes LEG skills are required to make this decision.
+The USERS, TEAM and sometimes SP skills are required to make this decision.
 Furthermore, knowledge of the practices and contractual regulations of the
 RSE's institution are also required.
 - Proper Development. This broad topic requires all of the SE skills. Of course
@@ -512,7 +530,7 @@ a high rate to the technological advancements. Additionally proper SE skills
 often require knowledge of TEAM, and PM. Today this means effective use of IDEs,
 static analysis tools, design patterns, documentation (for oneself and others),
 etc.
-- Finding a community. This can be interpreted in two different facets. First
+- Finding a community. This can be interpreted in two different ways. First
 we have the aspect of community building for a research project. Since this
 deals with software that is supposed to be used in research this requires
 knowledge of RC, USERS, and also NEW, in order to effectively interact with
@@ -523,11 +541,11 @@ RSEs, tool-related communities and the classical domain communities. This point
 is further elaborated in [How do we reach people in different stages of their careers](#how-do-we-reach-people-in-different-stages-of-their-careers).
 
 
-Beyond that, we feel that today Other important tasks of RSEs are
+Beyond that, we feel that today other important tasks of RSEs are
 
 - Mentoring colleagues.
   This necessitates giving good advice that fits to a projects stage in its lifecycle,
-  thereby requiring knowledge of (SWLC), and its context in its research domain, thereby requiring knowledge of (RC).
+  thereby requiring knowledge of (SWLC), and its context in its research domain and thus (RC).
   Research software often starts out as a tool to answer a personal research
   question and becomes more important when other researchers rely on it.
   Some research software might even be used to deal with critical questions such as weather forecasting or medical diagnosis.
@@ -561,11 +579,11 @@ The following table elaborates on the required facets of the competencies in dif
 | LIBS  | should be able to use package distribution platforms      | same as junior, but should set the project standard and follow current best practices. | should ensure that their project is in an up-to-date distribution platform |
 | MOD   | should have a basic grasp of their piece of the software in order to use basic tools like a debugger | Should understand the characteristics of large parts of the codebase considering a variety of the metrics | Should understand the big idea of the software project in order to define the task that the software solves  |
 | SWLC  | Awareness about the existence of the software lifecycle. | Should know which decisions lead to technical debt. | Should know in which part of the lifecycle their project is and how to steer development/project resources accordingly. |
-|SWREPOS| Seamless interaction with the swrepo of their project is a must | Should be well-versed in the intricacies of a swrepo, and probably interact with multiple projects' repo's | Should be able to effectively interact with swrepos and especially the interaction with the connecting projects. |
-| LEG   | Awareness about legal intricacies about sharing code | Should be able to give advice on legal issues and resolve the most common issues | same as Senior RSE |
+|SWREPOS| Seamless interaction with the swrepo of their project is a must | Should be well-versed in the intricacies of a swrepo, and probably interact with multiple projects' repos | Should be able to effectively interact with swrepos and especially the interaction with the connecting projects. |
 | NEW   | Some curiosity required to fit into research teams | same as junior, but a curiosity to enhance the code base is required | Curiosity to know in which direction to steer the project is required |
 | RC    | Awareness about the RC | should know the position of the project in the RC | Should know what is necessary for the project to fit into its position in the RC |
-| SD    | Should be aware about tools for SD |   Should be able to find sth. with SD tools    | Should be able to effectively find sth. with SD tools and be able to evaluate and perform the integration of a library into the project. |
+| SRU   | Should be aware about tools for SRU |   Should be able to find sth. with SRU tools    | Should be able to effectively find sth. with SRU tools and be able to evaluate and perform the integration of a library into the project. |
+| SP    | Should be aware that SP needs to consider issues of intellectual property | Should be able to correctly publish software in simple cases and be able to identify cases where professional legal advice is needed. | Same as Senior plus the ability to take the future publication of software into account when initiating and guiding larger software collaboration projects |
 | DOMREP| The RSE should be able to interact with the domain repository | same as junior RSE | same as junior, and should know about how it fits into workflows surrounding these domain repositories |
 | USERS | The RSE should be able to communicate with non-SE users of the project | same as junior | same as junior, and take feedback into account of the steering |
 | TEACH | should be able to perform simple peer-to-peer onboarding tasks | should be able to explain logical components to other RSEs | Should be able to effectively communicate about all large-scale parts of the project. |
@@ -604,9 +622,9 @@ as development is a large part of their actual research.
 Students at undergraduate level mostly consume science/knowledge.
 During their studies they should also learn about the existence of digital tools and structures.
 Undergrad students should be aware that RSEs exist and that software has different quality aspects (DOCBB).
-They should be aware of domain specific tools (LIBS, SD) and where to find them (SWREPOS, DOMREP).
+They should be aware of domain specific tools (LIBS, SRU) and where to find them (SWREPOS, DOMREP).
 At this level it is sufficient to consider software as black boxes (USERS) although some training in data presentation would be very helpful and a good way to find out about programming (MOD, NEW).
-They should have an awareness of software licenses and who to ask if they have any questions (LEG).
+They should have an awareness of software licenses and who to ask if they have any questions (SP).
 They will be taught about the research cycle (RC) and that researchers often work in groups (TEAM).
 During practicals they will have an opportunity for peer learning (TEACH).
 
@@ -618,29 +636,29 @@ They need to understand how their research depends on software (SWLC).
 Working on their master thesis allows them to understand the research cycle (RC), practice project management (PM) and collaborate with other members of their research group (TEAM).
 
 #### PhD
-A PhD student performs independent research under guidance.
-They need to know relevant tools and structures.
-They should know where to find information about tools and where to find help using them (DOCBB, SWREPOS).
-They should be able to use the tools (LIBS) and identify and report bugs (MOD).
-They need to be aware that the user's perspective is different from the developer's perspective in order to be able to write bug reports (USERS).
-They might produce new software (MOD, SD) in which case they need to understand how to license their code (LEG).
-PhD students need to be curious to be able to conduct their research.
-In order to be able to explore new tools (NEW) they must be able to evaluate research software (SWLC).
-They need to be able to interact with services (RC) and domain specific repositories (DOMREP).
+A PhD student performs independent research under guidance. 
+They need to know relevant tools and structures. 
+They should know where to find information about tools and where to find help using them (DOCBB, SWREPOS). 
+They should be able to use the tools (LIBS) and identify and report bugs (MOD). 
+They need to be aware that the user's perspective is different from the developer's perspective in order to be able to write bug reports (USERS). 
+They might produce new software (MOD, SRU) in which case they need to understand how to license their code for publication (SP). 
+PhD students need to be curious to be able to conduct their research. 
+In order to be able to explore new tools (NEW) they must be able to evaluate research software (SWLC). 
+They need to be able to interact with services (RC) and domain specific repositories (DOMREP). 
 They should be able to supervise a student (TEACH).
 
 #### PostDoc
 PostDocs are independent researchers.
 Their role is similar to that of a PhD student with a deepened focus on their research career.
 However, they are proficient users of all relevant tools, that make them active contributors to their domain of research.
-They need to be aware of patents (LEG).
+They need to be aware of more advanced topics regarding intellectual property rights, such as patents (SP).
 
 #### PI/Professor
-They are experts in their field and should be able to give proper guidance to their students on which digital tools are currently relevant.
-They should be aware of the skills of an RSE and when they might need one in their group (DOCBB).
-They should encourage their students to use relevant tools (LIBS).
-They need to be able to judge the suitability of the software (SWLC) and follow the interactions between relevant projects (SWREPOS).
-They should be able to advise their students on legal aspects of the software (LEG).
+They are experts in their field and should be able to give proper guidance to their students on which digital tools are currently relevant. 
+They should be aware of the skills of an RSE and when they might need one in their group (DOCBB). 
+They should encourage their students to use relevant tools (LIBS). 
+They need to be able to judge the suitability of the software (SWLC) and follow the interactions between relevant projects (SWREPOS). 
+They should be able to advise their students on the legal aspects of software production and distribution (SP). 
 They should be able to contribute meaningfully to the steering decisions of the software in their field (USERS).
 They need to guide students and give full-size lectures (TEACH).
 They need to manage and lead their research group (PM, TEAM).
@@ -753,21 +771,6 @@ to and support them. We first summarise the meaning of each of the columns in th
       will improve overall turnaround times.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    LEG&
-    Responsibility may be with individual but they may not have necessary
-      knowledge/skills.&
-    A developer from an RSE team should have basic awareness of aspects
-      such as licensing. Also know where to get additional support via
-      team/organization.&
-    As with individual (local) developer, are the skills available
-      within the group? Who can they ask?&
-    This is a core area that RSE teams need to be aware of.
-      Can also often provide advice to projects themselves or
-      provide links with other parties who can help.&
-    Organizational support, guidance and policies important.
-      So are knowing how to find them and who to contact for advice.
-    \\\hline
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     NEW&
     An individual's curiousity has now to be shared between the research
       goal and the software project, therefore learning new methods and
@@ -797,7 +800,7 @@ to and support them. We first summarise the meaning of each of the columns in th
       the research lifecycle, this can support researchers/RSEs.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    SD&
+    SRU&
     Need to know how to find other work to build awareness of existing
       solutions. Researchers sometimes like to do things themselves.
       Working individually means there may not be someone to highlight this.&
@@ -807,6 +810,15 @@ to and support them. We first summarise the meaning of each of the columns in th
     As per individual (RSE Team).&
     Can choose to run local environments to host software or catalogue software,
       they can also provide institution-level access to platforms that support this.
+    \\\hline
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    SP&
+    Responsibility may be with an individual but they may not have necessary knowledge/skills.&
+    This is a core area that RSE teams need to be aware of.
+    An RSE team might have established practices, workflows and policies at hand to routinely publish software.&
+    As with individual (local) developer.&
+    As with individual (RSE Team).&
+    The organization should raise awareness about software as publishable scientific output, provide recommendations and checklists to support software-publications and have legal experts in place to deal with complex cases.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     DOMREP&
@@ -1013,24 +1025,32 @@ will be topics of a follow-up paper.
 This paper started from a community workshop at deRSE23 in Paderborn
 where people working in RSE related fields got together to figure out
 structures and ideas of educating newcomers to this field.
-One outcome of this diverse gathering is that RSEs from far away fields gather around similar concepts.
-In this publication we have tried to formalize these concepts. We have formulated a set of values that
-guide our actions in society and manifestly makes RSEs part of the community of values of scientists
-but at the same time, being Software Engineers, we have to take responsibility for our tools.
-We continue with core competencies that have been intentionally formulated
+One outcome of this diverse gathering is that RSEs from far away fields gather
+around similar core concepts but at the same time share a vision of how to 
+update the scientific ecosystem to the age of digitalization.
+In this publication we have tried to formalize these concepts.
+We have formulated a set of values that guide our actions in society
+and manifestly makes RSEs part of the community of values of scientists but at the same time,
+being Software Engineers, we cherish that we have to take responsibility for our tools.
+We continue with core competencies that have been intentionally formulated 
 abstractly without referencing any particular information processing device.
 As expected, we draw equally upon notions from software engineering and research,
 but find that we likewise require teamwork capabilities.
 We continue with detailing these competencies in various dimensions, and find that
 a different amount is required in different positions and scientific domains.
 Nevertheless, they are required and hence the values and competencies form a common denominator
-that unifies RSEs and enables them to identify with this domain.
-These competencies at the intersection of research and software engineering
+that unifies RSEs and enables them to identify with this domain that will become critically
+important for many areas of science.
+These competencies at the intersection of research and software engineering 
 coupled with a firm believe in team processes makes RSEs sought after on the job market
 and their values make them responsible members of a digital society.
 This yields a qualification profile which makes
-an education based on it highly attractive to young people and the institutions that provide
-this education will be the topic of a follow-up paper.
+an education based on it highly attractive to young people.
+At an institutional level, research performing organizations have a growing 
+interest to foster RSE training to support the use of FAIR data and FAIR software in the academic world,
+a direction determined by new incentives created by scientific journals and librarians.
+How we update exisiting institions and set up new ones 
+that provide this education will be the topic of a follow-up paper.
 
 # Appendix
 
