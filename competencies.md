@@ -163,7 +163,7 @@ The skills themselves fall into three categories
 'software engineering', 'research' and 'team skills'
 reflecting the hybrid nature of an RSE.
 To exemplify the generic skills,
-we also list some current daily tasks
+we also list some current tasks
 and discuss the skills used therein.
 
 As with any skill, not all RSEs will need
@@ -200,7 +200,7 @@ cross-pollinate computational skills and infrastructure know-how between domain
 scientists. Funders and research managers will find the discussion in this paper
 valuable in order to observe how software development in academia will be
 institutionalised. Finally, the strong emphasis on team skills allows RSEs to be
-well prepared to common challanges in workplaces outside academia.
+well prepared to common challenges in workplaces outside academia.
 
 # Related Work
 The day-to-day work of many RSEs often includes teaching activities to improve the RSE-related skill-set of researchers,
