@@ -1062,7 +1062,7 @@ enables them to quickly adapt their vocabulary and thinking to other disciplines
 
 During the MSc program, students should pick an RSE specialization from the list in this paper
 and attend additional courses to deepen their knowledge in the field. Exemplary courses
-for specialization might e.g. be HPC engineering/parallel programming, Numerics/Scientific Computing,
+for specialization might, e.g., be HPC engineering/parallel programming, Numerics/Scientific Computing,
 Web Development, Data stewardship, AI models/statistics, Community Management/Training.
 
 The program is finalized with an MSc thesis which should be dual-supervised by an
