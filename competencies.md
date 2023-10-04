@@ -1058,7 +1058,7 @@ students take the role of a consultant.
 
 As interdisciplinarity plays a key role in RSE work, we recommend that RSEs study introductory
 courses from multiple domain sciences both from within and outside their home domain. This
-enables them to quickly adapt their vocubalary and thinking to other disciplines.
+enables them to quickly adapt their vocabulary and thinking to other disciplines.
 
 During the MSc program, students should pick an RSE specialization from the list in this paper
 and attend additional courses to deepen their knowledge in the field. Exemplary courses
