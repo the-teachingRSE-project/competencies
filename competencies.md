@@ -1043,7 +1043,7 @@ explicitely included.
 Basic mandatory courses include the following:
 * Introduction to Programming: Students learn at least two languages: Python (because
   of its prevalence in the scientific communities) and one compiled language.
-* Software Craftsmanship: Unix Shell, Git, Buildsystems, Documentation, Packaging, Software Discovery
+* Software Craftsmanship: Unix Shell, Git, Build Systems, Documentation, Packaging, Software Discovery
 * Software Engineering
 * Software Design
 * Data Life Cycles
