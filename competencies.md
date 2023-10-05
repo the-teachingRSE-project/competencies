@@ -1065,7 +1065,7 @@ and attend additional courses to deepen their knowledge in the field. Example co
 for specialization might, e.g., be HPC engineering/parallel programming, Numerics/Scientific Computing,
 Web Development, Data stewardship, AI models/statistics, Community Management/Training.
 
-The program is finalized with an MSc thesis which should be dual-supervised by an
+The program is finalized with a Master's thesis which should be dual-supervised by an
 RSE supervisor and a domain supervisor. The thesis should answer a relevant research
 question from the domain using computational methods. Software development is required
 and the code is part of the gradeable deliverables. The RSE supervisor ensures and grades
