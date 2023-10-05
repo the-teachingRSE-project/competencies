@@ -1067,7 +1067,7 @@ Web Development, Data stewardship, AI models/statistics, Community Management/Tr
 
 The program is finalized with a Master's thesis which should be dual-supervised by an
 RSE supervisor and a domain supervisor. The thesis should answer a relevant research
-question from the domain using computational methods. Software development is required
+question from the domain using computational methods. Software development is required,
 and the code is part of the gradeable deliverables. The RSE supervisor ensures and grades
 the software craftsmanship aspects of the project. Alternatively, interested candidates might
 also answer a research question from research software engineering research.
