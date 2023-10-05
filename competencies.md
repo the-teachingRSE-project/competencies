@@ -1032,7 +1032,7 @@ this education will be the topic of a follow-up paper.
 
 ## An applied example curriculum
 
-### An MSc program Research Software Engineering
+### A master's program Research Software Engineering
 
 The target audience for such masters would be students holding a BSc degree from
 a domain science, which we will call "home domain" in the following. There is explicitly
