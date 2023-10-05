@@ -264,7 +264,7 @@ to create their own instructor manual [@ENCCSInstructorTraining; @ENCCS2022].
 The ENCCS lessons are targeted at individuals who already have general RSE
 skills and are seeking new skills relevant to HPC and software engineering.
 
-#### German National Research Data Infrastructure (NFDI)
+#### Education in the german National Research Data Infrastructure (NFDI)
 
 EduTrain (Training & Education) [@EDUTRAIN] is a section of the NFDI [@NFDI].
 Based on the slogan "data literacy from the beginning",
@@ -273,7 +273,9 @@ and good scientific practice.
 The targeted education also involves research software engineering.
 As described in its concept [@EduTrain2022], there will be a collaboration
 with "The Carpentries" regarding their lesson program.
-Moreover, the approach of how "The Carpentries" are organized will be adopted.
+Additionally, the approach of how "The Carpentries" are organized will be adopted.
+Moreover, we mention, that several subsections of NFDI engage in domain specific
+educational programs.
 
 #### SureSoft
 
@@ -288,7 +290,8 @@ infrastructure with education in the form of workshops and training.
 
 The activities of an RSE are guided by ethical values.
 A general list of applicable values is given in the Software Engineering Code of Ethics [@Gotterbarn1999].
-Central to that code is the RSE's obligation to act in the public interest.
+Central to that code is the RSE's obligation to
+commit to the health, safety and welfare of the public and act in the interest of society, their employer and their clients.
 Further values loosely based on that code include the obligations
 
 + to take great care to develop software that adheres to current best practices,
