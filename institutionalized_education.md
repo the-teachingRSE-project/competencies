@@ -258,6 +258,10 @@ effort to translate their training material into Spanish [@Wilson2014a],
 Korean [@Wilson2014b] and Portuguese [@Silva2014].
 Core lessons have been translated to Korean in 2015 [@Lee2015], and the Spanish
 core lessons are now officially part of the Software Carpentry material [@CarpentriesSpanish].
+Likewise, The Programming Historian journal translated RSE lessons [@Sichani2019]
+for the digital humanities to Spanish in 2017 (resulting in a 10-fold increase
+in traffic from Spanish-speaking countries [@Crymble2018]),
+French in 2019 [@Papastamkou2019] and Portuguese in 2021 [@Alves2021].
 Similarly, in the period 2015-2017, the Stack Overflow website launched localized
 versions in Portuguese [@StackOverflowPortuguese], Russian [@StackOverflowRussian]
 and Spanish [@StackOverflowSpanish] to reach a wider community.
@@ -308,6 +312,7 @@ Further ideas:
 - reducing the skill gap by organizing more inclusive workshops [@McInerney2017; @Akoh2017; @Shelton2017; @NatlAcadSci2022],
   to address gender disparities or take into account economic status, cultural background, or special educational needs;
   peer-reviewing of code of conducts by the CHAOSS Diversity and Inclusion Badging organization [@CHAOSSDEIBadging; @GitHubCHAOSS]
+- more inclusive RSE-Humanities teaching material [@Crymble2016; @Sichani2019]
 - related discussion in CSE [@Webb2017]
 
 ### Improve findability of open educational resources
