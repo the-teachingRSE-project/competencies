@@ -61,11 +61,11 @@ With the ability to capture and process ever more data, undertake larger scale,
 higher resolution simulations and, increasingly, leverage new self-adapting
 approaches through Machine Learning, computers and software are now vital
 elements of the research process across almost all domains. However, this shift
-means that basic research software skills are now required by researchers of all
-career-levels across a vast array of research fields where these were not
+means that basic research software skills are now required by researchers of all 
+career levels across a vast array of research fields where these were not
 previously required. Researchers often lack the skills to write and use software
 for their research and even to effectively request help from and interact with
-more experienced staff at their institutions. There still exists a gap in the
+more experienced staff at their institutions. There still exists a gap in
 academic education, as many curricula do not sufficiently prepare their students
 in that regard. This situation is exemplified by the extracurricular MIT class
 "The Missing Semester of Your CS Education" [@MIT], which aims to convey computing
@@ -92,7 +92,7 @@ implement the FAIR principles that make digital research output more valuable.
 In order to do so they draw upon skills from traditional software engineering,
 established research culture and a commitment to being part of a team.
 
-Developing and maintaining these skills is time consuming and often challenging.
+Developing and maintaining these skills is time-consuming and often challenging.
 Part of the challenge is that there is not a standard pathway to becoming an RSE
 and, partly as a result of this, there is something of an ad hoc approach to
 training within the community. We also see increasing amounts of basic-level
@@ -113,9 +113,9 @@ in February 2023.
 
 _[Information on key contributions to add]_
 
-'Related work and activities' gives a brief overview over other initiatives in the area of digital skills for researchers.
-The content is twofold. Firstly, we consider other initiatives trying to identify relevant skills for and pathways to becoming an expert at their specific but related area, 
-e.g. high performance computing, . Secondly, we look at groups and organisations that compose specific training material that can be 
+'Related work and activities' gives a brief overview of other initiatives in the area of digital skills for researchers.
+The content is twofold. Firstly, we consider other initiatives trying to identify relevant skills for and pathways to becoming an expert in their specific but related area, 
+e.g. high performance computing. Secondly, we look at groups and organisations that compose specific training material that can be 
 used for teaching RSE skills.
 
 'Challenges' discusses the challenges in the current academic training and research landscape when it comes to 
@@ -123,7 +123,7 @@ students and researchers learning the necessary skills to write FAIR software in
 
 In 'Results' we describe the main results of the workshop, namely the set of relevant skills as well as 
 the levels of expertise needed in these skills for students and researchers at different career levels.
-Furthermore, we look at different RSE specializations which may additonally need skills not relevant 
+Furthermore, we look at different RSE specializations which may additionally need skills not relevant 
 to RSEs of different specialisations.
 The skills themselves belong to one of the three main categories needed to perform RSE tasks. 
 Those are the 'R', i.e. an understanding of how research is performed, 
@@ -137,7 +137,7 @@ FIXME (finalization): Exchange chapter titles by numbers?
 
 ### Some Definitions
 A few definitions are in order.
-First as software we define source code, documentation, tests
+First, as software, we define source code, documentation, tests
 and all other artefacts that are created by humans during the development process
 that are necessary to understand its purpose.
 
@@ -158,7 +158,7 @@ during the research process or for a research purpose.
 This definition is broader than in [@FAIR4RS] and is the outcome of a recent
 discussion in [@Gruenpeter2021].
 
-Using this, Research Software Engineers are now people that 
+Using this, Research Software Engineers are now people who 
 create or improve research software and/or the structures that the software interacts with
 in the computational ecosystem of a research domain.
 They are highly skilled team members who can also conduct their own research as part of their role.
@@ -181,14 +181,14 @@ and requirements fall within the skill set of RSEs. They become a vital link to
 cross-pollinate computational skills and infrastructure know-how between domain
 scientists. Funders and research managers will find the discussion in this paper
 valuable in order to observe how software development in academia will be
-institutionalised. Finally, the strong emphasis on team-skills allows RSEs to be
+institutionalised. Finally, the strong emphasis on team skills allows RSEs to be
 very employable in industrial workplaces.
 
 ### National Context
 
 Having been developed at a workshop in Paderborn in Germany, naturally a part
-of the discussion in this paper focusses on the German academic landscape.
-So, although there are Germany specific traits found in this document
+of the discussion in this paper focuses on the German academic landscape.
+So, although there are Germany-specific traits found in this document
 we are nevertheless dealing with the education of humans to become RSEs -
 A topic that is of major relevance also in an international context.
 
@@ -207,7 +207,7 @@ Further values loosely based on that code include the obligations
 
 RSEs often assume a multifaceted role at the junction of research, software engineering and data management.
 They work with a varying and diverse set of colleagues that might include other developers,
-support unit staff and academics of different fields and all career-stages.
+support unit staff and academics of different fields and all career stages.
 This situation yields a specific set of challenges RSEs should be aware of
 to consciously make ethically sound judgment calls.
 We list some example areas that could be addressed in RSE courses or workshops.
@@ -225,13 +225,13 @@ special topics such as cryptography or re-identification attacks (e.g. [@Sweeney
 
 ### Mentoring and diversity
 
-RSEs are often experienced professionals who instruct and work closely with early career researches.
+RSEs are often experienced professionals who instruct and work closely with early career researchers.
 Similarly to academic supervisors, they bear a certain responsibility to guide and advise younger colleagues
 with respect to career development and the achievement of academic goals.
 Software engineering is still strongly dominated by white males [@StackOverflow2022].
 In their work RSEs might frequently find themselves in a position
 to encourage, mentor and empower people who gravitate towards software-related occupations.
-In this capacity they should be aware of the diversity problem and help to mediate it
+In this capacity, they should be aware of the diversity problem and help to mediate it
 whenever they have the chance to do so.
 
 ### The scientific community

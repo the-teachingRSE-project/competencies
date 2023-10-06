@@ -14,6 +14,7 @@ author:
   - Magnus Hagdorn
   - Harald von Waldow
   - Moritz Schwarzmeier
+  - Matthias Braun
 output:
   pdf_document:
     citation_package: biblatex
@@ -23,8 +24,8 @@ bibliography: bibliography.bib
 ---
 
 **Abstract**:
-Previous publications hav defined the core competencies of an RSE and surveyed the state of existing RSE-related resources.
-In this paper we detail how to structure the education of RSEs in exisiting structures and which additional structures are
+Previous publications have defined the core competencies of an RSE and surveyed the state of existing RSE-related resources.
+In this paper we detail how to structure the education of RSEs in existing structures and which additional structures are
 required.
 ---
 
@@ -45,8 +46,10 @@ In order to set up a proper educational scheme we need to discuss two more items
 There are already some people teaching RSE-related topics, sometimes within university structures, but often outside of formal structures.
 Currently, they often teach in workshop-like formats at research institutions.
 The community discussion shed light on the issues our trainers are faced with nowadays:
+
 - There are outreach issues. We emphasize that there are two dimensions to this: First it is important that we inform students that workshops exist, and then, the more important part, we also need to motivate people to invest the time for a workshop. [@EuroCC2022]
 - Adaptation of material to the target audience has been identified as a time-consuming task.
+- Findability of existing open educational resources.
 - Organization and preparation are a challenge, since currently no standardized formats exist.
 - Expectation management of students. Existing knowledge of students is often diverse.
 - Language barriers. This can range from the use of technical jargon up to the disparities of you teaching in a foreign language.
@@ -226,6 +229,99 @@ With the existence of these resources we believe that their acceptance gradually
 The tasks of these centres is facilitated by reusing the work of initiatives like edutrain [@EDUTRAIN] and platforms like DALIA [@DALIA].
 Naturally, other existing structures outside of academia mentioned before like the Carpentries [@Carpentries] can be nicely integrated
 and offered to a broad audience on a regular basis.
+
+## How do we reach people in different stages of their careers?
+
+Many current RSEs have found their way to being an RSE during their doctoral studies.
+This transition usually happens slowly. You start programming a tool, and someone else likes it, it becomes known that you have programming skills and suddenly you are the RSE of the group that everyone would like to have in their projects. If you enjoy this role, you need to be aware that there is a RSE career path as well as that specialized training materials exist. One place to generate awareness of the career option and training is universities' doctoral onboarding processes or right thereafter.
+RSE training could be offered as elective courses at universities organized by some central organization. RSE could be presented as a career path in suitable events. Since many RSE-minded people also at some point find their way to an HPC cluster, mailing lists of said clusters could be utilized to advertise RSE courses.
+One important aspect to think about is also the wording in documents advertising these resources.
+Potential future RSEs might not know the term yet or know that the course advertised includes topics that are of interest to them. If the university or organization has a GitHub/Lab organization/project, having a banner there might reach the right people. Most important is that people working in IT helpdesks know about the courses offered so that they can advise students/researchers on visiting the course/reviewing the materials if related questions are asked.
+For an RSE it is important to be a part of a network with other RSEs, irrespective of the career level.
+A perfect first step for forming this network is topic-related conferences, workshops or meetups.
+Beyond that, there is the broader RSE community organized at the local and regional level with chapters or local/regional communities, at the national level with societies and the international RSE society.
+Each of them offers possibilities for connecting within or beyond an individual institution and is a great way to find like-minded people to grow a wider network and thereby facilitate the sharing of information on interesting events or help each other out.
+This available layered network can greatly benefit the RSE in finding help with issues outside of their own comfort zone
+and provides a welcoming, social safety net providing a home for the RSE. Since we feel providing aspiring RSEs this net
+is of utmost importance we envision compulsory events introducing that to young RSEs.
+Qualification badges are another venue, that RSEs to find people with the same technical interest.
+
+Short primers on RSE skills, infrastructure and good coding practices
+can be found in field-specific scientific articles and conference proceedings,
+such as [@Roberts1969; @Baxter2006; @Prlic2012; @Leprevost2014; @Wilson2014c;
+@Stodden2014; @Crusoe2016; @Crick2017; @Fehr2021; @Grossfield2022], some of
+which are specifically tailored to group leaders, institutions and scientific
+journal editors rather than RSEs [@ChueHong2013; @ChueHong2014; @Katerbow2018; @Strasser2022].
+Scientific journals have the advantage of reaching a large spectrum of
+research scientists at all stages of their career.
+
+Localizing RSE teaching material and RSE information in languages other than English
+can help reach a much wider audience by lowering the barrier to entry in the field.
+In 2014 the community behind The Carpentries engaged in an international
+effort to translate their training material into Spanish [@Wilson2014a],
+Korean [@Wilson2014b] and Portuguese [@Silva2014].
+Core lessons have been translated to Korean in 2015 [@Lee2015], and the Spanish
+core lessons are now officially part of the Software Carpentry material [@CarpentriesSpanish].
+Similarly, in the period 2015-2017, the Stack Overflow website launched localized
+versions in Portuguese [@StackOverflowPortuguese], Russian [@StackOverflowRussian]
+and Spanish [@StackOverflowSpanish] to reach a wider community.
+There are also RSE short primers [@Astigarraga2022] and
+RSE guidelines [@ClementFontaine2019b; @Appel2021; @Haim2021] in non-English
+languages to address the need of specific communities.
+The European Commission report Digital Competence Framework for Educators
+(DigCompEdu) [@Redecker2017] was translated to German [@Redecker2019]
+and French with modifications [@P8FutureUniversity2023a].
+
+Annotating RSE open educational resources with metadata about required previous knowledge, covered material, and medium or media of the resources improves their findability and accessibility.
+Though, a registry agreed on by the community, would be required to take full advantage of such annotations.
+As open educational resources are often living documents they do not lend themselves well to publishing in the form of snapshots in repositories, such as Zenodo.
+With the life sciences, there already exists a field, that started efforts to annotate their training data with the TrainingMaterial Schema [@Castro2023; @TrainingMaterial].
+
+Teaching RSE in relevant undergraduate courses of domain scientists
+can be the first point of entry in the field.
+However, considering many RSEs come from domain studies, only fundamental
+concepts (of RDM and RSE) can be explained to and experienced by all of them.
+Those interested in domain-specific RSE skills or even programming will gain the
+special knowledge in classes and projects they choose.
+For example, statistics curricula can
+be used to showcase RSE infrastructure, e.g. the R programming language and
+its ecosystem of statistics libraries and integrated development environments
+[@Reinhart2021; @Beckman2021; @CetinkayaRundel2018].
+There are also bioinformatics courses designed for high school students that
+cover topics such as pen-and-paper algorithm design, genomic database querying
+and data mining, and open data [@Form2011; @Bain2020], as well as graduate
+courses designed for Master's degrees and Ph.D. programs [@BioinformaticsCertification].
+
+Teaching incubators can be leveraged to develop and test new academic curricula
+that introduce basic RSE topics, such as the "Algorithmic Battle"
+[@AlgorithmicBattle] (version control, documentation, good coding practices),
+"digit@L" [@DigitalLearning] (coding, data analysis, machine learning)
+and "DigiFlex" [@DigiFlex] (digital tools) experimental modules funded by the German
+Foundation for Innovation in Higher Education [@StiftungInnovationHochschullehre]
+to reduce skill gaps among first-year university students.
+Likewise, The Carpentries teaching material can be made more modular
+and re-usable in domain-specific contexts to better suit the needs
+of specialized RSEs. Examples include HPC Carpentry [@OCais2020]
+and Data Carpentry for Biologists [@White2022].
+
+FIXME:
+
+- find more examples of teaching material in non-English languages
+- discuss the role of translations in overcoming linguistic and cultural barriers?
+
+Further ideas:
+
+- making RSE best practice guides fun to read with memes or satire [@Balaban2021; @Laginja2022; @Astigarraga2022; @Fehr2021]
+- reducing the skill gap by organizing more inclusive workshops [@McInerney2017; @Akoh2017; @Shelton2017; @NatlAcadSci2022],
+  to address gender disparities or take into account economic status, cultural background, or special educational needs;
+  peer-reviewing of code of conducts by the CHAOSS Diversity and Inclusion Badging organization [@CHAOSSDEIBadging; @GitHubCHAOSS]
+- related discussion in CSE [@Webb2017]
+
+### Improve findability of open educational resources
+
+Although multiple organizations have published open educational resources for RSEs, in particular for foundational skills, their findability can be significantly improved.
+The RSE community of lacks an agreed-upon standard of metadata with which to annotate RSE OER, which would help learners as well as teachers to find suitable resources to satisfy their concerns.
+Building on such annotations, a community agreed-upon registry for RSE OER would additionally improve the situation.
 
 ### Micro-accreditation
 With the existence of institutions for continuous learning
