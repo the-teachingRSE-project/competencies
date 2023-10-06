@@ -33,6 +33,15 @@ detail what needs to be done specifically in Germany.
 
 **Keywords**: research software engineering, training, learning, competencies
 
+
+## Reasons for a change
+### Ensuring Maintenance and Sustainability
+While ensuring maintenance and sustainability of research software is of huge importance to the communities that build and use it,
+a particular challenge is that it is often very difficult to obtain ongoing research funding for software maintenance tasks.
+As a result, when a project that developed or extended a piece of software finishes,
+support for the software fades as team members move on
+to other research, academic or RSE roles, or become busy with other funded work.
+
 ## Required Next steps
 ### Implementation Strategies
 - Ideally over time scientific software engineering becomes part of the curricula at universities.
