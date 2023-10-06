@@ -14,6 +14,7 @@ author:
   - Magnus Hagdorn
   - Harald von Waldow
   - Moritz Schwarzmeier
+  - Matthias Braun
 output:
   pdf_document:
     citation_package: biblatex
@@ -25,7 +26,7 @@ bibliography: bibliography.bib
 **Abstract**:
 The previous papers dealt with a survey of the disparate sources of education for RSEs.
 A follow-up publication dealt with specific competencies that define and RSEs and have shown
-some career pathways that emerge from them. In the next paper we have set out structre sthat facilitate
+some career pathways that emerge from them. In the next paper we have set out structures that facilitate
 the education of RSEs, thereby setting the ground for this paper where we 
 detail what needs to be done specifically in Germany.
 
