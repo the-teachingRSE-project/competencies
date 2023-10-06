@@ -324,7 +324,8 @@ special topics such as cryptography or re-identification attacks (e.g. [@Sweeney
 RSEs are often experienced professionals who instruct and work closely with early career researches.
 Similarly to academic supervisors, they bear a certain responsibility to guide and advise younger colleagues
 with respect to career development and the achievement of academic goals.
-Software engineering is still strongly dominated by white males [@StackOverflow2022].
+According to the UNESCO Science Report [@Schneegans2021] women account for 33.3% of all researchers while the majority of researchers come from G20 countries (88.8%). 
+This imbalance is even more pronounced in software engineering with a majority of developers identifying as white male [@StackOverflow2022].
 In their work RSEs might frequently find themselves in a position
 to encourage, mentor and empower people who gravitate towards software-related occupations.
 In this capacity, they should be aware of the diversity problem and help to mediate it
