@@ -28,7 +28,7 @@ In this publication we survey the existing RSE-training related resources and in
 
 ---
 
-**Keywords**: research software engineering, training, learning, competencies
+**Keywords**: research software engineering, training, learning, open educational resources
 
 
 ## Related Work and Activities
@@ -169,37 +169,48 @@ engineering community [@SURESOFT2022].
 The project implements a twofold approach that combines tools and
 infrastructure with education in the form of workshops and training.
 
+#### Programming Historian
+
+The [Programming Historian](https://programminghistorian.org/)
+is an open-source, peer-reviewed journal of digital humanities
+edited in English, Spanish, French, and Portuguese.
+It publishes hands-on tutorials on shell, Python,
+and software specialized for digital humanities.
+
 ### FAIRness of RSE-related (open) educational resources(OER)
 
 Due to the ever-evolving nature of skills and infrastructure in the RSE field,
 training materials are often open educational resources(OER) that are often version-controlled, so that trainers can update them
 between iterations. For example, core lessons from the Carpentries and CodeRefinery
 are stored on GitHub, and any change is automatically mirrored to their website.
-Likewise, the reference work on RSE by Fogel [@Fogel2005] was released in its
-second edition as a living document [@Fogel2017]. The ENCCS instructor
-training manual [@ENCCS2022] is also available as a living document
-[@ENCCSInstructorTraining]. The Carpentry instructor guide [@Wilson2019a]
+The ENCCS instructor training manual [@ENCCS2022] is available as a living document
+[@ENCCSInstructorTraining], and The Carpentry instructor guide [@Wilson2019a]
 is available as living documents in both English [@Wilson2019b] and Spanish [@Wilson2019c].
-From the MIT Computer Science & Artificial Intelligence Laboratory comes an
-unofficial course [The Missing Semester of Your CS
-Education](https://missing.csail.mit.edu/) which covers a lot of basic computer
-skills typically taught by RSEs. The skills covered here also provide an
-important set of core capabilities for anyone looking to become an RSE.
-
-More generally, it is important for training material to follow the FAIR
-principles [@FAIR], so that the community of trainers and learners can make
-the most out of it [@Garcia2020].
 Core lessons from The Carpentries were translated in multiple languages
 to make workshops more accessible to communities where the English language
 poses a barrier to learning (for more details, see section
-[How do we reach people in different stages of their careers?]).
-Material with rich metadata are indexed in online databases, such as
-the INTERSECT [@Carver2020] collection [@INTERSECTOnlineResources]
+[How do we reach people in different stages of their careers?]
+from paper `competencies.pdf`).
+These considerations are part of the more general concept of Open Educational
+Resources (OER) [@Pownall2023], which are part of the UNESCO recommendations
+since 2019[@UNESCO2019].
+
+It is also important for training material to follow the FAIR principles [@FAIR],
+so that the community of trainers and learners can make the most out of it [@Garcia2020].
+Material with rich metadata can be indexed in online databases,
+such as the INTERSECT [@Carver2020] collection [@INTERSECTOnlineResources]
 and the US-RSE collection [@usRSETraining] for all RSE specialisations,
 the ELIXIR [@Gurwitz2020] Training e-Support System (TeSS) platform
 [@Beard2020; @Bacall2023] for bioinformatics and life sciences,
 or the now-defunct Educational Resource Discovery Index (ERuDIte)
 [@VanHorn2017; @Ambite2021] for data science.
+
+FIXME: better integrate this MIT course, maybe move it to the introduction?
+From the MIT Computer Science & Artificial Intelligence Laboratory comes an
+unofficial course "The Missing Semester of Your CS Education" [@Athalye2023]
+which covers a lot of basic computer
+skills typically taught by RSEs. The skills covered here also provide an
+important set of core capabilities for anyone looking to become an RSE.
 
 Many RSE OER lack in findability, which could be greatly improved by better annotation with metadata.
 The RSE community of lacks an agreed-upon standard of metadata with which to annotate RSE OER, which would help learners as well as teachers to find suitable resources to satisfy their concerns.
@@ -207,15 +218,14 @@ Building on such annotations, a community agreed-upon registry for RSE OER would
 
 ADDME:
 
-- [Better Scientific Software (BSSW)](https://bssw.io/) ...
 - [Software Sustainability Institute (SSI)](https://www.software.ac.uk/) [@Crouch2013] ...
 - ELIXIR/EXCELERATE/GOBLET train-the-trainer programme [@Via2017; @Morgan2017]
 - Library-RSE resources [@Clarke2019] (no longer updated since 2019)
+- deRSE19 collected resources [@Gey2019]
 - Happy Belly Bioinformatics [@Lee2019]
 - software energy consumption and "green software engineering"
-  [@Pinto2017; @Pereira2021; @Oprescu2022],
+  [@Pinto2017; @Pereira2021; @Oprescu2022; @Couto2020],
   teaching by SusTrainable [@SusTrainable; @Koopman2022]
-- reference works for self-study [@Fogel2005], [@Irving2021], [@Wilson2019a]
 
 ## Challenges
 - Point out gaps
@@ -239,7 +249,7 @@ extensive introductory training materials and, increasingly some more
 intermediate-level content.
 However, to bridge the gap between introductory and expert-level skills,
 more specialized courses are needed like the ones mentioned in section
-[Identifying skills and pathways] for the HPC community.
+[Identifying skills and pathways] from paper `intro.pdf` for the HPC community.
 
 Moreover, software development is a craft, i.e. it is not only about
 knowledge but also requires practical experience.
@@ -278,6 +288,12 @@ way to clearly label
 - what are the topics required to know to start the course
 This, in part, is due to a missing (metadata) standard to express these dependencies.
 
+FIXME:
+- metadata standards: Bioschemas [@Castro2023]
+- survey of 8 OER repositories with non-standardized metadata [@SimaodeDeus2020]
+- OER certification proposal in Austria [@Schon2023]
+- databases: see Appendix section [Directories of resources]
+
 ## Appendix
 ### Sources for RSE-related training material
 
@@ -312,3 +328,10 @@ This, in part, is due to a missing (metadata) standard to express these dependen
 
 + Better Scientific Software [BSSW](https://bssw.io/)
   (Collection of resources for computational science and engineering)
++ TeSS platform [@Beard2020; @Bacall2023] for bioinformatics and life sciences
++ Curriculum Task Force of the International Society for Computational
+  Biology (ISCB) database of degrees and certificates in bioinformatics
+  [@BioinformaticsCertification; @Mulder2018]
++ HPC Portal: academic programmes database [@AcademicProgrammesHPC]
++ HPC Portal: training events database [@TrainingEventsHPC]
+  (successor of EuroCC Training [@EuroCCTraining])
