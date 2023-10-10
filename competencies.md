@@ -472,10 +472,12 @@ warrants a much stronger emphasis on this field of competence.
 Working in a team is all about communication and teamwork.
 For example RSEs need to be able to explain particular implementation choices made and may even need to defend them.
 Within a team of RSEs code reviews improve knowledge transfer and increase team cohesion.
-Senior RSEs may lead a team of RSEs.
+This fosters mutual understanding and
+can be a knowledge transfer between the RSE to domain scientists.
 The team might change on a project-to-project basis and might be comprised of colleagues with very different backgrounds
 including, next to software engineers, for example IT staff, domain scientists and technicians.
 The shared values come into play and each RSE needs to ensure that these values are lived by and passed on to others.
+Senior RSEs may lead a team of RSEs.
 
 ### Teaching (TEACH)
 RSEs have many opportunities to teach.
