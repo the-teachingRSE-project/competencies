@@ -1032,9 +1032,9 @@ this education will be the topic of a follow-up paper.
 
 ## An applied example curriculum
 
-### A master's program Research Software Engineering
+### Research Software Engineering Master Programme
 
-The target audience for such masters would be students holding a BSc degree from
+The target audience for such master programme would be students holding a BSc degree from
 a domain science, which we will call "home domain" in the following. There is explicitly
 no restriction on the candidates' home domain, it may be from the STEM disciplines, life
 sciences, humanities or social sciences. Candidates with a BSc in Computer Science are also
@@ -1060,12 +1060,12 @@ As interdisciplinarity plays a key role in RSE work, we recommend that RSEs stud
 courses from multiple domain sciences both from within and outside their home domain. This
 enables them to quickly adapt their vocabulary and thinking to other disciplines.
 
-During the MSc program, students should pick an RSE specialization from the list in this paper
+During the MSc programme, students should pick an RSE specialization from the list in this paper
 and attend additional courses to deepen their knowledge in the field. Example courses
 for specialization might, e.g., be HPC engineering/parallel programming, Numerics/Scientific Computing,
 Web Development, Data stewardship, AI models/statistics, Community Management/Training.
 
-The program is finalized with a Master's thesis which should be dual-supervised by an
+The programme is finalized with a Master thesis which should be dual-supervised by an
 RSE supervisor and a domain supervisor. The thesis should answer a relevant research
 question from the domain using computational methods. Software development is required,
 and the code is part of the gradeable deliverables. The RSE supervisor ensures and grades
