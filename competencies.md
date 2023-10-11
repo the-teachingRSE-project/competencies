@@ -458,7 +458,7 @@ aware of any domain specific software repositories, data sets and catalogues.
 The RSE also needs to be aware of how their software can interact with the existing
 domain-specific data repositories.
 
-## Team Skills
+## Communication Skills
 RSEs do not work in isolation.
 They are embedded in a research group or work within a team of RSEs supporting particular research projects.
 RSEs often need to interact with and facilitate communication among colleagues, clients and contractors
@@ -469,13 +469,15 @@ However, the interpersonal and organizational skills and the capacity for adapti
 warrants a much stronger emphasis on this field of competence.
 
 ### Working in a team (TEAM)
-Working in a team is all about communication.
+Working in a team is all about communication and teamwork.
 For example RSEs need to be able to explain particular implementation choices made and may even need to defend them.
 Within a team of RSEs code reviews improve knowledge transfer and increase team cohesion.
-Senior RSEs may lead a team of RSEs.
+Code review within a multi-disciplinary team fosters mutual understanding and
+can be a knowledge transfer between the RSE and domain scientists.
 The team might change on a project-to-project basis and might be comprised of colleagues with very different backgrounds
 including, next to software engineers, for example IT staff, domain scientists and technicians.
 The shared values come into play and each RSE needs to ensure that these values are lived by and passed on to others.
+Senior RSEs may lead a team of RSEs.
 
 ### Teaching (TEACH)
 RSEs have many opportunities to teach.
