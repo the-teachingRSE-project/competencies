@@ -326,7 +326,8 @@ special topics such as cryptography or re-identification attacks (e.g. [@Sweeney
 RSEs are often experienced professionals who instruct and work closely with early career researches.
 Similarly to academic supervisors, they bear a certain responsibility to guide and advise younger colleagues
 with respect to career development and the achievement of academic goals.
-Software engineering is still strongly dominated by white males [@StackOverflow2022].
+According to the UNESCO Science Report [@Schneegans2021] women account for 33.3% of all researchers while the majority of researchers come from G20 countries (88.8%). 
+This imbalance is even more pronounced in software engineering with a majority of developers identifying as white male [@StackOverflow2022].
 In their work RSEs might frequently find themselves in a position
 to encourage, mentor and empower people who gravitate towards software-related occupations.
 In this capacity, they should be aware of the diversity problem and help to mediate it
@@ -471,7 +472,7 @@ aware of any domain specific software repositories, data sets and catalogues.
 The RSE also needs to be aware of how their software can interact with the existing
 domain-specific data repositories.
 
-## Team Skills
+## Communication Skills
 
 RSEs do not work in isolation.
 They are embedded in a research group or work within a team of RSEs supporting particular research projects.
@@ -484,13 +485,15 @@ warrants a much stronger emphasis on this field of competence.
 
 ### Working in a team (TEAM)
 
-Working in a team is all about communication.
+Working in a team is all about communication and teamwork.
 For example RSEs need to be able to explain particular implementation choices made and may even need to defend them.
 Within a team of RSEs code reviews improve knowledge transfer and increase team cohesion.
-Senior RSEs may lead a team of RSEs.
+Code review within a multi-disciplinary team fosters mutual understanding and
+can be a knowledge transfer between the RSE and domain scientists.
 The team might change on a project-to-project basis and might be comprised of colleagues with very different backgrounds
 including, next to software engineers, for example IT staff, domain scientists and technicians.
 The shared values come into play and each RSE needs to ensure that these values are lived by and passed on to others.
+Senior RSEs may lead a team of RSEs.
 
 ### Teaching (TEACH)
 
