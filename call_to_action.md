@@ -34,6 +34,15 @@ detail what needs to be done specifically in Germany.
 
 **Keywords**: research software engineering, training, learning, competencies
 
+
+## Reasons for a change
+### Ensuring Maintenance and Sustainability
+While ensuring maintenance and sustainability of research software is of huge importance to the communities that build and use it,
+a particular challenge is that it is often very difficult to obtain ongoing research funding for software maintenance tasks.
+As a result, when a project that developed or extended a piece of software finishes,
+support for the software fades as team members move on
+to other research, academic or RSE roles, or become busy with other funded work.
+
 ## Required Next steps
 ### Implementation Strategies
 - Ideally over time scientific software engineering becomes part of the curricula at universities.
@@ -57,14 +66,18 @@ Given the competencies and a demand(FIXME: Do the calculation) in the research l
 We closed with a discussion of possible structures and organization forms that educate new generations of RSEs in more structured programs than what is available today.
 Therefore this closes the gap, that the research landscape requires RSEs, but there are no structures where these persons are educated, by detailing the career path that a young person might want to take to become an RSE.(FIXME: also aspirational...)
 
-However, it is worth highlighting that answering the need for more RSEs
-can only be achieved by simultaneously having a clear training path,
-but also by ensuring that existing and trained RSEs are retained in academia.
-This paper focused on the first component: training RSEs, but we still believe
-that a discussion on creating viable RSE career paths in academia is necessary.
-This might be even more true for RSEs than traditional researchers as RSEs
-may have more opportunities to perform similar activities in the commercial sector,
-while benefitting from better salaries and working conditions.
+Answering the need for more RSEs
+can only be achieved by simultaneously having a clear training path
+and ensuring that existing and trained RSEs are retained in academia.
+The best RSEs continue to develop their skills and knowledge through experience
+well beyond the end of any formal training,
+and strengthen collaborative relationships and institutional knowledge over time.
+The combined cost of replacing such experienced and embedded RSEs is likely to 
+exceed the resources required to keep them,
+but retaining good RSEs requires intentional effort and support on the managerial and institutional level.
+As Van Tuyl et al. put it,
+"All other things being equal, [RSEs working in academia] can leave for industry with the expectation of a significant raise. 
+Therefore it is important for academic institutions to ensure all other things  are not equal."[@VanTuyl2023]
 
 RSEs are valuable members of research teams in academia,
 but the lack of institutional support leads to high turnover
