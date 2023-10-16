@@ -29,7 +29,7 @@ problems makes her happier than the subdued sense of achievement from having a r
 
 The generic RSE Master programme consists of a core of RSE topics with various electives for specialisation.
 Kay chooses digital archaeology and develops a pipeline for reconstructing 3D models from ground penetrating radar data, to simplify the process for archaeologists (Reproducibility, Big Data, ML).
-The project requires her to apply the project management skills that are being taught as part of the core RSE curriculum.
+The project management skills that are being taught as part of the core RSE curriculum really help her to not get lost in this project.
 Apart from working with the researchers in her archaeology group she has to work with members of the central RSE department to help her with the pipelines. 
 She also has to liaise with the central IT department to organise storage for the large data sets.
 Towards the end of the programme she visits her first RSE conference.
