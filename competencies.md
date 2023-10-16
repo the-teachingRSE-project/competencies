@@ -386,7 +386,7 @@ The RSE should be able to create building blocks from source code that are
 reusable. This ranges from simple libraries of functions up to complex
 architectures consisting of multiple software packages. An important part of
 reusability is that at least oneself, and ideally others, are able to understand
-what a piece of code aims to do and how to use the provided functionality. This
+what a piece of software aims to do and how to enable others to use the provided functionality. This
 is primarily achieved through a "clean" implementation and enhanced by
 documentation. Documentation ranges from commenting code blocks to using
 documentation (building) tools.
