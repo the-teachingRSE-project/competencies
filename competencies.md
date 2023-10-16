@@ -962,6 +962,12 @@ a vital role in improving the quality research software.
 They need to have a good understanding of all RSE competencies relevant to their domain and
 additionally should have experience or training in the educational field.
 
+#### UI/UX Designers for Research Software
+Scientific Software is a complex products that often needs to be refined in order to be usable even by other scientitsts.
+To facilitate this there are people required that specialize into the (DOCBB) and probably the (LIBS) competency
+with a focus to make end-user facing software really reusable and hence FAIR. This task is supported by strong (MOD) skills
+to reason about the behaviour of new users.
+
 ### Specializations outside the core RSE competencies
 
 <!--
