@@ -38,7 +38,7 @@ Kay has now completed the RSE programme and has reached Junior RSE level.
 ## Junior RSE
 
 Kay finds a position in the central RSE department at her university with a competitive IT salary. 
-Although the contract is temporary there is a good chance that it will lead to an open ended position.
+Although the contract is temporary there is a good chance that it will lead to a permanent position.
 Kay completes the Software Carpentry Instructor training and teaches basic research computing. 
 She also runs a seminar in the RSE Master programme.
 After two years she takes an exciting opportunity to work in another university.
