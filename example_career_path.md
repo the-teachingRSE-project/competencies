@@ -7,15 +7,16 @@
 
 ## Intro
 
-Meet Kay, who currently studies researchology in a Bachelor programme in researchonomy at University of Orithena (UofO).
+Meet Kay, who currently studies in researchology in a Bachelor programme in the established domain of researchonomy at University of Orithena (UofO).
 We will follow Kay’s fictional career to illustrate how education, job-experience and a career in academic institutions could lead to becoming a successful RSE.
 In Kay’s world, some of the measures this paper proposes have already been implemented.
 
 ## Bachelor
 
-Through a program like DaLiJe or The Missing Semester, Kay learns about using computational tools to support the sophisticated statistical analysis typical for researchology.
+Through a program like DaLiJe or The Missing Semester [@Athalye2023],
+Kay learns about using computational tools to support the sophisticated statistical analysis typical for researchology.
 She uses those tools to create and automate the production of her Bachelor thesis (generating plots with matplotlib, maybe even CI for automatic building) 
-and takes pride in a fully open and reproducible bachelor thesis.
+and takes pride in a fully open and reproducible bachelor thesis enabling her to graduate with honors from the faculty of researchonomy.
 
 ## Master
 
