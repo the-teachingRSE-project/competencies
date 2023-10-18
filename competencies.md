@@ -103,7 +103,7 @@ RSEs share a set of core skills that are required to write software, understand
 the research environment and ensure that they produce sustainable, maintainable
 code that supports reproducible research outputs.
 
-The need to access both research data and software has been formalised with the
+The need to access, both research data and software, has been formalised with the
 FAIR principles: software and data need to be easily findable by both people and
 machines, and they also need to be accessible, interoperable and reusable. More
 recently the FAIR principles have been extended specifically to research
@@ -119,7 +119,8 @@ These competencies draw upon skills from traditional software engineering practi
 established research culture and the commitment to being part of a team.
 
 Depending on the national research
-environments and processes that readers are familiar with, notion of the terms *software* and *research* might differ. Therefore, to avoid ambiguities, we provide definitions for these in the following:
+environments and processes that readers are familiar with, notion of the terms *software* and *research* might differ.
+Therefore, to avoid ambiguities, we provide definitions for these in the following:
 
 **Software**: As software, we define source code, documentation, tests
 and all other artifacts that are created by humans during the development process
