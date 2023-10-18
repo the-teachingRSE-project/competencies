@@ -13,7 +13,7 @@ Get the latest version of the respective PDF files here:
 
 ## How to contribute
 
-This paper is intended as a collaborative effort and we are looking for input from you. 
+This paper is intended as a collaborative effort and we are looking for input from you.
 
 **We follow GitLab/GitHub flow**
 
@@ -35,11 +35,11 @@ You can contribute in various ways:
 - Create your changes in your fork
 - Go to the [pull requests](https://github.com/CaptainSifff/paper_teaching-learning-RSE/pulls) page of this repository and push `new pull request`
 - You can add DRAFT, or WIP to indicate work-in-progress PRs.
-- Add a short description 
+- Add a short description
 
 The community will review your pull request and may ask you for additional changes.
 If you have any questions, please don't hesitate to ask (we are trying to be as
-helpful as possible). 
+helpful as possible).
 
 #### How to review existing pull requests
 
@@ -49,7 +49,7 @@ helpful as possible).
 
 #### How to get credit
 
-If you've contributed to this paper in any way, please add your name to 
+If you've contributed to this paper in any way, please add your name to
 [contributors.yml](contributors.yml) using the template at the bottom
 of the file. Make sure the name provided in the "author:" field matches
 exactly with the name in the Markdown preamble author list.
@@ -59,5 +59,5 @@ We currently have split the topic of teaching RSEs in Germany across four papers
 We aim for a publication of most of these papers.
 All people that have participated in discussions with us,
 e.g. at deRSE23 or undeRSE23 are at least eligible for contributor status.
-If you have particpated regularly at our weekly working meetings you are eligible for
+If you have participated regularly at our weekly working meetings you are eligible for
 authorship.

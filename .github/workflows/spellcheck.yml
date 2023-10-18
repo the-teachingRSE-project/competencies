@@ -14,4 +14,5 @@ jobs:
       - uses: matheus23/md-spellcheck-action@v4.2.2
         with:
           files-to-check: "*.md"
+          files-to-exclude: "CONTRIBUTING.md\nREADME.md"
           words-to-ignore-file: .github/spellignore.txt

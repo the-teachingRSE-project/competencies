@@ -326,7 +326,7 @@ special topics such as cryptography or re-identification attacks (e.g. [@Sweeney
 RSEs are often experienced professionals who instruct and work closely with early career researches.
 Similarly to academic supervisors, they bear a certain responsibility to guide and advise younger colleagues
 with respect to career development and the achievement of academic goals.
-According to the UNESCO Science Report [@Schneegans2021] women account for 33.3% of all researchers while the majority of researchers come from G20 countries (88.8%). 
+According to the UNESCO Science Report [@Schneegans2021] women account for 33.3% of all researchers while the majority of researchers come from G20 countries (88.8%).
 This imbalance is even more pronounced in software engineering with a majority of developers identifying as white male [@StackOverflow2022].
 In their work RSEs might frequently find themselves in a position
 to encourage, mentor and empower people who gravitate towards software-related occupations.
@@ -539,7 +539,7 @@ what they would like to have learnt. Among the top five things mentioned were:
   SWREPOS, SRU, SP in order to understand the ramifications of sharing, and DOCBB,
   since the contributed code has to be understood by others. Interacting with
   project members depends on the the TEAM skill. Today this entails the effective
-  use of collaborative platforms like github/gitlab, honouring a project's Code of
+  use of collaborative platforms like GitHub/gitlab, honouring a project's Code of
   Conduct, and some knowledge of popular software licenses like e.g. GPL.
 - When or why to keep repositories private. This decision requires knowledge in
   the RC, to understand when it makes sense to open up or close down a repository.
@@ -973,7 +973,7 @@ While software is the lingua franca of all RSEs there will be RSEs that have spe
 such as medical RSEs, digital humanities RSEs or physics RSEs.
 
 #### Data-focused RSE
-RSEs working at the flourishing intersection between data science and RSE. 
+RSEs working at the flourishing intersection between data science and RSE.
 They are skilled in cleaning data and/or running data analyses and can help researchers
 in setting up their analysis pipeline and/or research data management (RDM) solutions.
 When the field requires research on sensitive data or information, e.g. patient information in medicine,
@@ -1038,7 +1038,7 @@ The increasing usage of ML in numerous scientific areas with social impact, invo
 At the intersection of data science [@SSIDataScience] and Data-focused RSEs, the complex way of solving problems utilizing machine learning calls for this separate specialization.
 
 #### Web-Development RSE
-This RSE is skilled in web applications, front- and/or backend, and/or building 
+This RSE is skilled in web applications, front- and/or backend, and/or building
 and using APIs, for example for research data portals or big research projects.
 Ideally, this RSE should also have knowledge about (web) accessibility to allow a broad
 range of researchers or even the public to use the resulting applications.
