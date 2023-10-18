@@ -42,7 +42,7 @@ Kay finds a position in the central RSE department at her university with a comp
 Although the contract is temporary there is a good chance that it will lead to a permanent position.
 Kay completes the Software Carpentry Instructor training and teaches basic research computing, 
 while advising fellow students of her department on better programming (DOCBB and MOD skill)
-She also runs a seminar in the RSE Master programme.
+She also runs a seminar in the RSE Master programme. She publishes a condensed version of that in JOSE[@JOSE].
 During her teaching duties, she becomes aware of a new project in her department that requires a community managing RSE
 and she gladly signs to focus more on her communication skills.
 After two years she takes an exciting opportunity to work in another university.
