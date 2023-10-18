@@ -38,10 +38,13 @@ Kay has now completed the RSE programme and has reached Junior RSE level.
 
 ## Junior RSE
 
-Kay finds a position in the central RSE department at her university with a competitive IT salary. 
+Kay finds a position in the central RSE department at her university with a competitive IT salary.
 Although the contract is temporary there is a good chance that it will lead to a permanent position.
-Kay completes the Software Carpentry Instructor training and teaches basic research computing. 
+Kay completes the Software Carpentry Instructor training and teaches basic research computing, 
+while advising fellow students of her department on better programming (DOCBB and MOD skill)
 She also runs a seminar in the RSE Master programme.
+During her teaching duties, she becomes aware of a new project in her department that requires a community managing RSE
+and she gladly signs to focus more on her communication skills.
 After two years she takes an exciting opportunity to work in another university.
 
 ## Senior RSE
@@ -52,8 +55,7 @@ Having this position in an inter-organistaional project places far more emphasis
 She is spending time teaching people(TEACH skill) to onboard them into the project.
 There is a lot of interaction with different stakeholders to the project like funders and user groups(USERS skill).
 And to keep track of where the project is going and how to distribute her time she leverages Kanban boards (PM skills).
-
-
+Her work has for already been heavy on (TEAM) skills, but now also the leadership aspect comes into play.
 The job experience as a leading RSE for a large project was the last requirement necessary to be awarded the "Science Enabling Doctor" from an
 institutionalized center of RSE education, recognizing her track record of valuable software contributions, and her specialized experience in
 leading and mentoring people. Some personal choices in her career made the traditional route of doing a Dr.-Ing. inconvenient.
