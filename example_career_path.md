@@ -46,14 +46,20 @@ After two years she takes an exciting opportunity to work in another university.
 
 ## Senior RSE
 
-The new position involves taking responsibility for the RSE related aspects of a large inter-organisational project (Verbundprojekt). 
+The new position involves taking responsibility for the RSE related aspects of a large inter-organisational project (Verbundprojekt).
+With her new responsibilities comes a shift in the importance of various aspects of her work.
+Having this position in an inter-organistaional project places far more emphasis on communication skills.
+She is spending time teaching people(TEACH skill) to onboard them into the project.
+There is a lot of interaction with different stakeholders to the project like funders and user groups(USERS skill).
+And to keep track of where the project is going and how to distribute her time she leverages Kanban boards (PM skills).
 
-+ Senior RSE skills ...
 
-The job-experience as a leading RSE for a large project was the last requirement necessary to obtain the "Senior RSE Expert" certificate from the
-International Association for Research Software Engineering.
-This certificate is recognised by various funding agencies, such as the DFG, and enables RSEs without PhD to act as a Principal Investigator for RSE-focused grant applications
-and enables her now to obtain funds for her own projects.
+The job experience as a leading RSE for a large project was the last requirement necessary to be awarded the "Science Enabling Doctor" from an
+institutionalized center of RSE education, recognizing her track record of valuable software contributions, and her specialized experience in
+leading and mentoring people. Some personal choices in her career made the traditional route of doing a Dr.-Ing. inconvenient.
+These doctoral degrees are of course recognised by various funding agencies, such as the DFG, and hence enables RSEs that have chosen to not follow a research focused
+career path to act as a Principal Investigator for RSE-focused grant applications.
+Kay can now write her own grant proposals to effectively fund work of moving software projects from prototypes to infrastructure.
 
 [Discussed in [#139](https://github.com/CaptainSifff/paper_teaching-learning-RSE/issues/139)]
 
