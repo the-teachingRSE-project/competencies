@@ -16,7 +16,7 @@ In Kay’s world, some of the measures this paper proposes have already been imp
 Through a program like DaLiJe or The Missing Semester [@Athalye2023],
 Kay learns about using computational tools to support the sophisticated statistical analysis typical for researchology.
 She uses those tools to create and automate the production of her Bachelor thesis (generating plots with matplotlib, maybe even CI for automatic building) 
-and takes pride in a fully open and reproducible bachelor thesis enabling her to graduate with honors from the faculty of researchonomy.
+and takes pride in a fully open and reproducible bachelor thesis enabling her to graduate with honours from the faculty of researchonomy.
 
 ## Master
 
@@ -49,15 +49,15 @@ After two years she takes an exciting opportunity to work in another university.
 
 ## Senior RSE
 
-The new position involves taking responsibility for the RSE related aspects of a large inter-organisational project involving diferent organisations..
+The new position involves taking responsibility for the RSE related aspects of a large inter-organisational project involving different organisations.
 With her new responsibilities comes a shift in the importance of various aspects of her work.
-Having this position in an inter-organistaional project places far more emphasis on communication skills.
+Having this position in an inter-organisational project places far more emphasis on communication skills.
 She is spending time teaching people(TEACH skill) to onboard them into the project.
 There is a lot of interaction with different stakeholders to the project like funders and user groups(USERS skill).
 And to keep track of where the project is going and how to distribute her time she leverages Kanban boards (PM skills).
-Her work has for already been heavy on (TEAM) skills, but now also the leadership aspect comes into play.
+Her work so far has already been heavy on (TEAM) skills, but now also the leadership aspect comes into play.
 The job experience as a leading RSE for a large project was the last requirement necessary to be awarded the "Science Enabling Doctor" from an
-institutionalized center of RSE education, recognizing her track record of valuable software contributions, and her specialized experience in
+institutionalised centre of RSE education, recognising her track record of valuable software contributions, and her specialised experience in
 leading and mentoring people. Some personal choices in her career made the traditional route of doing a Dr.-Ing. inconvenient.
 These doctoral degrees are of course recognised by various funding agencies, such as the DFG, and hence enables RSEs that have chosen to not follow a research focused
 career path to act as a Principal Investigator for RSE-focused grant applications.
