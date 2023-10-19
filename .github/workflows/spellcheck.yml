@@ -15,7 +15,7 @@ jobs:
         run: |
           for file in "*.md"
           do
-            grep -P -o -e "(?<=@)[A-z]+" $file >> .github/spellignore.txt
+            grep -P -oh -e "(?<=@)[A-Za-z]+" $file >> .github/spellignore.txt
             # remove header
             sed -i '1,/---/{/^---$/,/^---$/d}' $file
           done
