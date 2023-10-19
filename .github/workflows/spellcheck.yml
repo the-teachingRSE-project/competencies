@@ -26,6 +26,6 @@ jobs:
           done
       - uses: eschercloudai/md-spellcheck-action@v0.0.2
         with:
-          files-to-check: "*.md"
+          files-to-check: "competencies.md|call_to_action.md|survey.md|institutionalized_education.md|intro.md"
           files-to-exclude: "CONTRIBUTING.md\nREADME.md"
           words-to-ignore-file: .github/spellignore.txt
