@@ -2,6 +2,7 @@ AcademicProgrammesHPC
 ADDME
 AllDigital
 Ambite
+anonymise
 APIs
 artifacts
 aspirational
@@ -40,6 +41,7 @@ DigCompEdu
 DigCompOrg
 digitalization
 DigitalSkillsGap
+distributable
 DMP
 DOCBB
 DOMREP
@@ -59,6 +61,7 @@ EuroCC
 EuroCCTraining
 EuroHPC
 exascale
+EXCELERATE
 ExCALIBUR
 executables
 FAIRness
@@ -68,6 +71,7 @@ findability
 findable
 FIXME
 Fogel
+Forschung
 Fortran
 franca
 FutureUniversity
@@ -153,6 +157,7 @@ VanHorn
 Welch
 WilsonSayres
 WIP
+Wissenschaft
 Woodley
 Zenodo
 Zignani

@@ -58,7 +58,7 @@ The community discussion shed light on the issues our trainers are faced with no
 - Understanding the difficulties of students [@Cereceda2020; @Williams2019].
 - Carpentries retrospective [@Wilson2016a].
 - Lack of 'Train the Trainer' opportunities makes self-improvement difficult.
-- Get teaching effort attributed as upskilling that counts as a professional qualification.
+- Get teaching effort attributed as further qualification that counts as a professional qualification.
 
 #### What mindset makes up a good teacher
 Irrespective of where people come from they need to have the proper mindset to properly foster RSEs-to-be.
@@ -102,7 +102,7 @@ Such a platform should allow to:
 
 With the ever-growing demand for RSEs in science it could be helpful for
 people to earn certificates for skills needed in certain RSE positions.
-This would possibly make hiring easier and could incentivise researchers
+This would possibly make hiring easier and could create an incentive for researchers
 to go through proper courses on these skills instead of learning on the go.
 For certain skills it would also be good for finding jobs outside academia,
 e.g. in industry where certain practices are already state-of-the-art.
@@ -333,7 +333,7 @@ With the existence of institutions for continuous learning
 after the first professional level of education the question of certification arises.
 We propose, digital certificates and
 learner badges [@Ifenthaler2016] as one possibility for experienced RSEs
-to showcase that they posess a certain technical skill.
+to showcase that they possess a certain technical skill.
 For example, the Software Carpentries minted digital badges in 2012
 [@Wilson2012a; @Wilson2012c] as a form of institutional accreditation.
 Despite initial plans to create skill-specific badges [@Wilson2012b],
@@ -346,7 +346,7 @@ Ireland's Professional Development Framework [@Donnelly2018]
 provides accreditation to higher education teachers who successfully complete
 training on the National Forum's Open Courses via digital badges [@OpenCoursesBadges].
 The Extreme Science and Engineering Discovery Environment organisation
-delivers badges to incentivise participation in HPC training events
+delivers badges to create an incentive for participation in HPC training events
 [@Kappes2015; @Sale2017]. IBM delivers badges to promote continuous learning and
 provide micro-credentials to its staff and customers [@Leaser2020; @Leaser2019]
 There are 1360 badges as of July 2023 [@IBMBadges]
@@ -497,6 +497,6 @@ of digital learning technologies by education organisation and provide
 strategies to improve the digital competence of teachers and learners.
 The latter can take several forms, e.g. assessing the digital competency
 of the teaching staff and factoring it in performance reviews, creating
-new roles centered around digital technologies, offering training and
+new roles centred around digital technologies, offering training and
 accredited professional development opportunities, promoting the use and
 creation of open educational resources.

@@ -146,7 +146,7 @@ Since we expect a sizeable portion of readers from Germany we
 quickly want to address a common false friend.
 The German term 'Wissenschaft' encompasses all domains of publicly funded
 research, while the English term 'science' is generally limited to natural sciences.
-Therefore, we will use 'research' to encompass all domains therefore gives the employability of RSEs.
+Therefore we will use 'research' to encompass all domains.
 Of course 'research' as well as 'Forschung' is not limited to public funding
 but also part of industrial and other private companies.
 We surmise that the same software engineering and team skills will be needed there,

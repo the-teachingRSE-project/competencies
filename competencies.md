@@ -452,7 +452,7 @@ One goal of FAIR software is to avoid unnecessary duplication of work by reusing
 existing work instead. To (re-) use software, researchers have to be able to
 find it and then to easily evaluate if the software actually suits their needs.
 Apart from functionality, the integration with other software,
-expected sustainability, and expandability also have to be part of this evaluation.
+expected sustainability, and extensibility also have to be part of this evaluation.
 
 ### Software publication (SP)
 
@@ -708,7 +708,7 @@ to and support them. We first summarise the meaning of each of the columns in th
 - **Individual developer (Locally-based):** A single person working on some
   research software - often a researcher with RSE skills.
 - **Individual developer (RSE team-based):** A single person working on research
-  software - generally a professional RSE supporting another team's software single-handedly.
+  software - generally a professional RSE supporting another team's software on its own.
 - **Group of developers (Locally-based):** A group of RSEs/researchers within
   a research group or team, working together on developing software to support
   or undertake a single research goal/project.
@@ -977,7 +977,7 @@ RSEs working at the flourishing intersection between data science and RSE.
 They are skilled in cleaning data and/or running data analyses and can help researchers
 in setting up their analysis pipeline and/or research data management (RDM) solutions.
 When the field requires research on sensitive data or information, e.g. patient information in medicine,
-this RSE should have knowledge about secure transfer methods and/or ways to anonymize the data.
+this RSE should have knowledge about secure transfer methods and/or ways to anonymise the data.
 As part of RDM, this RSE profile is able to support all stages of the research data life-cycle[@Nieva2020], with synchronous data management processes.
 Those processes implement established best practices for planning and documenting of data acquisition in a data management plan (DMP) as well as for management,
 storage, and preservation of data, and publication and sharing of data in repositories according to the FAIR principles [@FAIR].
