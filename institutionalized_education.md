@@ -70,7 +70,7 @@ We would presume good teachers to take responsibility in improving their own ped
 Since it is difficult to measure increased learning success and better RSEing applied by the learners, better methods for evaluation of a teacher’s effectiveness would be beneficial for teachers.
 For example, a survey by The Carpentries [@Duckles2016] provides a detailed evaluation on the value and benefits of Software and Data Carpentry workshops to their instructors.
 The expected mindset also encompasses that teachers should see setbacks and feedback as an opportunity to learn and grow their own skills.
-A teacher's mindset should also include the acknowledgment that some learners acquire additional RSE skills out of necessity and not out of interest, meaning that not every "good" scientist wants to become a "good" software engineer, too.
+A teacher's mindset should also include the acknowledgement that some learners acquire additional RSE skills out of necessity and not out of interest, meaning that not every "good" scientist wants to become a "good" software engineer, too.
 Therefore, it is also inevitable that teachers have positive and high expectations of their students.
 Inspired by the proverb "If you want to go fast, go alone; if you want to go far, go together?", teachers should actively engage with the RSE community and see the benefits of networking.
 Finally, teachers should be motivated to follow up and offer continued support to their students after the training has ended.
@@ -83,11 +83,11 @@ In that respect, this follows The Carpentries model that offers certifications b
 We highlight and emphasise that, since a topic like RSE education is constantly evolving, trainers strongly require the opportunity and the recognition to educate themselves.
 Therefore our teachers will be sourced from the workplace but there will also be certified RSE Trainers.
 (FIXME: in classical university speak, these would be people who have done their habilitation on that topic, right?)
-Large online learning platforms such as edX [@edx] or Coursera [@coursera] serve as a resource of international teachers, who share their experiences in specific RSE-related topics in webinars.
+Large online learning platforms such as edX [@edX] or Coursera [@coursera] serve as a resource of international teachers, who share their experiences in specific RSE-related topics in webinars.
 These platforms enable the targeted recruitment of academic teachers, including those from leading research institutions.
 
 We propose to create common infrastructures that can be utilised in this ongoing effort to professionalise the RSE education further and to easily share education resources across the country.
-For the ongoing development, from the status quo of available courses and material to generally accepted, unified curricula, we suggest a centralized online RSE education platform.
+For the ongoing development, from the status quo of available courses and material to generally accepted, unified curricula, we suggest a centralised online RSE education platform.
 Such a platform should allow to:
 - collect and adapt available and new teaching material, like written lessons or pre-recorded courses
 - review and evaluate uploaded teaching material
@@ -149,7 +149,7 @@ or as a result of a career change. But since the type of work undertaken by RSEs
 highly dynamic and often relies on knowledge about latest technologies, things change
 quickly and an ongoing learning phase is also necessary to remain up-to-date with the
 current developments, tools and techniques.
-In this context, we put forward the idea of having institutionalized structures that
+In this context, we put forward the idea of having institutionalised structures that
 facilitate continuous learning. These structures may be integrated within an academic
 environment but they may also exist fully or partially outside of the academic sphere,
 also providing opportunities for education on digital skills into wider society or
@@ -219,7 +219,7 @@ Since a certain amount of overlap with sciences is expected, it is expected that
 ### Extra-academic institutions for continuous learning
 As elaborated in the instruction the dynamic working place of an RSE requires continuous learning.
 Knowledge-based industries have long recognised the value of qualifying their employees and hence invest time and money into this.
-We propose institutionalized structures that offer graduates a venue for life-long learning, or to deepen their skills.
+We propose institutionalised structures that offer graduates a venue for life-long learning, or to deepen their skills.
 Centralising this notion in a few institutions has some major benefits for society and industry as well,
 since these become central hubs for offering the skills with digital tools.
 The HPC-Akademie [@HPCAkademie] is a good example in the HPC space that offers its services to graduated
@@ -355,7 +355,7 @@ they are recognised by a few academic institutions
 [@NortheasternUniversityIBMBadges; @NCCentralUniversityIBMBadges; @BluefieldIBMBadges]
 and in some cases are convertible to graduate credit [@Leaser2020].
 
-The Open Source Software Security Mobilization Plan [@OSSMobilizationPlan]
+The Open Source Software Security Mobilisation Plan [@OSSMobilizationPlan]
 is proposing that code repositories and recruiting sites work on recognising
 digital badges certifying RSE skills in secure software development.
 Some code repositories already feature an infrastructure to automatically issue
@@ -378,8 +378,8 @@ FIXME or remove me:
   case studies [@Morris2019; @BorrasGene2018; @Higashi2020] on digital badges
 
 remaining Plan:
-- Lehrer ist damit natürlich ein Karriere-Pfad für RSEs
-- beides braucht geeignete Lehrer
+- being a teacher is a potential working field for RSEs
+- we need good teachers for both
 - pointer to the qualification paths and career paths outside of the appendix.
 
 FIXME: The career path discussion.
@@ -418,7 +418,7 @@ the BioExcel competency framework [@Matser2016],
 the PerMedCoE competency framework [@Lloret-Llinares2021],
 the Research Data Management and Data Stewardship competence framework [@Demchenko2021]
 and the ELIXIR Data Stewardship Competency Framework for Life Sciences [@Scholtens2019]
-are examples of grassroot efforts aiming at defining the set of skills
+are examples of grassroots efforts aiming at defining the set of skills
 of various bioinformatics specialities,
 one of them as a taxonomy [@Mulder2018].
 These frameworks eventually converged into the EMBL-EBI Competency Hub
@@ -446,7 +446,7 @@ Ph.D. programs, and certificates from graduate schools.
 ### Digital competencies and certification
 
 The European Commission Joint Research Center developed the "DigComp" framework
-to categorize general digital competencies in 8 levels of proficiency
+to categorise general digital competencies in 8 levels of proficiency
 [@Vuorikari2016; @Carretero2017; @Vuorikari2022a].
 Proficiency levels 1 and 2 ("Foundation") represent simple tasks that can be
 carried out with proper guidance from more experienced peers, levels 3 and 4

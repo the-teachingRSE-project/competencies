@@ -7,7 +7,7 @@ Since the original idea grew in size and scope we had to split the paper in diff
 Get the latest version of the respective PDF files here:
 * "Teaching and Learning Research Software Engineering" ([intro.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/intro.pdf))
 * "Foundational competencies and responsibilities of an RSE" ([competencies.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/competencies.pdf))
-* "Institutionalized Organisation of RSE Education" ([institutionalized_education.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/institutionalized_education.pdf))
+* "Institutionalized Organisation of RSE Education" ([institutionalised_education.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/institutionalised_education.pdf))
 * "A Survey of Initiatives Providing Educative Material in the RSE Space" ([survey.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/survey.pdf))
 * "Educating RSEs in Germany - What Needs to Be Done" ([call_to_action.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/call_to_action.pdf))
 
@@ -21,7 +21,7 @@ This paper is intended as a collaborative effort and we are looking for input fr
 
 **We use British English**
 
-We utilise tags to categorize issues and PRs to the respective paper.
+We utilise tags to categorise issues and PRs to the respective paper.
 
 You can contribute in various ways:
 

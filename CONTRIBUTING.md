@@ -34,7 +34,7 @@ We actively welcome your pull requests:
 
 ## Formatting, etc
 For writing text, **Please utilise semantic line breaks!**
-We utilise tags to categorize issues and PRs to the respective paper.
+We utilise tags to categorise issues and PRs to the respective paper.
 Please also note, that we use British english instead of American english.
 
 ## Becoming an Author

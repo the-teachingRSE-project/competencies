@@ -18,7 +18,7 @@ jobs:
             # references
             grep -P -oh -e "(?<=@)[A-Za-z]+" $file | sort | uniq >> .github/spellignore.txt
             # latex commands
-            grep -P -oh -e "(?<=\\\\)[A-Za-z]+" $file | sort | uniq >> .github/spellignore.txt
+            grep -P -oh -e "(?<=[\\\\\{])[A-Za-z]+" $file | sort | uniq >> .github/spellignore.txt
             # RSE compositions
             grep -P -oh -e "[\w-]*RSE[\w-]*" $file | sort | uniq >> .github/spellignore.txt
             # remove header

@@ -132,7 +132,7 @@ the 'SE', i.e. writing and maintaining reusable software, as well as team skills
 'Organisational Infrastructures' focuses on changes that are required to at best support
 the training of new RSEs.
 
-FIXME (finalization): Exchange chapter titles by numbers?
+FIXME (finalisation): Exchange chapter titles by numbers?
 
 
 ### Some Definitions

@@ -156,7 +156,7 @@ The outline of the paper is as follows.
 We start with a non-exhaustive overview of existing initiatives.
 The next section elaborates on the values that
 provide the guiding principles for the work of an RSE.
-Section 3 condenses and generalizes
+Section 3 condenses and generalises
 the workshop discussions into a set of generic skills.
 The skills themselves fall into three categories
 'software engineering', 'research' and 'team skills'
@@ -932,7 +932,7 @@ What we have defined above are intended to be base skills that an RSE irrespecti
 But not all RSEs are created equal, they specialise in different areas,
 some of which we want to present below. Many of the specialisations may overlap,
 so the same RSE might for example work on data management and on Open Science.
-We categorize them into those, that can be viewed as a specialisation within RSE-specific topics,
+We categorise them into those, that can be viewed as a specialisation within RSE-specific topics,
 while other RSEs might expand their skill set and profession to areas, that are not typical for a RSE.
 
 
@@ -943,7 +943,7 @@ Open Science and FAIRness of Data and Software are increasingly important topics
 as exemplified by the demand of an increasing amount of research funding agencies requiring openness.
 Hence an RSEs is required that has a deepened knowledge in (RC) and how to distribute software publicly(SRU, SP), the Open Science RSE.
 Open Science RSEs can help researchers navigate the technical questions that come up
-when practicing Open Science, such as "How do I make my code presentable?",
+when practising Open Science, such as "How do I make my code presentable?",
 "What do I need to do to make my software FAIR?", or
 "How do I sustainably work with an (international) team on a large code base?".
 Like the Data-focused RSE they have a deep understanding of RDM topics.
@@ -1146,7 +1146,7 @@ the BioExcel competency framework [@Matser2016],
 the PerMedCoE competency framework [@Lloret-Llinares2021],
 the Research Data Management and Data Stewardship competence framework [@Demchenko2021]
 and the ELIXIR Data Stewardship Competency Framework for Life Sciences [@Scholtens2019]
-are examples of grassroot efforts aiming at defining the set of skills
+are examples of grassroots efforts aiming at defining the set of skills
 of various bioinformatics specialities,
 one of them as a taxonomy [@Mulder2018].
 These frameworks eventually converged into the EMBL-EBI Competency Hub

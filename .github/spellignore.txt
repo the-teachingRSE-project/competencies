@@ -4,10 +4,11 @@ AllDigital
 Ambite
 APIs
 artifacts
-aspirational like inspirational
+aspirational
 Athalye
 Attwood
 backend
+Badging
 BioExcel
 BIOEXCEL-FRAMEWORK
 bioinformatician
@@ -36,6 +37,7 @@ DFG
 DFGResearchSoftwareCall
 DigComp
 DigCompEdu
+DigCompOrg
 digitalization
 DigitalSkillsGap
 DMP
@@ -109,6 +111,7 @@ multithreading
 NFDI
 OER
 OpenScience
+Paderborn
 pdf
 PerMedCoE
 Ph
