@@ -151,7 +151,7 @@ the NFDI and its section EduTrain will benefit from a knowledge-base
 which is implemented as semantically linked knowledge graph.
 - FIXME: Is there any connection to RSE?
 
-According to the goals of the NFDI consortium NFDI4Ing (National Research Data
+According to the goals of the NFDI consortium NFDI4ING (National Research Data
 Infrastructure for Engineering Sciences) [@NFDI4ING], engineers treat software
 as research data that possibly connects the different stages of stored data.
 Therefore, it aims to enable engineers to develop validated quality-assured
