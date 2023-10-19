@@ -196,7 +196,7 @@ growing from funding bodies to prioritise projects that generate archived,
 annotated, re-usable and potentially remotely executable data. These resources
 and requirements fall within the skill set of RSEs. They become a vital link to
 cross-pollinate computational skills and infrastructure know-how between domain
-scientists. Funders and research managers will find the discussion in this paper
+scientists. Funding agencies and research managers will find the discussion in this paper
 valuable in order to observe how software development in academia will be
 institutionalised. Finally, the strong emphasis on team skills allows RSEs to be
 well prepared to common challenges in workplaces outside academia.
@@ -399,12 +399,12 @@ handling/documenting dependencies with other packages/libraries. It sometimes
 requires knowledge of using build systems to enable interoperability with other
 systems.
 
-### Understanding the software lifecycle (SWLC)
+### Understanding the software life-cycle (SWLC)
 
-The traditional software lifecycle defines the stages that form the process of building a piece of software.
+The traditional software life-cycle defines the stages that form the process of building a piece of software.
 This generally involves a creative process where requirements are gathered and analysed, a plan to fulfil them is formulated and then implemented.
 This is then followed by testing that things work as expected and that they continue to do so into the future.
-We emphasize that the lifecycle is not complete here but also includes periods of maintaining a software
+We emphasize that the life-cycle is not complete here but also includes periods of maintaining a software
 and also withdrawing software from its original use.
 
 ### Use repositories (SWREPOS)
@@ -539,7 +539,7 @@ what they would like to have learnt. Among the top five things mentioned were:
   SWREPOS, SRU, SP in order to understand the ramifications of sharing, and DOCBB,
   since the contributed code has to be understood by others. Interacting with
   project members depends on the the TEAM skill. Today this entails the effective
-  use of collaborative platforms like GitHub/gitlab, honouring a project's Code of
+  use of collaborative platforms like GitHub/GitLab, honouring a project's Code of
   Conduct, and some knowledge of popular software licenses like e.g. GPL.
 - When or why to keep repositories private. This decision requires knowledge in
   the RC, to understand when it makes sense to open up or close down a repository.
@@ -565,13 +565,13 @@ what they would like to have learnt. Among the top five things mentioned were:
 Beyond that, we feel that today other important tasks of RSEs are
 
 - Mentoring colleagues.
-  This necessitates giving good advice that fits to a projects stage in its lifecycle,
+  This necessitates giving good advice that fits to a projects stage in its life-cycle,
   thereby requiring knowledge of (SWLC), and its context in its research domain and thus (RC).
   Research software often starts out as a tool to answer a personal research
   question and becomes more important when other researchers rely on it.
   Some research software might even be used to deal with critical questions such as weather forecasting or medical diagnosis.
   To formalize the process of giving good advice a classification of software is commonly used [@Wang2012; @Schlauch2018b]
-  where research software can move from one class to another during its lifecycle.
+  where research software can move from one class to another during its life-cycle.
   [@Schlauch2018b] classify applications based on their scope and criticality and provide software engineering recommendations.
   The RSE needs to be able to identify the application class they are dealing with and apply the respective RSE practices.
 - Enforcing reproducibility. Projects like [@ReproHack] can greatly help in fostering that competency.
@@ -600,7 +600,7 @@ The following table elaborates on the required facets of the competencies in dif
 | DOCBB   | should be able to write reusable building blocks                                                                              | same as junior, but the quality should set the standard for the project, while following current best practices                       | should know the current best practices and point its people to the right resources.                                                                        |
 | LIBS    | should be able to use package distribution platforms                                                                          | same as junior, but should set the project standard and follow current best practices.                                                | should ensure that their project is in an up-to-date distribution platform                                                                                 |
 | MOD     | should have a basic grasp of their piece of the software in order to use basic tools like a debugger                          | Should understand the characteristics of large parts of the codebase considering a variety of the metrics                             | Should understand the big idea of the software project in order to define the task that the software solves                                                |
-| SWLC    | Awareness about the existence of the software lifecycle.                                                                      | Should know which decisions lead to technical debt.                                                                                   | Should know in which part of the lifecycle their project is and how to steer development/project resources accordingly.                                    |
+| SWLC    | Awareness about the existence of the software life-cycle.                                                                      | Should know which decisions lead to technical debt.                                                                                   | Should know in which part of the life-cycle their project is and how to steer development/project resources accordingly.                                    |
 | SWREPOS | Seamless interaction with the swrepo of their project is a must                                                               | Should be well-versed in the intricacies of a swrepo, and probably interact with multiple projects' repos                             | Should be able to effectively interact with swrepos and especially the interaction with the connecting projects.                                           |
 | NEW     | Some curiosity required to fit into research teams                                                                            | same as junior, but a curiosity to enhance the code base is required                                                                  | Curiosity to know in which direction to steer the project is required                                                                                      |
 | RC      | Awareness about the RC                                                                                                        | should know the position of the project in the RC                                                                                     | Should know what is necessary for the project to fit into its position in the RC                                                                           |
@@ -634,7 +634,7 @@ It is important to note that this section does not reflect the current state of 
 Instead, it summarises the discussions with and between workshop participants at different levels of academic progression on what they would have liked to learn at an earlier stage or know before starting their current position.
 While individuals already work at implementing some of these changes and teaching these skills it has not yet reached a systemic level.
 
-The text is organised along the academic progression path (Bachelor, Master, PhD, PostDoc, PI/Professor).
+The text is organised along the academic progression path (Bachelor, Master, PhD, Postdoc, PI/Professor).
 Since each level is based on the previous levels we presume that the skills and competencies at each level also encompass those of the previous levels.
 Due to the broad need throughout academic specializations,
 the described levels serve as a baseline
@@ -673,9 +673,9 @@ In order to be able to explore new tools (NEW) they must be able to evaluate res
 They need to be able to interact with services (RC) and domain specific repositories (DOMREP).
 They should be able to supervise a student (TEACH).
 
-#### PostDoc
+#### Postdoc
 
-PostDocs are independent researchers.
+Postdocs are independent researchers.
 Their role is similar to that of a PhD student with a deepened focus on their research career.
 However, they are proficient users of all relevant tools, that make them active contributors to their domain of research.
 They need to be aware of more advanced topics regarding intellectual property rights, such as patents (SP).
@@ -746,18 +746,18 @@ to and support them. We first summarise the meaning of each of the columns in th
     Greater trained focus on reusability/sharing but likely not part of the project aims.&
     May be looking to develop reusable shareable outputs but likely case-by-case basis. Need easy resources.&
     Focus on quality and practices, reusability/packaging driven by project needs and spec.&
-    Should provide policies on sharing and reuse of software. May be driven by funder requirements/policies.
+    Should provide policies on sharing and reuse of software. May be driven by requirements/policies of the funding agency.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     SWLC&
-    It's down to you to manage the complete lifecycle, if you move on,
+    It's down to you to manage the complete life-cycle, if you move on,
       what will happen to the code?&
     More support with a team but do they have awareness/expertise
-      of managing the lifecycle? What is the "bus factor"?&
+      of managing the life-cycle? What is the "bus factor"?&
     Even when working alone, team infrastructure and tooling can be vital
-      in supporting the lifecycle and supporting sustainability.&
+      in supporting the life-cycle and supporting sustainability.&
     As previous but with a large codebase, how many people know about each part?
-      Need to think about coherent lifecycle management across the team - generally
+      Need to think about coherent life-cycle management across the team - generally
       a key part of RSE team expertise.&
     Support for training important. Organization may also provide site
       licences for e.g. management tools.
@@ -818,15 +818,15 @@ to and support them. We first summarise the meaning of each of the columns in th
     RC&
     This is likely to be familiar to individuals, who are often researchers,
       especially if they are embedded within a research team.&
-    Many RSEs will have familiarity with the research lifecycle,
+    Many RSEs will have familiarity with the research life-cycle,
       although they may not have domain knowledge. This can be alleviated by interacting with a group&
     Likely to be familiar to software teams (often researchers) working
       in a research group. Can share knowledge between themselves or reach
       out to colleagues.&
     Teams of RSEs from an RSE group are likely to include one or more
-      team members with strong awareness of the research lifecycle.&
+      team members with strong awareness of the research life-cycle.&
     Research organizations have extensive infrastructure to manage
-      the research lifecycle, this can support researchers/RSEs.
+      the research life-cycle, this can support researchers/RSEs.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     SRU&
@@ -978,7 +978,7 @@ They are skilled in cleaning data and/or running data analyses and can help rese
 in setting up their analysis pipeline and/or research data management (RDM) solutions.
 When the field requires research on sensitive data or information, e.g. patient information in medicine,
 this RSE should have knowledge about secure transfer methods and/or ways to anonymize the data.
-As part of RDM, this RSE profile is able to support all stages of the research data lifecycle[@Nieva2020], with synchronous data management processes.
+As part of RDM, this RSE profile is able to support all stages of the research data life-cycle[@Nieva2020], with synchronous data management processes.
 Those processes implement established best practices for planning and documenting of data acquisition in a data management plan (DMP) as well as for management,
 storage, and preservation of data, and publication and sharing of data in repositories according to the FAIR principles [@FAIR].
 

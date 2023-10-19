@@ -57,12 +57,12 @@ The community discussion shed light on the issues our trainers are faced with no
 - Staying up-to-date with fast-moving RSE topics.
 - Understanding the difficulties of students [@Cereceda2020; @Williams2019].
 - Carpentries retrospective [@Wilson2016a].
-- Lack of 'Train the Trainer' opportunities makes self-improvement difficult. 
+- Lack of 'Train the Trainer' opportunities makes self-improvement difficult.
 - Get teaching effort attributed as upskilling that counts as a professional qualification.
 
 #### What mindset makes up a good teacher
 Irrespective of where people come from they need to have the proper mindset to properly foster RSEs-to-be.
-The basis for our proposed mindset is the conviction that research software engineering (RSEing) is an important topic that supports good scientific practice and reproducible research as well as the motivation to share their experience and skills with prospective RSEs. 
+The basis for our proposed mindset is the conviction that research software engineering (RSEing) is an important topic that supports good scientific practice and reproducible research as well as the motivation to share their experience and skills with prospective RSEs.
 In addition, we expect it is a fundamental part of a teacher's mindset to adopt a set of shared values, which we have detailed above in the [values](#values) section.
 Good teachers engage with the different scientific backgrounds of the learners, regardless of their prior knowledge.
 In order to identify relevant content and adapt content to the learners needs, they understand and appreciate the respective research environment.
@@ -76,14 +76,14 @@ Inspired by the proverb "If you want to go fast, go alone; if you want to go far
 Finally, teachers should be motivated to follow up and offer continued support to their students after the training has ended.
 
 #### Where do we get our teachers from
-The community discussion brought to light the need for a mixture of people, therefore 
+The community discussion brought to light the need for a mixture of people, therefore
 the education of aspiring RSEs will involve people from close domain sciences or experienced RSEs
 and people that have respective additional skills to teach RSE competencies to the new generation.
 In that respect, this follows The Carpentries model that offers certifications but is still open to non-certified trainers.
 We highlight and emphasize that, since a topic like RSE education is constantly evolving, trainers strongly require the opportunity and the recognition to educate themselves.
 Therefore our teachers will be sourced from the workplace but there will also be certified RSE Trainers.
 (FIXME: in classical university speak, these would be people who have done their habilitation on that topic, right?)
-Large online learning platforms such as edX [@edx] or Coursera [@coursera] serve as a resource of international teachers, who share their experiences in specific RSE-related topics in webinars. 
+Large online learning platforms such as edX [@edx] or Coursera [@coursera] serve as a resource of international teachers, who share their experiences in specific RSE-related topics in webinars.
 These platforms enable the targeted recruitment of academic teachers, including those from leading research institutions.
 
 We propose to create common infrastructures that can be utilized in this ongoing effort to professionalize the RSE education further and to easily share education resources across the country.
@@ -148,7 +148,7 @@ to the field highly sought after professional skills, either directly from high 
 or as a result of a career change. But since the type of work undertaken by RSEs is
 highly dynamic and often relies on knowledge about latest technologies, things change
 quickly and an ongoing learning phase is also necessary to remain up-to-date with the
-current developments, tools and techniques. 
+current developments, tools and techniques.
 In this context, we put forward the idea of having institutionalized structures that
 facilitate continuous learning. These structures may be integrated within an academic
 environment but they may also exist fully or partially outside of the academic sphere,
@@ -163,7 +163,7 @@ In this particular example, we consider a path into RSE via a traditional univer
 
 However, we recognise that there are other routes into an RSE career and these are increasing.
 For example, some RSEs come from an industry background, others may come through apprenticeship or similar programmes.
-In both cases, gaining knowledge of the research lifecycle and understanding the ways that researchers work towards solutions
+In both cases, gaining knowledge of the research life-cycle and understanding the ways that researchers work towards solutions
 to research challenges is something that can be developed on-the-job alongside training opportunities and the chance to work directly with researchers.
 This leads naturally to the question, whether it is possible to become an RSE without a home research domain.
 With software being a core element of the research process in so many different domains,

@@ -24,7 +24,7 @@ bibliography: bibliography.bib
 ---
 
 **Abstract**:
-Being an outcome of a community workshop held in Paderborn, Germany in February 2023 this paper tries 
+Being an outcome of a community workshop held in Paderborn, Germany in February 2023 this paper tries
 for the first time(FIXME: ? true?) to define which competencies are required to participate in modern digital sciences.
 Some of these competencies are required in more depth, therefore, giving rise to the trade of the RSE:
 scientific personnel that specializes in writing research software that facilitates work in all stages of the research cycle.
@@ -50,7 +50,7 @@ The discussion in this paper is meant to be general. Therefore, we will discuss 
 - past attempts, other initiatives
 - contributions
 
-Computers and software have played a key role in the research lifecycle for many
+Computers and software have played a key role in the research life-cycle for many
 decades. Traditionally, they were specialist tools used only in a small number
 of fields and the Computer Scientists who maintained and programmed them needed
 extensive technical training over several years to gain the necessary skills and
@@ -61,7 +61,7 @@ With the ability to capture and process ever more data, undertake larger scale,
 higher resolution simulations and, increasingly, leverage new self-adapting
 approaches through Machine Learning, computers and software are now vital
 elements of the research process across almost all domains. However, this shift
-means that basic research software skills are now required by researchers of all 
+means that basic research software skills are now required by researchers of all
 career levels across a vast array of research fields where these were not
 previously required. Researchers often lack the skills to write and use software
 for their research and even to effectively request help from and interact with
@@ -114,19 +114,19 @@ in February 2023.
 _[Information on key contributions to add]_
 
 'Related work and activities' gives a brief overview of other initiatives in the area of digital skills for researchers.
-The content is twofold. Firstly, we consider other initiatives trying to identify relevant skills for and pathways to becoming an expert in their specific but related area, 
-e.g. high performance computing. Secondly, we look at groups and organisations that compose specific training material that can be 
+The content is twofold. Firstly, we consider other initiatives trying to identify relevant skills for and pathways to becoming an expert in their specific but related area,
+e.g. high performance computing. Secondly, we look at groups and organisations that compose specific training material that can be
 used for teaching RSE skills.
 
-'Challenges' discusses the challenges in the current academic training and research landscape when it comes to 
+'Challenges' discusses the challenges in the current academic training and research landscape when it comes to
 students and researchers learning the necessary skills to write FAIR software in their specific domain.
 
-In 'Results' we describe the main results of the workshop, namely the set of relevant skills as well as 
+In 'Results' we describe the main results of the workshop, namely the set of relevant skills as well as
 the levels of expertise needed in these skills for students and researchers at different career levels.
-Furthermore, we look at different RSE specializations which may additionally need skills not relevant 
+Furthermore, we look at different RSE specializations which may additionally need skills not relevant
 to RSEs of different specialisations.
-The skills themselves belong to one of the three main categories needed to perform RSE tasks. 
-Those are the 'R', i.e. an understanding of how research is performed, 
+The skills themselves belong to one of the three main categories needed to perform RSE tasks.
+Those are the 'R', i.e. an understanding of how research is performed,
 the 'SE', i.e. writing and maintaining reusable software, as well as team skills.
 
 'Organizational Infrastructures' focuses on changes that are required to at best support
@@ -158,7 +158,7 @@ during the research process or for a research purpose.
 This definition is broader than in [@FAIR4RS] and is the outcome of a recent
 discussion in [@Gruenpeter2021].
 
-Using this, Research Software Engineers are now people who 
+Using this, Research Software Engineers are now people who
 create or improve research software and/or the structures that the software interacts with
 in the computational ecosystem of a research domain.
 They are highly skilled team members who can also conduct their own research as part of their role.
@@ -169,14 +169,14 @@ conference we believe that the competencies formulated here have a far-reaching
 impact beyond the domain of RSE into adjacent fields of science. The most
 obvious users come from computer science, are HPC programmers with a background
 in physical sciences, or manage research data. Graduates from traditional STEM
-sciences with a focus on software or some library or IT staff will also find 
-this paper interesting. However, these days most research involves some amount 
+sciences with a focus on software or some library or IT staff will also find
+this paper interesting. However, these days most research involves some amount
 of data management, processing and visualisation and the role of RSEs is also
-becoming increasingly important in medical domains and the digital humanities. 
-Access to central compute resources ranging from small departmental sizes to 
-national facilities is becoming readily available. Additionally, pressure is 
-growing from funding bodies to prioritise projects that generate archived, 
-annotated, re-usable and potentially remotely executable data. These resources 
+becoming increasingly important in medical domains and the digital humanities.
+Access to central compute resources ranging from small departmental sizes to
+national facilities is becoming readily available. Additionally, pressure is
+growing from funding bodies to prioritise projects that generate archived,
+annotated, re-usable and potentially remotely executable data. These resources
 and requirements fall within the skill set of RSEs. They become a vital link to
 cross-pollinate computational skills and infrastructure know-how between domain
 scientists. Funders and research managers will find the discussion in this paper
