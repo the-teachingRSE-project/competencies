@@ -14,12 +14,14 @@ bioinformatician
 bioinformatics
 BioinformaticsCertification
 Bioschemas
+Braunschweig
 Brouat
 BSSW
 Carpentries
 CarpentriesData
 CarpentriesLibrary
 CarpentriesSoftware
+Center
 CHAOSS
 ChueHong
 codebase
@@ -134,6 +136,7 @@ SureSoft
 SURESOFTLink
 SWLC
 swrepo
+swrepos
 SWREPOS
 SysOps
 TeSS

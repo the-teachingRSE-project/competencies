@@ -42,8 +42,8 @@ detail what needs to be done specifically in Germany.
 - Awareness of existing teaching programs
 - "Branded" Add-on courses
 - External Institutions provide resources
-- fully recognized in the academic system. Students get ECTS points.
-- Bachelor/Master specializations
+- fully recognised in the academic system. Students get ECTS points.
+- Bachelor/Master specialisations
 
 #### Broader Considerations
 - Instilling more respect for people that want to educate themselves for digital competencies
@@ -52,9 +52,9 @@ detail what needs to be done specifically in Germany.
 ## Conclusion
 We have identified the RSE as an individual that contributes to research teams with their knowledge about digital tools.
 Then we have defined generic core competencies from the pillars of Software Engineering, Research and Team processes.
-We fleshed them out with some possible specializations of RSEs.
+We fleshed them out with some possible specialisations of RSEs.
 Given the competencies and a demand(FIXME: Do the calculation) in the research landscape for them we moved on to define who the teachers are for this new field.
-We closed with a discussion of possible structures and organization forms that educate new generations of RSEs in more structured programs than what is available today.
+We closed with a discussion of possible structures and organisation forms that educate new generations of RSEs in more structured programs than what is available today.
 Therefore this closes the gap, that the research landscape requires RSEs, but there are no structures where these persons are educated, by detailing the career path that a young person might want to take to become an RSE.(FIXME: also aspirational...)
 
 However, it is worth highlighting that answering the need for more RSEs
@@ -69,8 +69,8 @@ while benefiting from better salaries and working conditions.
 RSEs are valuable members of research teams in academia,
 but the lack of institutional support leads to high turnover
 and difficulties attracting applicants with the right skill set.
-Several institutions have recognized these challenges and are taking steps
-to professionalize RSE profiles and make them more visible via dedicated
+Several institutions have recognised these challenges and are taking steps
+to professionalise RSE profiles and make them more visible via dedicated
 funding programs [@Godoy2022; @DFGResearchSoftwareCall2022;
 @EdinburghRSECollaborationCall2023; @EdinburghRSEFellowshipCall2023]
 or by establishing RSE departments.

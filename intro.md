@@ -27,14 +27,14 @@ bibliography: bibliography.bib
 Being an outcome of a community workshop held in Paderborn, Germany in February 2023 this paper tries
 for the first time(FIXME: ? true?) to define which competencies are required to participate in modern digital sciences.
 Some of these competencies are required in more depth, therefore, giving rise to the trade of the RSE:
-scientific personnel that specializes in writing research software that facilitates work in all stages of the research cycle.
-Due to their generality, these competencies are often shared between RSE specializations,
+scientific personnel that specialises in writing research software that facilitates work in all stages of the research cycle.
+Due to their generality, these competencies are often shared between RSE specialisations,
 and we believe they are also relevant for domains outside of the RSE community.
 
 But knowing a set of competencies is not enough, therefore we discuss explicitly how to make people aware that these skills are
 required and how these are taught(FIXME: Do we want to add this pedagogical dimension?).
 In order to also facilitate structural change in the German research institution landscape
-we will discuss the organizations and structures that support this change and educate new RSEs.
+we will discuss the organisations and structures that support this change and educate new RSEs.
 The discussion in this paper is meant to be general. Therefore, we will discuss domain specific applications in an appendix.
 
 ---
@@ -123,13 +123,13 @@ students and researchers learning the necessary skills to write FAIR software in
 
 In 'Results' we describe the main results of the workshop, namely the set of relevant skills as well as
 the levels of expertise needed in these skills for students and researchers at different career levels.
-Furthermore, we look at different RSE specializations which may additionally need skills not relevant
+Furthermore, we look at different RSE specialisations which may additionally need skills not relevant
 to RSEs of different specialisations.
 The skills themselves belong to one of the three main categories needed to perform RSE tasks.
 Those are the 'R', i.e. an understanding of how research is performed,
 the 'SE', i.e. writing and maintaining reusable software, as well as team skills.
 
-'Organizational Infrastructures' focuses on changes that are required to at best support
+'Organisational Infrastructures' focuses on changes that are required to at best support
 the training of new RSEs.
 
 FIXME (finalization): Exchange chapter titles by numbers?
@@ -179,7 +179,7 @@ growing from funding bodies to prioritise projects that generate archived,
 annotated, re-usable and potentially remotely executable data. These resources
 and requirements fall within the skill set of RSEs. They become a vital link to
 cross-pollinate computational skills and infrastructure know-how between domain
-scientists. Funders and research managers will find the discussion in this paper
+scientists. Funding agencies and research managers will find the discussion in this paper
 valuable in order to observe how software development in academia will be
 institutionalised. Finally, the strong emphasis on team skills allows RSEs to be
 very employable in industrial workplaces.
@@ -209,16 +209,16 @@ RSEs often assume a multifaceted role at the junction of research, software engi
 They work with a varying and diverse set of colleagues that might include other developers,
 support unit staff and academics of different fields and all career stages.
 This situation yields a specific set of challenges RSEs should be aware of
-to consciously make ethically sound judgment calls.
+to consciously make ethically sound judgement calls.
 We list some example areas that could be addressed in RSE courses or workshops.
 
 ### Personal data
 
 Independent from the encoding into the respective national law in an RSE's jurisdiction,
-the right to information privacy is internationally recognized as a fundamental human right,
+the right to information privacy is internationally recognised as a fundamental human right,
 e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988], [@Hirvela2022].
 RSEs need to be aware of this topic's importance
-and deal with tensions that might arise with researchers' desire for frictionless sharing of data.
+and deal with tensions that might arise with researchers' desire for trouble-free sharing of data.
 Handling personal data also has ramifications for information security considerations during the software development process.
 Data protection is a difficult subject and RSEs should notice when they need to consult external expertise for example when dealing with
 special topics such as cryptography or re-identification attacks (e.g. [@Sweeney2002]).
@@ -260,13 +260,13 @@ in Paderborn) brings us to a need of around 6.000 RSEs in Germany. Assuming an e
 and an average time in the RSE workforce of 40 years, yields an average need of around 150 RSEs per year.
 If we assume that half of the workforce is made up by researchers coming from domain specific graduation programs and the other half are properly minted
 RSE graduates this suggests that there is a requirement for around four dedicated RSE education places each producing graduating classes of around 20 persons each year.
-This calculation assumes that RSEs remain within the research community and do not move into industry with their highly transferable skillset.
+This calculation assumes that RSEs remain within the research community and do not move into industry with their highly transferable skill-set.
 While this calculation is only supposed to give a rough ballpark estimate, we note that Germany has 319 places of higher education [@destatis2023].
 Having only three RSEs at each site already gives a requirement of 1000 persons.
 
 ## Identifying skills and pathways
 
-The development of a standardized list of RSE competencies could help develop
+The development of a standardised list of RSE competencies could help develop
 metrics to measure an individual's progression in specific RSE skill sets,
 e.g. using the Software Sustainability Institute's RSE Competencies
 Toolkit [@RSECompetenciesToolkit2023].

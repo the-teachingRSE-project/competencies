@@ -1,5 +1,5 @@
 ---
-title: "Institutionalized Organization of RSE Education"
+title: "Institutionalized Organisation of RSE Education"
 geometry: margin=2.5cm
 author:
   - Heidi Seibold
@@ -32,10 +32,10 @@ required.
 **Keywords**: research software engineering, training, learning, competencies
 
 
-## Organizational Infrastructures
+## Organisational Infrastructures
 So we have defined our set of competencies that we feel every RSE should possess.
 Table 2 above nevertheless already hints at the fact that some RSE skills are required during the domain studies,
-while Table 1 tells us that we also need an ongoing qualification programme for people that want to become specialized RSEs.
+while Table 1 tells us that we also need an ongoing qualification programme for people that want to become specialised RSEs.
 In order to set up a proper educational scheme we need to discuss two more items:
 
 - Who are our teachers?
@@ -47,10 +47,10 @@ There are already some people teaching RSE-related topics, sometimes within univ
 Currently, they often teach in workshop-like formats at research institutions.
 The community discussion shed light on the issues our trainers are faced with nowadays:
 
-- There are outreach issues. We emphasize that there are two dimensions to this: First it is important that we inform students that workshops exist, and then, the more important part, we also need to motivate people to invest the time for a workshop. [@EuroCC2022]
+- There are outreach issues. We emphasise that there are two dimensions to this: First it is important that we inform students that workshops exist, and then, the more important part, we also need to motivate people to invest the time for a workshop. [@EuroCC2022]
 - Adaptation of material to the target audience has been identified as a time-consuming task.
 - Findability of existing open educational resources.
-- Organization and preparation are a challenge, since currently no standardized formats exist.
+- Organisation and preparation are a challenge, since currently no standardised formats exist.
 - Expectation management of students. Existing knowledge of students is often diverse.
 - Language barriers. This can range from the use of technical jargon up to the disparities of you teaching in a foreign language.
 - Setting up a feedback loop that facilitates a reflection of the workshop for the teacher.
@@ -80,23 +80,23 @@ The community discussion brought to light the need for a mixture of people, ther
 the education of aspiring RSEs will involve people from close domain sciences or experienced RSEs
 and people that have respective additional skills to teach RSE competencies to the new generation.
 In that respect, this follows The Carpentries model that offers certifications but is still open to non-certified trainers.
-We highlight and emphasize that, since a topic like RSE education is constantly evolving, trainers strongly require the opportunity and the recognition to educate themselves.
+We highlight and emphasise that, since a topic like RSE education is constantly evolving, trainers strongly require the opportunity and the recognition to educate themselves.
 Therefore our teachers will be sourced from the workplace but there will also be certified RSE Trainers.
 (FIXME: in classical university speak, these would be people who have done their habilitation on that topic, right?)
 Large online learning platforms such as edX [@edx] or Coursera [@coursera] serve as a resource of international teachers, who share their experiences in specific RSE-related topics in webinars.
 These platforms enable the targeted recruitment of academic teachers, including those from leading research institutions.
 
-We propose to create common infrastructures that can be utilized in this ongoing effort to professionalize the RSE education further and to easily share education resources across the country.
-For the ongoing development, from the status quo of available courses and material to generally accepted, unified curriculums, we suggest a centralized online RSE education platform.
+We propose to create common infrastructures that can be utilised in this ongoing effort to professionalise the RSE education further and to easily share education resources across the country.
+For the ongoing development, from the status quo of available courses and material to generally accepted, unified curricula, we suggest a centralized online RSE education platform.
 Such a platform should allow to:
 - collect and adapt available and new teaching material, like written lessons or pre-recorded courses
 - review and evaluate uploaded teaching material
-- compile curriculums from the available material
+- compile curricula from the available material
 - create different variations of a curriculum to fit domain specific or institutional requirements
 - align a curriculum with the requirements of academic credit systems, like the European Credit Transfer and Accumulation System (ECTS) [@ECTS]
 (FIXME: DETAIL ME FURTHER!!!!)
 
-### Organization of teaching
+### Organisation of teaching
 
 #### Certificates
 
@@ -107,7 +107,7 @@ to go through proper courses on these skills instead of learning on the go.
 For certain skills it would also be good for finding jobs outside academia,
 e.g. in industry where certain practices are already state-of-the-art.
 However, these certificates are only helpful if there is a certain level of
-standardization, which would require a central authority or collaboration
+standardisation, which would require a central authority or collaboration
 between multiple stakeholders to decide on contents and allow participating
 institutions to issue these certificates.
 Additionally, it can be excluding capable applicants who already use these
@@ -127,7 +127,7 @@ Course attendance sheets and digital tokens
 are another option (see Appendix: [Micro-accreditation]).
 
 Having certificates provides finally a clear understanding of which tasks an RSE can perform and thereby helps defining the career path and the job description.
-A big demand for specialized RSEs will certainly come from the newly established RSE centers at research institutions that require skilled people to fill their vacant positions.
+A big demand for specialised RSEs will certainly come from the newly established RSE centres at research institutions that require skilled people to fill their vacant positions.
 And using the certificates, the demand can now be satisfied with people offering this skill.
 Some exemplary skills for which courses are already held are version control tools like git, HPC topics like multithreading, MPI and GPU computations, FAIR principles.
 
@@ -140,7 +140,7 @@ dimensions.
 We have discussed who can deliver the necessary skills and the approaches to
 support skills development. Now, in the final section, we want to discuss how the
 RSE can become a natural part of the landscape of professions and which
-steps we need to take to professionalize their education.
+steps we need to take to professionalise their education.
 
 We foresee that the development of RSE skills will rest on two pillars:
 A first qualification phase, possibly through academic structures, giving newcomers
@@ -186,7 +186,7 @@ that can be solved with the RSE specific skills of that domain.
 This gives them a Master's degree of a ${DOMAIN}-RSE that has learnt in their lectures a research domain specific part and a software engineering specific part,
 and enabled them to get a first dip into actual science in their master's thesis.
 Of course special care has to be taken to integrate them at some point in their studies into mature projects
-to expose them to the eperience of senior RSEs and how they approach problems.
+to expose them to the experience of senior RSEs and how they approach problems.
 An example of this \${DOMAIN} - RSE can be found in Appendix: [Bioinformatics skills and certification].
 Of course, the next question for their future is whether a master's degree enables them to really be effective parts of a research group.
 While we accept this is something of a generalisation, we argue that this is most likely not the case since
@@ -218,13 +218,13 @@ Since a certain amount of overlap with sciences is expected, it is expected that
 
 ### Extra-academic institutions for continuous learning
 As elaborated in the instruction the dynamic working place of an RSE requires continuous learning.
-Knowledge-based industries have long recognized the value of qualifying their employees and hence invest time and money into this.
+Knowledge-based industries have long recognised the value of qualifying their employees and hence invest time and money into this.
 We propose institutionalized structures that offer graduates a venue for life-long learning, or to deepen their skills.
-Centralizing this notion in a few institutions has some major benefits for society and industry as well,
+Centralising this notion in a few institutions has some major benefits for society and industry as well,
 since these become central hubs for offering the skills with digital tools.
 The HPC-Akademie [@HPCAkademie] is a good example in the HPC space that offers its services to graduated
 researchers that want to deepen their HPC skills for research or to practitioners that require them for industrial applications.
-Specializing the centres to certain skill sets enables them to effectively reach out into the sciences with their brand.
+Specialising the centres to certain skill sets enables them to effectively reach out into the sciences with their brand.
 With the existence of these resources we believe that their acceptance gradually increases over time.
 The tasks of these centres is facilitated by reusing the work of initiatives like edutrain [@EDUTRAIN] and platforms like DALIA [@DALIA].
 Naturally, other existing structures outside of academia mentioned before like the Carpentries [@Carpentries] can be nicely integrated
@@ -233,13 +233,13 @@ and offered to a broad audience on a regular basis.
 ## How do we reach people in different stages of their careers?
 
 Many current RSEs have found their way to being an RSE during their doctoral studies.
-This transition usually happens slowly. You start programming a tool, and someone else likes it, it becomes known that you have programming skills and suddenly you are the RSE of the group that everyone would like to have in their projects. If you enjoy this role, you need to be aware that there is a RSE career path as well as that specialized training materials exist. One place to generate awareness of the career option and training is universities' doctoral onboarding processes or right thereafter.
-RSE training could be offered as elective courses at universities organized by some central organization. RSE could be presented as a career path in suitable events. Since many RSE-minded people also at some point find their way to an HPC cluster, mailing lists of said clusters could be utilized to advertise RSE courses.
+This transition usually happens slowly. You start programming a tool, and someone else likes it, it becomes known that you have programming skills and suddenly you are the RSE of the group that everyone would like to have in their projects. If you enjoy this role, you need to be aware that there is a RSE career path as well as that specialised training materials exist. One place to generate awareness of the career option and training is universities' doctoral on-boarding processes or right thereafter.
+RSE training could be offered as elective courses at universities organised by some central organisation. RSE could be presented as a career path in suitable events. Since many RSE-minded people also at some point find their way to an HPC cluster, mailing lists of said clusters could be utilised to advertise RSE courses.
 One important aspect to think about is also the wording in documents advertising these resources.
-Potential future RSEs might not know the term yet or know that the course advertised includes topics that are of interest to them. If the university or organization has a GitHub/Lab organization/project, having a banner there might reach the right people. Most important is that people working in IT helpdesks know about the courses offered so that they can advise students/researchers on visiting the course/reviewing the materials if related questions are asked.
+Potential future RSEs might not know the term yet or know that the course advertised includes topics that are of interest to them. If the university or organisation has a GitHub/Lab organisation/project, having a banner there might reach the right people. Most important is that people working in IT help-desks know about the courses offered so that they can advise students/researchers on visiting the course/reviewing the materials if related questions are asked.
 For an RSE it is important to be a part of a network with other RSEs, irrespective of the career level.
 A perfect first step for forming this network is topic-related conferences, workshops or meetups.
-Beyond that, there is the broader RSE community organized at the local and regional level with chapters or local/regional communities, at the national level with societies and the international RSE society.
+Beyond that, there is the broader RSE community organised at the local and regional level with chapters or local/regional communities, at the national level with societies and the international RSE society.
 Each of them offers possibilities for connecting within or beyond an individual institution and is a great way to find like-minded people to grow a wider network and thereby facilitate the sharing of information on interesting events or help each other out.
 This available layered network can greatly benefit the RSE in finding help with issues outside of their own comfort zone
 and provides a welcoming, social safety net providing a home for the RSE. Since we feel providing aspiring RSEs this net
@@ -255,7 +255,7 @@ journal editors rather than RSEs [@ChueHong2013; @ChueHong2014; @Katerbow2018; @
 Scientific journals have the advantage of reaching a large spectrum of
 research scientists at all stages of their career.
 
-Localizing RSE teaching material and RSE information in languages other than English
+Localising RSE teaching material and RSE information in languages other than English
 can help reach a much wider audience by lowering the barrier to entry in the field.
 In 2014 the community behind The Carpentries engaged in an international
 effort to translate their training material into Spanish [@Wilson2014a],
@@ -266,7 +266,7 @@ Likewise, The Programming Historian journal translated RSE lessons [@Sichani2019
 for the digital humanities to Spanish in 2017 (resulting in a 10-fold increase
 in traffic from Spanish-speaking countries [@Crymble2018]),
 French in 2019 [@Papastamkou2019] and Portuguese in 2021 [@Alves2021].
-Similarly, in the period 2015-2017, the Stack Overflow website launched localized
+Similarly, in the period 2015-2017, the Stack Overflow website launched localised
 versions in Portuguese [@StackOverflowPortuguese], Russian [@StackOverflowRussian]
 and Spanish [@StackOverflowSpanish] to reach a wider community.
 There are also RSE short primers [@Astigarraga2022] and
@@ -305,7 +305,7 @@ Foundation for Innovation in Higher Education [@StiftungInnovationHochschullehre
 to reduce skill gaps among first-year university students.
 Likewise, The Carpentries teaching material can be made more modular
 and re-usable in domain-specific contexts to better suit the needs
-of specialized RSEs. Examples include HPC Carpentry [@OCais2020]
+of specialised RSEs. Examples include HPC Carpentry [@OCais2020]
 and Data Carpentry for Biologists [@White2022].
 
 FIXME:
@@ -316,15 +316,15 @@ FIXME:
 Further ideas:
 
 - making RSE best practice guides fun to read with memes or satire [@Balaban2021; @Laginja2022; @Astigarraga2022; @Fehr2021]
-- reducing the skill gap by organizing more inclusive workshops [@McInerney2017; @Akoh2017; @Shelton2017; @NatlAcadSci2022],
+- reducing the skill gap by organising more inclusive workshops [@McInerney2017; @Akoh2017; @Shelton2017; @NatlAcadSci2022],
   to address gender disparities or take into account economic status, cultural background, or special educational needs;
-  peer-reviewing of code of conducts by the CHAOSS Diversity and Inclusion Badging organization [@CHAOSSDEIBadging; @GitHubCHAOSS]
+  peer-reviewing of code of conducts by the CHAOSS Diversity and Inclusion Badging organisation [@CHAOSSDEIBadging; @GitHubCHAOSS]
 - more inclusive RSE-Humanities teaching material [@Crymble2016; @Sichani2019]
 - related discussion in CSE [@Webb2017]
 
 ### Improve findability of open educational resources
 
-Although multiple organizations have published open educational resources for RSEs, in particular for foundational skills, their findability can be significantly improved.
+Although multiple organisations have published open educational resources for RSEs, in particular for foundational skills, their findability can be significantly improved.
 The RSE community of lacks an agreed-upon standard of metadata with which to annotate RSE OER, which would help learners as well as teachers to find suitable resources to satisfy their concerns.
 Building on such annotations, a community agreed-upon registry for RSE OER would additionally improve the situation.
 
@@ -345,13 +345,13 @@ council elections [@CarpentriesInstructorBadges].
 Ireland's Professional Development Framework [@Donnelly2018]
 provides accreditation to higher education teachers who successfully complete
 training on the National Forum's Open Courses via digital badges [@OpenCoursesBadges].
-The Extreme Science and Engineering Discovery Environment organization
+The Extreme Science and Engineering Discovery Environment organisation
 delivers badges to incentivise participation in HPC training events
 [@Kappes2015; @Sale2017]. IBM delivers badges to promote continuous learning and
 provide micro-credentials to its staff and customers [@Leaser2020; @Leaser2019]
 There are 1360 badges as of July 2023 [@IBMBadges]
 and 1 million badges were issued as of July 2018 [@Daniels2018];
-they are recognized by a few academic institutions
+they are recognised by a few academic institutions
 [@NortheasternUniversityIBMBadges; @NCCentralUniversityIBMBadges; @BluefieldIBMBadges]
 and in some cases are convertible to graduate credit [@Leaser2020].
 
@@ -419,7 +419,7 @@ the PerMedCoE competency framework [@Lloret-Llinares2021],
 the Research Data Management and Data Stewardship competence framework [@Demchenko2021]
 and the ELIXIR Data Stewardship Competency Framework for Life Sciences [@Scholtens2019]
 are examples of grassroot efforts aiming at defining the set of skills
-of various bioinformatics specialties,
+of various bioinformatics specialities,
 one of them as a taxonomy [@Mulder2018].
 These frameworks eventually converged into the EMBL-EBI Competency Hub
 [@CompetencyHub; @Lloret-Llinares2022],
@@ -431,7 +431,7 @@ and compared against one another
 (e.g. [Junior vs. Senior RSE](https://competency.ebi.ac.uk/framework/bioexcel/3.0/profiles/compare/10115/10117)).
 
 Competencies can be divided into more fine-grained building blocks:
-knowledge, skills and abilities (KSAs). They can be organized in a taxonomy,
+knowledge, skills and abilities (KSAs). They can be organised in a taxonomy,
 and are also transferable, i.e. a KSA can be a pre-requisite to multiple competencies.
 The Mastery Rubric for Bioinformatics [@Tractenberg2019] and the ELIXIR
 Data Stewardship Competency Framework for Life Sciences [@Scholtens2019]
@@ -440,7 +440,7 @@ are examples of KSA frameworks for bioinformatics curricula.
 The Curriculum Task Force of the International Society for Computational
 Biology (ISCB) curates a database of degrees and certificates
 in bioinformatics [@BioinformaticsCertification; @Mulder2018].
-The database includes Bachelor and Master's degree programs and specializations,
+The database includes Bachelor and Master's degree programs and specialisations,
 Ph.D. programs, and certificates from graduate schools.
 
 ### Digital competencies and certification

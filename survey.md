@@ -45,7 +45,7 @@ In this section, we highlight some of these other projects and activities.
 The day-to-day work of many RSEs often includes teaching activities to improve the RSE-related skill-set of researchers,
 e.g. in university courses, workshops or one-on-one.
 Therefore, RSEs' work often includes the use of as well as the contribution to pertinent teaching material.
-Various organizations and initiatives provide courses and workshops
+Various organisations and initiatives provide courses and workshops
 to convey software-related capabilities aimed at the research community.
 Often they make their training material available as Open Educational Resources
 permitting free access, re-use, adaptation and redistribution.
@@ -53,7 +53,7 @@ The collaborative advancement of these resources in the fast evolving environmen
 of RSE related skills and infrastructure can be further facilitated by putting them under version control.
 For example, core lessons from the Carpentries and CodeRefinery are stored on GitHub,
 and any change is automatically mirrored to their websites.
-The organizations and initiatives listed below provide support for teaching activities conducted by RSEs
+The organisations and initiatives listed below provide support for teaching activities conducted by RSEs
 but are also helpful to fill gaps in the capabilities of professional RSEs.
 
 #### The Carpentries
@@ -75,7 +75,7 @@ of other topics that have not gone through the peer review process of the core l
 The material in the Incubator increasingly includes more intermediate-level training modules.
 After completion of a Carpentry workshop, learners can claim a certificate
 of attendance [@CarpentriesLearnerCertificates].
-Carpentry instructors must be certified before organizing a workshop.
+Carpentry instructors must be certified before organising a workshop.
 There is a selection process [@CarpentriesBecomingInstructor] as well as
 an instructor training course, upon which a certificate is delivered [@Wilson2013a].
 
@@ -86,7 +86,7 @@ e-Infrastructure and thus active primarily in the Nordics with the goal
 of teaching essential tools around research software development,
 that are usually skipped in academic education.
 CodeRefinery hosts a set of open source training materials including
-both beginner and intermediate level material and organizes multiple
+both beginner and intermediate level material and organises multiple
 highly interactive large scale workshops per year.
 Skills learned from the workshops and/or materials allow researchers
 to produce more reproducible, open and efficient software and thus
@@ -111,7 +111,7 @@ version control [@LRZIntroCpp].
 
 As part of its push towards a better RSE environment, the Helmholtz Association
 launched the Helmholtz Federated IT Services platform (HIFIS) [@HIFIS]
-which provides educational material and trainings amongst other services
+which provides educational material and training amongst other services
 for an audience of over 10,000 scientists in Germany and internationally.
 All of these materials focus on RSE basics to refresh and expand the software
 engineering knowledge for recent graduates or to update the existing
@@ -124,7 +124,7 @@ a large network within the Helmholtz Association and beyond with a strong
 focus on graduate schools.
 Further RSE training offers within the Helmholtz context are provided
 by the Helmholtz-AI [@HAI] and Helmholtz-Imaging [@HImaging] platforms
-as well as the Helmholtz Metadata Collaboration plaftorm [@HMC].
+as well as the Helmholtz Metadata Collaboration platform [@HMC].
 
 #### ENCCS
 
@@ -144,7 +144,7 @@ and good scientific practice.
 The targeted education also involves research software engineering.
 As described in its concept [@EduTrain2022], there will be a collaboration
 with "The Carpentries" regarding their lesson program.
-Moreover, the approach of how "The Carpentries" are organized will be adopted.
+Moreover, the approach of how "The Carpentries" are organised will be adopted.
 
 Through the close connection to the DALIA project [@DALIA],
 the NFDI and its section EduTrain will benefit from a knowledge-base
@@ -175,7 +175,7 @@ The [Programming Historian](https://programminghistorian.org/)
 is an open-source, peer-reviewed journal of digital humanities
 edited in English, Spanish, French, and Portuguese.
 It publishes hands-on tutorials on shell, Python,
-and software specialized for digital humanities.
+and software specialised for digital humanities.
 
 ### FAIRness of RSE-related (open) educational resources(OER)
 
@@ -243,12 +243,12 @@ For example, scientists working with HPC may need to know how to
 make effective use of concurrency to speed up their simulations and
 communicate efficiently using message-passing interface (MPI) libraries.
 The same is true for researchers from other domains who make use of
-other specialized technologies, methods and/or tools.
+other specialised technologies, methods and/or tools.
 Organisations such as [The Carpentries] and [CodeRefinery] provide
 extensive introductory training materials and, increasingly some more
 intermediate-level content.
 However, to bridge the gap between introductory and expert-level skills,
-more specialized courses are needed like the ones mentioned in section
+more specialised courses are needed like the ones mentioned in section
 [Identifying skills and pathways] from paper `intro.pdf` for the HPC community.
 
 Moreover, software development is a craft, i.e. it is not only about
@@ -290,7 +290,7 @@ This, in part, is due to a missing (metadata) standard to express these dependen
 
 FIXME:
 - metadata standards: Bioschemas [@Castro2023]
-- survey of 8 OER repositories with non-standardized metadata [@SimaodeDeus2020]
+- survey of 8 OER repositories with non-standardised metadata [@SimaodeDeus2020]
 - OER certification proposal in Austria [@Schon2023]
 - databases: see Appendix section [Directories of resources]
 
