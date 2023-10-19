@@ -33,7 +33,9 @@ Kay chooses digital archaeology and develops a pipeline for reconstructing 3D mo
 The project management skills that are being taught as part of the core RSE curriculum really help her to not get lost in this project.
 Apart from working with the researchers in her archaeology group she has to work with members of the central RSE department to help her with the pipelines. 
 She also has to liaise with the central IT department to organise storage for the large data sets.
-Towards the end of the programme she visits her first RSE conference.
+Towards the end of the programme she visits her first RSE conference where she sees a lot of notions(SWLC, RC) in action that so far have been abstract in her master's degree.
+The exposure to the wider RSE community inspires her to invest additional time into her thesis to publish
+her software project under an OSI-approved license in the open source journal JOSS.
 Kay has now completed the RSE programme and has reached Junior RSE level.
 
 ## Junior RSE
