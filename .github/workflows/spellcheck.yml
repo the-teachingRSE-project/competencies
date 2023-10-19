@@ -24,7 +24,7 @@ jobs:
             # remove header
             sed -i '1,/---/{/^---$/,/^---$/d}' $file
           done
-      - uses: matheus23/md-spellcheck-action@v4.2.2
+      - uses: eschercloudai/md-spellcheck-action@v4.2.2
         with:
           files-to-check: "*.md"
           files-to-exclude: "CONTRIBUTING.md\nREADME.md"
