@@ -294,7 +294,7 @@ its ecosystem of statistics libraries and integrated development environments
 There are also bioinformatics courses designed for high school students that
 cover topics such as pen-and-paper algorithm design, genomic database querying
 and data mining, and open data [@Form2011; @Bain2020], as well as graduate
-courses designed for Master's degrees and Ph.D. programs [@BioinformaticsCertification].
+courses designed for Master's degrees and PhD programs [@BioinformaticsCertification].
 
 Teaching incubators can be leveraged to develop and test new academic curricula
 that introduce basic RSE topics, such as the "Algorithmic Battle"
@@ -441,7 +441,7 @@ The Curriculum Task Force of the International Society for Computational
 Biology (ISCB) curates a database of degrees and certificates
 in bioinformatics [@BioinformaticsCertification; @Mulder2018].
 The database includes Bachelor and Master's degree programs and specialisations,
-Ph.D. programs, and certificates from graduate schools.
+PhD programs, and certificates from graduate schools.
 
 ### Digital competencies and certification
 

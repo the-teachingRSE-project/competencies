@@ -72,7 +72,7 @@ findable
 FIXME
 Fogel
 Forschung
-Fortran
+FORTRAN
 franca
 FutureUniversity
 genomic
@@ -92,7 +92,7 @@ HPC-Akademie
 HPC-oriented
 HTC
 IDEs
-Ing
+NFDI4Ing
 INTERSECTOnlineResources
 ISCB
 Isik

@@ -239,7 +239,7 @@ in the form of massive open online courses (MOOCs), online and on-site training
 events at European HPC facilities (aggregated on various websites, e.g. EuroCC
 Training [@EuroCCTraining]), and white papers. While most training events are
 tailored for HPC-RSE, several recurring courses about programming languages
-(C++, Fortran, Python) are suitable for general RSEs, as they teach coding
+(C++, FORTRAN, Python) are suitable for general RSEs, as they teach coding
 best practices, modern software design [@LRZModernCpp], project management and
 version control [@LRZIntroCpp].
 
@@ -1169,4 +1169,4 @@ The Curriculum Task Force of the International Society for Computational
 Biology (ISCB) curates a database of degrees and certificates
 in bioinformatics [@BioinformaticsCertification; @Mulder2018].
 The database includes Bachelor and Master's degree programs and specialisations,
-Ph.D. programs, and certificates from graduate schools.
+PhD programs, and certificates from graduate schools.
