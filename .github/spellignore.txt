@@ -136,7 +136,8 @@ BioExcel
 BIOEXCEL-FRAMEWORK
 KDL-CAREERS
 OpenScience
-lingua franca
+lingua
+franca
 APIs
 cybersecurity
 digitalization
@@ -160,4 +161,10 @@ Zenodo
 RDM
 genomic
 CHAOSS
+aspirational like inspirational
+executables
+RTPs
+LLM
+LLMs
+sth
 

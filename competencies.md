@@ -1,3 +1,35 @@
+---
+title: "Foundational Competencies and Responsibilities of a Research Software Engineer"
+geometry: margin=2.5cm
+author:
+  - Heidi Seibold
+  - Florian Goth
+  - Jan Linxweiler
+  - Jan Philipp Thiele
+  - Jeremy Cohen
+  - Renato Alves
+  - Samantha Wittke
+  - Jean-Noël Grad
+  - Fredo Erxleben
+  - Magnus Hagdorn
+  - Harald von Waldow
+  - Moritz Schwarzmeier
+  - Matthias Braun
+  - Simon Christ
+output:
+  pdf_document:
+    citation_package: biblatex
+    toc: true
+    number_sections: true
+bibliography: bibliography.bib
+header-includes:
+    - \usepackage{pdflscape}
+    - \usepackage{multirow}
+    - \usepackage{array}
+    - \usepackage{longtable}
+    - \newcommand{\blandscape}{\begin{landscape}}
+    - \newcommand{\elandscape}{\end{landscape}}
+---
 **Abstract**:
 The term Research Software Engineer, or RSE,
 emerged a little over 10 years ago as a way to represent
@@ -144,8 +176,8 @@ and discusses the level of skill needed to work in each of them,
 before we conclude the paper with a summary.
 
 Finally, the appendix provides an example curriculum
-and lists existings skills and certifications in related fields
-like bioinfomatics.
+and lists existing skills and certifications in related fields
+like bioinformatics.
 
 While this paper is based on the workshop discussions that were attended largely by Research Software Engineers,
 we believe that the competencies formulated here have a far-reaching
@@ -370,7 +402,7 @@ systems.
 ### Understanding the software lifecycle (SWLC)
 
 The traditional software lifecycle defines the stages that form the process of building a piece of software.
-This generally involves a creative process where requirements are gathered and analysed, a plan to fullfill them is formulated and then implemented.
+This generally involves a creative process where requirements are gathered and analysed, a plan to fulfil them is formulated and then implemented.
 This is then followed by testing that things work as expected and that they continue to do so into the future.
 We emphasize that the lifecycle is not complete here but also includes periods of maintaining a software
 and also withdrawing software from its original use.
@@ -547,7 +579,7 @@ Beyond that, we feel that today other important tasks of RSEs are
 # How much do different people need to know?
 
 Now that we have the different competencies, we can explore various dimensions of these competencies,
-depending on their circumstances. A strong beneficiary of specialized RSEs can also be newly formed RSE centers at research institutions.
+depending on their circumstances. A strong beneficiary of specialized RSEs can also be newly formed RSE centres at research institutions.
 
 ## Career level
 
@@ -577,8 +609,8 @@ The following table elaborates on the required facets of the competencies in dif
 | DOMREP  | The RSE should be able to interact with the domain repository                                                                 | same as junior RSE                                                                                                                    | same as junior, and should know about how it fits into workflows surrounding these domain repositories                                                     |
 | USERS   | The RSE should be able to communicate with non-SE users of the project                                                        | same as junior                                                                                                                        | same as junior, and take feedback into account of the steering                                                                                             |
 | TEACH   | should be able to perform simple peer-to-peer onboarding tasks                                                                | should be able to explain logical components to other RSEs                                                                            | Should be able to effectively communicate about all large-scale parts of the project.                                                                      |
-| PM      | Awareness about the employed project managemement method                                                                      | Should be able to use the employed PM method                                                                                          | Should be able to design and adapt the employed PM method.                                                                                                 |
-| TEAM    | Should be able to work in the team in order to effectively fulfill the given tasks. Should be able to learn from code review. | Should be able to break down tasks into more easily digestable sub-tasks                                                              | Should be able to lead the team and set the respective direction.                                                                                          |
+| PM      | Awareness about the employed project management method                                                                      | Should be able to use the employed PM method                                                                                          | Should be able to design and adapt the employed PM method.                                                                                                 |
+| TEAM    | Should be able to work in the team in order to effectively fulfil the given tasks. Should be able to learn from code review. | Should be able to break down tasks into more easily digestible sub-tasks                                                              | Should be able to lead the team and set the respective direction.                                                                                          |
 
 \elandscape
 
@@ -769,14 +801,14 @@ to and support them. We first summarise the meaning of each of the columns in th
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     NEW&
-    An individual's curiousity has now to be shared between the research
+    An individual's curiosity has now to be shared between the research
       goal and the software project, therefore learning new methods and
       skills may be challenging and is often not the core aim.&
     RSE teams should support their team members, especially when working
       individually on a project, to explore new tools and approaches,
       make relevant contacts and learn more about the research in the project domain.&
     Likely to be an area of interest for an embedded development team
-      but if they are researchers, they defintely have curiosity in their domain.
+      but if they are researchers, they definitely have curiosity in their domain.
       A curiosity for tools would be appreciated.&
     As per Individual (RSE team).&
     Organizations should reach out to relevant groups locally to help share
@@ -845,7 +877,7 @@ to and support them. We first summarise the meaning of each of the columns in th
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     TEACH&
-    May be independenly involved in training activites.&
+    May be independently involved in training activities.&
     May be able to support researchers with core technical skills.&
     Sharing knowledge and skills within their group - peer support.&
     Often support teaching more widely, either through organised courses
@@ -909,7 +941,7 @@ while other RSEs might expand their skill set and profession to areas, that are 
 #### OpenScience RSE
 Open Science and FAIRness of Data and Software are increasingly important topics in research,
 as exemplified by the demand of an increasing amount of research funding agencies requiring openness.
-Hence an RSEs is required that has a deepened knowledge in (RC) and how to distribute software publicy(SRU, SP), the Open Science RSE.
+Hence an RSEs is required that has a deepened knowledge in (RC) and how to distribute software publicly(SRU, SP), the Open Science RSE.
 Open Science RSEs can help researchers navigate the technical questions that come up
 when practicing Open Science, such as "How do I make my code presentable?",
 "What do I need to do to make my software FAIR?", or
@@ -937,7 +969,7 @@ Research focused specializations
 -->
 
 #### ${DOMAIN}-RSE
-While software is the lingua franca of all RSEs there will be RSEs that have specialized in the initricacies of one particular research domain,
+While software is the lingua franca of all RSEs there will be RSEs that have specialized in the intricacies of one particular research domain,
 such as medical RSEs, digital humanities RSEs or physics RSEs.
 
 #### Data-focused RSE
@@ -968,8 +1000,8 @@ The constantly evolving software environment can hinder or prevent reproducibili
 In this changing environment, a significant amount of effort in (research) software development
 needs to be spent on maintenance to ensure that software remains useful or even installable.
 With regard to which additional competency is required,
-these are people having experience with ancient software stacks that are not part of the general curricula anymore (think of COBOL and FORTRAN).
-Another skillset required is (automated) testing.
+these are people having experience with ancient software stacks that are not part of the general curricula any more (think of COBOL and FORTRAN).
+Another skill-set required is (automated) testing.
 
 #### HPC-RSE
 
@@ -1015,7 +1047,7 @@ Therefore a deep knowledge of web skills is a required additional skill for this
 #### Legal-RSE
 All RSEs are a go-to person for questions about licensing, mixing and matching of software.
 But with the rising requirements from legislation,
-we foresee the need for RSEs that still ahve a background in RSE but extend it with a knowledge of legal processes, that covers corner cases and goes beyond applying Best Practice guides.
+we foresee the need for RSEs that still have a background in RSE but extend it with a knowledge of legal processes, that covers corner cases and goes beyond applying Best Practice guides.
 These requirements may arise in the area of publication of research software,
 as this also requires knowledge about particular laws or regulatory frameworks concerning data protection,
 like the GDPR within the EU [@GDPR].
@@ -1036,7 +1068,7 @@ Soon the proto RSE is known to have programming skills and is sought after to jo
 The researcher is now well on the way of becoming an RSE.
 If they enjoy this role and would like to take it further they need to know that there is an RSE career path as well as that specialized training materials exist.
 Beyond that, for an RSE it is important to be a part of a network with other RSEs, irrespective of the career level.
-A perfect first step for forming this network is topic-related conferences, workshops or meetups.
+A perfect first step for forming this network is topic-related conferences, workshops or meet-ups.
 Beyond that, there is the broader RSE community organized at the local and regional level with chapters or local/regional communities, at the national level with societies and the international RSE society.
 Each of them offers possibilities for connecting within or beyond an individual institution and is a great way to find like-minded people to grow a wider network and thereby facilitate the sharing of information on interesting events or help each other out.
 This available layered network can greatly benefit the RSE in finding help with issues outside of their own comfort zone
@@ -1075,7 +1107,7 @@ an education based on it highly attractive to young people.
 At an institutional level, research performing organizations have a growing
 interest to foster RSE training to support the use of FAIR data and FAIR software in the academic world,
 a direction determined by new incentives created by scientific journals and librarians.
-How we update exisiting institions and set up new ones
+How we update existing institutions and set up new ones
 that provide this education will be the topic of a follow-up paper.
 
 # Appendix
