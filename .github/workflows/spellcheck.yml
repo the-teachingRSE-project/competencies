@@ -15,7 +15,12 @@ jobs:
         run: |
           for file in "*.md"
           do
+            # references
             grep -P -oh -e "(?<=@)[A-Za-z]+" $file >> .github/spellignore.txt
+            # latex commands
+            grep -P -oh -e "(?<=\)[A-Za-z]+" $file >> .github/spellignore.txt
+            # RSE compositions
+             grep -P -oh -e "[\w-]*RSE[\w-]*" $file | sort | uniq >> .github/spellignore.txt
             # remove header
             sed -i '1,/---/{/^---$/,/^---$/d}' $file
           done
