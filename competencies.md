@@ -1,35 +1,3 @@
----
-title: "Foundational Competencies and Responsibilities of a Research Software Engineer"
-geometry: margin=2.5cm
-author:
-  - Heidi Seibold
-  - Florian Goth
-  - Jan Linxweiler
-  - Jan Philipp Thiele
-  - Jeremy Cohen
-  - Renato Alves
-  - Samantha Wittke
-  - Jean-Noël Grad
-  - Fredo Erxleben
-  - Magnus Hagdorn
-  - Harald von Waldow
-  - Moritz Schwarzmeier
-  - Matthias Braun
-  - Simon Christ
-output:
-  pdf_document:
-    citation_package: biblatex
-    toc: true
-    number_sections: true
-bibliography: bibliography.bib
-header-includes:
-    - \usepackage{pdflscape}
-    - \usepackage{multirow}
-    - \usepackage{array}
-    - \usepackage{longtable}
-    - \newcommand{\blandscape}{\begin{landscape}}
-    - \newcommand{\elandscape}{\end{landscape}}
----
 **Abstract**:
 The term Research Software Engineer, or RSE,
 emerged a little over 10 years ago as a way to represent

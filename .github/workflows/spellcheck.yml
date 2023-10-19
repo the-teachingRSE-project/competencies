@@ -11,6 +11,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: "populate spellignore"
+        run: |
+          for file in "*.md"
+          do
+            grep -P -o -e "(?<=@)[A-z]+" $file >> .github/spellignore.txt
+            # remove header
+            sed -i '1,/---/{/^---$/,/^---$/d}' $file
+          done
       - uses: matheus23/md-spellcheck-action@v4.2.2
         with:
           files-to-check: "*.md"
