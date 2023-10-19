@@ -1110,7 +1110,7 @@ an education based on it highly attractive to young people.
 At an institutional level, research performing organizations have a growing
 interest to foster RSE training to support the use of FAIR data and FAIR software in the academic world,
 a direction determined by new incentives created by scientific journals and librarians.
-How we update exisiting institions and set up new ones
+How we update existing institions and set up new ones
 that provide this education will be the topic of a follow-up paper.
 
 # Appendix
