@@ -117,6 +117,9 @@ Upon these values we identify core competencies that support effective participa
 in digital research.
 These competencies draw upon skills from traditional software engineering practice,
 established research culture and the commitment to being part of a team.
+While there is anecdotal evidence, that academic software engineering practitioners
+would have chosen different competencies, we will argue that this trifecta of skills
+is exactly what is needed for modern digital research.
 
 Depending on the national research
 environments and processes that readers are familiar with, notion of the terms *software* and *research* might differ. Therefore, to avoid ambiguities, we provide definitions for these in the following:
