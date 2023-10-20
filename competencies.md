@@ -399,7 +399,7 @@ The RSE should be able to create building blocks from source code that are
 reusable. This ranges from simple libraries of functions up to complex
 architectures consisting of multiple software packages. An important part of
 reusability is that at least oneself, and ideally others, are able to understand
-what a piece of code aims to do and how to use the provided functionality. This
+what a piece of software aims to do and how to enable others to use the provided functionality. This
 is primarily achieved through a "clean" implementation and enhanced by
 documentation. Documentation ranges from commenting code blocks to using
 documentation (building) tools.
@@ -976,7 +976,15 @@ a vital role in improving the quality research software.
 They need to have a good understanding of all RSE competencies relevant to their domain and
 additionally should have experience or training in the educational field.
 
+
+#### User Interface/User Experience Designers for Research Software
+Scientific software is a complex product that often needs to be refined in order to be usable even by other scientists.
+To facilitate this, there are people required that specialise into the (DOCBB) and probably the (LIBS) competency
+with a focus to make end-user facing software really reusable and hence FAIR. 
+This task is supported by strong (MOD) skills to reason about the behaviour of potential users of a software.
+
 ### Specialisations outside the core RSE competencies
+
 
 <!--
 Research focused specialisations
@@ -1017,7 +1025,7 @@ With regard to which additional competency is required,
 these are people having experience with ancient software stacks that are not part of the general curricula any more (think of COBOL and FORTRAN).
 Another skill-set required is (automated) testing.
 
-#### HPC-RSE
+#### High Performance Computing (HPC) - RSE
 
 RSEs with a focus on High Performance Computing (HPC) have specialist knowledge
 about programming models that can be used to efficiently undertake large-scale
@@ -1044,7 +1052,7 @@ and can assist domain scientists who have excellent command of scripting languag
 but only a cursory understanding of compiled languages get up to speed with
 compiled software.-->
 
-#### ML-RSE
+#### Machine Learning(ML) - RSE
 The development of research software based on machine learning (ML) requires specialised theoretical background and experienced handling of appropriate software in order to produce meaningful results.
 This involves knowledge about data analysis and feature engineering, metrics that are involved in ML, ML algorithm selection and cross validation, and knowledge in mathematical optimisation methods and statistics.
 ML-RSEs analyse and check the suitability of an algorithm if it fulfils the needs of a certain task and they play a main role in deciding and selecting machine learning libraries for a given task.
