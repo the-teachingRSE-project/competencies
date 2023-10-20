@@ -103,7 +103,7 @@ RSEs share a set of core skills that are required to write software, understand
 the research environment and ensure that they produce sustainable, maintainable
 code that supports reproducible research outputs.
 
-The need to access both research data and software has been formalised with the
+The need to access, both research data and software, has been formalised with the
 FAIR principles: software and data need to be easily findable by both people and
 machines, and they also need to be accessible, interoperable and reusable. More
 recently the FAIR principles have been extended specifically to research
@@ -117,9 +117,13 @@ Upon these values we identify core competencies that support effective participa
 in digital research.
 These competencies draw upon skills from traditional software engineering practice,
 established research culture and the commitment to being part of a team.
+While there is anecdotal evidence, that academic software engineering practitioners
+would have chosen different competencies, we will argue that this trifecta of skills
+is exactly what is needed for modern digital research.
 
 Depending on the national research
-environments and processes that readers are familiar with, notion of the terms *software* and *research* might differ. Therefore, to avoid ambiguities, we provide definitions for these in the following:
+environments and processes that readers are familiar with, notion of the terms *software* and *research* might differ.
+Therefore, to avoid ambiguities, we provide definitions for these in the following:
 
 **Software**: As software, we define source code, documentation, tests
 and all other artifacts that are created by humans during the development process
@@ -175,7 +179,8 @@ Section 5 provides a list of RSE specialisations
 and discusses the level of skill needed to work in each of them,
 before we conclude the paper with a summary.
 
-Finally, the appendix provides an example curriculum
+Finally, the appendix provides an example curriculum,
+an example career path for an RSE through the hierarchy,
 and lists existings skills and certifications in related fields
 like bioinfomatics.
 
@@ -589,7 +594,7 @@ At different career levels, differing skills are required. We have set this up a
 - Senior RSE: They have gained experience and can set the standards in the software project.
 - Principal RSE: Their actual job description varies a lot. These may be RSE team leaders based in a professional services type role, or they may be professors or research group leaders based in a more academic-focused role. They are often the people responsible for bringing in the money that supports new projects and sustains existing projects. Generally speaking, they do not need to to be actively involved in the day-to-day technical tasks but they should be able to guide projects from both a technical and a research perspective.
 
-The following table elaborates on the required facets of the competencies in different roles.
+The following table elaborates on the required facets of the competencies in different roles. An example progression through the hierarchies can be found in the appendix.
 
 \blandscape
 \small
@@ -701,7 +706,8 @@ of developers is based locally within a research team or department,
 or when they are based in a dedicated RSE team.
 We also look at organizational aspects in the context of each of the considered
 competencies since there are a variety of ways that organizations can contribute
-to and support them. We first summarise the meaning of each of the columns in the table:
+to and support them. Some of them are brought to life in the example career path of the appendix.
+We first summarise the meaning of each of the columns in the table:
 
 - **Competency:** The code assigned to the competency being considered.
   See the list in **[Table ?????]**.
@@ -1084,6 +1090,15 @@ Qualification badges are another venue, that RSEs to find people with the same t
 Structuring and institutionalizing the education and structures for the add-on courses that are also open to others in academia,
 will be topics of a follow-up paper.
 
+## future
+Applications of them in an individual's career can be found in the appendix.
+An omission that we'd like to highlight is that RSEs that choose explicitely
+a science supporting role outside of research will not be eligible
+for funding under the statutes of a lot of funding organisations that require a PhD at minimum.
+To alleviate that and give RSEs in leadership positions a means
+to become eligible for funding themselves we propose the introduction of a "science enabling doctor"
+that can be handed out on an honorary basis by certain institutions.
+
 # Conclusion and Outlook
 
 This paper started from a community workshop at deRSE23 in Paderborn
@@ -1113,7 +1128,7 @@ an education based on it highly attractive to young people.
 At an institutional level, research performing organizations have a growing
 interest to foster RSE training to support the use of FAIR data and FAIR software in the academic world,
 a direction determined by new incentives created by scientific journals and librarians.
-How we update exisiting institions and set up new ones
+How we update existing institutions and set up new ones
 that provide this education will be the topic of a follow-up paper.
 
 # Appendix
@@ -1122,7 +1137,66 @@ that provide this education will be the topic of a follow-up paper.
 
 ## An example of a possible career path
 
-- We can follow Kim, who has been the protagonist of the original deRSE Paper.
+### Intro
+
+Meet Kay, Kim's younger sister [@Anzt2020] who currently studies researchology in a Bachelor programme in the established domain of researchonomy at University of Orithena (UofO).
+We will follow Kay’s fictional career to illustrate how education, job-experience and a career in academic institutions could lead to becoming a successful RSE.
+In Kay’s world, some of the measures this paper proposes have already been implemented.
+
+### Bachelor
+
+Through a program like DaLiJe or The Missing Semester [@Athalye2023],
+Kay learns about using computational tools to support the sophisticated statistical analysis typical for researchology.
+She uses those tools to create and automate the production of her Bachelor thesis (generating plots with matplotlib, maybe even CI for automatic building)
+and takes pride in a fully open and reproducible bachelor thesis enabling her to graduate with honours from the faculty of researchonomy.
+
+### Master
+
+Kay ponders whether to continue with computational researchology, which her Bachelor supervisor is responsible for, or enrol in a generic RSE Master programme.
+Researchers in computational researchology need to acquire a large part of the general RSE know-how presented
+in this paper and specialise in Quantum-Accelerated Bayesian Optimisation methods.
+However, Kay decides to go the more generic route of a dedicated RSE programme because she wants to continue in academia,
+but does not like the idea of becoming stuck with one research topic.
+She also observed that the immediate satisfaction gained by helping colleagues from her research group with tricky technical
+problems makes her happier than the subdued sense of achievement from having a research paper accepted long after she had written it.
+
+The generic RSE Master programme consists of a core of RSE topics with various electives for specialisation.
+Kay chooses digital archaeology and develops a pipeline for reconstructing 3D models from ground penetrating radar data, to simplify the process for archaeologists (Reproducibility, Big Data, ML).
+The project management skills that are being taught as part of the core RSE curriculum really help her to not get lost in this project.
+Apart from working with the researchers in her archaeology group she has to work with members of the central RSE department to help her with the pipelines.
+She also has to liaise with the central IT department to organise storage for the large data sets.
+Towards the end of the programme she visits her first RSE conference where she sees a lot of notions(SWLC, RC) in action that so far have been abstract in her master's degree.
+The exposure to the wider RSE community inspires her to invest additional time into her thesis to publish
+her software project under an OSI-approved license and wrote an accompanying article in the open source journal JOSS[@JOSS].
+Kay has now completed the RSE programme and has reached Junior RSE level.
+
+### Junior RSE
+
+Kay finds a position in the central RSE department at her university with a competitive IT salary.
+Although the contract is temporary there is a good chance that it will lead to a permanent position.
+Kay completes the Software Carpentry Instructor training and teaches basic research computing,
+while advising fellow students of her department on better programming (DOCBB and MOD skill)
+She also runs a seminar in the RSE Master programme. She publishes a condensed version of that in JOSE[@JOSE].
+During her teaching duties, she becomes aware of a new project in her department that requires a community managing RSE
+and she gladly signs to focus more on her communication skills.
+After two years she takes an exciting opportunity to work in another university.
+
+### Senior RSE
+
+The new position involves taking responsibility for the RSE related aspects of a large inter-organisational project involving different organisations.
+With her new responsibilities comes a shift in the importance of various aspects of her work.
+Having this position in an inter-organisational project places far more emphasis on communication skills.
+She is spending time teaching people(TEACH skill) to onboard them into the project.
+There is a lot of interaction with different stakeholders to the project like funders and user groups(USERS skill).
+And to keep track of where the project is going and how to distribute her time she leverages Kanban boards (PM skills).
+Her work so far has already been heavy on (TEAM) skills, but now also the leadership aspect comes into play.
+The job experience as a leading RSE for a large project was the last requirement necessary to be awarded the "Science Enabling Doctor" from an
+institutionalised centre of RSE education, recognising her track record of valuable software contributions, and her specialised experience in
+leading and mentoring people. Some personal choices in her career made the traditional route of doing a Dr.-Ing. inconvenient.
+These doctoral degrees are of course recognised by various funding agencies, such as the DFG, and hence enables RSEs that have chosen to not follow a research focused
+career path to act as a Principal Investigator for RSE-focused grant applications.
+Kay can now write her own grant proposals to effectively fund work of moving software projects from prototypes to infrastructure.
+
 
 ## HPC skills and certification
 
