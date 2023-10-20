@@ -1097,7 +1097,7 @@ Having the competencies is a first step to finding common ground around which to
 curricula, institutions, and teachers in this framework.
 Applications of them in an individual's career can be found in the appendix.
 An omission that we found and that we would like to highlight in order to spark a community discussion,
-is that RSEs that choose explicitely a science supporting role outside of research will not be eligible
+is that RSEs that choose explicitly a science supporting role outside of research will not be eligible
 for funding under the statutes of a lot of funding organisations that require a PhD at minimum.
 To alleviate that and give RSEs in leadership positions a means
 to become eligible for funding themselves we propose the introduction of a "science enabling doctor"
