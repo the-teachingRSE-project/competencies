@@ -420,7 +420,7 @@ This generally involves a creative process where requirements are gathered and a
 This is then followed by testing that things work as expected and that they continue to do so into the future.
 We emphasise that the life-cycle is not complete here but also includes periods of maintaining a software
 and also withdrawing software from its original use.
-The RSE should be aware of this lifecycle 
+The RSE should be aware of this life-cycle 
 and be able to predict and cater to the changing needs of software as it moves through the stages.
 
 
