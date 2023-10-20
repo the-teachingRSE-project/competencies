@@ -404,13 +404,16 @@ handling/documenting dependencies with other packages/libraries. It sometimes
 requires knowledge of using build systems to enable interoperability with other
 systems.
 
-### Understanding the software lifecycle (SWLC)
+### Adapting to the software lifecycle (SWLC)
 
 The traditional software lifecycle defines the stages that form the process of building a piece of software.
 This generally involves a creative process where requirements are gathered and analysed, a plan to fullfill them is formulated and then implemented.
 This is then followed by testing that things work as expected and that they continue to do so into the future.
 We emphasize that the lifecycle is not complete here but also includes periods of maintaining a software
 and also withdrawing software from its original use.
+The RSE should be aware of this lifecycle 
+and be able to predict and cater to the changing needs of software as it moves through the stages.
+
 
 ### Use repositories (SWREPOS)
 
