@@ -1082,26 +1082,26 @@ Structuring and institutionalizing the education and structures for the add-on c
 will be topics of a follow-up paper.
 
 # Future Work
-Having the competencies is a first step to find common ground around which to structure 
-curricula, institutions, and teachers in these structures.
-Therefore a diverse set of publications is already in the making.
-Next, we will work on how to institutionalize education.
-Here we will detail how we organize our institutions and what qualifications our teachers
-have to possess in order to effectively communicate our values.
-We will put forward ideas on how to build up bachelors and master's program,
+Having the competencies is a first step to finding common ground around which to structure 
+curricula, institutions, and teachers in this framework.
+Therefore, a diverse set of publications is already in the making.
+Next, we will work on how to institutionalise education.
+Here we will detail how we organise our institutions and what qualifications our teachers
+need to have in order to effectively communicate our values.
+We will put forward ideas on how to build up bachelors and master's programmes,
 of which a glimpse can already be found in this paper's appendix.
 We will show how we intend to provide the necessary continuous education for RSEs after graduation.
 This publication is again intentionally free of regional specifics, to also serve
 as a blueprint that other national RSE societies can build upon.
-Another important block is to provide people with online resources for use in their
+Another important building block is to provide people with online resources for use in their
 courses. This is the  intention of the so-called "survey-publication".
 This work will not be carried out as a traditional publication, but
 this survey of existing resources will be made available as a
 continuously evolving online resource.
 And finally, we will formulate the call to action - building on the previous 
 publication on the necessary institutions,
-to lay down what is required to at best support the continuous need
-for young RSEs to support digital science in specifically Germany.
+to lay down what is required to best support the continuous need
+for young RSEs to support digital science specifically in Germany.
 
 # Conclusion and Outlook
 
