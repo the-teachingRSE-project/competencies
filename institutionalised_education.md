@@ -226,7 +226,7 @@ The HPC-Akademie [@HPCAkademie] is a good example in the HPC space that offers i
 researchers that want to deepen their HPC skills for research or to practitioners that require them for industrial applications.
 Specialising the centres to certain skill sets enables them to effectively reach out into the sciences with their brand.
 With the existence of these resources we believe that their acceptance gradually increases over time.
-The tasks of these centres is facilitated by reusing the work of initiatives like edutrain [@EDUTRAIN] and platforms like DALIA [@DALIA].
+The tasks of these centres is facilitated by reusing the work of initiatives like EduTrain [@EDUTRAIN] and platforms like DALIA [@DALIA].
 Naturally, other existing structures outside of academia mentioned before like the Carpentries [@Carpentries] can be nicely integrated
 and offered to a broad audience on a regular basis.
 
@@ -248,9 +248,8 @@ Qualification badges are another venue, that RSEs to find people with the same t
 
 Short primers on RSE skills, infrastructure and good coding practices
 can be found in field-specific scientific articles and conference proceedings,
-such as [@Roberts1969; @Baxter2006; @Prlic2012; @Leprevost2014; @Wilson2014c;
-@Stodden2014; @Crusoe2016; @Crick2017; @Fehr2021; @Grossfield2022], some of
-which are specifically tailored to group leaders, institutions and scientific
+such as [@Roberts1969; @Baxter2006; @Prlic2012; @Leprevost2014; @Wilson2014c; @Stodden2014; @Crusoe2016; @Crick2017; @Fehr2021; @Grossfield2022],
+some of which are specifically tailored to group leaders, institutions and scientific
 journal editors rather than RSEs [@ChueHong2013; @ChueHong2014; @Katerbow2018; @Strasser2022].
 Scientific journals have the advantage of reaching a large spectrum of
 research scientists at all stages of their career.

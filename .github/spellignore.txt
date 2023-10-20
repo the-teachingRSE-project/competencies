@@ -13,6 +13,7 @@ bioinformatics
 Bioschemas
 Braunschweig
 BSSW
+CASTIEL
 Carpentries
 CarpentriesData
 CarpentriesLibrary
@@ -21,6 +22,7 @@ Center
 CHAOSS
 codebase
 CodeRefinery
+Coursera
 CSE
 cybersecurity
 DALIA
@@ -30,13 +32,16 @@ DFG
 DigComp
 DigCompEdu
 DigCompOrg
+DigiFlex
 digitalization
 DigitalSkillsGap
 distributable
 DMP
 DOCBB
 DOMREP
+ECTS
 EduTrain
+edX
 EMBL-EBI
 ENCCS
 EOR
@@ -57,9 +62,11 @@ Forschung
 FORTRAN
 franca
 funders
+FutureUniversity
 genomic
 GitHub
 GitLab
+GDPR
 GPL
 habilitation
 HAI
@@ -74,6 +81,7 @@ HTC
 IDEs
 Ing
 ISCB
+JOSS
 JU
 Kanban
 KDL-CAREERS
@@ -86,6 +94,7 @@ LLMs
 LRZIntroCpp
 LRZModernCpp
 matplotlib
+MATSE
 MOOCs
 MPI
 multicore
@@ -93,6 +102,7 @@ multithreading
 NFDI
 NFDI4Ing
 numpy
+OECD
 OER
 OpenScience
 Orithena
@@ -100,7 +110,6 @@ OSI-approved
 Paderborn
 pdf
 PerMedCoE
-Ph
 PRACE
 pre-recorded
 pre-requisite
@@ -111,6 +120,7 @@ RDM-RSE
 repos
 reproducibility
 researchology
+researchonomy
 reusability
 RSE
 RSE's
@@ -120,12 +130,14 @@ SRU
 SSI
 sth
 SureSoft
+SusTrainable
 SWLC
 swrepo
 swrepos
 SWREPOS
 SysOps
 TeSS
+TrainingMaterial
 UofO
 US-RSE
 WIP

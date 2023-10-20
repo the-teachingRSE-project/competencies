@@ -71,8 +71,7 @@ but the lack of institutional support leads to high turnover
 and difficulties attracting applicants with the right skill set.
 Several institutions have recognised these challenges and are taking steps
 to professionalise RSE profiles and make them more visible via dedicated
-funding programs [@Godoy2022; @DFGResearchSoftwareCall2022;
-@EdinburghRSECollaborationCall2023; @EdinburghRSEFellowshipCall2023]
+funding programs [@Godoy2022; @DFGResearchSoftwareCall2022; @EdinburghRSECollaborationCall2023; @EdinburghRSEFellowshipCall2023]
 or by establishing RSE departments.
 For the sake of completeness, we also would like to mention challenges that relate to the topic covered but are out of scope and would be subject of separate more in-depth considerations.
 

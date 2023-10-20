@@ -3,8 +3,6 @@ on:
   workflow_dispatch:
   pull_request:
   push:
-    branches:
-      - main
 
 jobs:
   spellcheck:
@@ -15,8 +13,10 @@ jobs:
         run: |
           for file in "*.md"
           do
-            # references
-            grep -P -oh -e "(?<=@)[A-Za-z]+" $file | sort | uniq >> .github/spellignore.txt
+            # strip citations
+            sed -ri 's/\[@[A-Za-z0-9_ ;@-]+\]//g' $file
+            # strip words that escape the spellchecker allowlist
+            sed -i 's/Dr.-Ing.//g; s/Ph.D.//g; s/M.Sc.//g; s/B.Sc.//g; ' $file
             # latex commands
             grep -P -oh -e "(?<=[\\\\\{])[A-Za-z]+" $file | sort | uniq >> .github/spellignore.txt
             # RSE compositions
@@ -26,6 +26,6 @@ jobs:
           done
       - uses: eschercloudai/md-spellcheck-action@v0.0.2
         with:
-          files-to-check: "competencies.md|call_to_action.md|survey.md|institutionalized_education.md|intro.md"
+          files-to-check: "competencies.md|call_to_action.md|survey.md|institutionalised_education.md|intro.md"
           files-to-exclude: "CONTRIBUTING.md\nREADME.md"
           words-to-ignore-file: .github/spellignore.txt
