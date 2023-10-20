@@ -1,0 +1,33 @@
+name: 'spellcheck'
+on:
+  workflow_dispatch:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  spellcheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: "populate spellignore"
+        run: |
+          for file in "*.md"
+          do
+            # strip citations
+            sed -ri 's/\[@[A-Za-z0-9_ ;@-]+\]//g' $file
+            # strip words that escape the spellchecker allowlist
+            sed -i 's/Dr.-Ing.//g; s/Ph.D.//g; s/M.Sc.//g; s/B.Sc.//g; ' $file
+            # latex commands
+            grep -P -oh -e "(?<=[\\\\\{])[A-Za-z]+" $file | sort | uniq >> .github/spellignore.txt
+            # RSE compositions
+            grep -P -oh -e "[\w-]*RSE[\w-]*" $file | sort | uniq >> .github/spellignore.txt
+            # remove header
+            sed -i '1,/---/{/^---$/,/^---$/d}' $file
+          done
+      - uses: eschercloudai/md-spellcheck-action@v0.0.2
+        with:
+          files-to-check: "competencies.md|call_to_action.md|survey.md|institutionalised_education.md|intro.md"
+          files-to-exclude: "CONTRIBUTING.md\nREADME.md"
+          words-to-ignore-file: .github/spellignore.txt

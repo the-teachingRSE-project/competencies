@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := all
 
-objects := intro.pdf competencies.pdf institutionalized_education.pdf survey.pdf call_to_action.pdf
+objects := intro.pdf competencies.pdf institutionalised_education.pdf survey.pdf call_to_action.pdf
 
 all: $(objects)
 
