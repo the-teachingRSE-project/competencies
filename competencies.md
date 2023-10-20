@@ -1084,14 +1084,34 @@ Qualification badges are another venue, that RSEs to find people with the same t
 Structuring and institutionalizing the education and structures for the add-on courses that are also open to others in academia,
 will be topics of a follow-up paper.
 
-## future
+# Future Work
+Having the competencies is a first step to finding common ground around which to structure 
+curricula, institutions, and teachers in this framework.
 Applications of them in an individual's career can be found in the appendix.
-An omission that we'd like to highlight is that RSEs that choose explicitely
-a science supporting role outside of research will not be eligible
+An omission that we found and that we would like to highlight in order to spark a community discussion,
+is that RSEs that choose explicitely a science supporting role outside of research will not be eligible
 for funding under the statutes of a lot of funding organisations that require a PhD at minimum.
 To alleviate that and give RSEs in leadership positions a means
 to become eligible for funding themselves we propose the introduction of a "science enabling doctor"
 that can be handed out on an honorary basis by certain institutions.
+Beyond having that discussion, a diverse set of publications is already in the making.
+Next, we will work on how to institutionalise education.
+Here we will detail how we organise our institutions and what qualifications our teachers
+need to have in order to effectively communicate our values.
+We will put forward ideas on how to build up bachelors and master's programmes,
+of which a glimpse can already be found in this paper's appendix.
+We will show how we intend to provide the necessary continuous education for RSEs after graduation.
+This publication is again intentionally free of regional specifics, to also serve
+as a blueprint that other national RSE societies can build upon.
+Another important building block is to provide people with online resources for use in their
+courses. This is the  intention of the so-called "survey-publication".
+This work will not be carried out as a traditional publication, but
+this survey of existing resources will be made available as a
+continuously evolving online resource.
+And finally, we will formulate the call to action - building on the previous 
+publication on the necessary institutions,
+to lay down what is required to best support the continuous need
+for young RSEs to support digital science specifically in Germany.
 
 # Conclusion and Outlook
 
