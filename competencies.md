@@ -29,11 +29,12 @@ header-includes:
     - \usepackage{longtable}
     - \newcommand{\blandscape}{\begin{landscape}}
     - \newcommand{\elandscape}{\end{landscape}}
----Applications of them in an individual's career can be found in the appendix.
-An omission that we'd like to highlight is that RSEs that choose explicitely 
+---
+Applications of them in an individual's career can be found in the appendix.
+An omission that we'd like to highlight is that RSEs that choose explicitly
 a science supporting role outside of research will not be eligible
 for funding under the statutes of a lot of funding organisations that require a PhD at minimum.
-To alleviate that and give RSEs in leadership positions a means 
+To alleviate that and give RSEs in leadership positions a means
 to become eligible for funding themselves we propose the introduction of a "science enabling doctor"
 that can be handed out on an honorary basis by certain institutions.
 
@@ -189,7 +190,7 @@ before we conclude the paper with a summary.
 Finally, the appendix provides an example curriculum,
 an example career path for an RSE through the hierarchy,
 and lists existing skills and certifications in related fields
-like bioinfomatics.
+like bioinformatics.
 
 While this paper is based on the workshop discussions that were attended largely by Research Software Engineers,
 we believe that the competencies formulated here have a far-reaching
@@ -1093,7 +1094,7 @@ will be topics of a follow-up paper.
 
 ## future
 Applications of them in an individual's career can be found in the appendix.
-An omission that we'd like to highlight is that RSEs that choose explicitely
+An omission that we'd like to highlight is that RSEs that choose explicitly
 a science supporting role outside of research will not be eligible
 for funding under the statutes of a lot of funding organisations that require a PhD at minimum.
 To alleviate that and give RSEs in leadership positions a means
@@ -1188,7 +1189,7 @@ The new position involves taking responsibility for the RSE related aspects of a
 With her new responsibilities comes a shift in the importance of various aspects of her work.
 Having this position in an inter-organisational project places far more emphasis on communication skills.
 She is spending time teaching people(TEACH skill) to onboard them into the project.
-There is a lot of interaction with different stakeholders to the project like funders and user groups(USERS skill).
+There is a lot of interaction with different stakeholders to the project like funders and user groups (USERS skill).
 And to keep track of where the project is going and how to distribute her time she leverages Kanban boards (PM skills).
 Her work so far has already been heavy on (TEAM) skills, but now also the leadership aspect comes into play.
 The job experience as a leading RSE for a large project was the last requirement necessary to be awarded the "Science Enabling Doctor" from an
