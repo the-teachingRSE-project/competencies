@@ -1,5 +1,5 @@
 ---
-title: "Institutionalized Organisation of RSE Education"
+title: "Institutionalised Organisation of RSE Education"
 geometry: margin=2.5cm
 author:
   - Heidi Seibold
