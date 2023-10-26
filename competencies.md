@@ -1163,7 +1163,7 @@ that provide this education will be the topic of a follow-up paper.
 
 # Appendix
 
-## Research Software Engineering Master's Programme as an Example Curriculum
+## An Example Master's Programme for Research Software Engineering
 
 The target audience for such a master's programme would be students holding a bachelor's degree from
 a domain science, which we will call "home domain" in the following. There is explicitly
@@ -1200,11 +1200,10 @@ for specialisation might, e.g., be HPC engineering/parallel programming, numeric
 web development, data stewardship, AI models/statistics, community management/training.
 
 The programme is finalised with a master's thesis which should be dual-supervised by an
-RSE supervisor and a domain supervisor. The thesis should answer a relevant research
-question from the domain using computational methods. Software development is required,
-and the code is part of the gradable deliverables. The RSE supervisor ensures and grades
-the software craftsmanship aspects of the project. Alternatively, interested candidates might
-also answer a research question from research software engineering research.
+RSE supervisor froma na ctual project, and a domain supervisor.
+The thesis should answer a relevant research question from the domain using computational methods.
+Software development is required, and the code is part of the gradable deliverables.
+The RSE supervisor ensures and grades the software craftsmanship aspects of the project.
 
 ## An example of a possible career path
 ### Intro
