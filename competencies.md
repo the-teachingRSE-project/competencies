@@ -1169,10 +1169,11 @@ The target audience for such a master's programme would be students holding a ba
 a domain science, which we will call "home domain" in the following. There is explicitly
 no restriction on the candidates' home domain, it may be from the STEM disciplines, life
 sciences, humanities or social sciences. Candidates with a bachelor's degree in computer science are also
-explicitly included.
+explicitly included, although we acknowledge that their master's programme should include adaptations
+to make their interaction effective with other domain scientists.
 
 Basic mandatory courses include the following:
-* Introduction to Programming: Students learn at least two languages: Python (because
+* Introduction to programming: Students learn at least two languages: Python (because
   of its prevalence in the scientific communities) and one compiled language.
 * Software Craftsmanship: Unix Shell, Git, Build Systems, Documentation, Packaging, Software Discovery
 * Software Engineering
@@ -1187,9 +1188,10 @@ a domain science. We recommend covering both the candidate's home domain and a n
 Ideally, projects stem from collaborations with scientists within the institution and RSE
 students take the role of a consultant.
 
-As interdisciplinarity plays a key role in RSE work, we recommend that RSEs study introductory
-courses from multiple domain sciences both from within and outside their home domain. This
-enables them to quickly adapt their vocabulary and thinking to other disciplines.
+To emphasize the exposure to domains outside of their bachelor's degree domain,
+we recommend that RSEs also support their non-home-domain project by supporting it with introductory
+courses from this discipline. We support the idea of broadening the interaction with other domains even more.
+This schools their ability to quickly adapt their vocabulary and thinking to other disciplines.
 
 During the Master's programme, students should pick an RSE specialisation from the list in this paper
 and attend additional courses to deepen their knowledge in the field. Example courses
