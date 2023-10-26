@@ -1173,7 +1173,7 @@ explicitly included, although we acknowledge that their master's programme shoul
 to make their interaction effective with other domain scientists.
 
 Basic mandatory courses include the following:
-* Introduction to programming: Students learn at least two languages: students learn at least two languages:
+* Introduction to programming: Students learn at least two languages:
  a language that facilitates prototyping and data processing (e.g., Python or R) and a language for designing complex,
  performance-critical systems (e.g., C/C++)
 * Software Craftsmanship: Unix Shell, Git, Build Systems, Documentation, Packaging, Software Discovery
