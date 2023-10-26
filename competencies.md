@@ -1173,7 +1173,10 @@ explicitly included, although we acknowledge that their master's programme shoul
 to make their interaction effective with other domain scientists.
 In order to give the future RSE the necessary breadth we expect this to be a four semester curriculum.
 
-The curriculum is formed from a combination of modules, some of which are core modules teaching essential skills that must be completed by all students. Other modules introduce more specialized concepts and skills. During the MSc programme, students should pick an RSE specialization from the list in this paper
+The curriculum is formed from a combination of modules,
+some of which are core modules teaching essential skills that must be completed by all students.
+Other modules introduce more specialized concepts and skills.
+During the MSc programme, students should pick an RSE specialization from the list in this paper
 and attend these additional modules to deepen their knowledge in the field.
 
 Core modules include the following:
@@ -1187,8 +1190,9 @@ Core modules include the following:
 * Interdisciplinary Science Communication
 
 Given that RSE work also involves a lot of craftsmanship skills, hands-on practice should
-be an integral part of the curriculum. We recommend at least two lab projects to be part
-of the mandatory curriculum. These should be executed as a team and involve a question from a domain science.
+be an integral part of the curriculum.
+At least two lab projects are required within the mandatory curriculum.
+These should be executed as a team and involve a question from a domain science.
 We recommend covering both the candidate's home domain as well as another domain of science.
 Ideally, projects stem from collaborations with scientists within the institution and RSE
 students take the role of a consultant.
