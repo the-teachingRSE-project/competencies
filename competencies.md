@@ -1179,11 +1179,11 @@ Other modules introduce more specialised concepts and skills.
 During the master's programme, students should pick an RSE specialisation from the list in this paper
 and attend these additional modules to deepen their knowledge in the field.
 
-Core modules are of course drawn from the three pillars of the RSE and can be categorized accordingly.
+Core modules are of course drawn from the three pillars of the RSE and can be categorised accordingly.
 - Research Skills:
   - Optional Domain Mastery Module: Additional minor research courses, but students with a home-domain already have the research part well-covered.
   - Research Tools Module: Here we teach tools used to distribute and publish software, as well as introducing students to domain specific data repositories. Thereby gaining foundational knowledge in (SRU, SP, DOMREP).
-  - Meta-Research Module: Here we teach people how research works. The research lifecycle is introduced, as well as the data lifecycle and the software lifecycle are abstractly introduced.
+  - Meta-Research Module: Here we teach people how research works. The research life cycle is introduced, as well as the data life cycle and the software life cycle are abstractly introduced.
 
 - Software Engineering Skills:
   - Foundational Module: Here we have an introduction to programming: Students learn at least two languages: a language that facilitates prototyping and data processing (e.g., Python or R) and a language for designing complex, performance-critical systems (e.g., C/C++). This exposes them to computers in a hands-on fashion and is the foundation for (DOCBB, LIBS).
