@@ -1188,15 +1188,15 @@ a domain science. We recommend covering both the candidate's home domain and a n
 Ideally, projects stem from collaborations with scientists within the institution and RSE
 students take the role of a consultant.
 
-To emphasize the exposure to domains outside of their bachelor's degree domain,
+To emphasise the exposure to domains outside of their bachelor's degree domain,
 we recommend that RSEs also support their non-home-domain project by supporting it with introductory
 courses from this discipline. We support the idea of broadening the interaction with other domains even more.
 This schools their ability to quickly adapt their vocabulary and thinking to other disciplines.
 
 During the Master's programme, students should pick an RSE specialisation from the list in this paper
 and attend additional courses to deepen their knowledge in the field. Example courses
-for specialisation might, e.g., be HPC engineering/parallel programming, Numerics/Scientific Computing,
-Web Development, Data stewardship, AI models/statistics, Community Management/Training.
+for specialisation might, e.g., be HPC engineering/parallel programming, numerical mathematics/scientific computing,
+web development, data stewardship, AI models/statistics, community management/training.
 
 The programme is finalised with a master's thesis which should be dual-supervised by an
 RSE supervisor and a domain supervisor. The thesis should answer a relevant research
