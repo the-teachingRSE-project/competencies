@@ -24,17 +24,17 @@ bibliography: bibliography.bib
 ---
 
 **Abstract**:
-Being an outcome of a community workshop held in Paderborn, Germany in February 2023 this paper tries 
+Being an outcome of a community workshop held in Paderborn, Germany in February 2023 this paper tries
 for the first time(FIXME: ? true?) to define which competencies are required to participate in modern digital sciences.
 Some of these competencies are required in more depth, therefore, giving rise to the trade of the RSE:
-scientific personnel that specializes in writing research software that facilitates work in all stages of the research cycle.
-Due to their generality, these competencies are often shared between RSE specializations,
+scientific personnel that specialises in writing research software that facilitates work in all stages of the research cycle.
+Due to their generality, these competencies are often shared between RSE specialisations,
 and we believe they are also relevant for domains outside of the RSE community.
 
 But knowing a set of competencies is not enough, therefore we discuss explicitly how to make people aware that these skills are
 required and how these are taught(FIXME: Do we want to add this pedagogical dimension?).
 In order to also facilitate structural change in the German research institution landscape
-we will discuss the organizations and structures that support this change and educate new RSEs.
+we will discuss the organisations and structures that support this change and educate new RSEs.
 The discussion in this paper is meant to be general. Therefore, we will discuss domain specific applications in an appendix.
 
 ---
@@ -50,7 +50,7 @@ The discussion in this paper is meant to be general. Therefore, we will discuss 
 - past attempts, other initiatives
 - contributions
 
-Computers and software have played a key role in the research lifecycle for many
+Computers and software have played a key role in the research life-cycle for many
 decades. Traditionally, they were specialist tools used only in a small number
 of fields and the Computer Scientists who maintained and programmed them needed
 extensive technical training over several years to gain the necessary skills and
@@ -62,10 +62,10 @@ higher resolution simulations and, increasingly, leverage new self-adapting
 approaches through Machine Learning, computers and software are now vital
 elements of the research process across almost all domains. However, this shift
 means that basic research software skills are now required by researchers of all
-career-levels across a vast array of research fields where these were not
+career levels across a vast array of research fields where these were not
 previously required. Researchers often lack the skills to write and use software
 for their research and even to effectively request help from and interact with
-more experienced staff at their institutions. There still exists a gap in the
+more experienced staff at their institutions. There still exists a gap in
 academic education, as many curricula do not sufficiently prepare their students
 in that regard. This situation is exemplified by the extracurricular MIT class
 "The Missing Semester of Your CS Education" [@MIT], which aims to convey computing
@@ -92,7 +92,7 @@ implement the FAIR principles that make digital research output more valuable.
 In order to do so they draw upon skills from traditional software engineering,
 established research culture and a commitment to being part of a team.
 
-Developing and maintaining these skills is time consuming and often challenging.
+Developing and maintaining these skills is time-consuming and often challenging.
 Part of the challenge is that there is not a standard pathway to becoming an RSE
 and, partly as a result of this, there is something of an ad hoc approach to
 training within the community. We also see increasing amounts of basic-level
@@ -113,31 +113,31 @@ in February 2023.
 
 _[Information on key contributions to add]_
 
-'Related work and activities' gives a brief overview over other initiatives in the area of digital skills for researchers.
-The content is twofold. Firstly, we consider other initiatives trying to identify relevant skills for and pathways to becoming an expert at their specific but related area, 
-e.g. high performance computing, . Secondly, we look at groups and organisations that compose specific training material that can be 
+'Related work and activities' gives a brief overview of other initiatives in the area of digital skills for researchers.
+The content is twofold. Firstly, we consider other initiatives trying to identify relevant skills for and pathways to becoming an expert in their specific but related area,
+e.g. high performance computing. Secondly, we look at groups and organisations that compose specific training material that can be
 used for teaching RSE skills.
 
-'Challenges' discusses the challenges in the current academic training and research landscape when it comes to 
+'Challenges' discusses the challenges in the current academic training and research landscape when it comes to
 students and researchers learning the necessary skills to write FAIR software in their specific domain.
 
-In 'Results' we describe the main results of the workshop, namely the set of relevant skills as well as 
+In 'Results' we describe the main results of the workshop, namely the set of relevant skills as well as
 the levels of expertise needed in these skills for students and researchers at different career levels.
-Furthermore, we look at different RSE specializations which may additonally need skills not relevant 
+Furthermore, we look at different RSE specialisations which may additionally need skills not relevant
 to RSEs of different specialisations.
-The skills themselves belong to one of the three main categories needed to perform RSE tasks. 
-Those are the 'R', i.e. an understanding of how research is performed, 
+The skills themselves belong to one of the three main categories needed to perform RSE tasks.
+Those are the 'R', i.e. an understanding of how research is performed,
 the 'SE', i.e. writing and maintaining reusable software, as well as team skills.
 
-'Organizational Infrastructures' focuses on changes that are required to at best support
+'Organisational Infrastructures' focuses on changes that are required to at best support
 the training of new RSEs.
 
-FIXME (finalization): Exchange chapter titles by numbers?
+FIXME (finalisation): Exchange chapter titles by numbers?
 
 
 ### Some Definitions
 A few definitions are in order.
-First as software we define source code, documentation, tests
+First, as software, we define source code, documentation, tests
 and all other artefacts that are created by humans during the development process
 that are necessary to understand its purpose.
 
@@ -146,7 +146,7 @@ Since we expect a sizeable portion of readers from Germany we
 quickly want to address a common false friend.
 The German term 'Wissenschaft' encompasses all domains of publicly funded
 research, while the English term 'science' is generally limited to natural sciences.
-Therefore, we will use 'research' to encompass all domains therefore gives the employability of RSEs.
+Therefore we will use 'research' to encompass all domains.
 Of course 'research' as well as 'Forschung' is not limited to public funding
 but also part of industrial and other private companies.
 We surmise that the same software engineering and team skills will be needed there,
@@ -158,7 +158,7 @@ during the research process or for a research purpose.
 This definition is broader than in [@FAIR4RS] and is the outcome of a recent
 discussion in [@Gruenpeter2021].
 
-Using this, Research Software Engineers are now people that 
+Using this, Research Software Engineers are now people who
 create or improve research software and/or the structures that the software interacts with
 in the computational ecosystem of a research domain.
 They are highly skilled team members who can also conduct their own research as part of their role.
@@ -169,26 +169,26 @@ conference we believe that the competencies formulated here have a far-reaching
 impact beyond the domain of RSE into adjacent fields of science. The most
 obvious users come from computer science, are HPC programmers with a background
 in physical sciences, or manage research data. Graduates from traditional STEM
-sciences with a focus on software or some library or IT staff will also find 
-this paper interesting. However, these days most research involves some amount 
+sciences with a focus on software or some library or IT staff will also find
+this paper interesting. However, these days most research involves some amount
 of data management, processing and visualisation and the role of RSEs is also
-becoming increasingly important in medical domains and the digital humanities. 
-Access to central compute resources ranging from small departmental sizes to 
-national facilities is becoming readily available. Additionally, pressure is 
-growing from funding bodies to prioritise projects that generate archived, 
-annotated, re-usable and potentially remotely executable data. These resources 
+becoming increasingly important in medical domains and the digital humanities.
+Access to central compute resources ranging from small departmental sizes to
+national facilities is becoming readily available. Additionally, pressure is
+growing from funding bodies to prioritise projects that generate archived,
+annotated, re-usable and potentially remotely executable data. These resources
 and requirements fall within the skill set of RSEs. They become a vital link to
 cross-pollinate computational skills and infrastructure know-how between domain
-scientists. Funders and research managers will find the discussion in this paper
+scientists. Funding agencies and research managers will find the discussion in this paper
 valuable in order to observe how software development in academia will be
-institutionalised. Finally, the strong emphasis on team-skills allows RSEs to be
+institutionalised. Finally, the strong emphasis on team skills allows RSEs to be
 very employable in industrial workplaces.
 
 ### National Context
 
 Having been developed at a workshop in Paderborn in Germany, naturally a part
-of the discussion in this paper focusses on the German academic landscape.
-So, although there are Germany specific traits found in this document
+of the discussion in this paper focuses on the German academic landscape.
+So, although there are Germany-specific traits found in this document
 we are nevertheless dealing with the education of humans to become RSEs -
 A topic that is of major relevance also in an international context.
 
@@ -207,31 +207,31 @@ Further values loosely based on that code include the obligations
 
 RSEs often assume a multifaceted role at the junction of research, software engineering and data management.
 They work with a varying and diverse set of colleagues that might include other developers,
-support unit staff and academics of different fields and all career-stages.
+support unit staff and academics of different fields and all career stages.
 This situation yields a specific set of challenges RSEs should be aware of
-to consciously make ethically sound judgment calls.
+to consciously make ethically sound judgement calls.
 We list some example areas that could be addressed in RSE courses or workshops.
 
 ### Personal data
 
 Independent from the encoding into the respective national law in an RSE's jurisdiction,
-the right to information privacy is internationally recognized as a fundamental human right,
+the right to information privacy is internationally recognised as a fundamental human right,
 e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988], [@Hirvela2022].
 RSEs need to be aware of this topic's importance
-and deal with tensions that might arise with researchers' desire for frictionless sharing of data.
+and deal with tensions that might arise with researchers' desire for trouble-free sharing of data.
 Handling personal data also has ramifications for information security considerations during the software development process.
 Data protection is a difficult subject and RSEs should notice when they need to consult external expertise for example when dealing with
 special topics such as cryptography or re-identification attacks (e.g. [@Sweeney2002]).
 
 ### Mentoring and diversity
 
-RSEs are often experienced professionals who instruct and work closely with early career researches.
+RSEs are often experienced professionals who instruct and work closely with early career researchers.
 Similarly to academic supervisors, they bear a certain responsibility to guide and advise younger colleagues
 with respect to career development and the achievement of academic goals.
 Software engineering is still strongly dominated by white males [@StackOverflow2022].
 In their work RSEs might frequently find themselves in a position
 to encourage, mentor and empower people who gravitate towards software-related occupations.
-In this capacity they should be aware of the diversity problem and help to mediate it
+In this capacity, they should be aware of the diversity problem and help to mediate it
 whenever they have the chance to do so.
 
 ### The scientific community
@@ -260,13 +260,13 @@ in Paderborn) brings us to a need of around 6.000 RSEs in Germany. Assuming an e
 and an average time in the RSE workforce of 40 years, yields an average need of around 150 RSEs per year.
 If we assume that half of the workforce is made up by researchers coming from domain specific graduation programs and the other half are properly minted
 RSE graduates this suggests that there is a requirement for around four dedicated RSE education places each producing graduating classes of around 20 persons each year.
-This calculation assumes that RSEs remain within the research community and do not move into industry with their highly transferable skillset.
+This calculation assumes that RSEs remain within the research community and do not move into industry with their highly transferable skill-set.
 While this calculation is only supposed to give a rough ballpark estimate, we note that Germany has 319 places of higher education [@destatis2023].
 Having only three RSEs at each site already gives a requirement of 1000 persons.
 
 ## Identifying skills and pathways
 
-The development of a standardized list of RSE competencies could help develop
+The development of a standardised list of RSE competencies could help develop
 metrics to measure an individual's progression in specific RSE skill sets,
 e.g. using the Software Sustainability Institute's RSE Competencies
 Toolkit [@RSECompetenciesToolkit2023].
@@ -286,6 +286,10 @@ at defining the skills of a generalist RSE at different levels of seniority.
 FIXME:
 
 - [@Cosden2022b]
-- skill gaps for software verification/testing (fig. 1 in [@Hannay2009])
-  and bioinformatics [@MacLean1999; @Pevzner2009]
+- skill gaps:
+   - bioinformatics: clear need for more graduate programs [@Attwood2017; @Isik2023]
+   - information and communications technology [@AllDigital2022]
+   - librarian [@Zignani2020]
+   - basic digital skills [@DigitalSkillsGap2023]
+   - software verification/testing (fig. 1 in [@Hannay2009])
 - software evaluation criteria [@Jackson2011a; @ChueHong2014]
