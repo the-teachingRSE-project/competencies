@@ -1179,28 +1179,35 @@ Other modules introduce more specialised concepts and skills.
 During the master's programme, students should pick an RSE specialisation from the list in this paper
 and attend these additional modules to deepen their knowledge in the field.
 
-Core modules include the following:
-* Introduction to programming: Students learn at least two languages:
- a language that facilitates prototyping and data processing (e.g., Python or R) and a language for designing complex,
- performance-critical systems (e.g., C/C++)
-* Software Craftsmanship: Unix Shell, Git, Build Systems, Documentation, Packaging, Software Discovery
-* Software Engineering
-* Software Design
-* Data Life Cycles
-* Interdisciplinary Science Communication
+Core modules are of course drawn from the three pillars of the RSE and can be categorized accordingly.
+- Research Skills:
+  - Optional Domain Mastery Module: Additional minor research courses, but students with a home-domain already have the research part well-covered.
+  - Research Tools Module: Here we teach tools used to distribute and publish software, as well as introducing students to domain specific data repositories. Thereby gaining foundational knowledge in (SRU, SP, DOMREP).
+  - Meta-Research Module: Here we teach people how research works. The research lifecycle is introduced, as well as the data lifecycle and the software lifecycle are abstractly introduced.
 
-Given that RSE work also involves a lot of craftsmanship skills, hands-on practice should
-be an integral part of the curriculum.
+- Software Engineering Skills:
+  - Foundational Module: Here we have an introduction to programming: Students learn at least two languages: a language that facilitates prototyping and data processing (e.g., Python or R) and a language for designing complex, performance-critical systems (e.g., C/C++). This exposes them to computers in a hands-on fashion and is the foundation for (DOCBB, LIBS).
+  - Digital Ecosystem Module: Programming languages are not enough to work in digital ecosystem, hence we require something like Software Craftsmanship, where tools like the  Unix Shell, version control systems, Build Systems, Documentation generators, Package distribution platforms, and Software Discovery systems are taught to strengthen skills in (LIBS, DOCBB, SWREPOS, SRU).
+  - Software Architecture Module: Here we teach Software Design and Software Engineering, again strengthening (DOCBB, LIBS) on a more abstract level.
+
+- Communication Skills:
+  - Project Management Methods: Here we teach project management methods that are useful in science, such as agile ones(PM).
+  - Communication Skills Module: Here we have courses focusing on interdisciplinary communication, interacting across cultures, communication in hierarchies, supporting end users effectively. These are all facets of the (USERS) skill.
+  - Teaching Module: This module covers topics to effectively design courses and teaching material for the various digital tools, thereby strengthening the (TEACH) skill.
+
+Given that RSE work also involves a lot of craftsmanship skills,
+hands-on practice is an integral part of the curriculum.
 At least two lab projects are required within the mandatory curriculum.
 These should be executed as a team and involve a question from a domain science.
 We recommend covering both the candidate's home domain as well as another domain of science.
 Ideally, projects stem from collaborations with scientists within the institution and RSE
-students take the role of a consultant.
+students take the role of a consultant. This setup strengthens the (TEAM, TEACH, USERS) skill
+and most likely also the (MOD) skill through interaction.
 
 To emphasise the exposure to domains outside of their bachelor's degree domain,
 we recommend that RSEs also support their non-home-domain project by supporting it with introductory
 courses from this discipline. We support the idea of broadening the interaction with other domains even more.
-This schools their ability to quickly adapt their vocabulary and thinking to other disciplines.
+This schools their ability to quickly adapt their vocabulary and thinking to other disciplines. This is an aspect of (MOD).
 
 To align with the specialisations listed in this paper, example optional modules include topics on:
 * HPC engineering/parallel programming
@@ -1212,9 +1219,10 @@ To align with the specialisations listed in this paper, example optional modules
 
 The programme is finalised with a master's thesis which should be dual-supervised by an
 RSE supervisor from an actual project, and a domain supervisor.
-The thesis should answer a relevant research question from the domain using computational methods.
+The thesis should answer a relevant research question(strengthening (NEW)) from the domain using computational methods.
 Software development is required, and the code is part of the gradable deliverables.
 The RSE supervisor ensures and grades the software craftsmanship aspects of the project.
+This setup ensures that we are grading the effectiveness of applying RSE skills in an actual research environment.
 
 ## An example of a possible career path
 ### Intro
