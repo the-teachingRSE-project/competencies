@@ -1165,10 +1165,10 @@ that provide this education will be the topic of a follow-up paper.
 
 ## Research Software Engineering Master's Programme as an Example Curriculum
 
-The target audience for such a master's programme would be students holding a BSc degree from
+The target audience for such a master's programme would be students holding a bachelor's degree from
 a domain science, which we will call "home domain" in the following. There is explicitly
 no restriction on the candidates' home domain, it may be from the STEM disciplines, life
-sciences, humanities or social sciences. Candidates with a BSc in Computer Science are also
+sciences, humanities or social sciences. Candidates with a bachelor's degree in computer science are also
 explicitly included.
 
 Basic mandatory courses include the following:
@@ -1191,7 +1191,7 @@ As interdisciplinarity plays a key role in RSE work, we recommend that RSEs stud
 courses from multiple domain sciences both from within and outside their home domain. This
 enables them to quickly adapt their vocabulary and thinking to other disciplines.
 
-During the MSc programme, students should pick an RSE specialisation from the list in this paper
+During the Master's programme, students should pick an RSE specialisation from the list in this paper
 and attend additional courses to deepen their knowledge in the field. Example courses
 for specialisation might, e.g., be HPC engineering/parallel programming, Numerics/Scientific Computing,
 Web Development, Data stewardship, AI models/statistics, Community Management/Training.
