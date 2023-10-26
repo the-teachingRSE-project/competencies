@@ -638,7 +638,7 @@ Additionally, many researchers in fields from classical examples like
 numerical mathematics or theoretical physics
 to newer disciplines like digital humanities
 will spend time in their research on writing and developing software.
-Therefore, RSE focused training, e.g. in a Masters programme,
+Therefore, RSE focused training, e.g. in a master's programme,
 is also beneficial for students in these fields
 resulting in a broader audience.
 
@@ -647,14 +647,14 @@ It is important to note that this section does not reflect the current state of 
 Instead, it summarises the discussions with and between workshop participants at different levels of academic progression on what they would have liked to learn at an earlier stage or know before starting their current position.
 While individuals already work at implementing some of these changes and teaching these skills it has not yet reached a systemic level.
 
-The text is organised along the academic progression path (Bachelor, Master, PhD, Postdoc, PI/Professor).
+The text is organised along the academic progression path (bachelor's degree, master's degree, PhD, Postdoc, PI/Professor).
 Since each level is based on the previous levels we presume that the skills and competencies at each level also encompass those of the previous levels.
 Due to the broad need throughout academic specialisations,
 the described levels serve as a baseline
 and certain fields will require higher SE skill levels
 as development is a large part of their actual research.
 
-#### Bachelor
+#### Bachelor's Level
 
 Students at undergraduate level mostly consume science/knowledge.
 During their studies they should also learn about the existence of digital tools and structures.
@@ -665,13 +665,13 @@ They should have an awareness of software licenses and who to ask if they have a
 They will be taught about the research cycle (RC) and that researchers often work in groups (TEAM).
 During practicals they will have an opportunity for peer learning (TEACH).
 
-#### Master
+#### Master's Level
 
-A student at Master level can participate in science and should therefore be able to use "some" digital structures.
-A master student needs to be aware of relevant tools and data sets for their domain, where to find them and how to use them (LIBS, SWREPOS, DOMREP).
+A student at a master's level can participate in science and should therefore be able to use "some" digital structures.
+A master's student needs to be aware of relevant tools and data sets for their domain, where to find them and how to use them (LIBS, SWREPOS, DOMREP).
 They should be able to process and present their data (MOD).
 They need to understand how their research depends on software (SWLC).
-Working on their master thesis allows them to understand the research cycle (RC), practice project management (PM) and collaborate with other members of their research group (TEAM).
+Working on their master's thesis allows them to understand the research cycle (RC), practice project management (PM) and collaborate with other members of their research group (TEAM).
 
 #### PhD
 
@@ -1114,7 +1114,7 @@ Beyond having that discussion, a diverse set of publications is already in the m
 Next, we will work on how to institutionalise education.
 Here we will detail how we organise our institutions and what qualifications our teachers
 need to have in order to effectively communicate our values.
-We will put forward ideas on how to build up bachelors and master's programmes,
+We will put forward ideas on how to build up bachelor's and master's programmes,
 of which a glimpse can already be found in this paper's appendix.
 We will show how we intend to provide the necessary continuous education for RSEs after graduation.
 This publication is again intentionally free of regional specifics, to also serve
@@ -1163,13 +1163,13 @@ that provide this education will be the topic of a follow-up paper.
 
 # Appendix
 
-## Research Software Engineering Master Programme as an example curriculum
+## Research Software Engineering Master's Programme as an Example Curriculum
 
-The target audience for such master programme would be students holding a BSc degree from
+The target audience for such a master's programme would be students holding a BSc degree from
 a domain science, which we will call "home domain" in the following. There is explicitly
 no restriction on the candidates' home domain, it may be from the STEM disciplines, life
 sciences, humanities or social sciences. Candidates with a BSc in Computer Science are also
-explicitely included.
+explicitly included.
 
 Basic mandatory courses include the following:
 * Introduction to Programming: Students learn at least two languages: Python (because
@@ -1191,35 +1191,35 @@ As interdisciplinarity plays a key role in RSE work, we recommend that RSEs stud
 courses from multiple domain sciences both from within and outside their home domain. This
 enables them to quickly adapt their vocabulary and thinking to other disciplines.
 
-During the MSc programme, students should pick an RSE specialization from the list in this paper
+During the MSc programme, students should pick an RSE specialisation from the list in this paper
 and attend additional courses to deepen their knowledge in the field. Example courses
-for specialization might, e.g., be HPC engineering/parallel programming, Numerics/Scientific Computing,
+for specialisation might, e.g., be HPC engineering/parallel programming, Numerics/Scientific Computing,
 Web Development, Data stewardship, AI models/statistics, Community Management/Training.
 
-The programme is finalized with a Master thesis which should be dual-supervised by an
+The programme is finalised with a master's thesis which should be dual-supervised by an
 RSE supervisor and a domain supervisor. The thesis should answer a relevant research
 question from the domain using computational methods. Software development is required,
-and the code is part of the gradeable deliverables. The RSE supervisor ensures and grades
+and the code is part of the gradable deliverables. The RSE supervisor ensures and grades
 the software craftsmanship aspects of the project. Alternatively, interested candidates might
 also answer a research question from research software engineering research.
 
 ## An example of a possible career path
 ### Intro
 
-Meet Kay, Kim's younger sister [@Anzt2020] who currently studies researchology in a Bachelor programme in the established domain of researchonomy at University of Orithena (UofO).
+Meet Kay, Kim's younger sister [@Anzt2020] who currently studies researchology in a bachelor's programme in the established domain of researchonomy at University of Orithena (UofO).
 We will follow Kay’s fictional career to illustrate how education, job-experience and a career in academic institutions could lead to becoming a successful RSE.
 In Kay’s world, some of the measures this paper proposes have already been implemented.
 
-### Bachelor
+### Bachelor's Degree
 
 Through a program like DaLiJe or The Missing Semester [@Athalye2023],
 Kay learns about using computational tools to support the sophisticated statistical analysis typical for researchology.
-She uses those tools to create and automate the production of her Bachelor thesis (generating plots with matplotlib, maybe even CI for automatic building)
-and takes pride in a fully open and reproducible bachelor thesis enabling her to graduate with honours from the faculty of researchonomy.
+She uses those tools to create and automate the production of her bachelor's thesis (generating plots with matplotlib, maybe even CI for automatic building)
+and takes pride in a fully open and reproducible bachelor's thesis enabling her to graduate with honours from the faculty of researchonomy.
 
-### Master
+### Master's Degree
 
-Kay ponders whether to continue with computational researchology, which her Bachelor supervisor is responsible for, or enrol in a generic RSE Master programme.
+Kay ponders whether to continue with computational researchology, which her bachelor's supervisor is responsible for, or enrol in a generic RSE master's programme.
 Researchers in computational researchology need to acquire a large part of the general RSE know-how presented
 in this paper and specialise in Quantum-Accelerated Bayesian Optimisation methods.
 However, Kay decides to go the more generic route of a dedicated RSE programme because she wants to continue in academia,
@@ -1227,7 +1227,7 @@ but does not like the idea of becoming stuck with one research topic.
 She also observed that the immediate satisfaction gained by helping colleagues from her research group with tricky technical
 problems makes her happier than the subdued sense of achievement from having a research paper accepted long after she had written it.
 
-The generic RSE Master programme consists of a core of RSE topics with various electives for specialisation.
+The generic RSE master's programme consists of a core of RSE topics with various electives for specialisation.
 Kay chooses digital archaeology and develops a pipeline for reconstructing 3D models from ground penetrating radar data, to simplify the process for archaeologists (Reproducibility, Big Data, ML).
 The project management skills that are being taught as part of the core RSE curriculum really help her to not get lost in this project.
 Apart from working with the researchers in her archaeology group she has to work with members of the central RSE department to help her with the pipelines.
@@ -1243,7 +1243,7 @@ Kay finds a position in the central RSE department at her university with a comp
 Although the contract is temporary there is a good chance that it will lead to a permanent position.
 Kay completes the Software Carpentry Instructor training and teaches basic research computing,
 while advising fellow students of her department on better programming (DOCBB and MOD skill)
-She also runs a seminar in the RSE Master programme. She publishes a condensed version of that in JOSE[@JOSE].
+She also runs a seminar in the RSE Master's programme. She publishes a condensed version of that in JOSE[@JOSE].
 During her teaching duties, she becomes aware of a new project in her department that requires a community managing RSE
 and she gladly signs to focus more on her communication skills.
 After two years she takes an exciting opportunity to work in another university.
@@ -1315,5 +1315,5 @@ are examples of KSA frameworks for bioinformatics curricula.
 The Curriculum Task Force of the International Society for Computational
 Biology (ISCB) curates a database of degrees and certificates
 in bioinformatics [@BioinformaticsCertification; @Mulder2018].
-The database includes Bachelor and Master's degree programs and specialisations,
+The database includes bachelor's and master's degree programs and specialisations,
 PhD programs, and certificates from graduate schools.
