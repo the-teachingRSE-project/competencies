@@ -1198,10 +1198,13 @@ we recommend that RSEs also support their non-home-domain project by supporting 
 courses from this discipline. We support the idea of broadening the interaction with other domains even more.
 This schools their ability to quickly adapt their vocabulary and thinking to other disciplines.
 
-During the Master's programme, students should pick an RSE specialisation from the list in this paper
-and attend additional courses to deepen their knowledge in the field. Example courses
-for specialisation might, e.g., be HPC engineering/parallel programming, numerical mathematics/scientific computing,
-web development, data stewardship, AI models/statistics, community management/training.
+To align with the specialisations listed in this paper, example optional modules include topics on:
+* HPC engineering/parallel programming
+* numerical mathematics/scientific computing
+* web technologies
+* data stewardship
+* AI models/statistics
+* community management/training.
 
 The programme is finalised with a master's thesis which should be dual-supervised by an
 RSE supervisor from an actual project, and a domain supervisor.
