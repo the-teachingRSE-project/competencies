@@ -1200,7 +1200,7 @@ for specialisation might, e.g., be HPC engineering/parallel programming, numeric
 web development, data stewardship, AI models/statistics, community management/training.
 
 The programme is finalised with a master's thesis which should be dual-supervised by an
-RSE supervisor froma na ctual project, and a domain supervisor.
+RSE supervisor from an actual project, and a domain supervisor.
 The thesis should answer a relevant research question from the domain using computational methods.
 Software development is required, and the code is part of the gradable deliverables.
 The RSE supervisor ensures and grades the software craftsmanship aspects of the project.
