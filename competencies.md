@@ -1173,7 +1173,10 @@ explicitly included, although we acknowledge that their master's programme shoul
 to make their interaction effective with other domain scientists.
 In order to give the future RSE the necessary breadth we expect this to be a four semester curriculum.
 
-Basic mandatory courses include the following:
+The curriculum is formed from a combination of modules, some of which are core modules teaching essential skills that must be completed by all students. Other modules introduce more specialized concepts and skills. During the MSc programme, students should pick an RSE specialization from the list in this paper
+and attend these additional modules to deepen their knowledge in the field.
+
+Core modules include the following:
 * Introduction to programming: Students learn at least two languages:
  a language that facilitates prototyping and data processing (e.g., Python or R) and a language for designing complex,
  performance-critical systems (e.g., C/C++)
