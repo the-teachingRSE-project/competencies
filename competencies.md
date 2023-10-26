@@ -1184,8 +1184,8 @@ Basic mandatory courses include the following:
 
 Given that RSE work also involves a lot of craftsmanship skills, hands-on practice should
 be an integral part of the curriculum. We recommend at least two lab projects to be part
-of the mandatory curriculum. These should be executed as a team and involve a question from
-a domain science. We recommend covering both the candidate's home domain and a non-home domain.
+of the mandatory curriculum. These should be executed as a team and involve a question from a domain science.
+We recommend covering both the candidate's home domain as well as another domain of science.
 Ideally, projects stem from collaborations with scientists within the institution and RSE
 students take the role of a consultant.
 
