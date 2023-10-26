@@ -1171,6 +1171,7 @@ no restriction on the candidates' home domain, it may be from the STEM disciplin
 sciences, humanities or social sciences. Candidates with a bachelor's degree in computer science are also
 explicitly included, although we acknowledge that their master's programme should include adaptations
 to make their interaction effective with other domain scientists.
+In order to give the future RSE the necessary breadth we expect this to be a four semester curriculum.
 
 Basic mandatory courses include the following:
 * Introduction to programming: Students learn at least two languages:
