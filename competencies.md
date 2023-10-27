@@ -213,7 +213,7 @@ and requirements fall within the skill set of RSEs. They become a vital link to
 cross-pollinate computational skills and infrastructure know-how between domain
 scientists. Funding agencies and research managers will find the discussion in this paper
 valuable in order to observe how software development in academia is being
-professionalized. Finally, the strong emphasis on team skills allows RSEs to be
+professionalised. Finally, the strong emphasis on team skills allows RSEs to be
 well prepared for common challenges that may be encountered in workplaces outside academia.
 
 # Related Work
