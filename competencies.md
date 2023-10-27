@@ -338,7 +338,7 @@ source training materials and developing new materials where required.
 #### RSE Competencies Toolkit
 
 The RSE Competencies Toolkit [@RSECompetenciesToolkit2023] is a community project
-that developed out of a hackday activity at the 2023 edition of the annual
+that developed out of a hack day activity at the 2023 edition of the annual
 Software Sustainability Institute Collaborations Workshop [@SSICW23]. The
 toolkit provides a web application that aims to support technical professionals
 in understanding how to develop their skills. It enables them to build a profile
@@ -355,7 +355,7 @@ within the domains that EMBL/EBI's work focuses on. The hub provides
 access to variety of training resources that are linked to the specific
 competencies that they relate to. This enables learners to more easily
 find the right training materials in order to support their career
-development journey, helping them to idenitify what they might want to
+development journey, helping them to identify what they might want to
 learn and in what order.
 
 # Values
