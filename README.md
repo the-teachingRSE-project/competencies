@@ -11,7 +11,7 @@ Get the latest version of the respective PDF files here:
 * "A Survey of Initiatives Providing Educative Material in the RSE Space" ([survey.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/survey.pdf))
 * "Educating RSEs in Germany - What Needs to Be Done" ([call_to_action.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/call_to_action.pdf))
 
-## How to contribute
+## How to contribute - Some of our rules
 
 This paper is intended as a collaborative effort and we are looking for input from you.
 
@@ -21,8 +21,9 @@ This paper is intended as a collaborative effort and we are looking for input fr
 
 **We use British English**
 
-We utilise tags to categorise issues and PRs to the respective paper.
-
+- competencies.md will be published on arxiv. Latex tags/code is fine in here.
+- survey.md will move to a website, hence this file has to be markdown
+- We utilise tags to categorise issues and PRs to the respective paper.
 You can contribute in various ways:
 
 1. Propose content/text via pull request
