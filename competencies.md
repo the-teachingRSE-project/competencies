@@ -243,7 +243,6 @@ that are usually skipped in academic education.
 CodeRefinery hosts a set of open source training materials including
 both beginner and intermediate level material and organises multiple
 highly interactive large scale workshops per year.
-https://codebase.helmholtz.cloud/de-rse-2024/organisation/-/issues/5
 
 #### PRACE
 
@@ -938,11 +937,11 @@ We talk about the "Research Software Engineer" as a single entity but as the fie
 we expect to see more roles and job titles emerging around the RSE concept,
 many of which fit under the wider umbrella of Research Technology Professionals (RTPs).
 The European Bioinformatics Institute (EMBL-EBI)'s BioExcel competency framework
-[**[BIOEXCEL-FRAMEWORK]**](https://competency.ebi.ac.uk/framework/bioexcel/3.0/carreer-profiles)
+[@BIOEXCEL]
 provides some examples of different RSE-like computational roles.
 Work by King's Digital Lab at King's College London also provides
 some examples of a range of different roles within the research software
-careers space [**[KDL-CAREERS](https://zenodo.org/record/2559235)**].
+careers space [@KDL].
 
 # RSE specialisations
 
