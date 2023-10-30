@@ -29,6 +29,7 @@ header-includes:
     - \usepackage{longtable}
     - \newcommand{\blandscape}{\begin{landscape}}
     - \newcommand{\elandscape}{\end{landscape}}
+secnos-cleveref: True
 ---
 Applications of them in an individual's career can be found in the appendix.
 An omission that we'd like to highlight is that RSEs that choose explicitly
@@ -420,7 +421,7 @@ This generally involves a creative process where requirements are gathered and a
 This is then followed by testing that things work as expected and that they continue to do so into the future.
 We emphasise that the life-cycle is not complete here but also includes periods of maintaining a software
 and also withdrawing software from its original use.
-The RSE should be aware of this life-cycle 
+The RSE should be aware of this life-cycle
 and be able to predict and cater to the changing needs of software as it moves through the stages.
 
 
@@ -577,7 +578,7 @@ what they would like to have learnt. Among the top five things mentioned were:
   TEAM-related aspect is the embedding of RSE graduates into the community of
   RSEs. We envision our RSE graduates to be a part in a strong network of other
   RSEs, tool-related communities and the classical domain communities. This point
-  is further elaborated in [How do we reach people in different stages of their careers](#how-do-we-reach-people-in-different-stages-of-their-careers).
+  is further elaborated in @sec:reachout.
 
 Beyond that, we feel that today other important tasks of RSEs are
 
@@ -984,7 +985,7 @@ additionally should have experience or training in the educational field.
 #### User Interface/User Experience Designers for Research Software
 Scientific software is a complex product that often needs to be refined in order to be usable even by other scientists.
 To facilitate this, there are people required that specialise into the (DOCBB) and probably the (LIBS) competency
-with a focus to make end-user facing software really reusable and hence FAIR. 
+with a focus to make end-user facing software really reusable and hence FAIR.
 This task is supported by strong (MOD) skills to reason about the behaviour of potential users of a software.
 
 ### Specialisations outside the core RSE competencies
@@ -1085,7 +1086,7 @@ They are able to communicate and collaborate with lawyers.
 social skill-set focused specialisations
 -->
 
-# Reaching out to potential RSEs
+# Reaching out to potential RSEs {#sec:reachout}
 
 Many current RSEs have found their way to being an RSE during their doctoral studies.
 This transition usually happens slowly.
@@ -1105,7 +1106,7 @@ Structuring and institutionalising the education and structures for the add-on c
 will be topics of a follow-up paper.
 
 # Future Work
-Having the competencies is a first step to finding common ground around which to structure 
+Having the competencies is a first step to finding common ground around which to structure
 curricula, institutions, and teachers in this framework.
 Applications of them in an individual's career can be found in the appendix.
 An omission that we found and that we would like to highlight in order to spark a community discussion,
@@ -1128,7 +1129,7 @@ courses. This is the  intention of the so-called "survey-publication".
 This work will not be carried out as a traditional publication, but
 this survey of existing resources will be made available as a
 continuously evolving online resource.
-And finally, we will formulate the call to action - building on the previous 
+And finally, we will formulate the call to action - building on the previous
 publication on the necessary institutions,
 to lay down what is required to best support the continuous need
 for young RSEs to support digital science specifically in Germany.
