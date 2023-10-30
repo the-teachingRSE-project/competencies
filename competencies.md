@@ -29,7 +29,7 @@ header-includes:
     - \usepackage{longtable}
     - \newcommand{\blandscape}{\begin{landscape}}
     - \newcommand{\elandscape}{\end{landscape}}
-secnos-cleveref: True
+xnos-cleveref: True
 ---
 Applications of them in an individual's career can be found in the appendix.
 An omission that we'd like to highlight is that RSEs that choose explicitly
@@ -630,6 +630,8 @@ The following table elaborates on the required facets of the competencies in dif
 | PM      | Awareness about the employed project management method                                                                      | Should be able to use the employed PM method                                                                                          | Should be able to design and adapt the employed PM method.                                                                                                 |
 | TEAM    | Should be able to work in the team in order to effectively fulfil the given tasks. Should be able to learn from code review. | Should be able to break down tasks into more easily digestible sub-tasks                                                              | Should be able to lead the team and set the respective direction.                                                                                          |
 
+Table: Levels of competency expected for different RSE career stages. {#tbl:comp-lvls}
+
 \elandscape
 
 ## Helpful RSE skills for researchers in an academic career
@@ -723,7 +725,7 @@ to and support them. Some of them are brought to life in the example career path
 We first summarise the meaning of each of the columns in the table:
 
 - **Competency:** The code assigned to the competency being considered.
-  See the list in **[Table ?????]**.
+  See the list in @tbl:comp-lvls.
 - **Individual developer (Locally-based):** A single person working on some
   research software - often a researcher with RSE skills.
 - **Individual developer (RSE team-based):** A single person working on research
