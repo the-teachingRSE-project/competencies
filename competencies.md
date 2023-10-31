@@ -1191,7 +1191,7 @@ Core modules are of course drawn from the three pillars of the RSE and can be ca
 
 - Software Engineering Skills:
   - Foundational Module: Here we have an introduction to programming: Students learn at least two languages: a language that facilitates prototyping and data processing (e.g., Python or R) and a language for designing complex, performance-critical systems (e.g., C/C++). This exposes them to computers in a hands-on fashion and is the foundation for (DOCBB, LIBS).
-  - Digital Ecosystem Module: Programming languages are not enough to work in digital ecosystem, hence we require something like Software Craftsmanship, where tools like the  Unix Shell, version control systems, Build Systems, Documentation generators, Package distribution platforms, and Software Discovery systems are taught to strengthen skills in (LIBS, DOCBB, SWREPOS, SRU).
+  - Digital Ecosystem Module: Programming languages are not enough to work in a digital ecosystem, hence we require something like Software Craftsmanship, where tools like the Unix Shell, version control systems, Build Systems, Documentation generators, Package distribution platforms, and Software Discovery systems are taught to strengthen skills in (LIBS, DOCBB, SWREPOS, SRU).
   - Software Architecture Module: Here we teach Software Design and Software Engineering, again strengthening (DOCBB, LIBS) on a more abstract level.
 
 - Communication Skills:
@@ -1223,7 +1223,7 @@ To align with the specialisations listed in this paper, example optional modules
 
 The programme is finalised with a master's thesis which should be dual-supervised by an
 RSE supervisor from an actual project, and a domain supervisor.
-The thesis should answer a relevant research question(strengthening (NEW)) from the domain using computational methods.
+The thesis should answer a relevant research question (strengthening (NEW)) from the domain using computational methods.
 Software development is required, and the code is part of the gradable deliverables.
 The RSE supervisor ensures and grades the software craftsmanship aspects of the project.
 This setup ensures that we are grading the effectiveness of applying RSE skills in an actual research environment.
@@ -1255,9 +1255,9 @@ problems makes her happier than the subdued sense of achievement from having a r
 The generic RSE master's programme consists of a core of RSE topics with various electives for specialisation.
 Kay chooses digital archaeology and develops a pipeline for reconstructing 3D models from ground penetrating radar data, to simplify the process for archaeologists (Reproducibility, Big Data, ML).
 The project management skills that are being taught as part of the core RSE curriculum really help her to not get lost in this project.
-Apart from working with the researchers in her archaeology group she has to work with members of the central RSE department to help her with the pipelines.
+Apart from working with the researchers in her archaeology group, she has to work with members of the central RSE department to help her with the pipelines.
 She also has to liaise with the central IT department to organise storage for the large data sets.
-Towards the end of the programme she visits her first RSE conference where she sees a lot of notions(SWLC, RC) in action that so far have been abstract in her master's degree.
+Towards the end of the programme, she visits her first RSE conference where she sees a lot of notions (SWLC, RC) in action that so far have been abstract in her master's degree.
 The exposure to the wider RSE community inspires her to invest additional time into her thesis to publish
 her software project under an OSI-approved license and wrote an accompanying article in the open source journal JOSS[@JOSS].
 Kay has now completed the RSE programme and has reached Junior RSE level.
@@ -1266,8 +1266,8 @@ Kay has now completed the RSE programme and has reached Junior RSE level.
 
 Kay finds a position in the central RSE department at her university with a competitive IT salary.
 Although the contract is temporary there is a good chance that it will lead to a permanent position.
-Kay completes the Software Carpentry Instructor training and teaches basic research computing,
-while advising fellow students of her department on better programming (DOCBB and MOD skill)
+Kay completes the Software Carpentry Instructor training and teaches basic research computing
+while advising fellow students of her department on better programming (DOCBB and MOD skill).
 She also runs a seminar in the RSE Master's programme. She publishes a condensed version of that in JOSE[@JOSE].
 During her teaching duties, she becomes aware of a new project in her department that requires a community managing RSE
 and she gladly signs to focus more on her communication skills.
@@ -1278,14 +1278,14 @@ After two years she takes an exciting opportunity to work in another university.
 The new position involves taking responsibility for the RSE related aspects of a large inter-organisational project involving different organisations.
 With her new responsibilities comes a shift in the importance of various aspects of her work.
 Having this position in an inter-organisational project places far more emphasis on communication skills.
-She is spending time teaching people(TEACH skill) to onboard them into the project.
-There is a lot of interaction with different stakeholders to the project like funders and user groups (USERS skill).
-And to keep track of where the project is going and how to distribute her time she leverages Kanban boards (PM skills).
+She is spending time teaching people (TEACH skill) to onboard them into the project.
+There is a lot of interaction with different stakeholders in the project like funders and user groups (USERS skill).
+To keep track of where the project is going and how to distribute her time she leverages Kanban boards (PM skills).
 Her work so far has already been heavy on (TEAM) skills, but now also the leadership aspect comes into play.
 The job experience as a leading RSE for a large project was the last requirement necessary to be awarded the "Science Enabling Doctor" from an
 institutionalised centre of RSE education, recognising her track record of valuable software contributions, and her specialised experience in
 leading and mentoring people. Some personal choices in her career made the traditional route of doing a Dr.-Ing. inconvenient.
-These doctoral degrees are of course recognised by various funding agencies, such as the DFG, and hence enables RSEs that have chosen to not follow a research focused
+These doctoral degrees are of course recognised by various funding agencies, such as the DFG, and hence enable RSEs that have chosen to not follow a research focused
 career path to act as a Principal Investigator for RSE-focused grant applications.
 Kay can now write her own grant proposals to effectively fund work of moving software projects from prototypes to infrastructure.
 
