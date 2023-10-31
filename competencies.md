@@ -216,7 +216,7 @@ well prepared for common challenges in workplaces outside of academia.
 
 # Related Work
 
-The day-to-day work of many RSEs often includes teaching activities to improve the RSE-related skill-set of researchers,
+The day-to-day work of many RSEs often includes teaching activities to improve the RSE-related skill set of researchers,
 e.g. in university courses, workshops or one-on-one.
 Therefore, RSEs' work often includes both the use of and the contribution to pertinent teaching materials.
 Various organisations and initiatives provide courses and workshops
@@ -291,13 +291,13 @@ Additionally, the approach of how "The Carpentries" are organised will be adopte
 Moreover, we mention, that several subsections of NFDI engage in domain specific
 educational programs.
 
-#### SureSoft
+#### SURESOFT
 
-SureSoft [@SURESOFTLink] is a DFG funded project at TU Braunschweig and
+SURESOFT [@SURESOFTLink] is a DFG funded project at TU Braunschweig and
 FAU Erlangen-Nürnberg fostering the sustainability of research software
 by helping researchers adopt practices and tools from the software
 engineering community [@SURESOFT2022]. Because tools are not enough on their own but require skill-full execution, the project implements a twofold approach that combines tools and
-infrastructure with education in the form of workshops and training.
+infrastructure with education in the form of workshops and hands-on training. While the Carpentries trainings are more targeted towards novices, SURESOFT workshops are focused on more advanced software engineering topics like Software Design Principles, Design Patterns, Refactorings, Continuous Integration and Test Driven Development. 
 
 # Values
 
