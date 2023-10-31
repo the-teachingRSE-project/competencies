@@ -597,13 +597,13 @@ Beyond that, we feel that today other important tasks of RSEs are
 Now that we have the different competencies, we can explore various dimensions of these competencies,
 depending on their circumstances. A strong beneficiary of specialised RSEs can also be newly formed RSE centres at research institutions.
 
-## Career level
+## Career Level
 
 At different career levels, differing skills are required. We have set this up according to the following separation often applied within a single project:
 
-- Junior RSE: These are persons that have just started, but generally speaking they should have the skills to contribute to software projects.
-- Senior RSE: They have gained experience and can set the standards in the software project.
-- Principal RSE: Their actual job description varies a lot. These may be RSE team leaders based in a professional services type role, or they may be professors or research group leaders based in a more academic-focused role. They are often the people responsible for bringing in the money that supports new projects and sustains existing projects. Generally speaking, they do not need to to be actively involved in the day-to-day technical tasks but they should be able to guide projects from both a technical and a research perspective.
+- Junior RSE: These are persons who have just started, but generally speaking they should have the skills to contribute to software projects.
+- Senior RSE: They have gained experience and can set the standards in a software project.
+- Principal RSE: Their actual job description varies a lot. These may be RSE team leaders based in a professional services type role, or they may be professors or research group leaders based in a more academic-focused role. They are often the people responsible for bringing in the funding that supports new projects and sustains existing projects. Generally speaking, they do not need to be actively involved in the day-to-day technical tasks but they should be able to guide projects from both a technical and a research perspective.
 
 The following table elaborates on the required facets of the competencies in different roles. An example progression through the hierarchies can be found in the appendix.
 
@@ -660,13 +660,13 @@ as development is a large part of their actual research.
 #### Bachelor's Level
 
 Students at undergraduate level mostly consume science/knowledge.
-During their studies they should also learn about the existence of digital tools and structures.
+During their studies, they should also learn about the existence of digital tools and structures.
 Undergrad students should be aware that RSEs exist and that software has different quality aspects (DOCBB).
 They should be aware of domain specific tools (LIBS, SRU) and where to find them (SWREPOS, DOMREP).
-At this level it is sufficient to consider software as black boxes (USERS) although some training in data presentation would be very helpful and a good way to find out about programming (MOD, NEW).
+At this level, it is sufficient to consider software as black boxes (USERS) although some training in data presentation would be very helpful and a good way to find out about programming (MOD, NEW).
 They should have an awareness of software licenses and who to ask if they have any questions (SP).
 They will be taught about the research cycle (RC) and that researchers often work in groups (TEAM).
-During practicals they will have an opportunity for peer learning (TEACH).
+During practicals, they will have an opportunity for peer learning (TEACH).
 
 #### Master's Level
 
@@ -693,7 +693,7 @@ They should be able to supervise a student (TEACH).
 
 Postdocs are independent researchers.
 Their role is similar to that of a PhD student with a deepened focus on their research career.
-However, they are proficient users of all relevant tools, that make them active contributors to their domain of research.
+However, they are proficient users of all relevant tools, which makes them active contributors to their domain of research.
 They need to be aware of more advanced topics regarding intellectual property rights, such as patents (SP).
 
 #### PI/Professor
@@ -732,7 +732,7 @@ We first summarise the meaning of each of the columns in the table:
 - **Group of developers (RSE team-based):** A group of members of the RSE team
   working together on a research software project for a research group.
 - **Organisation-level support:** How the defined competencies are recognised
-  and represented at organisational level.
+  and represented at an organisational level.
 
 \blandscape
 \small
@@ -838,7 +838,7 @@ We first summarise the meaning of each of the columns in the table:
     Many RSEs will have familiarity with the research life-cycle,
       although they may not have domain knowledge. This can be alleviated by interacting with a group&
     Likely to be familiar to software teams (often researchers) working
-      in a research group. Can share knowledge between themselves or reach
+      in a research group. Can share knowledge among themselves or reach
       out to colleagues.&
     Teams of RSEs from an RSE group are likely to include one or more
       team members with strong awareness of the research life-cycle.&
