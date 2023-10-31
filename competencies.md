@@ -316,7 +316,7 @@ RSEs often assume a multifaceted role at the junction of research, software engi
 They work with a varying and diverse set of colleagues that might include other developers,
 support unit staff and academics of different fields and all career stages.
 This situation yields a specific set of challenges RSEs should be aware of
-to consciously make ethically sound judgment calls.
+to consciously make ethically sound judgement calls.
 We list some example areas that could be addressed in RSE courses or workshops.
 
 ## Handling of data and personal data
