@@ -46,12 +46,12 @@ The term has been widely adopted and there are a number of high-level definition
 However, the roles of RSEs vary depending on the institutional context they work in.
 At the one end of the spectrum, RSE roles may look similar to a traditional research role.
 At the other extreme, they resemble that of a software engineer in industry.
-Most RSE roles inhabit the space between these two extremes and providing a straightforward,
+Most RSE roles inhabit the space between these two extremes. Therefore, providing a straightforward,
 comprehensive definition of what an RSE does
-and what experience, skills and competencies are required to become one is therefore challenging.
+and what experience, skills and competencies are required to become one is challenging.
 In this paper we define the broad notion of what an RSE is, explore the different types of work they undertake, and
 define a list of fundamental competencies as well as values that define the general profile of an RSE.
-Using this information, we elaborate on the progression of these skills along different
+On this basis, we elaborate on the progression of these skills along different
 dimensions, looking at specific types of RSE roles and giving examples of future specialisations.
 An Appendix details how existing curricula fit into this framework.
 
