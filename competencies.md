@@ -948,9 +948,9 @@ careers space [@KDL].
 What we have defined above are intended to be base skills that an RSE irrespective of domain, place, and time should know about.
 But not all RSEs are created equal, they specialise in different areas,
 some of which we want to present below. Many of the specialisations may overlap,
-so the same RSE might for example work on data management and on Open Science.
+so the same RSE might for example work on data management and Open Science.
 We categorise them into those, that can be viewed as a specialisation within RSE-specific topics,
-while other RSEs might expand their skill set and profession to areas, that are not typical for a RSE.
+while other RSEs might expand their skill set and profession to areas, that are not typical for an RSE.
 
 
 ### Specialisations within the core RSE competencies
@@ -958,33 +958,33 @@ while other RSEs might expand their skill set and profession to areas, that are 
 #### OpenScience RSE
 Open Science and FAIRness of Data and Software are increasingly important topics in research,
 as exemplified by the demand of an increasing amount of research funding agencies requiring openness.
-Hence an RSEs is required that has a deepened knowledge in (RC) and how to distribute software publicly(SRU, SP), the Open Science RSE.
+Hence an Open Science RSE is required to have a deepened knowledge in (RC) and how to distribute software publicly (SRU, SP).
 Open Science RSEs can help researchers navigate the technical questions that come up
 when practising Open Science, such as "How do I make my code presentable?",
 "What do I need to do to make my software FAIR?", or
 "How do I sustainably work with an (international) team on a large code base?".
-Like the Data-focused RSE they have a deep understanding of RDM topics.
+Like the Data-focused RSE, they have a deep understanding of RDM topics.
 
-#### Project/Community manager RSEs
+#### Project/Community Manager RSEs
 
 When research software projects become larger, they need someone who manages
-processes and people. This gap can be filled by people that invest into the (PM), (USERS), and (TEAM) skills.
+processes and people. This gap can be filled by people who invest in the (PM), (USERS), and (TEAM) skills.
 Building a community around a research project is an
 important building block in building sustainable software [@Segal2009], so these RSEs play
 an important role, even if they do not necessarily touch much of the code themselves.
 
 #### Teaching RSEs
 RSEs interested in developing their (TEACH) skill can focus on teaching the next generation of researchers and/or RSEs and will play
-a vital role in improving the quality research software.
+a vital role in improving the quality of research software.
 They need to have a good understanding of all RSE competencies relevant to their domain and
 additionally should have experience or training in the educational field.
 
 
 #### User Interface/User Experience Designers for Research Software
 Scientific software is a complex product that often needs to be refined in order to be usable even by other scientists.
-To facilitate this, there are people required that specialise into the (DOCBB) and probably the (LIBS) competency
-with a focus to make end-user facing software really reusable and hence FAIR.
-This task is supported by strong (MOD) skills to reason about the behaviour of potential users of a software.
+To facilitate this, there are people required that specialise in the (DOCBB) and probably the (LIBS) competency
+with a focus on making end-user facing software really reusable and hence FAIR.
+This task is supported by strong (MOD) skills to reason about the behaviour of potential users of the software.
 
 ### Specialisations outside the core RSE competencies
 
@@ -1016,7 +1016,7 @@ New areas of expertise
 This RSE is interested in SysOps and system administration and sets up IT infrastructures for and with researchers.
 Therefore, this specialisation on the one hand requires a deep knowledge of physical computer and network hardware and
 on the other hand knowledge about setup and configuration of particular server software.
-Those specialised RSEs know how to acquire, setup and maintain general-purpose as well as domain specific infrastructure,
+Those specialised RSEs know how to acquire, set up and maintain general-purpose as well as domain specific infrastructure,
 e.g. setup of virtual machines on hypervisors or the planning and setup of compute server clusters for GPU based machine learning.
 As an interface between the researchers and the infrastructure, they take care of user management, access permissions, and configuration of required services, for example.
 
@@ -1049,7 +1049,7 @@ They may also be familiar with High-Throughput Computing (HTC) and manage
 a network of heterogeneous compute resources, typically desktop workstations
 equipped with multicore processors and possibly GPU accelerators.
 They can apply their node-level performance engineering skills to maximise
-utilisation of the available resources.
+the utilisation of the available resources.
 <!--Finally, they typically have expert knowledge in at least one compiled language,
 and can assist domain scientists who have excellent command of scripting languages
 but only a cursory understanding of compiled languages get up to speed with
@@ -1059,7 +1059,7 @@ compiled software.-->
 The development of research software based on machine learning (ML) requires specialised theoretical background and experienced handling of appropriate software in order to produce meaningful results.
 This involves knowledge about data analysis and feature engineering, metrics that are involved in ML, ML algorithm selection and cross validation, and knowledge in mathematical optimisation methods and statistics.
 ML-RSEs analyse and check the suitability of an algorithm if it fulfils the needs of a certain task and they play a main role in deciding and selecting machine learning libraries for a given task.
-The increasing usage of ML in numerous scientific areas with social impact, involves an emphasised awareness and consideration of possible manipulative or discriminatory influences.
+The increasing usage of ML in numerous scientific areas with social impact involves an emphasised awareness and consideration of possible manipulative or discriminatory influences.
 At the intersection of data science [@SSIDataScience] and Data-focused RSEs, the complex way of solving problems utilising machine learning calls for this separate specialisation.
 
 #### Web-Development RSE
@@ -1072,7 +1072,7 @@ Therefore a deep knowledge of web skills is a required additional skill for this
 #### Legal-RSE
 All RSEs are a go-to person for questions about licensing, mixing and matching of software.
 But with the rising requirements from legislation,
-we foresee the need for RSEs that still have a background in RSE but extend it with a knowledge of legal processes, that covers corner cases and goes beyond applying Best Practice guides.
+we foresee the need for RSEs that still have a background in RSE but extend it with a knowledge of legal processes, that cover corner cases and go beyond applying Best Practice guides.
 These requirements may arise in the area of publication of research software,
 as this also requires knowledge about particular laws or regulatory frameworks concerning data protection,
 like the GDPR within the EU [@GDPR].
