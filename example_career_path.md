@@ -27,7 +27,7 @@ However, Kay decides to go for the more generic route of a dedicated RSE program
 but does not like the idea of becoming stuck with one research topic.
 She also experienced the immediate satisfaction gained by helping colleagues from her research group with tricky technical
 problems, which makes her happier than the subdued sense of achievement from having a research paper accepted long after she had written it.
-For her, coding and sharing knowledge in the form of software is more exciting than writing a paper focused mostly on the obtained results.
+However, for her, coding and sharing knowledge in the form of software is of similar importance to writing a paper focused mostly on the obtained results.
 
 The domain-agnostic RSE Master programme consists of a core of RSE topics with various electives for specialisation, some of them domain-specific (e.g., chemistry) or topic-specifi (e.g., cloud computing for reserach).
 Kay chooses digital archaeology and develops a pipeline for reconstructing 3D models from ground penetrating radar data, simplifying the process for archaeologists (Reproducibility, Big Data, Machine Learning).
