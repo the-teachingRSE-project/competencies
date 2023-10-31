@@ -77,7 +77,7 @@ elements of the research process across almost all domains. However, this shift
 means that basic software skills are now required by researchers at all
 career levels of a large amount of research fields where these were not
 previously required. Researchers often lack the skills to use specialised software
-for their research, let alone write it. If they come from a non-technical domain, they may
+for their research, let alone write it [@NamingPain]. If they come from a non-technical domain, they may
 also struggle to know what to ask when trying to request help from and interact with
 more experienced staff at their institutions. There still exists a gap in
 academic education, as many curricula do not sufficiently prepare their students
@@ -98,7 +98,7 @@ significant problem which ultimately led, a little over 10 years ago, to the eme
 term and the role of "Research Software Engineer" or RSE [@Hettrick2016].
 
 From this starting point, the people who focus on writing research software are now increasingly
-known, internationally, as Research Software Engineers.
+known, internationally, as Research Software Engineers [@WhatResearchSoftware].
 This shift provides a base on which sustainable career opportunities can be built, which allows for better
 training of researchers and more effective support for the development of high quality research software.
 There is still a long way to go but positive change is well underway.
@@ -245,7 +245,6 @@ that are usually skipped in academic education.
 CodeRefinery hosts a set of open source training materials including
 both beginner and intermediate level material and organises multiple
 highly interactive large scale workshops per year.
-https://codebase.helmholtz.cloud/de-rse-2024/organisation/-/issues/5
 
 #### PRACE
 
@@ -942,11 +941,11 @@ We talk about the "Research Software Engineer" as a single entity but as the fie
 we expect to see more roles and job titles emerging around the RSE concept,
 many of which fit under the wider umbrella of Research Technology Professionals (RTPs).
 The European Bioinformatics Institute (EMBL-EBI)'s BioExcel competency framework
-[**[BIOEXCEL-FRAMEWORK]**](https://competency.ebi.ac.uk/framework/bioexcel/3.0/carreer-profiles)
+[@BIOEXCEL]
 provides some examples of different RSE-like computational roles.
 Work by King's Digital Lab at King's College London also provides
 some examples of a range of different roles within the research software
-careers space [**[KDL-CAREERS](https://zenodo.org/record/2559235)**].
+careers space [@KDL].
 
 # RSE specialisations
 
@@ -1109,6 +1108,7 @@ Structuring and institutionalising the education and structures for the add-on c
 will be topics of a follow-up paper.
 
 # Future Work
+
 Having the competencies is a first step to finding common ground around which to structure
 curricula, institutions, and teachers in this framework.
 Applications of them in an individual's career can be found in the appendix.
