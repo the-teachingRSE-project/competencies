@@ -21,6 +21,7 @@ output:
     citation_package: biblatex
     toc: true
     number_sections: true
+    secnumdepth: 3
 bibliography: bibliography.bib
 header-includes:
     - \usepackage{pdflscape}
