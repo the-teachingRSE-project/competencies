@@ -369,7 +369,7 @@ The role of an RSE lies somewhere on the spectrum between that of a researcher
 competencies in both fields. RSEs typically apply their knowledge and
 experience in larger teams which allows them to cultivate this hybrid nature.
 Therefore, we categorise the competencies into software engineering skills,
-research skills, and team skills with particular focus on the software and
+research skills, and team skills with a particular focus on the software and
 research cycle and the scientific process. The generic skills are relevant in a
 broad setting and form the foundation for specific specialisations.
 
@@ -378,7 +378,7 @@ RSEs themselves need to acquire and develop them as their career progresses
 (**Career level**). However, some knowledge of software and data processing is
 required at all academic levels and for all positions
 (**Academic Progression/better title**). The relative importance of the skills
-and competencies also depend on the size of the RSE team
+and competencies also depends on the size of the RSE team
 (**Project team size**). Finally, different sets of skills are emphasised in
 the different RSE specialisations (**RSE specialisations**).
 
@@ -415,8 +415,8 @@ systems.
 ### Adapting to the software life-cycle (SWLC)
 
 The traditional software life-cycle defines the stages that form the process of building a piece of software.
-This generally involves a creative process where requirements are gathered and analysed, a plan to fulfil them is formulated and then implemented.
 This is then followed by testing that things work as expected and that they continue to do so into the future.
+This generally involves a creative process where requirements are gathered and analysed followed by a formulation of a plan to fulfil them that is finally implemented.
 We emphasise that the life-cycle is not complete here but also includes periods of maintaining a software
 and also withdrawing software from its original use.
 The RSE should be aware of this life-cycle
@@ -443,11 +443,11 @@ and make sure that they do not negatively impact the integrity of their institut
 
 ### Curiosity (NEW)
 
-RSEs gain their reputation from their effectiveness to interact with their
+RSEs gain their reputation from their effectiveness in interacting with their
 domain peers. Therefore, some curiosity together with a broad overview of the
 research field is required as this enables the RSE to learn new methods and algorithms directly from domain peers.
 Curiosity is also reflected when an RSE is actively
-trying out new tools. Lifelong learning is then no longer just a phrase, but
+trying out new tools. Lifelong learning is then no longer just a phrase but
 becomes a motivation to work.
 
 ### Understanding the research cycle (RC)
@@ -460,13 +460,13 @@ Thereby they know, that they are part of a bigger cycle that involves many other
 their domain, and also that their software can be utilised at different stages of the research cycle by different people.
 Like other researchers, RSEs are open to discussions and arguments beyond
 their own expertise and appreciate the underlying principles of
-good research, like publications, review and reproducibility.
+good research, like publications, reviews and reproducibility.
 
 ### Software re-use (SRU)
 
 One goal of FAIR software is to avoid unnecessary duplication of work by reusing
 existing work instead. To (re-) use software, researchers have to be able to
-find it and then to easily evaluate if the software actually suits their needs.
+find it and then easily evaluate if the software actually suits their needs.
 Apart from functionality, the integration with other software,
 expected sustainability, and extensibility also have to be part of this evaluation.
 
@@ -494,7 +494,7 @@ RSEs do not work in isolation.
 They are embedded in a research group or work within a team of RSEs supporting particular research projects.
 RSEs often need to interact with and facilitate communication among colleagues, clients and contractors
 with a very broad spectrum of background-knowledge, specialisation, expectations and experience.
-The team skills are therefore crucially important.
+Team skills are therefore crucially important.
 Team skills are also mentioned in common guides for software engineering such as the Software Engineering Body of Knowledge [@swebok_2024].
 However, the interpersonal and organisational skills and the capacity for adaption required to work in a research setting
 warrants a much stronger emphasis on this field of competence.
@@ -502,19 +502,19 @@ warrants a much stronger emphasis on this field of competence.
 ### Working in a team (TEAM)
 
 Working in a team is all about communication and teamwork.
-For example RSEs need to be able to explain particular implementation choices made and may even need to defend them.
+For example, RSEs need to be able to explain particular implementation choices made and may even need to defend them.
 Within a team of RSEs code reviews improve knowledge transfer and increase team cohesion.
 Code review within a multi-disciplinary team fosters mutual understanding and
 can be a knowledge transfer between the RSE and domain scientists.
 The team might change on a project-to-project basis and might be comprised of colleagues with very different backgrounds
-including, next to software engineers, for example IT staff, domain scientists and technicians.
+including, next to software engineers, for example, IT staff, domain scientists and technicians.
 The shared values come into play and each RSE needs to ensure that these values are lived by and passed on to others.
 Senior RSEs may lead a team of RSEs.
 
 ### Teaching (TEACH)
 
 RSEs have many opportunities to teach.
-These range from inducting new colleagues, to teaching digital skills either through short courses,
+These range from inducting new colleagues to teaching digital skills either through short courses,
 for example from The Carpentries [@Carpentries], or entire lecture series.
 RSEs may also act as mentors and consultants.
 Code review also includes aspects of the teaching skill.
@@ -529,11 +529,11 @@ to flexibly adapt to changing conditions and deviate from common project managem
 ### Interaction with users and other stakeholders (USERS)
 
 Since research software is often developed as part of the research process itself,
-its requirements and specification might change with the progression of research.
+its requirements and specifications might change with the progression of research.
 Stakeholders of research software often change across different research projects
 or even within the course of one project.
 Roles in connection with research software are often in flux and diffuse.
-For example a single person might be user, developer and project manager at the same time.
+For example, a single person might be user, developer and project manager at the same time.
 Often this means it is necessary for an RSE to think "outside their comfort zone",
 but at the same time to be able to convey their knowledge and experience to experts
 of other fields or persons at different hierarchy levels in a way they can understand more easily.
@@ -544,7 +544,7 @@ These conditions pose specific challenges for requirements analysis, project man
 These skills, while already numerous are also generic on purpose. They span a
 multidimensional space in which the day-to-day tasks and responsibilities of an
 RSE can be found. A snapshot of what this means today was obtained
-from  learners and novice RSEs that we asked during the Paderborn workshop
+from learners and novice RSEs that we asked during the Paderborn workshop
 what they would like to have learnt. Among the top five things mentioned were:
 
 - Testing. This task is a manifestation of the SE competencies of DOCBB and MOD
@@ -554,7 +554,7 @@ what they would like to have learnt. Among the top five things mentioned were:
 - Contributing to large projects. This is a topic that requires competency in
   SWREPOS, SRU, SP in order to understand the ramifications of sharing, and DOCBB,
   since the contributed code has to be understood by others. Interacting with
-  project members depends on the the TEAM skill. Today this entails the effective
+  project members depends on the TEAM skill. Today this entails the effective
   use of collaborative platforms like GitHub/GitLab, honouring a project's Code of
   Conduct, and some knowledge of popular software licenses like e.g. GPL.
 - When or why to keep repositories private. This decision requires knowledge in
@@ -562,19 +562,19 @@ what they would like to have learnt. Among the top five things mentioned were:
   The USERS, TEAM and sometimes SP skills are required to make this decision.
   Furthermore, knowledge of the practices and contractual regulations of the
   RSE's institution are also required.
-- Proper Development. This broad topic requires all of the SE skills. Of course
+- Proper Development. This broad topic requires all of the SE skills. Of course,
   these are the competencies that are the most fluid since they have to adapt at
-  a high rate to the technological advancements. Additionally proper SE skills
+  a high rate to technological advancements. Additionally, proper SE skills
   often require knowledge of TEAM, and PM. Today this means effective use of IDEs,
   static analysis tools, design patterns, documentation (for oneself and others),
   etc.
-- Finding a community. This can be interpreted in two different ways. First
+- Finding a community. This can be interpreted in two different ways. First,
   we have the aspect of community building for a research project. Since this
   deals with software that is supposed to be used in research this requires
   knowledge of RC, USERS, and also NEW, in order to effectively interact with
   domain scientists. Today, an example is a presence on social media. The other
   TEAM-related aspect is the embedding of RSE graduates into the community of
-  RSEs. We envision our RSE graduates to be a part in a strong network of other
+  RSEs. We envision our RSE graduates to be a part of a strong network of other
   RSEs, tool-related communities and the classical domain communities. This point
   is further elaborated in [How do we reach people in different stages of their careers](#how-do-we-reach-people-in-different-stages-of-their-careers).
 
