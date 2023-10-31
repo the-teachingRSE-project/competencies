@@ -316,14 +316,14 @@ RSEs often assume a multifaceted role at the junction of research, software engi
 They work with a varying and diverse set of colleagues that might include other developers,
 support unit staff and academics of different fields and all career stages.
 This situation yields a specific set of challenges RSEs should be aware of
-to consciously make ethically sound judgement calls.
+to consciously make ethically sound judgment calls.
 We list some example areas that could be addressed in RSE courses or workshops.
 
 ## Handling of data and personal data
 
 A lot of RSE work involves the manipulation or creation of data processing devices.
 We highlight that professional conduct requires these creations to be reliable and to maintain data integrity.
-In particular handling of personal data may have far reaching implications for society.
+In particular, handling personal data may have far reaching implications for society.
 Independent from the encoding into the respective national law in an RSE's jurisdiction,
 the right to information privacy is internationally recognised as a fundamental human right,
 e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988], [@Hirvela2022].
@@ -335,7 +335,7 @@ special topics such as cryptography or re-identification attacks (e.g. [@Sweeney
 
 ## Mentoring and diversity
 
-RSEs are often experienced professionals who instruct and work closely with early career researches.
+RSEs are often experienced professionals who instruct and work closely with early career researchers.
 Similarly to academic supervisors, they bear a certain responsibility to guide and advise younger colleagues
 with respect to career development and the achievement of academic goals.
 According to the UNESCO Science Report [@Schneegans2021] women account for 33.3% of all researchers while the majority of researchers come from G20 countries (88.8%).
@@ -359,7 +359,7 @@ and therefore need to be aware of concepts such as Open Science, path dependence
 RSEs often operate at the cutting edge of technological development
 and therefore might have to deal with technologies of which the dangers and drawbacks are still poorly understood.
 A current example is the rush for the application of Large Language Models (LLMs),
-where RSEs working in these fields should stay up-to-date and be able to help researchers to assess topics
+where RSEs working in these fields should stay up-to-date and be able to help researchers assess topics
 such as training-data bias, LLM "hallucinations" or malicious use.
 
 # Required Generic RSE skills
