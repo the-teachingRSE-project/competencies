@@ -1090,16 +1090,16 @@ Many current RSEs have found their way to being an RSE during their doctoral stu
 This transition usually happens slowly.
 A typical RSE development path starts off with a PhD student programming a tool that others notice and find useful.
 Soon the proto RSE is known to have programming skills and is sought after to join other projects.
-The researcher is now well on the way of becoming an RSE.
+The researcher is now well on the way to becoming an RSE.
 If they enjoy this role and would like to take it further they need to know that there is an RSE career path as well as that specialised training materials exist.
 Beyond that, for an RSE it is important to be a part of a network with other RSEs, irrespective of the career level.
 A perfect first step for forming this network is topic-related conferences, workshops or meet-ups.
 Beyond that, there is the broader RSE community organised at the local and regional level with chapters or local/regional communities, at the national level with societies and the international RSE society.
 Each of them offers possibilities for connecting within or beyond an individual institution and is a great way to find like-minded people to grow a wider network and thereby facilitate the sharing of information on interesting events or help each other out.
 This available layered network can greatly benefit the RSE in finding help with issues outside of their own comfort zone
-and provides a welcoming, social safety net providing a home for the RSE. Since we feel providing aspiring RSEs this net
+and provides a welcoming, social safety net providing a home for the RSE. Since we feel providing aspiring RSEs with this net
 is of utmost importance we envision compulsory events introducing that to young RSEs.
-Qualification badges are another venue, that RSEs to find people with the same technical interest.
+Qualification badges are another venue for RSEs to find people with the same technical interests.
 Structuring and institutionalising the education and structures for the add-on courses that are also open to others in academia,
 will be topics of a follow-up paper.
 
@@ -1124,7 +1124,7 @@ We will show how we intend to provide the necessary continuous education for RSE
 This publication is again intentionally free of regional specifics, to also serve
 as a blueprint that other national RSE societies can build upon.
 Another important building block is to provide people with online resources for use in their
-courses. This is the  intention of the so-called "survey-publication".
+courses. This is the intention of the so-called "survey-publication".
 This work will not be carried out as a traditional publication, but
 this survey of existing resources will be made available as a
 continuously evolving online resource.
