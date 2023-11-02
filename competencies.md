@@ -350,7 +350,7 @@ The EMBL/EBI Competency Hub [@CompetencyHub] provides a bioinformatics/computati
 biology-focused example of a competency portal. In addition to collecting
 information on a range of competencies that can be browsed within the
 web-based tool, it also provides career profiles for roles
-within the domains that EMBL/EBI's work focuses on. The hub provides
+within the domains that EMBL/EBI focuses on. The hub provides
 access to variety of training resources that are linked to the specific
 competencies that they relate to. This enables learners to more easily
 find the right training materials in order to support their career
