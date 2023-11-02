@@ -297,7 +297,7 @@ SURESOFT [@SURESOFTLink] is a DFG funded project at TU Braunschweig and
 FAU Erlangen-Nürnberg fostering the sustainability of research software
 by helping researchers adopt practices and tools from the software
 engineering community [@SURESOFT2022]. Because tools are not enough on their own but require skill-full execution, the project implements a twofold approach that combines tools and
-infrastructure with education in the form of workshops and hands-on training. While training of The Carpentries [@Carpentries] is more targeted towards novices, SURESOFT workshops are focused on more advanced software engineering topics like Software Design Principles, Design Patterns, Refactoring, Continuous Integration and Test Driven Development. 
+infrastructure with education in the form of workshops and hands-on training. While the training material provided by The Carpentries [@Carpentries] is more targeted towards novices, SURESOFT workshops are focused on more advanced software engineering topics like Software Design Principles, Design Patterns, Refactoring, Continuous Integration and Test Driven Development. 
 
 # Values
 
