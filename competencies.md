@@ -323,7 +323,7 @@ We list some example areas that could be addressed in RSE courses or workshops.
 
 A lot of RSE work involves the manipulation or creation of data processing devices.
 We highlight that professional conduct requires these creations to be reliable and to maintain data integrity.
-In particular, handling personal data may have far reaching implications for society.
+In particular, the way that personal data is handled can have far reaching implications for society.
 Independent from the encoding into the respective national law in an RSE's jurisdiction,
 the right to information privacy is internationally recognised as a fundamental human right,
 e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988], [@Hirvela2022].
