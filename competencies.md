@@ -306,7 +306,7 @@ infrastructure with education in the form of workshops and training.
 
 #### HPC Certification Forum
 
-The HPC Certification Forum (HPC-CF) is working towards providing a certification
+The HPC Certification Forum [@HPCCF] is working towards providing a certification
 process for High Performance Computing skills.
 As part of this process, the group is developing a Competence Standard [@HPCCFCompetencies]
 and an associated skill tree that provides a classification of HPC competencies.
