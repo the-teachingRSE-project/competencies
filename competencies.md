@@ -346,7 +346,7 @@ resources that are linked to a competency framework.
 
 #### EMBL/EBI Competency Hub
 
-EMBL/EBI's Competency Hub [@CompetencyHub] provides a bioinformatics/computational
+The EMBL/EBI Competency Hub [@CompetencyHub] provides a bioinformatics/computational
 biology-focused example of a competency portal. In addition to collecting
 information on a range of competencies that can be browsed within the
 web-based tool, it also provides career profiles for roles
