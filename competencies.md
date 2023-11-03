@@ -134,13 +134,15 @@ Depending on the national research
 environments and processes that readers are familiar with, notion of the terms *software* and *research* might differ.
 Therefore, to avoid ambiguities, we provide definitions for these in the following:
 
-**Software**: As software, we define source code, documentation, tests
+**Software**: As software, we define source code, documentation, tests, executables
 and any other artifacts that are created by humans during the software development process,
 and that are necessary to understand the purpose and usage of the software.
 
 **Research**: We define research to encompass all domains of research.
-This enables us to define Research Software in this paper to include source code files,
-algorithms, scripts, computational workflows and executables that were created
+This enables us to define Research Software in this paper to include 
+the foundational algorithms,
+the software as defined above,
+and scripts as well as computational workflows that were created
 during the research process or for a research purpose.
 This definition is broader than in [@FAIR4RS] and is the outcome of a recent
 discussion in [@Gruenpeter2021].
