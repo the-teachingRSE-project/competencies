@@ -168,7 +168,7 @@ The outline of the paper is as follows.
 We start with a non-exhaustive overview of existing initiatives.
 The next section elaborates on the values that
 provide the guiding principles for the work of an RSE.
-Section 3 condenses and generalises
+[Section 3](#required-generic-rse-skills) condenses and generalises
 the workshop discussions into a set of generic skills.
 The skills themselves fall into three categories
 'software engineering', 'research' and 'team skills'
@@ -179,18 +179,17 @@ and discuss the skills used therein.
 
 As with any skill, not all RSEs will need
 and use them to the same level of expertise.
-Therefore, Section 4 examines how much a person
+Therefore, [Section 4](#how-much-do-different-people-need-to-know) examines how much a person
 needs to know depending on their education or career level
 or on the type of projects they would like to be involved with.
 
-Section 5 provides a list of RSE specialisations
+[Section 5](#rse-specialisations) provides a list of RSE specialisations
 and discusses the level of skill needed to work in each of them,
 before we conclude the paper with a summary.
 
-Finally, the appendix provides an example curriculum,
-an example career path for an RSE through the hierarchy,
-and lists existing skills and certifications in related fields
-like bioinformatics.
+Finally, the [appendix](#appendix) provides an [example curriculum](#an-example-master-s-programme-for-research-software-engineering),
+an example [career path](#an-example-of-a-possible-career-path) for an RSE through the hierarchy,
+and lists existing skills and certifications in related fields like [bioinformatics](#bioinformatics-skills-and-certification).
 
 While this paper is based on the workshop discussions that were attended largely by Research Software Engineers,
 we believe that the competencies formulated here have a far-reaching
@@ -581,7 +580,7 @@ Code review also includes aspects of the teaching skill.
 
 The RSE should have knowledge about project management. At some institutes, it follows the practices of the local research groups,
 but it is useful, if an RSE knows its place in a PM scheme, or can bring in new ideas for improvement.
-Project management in research software engineering poses specific challenges (see USERS) that might require the capacity
+Project management in research software engineering poses specific challenges (see [USERS](#interaction-with-users-and-other-stakeholders-users)) that might require the capacity
 to flexibly adapt to changing conditions and deviate from common project management methods.
 
 ### Interaction with users and other stakeholders (USERS)
@@ -779,7 +778,7 @@ to and support them. Some of them are brought to life in the example career path
 We first summarise the meaning of each of the columns in the table:
 
 - **Competency:** The code assigned to the competency being considered.
-  See the list in **[Table ?????]**.
+  See the list of [skills](#required-generic-rse-skills).
 - **Individual developer (Locally-based):** A single person working on some
   research software - often a researcher with RSE skills.
 - **Individual developer (RSE team-based):** A single person working on research
@@ -1287,7 +1286,7 @@ The RSE supervisor ensures and grades the software craftsmanship aspects of the 
 This setup ensures that we are grading the effectiveness of applying RSE skills in an actual research environment.
 
 ## An example of a possible career path
-### Intro
+### Setting the stage
 
 Meet Kay, Kim's younger sister [@Anzt2020] who currently studies researchology in a bachelor's programme in the established domain of researchonomy at University of Orithena (UofO).
 We will follow Kay’s fictional career to illustrate how education, job-experience and a career in academic institutions could lead to becoming a successful RSE.
