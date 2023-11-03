@@ -127,6 +127,7 @@ researchonomy
 reusability
 RSE
 RSE's
+rse-specialisations
 RTPs
 scipy
 SRU
