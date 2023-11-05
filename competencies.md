@@ -575,7 +575,7 @@ Within a team of RSEs code reviews improve knowledge transfer and increase team 
 Code review within a multi-disciplinary team fosters mutual understanding and
 can be a knowledge transfer between the RSE and domain scientists.
 The team might change on a project-to-project basis and might be comprised of colleagues with very different backgrounds
-including, next to software engineers, for example, IT staff, domain scientists and technicians.
+including, for example, IT staff, domain scientists and technicians working alongside software engineeers.
 The shared values come into play and each RSE needs to ensure that these values are lived by and passed on to others.
 Senior RSEs may lead a team of RSEs.
 
