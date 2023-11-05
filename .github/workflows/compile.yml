@@ -9,7 +9,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Install pandoc
-        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends texlive pandoc texlive-bibtex-extra texlive-fonts-recommended texlive-xetex lmodern biber latexmk python3 python3-yaml xz-utils make gpg-agent
+        run: |
+          sudo apt-get update && sudo apt-get install -y --no-install-recommends texlive pandoc texlive-bibtex-extra texlive-fonts-recommended texlive-xetex lmodern biber latexmk python3 python3-yaml xz-utils make gpg-agent
+          pip install pandoc-fignos pandoc-eqnos pandoc-tablenos \
+            pandoc-secnos --user
       - name: Configure LaTeX environment
         working-directory: ${{ env.DIR }}
         run: |

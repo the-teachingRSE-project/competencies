@@ -39,9 +39,11 @@ distributable
 DMP
 DOCBB
 DOMREP
+EBI
 ECTS
 EduTrain
 edX
+EMBL
 EMBL-EBI
 ENCCS
 EOR
@@ -76,6 +78,7 @@ HIFIS
 HMC
 HPC
 HPC-Akademie
+HPC-CF
 HPC-oriented
 HTC
 IDEs
@@ -124,6 +127,7 @@ researchonomy
 reusability
 RSE
 RSE's
+rse-specialisations
 RTPs
 scipy
 SRU
