@@ -575,7 +575,7 @@ Within a team of RSEs code reviews improve knowledge transfer and increase team 
 Code review within a multi-disciplinary team fosters mutual understanding and
 can be a knowledge transfer between the RSE and domain scientists.
 The team might change on a project-to-project basis and might be comprised of colleagues with very different backgrounds
-including, for example, IT staff, domain scientists and technicians working alongside software engineeers.
+including, for example, IT staff, domain scientists and technicians working alongside software engineers.
 The shared values come into play and each RSE needs to ensure that these values are lived by and passed on to others.
 Senior RSEs may lead a team of RSEs.
 
@@ -1028,7 +1028,7 @@ while other RSEs might expand their skill set and profession to areas, that are 
 #### OpenScience RSE
 Open Science and FAIRness of Data and Software are increasingly important topics in research,
 as exemplified by the demand of an increasing amount of research funding agencies requiring openness.
-Hence an Open Science RSE is required to have a deepened knowledge in (RC) and how to distribute software publicly (SRU, SP).
+Hence an Open Science RSE is required to have a deeper knowledge in (RC) and how to distribute software publicly (SRU, SP).
 Open Science RSEs can help researchers navigate the technical questions that come up
 when practising Open Science, such as "How do I make my code presentable?",
 "What do I need to do to make my software FAIR?", or
@@ -1142,7 +1142,8 @@ Therefore a deep knowledge of web skills is a required additional skill for this
 #### Legal-RSE
 All RSEs are a go-to person for questions about licensing, mixing and matching of software.
 But with the rising requirements from legislation,
-we foresee the need for RSEs that still have a background in RSE but extend it with a knowledge of legal processes that cover corner cases and go beyond applying Best Practice guides.
+we foresee the need for RSEs that still have a background in RSE but extend it with a knowledge of legal processes,
+that cover corner cases and go beyond applying Best Practice guides.
 These requirements may arise in the area of publication of research software,
 as this also requires knowledge about particular laws or regulatory frameworks concerning data protection,
 like the GDPR within the EU [@GDPR].
@@ -1169,7 +1170,7 @@ Each of them offers possibilities for connecting within or beyond an individual 
 This available layered network can greatly benefit the RSE in finding help with issues outside of their own comfort zone
 and provides a welcoming, social safety net providing a home for the RSE. Since we feel providing aspiring RSEs with this net
 is of utmost importance we envision compulsory events introducing that to young RSEs.
-Qualification badges are another venue for RSEs to find people with the same technical interests.
+Qualification badges are another option for RSEs to find people with the same technical interests.
 Structuring and institutionalising the education and structures for the add-on courses that are also open to others in academia,
 will be topics of a follow-up paper.
 
