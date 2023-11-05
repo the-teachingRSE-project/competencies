@@ -21,6 +21,7 @@ output:
     citation_package: biblatex
     toc: true
     number_sections: true
+secnumdepth: 3
 bibliography: bibliography.bib
 header-includes:
     - \usepackage{pdflscape}
@@ -29,6 +30,8 @@ header-includes:
     - \usepackage{longtable}
     - \newcommand{\blandscape}{\begin{landscape}}
     - \newcommand{\elandscape}{\end{landscape}}
+xnos-cleveref: True
+xnos-capitalise: True
 ---
 Applications of them in an individual's career can be found in the appendix.
 An omission that we'd like to highlight is that RSEs that choose explicitly
@@ -59,7 +62,7 @@ An Appendix details how existing curricula fit into this framework.
 
 **Keywords**: research software engineering, training, learning, competencies
 
-# Introduction
+# Introduction {#sec:introduction}
 
 Computers and software have played a key role in the research life-cycle for many
 decades. Traditionally, they were specialised tools used in only a small number
@@ -168,10 +171,10 @@ we provide a guiding framework to facilitate
 the training and continuous professional development of RSEs.
 
 The outline of the paper is as follows.
-We start with a non-exhaustive overview of existing initiatives.
-The next section elaborates on the values that
+We start with a non-exhaustive overview of existing initiatives in @sec:related-work.
+@sec:values elaborates on the values that
 provide the guiding principles for the work of an RSE.
-[Section 3](#required-generic-rse-skills) condenses and generalises
+@sec:required-generic-skills condenses and generalises
 the workshop discussions into a set of generic skills.
 The skills themselves fall into three categories
 'software engineering', 'research' and 'team skills'
@@ -182,13 +185,14 @@ and discuss the skills used therein.
 
 As with any general skill set, not all RSEs will need
 to use all the skills highlighted to the same level of expertise.
-Therefore, [Section 4](#how-much-do-different-people-need-to-know) examines how much a person
+Therefore, @sec:how-much-to-know examines how much a person
 needs to know depending on their education or career level
 or on the type of projects they would like to be involved with.
 
-[Section 5](#rse-specialisations) provides a list of RSE specialisations
+@sec:rse-specialisations provides a list of RSE specialisations
 and discusses the level of skill needed to work in each of them,
-before we conclude the paper with a summary.
+before we conclude the paper with details of future work in @sec:future-work
+and conclusions in @sec:conclusion.
 
 Finally, the [appendix](#appendix) provides an [example curriculum](#an-example-master-s-programme-for-research-software-engineering),
 an example [career path](#an-example-of-a-possible-career-path) for an RSE through the hierarchy,
@@ -217,7 +221,7 @@ valuable in order to observe how software development in academia is being
 professionalised. Finally, the strong emphasis on team skills allows RSEs to be
 well prepared for common challenges that may be encountered in workplaces outside academia.
 
-# Related Work
+# Related Work {#sec:related-work}
 
 The day-to-day work of many RSEs often includes teaching activities to improve the
 RSE-related skill-set of researchers and other technical staff.
@@ -360,7 +364,7 @@ find the right training materials in order to support their career
 development journey, helping them to identify what they might want to
 learn and in what order.
 
-# Values
+# Values {#sec:values}
 
 The activities of an RSE are guided by ethical values.
 A general list of applicable values is given in the Software Engineering Code of Ethics [@Gotterbarn1999].
@@ -423,7 +427,7 @@ A current example is the rush for the application of Large Language Models (LLMs
 where RSEs working in these fields should stay up-to-date and be able to help researchers to assess topics
 such as training-data bias, LLM "hallucinations" or malicious use.
 
-# Required Generic RSE skills
+# Required Generic RSE skills {#sec:required-generic-skills}
 
 The role of an RSE lies somewhere on the spectrum between that of a researcher
 (the "R") and a software engineer (the "SE") and, therefore, requires
@@ -556,7 +560,7 @@ They are embedded in a research group or work within a team of RSEs supporting p
 RSEs often need to interact with and facilitate communication among colleagues, clients and contractors
 with a very broad spectrum of background-knowledge, specialisation, expectations and experience.
 The team skills are therefore crucially important.
-Team skills are also mentioned in common guides for software engineering such as the Software Engineering Body of Knowledge [@swebok_2024].
+Team skills are also mentioned in common guides for software engineering such as the Software Engineering Body of Knowledge [@swebok_2014].
 However, the interpersonal and organisational skills and the capacity for adaption required to work in a research setting
 warrants a much stronger emphasis on this field of competence.
 
@@ -637,7 +641,7 @@ what they would like to have learnt. Among the top five things mentioned were:
   TEAM-related aspect is the embedding of RSE graduates into the community of
   RSEs. We envision our RSE graduates to be a part in a strong network of other
   RSEs, tool-related communities and the classical domain communities. This point
-  is further elaborated in [How do we reach people in different stages of their careers](#how-do-we-reach-people-in-different-stages-of-their-careers).
+  is further elaborated in @sec:reachout.
 
 Beyond that, we feel that today other important tasks of RSEs are
 
@@ -653,7 +657,7 @@ Beyond that, we feel that today other important tasks of RSEs are
   The RSE needs to be able to identify the application class they are dealing with and apply the respective RSE practices.
 - Enforcing reproducibility. Projects like [@ReproHack] can greatly help in fostering that competency.
 
-# How much do different people need to know?
+# How much do different people need to know? {#sec:how-much-to-know}
 
 Now that we have the different competencies, we can explore various dimensions of these competencies,
 depending on their circumstances. A strong beneficiary of specialised RSEs can also be newly formed RSE centres at research institutions.
@@ -688,6 +692,8 @@ The following table elaborates on the required facets of the competencies in dif
 | TEACH   | should be able to perform simple peer-to-peer on-boarding tasks                                                                | should be able to explain logical components to other RSEs                                                                            | Should be able to effectively communicate about all large-scale parts of the project.                                                                      |
 | PM      | Awareness about the employed project management method                                                                      | Should be able to use the employed PM method                                                                                          | Should be able to design and adapt the employed PM method.                                                                                                 |
 | TEAM    | Should be able to work in the team in order to effectively fulfil the given tasks. Should be able to learn from code review. | Should be able to break down tasks into more easily digestible sub-tasks                                                              | Should be able to lead the team and set the respective direction.                                                                                          |
+
+Table: Levels of competency expected for different RSE career stages. {#tbl:comp-lvls}
 
 \elandscape
 
@@ -782,7 +788,7 @@ to and support them. Some of them are brought to life in the example career path
 We first summarise the meaning of each of the columns in the table:
 
 - **Competency:** The code assigned to the competency being considered.
-  See the list of [skills](#required-generic-rse-skills).
+  See the list in @tbl:comp-lvls.
 - **Individual developer (Locally-based):** A single person working on some
   research software - often a researcher with RSE skills.
 - **Individual developer (RSE team-based):** A single person working on research
@@ -1004,7 +1010,7 @@ Work by King's Digital Lab at King's College London also provides
 some examples of a range of different roles within the research software
 careers space [@KDL].
 
-# RSE specialisations
+# RSE specialisations {#sec:rse-specialisations}
 
 What we have defined above are intended to be base skills that an RSE irrespective of domain, place, and time should know about.
 But not all RSEs are created equal, they specialise in different areas,
@@ -1145,7 +1151,7 @@ They are able to communicate and collaborate with lawyers.
 social skill-set focused specialisations
 -->
 
-# Reaching out to potential RSEs
+# Reaching out to potential RSEs {#sec:reachout}
 
 Many current RSEs have found their way to being an RSE during their doctoral studies.
 This transition usually happens slowly.
@@ -1164,7 +1170,7 @@ Qualification badges are another venue, that RSEs to find people with the same t
 Structuring and institutionalising the education and structures for the add-on courses that are also open to others in academia,
 will be topics of a follow-up paper.
 
-# Future Work
+# Future Work {#sec:future-work}
 
 Having the competencies is a first step to finding common ground around which to structure
 curricula, institutions, and teachers in this framework.
@@ -1194,7 +1200,7 @@ publication on the necessary institutions,
 to lay down what is required to best support the continuous need
 for young RSEs to support digital science specifically in Germany.
 
-# Conclusion and Outlook
+# Conclusion and Outlook {#sec:conclusion}
 
 This paper started from a community workshop at deRSE23 in Paderborn
 where people working in RSE related fields got together to figure out
@@ -1226,7 +1232,7 @@ a direction determined by new incentives created by scientific journals and libr
 How we update existing institutions and set up new ones
 that provide this education will be the topic of a follow-up paper.
 
-# Appendix
+# Appendix {#sec:appendix}
 
 ## An Example Master's Programme for Research Software Engineering
 
