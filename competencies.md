@@ -482,8 +482,9 @@ systems.
 ### Adapting to the software life-cycle (SWLC)
 
 The traditional software life-cycle defines the stages that form the process of building a piece of software.
+Initial development generally involves a creative process where requirements are gathered and analysed,
+followed by a formulation of a plan to fulfil them that is finally implemented. Often the development is iterated.
 This is then followed by testing that things work as expected and that they continue to do so into the future.
-This generally involves a creative process where requirements are gathered and analysed followed by a formulation of a plan to fulfil them that is finally implemented.
 We emphasise that the life-cycle is not complete here but also includes periods of maintaining a software
 and also withdrawing software from its original use.
 The RSE should be aware of this life-cycle
