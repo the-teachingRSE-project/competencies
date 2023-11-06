@@ -33,13 +33,6 @@ header-includes:
 xnos-cleveref: True
 xnos-capitalise: True
 ---
-Applications of them in an individual's career can be found in the appendix.
-An omission that we'd like to highlight is that RSEs that choose explicitly
-a science supporting role outside of research will not be eligible
-for funding under the statutes of a lot of funding organisations that require a PhD at minimum.
-To alleviate that and give RSEs in leadership positions a means
-to become eligible for funding themselves we propose the introduction of a "science enabling doctor"
-that can be handed out on an honorary basis by certain institutions.
 
 **Abstract**:
 The term Research Software Engineer, or RSE,
@@ -146,7 +139,7 @@ and all other artefacts that are created by humans during the development proces
 that are necessary to understand its purpose.
 
 **Research**: We define research to encompass all domains of research.
-This enables us to define Research Software in this paper to include 
+This enables us to define Research Software in this paper to include
 the foundational algorithms,
 the software as defined above,
 and scripts as well as computational workflows that were created
@@ -311,7 +304,7 @@ SURESOFT [@SURESOFTLink] is a DFG funded project at TU Braunschweig and
 FAU Erlangen-Nürnberg fostering the sustainability of research software
 by helping researchers adopt practices and tools from the software
 engineering community [@SURESOFT2022]. Because tools are not enough on their own but require skill-full execution, the project implements a twofold approach that combines tools and
-infrastructure with education in the form of workshops and hands-on training. While the training material provided by The Carpentries [@Carpentries] is more targeted towards novices, SURESOFT workshops are focused on more advanced software engineering topics like Software Design Principles, Design Patterns, Refactoring, Continuous Integration and Test Driven Development. 
+infrastructure with education in the form of workshops and hands-on training. While the training material provided by The Carpentries [@Carpentries] is more targeted towards novices, SURESOFT workshops are focused on more advanced software engineering topics like Software Design Principles, Design Patterns, Refactoring, Continuous Integration and Test Driven Development.
 
 #### HPC Certification Forum
 
@@ -325,12 +318,12 @@ that can underpin the certification process.
 
 #### UNIVERSE-HPC
 
-UNIVERSE-HPC (Understanding and Nurturing an Integrated Vision for 
+UNIVERSE-HPC (Understanding and Nurturing an Integrated Vision for
 Education in RSE and HPC) [@UNIVERSEHPC] is a project funded under the UK's
 ExCALIBUR research programme [@EXCALIBUR].
 The project is looking to understand and develop training pathways and
 curricula to support the development of specialist skills in the HPC and
-exascale domains. 
+exascale domains.
 It is aiming to develop learning pathways that represent a variety of
 different routes to gain the necessary skills to become an expert in the
 latest HPC and exascale technologies.
@@ -1310,7 +1303,7 @@ In Kay’s world, some of the measures proposed in this paper have already been 
 
 Through a program like DaLiJe or The Missing Semester [@Athalye2023],
 Kay learns about using computational tools to support the sophisticated statistical analysis typical for researchology.
-She uses those tools to create and automate the steps of processing data and producing outcomes for her bachelor's thesis 
+She uses those tools to create and automate the steps of processing data and producing outcomes for her bachelor's thesis
 (generating plots with matplotlib, maybe even CI for automatic building)
 and takes pride in a fully open and reproducible bachelor's thesis enabling her to graduate with honours from the faculty of researchonomy.
 
