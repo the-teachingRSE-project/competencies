@@ -16,7 +16,6 @@ parser.add_argument("--output", type=str, required=False,
 parser.add_argument("--contributors", type=str, required=False,
                     default="contributors.yml",
                     help="contributors YAML file")
-args = parser.parse_args()
 
 
 def get_contributors_metadata(content):
@@ -68,6 +67,7 @@ def process_markdown(metadata, body, contributors):
 
 
 if __name__ == "__main__":
+    args = parser.parse_args()
     with open(args.contributors) as f:
         contributors = get_contributors_metadata(f.read())
     with open(args.input) as f:

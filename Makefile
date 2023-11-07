@@ -7,10 +7,23 @@ all: $(objects)
 %.pdf: %.md bibliography.bib contributors.yml preamble.sty
 	@mkdir -p build
 	cp --update preamble.sty build/bookmark.sty
+	cp --update bibliography.bib build/bibliography.bib
 	python3 filter.py --input="$<" --output="build/$<" --contributors="contributors.yml"
-	pandoc -V papersize:a4 -s -N --filter pandoc-xnos --bibliography=bibliography.bib --biblatex -M date="`date "+%B %e, %Y"`" -V colorlinks=true --toc -o "build/${@:.pdf=}.tex" "build/$<"
-	sed -i 's|\\addbibresource{bibliography.bib}|\\addbibresource{../bibliography.bib}|' "build/${@:.pdf=}.tex"
-	latexmk -xelatex -bibtex -halt-on-error -jobname="${@:.pdf=}" -cd "build/${@:.pdf=}.tex"
+	pandoc \
+	    --standalone \
+	    --number-sections \
+	    --filter pandoc-xnos \
+	    --bibliography=bibliography.bib \
+	    --biblatex \
+	    --toc \
+	    -M date="`date "+%B %e, %Y"`" \
+	    -V colorlinks=true \
+	    -V papersize=a4 \
+	    -o "build/${@:.pdf=}.tex" \
+	    "build/$<"
+	latexmk \
+	    -xelatex -bibtex -halt-on-error \
+	    -jobname="${@:.pdf=}" -cd "build/${@:.pdf=}.tex"
 	@mv "build/${@}" ${@}
 
 clean:
