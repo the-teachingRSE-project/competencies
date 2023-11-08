@@ -944,7 +944,7 @@ We categorise them into those, that can be viewed as a specialisation within RSE
 while other RSEs might expand their skill set and profession to areas, that are not typical for an RSE.
 
 
-### Specialisations within the core RSE competencies
+## Specialisations within the core RSE competencies
 
 #### OpenScience RSE
 Open Science and FAIRness of Data and Software are increasingly important topics in research,
@@ -977,7 +977,7 @@ To facilitate this, there are people required that specialise in the (DOCBB) and
 with a focus on making end-user facing software really reusable and hence FAIR.
 This task is supported by strong (MOD) skills to reason about the behaviour of potential users of the software.
 
-### Specialisations outside the core RSE competencies
+## Specialisations outside the core RSE competencies
 
 
 <!--
