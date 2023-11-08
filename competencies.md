@@ -109,7 +109,9 @@ agnostic of specific technical capabilities or research domains,
 which an RSE should acquire during training and formal education.
 By defining these competencies,
 we provide a guiding framework to facilitate
-the training and continuous professional development of RSEs.
+the training and continuous professional development of RSEs,
+thus helping to provide a positive impact on
+research outputs and, ultimately, society as a whole.
 These competencies draw upon skills from traditional software engineering practice,
 established research culture, and the commitment to being part of a team.
 While there is anecdotal evidence that academic software engineering practitioners
