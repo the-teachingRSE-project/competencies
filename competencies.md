@@ -127,7 +127,7 @@ At the same time, funding bodies and computing infrastructure providers
 prioritise projects that generate archived,
 annotated, re-usable, and potentially remotely executable data.
 In particular, funding agencies and research managers will find the discussion in this paper
-valuable in order to discover where RSEs see their place in the exisiting landscape of scientific domains.
+valuable in order to discover where RSEs see their place in the existing landscape of scientific domains.
 and how to support the work of RSEs at different positions and career levels.
 
 The outline of the paper is as follows.
