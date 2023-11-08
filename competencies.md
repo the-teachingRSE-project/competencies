@@ -1347,10 +1347,10 @@ PhD programs, and certificates from graduate schools.
 
 BioExcel has research competencies that combine some of our research competencies and some notions from the communication skills.
 Their computing competencies roughly map to our software skills.
-Here we find competencies like "Package and distribute Software" that maps to our (LIBS) competencies,
-and "comply with licensing policy" that would in our framework be part of (SP) in the research competencies.
-In addition they have a dedicated parallel computing competency section,
-thereby shifting the emphasis of the knowledge of their computational tools towards the HPC-RSE in our framework.
-Career profiles like the computational chemist bring additional domain specific knowledge,
-thereby we would classify them as a mixed DOMAIN-RSE and HPC-RSE.
-It is noteworthy, that their framework puts very little emphasis on communication skills that are often involved in RSE related tasks.
+Here, we find competencies such as "Package and distribute Software", which maps to our (LIBS) competencies,
+and "comply with licensing policy", which would in our framework be part of (SP) in the research competencies.
+In addition, they have a dedicated parallel computing competency section,
+thereby shifting the emphasis of the knowledge of their computational tools towards the HPC-RSE specialization in our framework.
+Career profiles, such as the computational chemist, bring additional domain specific knowledge;
+We would classify those as a mixture of DOMAIN-RSE and HPC-RSE.
+It is noteworthy, however, that the BioExcel framework puts very little emphasis on communication skills, which are often involved in RSE-related tasks.
