@@ -37,11 +37,13 @@ def get_manuscript_metadata(markdown):
 
 def process_markdown(metadata, body, contributors):
     authors = []
+    authors_xmp = []
     affiliations = {}
     acknowledgements = []
     # parse metadata
     for key in metadata["author"]:
         author_metadata = contributors[key]
+        authors_xmp.append(key)
         author = key
         if "orcid" in author_metadata:
             author += rf" \orcidlinksimple{{{author_metadata['orcid']}}}"
@@ -54,6 +56,7 @@ def process_markdown(metadata, body, contributors):
             acknowledgements.append(author_metadata["acknowledgements"])
     # update Markdown metadata
     metadata["author"] = authors
+    metadata["authorxmp"] = authors_xmp
     # rewrite Markdown file
     markdown = []
     markdown.append("---")
