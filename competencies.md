@@ -32,9 +32,12 @@ header-includes:
     - \newcommand{\elandscape}{\end{landscape}}
 xnos-cleveref: True
 xnos-capitalise: True
----
-
-**Abstract**:
+keywords:
+  - research software engineering
+  - training
+  - learning
+  - competencies
+abstract: "
 The term Research Software Engineer, or RSE,
 emerged a little over 10 years ago as a way to represent
 individuals working in the research community but focusing on software development.
@@ -50,10 +53,8 @@ define a list of fundamental competencies as well as values that define the gene
 On this basis, we elaborate on the progression of these skills along different
 dimensions, looking at specific types of RSE roles and giving examples of future specialisations.
 An Appendix details how existing curricula fit into this framework.
-
+"
 ---
-
-**Keywords**: research software engineering, training, learning, competencies
 
 # Introduction {#sec:introduction}
 

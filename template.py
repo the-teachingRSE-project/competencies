@@ -49,5 +49,30 @@ $endif$
 
 \begin{document}""")
 
+# generate the abstract and keywords list
+content = substitute(content, r"""$if(abstract)$
+\begin{abstract}
+$abstract$
+\end{abstract}
+$endif$""",
+r"""$if(abstract)$
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+$elseif(keywords)$
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+$endif$
+$if(abstract)$
+\textbf{Abstract}: {$abstract$}
+$endif$
+
+$if(keywords)$
+\textbf{Keywords}: {$for(keywords)$$keywords$$sep$, $endfor$}
+$endif$
+$if(abstract)$
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+$elseif(keywords)$
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+$endif$"""
+)
+
 with open(args.file, "w") as f:
     f.write(content)

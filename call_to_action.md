@@ -21,18 +21,19 @@ output:
     toc: true
     number_sections: true
 bibliography: bibliography.bib
----
-
-**Abstract**:
+keywords:
+  - research software engineering
+  - training
+  - learning
+  - competencies
+abstract: "
 The previous papers dealt with a survey of the disparate sources of education for RSEs.
 A follow-up publication dealt with specific competencies that define and RSEs and have shown
 some career pathways that emerge from them. In the next paper we have set out structures that facilitate
 the education of RSEs, thereby setting the ground for this paper where we
 detail what needs to be done specifically in Germany.
-
+"
 ---
-
-**Keywords**: research software engineering, training, learning, competencies
 
 ## Required Next steps
 ### Implementation Strategies

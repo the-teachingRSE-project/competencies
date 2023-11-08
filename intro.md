@@ -21,9 +21,12 @@ output:
     toc: true
     number_sections: true
 bibliography: bibliography.bib
----
-
-**Abstract**:
+keywords:
+  - research software engineering
+  - training
+  - learning
+  - competencies
+abstract: "
 Being an outcome of a community workshop held in Paderborn, Germany in February 2023 this paper tries
 for the first time(FIXME: ? true?) to define which competencies are required to participate in modern digital sciences.
 Some of these competencies are required in more depth, therefore, giving rise to the trade of the RSE:
@@ -36,10 +39,8 @@ required and how these are taught(FIXME: Do we want to add this pedagogical dime
 In order to also facilitate structural change in the German research institution landscape
 we will discuss the organisations and structures that support this change and educate new RSEs.
 The discussion in this paper is meant to be general. Therefore, we will discuss domain specific applications in an appendix.
-
+"
 ---
-
-**Keywords**: research software engineering, training, learning, competencies
 
 ## Introduction
 - background

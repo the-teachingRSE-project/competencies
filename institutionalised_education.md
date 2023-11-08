@@ -21,16 +21,18 @@ output:
     toc: true
     number_sections: true
 bibliography: bibliography.bib
+keywords:
+  - research software engineering
+  - training
+  - learning
+  - competencies
+abstract: "
+Previous publications have defined the core competencies of an RSE and surveyed
+the state of existing RSE-related resources.
+In this paper we detail how to structure the education of RSEs in existing
+structures and which additional structures are required.
+"
 ---
-
-**Abstract**:
-Previous publications have defined the core competencies of an RSE and surveyed the state of existing RSE-related resources.
-In this paper we detail how to structure the education of RSEs in existing structures and which additional structures are
-required.
----
-
-**Keywords**: research software engineering, training, learning, competencies
-
 
 ## Organisational Infrastructures
 So we have defined our set of competencies that we feel every RSE should possess.
