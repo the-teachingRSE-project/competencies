@@ -21,14 +21,22 @@ This paper is intended as a collaborative effort and we are looking for input fr
 
 **We use British English**
 
-- competencies.md will be published on arxiv. Latex tags/code is fine in here.
-- survey.md will move to a website, hence this file has to be markdown
+- competencies.md will be published on arxiv. LaTeX tags/code is fine in here.
+- survey.md will move to a website, hence this file has to be Markdown
 - We utilise tags to categorise issues and PRs to the respective paper.
+
 You can contribute in various ways:
 
 1. Propose content/text via pull request
 1. Improve existing content via pull request
 1. Review or comment on pull requests of others
+
+To build the PDF files, we recommend a full TeXlive installation.
+You will also need to install a few Python packages:
+
+```sh
+python3 -m pip install -r requirements.txt
+```
 
 ### How to create a pull request
 

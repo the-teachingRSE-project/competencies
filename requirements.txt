@@ -1,0 +1,5 @@
+pandoc-fignos
+pandoc-eqnos
+pandoc-tablenos
+pandoc-secnos
+PyYAML

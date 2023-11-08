@@ -1,13 +1,4 @@
-% packages which must to be loaded before hyperref
-\usepackage[bottom]{footmisc}
-\usepackage{etoolbox}
-\makeatletter
-\patchcmd{\maketitle}{\@fnsymbol}{\@arabic}{}{}
-\patchcmd{\maketitle}{\setcounter{footnote}{0}}{}{}{}
-\makeatother
-% hyperref
 \usepackage{hyperref}
-% other packages
 \usepackage{academicons}
 \definecolor{orcidlogocolor}{HTML}{A6CE39}
 \newcommand{\orcidlinksimple}[1]{\hspace{-0.4ex}{\small\raisebox{0.3ex}{\href{https://orcid.org/#1}{\textcolor{orcidlogocolor}{\aiOrcid}}}}}
