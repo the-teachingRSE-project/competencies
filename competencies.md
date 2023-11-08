@@ -87,7 +87,7 @@ This, in turn, presents career development challenges since the experience requi
 and progress in research and academic roles is traditionally assessed through metrics that
 do not directly include software outputs.
 A recent shift towards the establishment of the distinct role of a
-_"Research Software Engineer"_
+_"Research Software Engineer"_ [@WhatResearchSoftware]
 (RSE, a term that emerged from the UK a little over 10 years ago [@Hettrick2016]),
 now provides a base on which sustainable career opportunities can be (and are being) built,
 allowing for better training of researchers and more effective support for the development of high
