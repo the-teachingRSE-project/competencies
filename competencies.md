@@ -405,8 +405,9 @@ systems.
 
 The traditional software life-cycle defines the stages that form the process of building a piece of software.
 Initial development generally involves a creative process where requirements are gathered and analysed,
-followed by a formulation of a plan to fulfil them that is finally implemented. Often the development is iterated.
+followed by a formulation of a plan to fulfil them that is finally implemented.
 This is then followed by testing that things work as expected and that they continue to do so into the future.
+Often the development is iterated.
 We emphasise that the life-cycle is not complete here but also includes periods of maintaining a software
 and also withdrawing software from its original use.
 The RSE should be aware of this life-cycle
@@ -595,7 +596,8 @@ At different career levels, differing skills are required. We have set this up a
 - Senior RSE: They have gained experience and can set the standards in a software project.
 - Principal RSE: Their actual job description varies a lot. These may be RSE team leaders based in a professional services type role, or they may be professors or research group leaders based in a more academic-focused role. They are often the people responsible for bringing in the funding that supports new projects and sustains existing projects. Generally speaking, they do not need to be actively involved in the day-to-day technical tasks but they should be able to guide projects from both a technical and a research perspective.
 
-The following table elaborates on the required facets of the competencies in different roles. An example progression through the hierarchies can be found in the appendix.
+The following table elaborates on the required facets of the competencies in different roles.
+A story-like example of an individual through the hierarchies can be found in @subsec:examplecareer .
 
 \blandscape
 \small
@@ -640,7 +642,7 @@ resulting in a broader audience.
 This section outlines how the RSE competencies could be reflected at all academic levels.
 It is important to note that this section does not reflect the current state of academic training and research institutions.
 Instead, it summarises the discussions with and between workshop participants at different levels of academic progression on what they would have liked to learn at an earlier stage or know before starting their current position.
-While individuals already work at implementing some of these changes and teaching these skills it has not yet reached a systemic level.
+While individuals already work at implementing some of these changes and teaching these skills, it has not yet reached a systemic level.
 
 The text is organised along the academic progression path (bachelor's degree, master's degree, PhD, Postdoc, PI/Professor).
 Since each level is based on the previous levels we presume that the skills and competencies at each level also encompass those of the previous levels.
@@ -656,7 +658,7 @@ During their studies, they should also learn about the existence of digital tool
 Undergrad students should be aware that RSEs exist and that software has different quality aspects (DOCBB).
 They should be aware of domain specific tools (LIBS, SRU) and where to find them (SWREPOS, DOMREP).
 At this level it is sufficient to consider software as black boxes (USERS) although some training in data presentation would be very helpful and a good way to find out about programming (MOD, NEW).
-They should have an awareness of software licenses and who to ask if they have any questions (SP).
+They should have an awareness of software licenses and whom to ask if they have any questions (SP).
 They will be taught about the research cycle (RC) and that researchers often work in groups (TEAM).
 During practicals, they will have an opportunity for peer learning (TEACH).
 
@@ -691,7 +693,7 @@ They need to be aware of more advanced topics regarding intellectual property ri
 #### PI/Professor
 
 They are experts in their field and should be able to give proper guidance to their students on which digital tools are currently relevant.
-They should be aware of the skills of an RSE and when they might need one in their group (DOCBB).
+They should be aware of the skills of an RSE and when they might need one in their group.
 They should encourage their students to use relevant tools (LIBS).
 They need to be able to judge the suitability of the software (SWLC) and follow the interactions between relevant projects (SWREPOS).
 They should be able to advise their students on the legal aspects of software production and distribution (SP).
@@ -920,7 +922,7 @@ We first summarise the meaning of each of the columns in the table:
 \end{longtable}
 \elandscape
 
-In the table above, we've looked at how different competencies can be related
+In the table above, we have looked at how different competencies can be related
 to and handled by researchers and RSEs working in different environments within
 an organisation and how the organisations themselves can contribute.
 We recognise that this is a challenging area to gain a detailed view of
@@ -928,12 +930,9 @@ and that our content in the table is still a significant generalisation.
 We talk about the "Research Software Engineer" as a single entity but as the field expands,
 we expect to see more roles and job titles emerging around the RSE concept,
 many of which fit under the wider umbrella of Research Technology Professionals (RTPs).
-The European Bioinformatics Institute (EMBL-EBI)'s BioExcel competency framework
-[@BIOEXCEL]
-provides some examples of different RSE-like computational roles.
-Work by King's Digital Lab at King's College London also provides
-some examples of a range of different roles within the research software
-careers space [@KDL].
+Examples are different RSE-like computational roles of
+the European Bioinformatics Institute (EMBL-EBI)'s BioExcel competency framework [@BIOEXCEL] (also @subsec:emblbio),
+as is a range of different roles from King's Digital Lab at King's College London [@KDL].
 
 # RSE specialisations {#sec:rse-specialisations}
 
@@ -960,7 +959,7 @@ Like the Data-focused RSE, they have a deep understanding of RDM topics.
 #### Project/Community Manager RSEs
 
 When research software projects become larger, they need someone who manages
-processes and people. This gap can be filled by people who invest in the (PM), (USERS), and (TEAM) skills.
+processes and people. This gap can be filled by people who invest in the (PM), (USERS), and (TEAM) skills, as exemplified in @subsec:examplecareer.
 Building a community around a research project is an
 important building block in building sustainable software [@Segal2009], so these RSEs play
 an important role, even if they do not necessarily touch much of the code themselves.
@@ -987,7 +986,7 @@ Research focused specialisations
 
 #### ${DOMAIN}-RSE
 While software is the lingua franca of all RSEs there will be RSEs that have specialised in the intricacies of one particular research domain,
-such as medical RSEs, digital humanities RSEs or physics RSEs.
+such as medical RSEs, digital humanities RSEs or physics RSEs. This can often serve as a base domain for frther specialisation as in @subsec:examplemaster
 
 #### Data-focused RSE
 RSEs working at the flourishing intersection between data science and RSE.
@@ -1007,10 +1006,9 @@ New areas of expertise
 #### Research Infrastructure RSE
 This RSE is interested in SysOps and system administration and sets up IT infrastructures for and with researchers.
 Therefore, this specialisation on the one hand requires a deep knowledge of physical computer and network hardware and
-on the other hand knowledge about setup and configuration of particular server software.
-Those specialised RSEs know how to acquire, set up and maintain general-purpose as well as domain specific infrastructure,
-e.g. setup of virtual machines on hypervisors or the planning and setup of compute server clusters for GPU based machine learning.
-As an interface between the researchers and the infrastructure, they take care of user management, access permissions, and configuration of required services, for example.
+on the other hand knowledge about setup and configuration of particular server software, like
+e.g. setup of virtual machines on hypervisors or the planning and setup of compute server clusters machine learning.
+As an interface between the researchers and the infrastructure, they take care of user management, access permissions, and configuration of required services.
 
 #### Maintenance RSEs
 The constantly evolving software environment can hinder or prevent reproducibility.
@@ -1037,13 +1035,14 @@ computations. Their knowledge of how to run HPC jobs and write successful HPC
 access proposals can be vitally important to researchers wanting to make use of
 HPC infrastructure.
 
+<!--
 They may also be familiar with High-Throughput Computing (HTC) and manage
 a network of heterogeneous compute resources, typically desktop workstations
 equipped with multicore processors and possibly GPU accelerators.
 They can apply their node-level performance engineering skills to maximise
 the utilisation of the available resources.
 
-<!--Finally, they typically have expert knowledge in at least one compiled language,
+Finally, they typically have expert knowledge in at least one compiled language,
 and can assist domain scientists who have excellent command of scripting languages
 but only a cursory understanding of compiled languages get up to speed with
 compiled software.-->
@@ -1162,7 +1161,7 @@ that provide this education will be the topic of a follow-up paper.
 
 # Appendix {#sec:appendix}
 
-## An Example Master's Programme for Research Software Engineering
+## An Example Master's Programme for Research Software Engineering {#subsec:examplemaster}
 
 The target audience for such a master's programme would be students holding a bachelor's degree from
 a domain science, which we will call "home domain" in the following. There is explicitly
@@ -1223,7 +1222,7 @@ Software development is required, and the code is part of the gradable deliverab
 The RSE supervisor ensures and grades the software craftsmanship aspects of the project.
 This setup ensures that we are grading the effectiveness of applying RSE skills in an actual research environment.
 
-## An example of a possible career path
+## An example of a possible career path {#subsec:examplecareer}
 ### Setting the stage
 
 Meet Kay, Kim's younger sister [@Anzt2020] who currently studies researchology in a bachelor's programme in the established domain of researchonomy at University of Orithena (UofO).
@@ -1314,7 +1313,7 @@ and exascale domains. The project is gathering open source training materials
 to develop curricula that support the training pathways that are underpinned
 by high-quality training materials.
 
-## Bioinformatics skills and certification
+## Bioinformatics skills and certification {#subsec:emblbio}
 
 Bioinformatics is another field that actively works on developing skill trees.
 The Bioinformatics Core Competencies [@Mulder2018; @Welch2016; @Welch2014],
