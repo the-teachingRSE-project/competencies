@@ -138,6 +138,14 @@ authors:
       - Leibniz University Hannover, Department of Cell Biology and Biophysics, Computational Biology
     orcid: 0000-0002-5866-1472
     email: christ@cell.uni-hannover.de
+  
+  - author: "Gerasimos Chourdakis"
+    firstName: Gerasimos
+    lastName: Chourdakis
+    affiliations:
+      - Technical University of Munich, School of Computation, Information and Technology
+    orcid: 0000-0002-3977-1385
+    email: gerasimos.chourdakis@tum.de
 
 
 # please use the following author template (all fields are optional):
