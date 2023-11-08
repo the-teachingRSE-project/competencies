@@ -995,7 +995,7 @@ They are skilled in cleaning data and/or running data analyses and can help rese
 in setting up their analysis pipeline and/or research data management (RDM) solutions.
 When the field requires research on sensitive data or information, e.g. patient information in medicine,
 this RSE should have knowledge about secure transfer methods and/or ways to anonymise the data.
-As part of RDM, this RSE profile is able to support all stages of the research data life-cycle[@Nieva2020], with synchronous data management processes.
+As part of RDM, this RSE profile is able to support all stages of the research data life-cycle [@Nieva2020], with synchronous data management processes.
 Those processes implement established best practices for planning and documenting of data acquisition in a data management plan (DMP) as well as for management,
 storage, and preservation of data, and publication and sharing of data in repositories according to the FAIR principles [@FAIR].
 
