@@ -165,7 +165,7 @@ Therefore, to avoid ambiguities, we define these as follows:
 and all other artefacts that are created by humans during the development process
 that are necessary to understand its purpose.
 
-**Research Software**: Foundational algorithms,
+**Research Software**: Foundational algorithms, the software itself,
 as well as scripts and computational workflows that were created
 during the research process or for a research purpose, across all domains of research.
 This definition is broader than in [@FAIR4RS] and is the outcome of a recent
