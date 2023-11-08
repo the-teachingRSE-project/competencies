@@ -1344,3 +1344,13 @@ Biology (ISCB) curates a database of degrees and certificates
 in bioinformatics [@BioinformaticsCertification; @Mulder2018].
 The database includes bachelor's and master's degree programs and specialisations,
 PhD programs, and certificates from graduate schools.
+
+BioExcel has research competencies that combine some of our research competencies and some notions from the communication skills.
+Their computing competencies roughly map to our software skills.
+Here we find competencies like "Package and distribute Software" that maps to our (LIBS) competencies,
+and "comply with licensing policy" that would in our framework be part of (SP) in the research competencies.
+In addition they have a dedicated parrallel computing competency section,
+thereby shifting their emphasis towards the HPC-RSE in our framework.
+Career profiles like the computational chemist bring additional domain specific knowledge,
+thereby we would classify them as a mixed DOMAIN-RSE and HPC-RSE.
+It is noteworthy, that their framework puts very little emphasis on communication skills that are often involved in RSE related tasks.
