@@ -1179,6 +1179,7 @@ During the master's programme, students should pick an RSE specialisation from t
 and attend these additional modules to deepen their knowledge in the field.
 
 Core modules are of course drawn from the three pillars of the RSE and can be categorised accordingly.
+
 - Research Skills:
   - Optional Domain Mastery Module: Additional minor research courses, but students with a home-domain already have the research part well-covered.
   - Research Tools Module: Here we teach tools used to distribute and publish software, as well as introducing students to domain specific data repositories. Thereby gaining foundational knowledge in (SRU, SP, DOMREP).
@@ -1208,13 +1209,9 @@ we recommend that RSEs also support their non-home-domain project by supporting 
 courses from this discipline. We support the idea of broadening the interaction with other domains even more.
 This schools their ability to quickly adapt their vocabulary and thinking to other disciplines. This is an aspect of (MOD).
 
-To align with the specialisations listed in this paper, example optional modules include topics on:
-* HPC engineering/parallel programming
-* numerical mathematics/scientific computing
-* web technologies
-* data stewardship
-* AI models/statistics
-* community management/training.
+To align with the specialisations listed in this paper, example optional modules include topics on
+HPC engineering/parallel programming, numerical mathematics/scientific computing, web technologies,
+data stewardship, AI models/statistics, and community management/training.
 
 The programme is finalised with a master's thesis which should be dual-supervised by an
 RSE supervisor from an actual project, and a domain supervisor.
@@ -1232,7 +1229,7 @@ In Kay’s world, some of the measures proposed in this paper have already been 
 
 ### Bachelor's Degree
 
-Through a program like DaLiJe or The Missing Semester [@Athalye2023],
+Through a program like Software Carpentry [@CarpentriesSoftware] or The Missing Semester [@Athalye2023],
 Kay learns about using computational tools to support the sophisticated statistical analysis typical for researchology.
 She uses those tools to create and automate the steps of processing data and producing outcomes for her bachelor's thesis
 (generating plots with matplotlib, maybe even CI for automatic building)
@@ -1248,7 +1245,7 @@ However, Kay decides to go for the more generic route of a dedicated RSE program
 but does not like the idea of becoming stuck with one research topic.
 She also experienced the immediate satisfaction gained by helping colleagues from her research group with tricky technical problems,
 which makes her happier than the subdued sense of achievement from having a research paper accepted long after she had written it.
-However, for her, coding and sharing knowledge in the form of software is of similar importance to writing a paper focused mostly on the obtained results.
+For her, coding and sharing knowledge in the form of software is of similar importance to writing a paper focused mostly on the obtained results.
 
 The domain-agnostic RSE Master programme consists of a core of RSE topics with various electives for specialisation, some of them domain-specific (e.g., chemistry) or topic-specific (e.g., cloud computing for research).
 Kay chooses digital archaeology and develops a pipeline for reconstructing 3D models from ground penetrating radar data, simplifying the process for archaeologists (Reproducibility, Big Data, Machine Learning).
@@ -1284,7 +1281,7 @@ There is a lot of interaction with different stakeholders in the project like fu
 To keep track of where the project is going and how to distribute her time she leverages Kanban boards (PM skills).
 Her work so far has already been heavy on (TEAM) skills, but now also the leadership aspect comes into play.
 
-## RSE-focused Principal Investigator
+### RSE-focused Principal Investigator
 
 The job experience as a leading RSE for a large project was the last requirement necessary to be awarded the "Science Enabling Doctor" from an
 institutionalised centre of RSE education, recognising her track record of valuable software contributions, and her specialised experience in
@@ -1293,8 +1290,9 @@ These doctoral degrees are of course recognised by various funding agencies, suc
 career path to act as a Principal Investigator for RSE-focused grant applications.
 Kay can now write her own grant proposals to effectively fund work of moving research software projects from prototypes to infrastructure.
 
+## Existing Framework
 
-## HPC skills and certification
+### HPC skills and certification
 
 As an area that generally requires a range of advanced skills,
 High Performance Computing (HPC) is one field where there is ongoing work
@@ -1314,7 +1312,7 @@ and exascale domains. The project is gathering open source training materials
 to develop curricula that support the training pathways that are underpinned
 by high-quality training materials.
 
-## Bioinformatics skills and certification {#subsec:emblbio}
+### Bioinformatics skills and certification {#subsec:emblbio}
 
 Bioinformatics is another field that actively works on developing skill trees.
 The Bioinformatics Core Competencies [@Mulder2018; @Welch2016; @Welch2014],
