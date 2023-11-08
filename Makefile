@@ -17,8 +17,8 @@ all: $(objects)
 %.pdf: %.md bibliography.bib contributors.yml preamble.sty template.tex
 	@mkdir -p build
 	@rm -f build/pdfa.xmpi build/creationdate.lua build/creationdate.timestamp
-	cp --update preamble.sty build/bookmark.sty
-	cp --update bibliography.bib build/bibliography.bib
+	cp --update preamble.sty build/
+	cp --update bibliography.bib build/
 	python3 filter.py --input="$<" --output="build/$<" --contributors="contributors.yml"
 	pandoc \
 	    --standalone \

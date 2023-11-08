@@ -15,6 +15,8 @@ author:
   - Harald von Waldow
   - Moritz Schwarzmeier
   - Matthias Braun
+header-includes:
+  - \input{preamble.sty}
 output:
   pdf_document:
     citation_package: biblatex

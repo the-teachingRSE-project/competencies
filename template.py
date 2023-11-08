@@ -49,6 +49,17 @@ $endif$
 
 \begin{document}""")
 
+# include packages that must be included before hyperref
+content = substitute(content,
+r"""\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}""",
+r"""\usepackage[bottom]{footmisc}
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\maketitle}{\@fnsymbol}{\@arabic}{}{}
+\patchcmd{\maketitle}{\setcounter{footnote}{0}}{}{}{}
+\makeatother
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}""")
+
 # generate the abstract and keywords list
 content = substitute(content, r"""$if(abstract)$
 \begin{abstract}
