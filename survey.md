@@ -15,21 +15,23 @@ author:
   - Harald von Waldow
   - Moritz Schwarzmeier
   - Matthias Braun
+header-includes:
+  - \input{preamble.sty}
 output:
   pdf_document:
     citation_package: biblatex
     toc: true
     number_sections: true
 bibliography: bibliography.bib
----
-
-**Abstract**:
+keywords:
+  - research software engineering
+  - training
+  - learning
+  - open educational resources
+abstract: "
 In this publication we survey the existing RSE-training related resources and initiatives.
-
+"
 ---
-
-**Keywords**: research software engineering, training, learning, open educational resources
-
 
 ## Related Work and Activities
 

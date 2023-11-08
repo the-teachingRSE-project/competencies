@@ -16,7 +16,6 @@ parser.add_argument("--output", type=str, required=False,
 parser.add_argument("--contributors", type=str, required=False,
                     default="contributors.yml",
                     help="contributors YAML file")
-args = parser.parse_args()
 
 
 def get_contributors_metadata(content):
@@ -38,11 +37,13 @@ def get_manuscript_metadata(markdown):
 
 def process_markdown(metadata, body, contributors):
     authors = []
+    authors_xmp = []
     affiliations = {}
     acknowledgements = []
     # parse metadata
     for key in metadata["author"]:
         author_metadata = contributors[key]
+        authors_xmp.append(key)
         author = key
         if "orcid" in author_metadata:
             author += rf" \orcidlinksimple{{{author_metadata['orcid']}}}"
@@ -55,6 +56,7 @@ def process_markdown(metadata, body, contributors):
             acknowledgements.append(author_metadata["acknowledgements"])
     # update Markdown metadata
     metadata["author"] = authors
+    metadata["authorxmp"] = authors_xmp
     # rewrite Markdown file
     markdown = []
     markdown.append("---")
@@ -68,6 +70,7 @@ def process_markdown(metadata, body, contributors):
 
 
 if __name__ == "__main__":
+    args = parser.parse_args()
     with open(args.contributors) as f:
         contributors = get_contributors_metadata(f.read())
     with open(args.input) as f:
