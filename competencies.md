@@ -1221,13 +1221,13 @@ The RSE supervisor ensures and grades the software craftsmanship aspects of the 
 This setup ensures that we are grading the effectiveness of applying RSE skills in an actual research environment.
 
 ## An example of a possible career path {#subsec:examplecareer}
-### Setting the stage
+#### Setting the stage
 
 Meet Kay, Kim's younger sister [@Anzt2020] who currently studies researchology in a bachelor's programme in the established domain of researchonomy at University of Orithena (UofO).
 We will follow Kay’s fictional career to illustrate how education, job-experience and a career in academic institutions could lead to become a successful RSE.
 In Kay’s world, some of the measures proposed in this paper have already been implemented.
 
-### Bachelor's Degree
+#### Bachelor's Degree
 
 Through a program like Software Carpentry [@CarpentriesSoftware] or The Missing Semester [@Athalye2023],
 Kay learns about using computational tools to support the sophisticated statistical analysis typical for researchology.
@@ -1235,7 +1235,7 @@ She uses those tools to create and automate the steps of processing data and pro
 (generating plots with matplotlib, maybe even CI for automatic building)
 and takes pride in a fully open and reproducible bachelor's thesis enabling her to graduate with honours from the faculty of researchonomy.
 
-### Master's Degree
+#### Master's Degree
 
 Kay ponders whether to continue with computational researchology, which her bachelor's supervisor is responsible for,
 or enrol in a domain-agnostic RSE master's programme.
@@ -1260,7 +1260,7 @@ The exposure to the wider RSE community inspires her to invest additional time i
 her software project under a license approved by the Open Source Initiative and write an accompanying article in the open source journal JOSS[@JOSS].
 Kay has now completed the RSE programme and has reached Junior RSE level.
 
-### Junior RSE
+#### Junior RSE
 
 Kay finds a position in the central RSE department at her university with a competitive IT salary.
 Although the contract is temporary, there is a good chance that it will lead to a permanent position.
@@ -1271,7 +1271,7 @@ During her teaching duties, she becomes aware of a new project in her department
 and she gladly signs up to focus more on her communication skills.
 After five years, she takes an exciting opportunity to work in another university.
 
-### Senior RSE
+#### Senior RSE
 
 The new position involves taking responsibility for the RSE related aspects of a large inter-organisational project involving different organisations.
 With her new responsibilities comes a shift in the importance of various aspects of her work.
@@ -1281,7 +1281,7 @@ There is a lot of interaction with different stakeholders in the project like fu
 To keep track of where the project is going and how to distribute her time she leverages Kanban boards (PM skills).
 Her work so far has already been heavy on (TEAM) skills, but now also the leadership aspect comes into play.
 
-### RSE-focused Principal Investigator
+#### RSE-focused Principal Investigator
 
 The job experience as a leading RSE for a large project was the last requirement necessary to be awarded the "Science Enabling Doctor" from an
 institutionalised centre of RSE education, recognising her track record of valuable software contributions, and her specialised experience in
@@ -1290,7 +1290,7 @@ These doctoral degrees are of course recognised by various funding agencies, suc
 career path to act as a Principal Investigator for RSE-focused grant applications.
 Kay can now write her own grant proposals to effectively fund work of moving research software projects from prototypes to infrastructure.
 
-## Existing Framework
+## Existing Frameworks
 
 ### HPC skills and certification
 
