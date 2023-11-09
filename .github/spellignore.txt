@@ -84,6 +84,7 @@ HTC
 IDEs
 Ing
 ISCB
+Jena
 JOSS
 JU
 Kanban
@@ -143,6 +144,7 @@ SysOps
 TeSS
 TrainingMaterial
 UofO
+un-deRSE
 US-RSE
 WIP
 Wissenschaft
