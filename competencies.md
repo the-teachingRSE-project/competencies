@@ -1037,18 +1037,13 @@ They are able to communicate and collaborate with lawyers.
 social skill-set focused specialisations
 -->
 
-# Reaching out to potential RSEs {#sec:reachout}
-
-Many current RSEs have found their way to being an RSE during their doctoral studies.
-This transition usually happens slowly.
-A typical RSE development path starts off with a PhD student programming a tool that others notice and find useful.
-Soon the proto RSE is known to have programming skills and is sought after to join other projects.
-The researcher is now well on the way to becoming an RSE.
-If they enjoy this role and would like to take it further they need to know that there is an RSE career path as well as that specialised training materials exist.
-Beyond that, for an RSE it is important to be a part of a network with other RSEs, irrespective of the career level.
+# Connecting RSEs {#sec:reachout}
+RSEs gather around a uniform set of values and competencies and thereby 
+naturally form networks.
+For an RSE it is important to be a part of a network with other RSEs, irrespective of the career level in order to be more
+effective at supporting research.
 A perfect first step for forming this network is topic-related conferences, workshops or meet-ups.
 Beyond that, there is the broader RSE community organised at the local and regional level with chapters or local/regional communities, at the national level with societies and the international RSE society.
-Each of them offers possibilities for connecting within or beyond an individual institution and is a great way to find like-minded people to grow a wider network and thereby facilitate the sharing of information on interesting events or help each other out.
 This available layered network can greatly benefit the RSE in finding help with issues outside of their own comfort zone
 and provides a welcoming, social safety net providing a home for the RSE. Since we feel providing aspiring RSEs with this net
 is of utmost importance we envision compulsory events introducing that to young RSEs.
