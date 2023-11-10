@@ -279,7 +279,7 @@ We highlight that professional conduct requires these creations to be reliable a
 In particular, the way that personal data is handled can have far reaching implications for society.
 Independent from the encoding into the respective national law in an RSE's jurisdiction,
 the right to information privacy is internationally recognised as a fundamental human right,
-e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988], [@Hirvela2022].
+e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988; @Hirvela2022].
 RSEs need to be aware of this topic's importance
 and deal with tensions that might arise with researchers' desire for trouble-free sharing of data, thereby expecting openness about the research process,
 versus the integrity expectations of the society towards IT systems.
@@ -1193,7 +1193,7 @@ This setup ensures that we are grading the effectiveness of applying RSE skills 
 ## An example of a possible career path {#subsec:examplecareer}
 #### Setting the stage
 
-Meet Kay, Kim's younger sister [@Anzt2020] who currently studies researchology in a bachelor's programme in the established domain of researchonomy at University of Orithena (UofO).
+Meet Kay, Kim's younger sister [@Anzt2021] who currently studies researchology in a bachelor's programme in the established domain of researchonomy at University of Orithena (UofO).
 We will follow Kay’s fictional career to illustrate how education, job-experience and a career in academic institutions could lead to become a successful RSE.
 In Kay’s world, some of the measures proposed in this paper have already been implemented.
 
@@ -1202,7 +1202,7 @@ In Kay’s world, some of the measures proposed in this paper have already been 
 Through a program like Software Carpentry [@CarpentriesSoftware] or The Missing Semester [@Athalye2023],
 Kay learns about using computational tools to support the sophisticated statistical analysis typical for researchology.
 She uses those tools to create and automate the steps of processing data and producing outcomes for her bachelor's thesis
-(generating plots with matplotlib, maybe even CI for automatic building)
+(generating plots with matplotlib and even CI for automatic building)
 and takes pride in a fully open and reproducible bachelor's thesis enabling her to graduate with honours from the faculty of researchonomy.
 
 #### Master's Degree
@@ -1218,7 +1218,7 @@ which makes her happier than the subdued sense of achievement from having a rese
 For her, coding and sharing knowledge in the form of software is of similar importance to writing a paper focused mostly on the obtained results.
 
 The domain-agnostic RSE Master programme consists of a core of RSE topics with various electives for specialisation, some of them domain-specific (e.g., chemistry) or topic-specific (e.g., cloud computing for research).
-Kay chooses digital archaeology and develops a pipeline for reconstructing 3D models from ground penetrating radar data, simplifying the process for archaeologists (Reproducibility, Big Data, Machine Learning).
+Kay chooses digital archaeology and develops a pipeline for reconstructing 3D models from ground penetrating radar data, to simplify the process for archaeologists (Reproducibility, Big Data, Machine Learning).
 The project management skills that are being taught as part of the core RSE curriculum really help her to not get lost in this project.
 Apart from working with the researchers in her archaeology group,
 she has to work with members of the central RSE department to help her with the pipelines.
@@ -1239,25 +1239,26 @@ while advising fellow students of her department on better programming (DOCBB an
 She also runs a seminar in the RSE Master's programme. She publishes a condensed version of that in JOSE[@JOSE].
 During her teaching duties, she becomes aware of a new project in her department that requires a community manager RSE
 and she gladly signs up to focus more on her communication skills.
-After five years, she takes an exciting opportunity to work in another university.
+After three years, she takes an exciting opportunity to work in another university.
 
 #### Senior RSE
 
 The new position involves taking responsibility for the RSE related aspects of a large inter-organisational project involving different organisations.
 With her new responsibilities comes a shift in the importance of various aspects of her work.
-Having this position in an inter-organisational project places far more emphasis on communication skills.
+Having this position in an inter-organisational project places far more emphasis on communication and organisation skills.
 She is spending time teaching people (TEACH skill) to onboard them into the project.
 There is a lot of interaction with different stakeholders in the project like funders and user groups (USERS skill).
-To keep track of where the project is going and how to distribute her time she leverages Kanban boards (PM skills).
+To oversee the project, she uses an amalgam of both agile and traditional project-management concepts and methods which she acquires on-the-job (PM skills).
 Her work so far has already been heavy on (TEAM) skills, but now also the leadership aspect comes into play.
 
 #### RSE-focused Principal Investigator
 
-The job experience as a leading RSE for a large project was the last requirement necessary to be awarded the "Science Enabling Doctor" from an
-institutionalised centre of RSE education, recognising her track record of valuable software contributions, and her specialised experience in
-leading and mentoring people. Some personal choices in her career made the traditional route of doing a Dr.-Ing. inconvenient.
-These doctoral degrees are of course recognised by various funding agencies, such as the DFG, and hence enable RSEs that have chosen to not follow a research focused
-career path to act as a Principal Investigator for RSE-focused grant applications.
+The job experience as a leading RSE for a large project was the last requirement necessary to be awarded the title of a "Certified Research Software Professional" (CRSP) 
+from an institutionalised centre of RSE education.
+The certificate confirms her track record of valuable software contributions
+and of teaching and mentoring people,
+as well as her capability to enable, foster and contribute to high-quality research in a leading position.
+It is recognised by various funding agencies, such as the DFG, and hence enables RSEs to act as a Principal Investigator for RSE-focused grant applications. It is also recognised by many prestigious universities and opens many career options that are also typical for PhDs.
 Kay can now write her own grant proposals to effectively fund work of moving research software projects from prototypes to infrastructure.
 
 ## Existing Frameworks
@@ -1273,6 +1274,18 @@ how they are related in the context of a skill tree [@Kunkel2020a; @Kunkel2020b]
 This competence standard is currently being built upon by the CASTIEL 2 [@CASTIEL2] project
 in collaboration with initiatives funded by the European High Performance Computing
 Joint Undertaking (EuroHPC JU) to create a framework for HPC certification [@EuroHPCJU2023].
+While this framework focuses mostly on skills specific to HPC, there are a couple of similarities
+to the framework proposed in this paper. The "SD: Software Development" skill set
+is very similar to the Software Engineering skills discussed in @sec:required-generic-skills,
+describing a wide range of such skills.
+This skill set contains
+Programming Best Practices (SD2), Software Configuration Management (SD3), Software Quality (SD5),
+Software Design and Software Architecture (SD6), and explicit mention of documentation (SD7, see our DOCBB).
+Besides the Software Concepts for HPC (SD1), which mainly concerns HPC-focused RSEs,
+most of the skills contained in the SD2-SD7 categories apply to all RSEs.
+A significant difference compared to the framework proposed in this paper is
+the absence of skills related to research or communication.
+Noteworthy is already now the level of detail in their skill tree which is more similar to @subsec:examplemaster.
 
 Also looking at pathways and how different skills are related,
 the UNIVERSE-HPC project [@UNIVERSEHPC], funded under the UK's ExCALIBUR
@@ -1314,3 +1327,13 @@ Biology (ISCB) curates a database of degrees and certificates
 in bioinformatics [@BioinformaticsCertification; @Mulder2018].
 The database includes bachelor's and master's degree programs and specialisations,
 PhD programs, and certificates from graduate schools.
+
+BioExcel has research competencies that combine some of our research competencies and some notions from the communication skills.
+Their computing competencies roughly map to our software skills.
+Here, we find competencies such as "Package and distribute Software", which maps to our (LIBS) competencies,
+and "comply with licensing policy", which would in our framework be part of (SP) in the research competencies.
+In addition, they have a dedicated parallel computing competency section,
+thereby shifting the emphasis of the knowledge of their computational tools towards the HPC-RSE specialisation in our framework.
+Career profiles, such as the computational chemist, bring additional domain specific knowledge;
+we would classify those as a mixture of DOMAIN-RSE and HPC-RSE.
+It is noteworthy, however, that the BioExcel framework puts very little emphasis on communication skills, which are often involved in RSE-related tasks.
