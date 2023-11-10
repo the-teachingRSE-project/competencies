@@ -1274,6 +1274,7 @@ Besides the Software Concepts for HPC (SD1), which mainly concerns HPC-focused R
 most of the skills contained in the SD2-SD7 categories apply to all RSEs.
 A significant difference compared to the framework proposed in this paper is
 the absence of skills related to research or communication.
+Noteworthy is already now the level of detail in their skill tree which is more similar to @subsec:examplemaster.
 
 Also looking at pathways and how different skills are related,
 the UNIVERSE-HPC project [@UNIVERSEHPC], funded under the UK's ExCALIBUR
