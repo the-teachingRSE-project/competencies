@@ -250,7 +250,7 @@ the Helmholtz Federated IT Services platform (HIFIS) [@HIFIS], and the already m
 # Values {#sec:values}
 
 The activities of an RSE are guided by ethical values.
-In addition to the values for good scientific practice [@dfg_gsp] RSEs also adhere to 
+In addition to the values for good scientific practice [@dfg_gsp], RSEs also adhere to
 the Software Engineering Code of Ethics [@Gotterbarn1999].
 Central to that code is the RSE's obligation to
 commit to the health, safety and welfare of the public and act in the interest of society, their employer and their clients.
@@ -268,11 +268,11 @@ They work with a varying and diverse set of colleagues that might include other 
 support unit staff and academics of different fields and all career stages.
 This situation yields a specific set of challenges RSEs should be aware of
 to consciously make ethically sound judgement calls.
-We list some example areas that could be addressed in RSE courses or workshops.
+We list some example areas that highlight present-day challenges.
 
+## Current Challenges
 
-
-## Handling of data and personal data
+### Handling of data and personal data
 
 A lot of RSE work involves the manipulation or creation of data processing devices.
 We highlight that professional conduct requires these creations to be reliable and to maintain data integrity.
@@ -288,7 +288,7 @@ Data protection is a difficult subject and RSEs should notice when they need to 
 special topics such as cryptography or re-identification attacks (e.g. [@Sweeney2002]).
 
 
-## Mentoring and diversity
+### Mentoring and diversity
 
 RSEs are often experienced professionals who instruct and work closely with early career researchers.
 Similarly to academic supervisors, they bear a certain responsibility to guide and advise younger colleagues
@@ -298,7 +298,7 @@ This imbalance is even more pronounced in software engineering with a majority o
 Thereby to promote their values of an honest, open  and inclusive research space they should be aware of
 the diversity problem and help to mediate it whenever they have the chance to do so.
 
-## The scientific community
+### The scientific community
 
 Through writing research software, RSEs have a pivotal position in the process of scientific production.
 Their choices might determine whether the respective research is reproducible or not,
@@ -307,7 +307,7 @@ Builders of larger research-infrastructure projects determine to some extent the
 and therefore need to be able to make a value based judgement on topics
 such as Open Science, path dependence and vendor lock-in.
 
-## Emerging challenges
+### Emerging challenges
 
 RSEs often operate at the cutting edge of technological development
 and therefore might have to deal with technologies of which the dangers and drawbacks are still poorly understood.
