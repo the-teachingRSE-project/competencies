@@ -29,6 +29,7 @@ header-includes:
     - \usepackage{multirow}
     - \usepackage{array}
     - \usepackage{longtable}
+    - \usepackage{fontawesome}
     - \newcommand{\blandscape}{\begin{landscape}}
     - \newcommand{\elandscape}{\end{landscape}}
 xnos-cleveref: True
@@ -391,7 +392,7 @@ and make sure that they do not negatively impact the integrity of their institut
 
 ## The research skills
 
-### Curiosity (NEW)
+### Curiosity (\faPersonRays NEW)
 
 RSEs gain their reputation from their effectiveness in interacting with their
 domain peers. Therefore, some curiosity together with a broad overview of the
@@ -521,7 +522,7 @@ what they would like to have learnt. Among the top five things mentioned were:
 - Finding a community. This can be interpreted in two different ways. First,
   we have the aspect of community building for a research project. Since this
   deals with software that is supposed to be used in research this requires
-  knowledge of RC, USERS, and also NEW, in order to effectively interact with
+  knowledge of RC, USERS, and also \faPersonRays NEW, in order to effectively interact with
   domain scientists. Today, an example is a presence on social media. The other
   TEAM-related aspect is the embedding of RSE graduates into the community of
   RSEs. We envision our RSE graduates to be a part of a strong network of other
@@ -569,7 +570,7 @@ A story-like example of an individual through the hierarchies can be found in @s
 | MOD     | should have a basic grasp of their piece of the software in order to use basic tools like a debugger                          | Should understand the characteristics of large parts of the codebase considering a variety of the metrics                             | Should understand the big idea of the software project in order to define the task that the software solves                                                |
 | SWLC    | Awareness about the existence of the software life-cycle.                                                                      | Should know which decisions lead to technical debt.                                                                                   | Should know in which part of the life-cycle their project is and how to steer development/project resources accordingly.                                    |
 | SWREPOS | Seamless interaction with the swrepo of their project is a must                                                               | Should be well-versed in the intricacies of a swrepo, and probably interact with multiple projects' repos                             | Should be able to effectively interact with swrepos and especially the interaction with the connecting projects.                                           |
-| NEW     | Some curiosity required to fit into research teams                                                                            | same as junior, but a curiosity to enhance the code base is required                                                                  | Curiosity to know in which direction to steer the project is required                                                                                      |
+| \faPersonRays NEW     | Some curiosity required to fit into research teams                                                                            | same as junior, but a curiosity to enhance the code base is required                                                                  | Curiosity to know in which direction to steer the project is required                                                                                      |
 | RC      | Awareness about the RC                                                                                                        | should know the position of the project in the RC                                                                                     | Should know what is necessary for the project to fit into its position in the RC                                                                           |
 | SRU     | Should be aware about tools for SRU                                                                                           | Should be able to find sth. with SRU tools                                                                                            | Should be able to effectively find sth. with SRU tools and be able to evaluate and perform the integration of a library into the project.                  |
 | SP      | Should be aware that SP needs to consider issues of intellectual property                                                     | Should be able to correctly publish software in simple cases and be able to identify cases where professional legal advice is needed. | Same as Senior plus the ability to take the future publication of software into account when initiating and guiding larger software collaboration projects |
@@ -616,7 +617,7 @@ Students at undergraduate level mostly consume science/knowledge.
 During their studies, they should also learn about the existence of digital tools and structures.
 Undergrad students should be aware that RSEs exist and that software has different quality aspects (DOCBB).
 They should be aware of domain specific tools (LIBS, SRU) and where to find them (SWREPOS, DOMREP).
-At this level it is sufficient to consider software as black boxes (USERS) although some training in data presentation would be very helpful and a good way to find out about programming (MOD, NEW).
+At this level it is sufficient to consider software as black boxes (USERS) although some training in data presentation would be very helpful and a good way to find out about programming (MOD, \faPersonRays NEW).
 They should have an awareness of software licenses and whom to ask if they have any questions (SP).
 They will be taught about the research cycle (RC) and that researchers often work in groups (TEAM).
 During practicals, they will have an opportunity for peer learning (TEACH).
@@ -638,7 +639,7 @@ They should be able to use the tools (LIBS) and identify and report bugs (MOD).
 They need to be aware that the user's perspective is different from the developer's perspective in order to be able to write bug reports (USERS).
 They might produce new software (MOD, SRU) in which case they need to understand how to license their code for publication (SP).
 PhD students need to be curious to be able to conduct their research.
-In order to be able to explore new tools (NEW) they must be able to evaluate research software (SWLC).
+In order to be able to explore new tools (\faPersonRays NEW) they must be able to evaluate research software (SWLC).
 They need to be able to interact with services (RC) and domain specific repositories (DOMREP).
 They should be able to supervise a student (TEACH).
 
@@ -770,7 +771,7 @@ We first summarise the meaning of each of the columns in the table:
       will improve overall turnaround times.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    NEW&
+    \faPersonRays NEW&
     An individual's curiosity has now to be shared between the research
       goal and the software project, therefore learning new methods and
       skills may be challenging and is often not the core aim.&
@@ -1174,7 +1175,7 @@ data stewardship, AI models/statistics, and community management/training.
 
 The programme is finalised with a master's thesis which should be dual-supervised by an
 RSE supervisor from an actual project, and a domain supervisor.
-The thesis should answer a relevant research question (strengthening (NEW)) from the domain using computational methods.
+The thesis should answer a relevant research question (strengthening (\faPersonRays NEW)) from the domain using computational methods.
 Software development is required, and the code is part of the gradable deliverables.
 The RSE supervisor ensures and grades the software craftsmanship aspects of the project.
 This setup ensures that we are grading the effectiveness of applying RSE skills in an actual research environment.
@@ -1242,7 +1243,7 @@ Her work so far has already been heavy on (TEAM) skills, but now also the leader
 
 #### RSE-focused Principal Investigator
 
-The job experience as a leading RSE for a large project was the last requirement necessary to be awarded the title of a "Certified Research Software Professional" (CRSP) 
+The job experience as a leading RSE for a large project was the last requirement necessary to be awarded the title of a "Certified Research Software Professional" (CRSP)
 from an institutionalised centre of RSE education.
 The certificate confirms her track record of valuable software contributions
 and of teaching and mentoring people,
