@@ -274,7 +274,7 @@ We highlight that professional conduct requires these creations to be reliable a
 In particular, the way that personal data is handled can have far reaching implications for society.
 Independent from the encoding into the respective national law in an RSE's jurisdiction,
 the right to information privacy is internationally recognised as a fundamental human right,
-e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988], [@Hirvela2022].
+e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988; @Hirvela2022].
 RSEs need to be aware of this topic's importance
 and deal with tensions that might arise with researchers' desire for trouble-free sharing of data.
 Handling personal data also has ramifications for information security considerations during the software development process.
@@ -1182,7 +1182,7 @@ This setup ensures that we are grading the effectiveness of applying RSE skills 
 ## An example of a possible career path {#subsec:examplecareer}
 #### Setting the stage
 
-Meet Kay, Kim's younger sister [@Anzt2020] who currently studies researchology in a bachelor's programme in the established domain of researchonomy at University of Orithena (UofO).
+Meet Kay, Kim's younger sister [@Anzt2021] who currently studies researchology in a bachelor's programme in the established domain of researchonomy at University of Orithena (UofO).
 We will follow Kay’s fictional career to illustrate how education, job-experience and a career in academic institutions could lead to become a successful RSE.
 In Kay’s world, some of the measures proposed in this paper have already been implemented.
 
