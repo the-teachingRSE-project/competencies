@@ -22,6 +22,7 @@ Center
 CHAOSS
 codebase
 CodeRefinery
+comp-lvls-se
 Coursera
 CRSP
 CSE
@@ -46,6 +47,7 @@ EduTrain
 edX
 EMBL
 EMBL-EBI
+eng
 ENCCS
 EOR
 Erlangen-Nürnberg
@@ -143,6 +145,7 @@ swrepo
 swrepos
 SWREPOS
 SysOps
+tbl
 TeSS
 TrainingMaterial
 UofO
