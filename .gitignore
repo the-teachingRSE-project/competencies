@@ -3,3 +3,7 @@ competencies.pdf
 institutionalized_education.pdf
 intro.pdf
 survey.pdf
+build/
+
+# Generated automatically by template.py
+template.tex

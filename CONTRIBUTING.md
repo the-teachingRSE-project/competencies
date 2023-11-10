@@ -10,11 +10,11 @@ You can contribute in various ways:
 
 Nevertheless we follow some rules:
 
-## We Develop with Github
+## We Develop with GitHub
 
-We use github to host the paper, to track issues and feature requests, as well as accept pull requests.
+We use GitHub to host the paper, to track issues and feature requests, as well as accept pull requests.
 
-## We Use Github Flow, So All Code Changes Happen Through Pull Requests
+## We Use GitHub Flow, So All Code Changes Happen Through Pull Requests
 
 Pull requests are the best way to propose changes to the source material (we use Github Flow).
 We actively welcome your pull requests:
@@ -33,8 +33,9 @@ We actively welcome your pull requests:
 - Leave comments under `Conversation` or do a full review under `Files changed`
 
 ## Formatting, etc
-For writing text, **Please utilize semantic line breaks!**
-We utilize tags to categorize issues and PRs to the respective paper.
+For writing text, **Please utilise semantic line breaks!**
+We utilise tags to categorise issues and PRs to the respective paper.
+Please also note, that we use British english instead of American english.
 
 ## Becoming an Author
 If you want to become an author of the project open a PR that adds the relevant information
@@ -49,5 +50,5 @@ We currently have split the topic of teaching RSEs in Germany across four papers
 We aim for a publication of most of these papers.
 All people that have participated in discussions with us,
 e.g. at deRSE23 or undeRSE23 are at least eligible for contributor status.
-If you have particpated regularly at our weekly working meetings(try to reach out to fgoth@physik.uni-wuerzburg.de) you are eligible for 
+If you have participated regularly at our weekly working meetings(try to reach out to fgoth@physik.uni-wuerzburg.de) you are eligible for
 authorship.

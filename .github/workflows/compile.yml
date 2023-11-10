@@ -7,9 +7,14 @@ jobs:
       DIR: .
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Install pandoc
-        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends texlive pandoc texlive-bibtex-extra texlive-fonts-recommended texlive-xetex lmodern biber latexmk python3 python3-yaml xz-utils make gpg-agent
+        run: |
+          sudo apt-get update && sudo apt-get install -y --no-install-recommends \
+            texlive pandoc texlive-bibtex-extra texlive-fonts-recommended \
+            texlive-xetex lmodern biber latexmk python3 python3-yaml \
+            xz-utils make gpg-agent
+          python3 -m pip install -r ${{ env.DIR }}/requirements.txt
       - name: Configure LaTeX environment
         working-directory: ${{ env.DIR }}
         run: |
@@ -33,8 +38,8 @@ jobs:
     if: ${{ github.repository == 'CaptainSifff/paper_teaching-learning-RSE' && github.ref == 'refs/heads/main' }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
-      - uses: actions/download-artifact@v2
+        uses: actions/checkout@v4
+      - uses: actions/download-artifact@v3
         with:
           path: github_artifacts
       - name: move
