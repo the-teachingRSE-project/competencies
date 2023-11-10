@@ -303,9 +303,9 @@ the diversity problem and help to mediate it whenever they have the chance to do
 Through writing research software, RSEs have a pivotal position in the process of scientific production.
 Their choices might determine whether the respective research is reproducible or not,
 whether the results can be re-used, whether future research can build on existing tools or has to start from scratch.
-Builders of larger research-infrastructure projects determine to some extent
-the possibilities and limitations of future research
-and therefore need to be aware of concepts such as Open Science, path dependence and vendor lock-in.
+Builders of larger research-infrastructure projects determine to some extent the possibilities and limitations of future research
+and therefore need to be able to make a value based judgement on topics
+such as Open Science, path dependence and vendor lock-in.
 
 ## Emerging challenges
 
@@ -313,7 +313,8 @@ RSEs often operate at the cutting edge of technological development
 and therefore might have to deal with technologies of which the dangers and drawbacks are still poorly understood.
 A current example is the rush for the application of Large Language Models (LLMs),
 where RSEs working in these fields should stay up-to-date and be able to help researchers assess topics
-such as training-data bias, LLM "hallucinations" or malicious use.
+such as training-data bias, LLM "hallucinations" or malicious use, with the greater goal of
+making these powerful tools work for the welfare of society.
 
 # Required Generic RSE skills {#sec:required-generic-skills}
 
