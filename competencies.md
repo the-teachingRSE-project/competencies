@@ -304,7 +304,7 @@ Through writing research software, RSEs have a pivotal position in the process o
 Their choices might determine whether the respective research is reproducible or not,
 whether the results can be re-used, whether future research can build on existing tools or has to start from scratch.
 Builders of larger research-infrastructure projects determine to some extent the possibilities and limitations of future research
-and therefore need to be able to make a value based judgement on topics
+and therefore need to be able to make value-based judgement on topics
 such as Open Science, path dependence and vendor lock-in.
 
 ### Emerging challenges
