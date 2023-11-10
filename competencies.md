@@ -295,7 +295,7 @@ Similarly to academic supervisors, they bear a certain responsibility to guide a
 with respect to career development and the achievement of academic goals.
 According to the UNESCO Science Report [@Schneegans2021] women account for 33.3% of all researchers while the majority of researchers come from G20 countries (88.8%).
 This imbalance is even more pronounced in software engineering with a majority of developers identifying as white male [@StackOverflow2022].
-Thereby to promote their values of an honest, open  and inclusive research space they should be aware of
+Thereby, to promote their values of an honest, open, and inclusive research space, they should be aware of
 the diversity problem and help to mediate it whenever they have the chance to do so.
 
 ### The scientific community
