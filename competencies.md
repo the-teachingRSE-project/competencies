@@ -284,7 +284,7 @@ RSEs need to be aware of this topic's importance
 and deal with tensions that might arise with researchers' desire for trouble-free sharing of data, thereby expecting openness about the research process,
 versus the integrity expectations of the society towards IT systems.
 Handling personal data also has ramifications for information security considerations during the software development process.
-Data protection is a difficult subject and RSEs should notice when they need to consult external expertise for example when dealing with
+Data protection is a difficult subject, so RSEs should notice when they need to consult external expertise, for example when dealing with
 special topics such as cryptography or re-identification attacks (e.g. [@Sweeney2002]).
 
 
