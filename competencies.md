@@ -250,11 +250,14 @@ the Helmholtz Federated IT Services platform (HIFIS) [@HIFIS], and the already m
 # Values {#sec:values}
 
 The activities of an RSE are guided by ethical values.
-A general list of applicable values is given in the Software Engineering Code of Ethics [@Gotterbarn1999].
+In addition to the values for good scientific practice [@dfg_gsp] RSEs also adhere to 
+the Software Engineering Code of Ethics [@Gotterbarn1999].
 Central to that code is the RSE's obligation to
 commit to the health, safety and welfare of the public and act in the interest of society, their employer and their clients.
 Further values loosely based on that code include the obligations
 
++ to commit to objectivity and fact-based, honest research conclusions,
++ to promote openness and accountability in the research process,
 + to take great care to develop software that adheres to current best practices,
 + to judge independently and maintain professional integrity,
 + to treat colleagues and collaborators with respect and work towards a fair and inclusive environment, and
@@ -267,6 +270,8 @@ This situation yields a specific set of challenges RSEs should be aware of
 to consciously make ethically sound judgement calls.
 We list some example areas that could be addressed in RSE courses or workshops.
 
+
+
 ## Handling of data and personal data
 
 A lot of RSE work involves the manipulation or creation of data processing devices.
@@ -276,10 +281,12 @@ Independent from the encoding into the respective national law in an RSE's juris
 the right to information privacy is internationally recognised as a fundamental human right,
 e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988], [@Hirvela2022].
 RSEs need to be aware of this topic's importance
-and deal with tensions that might arise with researchers' desire for trouble-free sharing of data.
+and deal with tensions that might arise with researchers' desire for trouble-free sharing of data, thereby expecting openness about the research process,
+versus the integrity expectations of the society towards IT systems.
 Handling personal data also has ramifications for information security considerations during the software development process.
 Data protection is a difficult subject and RSEs should notice when they need to consult external expertise for example when dealing with
 special topics such as cryptography or re-identification attacks (e.g. [@Sweeney2002]).
+
 
 ## Mentoring and diversity
 
@@ -288,10 +295,8 @@ Similarly to academic supervisors, they bear a certain responsibility to guide a
 with respect to career development and the achievement of academic goals.
 According to the UNESCO Science Report [@Schneegans2021] women account for 33.3% of all researchers while the majority of researchers come from G20 countries (88.8%).
 This imbalance is even more pronounced in software engineering with a majority of developers identifying as white male [@StackOverflow2022].
-In their work RSEs might frequently find themselves in a position
-to encourage, mentor and empower people who gravitate towards software-related occupations.
-In this capacity, they should be aware of the diversity problem and help to mediate it
-whenever they have the chance to do so.
+Thereby to promote their values of an honest, open  and inclusive research space they should be aware of
+the diversity problem and help to mediate it whenever they have the chance to do so.
 
 ## The scientific community
 
