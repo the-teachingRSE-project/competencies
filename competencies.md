@@ -1352,5 +1352,5 @@ and "comply with licensing policy", which would in our framework be part of (SP)
 In addition, they have a dedicated parallel computing competency section,
 thereby shifting the emphasis of the knowledge of their computational tools towards the HPC-RSE specialisation in our framework.
 Career profiles, such as the computational chemist, bring additional domain specific knowledge;
-We would classify those as a mixture of DOMAIN-RSE and HPC-RSE.
+we would classify those as a mixture of DOMAIN-RSE and HPC-RSE.
 It is noteworthy, however, that the BioExcel framework puts very little emphasis on communication skills, which are often involved in RSE-related tasks.
