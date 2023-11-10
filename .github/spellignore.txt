@@ -23,6 +23,7 @@ CHAOSS
 codebase
 CodeRefinery
 Coursera
+CRSP
 CSE
 cybersecurity
 DALIA
@@ -114,6 +115,7 @@ OSI-approved
 Paderborn
 pdf
 PerMedCoE
+PhDs
 PRACE
 pre-recorded
 pre-requisite
