@@ -1234,7 +1234,7 @@ After three years, she takes an exciting opportunity to work in another universi
 
 The new position involves taking responsibility for the RSE related aspects of a large inter-organisational project involving different organisations.
 With her new responsibilities comes a shift in the importance of various aspects of her work.
-Having this position in an inter-organisational project places far more emphasis on communication and organization skills.
+Having this position in an inter-organisational project places far more emphasis on communication and organisation skills.
 She is spending time teaching people (TEACH skill) to onboard them into the project.
 There is a lot of interaction with different stakeholders in the project like funders and user groups (USERS skill).
 To oversee the project, she uses an amalgam of both agile and traditional project-management concepts and methods which she acquires on-the-job (PM skills).
