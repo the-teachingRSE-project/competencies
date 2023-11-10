@@ -326,6 +326,8 @@ Therefore, we categorise the competencies into software engineering skills,
 research skills, and team skills with a particular focus on the software and
 research cycle and the scientific process. The generic skills are relevant in a
 broad setting and form the foundation for specific specialisations.
+These competencies have been chosen, to make RSEs contribute to an open and inclusive research
+environment, with tools that respect their professional values.
 
 These skills and competencies come into play in various forms: first of all the
 RSEs themselves need to acquire and develop them as their career progresses
@@ -342,7 +344,8 @@ There are many software engineering curricula out there, that try to define
 which tasks a software engineer should be able to perform. A recent example
 highlighting some aspects in more detail than here is [@Landwehr2017].
 The software skills outlined here are required to make research software adhere
-to the FAIR principles. [@ChueHong2014] defines different levels of research
+to the FAIR principles, which are aspects of good scientific practice.
+[@ChueHong2014] defines different levels of research
 software reusability and the extent to which the software engineering skills
 need to be applied to reach them.
 
@@ -559,7 +562,7 @@ At different career levels, differing skills are required. We have set this up a
 
 - Junior RSE: These are persons who have just started, but generally speaking they should have the skills to contribute to software projects.
 - Senior RSE: They have gained experience and can set the standards in a software project.
-- Principal RSE: Their actual job description varies a lot. These may be RSE team leaders based in a professional services type role, or they may be professors or research group leaders based in a more academic-focused role. They are often the people responsible for bringing in the funding that supports new projects and sustains existing projects. Generally speaking, they do not need to be actively involved in the day-to-day technical tasks but they should be able to guide projects from both a technical and a research perspective.
+- Principal RSE: Their actual job description varies a lot. These may be RSE team leaders based in a professional services type role, or they may be professors or research group leaders based in a more academic-focused role. They are often the people responsible for bringing in the funding that supports new projects and sustains existing projects. Generally speaking, they do not need to be actively involved in the day-to-day technical tasks but they should be able to guide projects from both a technical and a research perspective while providing an inclusive working space.
 
 The following table elaborates on the required facets of the competencies in different roles.
 A story-like example of an individual through the hierarchies can be found in @subsec:examplecareer .
@@ -1061,6 +1064,8 @@ is of utmost importance we envision compulsory events introducing that to young 
 Qualification badges are another option for RSEs to find people with the same technical interests.
 Structuring and institutionalising the education and structures for the add-on courses that are also open to others in academia,
 will be topics of a follow-up paper.
+These networks are a lifelong manifestation where RSEs work to provide an inclusive environment
+for their peers and provide opportunities for life-long learning.
 
 # Future Work {#sec:future-work}
 
