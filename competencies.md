@@ -1086,7 +1086,7 @@ publication on the necessary institutions,
 to lay down what is required to best support the continuous need
 for young RSEs to support digital science specifically in Germany.
 
-# Conclusion and Outlook {#sec:conclusion}
+# Conclusion {#sec:conclusion}
 
 This paper started from a community workshop at deRSE23 in Paderborn
 where people working in RSE related fields got together to figure out
