@@ -1263,16 +1263,16 @@ This competence standard is currently being built upon by the CASTIEL 2 [@CASTIE
 in collaboration with initiatives funded by the European High Performance Computing
 Joint Undertaking (EuroHPC JU) to create a framework for HPC certification [@EuroHPCJU2023].
 While this framework focuses mostly on skills specific to HPC, there are a couple of similarities
-to the framework proposed in this paper. The "SD: Software Development" skillset
+to the framework proposed in this paper. The "SD: Software Development" skill set
 is very similar to the Software Engineering skills discussed in @sec:required-generic-skills,
 describing a wide range of such skills.
-This skillset contains
+This skill set contains
 Programming Best Practices (SD2), Software Configuration Management (SD3), Software Quality (SD5),
 Software Design and Software Architecture (SD6), and explicit mention of documentation (SD7, see our DOCBB).
 Besides the Software Concepts for HPC (SD1), which mainly concerns HPC-focused RSEs,
 most of the skills contained in the SD2-SD7 categories apply to all RSEs.
 A significant difference compared to the framework proposed in this paper is
-the absece of skills related to research or communication.
+the absence of skills related to research or communication.
 
 Also looking at pathways and how different skills are related,
 the UNIVERSE-HPC project [@UNIVERSEHPC], funded under the UK's ExCALIBUR
