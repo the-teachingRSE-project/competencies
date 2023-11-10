@@ -1040,7 +1040,7 @@ social skill-set focused specialisations
 # Connecting RSEs {#sec:reachout}
 RSEs gather around a uniform set of values and competencies and thereby 
 naturally form networks.
-For an RSE it is important to be a part of a network with other RSEs, irrespective of the career level in order to be more
+For an RSE, it is important to be part of a network with other RSEs, regardless of career level, in order to be more
 effective at supporting research.
 A perfect first step for forming this network is topic-related conferences, workshops or meet-ups.
 Beyond that, there is the broader RSE community organised at the local and regional level with chapters or local/regional communities, at the national level with societies and the international RSE society.
