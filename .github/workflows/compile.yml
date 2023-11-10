@@ -21,7 +21,7 @@ jobs:
           mkdir -p "${HOME}/texmf"
           tlmgr init-usertree
           tlmgr option repository https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2021/tlnet-final/
-          tlmgr install academicons
+          tlmgr install academicons fontawesome
       - name: pandoc compile
         working-directory: ${{ env.DIR }}
         run: make all
