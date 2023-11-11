@@ -326,7 +326,7 @@ Therefore, we categorise the competencies into software engineering skills,
 research skills, and team skills with a particular focus on the software and
 research cycle and the scientific process. The generic skills are relevant in a
 broad setting and form the foundation for specific specialisations.
-These competencies have been chosen, to make RSEs contribute to an open and inclusive research
+These competencies have been chosen in order to make RSEs contribute to an open and inclusive research
 environment, with tools that respect their professional values.
 
 These skills and competencies come into play in various forms: first of all the
