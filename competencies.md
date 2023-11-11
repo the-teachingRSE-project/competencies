@@ -704,6 +704,7 @@ We first summarise the meaning of each of the columns in the table:
 \small
 \renewcommand*{\arraystretch}{1.4}
 \begin{longtable}{|p{1.8cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{4.5cm}|}
+    \caption{Levels of software eng. skills expected per team structure.}\label{tbl:teams-se}\\
     \hline
     \multirow{2}{*}{Competency} & \multicolumn{2}{c|}{Working as an individual developer}
     & \multicolumn{2}{c|}{Working with a group of developers} & \multirow{2}{*}{Organisation-level support} \\
@@ -780,6 +781,7 @@ We first summarise the meaning of each of the columns in the table:
 \end{longtable}
 
 \begin{longtable}{|p{1.8cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{4.5cm}|}
+    \caption{Levels of research skills expected per team structure.}\label{tbl:teams-res}\\
     \hline
     \multirow{2}{*}{Competency} & \multicolumn{2}{c|}{Working as an individual developer}
     & \multicolumn{2}{c|}{Working with a group of developers} & \multirow{2}{*}{Organisation-level support} \\
@@ -849,6 +851,7 @@ We first summarise the meaning of each of the columns in the table:
   \end{longtable}
 
 \begin{longtable}{|p{1.8cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{4.5cm}|}
+    \caption{Levels of communication skills expected per team structure.}\label{tbl:teams-comm}\\
     \hline
     \multirow{2}{*}{Competency} & \multicolumn{2}{c|}{Working as an individual developer}
     & \multicolumn{2}{c|}{Working with a group of developers} & \multirow{2}{*}{Organisation-level support} \\
