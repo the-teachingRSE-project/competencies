@@ -298,7 +298,7 @@ This imbalance is even more pronounced in software engineering with a majority o
 Thereby, to promote their values of an honest, open, and inclusive research space, they should be aware of
 the diversity problem and help to mediate it whenever they have the chance to do so.
 
-### The scientific community
+### Shaping Digital Science
 
 Through writing research software, RSEs have a pivotal position in the process of scientific production.
 Their choices might determine whether the respective research is reproducible or not,
