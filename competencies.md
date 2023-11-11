@@ -674,7 +674,7 @@ They need to manage and lead their research group (PM, TEAM).
 
 ## Project team structures
 
-In this table, we look at individual or team competencies and approaches to them,
+In @tbl:teams-se, @tbl:teams-res, and @tbl:teams-comm, we look at individual or team competencies and approaches to them,
 considering how these differ depending on whether an RSE or researcher is working alone on a software project,
 or whether they are working as part of a team of research software developers.
 We extend this to consider how things differ when a developer or a group
@@ -684,7 +684,7 @@ We also look at organisational aspects in the context of each of the considered
 competencies since there are a variety of ways that organisations can contribute
 to and support them. Some of them are brought to life in the example career path of the appendix,
 so the state presented corresponds to the level RSEs should have.
-We first summarise the meaning of each of the columns in the table:
+We first summarise the meaning of each of the columns in the tables:
 
 - **Competency:** The code assigned to the competency being considered, as defined in @sec:required-generic-skills.
 - **Individual developer (Locally-based):** A single person working on some
