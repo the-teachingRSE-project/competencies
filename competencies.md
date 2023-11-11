@@ -747,9 +747,9 @@ We first summarise the meaning of each of the columns in the table:
     - e.g. supporting academic credit, but may be missing skills.&
     As locally-based, but professional RSEs are generally very experienced
       with use of repositories and their many features.&
-    Use repositories to collaborate inside the team.
+    Uses repositories to collaborate inside the team.
       Can benefit from short courses on effective use.&
-    Use repositories extensively for project
+    Uses repositories extensively for project
       management, issue tracking, etc. in addition to code itself.
       May train others.&
     Should offer enterprise repository set ups,
@@ -758,22 +758,21 @@ We first summarise the meaning of each of the columns in the table:
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     MOD&
-    Needs full awareness of entire codebase to support extension/maintenance.
-      May not need/get additional experience or support.
-      If project taken on from another individual developer,
-      there may be challenges in transferring this mental model of the software.&
-    As local but greater awareness of need for future transition to other
-      developer(s), likely provide e.g. docs/issues/project board and other
+    Needs full awareness of entire codebase to extend/maintain.
+      If project taken on from another developer,
+      there may be challenges in transferring the mental model.&
+    As local, but more aware of need for future transition to other
+      developer(s), likely provides docs, issues, and other
       support from central services to support this. May only need to know
-      part of code.&
-    Internal team training important to ensure ability to build necessary
-      mental model of codebase and to document it via text or tools to support
+      parts of the code.&
+    Internal team training ensures ability to build necessary
+      mental model of codebase and to document it via text or tools for
       sustainability.&
-    As local team but likely stronger awareness of tooling and practices
-      in place within RSE team to support this. Distributing work makes it only necessary
+    As local team, but likely more aware of tooling and practices
+      in place within RSE team. Distributing work makes it only necessary
       for each developer to understand code related to their assigned tasks.&
-    Training and experience are key here and organisations can help
-      to coordinate and provide support for training and mentoring/community activities.
+    Should provide training and retain experience via
+      coordinating and provide support for mentoring/community activities.
       Establishing RSE departments with specialists for certain aspects of software
       will improve overall turnaround times.
     \\\hline
