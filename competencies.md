@@ -725,7 +725,7 @@ We first summarise the meaning of each of the columns in the tables:
     \hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     LIBS&
-    Does not emphasize code reusability and sharing/distribution. &
+    Does not emphasise code reusability and sharing/distribution. &
     Puts greater focus on reusability/sharing, but likely not as part of the project aims.&
     May want to develop reusable shareable outputs for a specific case. Needs easy resources.&
     Focuses on quality and best practices. Reusability/packaging driven by project needs and spec.&

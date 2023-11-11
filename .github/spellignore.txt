@@ -147,6 +147,7 @@ SWREPOS
 SysOps
 tbl
 TeSS
+teams-se
 TrainingMaterial
 UofO
 un-deRSE
