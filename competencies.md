@@ -682,13 +682,14 @@ of developers is based locally within a research team or department,
 or when they are based in a dedicated RSE team.
 We also look at organisational aspects in the context of each of the considered
 competencies since there are a variety of ways that organisations can contribute
-to and support them. Some of them are brought to life in the example career path of the appendix.
+to and support them. Some of them are brought to life in the example career path of the appendix,
+so the state presented corresponds to the level RSEs should have.
 We first summarise the meaning of each of the columns in the table:
 
-- **Competency:** The code assigned to the competency being considered.
-  See the list in **TODO**.
+- **Competency:** The code assigned to the competency being considered, as defined in @sec:required-generic-skills.
 - **Individual developer (Locally-based):** A single person working on some
-  research software - often a researcher with RSE skills.
+  research software - often a researcher with RSE skills. Often time-constrained,
+      may be self-taught.
 - **Individual developer (RSE team-based):** A single person working on research
   software - generally a professional RSE supporting another team's software on its own.
 - **Group of developers (Locally-based):** A group of RSEs/researchers within
@@ -707,56 +708,51 @@ We first summarise the meaning of each of the columns in the table:
     \multirow{2}{*}{Competency} & \multicolumn{2}{c|}{Working as an individual developer}
     & \multicolumn{2}{c|}{Working with a group of developers} & \multirow{2}{*}{Organisation-level support} \\
     \cline{2-5}
-              & locally-based & RSE-Team based & locally-based & RSE-Team based &\\\hline
+              & Locally-based & RSE-Team based & Locally-based & RSE-Team based &\\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     DOCBB &
-    Focus on getting outputs to support research. Often time-constrained,
-      may be self-taught, less awareness/familiarity with code quality and
-      structure. Simple Best Practice documents can be sufficient&
-    Likely greater focus on reusability, documentation, and knowledge of best practices
-      but potential lack of domain scientist support.&
-    More opportunity to discuss and share ideas but team members may be
-      self-taught and less aware of key practices. &
-    Stronger ingrained focus on team-based project management and development
-      methodologies resulting in higher quality, more reusable code.&
-    Will offer training and other resources in core topics to support self-taught/embedded developers.
+    Focuses on getting outputs to support research. Is not very familiar with code quality and
+      structure. Follows basic best practice guides.&
+    Puts greater focus on reusability, documentation, and knowledge of best practices,
+      but potentially lacks domain knowledge.&
+    Has more opportunities to discuss and share ideas, but team members may be
+      less aware of key practices. &
+    Has stronger ingrained focus on team-based PM and development
+      methodologies, resulting in higher quality, more reusable code.&
+    Should offer training and other resources in core topics to support individual developers.
       Should have research software guidance/policies that provide advice.\\
     \hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     LIBS&
-    Reusability and sharing/distribution of code often not a focus or considered relevant. &
-    Greater trained focus on reusability/sharing but likely not part of the project aims.&
-    May be looking to develop reusable shareable outputs but likely case-by-case basis. Need easy resources.&
-    Focus on quality and practices, reusability/packaging driven by project needs and spec.&
-    Should provide policies on sharing and reuse of software. May be driven by requirements/policies of the funding agency.
+    Does not emphasize code reusability and sharing/distribution. &
+    Puts greater focus on reusability/sharing, but likely not as part of the project aims.&
+    May want to develop reusable shareable outputs for a specific case. Needs easy resources.&
+    Focuses on quality and best practices. Reusability/packaging driven by project needs and spec.&
+    Should provide policies on reusability/sharing. May be driven by requirements/policies of the funding agency.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     SWLC&
-    It's down to you to manage the complete life-cycle, if you move on,
-      what will happen to the code?&
-    More support with a team but do they have awareness/expertise
-      of managing the life-cycle? What is the "bus factor"?&
-    Even when working alone, team infrastructure and tooling can be vital
-      in supporting the life-cycle and supporting sustainability.&
-    As previous but with a large codebase, how many people know about each part?
+    Manages the complete life-cycle, bus factor equal to 1.&
+    The team supports parts of the software life-cycle, but with low bus factor.&
+    The team infrastructure and tooling supports the life-cycle and sustainability.&
+    The bus factor may still be low in parts of the code.
       Need to think about coherent life-cycle management across the team - generally
-      a key part of RSE team expertise.&
-    Support for training important. Organisation may also provide site
-      licences for e.g. management tools.
+      a key expertise of an RSE team.&
+    Should support with training. Organisation may also provide site
+      licences for, e.g. management tools.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     SWREPOS&
-    Where open source, use of repositories important for code management
-      and demonstrating outputs - e.g. supporting academic credit.
-      May not have awareness/skills if self-taught.&
-    As previous but professional RSEs generally very experienced
+    Uses repositories for code management and demonstrating outputs
+    - e.g. supporting academic credit, but may be missing skills.&
+    As locally-based, but professional RSEs are generally very experienced
       with use of repositories and their many features.&
-    Repos are a vital aspect of modern team-based development.
-      Short courses can facilitate effective use.&
-    Repos used extensively by RSE teams - often the base for project
+    Use repositories to collaborate inside the team.
+      Can benefit from short courses on effective use.&
+    Use repositories extensively for project
       management, issue tracking, etc. in addition to code itself.
       May train others.&
-    Organisations can offer enterprise repository set ups,
+    Should offer enterprise repository set ups,
       site licences etc. Also fund either internal or external training
       for this vital research software development tooling.
     \\\hline
