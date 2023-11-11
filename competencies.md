@@ -305,7 +305,7 @@ Their choices might determine whether the respective research is reproducible or
 whether the results can be re-used, whether future research can build on existing tools or has to start from scratch.
 Builders of larger research-infrastructure projects determine to some extent the possibilities and limitations of future research
 and therefore need to be able to make value-based judgement on topics
-such as Open Science, path dependence and vendor lock-in.
+such as Open Science, path dependence, and vendor lock-in.
 
 ### Emerging challenges
 
