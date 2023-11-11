@@ -778,6 +778,15 @@ We first summarise the meaning of each of the columns in the table:
       will improve overall turnaround times.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{longtable}
+
+\begin{longtable}{|p{1.8cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{4.5cm}|}
+    \hline
+    \multirow{2}{*}{Competency} & \multicolumn{2}{c|}{Working as an individual developer}
+    & \multicolumn{2}{c|}{Working with a group of developers} & \multirow{2}{*}{Organisation-level support} \\
+    \cline{2-5}
+              & Locally-based & RSE-Team based & Locally-based & RSE-Team based &\\\hline
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     NEW&
     An individual's curiosity has now to be shared between the research
       goal and the software project, therefore learning new methods and
@@ -838,6 +847,14 @@ We first summarise the meaning of each of the columns in the table:
     May host domain-specific repositories for areas that they work
       extensively in but this is likely to be handled at a research group level.
     \\\hline
+  \end{longtable}
+
+\begin{longtable}{|p{1.8cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{4.5cm}|}
+    \hline
+    \multirow{2}{*}{Competency} & \multicolumn{2}{c|}{Working as an individual developer}
+    & \multicolumn{2}{c|}{Working with a group of developers} & \multirow{2}{*}{Organisation-level support} \\
+    \cline{2-5}
+              & Locally-based & RSE-Team based & Locally-based & RSE-Team based &\\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     USERS&
     Is the software developed to support external users?
