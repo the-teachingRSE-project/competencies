@@ -1042,7 +1042,7 @@ RSEs gather around a uniform set of values and competencies and thereby
 naturally form networks.
 For an RSE, it is important to be part of a network with other RSEs, regardless of career level, in order to be more
 effective at supporting research.
-A perfect first step for forming this network is topic-related conferences, workshops or meet-ups.
+A perfect first step for forming this network is topic-related conferences, workshops, or meet-ups.
 Beyond that, there is the broader RSE community organised at the local and regional level with chapters or local/regional communities, at the national level with societies and the international RSE society.
 This available layered network can greatly benefit the RSE in finding help with issues outside of their own comfort zone
 and provides a welcoming, social safety net providing a home for the RSE. Since we feel providing aspiring RSEs with this net
