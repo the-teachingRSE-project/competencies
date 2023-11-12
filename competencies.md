@@ -250,11 +250,14 @@ the Helmholtz Federated IT Services platform (HIFIS) [@HIFIS], and the already m
 # Values {#sec:values}
 
 The activities of an RSE are guided by ethical values.
-A general list of applicable values is given in the Software Engineering Code of Ethics [@Gotterbarn1999].
+In addition to the values for good scientific practice [@dfg_gsp], RSEs also adhere to
+the Software Engineering Code of Ethics [@Gotterbarn1999].
 Central to that code is the RSE's obligation to
 commit to the health, safety and welfare of the public and act in the interest of society, their employer and their clients.
 Further values loosely based on that code include the obligations
 
++ to commit to objectivity and fact-based, honest research conclusions,
++ to promote openness and accountability in the research process,
 + to take great care to develop software that adheres to current best practices,
 + to judge independently and maintain professional integrity,
 + to treat colleagues and collaborators with respect and work towards a fair and inclusive environment, and
@@ -265,50 +268,54 @@ They work with a varying and diverse set of colleagues that might include other 
 support unit staff and academics of different fields and all career stages.
 This situation yields a specific set of challenges RSEs should be aware of
 to consciously make ethically sound judgement calls.
-We list some example areas that could be addressed in RSE courses or workshops.
+We list some example areas that highlight present-day challenges.
 
-## Handling of data and personal data
+## Current Challenges
+
+### Handling of data and personal data
 
 A lot of RSE work involves the manipulation or creation of data processing devices.
 We highlight that professional conduct requires these creations to be reliable and to maintain data integrity.
 In particular, the way that personal data is handled can have far reaching implications for society.
 Independent from the encoding into the respective national law in an RSE's jurisdiction,
 the right to information privacy is internationally recognised as a fundamental human right,
-e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988], [@Hirvela2022].
+e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988; @Hirvela2022].
 RSEs need to be aware of this topic's importance
-and deal with tensions that might arise with researchers' desire for trouble-free sharing of data.
+and deal with tensions that might arise with researchers' desire for trouble-free sharing of data, thereby expecting openness about the research process,
+versus the integrity expectations of the society towards IT systems.
 Handling personal data also has ramifications for information security considerations during the software development process.
-Data protection is a difficult subject and RSEs should notice when they need to consult external expertise for example when dealing with
-special topics such as cryptography or re-identification attacks (e.g. [@Sweeney2002]).
+Data protection is a difficult subject, so RSEs should notice when they need to consult external expertise, for example when dealing with
+special topics such as cryptography or re-identification attacks [@Henriksen2016].
 
-## Mentoring and diversity
+
+### Mentoring and diversity
 
 RSEs are often experienced professionals who instruct and work closely with early career researchers.
 Similarly to academic supervisors, they bear a certain responsibility to guide and advise younger colleagues
 with respect to career development and the achievement of academic goals.
 According to the UNESCO Science Report [@Schneegans2021] women account for 33.3% of all researchers while the majority of researchers come from G20 countries (88.8%).
 This imbalance is even more pronounced in software engineering with a majority of developers identifying as white male [@StackOverflow2022].
-In their work RSEs might frequently find themselves in a position
-to encourage, mentor and empower people who gravitate towards software-related occupations.
-In this capacity, they should be aware of the diversity problem and help to mediate it
-whenever they have the chance to do so.
+Thereby, to promote their values of an honest, open, and inclusive research space, they should be aware of
+the diversity problem and help to mediate it whenever they have the chance to do so.
 
-## The scientific community
+### Shaping Digital Science
 
 Through writing research software, RSEs have a pivotal position in the process of scientific production.
 Their choices might determine whether the respective research is reproducible or not,
 whether the results can be re-used, whether future research can build on existing tools or has to start from scratch.
-Builders of larger research-infrastructure projects determine to some extent
-the possibilities and limitations of future research
-and therefore need to be aware of concepts such as Open Science, path dependence, and vendor lock-in.
+Builders of larger research-infrastructure projects determine to some extent the possibilities and limitations of future research
+and therefore need to be able to make a value-based judgement on topicshttps://hpc.fau.de/systems-services/documentation-instructions/nhr-application-rules/
+such as open science, path dependence, and vendor lock-in.
 
-## Emerging challenges
+
+### Emerging challenges
 
 RSEs often operate at the cutting edge of technological development
 and therefore might have to deal with technologies of which the dangers and drawbacks are still poorly understood.
 A current example is the rush for the application of Large Language Models (LLMs),
 where RSEs working in these fields should stay up-to-date and be able to help researchers assess topics
-such as training-data bias, LLM "hallucinations" or malicious use.
+such as training-data bias, LLM "hallucinations" or malicious use, with the greater goal of
+making these powerful tools work for the welfare of society.
 
 # Required Generic RSE skills {#sec:required-generic-skills}
 
@@ -320,6 +327,8 @@ Therefore, we categorise the competencies into three categories: *software engin
 *research skills*, and *communication skills*, with a particular focus on the software and
 research cycle and the scientific process. The generic skills are relevant in a
 broad setting and form the foundation for specific specialisations.
+These competencies have been chosen in order to make RSEs contribute to an open and inclusive research
+environment, with tools that respect their professional values.
 
 These skills and competencies come into play in various forms: first of all the
 RSEs themselves need to acquire and develop them as their career progresses
@@ -336,7 +345,8 @@ There are many software engineering curricula out there, that try to define
 which tasks a software engineer should be able to perform. A recent example
 highlighting some aspects in more detail than here is [@Landwehr2017].
 The software skills outlined here are required to make research software adhere
-to the FAIR principles. [@ChueHong2014] defines different levels of research
+to the FAIR principles, which are aspects of good scientific practice.
+[@ChueHong2014] defines different levels of research
 software reusability and the extent to which the software engineering skills
 need to be applied to reach them.
 
@@ -553,7 +563,7 @@ At different career levels, differing skills are required. We have set this up a
 
 - Junior RSE: These are persons who have just started, but generally speaking they should have the skills to contribute to software projects.
 - Senior RSE: They have gained experience and can set the standards in a software project.
-- Principal RSE: Their actual job description varies a lot. These may be RSE team leaders based in a professional services type role, or they may be professors or research group leaders based in a more academic-focused role. They are often the people responsible for bringing in the funding that supports new projects and sustains existing projects. Generally speaking, they do not need to be actively involved in the day-to-day technical tasks, but they should be able to guide projects from both a technical and a research perspective.
+- Principal RSE: Their actual job description varies a lot. These may be RSE team leaders based in a professional services type role, or they may be professors or research group leaders based in a more academic-focused role. They are often the people responsible for bringing in the funding that supports new projects and sustains existing projects. Generally speaking, they do not need to be actively involved in the day-to-day technical tasks but they should be able to guide projects from both a technical and a research perspective while providing an inclusive working space.
 
 The following table elaborates on the required facets of the competencies in different roles.
 A story-like example of an individual through the hierarchies can be found in @subsec:examplecareer .
@@ -1055,6 +1065,8 @@ is of utmost importance we envision compulsory events introducing that to young 
 Qualification badges are another option for RSEs to find people with the same technical interests.
 Structuring and institutionalising the education and structures for the add-on courses that are also open to others in academia,
 will be topics of a follow-up paper.
+These networks are a lifelong manifestation where RSEs work to provide an inclusive environment
+for their peers and provide opportunities for life-long learning.
 
 # Future Work {#sec:future-work}
 
@@ -1182,7 +1194,7 @@ This setup ensures that we are grading the effectiveness of applying RSE skills 
 ## An example of a possible career path {#subsec:examplecareer}
 #### Setting the stage
 
-Meet Kay, Kim's younger sister [@Anzt2020] who currently studies researchology in a bachelor's programme in the established domain of researchonomy at University of Orithena (UofO).
+Meet Kay, Kim's younger sister [@Anzt2021] who currently studies researchology in a bachelor's programme in the established domain of researchonomy at University of Orithena (UofO).
 We will follow Kay’s fictional career to illustrate how education, job-experience and a career in academic institutions could lead to become a successful RSE.
 In Kay’s world, some of the measures proposed in this paper have already been implemented.
 
@@ -1247,7 +1259,7 @@ from an institutionalised centre of RSE education.
 The certificate confirms her track record of valuable software contributions
 and of teaching and mentoring people,
 as well as her capability to enable, foster and contribute to high-quality research in a leading position.
-It is recognised by various funding agencies, such as the DFG, and hence enables RSEs to act as a Principal Investigator for RSE-focused grant applications. It is also recognised by man prestigious universities and opens many career options that are also typical for PhDs.
+It is recognised by various funding agencies, such as the DFG, and hence enables RSEs to act as a Principal Investigator for RSE-focused grant applications. It is also recognised by many prestigious universities and opens many career options that are also typical for PhDs.
 Kay can now write her own grant proposals to effectively fund work of moving research software projects from prototypes to infrastructure.
 
 ## Existing Frameworks
@@ -1263,6 +1275,18 @@ how they are related in the context of a skill tree [@Kunkel2020a; @Kunkel2020b]
 This competence standard is currently being built upon by the CASTIEL 2 [@CASTIEL2] project
 in collaboration with initiatives funded by the European High Performance Computing
 Joint Undertaking (EuroHPC JU) to create a framework for HPC certification [@EuroHPCJU2023].
+While this framework focuses mostly on skills specific to HPC, there are a couple of similarities
+to the framework proposed in this paper. The "SD: Software Development" skill set
+is very similar to the Software Engineering skills discussed in @sec:required-generic-skills,
+describing a wide range of such skills.
+This skill set contains
+Programming Best Practices (SD2), Software Configuration Management (SD3), Software Quality (SD5),
+Software Design and Software Architecture (SD6), and explicit mention of documentation (SD7, see our DOCBB).
+Besides the Software Concepts for HPC (SD1), which mainly concerns HPC-focused RSEs,
+most of the skills contained in the SD2-SD7 categories apply to all RSEs.
+A significant difference compared to the framework proposed in this paper is
+the absence of skills related to research or communication.
+Noteworthy is already now the level of detail in their skill tree which is more similar to @subsec:examplemaster.
 
 Also looking at pathways and how different skills are related,
 the UNIVERSE-HPC project [@UNIVERSEHPC], funded under the UK's ExCALIBUR
@@ -1304,3 +1328,13 @@ Biology (ISCB) curates a database of degrees and certificates
 in bioinformatics [@BioinformaticsCertification; @Mulder2018].
 The database includes bachelor's and master's degree programs and specialisations,
 PhD programs, and certificates from graduate schools.
+
+BioExcel has research competencies that combine some of our research competencies and some notions from the communication skills.
+Their computing competencies roughly map to our software skills.
+Here, we find competencies such as "Package and distribute Software", which maps to our (LIBS) competencies,
+and "comply with licensing policy", which would in our framework be part of (SP) in the research competencies.
+In addition, they have a dedicated parallel computing competency section,
+thereby shifting the emphasis of the knowledge of their computational tools towards the HPC-RSE specialisation in our framework.
+Career profiles, such as the computational chemist, bring additional domain specific knowledge;
+we would classify those as a mixture of DOMAIN-RSE and HPC-RSE.
+It is noteworthy, however, that the BioExcel framework puts very little emphasis on communication skills, which are often involved in RSE-related tasks.
