@@ -62,7 +62,7 @@ findability
 findable
 FIXME
 Forschung
-FORTRAN
+Fortran
 franca
 funders
 FutureUniversity

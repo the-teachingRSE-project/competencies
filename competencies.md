@@ -304,8 +304,9 @@ Through writing research software, RSEs have a pivotal position in the process o
 Their choices might determine whether the respective research is reproducible or not,
 whether the results can be re-used, whether future research can build on existing tools or has to start from scratch.
 Builders of larger research-infrastructure projects determine to some extent the possibilities and limitations of future research
-and therefore need to be able to make a value-based judgement on topics
-such as Open Science, path dependence, and vendor lock-in.
+and therefore need to be able to make a value-based judgement on topicshttps://hpc.fau.de/systems-services/documentation-instructions/nhr-application-rules/
+such as open science, path dependence, and vendor lock-in.
+
 
 ### Emerging challenges
 
@@ -322,8 +323,8 @@ The role of an RSE lies somewhere on the spectrum between that of a researcher
 (the "R") and a software engineer (the "SE") and, therefore, requires
 competencies in both fields. RSEs typically apply their knowledge and
 experience in larger teams which allows them to cultivate this hybrid nature.
-Therefore, we categorise the competencies into software engineering skills,
-research skills, and team skills with a particular focus on the software and
+Therefore, we categorise the competencies into three categories: *software engineering skills*,
+*research skills*, and *communication skills*, with a particular focus on the software and
 research cycle and the scientific process. The generic skills are relevant in a
 broad setting and form the foundation for specific specialisations.
 These competencies have been chosen in order to make RSEs contribute to an open and inclusive research
@@ -333,7 +334,7 @@ These skills and competencies come into play in various forms: first of all the
 RSEs themselves need to acquire and develop them as their career progresses
 (**Career level**). However, some knowledge of software and data processing is
 required at all academic levels and for all positions
-(**Academic Progression/better title**). The relative importance of the skills
+(**Academic Progression**). The relative importance of the skills
 and competencies also depends on the size of the RSE team
 (**Project team size**). Finally, different sets of skills are emphasised in
 the different RSE specialisations (**RSE specialisations**).
@@ -384,7 +385,7 @@ and be able to predict and cater to the changing needs of software as it moves t
 
 ### Use repositories (SWREPOS)
 
-The RSE should be able to use public platforms (so-called software repositories or repos) to share the artefacts they have
+The RSE should be able to identify and use fitting public platforms (so-called software repositories or repos) to share the artefacts they have
 created and invite the public to scrutinise them for public review.
 
 ### Software Behaviour Awareness and Analysis (MOD)
@@ -415,7 +416,7 @@ One of the crucial skills of RSEs is their mental proximity to research.
 They embrace being part of a larger community which,
 despite friendly competition, shares the common goal of gaining knowledge
 for its own sake and not just for personal or commercial gain.
-Thereby they know, that they are part of a bigger cycle that involves many other parties in and outside of
+Thereby they know that they are part of a bigger cycle that involves many other parties in and outside of
 their domain, and also that their software can be utilised at different stages of the research cycle by different people.
 Like other researchers, RSEs are open to discussions and arguments beyond
 their own expertise and appreciate the underlying principles of
@@ -452,7 +453,7 @@ domain-specific data repositories.
 RSEs do not work in isolation.
 They are embedded in a research group or work within a team of RSEs supporting particular research projects.
 RSEs often need to interact with and facilitate communication among colleagues, clients and contractors
-with a very broad spectrum of background-knowledge, specialisation, expectations and experience.
+with a very broad spectrum of background-knowledge, specialisation, expectations, and experience.
 Communication skills are therefore crucially important.
 Team skills are also mentioned in common guides for software engineering such as the Software Engineering Body of Knowledge [@swebok_2014].
 However, the interpersonal and organisational skills and the capacity for adaption required to work in a research setting
@@ -481,7 +482,7 @@ Code review also includes aspects of the teaching skill.
 ### Project Management (PM)
 
 The RSE should have knowledge about project management. At some institutes, it follows the practices of the local research groups,
-but it is useful, if an RSE knows its place in a PM scheme, or can bring in new ideas for improvement.
+but it is useful if an RSE knows its place in a PM scheme, or can bring in new ideas for improvement.
 Project management in research software engineering poses specific challenges (see [USERS](#interaction-with-users-and-other-stakeholders-users)) that might require the capacity
 to flexibly adapt to changing conditions and deviate from common project management methods.
 
@@ -613,7 +614,7 @@ Instead, it summarises the discussions with and between workshop participants at
 While individuals already work at implementing some of these changes and teaching these skills, it has not yet reached a systemic level.
 
 The text is organised along the academic progression path (bachelor's degree, master's degree, PhD, Postdoc, PI/Professor).
-Since each level is based on the previous levels we presume that the skills and competencies at each level also encompass those of the previous levels.
+Since each level is based on the previous levels, we presume that the skills and competencies at each level also encompass those of the previous levels.
 Due to the broad need throughout academic specialisations,
 the described levels serve as a baseline
 and certain fields will require higher SE skill levels
@@ -621,12 +622,12 @@ as development is a large part of their actual research.
 
 #### Bachelor's Level
 
-Students at undergraduate level mostly consume science/knowledge.
+Students at the undergraduate level mostly consume science/knowledge.
 During their studies, they should also learn about the existence of digital tools and structures.
 Undergrad students should be aware that RSEs exist and that software has different quality aspects (DOCBB).
 They should be aware of domain specific tools (LIBS, SRU) and where to find them (SWREPOS, DOMREP).
-At this level it is sufficient to consider software as black boxes (USERS) although some training in data presentation would be very helpful and a good way to find out about programming (MOD, NEW).
-They should have an awareness of software licenses and whom to ask if they have any questions (SP).
+At this level, it is sufficient to consider software as black boxes (USERS) although some training in data presentation would be very helpful and a good way to find out about programming (MOD, NEW).
+They should have an awareness of software licenses and whom to ask regarding licensing issues (SP).
 They will be taught about the research cycle (RC) and that researchers often work in groups (TEAM).
 During practicals, they will have an opportunity for peer learning (TEACH).
 
@@ -645,7 +646,7 @@ They need to know relevant tools and structures.
 They should know where to find information about tools and where to find help using them (DOCBB, SWREPOS).
 They should be able to use the tools (LIBS) and identify and report bugs (MOD).
 They need to be aware that the user's perspective is different from the developer's perspective in order to be able to write bug reports (USERS).
-They might produce new software (MOD, SRU) in which case they need to understand how to license their code for publication (SP).
+They might produce new software (MOD, SRU), in which case they need to understand how to license their code for publication (SP).
 PhD students need to be curious to be able to conduct their research.
 In order to be able to explore new tools (NEW) they must be able to evaluate research software (SWLC).
 They need to be able to interact with services (RC) and domain specific repositories (DOMREP).
@@ -654,7 +655,7 @@ They should be able to supervise a student (TEACH).
 #### Postdoc
 
 Postdocs are independent researchers.
-Their role is similar to that of a PhD student with a deepened focus on their research career.
+Their role is similar to that of a PhD student, with a deepened focus on their research career.
 However, they are proficient users of all relevant tools, which makes them active contributors to their domain of research.
 They need to be aware of more advanced topics regarding intellectual property rights, such as patents (SP).
 
@@ -678,7 +679,7 @@ We extend this to consider how things differ when a developer or a group
 of developers is based locally within a research team or department,
 or when they are based in a dedicated RSE team.
 We also look at organisational aspects in the context of each of the considered
-competencies since there are a variety of ways that organisations can contribute
+competencies, since there are a variety of ways that organisations can contribute
 to and support them. Some of them are brought to life in the example career path of the appendix.
 We first summarise the meaning of each of the columns in the table:
 
@@ -687,7 +688,8 @@ We first summarise the meaning of each of the columns in the table:
 - **Individual developer (Locally-based):** A single person working on some
   research software - often a researcher with RSE skills.
 - **Individual developer (RSE team-based):** A single person working on research
-  software - generally a professional RSE supporting another team's software on its own.
+  software - generally a professional RSE supporting another team's software on its own,
+  who however is connected to an RSE team.
 - **Group of developers (Locally-based):** A group of RSEs/researchers within
   a research group or team, working together on developing software to support
   or undertake a single research goal/project.
@@ -907,8 +909,8 @@ as is a range of different roles from King's Digital Lab at King's College Londo
 What we have defined above are intended to be base skills that an RSE irrespective of domain, place, and time should know about.
 But not all RSEs are created equal, they specialise in different areas,
 some of which we want to present below. Many of the specialisations may overlap,
-so the same RSE might for example work on data management and Open Science.
-We categorise them into those, that can be viewed as a specialisation within RSE-specific topics,
+so the same RSE might for example work on data management and open science.
+We categorise them into those that can be viewed as a specialisation within RSE-specific topics,
 while other RSEs might expand their skill set and profession to areas, that are not typical for an RSE.
 
 
@@ -917,7 +919,7 @@ while other RSEs might expand their skill set and profession to areas, that are 
 #### OpenScience RSE
 Open Science and FAIRness of Data and Software are increasingly important topics in research,
 as exemplified by the demand of an increasing amount of research funding agencies requiring openness.
-Hence an Open Science RSE is required to have a deeper knowledge in (RC) and how to distribute software publicly (SRU, SP).
+Hence, an Open Science RSE is required to have a deeper knowledge in (RC) and how to distribute software publicly (SRU, SP).
 Open Science RSEs can help researchers navigate the technical questions that come up
 when practising Open Science, such as "How do I make my code presentable?",
 "What do I need to do to make my software FAIR?", or
@@ -953,8 +955,8 @@ Research focused specialisations
 -->
 
 #### ${DOMAIN}-RSE
-While software is the lingua franca of all RSEs there will be RSEs that have specialised in the intricacies of one particular research domain,
-such as medical RSEs, digital humanities RSEs or physics RSEs.
+While software is the lingua franca of all RSEs, there will be RSEs that have specialised in the intricacies of one particular research domain,
+such as medical RSEs, digital humanities RSEs, or physics RSEs.
 This can often serve as a base domain for RSE specialisation as in @subsec:examplemaster
 
 #### Data-focused RSE
@@ -964,7 +966,7 @@ in setting up their analysis pipeline and/or research data management (RDM) solu
 When the field requires research on sensitive data or information, e.g. patient information in medicine,
 this RSE should have knowledge about secure transfer methods and/or ways to anonymise the data.
 As part of RDM, this RSE profile is able to support all stages of the research data life-cycle [@Nieva2020], with synchronous data management processes.
-Those processes implement established best practices for planning and documenting of data acquisition in a data management plan (DMP) as well as for management,
+Those processes implement established best practices for planning and documenting of data acquisition in a data management plan (DMP), as well as for management,
 storage, and preservation of data, and publication and sharing of data in repositories according to the FAIR principles [@FAIR].
 
 
@@ -984,8 +986,7 @@ The constantly evolving software environment can hinder or prevent reproducibili
 In this changing environment, a significant amount of effort in (research) software development
 needs to be spent on maintenance to ensure that software remains useful or even installable.
 With regard to which additional competency is required,
-these are people having experience with ancient software stacks that are not part of the general curricula any more (think of COBOL and FORTRAN).
-Another skill-set required is (automated) testing.
+these are people having experience with software stacks that are not part of the general curricula any more (e.g., COBOL or Fortran).
 
 #### High Performance Computing (HPC) - RSE
 
@@ -1028,10 +1029,10 @@ This RSE is skilled in web applications, front- and/or backend, and/or building
 and using APIs, for example for research data portals or big research projects.
 Ideally, this RSE should also have knowledge about (web) accessibility to allow a broad
 range of researchers or even the public to use the resulting applications.
-Therefore a deep knowledge of web skills is a required additional skill for this RSE.
+Therefore, a deep knowledge of web development skills is a required additional skill for this RSE.
 
 #### Legal-RSE
-All RSEs are a go-to person for questions about licensing, mixing and matching of software.
+All RSEs are a go-to person for questions about licensing, in particular when mixing software components with different licenses.
 But with the rising requirements from legislation,
 we foresee the need for RSEs that still have a background in RSE but extend it with a knowledge of legal processes,
 that cover corner cases and go beyond applying Best Practice guides.
@@ -1039,7 +1040,7 @@ These requirements may arise in the area of publication of research software,
 as this also requires knowledge about particular laws or regulatory frameworks concerning data protection,
 like the GDPR within the EU [@GDPR].
 Another area are legal aspects of cybersecurity and export control in science and research (see [@ExportControl] for Germany).
-Legal-RSEs focus on facilitating the achievement of technically feasible solutions while adhering to regulatory mandates.
+Legal-RSEs focus on facilitating the achievement of technically feasible solutions, while adhering to regulatory mandates.
 They are able to communicate and collaborate with lawyers.
 
 <!--
@@ -1072,26 +1073,26 @@ for their peers and provide opportunities for life-long learning.
 Having the competencies is a first step to finding common ground around which to structure
 curricula, institutions, and teachers in this framework.
 Applications of them in an individual's career can be found in the appendix.
-An omission that we found and that we would like to highlight in order to spark a community discussion,
-is that RSEs that choose explicitly a science supporting role outside of research will not be eligible
+An omission that we found and that we would like to highlight in order to spark a community discussion
+is that RSEs that choose explicitly a science-supporting role outside of research will not be eligible
 for funding under the statutes of a lot of funding organisations that require a PhD at minimum.
 To alleviate that and give RSEs in leadership positions a means
-to become eligible for funding themselves we propose the introduction of a "science enabling doctor"
+to become eligible for funding themselves, we propose the introduction of a "science-enabling doctorate"
 that can be handed out on an honorary basis by certain institutions.
 Beyond having that discussion, a diverse set of publications is already in the making.
 Next, we will work on how to institutionalise education.
-Here we will detail how we organise our institutions and what qualifications our teachers
+In that publication, we will detail how we organise our institutions and what qualifications our teachers
 need to have in order to effectively communicate our values.
 We will put forward ideas on how to build up bachelor's and master's programmes,
 of which a glimpse can already be found in this paper's appendix.
 We will show how we intend to provide the necessary continuous education for RSEs after graduation.
-This publication is again intentionally free of regional specifics, to also serve
+That publication will again intentionally be free of regional specifics, to also serve
 as a blueprint that other national RSE societies can build upon.
 Another important building block is to provide people with online resources for use in their
 courses. This is the intention of the so-called "survey-publication".
-This work will not be carried out as a traditional publication, but
-this survey of existing resources will be made available as a
-continuously evolving online resource.
+That survey of existing resources will not be carried out as a traditional publication, but
+it will be made available as a
+continuously-evolving online resource.
 And finally, we will formulate the call to action - building on the previous
 publication on the necessary institutions,
 to lay down what is required to best support the continuous need
@@ -1103,15 +1104,15 @@ This paper started from a community workshop at deRSE23 in Paderborn
 where people working in RSE related fields got together to figure out
 structures and ideas for educating newcomers to this field.
 One outcome of this diverse gathering is that RSEs from far away fields gather
-around similar core concepts but at the same time share a vision of how to
+around similar core concepts, and at the same time share a vision of how to
 update the scientific ecosystem to the age of digitalization.
 In this publication, we have tried to formalise these concepts.
 We have formulated a set of values that guide our actions in society,
-manifestly making RSEs part of the scientific community that shares the ideals of good scientific practice,
-but at the same time,
+manifestly making RSEs part of the scientific community that shares the ideals of good scientific practice.
+At the same time,
 being Software Engineers, we cherish that we have to take responsibility for our tools.
 We continue with core competencies that have been intentionally formulated
-abstractly without referencing any particular information processing device.
+abstractly without referencing any particular information-processing device.
 As expected, we draw equally upon notions from software engineering and research,
 but find that we likewise require teamwork capabilities.
 We continue with detailing these competencies in various dimensions and find that
@@ -1136,11 +1137,11 @@ that provide this education will be the topic of a follow-up paper.
 
 The target audience for such a master's programme would be students holding a bachelor's degree from
 a domain science, which we will call "home domain" in the following. There is explicitly
-no restriction on the candidates' home domain, it may be from the STEM disciplines, life
+no restriction on the candidates' home domain: it may be from the STEM disciplines, life
 sciences, humanities or social sciences. Candidates with a bachelor's degree in computer science are also
 explicitly included, although we acknowledge that their master's programme should include adaptations
 to make their interaction effective with other domain scientists.
-In order to give the future RSE the necessary breadth we expect this to be a four semester curriculum.
+In order to give the future RSE the necessary breadth, we expect this to be a four semester curriculum.
 
 The curriculum is formed from a combination of modules,
 some of which are core modules teaching essential skills that must be completed by all students.
@@ -1150,15 +1151,15 @@ and attend these additional modules to deepen their knowledge in the field.
 
 Core modules are of course drawn from the three pillars of the RSE and can be categorised accordingly.
 
-- Research Skills:
-  - Optional Domain Mastery Module: Additional minor research courses, but students with a home-domain already have the research part well-covered.
-  - Research Tools Module: Here we teach tools used to distribute and publish software, as well as introducing students to domain specific data repositories. Thereby gaining foundational knowledge in (SRU, SP, DOMREP).
-  - Meta-Research Module: Here we teach people how research works. The research life cycle is introduced, as well as the data life cycle and the software life cycle are abstractly introduced.
-
 - Software Engineering Skills:
   - Foundational Module: Here we have an introduction to programming: Students learn at least two languages: a language that facilitates prototyping and data processing (e.g., Python or R) and a language for designing complex, performance-critical systems (e.g., C/C++). This exposes them to computers in a hands-on fashion and is the foundation for (DOCBB, LIBS).
   - Digital Ecosystem Module: Programming languages are not enough to work in a digital ecosystem, hence we require something like Software Craftsmanship, where tools like the Unix Shell, version control systems, Build Systems, Documentation generators, Package distribution platforms, and Software Discovery systems are taught to strengthen skills in (LIBS, DOCBB, SWREPOS, SRU).
   - Software Architecture Module: Here we teach Software Design and Software Engineering, again strengthening (DOCBB, LIBS) on a more abstract level.
+
+- Research Skills:
+  - Optional Domain Mastery Module: Additional minor research courses, but students with a home-domain already have the research part well-covered.
+  - Research Tools Module: Here we teach tools used to distribute and publish software, as well as introducing students to domain specific data repositories. Thereby gaining foundational knowledge in (SRU, SP, DOMREP).
+  - Meta-Research Module: Here we teach people how research works. The research life cycle is introduced, as well as the data life cycle and the software life cycle are abstractly introduced.
 
 - Communication Skills:
   - Project Management Methods: Here we teach project management methods that are useful in science, such as agile ones(PM).
