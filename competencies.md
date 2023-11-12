@@ -899,7 +899,7 @@ as is a range of different roles from King's Digital Lab at King's College Londo
 What we have defined above are intended to be base skills that an RSE irrespective of domain, place, and time should know about.
 But not all RSEs are created equal, they specialise in different areas,
 some of which we want to present below. Many of the specialisations may overlap,
-so the same RSE might for example work on Data Management and Open Science.
+so the same RSE might for example work on data management and open science.
 We categorise them into those that can be viewed as a specialisation within RSE-specific topics,
 while other RSEs might expand their skill set and profession to areas, that are not typical for an RSE.
 
