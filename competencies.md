@@ -863,50 +863,46 @@ We first summarise the meaning of each of the columns in the tables:
               & Locally-based & RSE-Team based & Locally-based & RSE-Team based &\\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     USERS&
-    Is the software developed to support external users?
-      If so, additional technical skills may be required,
-      especially if future sustainability is an aim.&
-    Is there a plan for external use? RSEs generally have the skills
-      to support this or can access assistance via team colleagues.&
-    If a team of embedded researchers/developers are involved in a larger
-      project, there's more chance that there's a case for external use.
-      Do they have the skills and resources to support this?&
-    A team of RSEs can generally better prepare code for external users
-      (e.g. by applying development best practices) and provide infrastructure
-      or specialised RSEs for dealing with user support. &
+    May have additional skills to safeguard potential future development
+      and maintenance of the software for external users.&
+    Has additional skills or can access support to safeguard potential
+      future development and maintenance of the software for external users.&
+    Needs to safeguard future development and maintenance of the software for
+      external users, but may not have the skills or resources to support this.&
+    Applies best practices to prepare the code for external users,
+      while the team provides infrastructure and/or specialised RSEs for user support. &
     Should have institutions that are able to offer support with outreach and publicising outputs.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     TEACH&
     May be independently involved in training activities.&
     May be able to support researchers with core technical skills.&
-    Sharing knowledge and skills within their group - peer support.&
-    Often support teaching more widely, either through organised courses
-      or ad hoc activities such as "code clinics".&
-    Should have programs for a diverse range of teaching/training activities.
+    Shares knowledge and skills within the group (peer support).&
+    Supports teaching more widely, either through organised courses
+      or ad hoc activities such as ``code clinics''.&
+    Should have programs for a diverse range of teaching/training activities,
+      such as an RSE curriculum, as described in~\autoref{subsec:examplemaster}.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     PM&
-    Limited requirement beyond being well organised - can be important
-      if someone else might take over codebase.&
-    Limited requirement but team will likely have standard PM approaches
-      to be followed.&
-    Challenging for groups of local researchers/developers on larger projects.
-      May not have awareness/experience of key skills, but this can be alleviated with some low-key courses.&
-    Likely have well structured approaches and tooling to support this.&
-    Can offer training to support management of projects.
+    Is well-organized, in order to be able to transfer the codebase to future developers.&
+    Follows the project management approach set by the team, or can suggest such PM approaches.&
+    Has additional PM challenges, but may not have awareness of or experience with key PM skills,
+      which can acquire with low-key courses.&
+    Team provides well-structured approaches and tooling to support management of projects.&
+    Should offer training to support management of projects.
       May offer organisation-level tooling.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     TEAM&
     N/A&
-    Will need to work effectively with their home RSE team, as well as,
-      potentially with researchers they are developing code for.&
-    Effective teamwork vital - do they have the skills and knowledge
-      to support team-based software development?&
-    Will need to be able to work and collaborate effectively in a team,
+    Must be able to work effectively with their home RSE team, as well as
+      with researchers they are potentially developing code for.&
+    Must have strong team skills and knowledge
+      to support team-based software development.&
+    Must be able to work and collaborate effectively in a team,
       use required tools and processes, infrastructure, etc.&
-    Can offer support with team work. Should support team-building initiatives
+    Should offer support with team work. Should facilitate team-building initiatives,
     also on a social level.
     \\\hline
 \end{longtable}
