@@ -39,7 +39,7 @@ in the form of massive open online courses (MOOCs), online and on-site training
 events at European HPC facilities (aggregated on various websites, e.g. EuroCC
 Training [@EuroCCTraining]), and white papers. While most training events are
 tailored towards specialist HPC-related RSE skills, several recurring courses covering programming
-languages (C++, FORTRAN, Python) are suitable for a more general RSE audience, as they teach coding
+languages (C++, Fortran, Python) are suitable for a more general RSE audience, as they teach coding
 best practices, modern software design [@LRZModernCpp], project management and
 version control [@LRZIntroCpp].
 

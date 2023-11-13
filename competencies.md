@@ -16,6 +16,7 @@ author:
   - Moritz Schwarzmeier
   - Matthias Braun
   - Simon Christ
+  - Gerasimos Chourdakis
 output:
   pdf_document:
     citation_package: biblatex
@@ -231,7 +232,7 @@ a range of open source training materials and international communities
 of volunteer instructors and helpers who run courses around these materials.
 A similar framework is provided by CodeRefinery [@CodeRefinery], currently
 funded by the Nordic e-Infrastructure,
-as well as SURESOFT [@SURESOFTLink] [@SURESOFT2022], a DFG funded project at TU Braunschweig and
+as well as SURESOFT [@SURESOFTLink; @SURESOFT2022], a DFG funded project at TU Braunschweig and
 FAU Erlangen-Nürnberg, targeting more advanced software engineering topics like
 Software Design Principles, Design Patterns, Refactoring, Continuous Integration and Test Driven Development.
 
