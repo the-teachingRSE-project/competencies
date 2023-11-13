@@ -755,8 +755,8 @@ We first summarise the meaning of each of the columns in the tables:
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     SWREPOS&
-    Uses repositories for code management and demonstrating outputs
-    - e.g. supporting academic credit, but may be missing skills.&
+    Uses repositories for code management and demonstrating outputs,
+    e.g. for supporting academic credit, but may be missing skills.&
     As locally-based, but professional RSEs are generally very experienced
       with use of repositories and their many features.&
     Uses repositories to collaborate inside the team.
@@ -800,53 +800,44 @@ We first summarise the meaning of each of the columns in the tables:
               & Locally-based & RSE-Team based & Locally-based & RSE-Team based &\\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     NEW&
-    An individual's curiosity has now to be shared between the research
-      goal and the software project, therefore learning new methods and
-      skills may be challenging and is often not the core aim.&
-    RSE teams should support their team members, especially when working
-      individually on a project, to explore new tools and approaches,
-      make relevant contacts and learn more about the research in the project domain.&
-    Likely to be an area of interest for an embedded development team
-      but if they are researchers, they definitely have curiosity in their domain.
-      A curiosity for tools would be appreciated.&
+    Struggles to learn new methods and skills due to split curiosity
+      between research goal and software project.&
+    Gets support from the RSE team to explore new methods and skills,
+      make relevant contacts and learn more about the domain.&
+    Has increased interest in learning new methods and skills,
+      but still prioritizes domain research.&
     As per Individual (RSE team).&
-    Organisations should reach out to relevant groups locally to help share
-      information on new technical processes and tooling, and facilitate training.
+    Should reach out to relevant local groups to facilitate training
+      and sharing of know-how on new technical processes and tooling.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     RC&
-    This is likely to be familiar to individuals, who are often researchers,
-      especially if they are embedded within a research team.&
-    Many RSEs will have familiarity with the research life-cycle,
-      although they may not have domain knowledge. This can be alleviated by interacting with a group&
-    Likely to be familiar to software teams (often researchers) working
-      in a research group. Can share knowledge among themselves or reach
-      out to colleagues.&
-    Teams of RSEs from an RSE group are likely to include one or more
-      team members with strong awareness of the research life-cycle.&
-    Research organisations have extensive infrastructure to manage
-      the research life-cycle, this can support researchers/RSEs.
+    Is familiar with the research life-cycle in their domain,
+      especially when embedded in a research team.&
+    Is familiar with the RC,
+      although they may not have domain knowledge, which a group can provide.&
+    Is familiar with the RC and can share knowledge within the team.&
+    One or more members of the team are strongly aware of the
+      RC.&
+    Should provide extensive infrastructure to manage
+      the research life-cycle, supporting researchers/RSEs.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     SRU&
-    Need to know how to find other work to build awareness of existing
-      solutions. Researchers sometimes like to do things themselves.
-      Working individually means there may not be someone to highlight this.&
-    RSE team members will generally be familiar with software sharing
-      and discovery tools and platforms.&
-    As per individual (Local) but being part of a team can help to address this.&
+    Has limited awareness of existing solutions and limited support in this regard.&
+    Is familiar with software sharing and can discover tools and platforms.&
+    As per individual (local), but being part of a team can help to address this.&
     As per individual (RSE Team).&
-    Can choose to run local environments to host software or catalogue software,
-      they can also provide institution-level access to platforms that support this.
+    Should run local environments to host software, catalogue software,
+      and/or provide institution-level access to platforms that support this.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     SP&
-    Responsibility may be with an individual but they may not have necessary knowledge/skills.&
-    This is a core area that RSE teams need to be aware of.
-    An RSE team might have established practices, workflows and policies at hand to routinely publish software.&
-    As with individual (local) developer.&
-    As with individual (RSE Team).&
-    The organisation should raise awareness about software as publishable scientific output, provide recommendations and checklists to support software-publications and have legal experts in place to deal with complex cases.
+    Has limited knowledge and motivation regarding software publication.&
+    Applies practices, workflows, and policies established in the RSE team.&
+    As per individual (local) developer.&
+    As per individual (RSE Team).&
+    Should raise awareness about software as publishable scientific output, provide recommendations and checklists to support software-publications, and have legal experts in place to deal with complex cases.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     DOMREP&
@@ -854,12 +845,14 @@ We first summarise the meaning of each of the columns in the tables:
       with the domain-specific solutions.&
     RSEs may need guidance from domain researchers around domain-specific
       repositories if they have a background in a different domain.&
-    As per individual (Local).&
-    As per individual (RSE Team)&
-    May host domain-specific repositories for areas that they work
-      extensively in but this is likely to be handled at a research group level.
+    As per individual (local).&
+    As per individual (RSE Team).&
+    Should host domain-specific repositories for areas that the organization works
+      extensively in, but this is likely to be handled at a research group level.
     \\\hline
   \end{longtable}
+
+\newpage
 
 \begin{longtable}{|p{1.8cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{4.5cm}|}
     \caption{Levels of communication skills expected per team structure.}\label{tbl:teams-comm}\\
