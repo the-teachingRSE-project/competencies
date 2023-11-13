@@ -701,15 +701,23 @@ We first summarise the meaning of each of the columns in the tables:
   research software - often a researcher with RSE skills. Often time-constrained,
       may be self-taught.
 - **Individual developer (RSE team-based):** A single person working on research
-  software - generally a professional RSE supporting another team's software on its own,
+  software - generally a professional RSE assigned to support another team's software on their own,
   who however is connected to an RSE team.
 - **Group of developers (Locally-based):** A group of RSEs/researchers within
   a research group or team, working together on developing software to support
   or undertake a single research goal/project.
+  Similarly to the individual RSE, they are often researchers with RSE skills,
+  often sef-taught.
 - **Group of developers (RSE team-based):** A group of members of the RSE team
   working together on a research software project for a research group.
 - **Organisation-level support:** How the defined competencies are recognised
-  and represented at an organisational level.
+  and represented at an organisational level and what the organisation can
+  do to support the RSEs at the different team structures.
+  These can be read as policy/action recommendations.
+
+These tables take the perspective of the expected skill set of each developer or team
+of developers, similarly to personas in a user experience analysis.
+The current situation may differ.
 
 \blandscape
 \small
@@ -847,7 +855,7 @@ We first summarise the meaning of each of the columns in the tables:
       repositories if they have a background in a different domain.&
     As per individual (local).&
     As per individual (RSE Team).&
-    Should host domain-specific repositories for areas that the organization works
+    Should host domain-specific repositories for areas that the organisation works
       extensively in, but this is likely to be handled at a research group level.
     \\\hline
   \end{longtable}
@@ -885,7 +893,7 @@ We first summarise the meaning of each of the columns in the tables:
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     PM&
-    Is well-organized, in order to be able to transfer the codebase to future developers.&
+    Is well-organised, in order to be able to transfer the codebase to future developers.&
     Follows the project management approach set by the team, or can suggest such PM approaches.&
     Has additional PM challenges, but may not have awareness of or experience with key PM skills,
       which can acquire with low-key courses.&
