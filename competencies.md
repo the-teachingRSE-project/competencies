@@ -1062,7 +1062,7 @@ Beyond that, there is the broader RSE community organised at the local and regio
 Each of them offers possibilities for connecting within or beyond an individual institution and is a great way to find like-minded people to grow a wider network and thereby facilitate the sharing of information on interesting events or help each other out.
 This available layered network can greatly benefit the RSE in finding help with issues outside of their own comfort zone
 and provides a welcoming, social safety net providing a home for the RSE. Since we feel providing aspiring RSEs with this net
-is of utmost importance we envision compulsory events introducing that to young RSEs.
+is of utmost importance we envision compulsory events introducing that to junior RSEs.
 Qualification badges are another option for RSEs to find people with the same technical interests.
 Structuring and institutionalising the education and structures for the add-on courses that are also open to others in academia,
 will be topics of a follow-up paper.
