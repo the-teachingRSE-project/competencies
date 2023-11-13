@@ -54,6 +54,7 @@ Erlangen-Nürnberg
 ERuDIte
 EuroCC
 EuroHPC
+examplemaster
 exascale
 ExCALIBUR
 EXCELERATE

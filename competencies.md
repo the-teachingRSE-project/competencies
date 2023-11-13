@@ -707,7 +707,7 @@ We first summarise the meaning of each of the columns in the tables:
   a research group or team, working together on developing software to support
   or undertake a single research goal/project.
   Similarly to the individual RSE, they are often researchers with RSE skills,
-  often sef-taught.
+  often self-taught.
 - **Group of developers (RSE team-based):** A group of members of the RSE team
   working together on a research software project for a research group.
 - **Organisation-level support:** How the defined competencies are recognised
@@ -813,7 +813,7 @@ The current situation may differ.
     Gets support from the RSE team to explore new methods and skills,
       make relevant contacts and learn more about the domain.&
     Has increased interest in learning new methods and skills,
-      but still prioritizes domain research.&
+      but still prioritises domain research.&
     As per Individual (RSE team).&
     Should reach out to relevant local groups to facilitate training
       and sharing of know-how on new technical processes and tooling.
