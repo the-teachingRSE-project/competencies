@@ -762,7 +762,7 @@ The current situation may differ.
     The team infrastructure and tooling supports the life-cycle and sustainability.&
     The bus factor may still be low in parts of the code.
       Need to think about coherent life-cycle management across the team - generally
-      a key expertise of an RSE team.&
+      a key area of expertise for an RSE team.&
     Should support with training. Organisation may also provide site
       licences for, e.g. management tools.
     \\\hline
