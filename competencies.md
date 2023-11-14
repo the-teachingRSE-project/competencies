@@ -534,7 +534,7 @@ what they would like to have learnt. Among the top five things mentioned were:
   domain scientists. Today, an example is a presence on social media. The other
   TEAM-related aspect is the embedding of RSE graduates into the community of
   RSEs, sharing the same set of values and competencies. We envision our RSE graduates to be a part of a strong network of other
-  RSEs, tool-related communities and the classical domain communities, making them more effective at supporting research.
+  RSEs, tool-related communities, and the classical domain communities, making them more effective at supporting research.
   These networks are a lifelong manifestation where RSEs work to provide an inclusive environment
   for their peers and provide opportunities for life-long learning.
 
