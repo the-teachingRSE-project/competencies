@@ -1059,8 +1059,10 @@ An omission that we found and that we would like to highlight in order to spark 
 is that RSEs that choose explicitly a science-supporting role outside of research will not be eligible
 for funding under the statutes of many funding organisations that require a PhD at minimum.
 To alleviate that and give RSEs in leadership positions a means
-to become eligible for funding themselves, we propose the introduction of a "science-enabling doctorate"
-that can be handed out on an honorary basis by certain institutions.
+to become eligible for funding themselves, we propose the introduction of 
+certificates that can be handed out by selected institutions.
+Examplers of this could be doctorates handed out on an honorary basis, or new
+certificates like the certificate in @subsec:examplecareer that should become general accepted.
 Beyond having that discussion, a diverse set of publications is already in the making.
 Next, we will work on how to institutionalise education.
 In that publication, we will detail how we organise our institutions and what qualifications our teachers
