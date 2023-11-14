@@ -1062,7 +1062,7 @@ To alleviate that and give RSEs in leadership positions a means
 to become eligible for funding themselves, since completion of scientific training is often a requirement [@DFG_50_01],
 we propose the introduction of certificates that can be handed out by selected institutions.
 Examples of this could be doctorates handed out on an honorary basis, or new
-certificates like the certificate in @subsec:examplecareer that should become general accepted.
+certificates like the certificate in @subsec:examplecareer that should become widely accepted.
 Beyond having that discussion, a diverse set of publications is already in the making.
 Next, we will work on how to institutionalise education.
 In that publication, we will detail how we organise our institutions and what qualifications our teachers
