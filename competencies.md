@@ -1127,7 +1127,8 @@ abstractly without referencing any particular information-processing device.
 As expected, we draw equally upon notions from software engineering and research,
 but find that we likewise require teamwork capabilities.
 We continue with detailing these competencies in various dimensions and find that
-a different amount is required in different positions and scientific domains.
+a different amount is required in different positions and scientific domains,
+while proposing recommendations for organisations to foster the development of these competencies.
 Nevertheless, they are required and hence the values and competencies form a common denominator
 that unifies RSEs and enables them to identify with this domain that will become critically
 important for many areas of science.
