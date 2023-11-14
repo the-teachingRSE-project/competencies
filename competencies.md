@@ -877,7 +877,7 @@ The current situation may differ.
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     USERS&
     May have additional skills to safeguard potential future development
-      and maintenance of the software for external users.&
+      and maintenance of the software for external users. Resourcing for future maintenance may be a challenge.&
     Has additional skills or can access support to safeguard potential
       future development and maintenance of the software for external users.&
     Needs to safeguard future development and maintenance of the software for
