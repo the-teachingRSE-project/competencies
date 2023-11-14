@@ -159,8 +159,8 @@ but we limit our considerations to the views of public research.
 This enables us to define Research Software in this paper to include source code files,
 algorithms, scripts, computational workflows and executables that were created
 during the research process or for a research purpose.
-This definition is broader than in [@FAIR4RS] and is the outcome of a recent
-discussion in [@Gruenpeter2021].
+This definition is broader than in @FAIR4RS and is the outcome of a recent
+discussion in @Gruenpeter2021.
 
 Using this, Research Software Engineers are now people who
 create or improve research software and/or the structures that the software interacts with
@@ -220,12 +220,12 @@ We list some example areas that could be addressed in RSE courses or workshops.
 
 Independent from the encoding into the respective national law in an RSE's jurisdiction,
 the right to information privacy is internationally recognised as a fundamental human right,
-e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988], [@Hirvela2022].
+e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988; @Hirvela2022].
 RSEs need to be aware of this topic's importance
 and deal with tensions that might arise with researchers' desire for trouble-free sharing of data.
 Handling personal data also has ramifications for information security considerations during the software development process.
 Data protection is a difficult subject and RSEs should notice when they need to consult external expertise for example when dealing with
-special topics such as cryptography or re-identification attacks (e.g. [@Sweeney2002]).
+special topics such as cryptography or re-identification attacks (e.g. @Sweeney2002).
 
 ### Mentoring and diversity
 

@@ -170,8 +170,8 @@ that are necessary to understand its purpose.
 **Research Software**: Foundational algorithms, the software itself,
 as well as scripts and computational workflows that were created
 during the research process or for a research purpose, across all domains of research.
-This definition is broader than in [@FAIR4RS] and is the outcome of a recent
-discussion in [@Gruenpeter2021].
+This definition is broader than in @FAIR4RS and is the outcome of a recent
+discussion in @Gruenpeter2021.
 
 **Research Software Engineers**: People who
 create or improve research software and/or the structures that the software interacts with
@@ -346,10 +346,10 @@ the different RSE specialisations (**RSE specialisations**).
 
 There are many software engineering curricula out there, that try to define
 which tasks a software engineer should be able to perform. A recent example
-highlighting some aspects in more detail than here is [@Landwehr2017].
+highlighting some aspects in more detail than here is @Landwehr2017.
 The software skills outlined here are required to make research software adhere
 to the FAIR principles, which are aspects of good scientific practice.
-[@ChueHong2014] defines different levels of research
+@ChueHong2014 defines different levels of research
 software reusability and the extent to which the software engineering skills
 need to be applied to reach them.
 
@@ -551,9 +551,9 @@ Beyond that, we feel that today other important tasks of RSEs are
   Some research software might even be used to deal with critical questions such as weather forecasting or medical diagnosis.
   To formalise the process of giving good advice a classification of software is commonly used [@Wang2012; @Schlauch2018b]
   where research software can move from one class to another during its life-cycle.
-  [@Schlauch2018b] classify applications based on their scope and criticality and provide software engineering recommendations.
+  @Schlauch2018b classify applications based on their scope and criticality and provide software engineering recommendations.
   The RSE needs to be able to identify the application class they are dealing with and apply the respective RSE practices.
-- Enforcing reproducibility. Projects like [@ReproHack] can greatly help in fostering that competency.
+- Enforcing reproducibility. Projects like ReproHack [@ReproHack] can greatly help in fostering that competency.
 
 # How much do different people need to know? {#sec:how-much-to-know}
 
@@ -1042,7 +1042,7 @@ that cover corner cases and go beyond applying Best Practice guides.
 These requirements may arise in the area of publication of research software,
 as this also requires knowledge about particular laws or regulatory frameworks concerning data protection,
 like the GDPR within the EU [@GDPR].
-Another area are legal aspects of cybersecurity and export control in science and research (see [@ExportControl] for Germany).
+Another area are legal aspects of cybersecurity and export control in science and research (see @ExportControl for Germany).
 Legal-RSEs focus on facilitating the achievement of technically feasible solutions, while adhering to regulatory mandates.
 They are able to communicate and collaborate with lawyers.
 
