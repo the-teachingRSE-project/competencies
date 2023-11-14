@@ -696,7 +696,7 @@ of developers is based locally within a research team or department,
 or when they are based in a dedicated RSE team.
 We also look at organisational aspects in the context of each of the considered
 competencies, since there are a variety of ways that organisations can contribute
-to and support them, complementing those proposed by @Katerbow2018. Some of them are brought to life in the example career path of the appendix.
+to and support them, complementing those proposed by @Katerbow2018. Some of them are brought to life in the example career path of @subsec:examplemaster in the appendix.
 We first summarise the meaning of each of the columns in the tables:
 
 - **Competency:** The code assigned to the competency being considered, as defined in @sec:required-generic-skills.
