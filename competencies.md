@@ -898,7 +898,7 @@ The current situation may differ.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     PM&
-    Is well-organised, in order to be able to transfer the codebase to future developers.&
+    Is organised enough to be able to transfer the codebase to future developers.&
     Follows the project management approach set by the team, or can suggest such PM approaches.&
     Has additional PM challenges, but may not have awareness of or experience with key PM skills,
       which can acquire with low-key courses.&
