@@ -695,7 +695,7 @@ considering how these differ depending on whether an RSE or researcher is workin
 or whether they are working as part of a team of research software developers.
 We extend this to consider how things differ when a developer or a group
 of developers is based locally within a research team or department,
-or when they are based in a dedicated RSE team.
+or when they are based in a dedicated, centralised RSE team.
 We also look at organisational aspects in the context of each of the considered
 competencies, since there are a variety of ways that organisations can contribute
 to and support them, complementing those proposed by @Katerbow2018. Some of them are brought to life in the example career path of @subsec:examplemaster in the appendix.
