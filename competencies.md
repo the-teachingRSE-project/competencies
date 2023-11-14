@@ -717,7 +717,7 @@ We first summarise the meaning of each of the columns in the tables:
   working together on a research software project for a research group.
 - **Organisation-level support:** How the defined competencies are recognised
   and represented at an organisational level and what the organisation can
-  do to support the RSEs at the different team structures.
+  do to support the RSEs in the context of the different team structures.
   These can be read as policy/action recommendations.
 
 These tables take the perspective of the expected skill set of each developer or team
