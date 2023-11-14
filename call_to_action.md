@@ -26,6 +26,7 @@ output:
 bibliography: bibliography.bib
 keywords:
   - research software engineering
+  - education policy
   - training
   - learning
   - competencies
@@ -79,7 +80,7 @@ funding programs [@Godoy2022; @DFGResearchSoftwareCall2022; @EdinburghRSECollabo
 or by establishing RSE departments.
 For the sake of completeness, we also would like to mention challenges that relate to the topic covered but are out of scope and would be subject of separate more in-depth considerations.
 
-As outlined in [@UniStgtRS], the lack of long-term funding options and centralised agencies complicate the sustainable development and delivery of research software.
+As outlined in @UniStgtRS, the lack of long-term funding options and centralised agencies complicate the sustainable development and delivery of research software.
 Where applicable, it is important to raise awareness of the need for institutional support.
 The creation of a curriculum for the continuing education of RSEs must go hand in hand with the creation of new permanent positions for RSEs at research institutions.
 For one thing, attractive working conditions are indispensable in order to employ RSE teachers, e.g. to attract qualified and experienced software engineers from the industry to the field of research software.
