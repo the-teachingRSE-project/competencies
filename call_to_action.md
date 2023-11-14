@@ -15,6 +15,7 @@ author:
   - Harald von Waldow
   - Moritz Schwarzmeier
   - Matthias Braun
+  - Dominic Kempf
 header-includes:
   - \input{preamble.sty}
 output:
