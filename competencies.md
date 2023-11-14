@@ -751,7 +751,7 @@ The current situation may differ.
     LIBS&
     Does not emphasise code reusability and sharing/distribution. &
     Puts greater focus on reusability/sharing, but likely not as part of the project aims.&
-    May want to develop reusable shareable outputs for a specific case. Needs easy resources.&
+    May want to develop reusable shareable outputs for a specific case. Needs clear guidelines.&
     Focuses on quality and best practices. Reusability/packaging driven by project needs and spec.&
     Should provide policies on reusability/sharing. May be driven by requirements/policies of the funding agency.
     \\\hline
