@@ -25,6 +25,7 @@ output:
 bibliography: bibliography.bib
 keywords:
   - research software engineering
+  - education policy
   - training
   - learning
   - competencies

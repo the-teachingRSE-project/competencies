@@ -28,6 +28,8 @@ keywords:
   - training
   - learning
   - open educational resources
+  - lifelong learning
+  - digital competence
 abstract: "
 In this publication we survey the existing RSE-training related resources and initiatives.
 "

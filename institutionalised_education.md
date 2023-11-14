@@ -25,9 +25,11 @@ output:
 bibliography: bibliography.bib
 keywords:
   - research software engineering
-  - training
-  - learning
-  - competencies
+  - curriculum design
+  - education policy
+  - lifelong learning
+  - digital competence
+  - open educational resources
 abstract: "
 Previous publications have defined the core competencies of an RSE and surveyed
 the state of existing RSE-related resources.

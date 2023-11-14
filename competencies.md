@@ -36,9 +36,11 @@ xnos-cleveref: True
 xnos-capitalise: True
 keywords:
   - research software engineering
+  - curriculum design
   - training
   - learning
   - competencies
+  - certification
 abstract: "
 The term Research Software Engineer, or RSE,
 emerged a little over 10 years ago as a way to represent
