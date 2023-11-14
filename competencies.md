@@ -45,7 +45,7 @@ emerged a little over 10 years ago as a way to represent
 individuals working in the research community but focusing on software development.
 The term has been widely adopted and there are a number of high-level definitions of what an RSE is.
 However, the roles of RSEs vary depending on the institutional context they work in.
-At the one end of the spectrum, RSE roles may look similar to a traditional research role.
+At one end of the spectrum, RSE roles may look similar to a traditional research role.
 At the other extreme, they resemble that of a software engineer in industry.
 Most RSE roles inhabit the space between these two extremes. Therefore, providing a straightforward,
 comprehensive definition of what an RSE does
@@ -305,7 +305,7 @@ Through writing research software, RSEs have a pivotal position in the process o
 Their choices might determine whether the respective research is reproducible or not,
 whether the results can be re-used, whether future research can build on existing tools or has to start from scratch.
 Builders of larger research-infrastructure projects determine to some extent the possibilities and limitations of future research
-and therefore need to be able to make a value-based judgement on topicshttps://hpc.fau.de/systems-services/documentation-instructions/nhr-application-rules/
+and therefore need to be able to make a value-based judgement on topics
 such as open science, path dependence, and vendor lock-in.
 
 
@@ -465,8 +465,6 @@ warrants a much stronger emphasis on this field of competence.
 Working in a team is all about communication and teamwork.
 For example, RSEs need to be able to explain particular implementation choices made and may even need to defend them.
 Within a team of RSEs code reviews improve knowledge transfer and increase team cohesion.
-Code review within a multi-disciplinary team fosters mutual understanding and
-can be a knowledge transfer between the RSE and domain scientists.
 The team might change on a project-to-project basis and might be comprised of colleagues with very different backgrounds
 including, for example, IT staff, domain scientists and technicians working alongside software engineers.
 The shared values come into play and each RSE needs to ensure that these values are lived by and passed on to others.
@@ -517,7 +515,7 @@ what they would like to have learnt. Among the top five things mentioned were:
   since the contributed code has to be understood by others. Interacting with
   project members depends on the TEAM skill. Today this entails the effective
   use of collaborative platforms like GitHub/GitLab, honouring a project's Code of
-  Conduct, and some knowledge of popular software licenses like e.g. GPL.
+  Conduct, and some knowledge of popular software licenses like e.g. the GPL.
 - When or why to keep repositories private. This decision requires knowledge in
   the RC, to understand when it makes sense to open up or close down a repository.
   The USERS, TEAM and sometimes SP skills are required to make this decision.
@@ -577,7 +575,7 @@ A story-like example of an individual through the hierarchies can be found in @s
 
 |         | Junior                                                                                                                        | Senior                                                                                                                                | Principal RSE(brings in funding)                                                                                                                           |
 | ------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| DOCBB   | should be able to write reusable building blocks                                                                              | same as junior, but the quality should set the standard for the project, while following current best practices                       | should know the current best practices and point its people to the right resources.                                                                        |
+| DOCBB   | should be able to write reusable building blocks                                                                              | same as junior, but the quality should set the standard for the project, while following current best practices                       | should know the current best practices and point their staff to the right resources.                                                                        |
 | LIBS    | should be able to use package distribution platforms                                                                          | same as junior, but should set the project standard and follow current best practices.                                                | should ensure that their project is in an up-to-date distribution platform                                                                                 |
 | MOD     | should have a basic grasp of their piece of the software in order to use basic tools like a debugger                          | Should understand the characteristics of large parts of the codebase considering a variety of the metrics                             | Should understand the big idea of the software project in order to define the task that the software solves                                                |
 | SWLC    | Awareness about the existence of the software life-cycle.                                                                      | Should know which decisions lead to technical debt.                                                                                   | Should know in which part of the life-cycle their project is and how to steer development/project resources accordingly.                                    |
@@ -927,7 +925,7 @@ Open Science RSEs can help researchers navigate the technical questions that com
 when practising Open Science, such as "How do I make my code presentable?",
 "What do I need to do to make my software FAIR?", or
 "How do I sustainably work with an (international) team on a large code base?".
-Like the Data-focused RSE, they have a deep understanding of RDM topics.
+Like the Data-focused RSE, they have a deep understanding of research data management (RDM) topics.
 
 #### Project/Community Manager RSEs
 
@@ -965,7 +963,7 @@ This can often serve as a base domain for RSE specialisation as in @subsec:examp
 #### Data-focused RSE
 RSEs working at the flourishing intersection between data science and RSE.
 They are skilled in cleaning data and/or running data analyses and can help researchers
-in setting up their analysis pipeline and/or research data management (RDM) solutions.
+in setting up their analysis pipeline and/or RDM solutions.
 When the field requires research on sensitive data or information, e.g. patient information in medicine,
 this RSE should have knowledge about secure transfer methods and/or ways to anonymise the data.
 As part of RDM, this RSE profile is able to support all stages of the research data life-cycle [@Nieva2020], with synchronous data management processes.
@@ -1057,7 +1055,7 @@ curricula, institutions, and teachers in this framework.
 Applications of them in an individual's career can be found in the appendix.
 An omission that we found and that we would like to highlight in order to spark a community discussion
 is that RSEs that choose explicitly a science-supporting role outside of research will not be eligible
-for funding under the statutes of a lot of funding organisations that require a PhD at minimum.
+for funding under the statutes of many funding organisations that require a PhD at minimum.
 To alleviate that and give RSEs in leadership positions a means
 to become eligible for funding themselves, we propose the introduction of a "science-enabling doctorate"
 that can be handed out on an honorary basis by certain institutions.
@@ -1235,7 +1233,7 @@ With her new responsibilities comes a shift in the importance of various aspects
 Having this position in an inter-organisational project places far more emphasis on communication and organisation skills.
 She is spending time teaching people (TEACH skill) to onboard them into the project.
 There is a lot of interaction with different stakeholders in the project like funders and user groups (USERS skill).
-To oversee the project, she uses an amalgam of both agile and traditional project-management concepts and methods which she acquires on-the-job (PM skills).
+To oversee the project, she uses an amalgamation of both agile and traditional project-management concepts and methods which she acquires on-the-job (PM skills).
 Her work so far has already been heavy on (TEAM) skills, but now also the leadership aspect comes into play.
 
 #### RSE-focused Principal Investigator
