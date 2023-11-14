@@ -147,6 +147,16 @@ authors:
     orcid: 0000-0002-3977-1385
     email: gerasimos.chourdakis@tum.de
 
+  - author: "Dominic Kempf"
+    firstName: Dominic
+    lastName: Kempf
+    affiliations:
+      - Heidelberg University, Scientific Software Center, Germany
+    orcid: 0000-0002-6140-2332
+    email: dominic.kempf@iwr.uni-heidelberg.de
+    acknowledgements: |
+      DK acknowledges support from the Scientific Software Center which is funded as part
+      of the Excellence Strategy of the German Federal and State Governments.
 
 # please use the following author template (all fields are optional):
 
