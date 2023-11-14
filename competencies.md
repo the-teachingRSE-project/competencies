@@ -533,9 +533,11 @@ what they would like to have learnt. Among the top five things mentioned were:
   knowledge of RC, USERS, and also NEW, in order to effectively interact with
   domain scientists. Today, an example is a presence on social media. The other
   TEAM-related aspect is the embedding of RSE graduates into the community of
-  RSEs. We envision our RSE graduates to be a part of a strong network of other
-  RSEs, tool-related communities and the classical domain communities. This point
-  is further elaborated in @sec:reachout.
+  RSEs, sharing the same set of values and competencies. We envision our RSE graduates to be a part of a strong network of other
+  RSEs, tool-related communities, and the classical domain communities, making them more effective at supporting research.
+  These networks are a lifelong manifestation where RSEs work to provide an inclusive environment
+  for their peers and provide opportunities for life-long learning.
+
 
 Beyond that, we feel that today other important tasks of RSEs are
 
@@ -1046,27 +1048,6 @@ They are able to communicate and collaborate with lawyers.
 social skill-set focused specialisations
 -->
 
-# Reaching out to potential RSEs {#sec:reachout}
-
-Many current RSEs have found their way to being an RSE during their doctoral studies.
-This transition usually happens slowly.
-A typical RSE development path starts off with a PhD student programming a tool that others notice and find useful.
-Soon the proto RSE is known to have programming skills and is sought after to join other projects.
-The researcher is now well on the way to becoming an RSE.
-If they enjoy this role and would like to take it further they need to know that there is an RSE career path as well as that specialised training materials exist.
-Beyond that, for an RSE it is important to be a part of a network with other RSEs, irrespective of the career level.
-A perfect first step for forming this network is topic-related conferences, workshops or meet-ups.
-Beyond that, there is the broader RSE community organised at the local and regional level with chapters or local/regional communities, at the national level with societies and the international RSE society.
-Each of them offers possibilities for connecting within or beyond an individual institution and is a great way to find like-minded people to grow a wider network and thereby facilitate the sharing of information on interesting events or help each other out.
-This available layered network can greatly benefit the RSE in finding help with issues outside of their own comfort zone
-and provides a welcoming, social safety net providing a home for the RSE. Since we feel providing aspiring RSEs with this net
-is of utmost importance we envision compulsory events introducing that to junior RSEs.
-Qualification badges are another option for RSEs to find people with the same technical interests.
-Structuring and institutionalising the education and structures for the add-on courses that are also open to others in academia,
-will be topics of a follow-up paper.
-These networks are a lifelong manifestation where RSEs work to provide an inclusive environment
-for their peers and provide opportunities for life-long learning.
-
 # Future Work {#sec:future-work}
 
 Having the competencies is a first step to finding common ground around which to structure
@@ -1084,14 +1065,17 @@ In that publication, we will detail how we organise our institutions and what qu
 need to have in order to effectively communicate our values.
 We will put forward ideas on how to build up bachelor's and master's programmes,
 of which a glimpse can already be found in this paper's appendix.
-We will show how we intend to provide the necessary continuous education for RSEs after graduation.
+We will show how we intend to provide the necessary continuous education for RSEs after graduation
+and we will connect that with the integration of RSEs into a mesh of community networks aimed at supporting research,
+while providing them with an inclusive social network that further facilitates life-long learning.
 That publication will again intentionally be free of regional specifics, to also serve
 as a blueprint that other national RSE societies can build upon.
+
 Another important building block is to provide people with online resources for use in their
 courses. This is the intention of the so-called "survey-publication".
 That survey of existing resources will not be carried out as a traditional publication, but
-it will be made available as a
-continuously-evolving online resource.
+it will be made available as a continuously-evolving online resource.
+
 And finally, we will formulate the call to action - building on the previous
 publication on the necessary institutions,
 to lay down what is required to best support the continuous need
