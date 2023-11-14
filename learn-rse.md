@@ -24,6 +24,9 @@ None are known at this point. Be the first institution to offer one!
 | M.Sc. | [Scientific Computing](https://www.uni-heidelberg.de/de/studium/alle-studienfaecher/scientific-computing/scientific-computing-master)                                                            | University of Heidelberg              | Germany | English |
 | M.Sc. | [Scientific Computing](https://www.scientific-computing.uni-bayreuth.de/en/index.html)                                                                                                           | University of Bayreuth                | Germany | English |
 | M.Sc. | [Scientific Computing](https://www.tu.berlin/studieren/studienangebot/gesamtes-studienangebot/studiengang/scientific-computing-m-sc)                                                             | TU Berlin                             | Germany | English |
+| B.Sc. | [Simulation Technology](https://www.uni-stuttgart.de/studium/bachelor/simulation-technology-b.sc./)                                                                                              | University of Stuttgart               | Germany | German  |
+| M.Sc. | [Simulation Technology](https://www.uni-stuttgart.de/studium/studienangebot/Simulation-Technology-M.Sc./)                                                                                        | University of Stuttgart               | Germany | German  |
+
 
 ## Curricula on High-Performance Computing
 
@@ -37,6 +40,7 @@ None are known at this point. Be the first institution to offer one!
 | Level | Name            | University | Country | Language |
 | ---   | --------------- | ---------- | ------- | -------- |
 | B.Sc. | [Data Science and Scientific Computing](https://www.cs.hm.edu/studienangebote/studiengaenge/id_data_science/index.de.html)                                                                       | Munich University of Applied Sciences | Germany | German  |
+| M.Sc. | [Data Engineering and Analytics](https://www.tum.de/en/studies/degree-programs/detail/data-engineering-and-analytics-master-of-science-msc)                                                      | Technical University of Munich        | Germany | English |
 | M.Sc. | [High-Performance Computing with Data Science](https://www.epcc.ed.ac.uk/education-and-training/masters-programmes)                                                                              | University of Edinburgh               | UK      | English |
 
 ## Other initiatives
