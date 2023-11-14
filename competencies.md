@@ -850,7 +850,7 @@ The current situation may differ.
     Applies practices, workflows, and policies established in the RSE team.&
     As per individual (local) developer.&
     As per individual (RSE Team).&
-    Should raise awareness about software as publishable scientific output, provide recommendations and checklists to support software-publications, and have legal experts in place to deal with complex cases.
+    Should raise awareness about software as a publishable scientific output, provide recommendations and checklists to support software publications, and have legal experts in place to offer advice on complex cases.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     DOMREP&
