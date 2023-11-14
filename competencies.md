@@ -147,6 +147,9 @@ to use all the skills highlighted to the same level of expertise.
 Therefore, @sec:how-much-to-know examines how much a person
 needs to know depending on their education or career level
 or on the type of projects they would like to be involved with.
+In the same section, we provide an overview of what skills and limitations
+an RSE in different team structures typically has, and we give
+recommendations for organizations that need to support RSEs.
 @sec:rse-specialisations provides a list of RSE specialisations
 and discusses the level of skill needed to work in each of them,
 before we conclude the paper with details of future work in @sec:future-work
