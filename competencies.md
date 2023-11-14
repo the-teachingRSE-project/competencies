@@ -1068,15 +1068,14 @@ of which a glimpse can already be found in this paper's appendix.
 We will show how we intend to provide the necessary continuous education for RSEs after graduation
 and we will connect that with the integration of RSEs into a mesh of community networks aimed at supporting research,
 while providing them with an inclusive social network that further facilitates life-long learning.
-
-
 That publication will again intentionally be free of regional specifics, to also serve
 as a blueprint that other national RSE societies can build upon.
+
 Another important building block is to provide people with online resources for use in their
 courses. This is the intention of the so-called "survey-publication".
 That survey of existing resources will not be carried out as a traditional publication, but
-it will be made available as a
-continuously-evolving online resource.
+it will be made available as a continuously-evolving online resource.
+
 And finally, we will formulate the call to action - building on the previous
 publication on the necessary institutions,
 to lay down what is required to best support the continuous need
