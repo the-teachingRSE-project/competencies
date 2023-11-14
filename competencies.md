@@ -53,7 +53,7 @@ and what experience, skills and competencies are required to become one is chall
 In this paper we define the broad notion of what an RSE is, explore the different types of work they undertake, and
 define a list of fundamental competencies as well as values that define the general profile of an RSE.
 On this basis, we elaborate on the progression of these skills along different
-dimensions, looking at specific types of RSE roles and giving examples of future specialisations.
+dimensions, looking at specific types of RSE roles, proposing recommendations for organisations, and giving examples of future specialisations.
 An Appendix details how existing curricula fit into this framework.
 "
 ---
@@ -149,7 +149,7 @@ needs to know depending on their education or career level
 or on the type of projects they would like to be involved with.
 In the same section, we provide an overview of what skills and limitations
 an RSE in different team structures typically has, and we give
-recommendations for organizations that need to support RSEs.
+recommendations for organisations that need to support RSEs.
 @sec:rse-specialisations provides a list of RSE specialisations
 and discusses the level of skill needed to work in each of them,
 before we conclude the paper with details of future work in @sec:future-work
