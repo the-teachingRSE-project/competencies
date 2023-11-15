@@ -66,7 +66,7 @@ Computers and software have played a key role in the research life-cycle for man
 decades, while they are now vital elements of the research process across almost all domains.
 They enable researchers to collect and process ever-increasing amounts of data,
 simulate a wide range of physical phenomena across previously unexplored scales of the universe,
-and discover previously inconceivably complex structures in nature and societies via Machine Learning.
+and discover previously inconceivably complex structures in nature and societies via machine learning.
 This prevalence of computations in research means that basic
 software skills are now required by researchers at all
 career levels, and in fields significantly beyond the previously expected.
@@ -97,7 +97,7 @@ allowing for better training of researchers and more effective support for the d
 quality research software.
 There is still a long way to go, but positive change is well underway.
 
-RSEs may work within one of the increasing number of Research Software Engineering teams that
+RSEs may work within one of the increasing number of research software engineering teams that
 have been set up at universities and research
 organisations over the past decade, or they may be embedded within a research
 team. They may have a job title that officially recognises them as an RSE, or
@@ -139,7 +139,7 @@ We start with a non-exhaustive overview of existing initiatives in @sec:related-
 provide the guiding principles for the work of an RSE.
 @sec:required-generic-skills defines a set of core skills based on these values.
 The skills themselves fall into three categories, namely
-"software engineering", "research", and "communication skills",
+"software engineering", "research", and "communication" skills,
 reflecting the hybrid nature of an RSE.
 To justify the selection of these skills,
 we also list some current tasks
@@ -156,9 +156,9 @@ recommendations for organisations that need to support RSEs.
 and discusses the level of skill needed to work in each of them,
 before we conclude the paper with details of future work in @sec:future-work
 and conclusions in @sec:conclusion.
-Finally, the [appendix](#appendix) provides an [example curriculum](#an-example-master-s-programme-for-research-software-engineering),
-an example [career path](#an-example-of-a-possible-career-path) for an RSE through the hierarchy,
-and a list of existing skills and certifications in related fields, such as [bioinformatics](#bioinformatics-skills-and-certification).
+Finally, @sec:appendix provides an example curriculum in @subsec:examplemaster,
+a story like description of a fictional RSE career progression in @subsec:examplecareer,
+and a list of existing skills and certifications in related fields, in @subsec:existingframeworks.
 
 ## Terminology
 
@@ -170,13 +170,13 @@ Therefore, to avoid ambiguities, we define these as follows:
 and all other artefacts that are created by humans during the development process
 that are necessary to understand its purpose.
 
-**Research Software**: Foundational algorithms, the software itself,
+**Research software**: Foundational algorithms, the software itself,
 as well as scripts and computational workflows that were created
 during the research process or for a research purpose, across all domains of research.
 This definition is broader than in @FAIR4RS and is the outcome of a recent
 discussion in @Gruenpeter2021.
 
-**Research Software Engineers**: People who
+**Research software engineers**: People who
 create or improve research software and/or the structures that the software interacts with
 in the computational ecosystem of a research domain.
 They are highly skilled team members who may also choose to conduct their own research as
@@ -257,7 +257,7 @@ the Helmholtz Federated IT Services platform (HIFIS) [@HIFIS], and the already m
 
 The activities of an RSE are guided by ethical values.
 In addition to the values for good scientific practice [@dfg_gsp], RSEs also adhere to
-the Software Engineering Code of Ethics [@Gotterbarn1999].
+the software engineering Code of Ethics [@Gotterbarn1999].
 Central to that code is the RSE's obligation to
 commit to the health, safety and welfare of the public and act in the interest of society, their employer and their clients.
 Further values loosely based on that code include the obligations
@@ -318,7 +318,7 @@ such as open science, path dependence, and vendor lock-in.
 
 RSEs often operate at the cutting edge of technological development
 and therefore might have to deal with technologies of which the dangers and drawbacks are still poorly understood.
-A current example is the rush for the application of Large Language Models (LLMs),
+A current example is the rush for the application of large language models (LLMs),
 where RSEs working in these fields should stay up-to-date and be able to help researchers assess topics
 such as training-data bias, LLM "hallucinations" or malicious use, with the greater goal of
 making these powerful tools work for the welfare of society.
@@ -461,7 +461,7 @@ They are embedded in a research group or work within a team of RSEs supporting p
 RSEs often need to interact with and facilitate communication among colleagues, clients and contractors
 with a very broad spectrum of background-knowledge, specialisation, expectations, and experience.
 Communication skills are therefore crucially important.
-Team skills are also mentioned in common guides for software engineering such as the Software Engineering Body of Knowledge [@swebok_2014].
+Team skills are also mentioned in common guides for software engineering such as the software engineering body of knowledge [@swebok_2014].
 However, the interpersonal and organisational skills and the capacity for adaption required to work in a research setting
 warrants a much stronger emphasis on this field of competence.
 
@@ -519,14 +519,14 @@ what they would like to have learnt. Among the top five things mentioned were:
   SWREPOS, SRU, SP in order to understand the ramifications of sharing, and DOCBB,
   since the contributed code has to be understood by others. Interacting with
   project members depends on the TEAM skill. Today this entails the effective
-  use of collaborative platforms like GitHub/GitLab, honouring a project's Code of
-  Conduct, and some knowledge of popular software licences like e.g. the GPL.
+  use of collaborative platforms like GitHub/GitLab, honouring a project's code of
+  conduct, and some knowledge of popular software licences like e.g. the GPL.
 - When or why to keep repositories private. This decision requires knowledge in
   the RC, to understand when it makes sense to open up or close down a repository.
   The USERS, TEAM and sometimes SP skills are required to make this decision.
   Furthermore, knowledge of the practices and contractual regulations of the
   RSE's institution are also required.
-- Proper Development. This broad topic requires all the SE skills. Of course,
+- Proper development. This broad topic requires all the SE skills. Of course,
   these are the competencies that are the most fluid since they have to adapt at
   a high rate to technological advancements. Additionally, proper SE skills
   often require knowledge of TEAM, and PM. Today this means effective use of IDEs,
@@ -913,9 +913,9 @@ The current situation may differ.
       with researchers they are potentially developing code for.&
     Must have strong team skills and knowledge
       to support team-based software development.&
-    Must be able to work and collaborate effectively in a team,
+    Must be able to work and collaborate effectively in an interdisciplinary team,
       use required tools and processes, infrastructure, etc.&
-    Should offer support with team work. Should facilitate team-building initiatives,
+    Should offer support with team work and promote interdisciplinary interaction. Should facilitate team-building initiatives,
     also on a social level.
     \\\hline
 \end{longtable}
@@ -926,9 +926,9 @@ to and handled by researchers and RSEs working in different environments within
 an organisation and how the organisations themselves can contribute.
 We recognise that this is a challenging area to gain a detailed view of
 and that our content in the table is still a significant generalisation.
-We talk about the "Research Software Engineer" as a single entity but as the field expands,
+We talk about the "research software engineer" as a single entity but as the field expands,
 we expect to see more roles and job titles emerging around the RSE concept,
-many of which fit under the wider umbrella of Research Technology Professionals (RTPs).
+many of which fit under the wider umbrella of research technology professionals (RTPs).
 Examples are different RSE-like computational roles of
 the European Bioinformatics Institute (EMBL-EBI)'s BioExcel competency framework [@BIOEXCEL] (also @subsec:emblbio),
 as is a range of different roles from King's Digital Lab at King's College London [@KDL].
@@ -946,9 +946,9 @@ while other RSEs might expand their skill set and profession to areas, that are 
 ## Specialisations within the core RSE competencies
 
 #### OpenScience RSE
-Open Science and FAIRness of Data and Software are increasingly important topics in research,
+Open science and FAIRness of data and software are increasingly important topics in research,
 as exemplified by the demand of an increasing amount of research funding agencies requiring openness.
-Hence, an Open Science RSE is required to have a deeper knowledge in (RC) and how to distribute software publicly (SRU, SP).
+Hence, an open science RSE is required to have a deeper knowledge in (RC) and how to distribute software publicly (SRU, SP).
 Open Science RSEs can help researchers navigate the technical questions that come up
 when practising Open Science, such as "How do I make my code presentable?",
 "What do I need to do to make my software FAIR?", or
@@ -1085,8 +1085,10 @@ An omission that we found and that we would like to highlight in order to spark 
 is that RSEs that choose explicitly a science-supporting role outside of research will not be eligible
 for funding under the statutes of many funding organisations that require a PhD at minimum.
 To alleviate that and give RSEs in leadership positions a means
-to become eligible for funding themselves, we propose the introduction of a "science-enabling doctorate"
-that can be handed out on an honorary basis by certain institutions.
+to become eligible for funding themselves, since completion of scientific training is often a requirement [@DFG_50_01],
+we propose the introduction of certificates that can be handed out by selected institutions.
+Examples of this could be doctorates based on software contributions to the scientific community, or new
+certificates like the certificate in @subsec:examplecareer that should become widely accepted.
 Beyond having that discussion, a diverse set of publications is already in the making.
 Next, we will work on how to institutionalise education.
 In that publication, we will detail how we organise our institutions and what qualifications our teachers
@@ -1121,7 +1123,7 @@ In this publication, we have tried to formalise these concepts.
 We have formulated a set of values that guide our actions in society,
 manifestly making RSEs part of the scientific community that shares the ideals of good scientific practice.
 At the same time,
-being Software Engineers, we cherish that we have to take responsibility for our tools.
+being software engineers, we cherish that we have to take responsibility for our tools.
 We continue with core competencies that have been intentionally formulated
 abstractly without referencing any particular information-processing device.
 As expected, we draw equally upon notions from software engineering and research,
@@ -1165,20 +1167,20 @@ and attend these additional modules to deepen their knowledge in the field.
 
 Core modules are of course drawn from the three pillars of the RSE and can be categorised accordingly.
 
-- Software Engineering Skills:
-  - Foundational Module: Here we have an introduction to programming: Students learn at least two languages: a language that facilitates prototyping and data processing (e.g., Python or R) and a language for designing complex, performance-critical systems (e.g., C/C++). This exposes them to computers in a hands-on fashion and is the foundation for (DOCBB, LIBS).
-  - Digital Ecosystem Module: Programming languages are not enough to work in a digital ecosystem, hence we require something like Software Craftsmanship, where tools like the Unix Shell, version control systems, Build Systems, Documentation generators, Package distribution platforms, and Software Discovery systems are taught to strengthen skills in (LIBS, DOCBB, SWREPOS, SRU).
-  - Software Architecture Module: Here we teach Software Design and Software Engineering, again strengthening (DOCBB, LIBS) on a more abstract level.
+- Software engineering skills:
+  - Foundational module: Here we have an introduction to programming: Students learn at least two languages: a language that facilitates prototyping and data processing (e.g., Python or R) and a language for designing complex, performance-critical systems (e.g., C/C++). This exposes them to computers in a hands-on fashion and is the foundation for (DOCBB, LIBS).
+  - Digital ecosystem module: Programming languages are not enough to work in a digital ecosystem, hence we require something like software craftsmanship, where tools like the Unix shell, version control systems, build systems, documentation generators, package distribution platforms, and software discovery systems are taught to strengthen skills in (LIBS, DOCBB, SWREPOS, SRU).
+  - Software architecture module: Here we teach software design and software engineering, again strengthening (DOCBB, LIBS) on a more abstract level.
 
-- Research Skills:
-  - Optional Domain Mastery Module: Additional minor research courses, but students with a home-domain already have the research part well-covered.
-  - Research Tools Module: Here we teach tools used to distribute and publish software, as well as introducing students to domain specific data repositories. Thereby gaining foundational knowledge in (SRU, SP, DOMREP).
-  - Meta-Research Module: Here we teach people how research works. The research life cycle is introduced, as well as the data life cycle and the software life cycle are abstractly introduced.
+- Research skills:
+  - Optional domain mastery module: Additional minor research courses, but students with a home-domain already have the research part well-covered.
+  - Research tools module: Here we teach tools used to distribute and publish software, as well as introducing students to domain specific data repositories. Thereby gaining foundational knowledge in (SRU, SP, DOMREP).
+  - Meta-research module: Here we teach people how research works. The research life cycle is introduced, as well as the data life cycle and the software life cycle are abstractly introduced.
 
-- Communication Skills:
-  - Project Management Methods: Here we teach project management methods that are useful in science, such as agile ones(PM).
-  - Communication Skills Module: Here we have courses focusing on interdisciplinary communication, interacting across cultures, communication in hierarchies, supporting end users effectively. These are all facets of the (USERS) skill.
-  - Teaching Module: This module covers topics to effectively design courses and teaching material for the various digital tools, thereby strengthening the (TEACH) skill.
+- Communication skills:
+  - Project management methods: Here we teach project management methods that are useful in science, such as agile ones (PM).
+  - Communication skills module: Here we have courses focusing on interdisciplinary communication, interacting across cultures, communication in hierarchies, supporting end users effectively. These are all facets of the (USERS) skill.
+  - Teaching module: This module covers topics to effectively design courses and teaching material for the various digital tools, thereby strengthening the (TEACH) skill.
 
 Given that RSE work also involves a lot of craftsmanship skills,
 hands-on practice is an integral part of the curriculum.
@@ -1233,7 +1235,7 @@ which makes her happier than the subdued sense of achievement from having a rese
 For her, coding and sharing knowledge in the form of software is of similar importance to writing a paper focused mostly on the obtained results.
 
 The domain-agnostic RSE Master programme consists of a core of RSE topics with various electives for specialisation, some of them domain-specific (e.g., chemistry) or topic-specific (e.g., cloud computing for research).
-Kay chooses digital archaeology and develops a pipeline for reconstructing 3D models from ground penetrating radar data, to simplify the process for archaeologists (Reproducibility, Big Data, Machine Learning).
+Kay chooses digital archaeology and develops a pipeline for reconstructing 3D models from ground penetrating radar data, to simplify the process for archaeologists (reproducibility, big data, machine learning).
 The project management skills that are being taught as part of the core RSE curriculum really help her to not get lost in this project.
 Apart from working with the researchers in her archaeology group,
 she has to work with members of the central RSE department to help her with the pipelines.
@@ -1276,7 +1278,7 @@ as well as her capability to enable, foster and contribute to high-quality resea
 It is recognised by various funding agencies, such as the DFG, and hence enables RSEs to act as a Principal Investigator for RSE-focused grant applications. It is also recognised by many prestigious universities and opens many career options that are also typical for PhDs.
 Kay can now write her own grant proposals to effectively fund work of moving research software projects from prototypes to infrastructure.
 
-## Existing frameworks
+## Existing frameworks {#subsec:existingframeworks}
 
 ### HPC skills and certification
 
@@ -1291,7 +1293,7 @@ in collaboration with initiatives funded by the European High Performance Comput
 Joint Undertaking (EuroHPC JU) to create a framework for HPC certification [@EuroHPCJU2023].
 While this framework focuses mostly on skills specific to HPC, there are a couple of similarities
 to the framework proposed in this paper. The "SD: Software Development" skill set
-is very similar to the Software Engineering skills discussed in @sec:required-generic-skills,
+is very similar to the software engineering skills discussed in @sec:required-generic-skills,
 describing a wide range of such skills.
 This skill set contains
 Programming Best Practices (SD2), Software Configuration Management (SD3), Software Quality (SD5),
@@ -1345,7 +1347,7 @@ PhD programs, and certificates from graduate schools.
 
 BioExcel has research competencies that combine some of our research competencies and some notions from the communication skills.
 Their computing competencies roughly map to our software skills.
-Here, we find competencies such as "Package and distribute Software", which maps to our (LIBS) competencies,
+Here, we find competencies such as "package and distribute software", which maps to our (LIBS) competencies,
 and "comply with licensing policy", which would in our framework be part of (SP) in the research competencies.
 In addition, they have a dedicated parallel computing competency section,
 thereby shifting the emphasis of the knowledge of their computational tools towards the HPC-RSE specialisation in our framework.
