@@ -158,6 +158,14 @@ authors:
       DK acknowledges support from the Scientific Software Center which is funded as part
       of the Excellence Strategy of the German Federal and State Governments.
 
+  - author: "Anna-Lena Lamprecht"
+    firstName: Anna-Lena
+    lastName: Lamprecht
+    affiliations:
+      - University of Potsdam
+    orcid: 0000-0003-1953-5606
+    email: anna-lena.lamprecht@uni-potsdam.de
+
 # please use the following author template (all fields are optional):
 
 #  - author: "F. D. C. Willard, Jr."
