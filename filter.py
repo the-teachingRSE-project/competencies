@@ -39,7 +39,7 @@ def process_markdown(metadata, body, contributors):
     authors = []
     authors_xmp = []
     affiliations = {}
-    acknowledgements = ["# Acknowledgements {#sec:acknowledgements}"]
+    acknowledgements = ["# Acknowledgements {- #sec:acknowledgements}"]
     # parse metadata
     for key in metadata["author"]:
         author_metadata = contributors[key]
