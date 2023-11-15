@@ -915,7 +915,7 @@ The current situation may differ.
       to support team-based software development.&
     Must be able to work and collaborate effectively in a team,
       use required tools and processes, infrastructure, etc.&
-    Should offer support with team work. Should facilitate team-building initiatives,
+    Should offer support with team work and promote interdisciplinary interaction. Should facilitate team-building initiatives,
     also on a social level.
     \\\hline
 \end{longtable}
