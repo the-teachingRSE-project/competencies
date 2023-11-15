@@ -156,9 +156,9 @@ recommendations for organisations that need to support RSEs.
 and discusses the level of skill needed to work in each of them,
 before we conclude the paper with details of future work in @sec:future-work
 and conclusions in @sec:conclusion.
-Finally, the [appendix](#appendix) provides an [example curriculum](#an-example-master-s-programme-for-research-software-engineering),
-an example [career path](#an-example-of-a-possible-career-path) for an RSE through the hierarchy,
-and a list of existing skills and certifications in related fields, such as [bioinformatics](#bioinformatics-skills-and-certification).
+Finally, @sec:appendix provides an example curriculum in @subsec:examplemaster,
+a story like description of a fictional RSE career progression in @subsec:examplecareer,
+and a list of existing skills and certifications in related fields, in @subsec:existingframeworks.
 
 ## Terminology
 
@@ -1276,7 +1276,7 @@ as well as her capability to enable, foster and contribute to high-quality resea
 It is recognised by various funding agencies, such as the DFG, and hence enables RSEs to act as a Principal Investigator for RSE-focused grant applications. It is also recognised by many prestigious universities and opens many career options that are also typical for PhDs.
 Kay can now write her own grant proposals to effectively fund work of moving research software projects from prototypes to infrastructure.
 
-## Existing frameworks
+## Existing frameworks {#subsec:existingframeworks}
 
 ### HPC skills and certification
 
