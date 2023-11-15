@@ -1327,10 +1327,10 @@ These frameworks eventually converged into the EMBL-EBI Competency Hub
 [@CompetencyHub; @Lloret-Llinares2022],
 where typical RSE and bioinformatician profiles at different levels
 of seniority can be queried
-(e.g. [Junior RSE](https://competency.ebi.ac.uk/framework/bioexcel/3.0/profile/view/10115/alex-2),
-[Senior Computational Chemist](https://competency.ebi.ac.uk/framework/bioexcel/3.0/profile/view/10121/kim-0))
+(e.g. Junior RSE[^JuniorRSE], 
+Senior Computational Chemist[^SeniorCC])
 and compared against one another
-(e.g. [Junior vs. Senior RSE](https://competency.ebi.ac.uk/framework/bioexcel/3.0/profiles/compare/10115/10117)).
+(e.g. Junior vs. Senior RSE[^Comp]).
 
 Competencies can be divided into more fine-grained building blocks:
 knowledge, skills and abilities (KSAs). They can be organised in a taxonomy,
@@ -1354,3 +1354,7 @@ thereby shifting the emphasis of the knowledge of their computational tools towa
 Career profiles, such as the computational chemist, bring additional domain specific knowledge;
 we would classify those as a mixture of DOMAIN-RSE and HPC-RSE.
 It is noteworthy, however, that the BioExcel framework puts very little emphasis on communication skills, which are often involved in RSE-related tasks.
+
+[^JuniorRSE]: [https://competency.ebi.ac.uk/framework/bioexcel/3.0/profile/view/10115/alex-2](https://competency.ebi.ac.uk/framework/bioexcel/3.0/profile/view/10115/alex-2)
+[^SeniorCC]: [https://competency.ebi.ac.uk/framework/bioexcel/3.0/profile/view/10121/kim-0](https://competency.ebi.ac.uk/framework/bioexcel/3.0/profile/view/10121/kim-0)
+[^Comp]: [https://competency.ebi.ac.uk/framework/bioexcel/3.0/profiles/compare/10115/10117](https://competency.ebi.ac.uk/framework/bioexcel/3.0/profiles/compare/10115/10117)
