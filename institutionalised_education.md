@@ -389,6 +389,8 @@ remaining Plan:
 
 FIXME: The career path discussion.
 
+\appendix
+
 # Appendix
 
 ## An applied example curriculum

@@ -39,7 +39,7 @@ def process_markdown(metadata, body, contributors):
     authors = []
     authors_xmp = []
     affiliations = {}
-    acknowledgements = []
+    acknowledgements = ["# Acknowledgements {#sec:acknowledgements}"]
     # parse metadata
     for key in metadata["author"]:
         author_metadata = contributors[key]
@@ -62,10 +62,16 @@ def process_markdown(metadata, body, contributors):
     markdown.append("---")
     markdown.append(yaml.dump(metadata, allow_unicode=True))
     markdown.append("---")
-    markdown.append(body)
-    markdown.append("## Acknowledgements")
-    markdown += acknowledgements
-    markdown += [f"{v}: {k}" for k, v in affiliations.items()]
+    token_appendix = "\n\\appendix\n"
+    if token_appendix in body:
+        body = body.replace(token_appendix, "\n\n" + "\n".join(acknowledgements) + "\n\n" + token_appendix, 1)
+        markdown.append(body)
+    else:
+        markdown.append(body)
+        markdown.append("")
+        markdown.extend(acknowledgements)
+    markdown.append("")
+    markdown.extend([f"{v}: {k}" for k, v in affiliations.items()])
     return "\n".join(markdown)
 
 

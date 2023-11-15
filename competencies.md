@@ -1143,6 +1143,8 @@ a direction determined by new incentives created by scientific journals and libr
 How we update existing institutions and set up new ones
 that provide this education will be the topic of a follow-up paper.
 
+\appendix
+
 # Appendix {#sec:appendix}
 
 ## An Example Master's Programme for Research Software Engineering {#subsec:examplemaster}

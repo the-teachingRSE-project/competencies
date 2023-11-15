@@ -298,6 +298,8 @@ FIXME:
 - OER certification proposal in Austria [@Schon2023]
 - databases: see Appendix section [Directories of resources]
 
+\appendix
+
 # Appendix
 ## Sources for RSE-related training material
 
