@@ -913,7 +913,7 @@ The current situation may differ.
       with researchers they are potentially developing code for.&
     Must have strong team skills and knowledge
       to support team-based software development.&
-    Must be able to work and collaborate effectively in a team,
+    Must be able to work and collaborate effectively in an interdisciplinary team,
       use required tools and processes, infrastructure, etc.&
     Should offer support with team work and promote interdisciplinary interaction. Should facilitate team-building initiatives,
     also on a social level.
