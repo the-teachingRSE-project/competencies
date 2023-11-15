@@ -35,7 +35,7 @@ DigComp
 DigCompEdu
 DigCompOrg
 DigiFlex
-digitalization
+digitalisation
 DigitalSkillsGap
 distributable
 DMP
