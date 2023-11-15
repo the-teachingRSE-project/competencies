@@ -39,22 +39,22 @@ detail what needs to be done specifically in Germany.
 "
 ---
 
-## Required Next steps
-### Implementation Strategies
+# Required Next steps
+## Implementation Strategies
 - Ideally over time scientific software engineering becomes part of the curricula at universities.
 
-#### Academic Considerations
+### Academic Considerations
 - Awareness of existing teaching programs
 - "Branded" Add-on courses
 - External Institutions provide resources
 - fully recognised in the academic system. Students get ECTS points.
 - Bachelor/Master specialisations
 
-#### Broader Considerations
+### Broader Considerations
 - Instilling more respect for people that want to educate themselves for digital competencies
 - Outreach to people that now have the feeling that they require this training.
 
-## Conclusion
+# Conclusion
 We have identified the RSE as an individual that contributes to research teams with their knowledge about digital tools.
 Then we have defined generic core competencies from the pillars of Software Engineering, Research and Team processes.
 We fleshed them out with some possible specialisations of RSEs.

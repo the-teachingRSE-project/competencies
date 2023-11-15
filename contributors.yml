@@ -4,7 +4,7 @@ authors:
     lastName: Seibold
     firstName: Heidi
     affiliations:
-    - IGDORE Munich
+    - IGDORE Munich, Germany
     orcid: 0000-0002-8960-9642
     email: heidi@seibold.co
 
@@ -23,7 +23,7 @@ authors:
     firstName: Jan
     lastName: Linxweiler
     affiliations:
-      - Technische Universität Braunschweig
+      - Technische Universität Braunschweig, Germany
     orcid: 0000-0002-2755-5087
     email: j.linxweiler@tu-braunschweig.de
 
@@ -44,13 +44,13 @@ authors:
     email: jeremy.cohen@imperial.ac.uk
     acknowledgements: |
       JC acknowledges support from the UK Engineering and Physical Sciences
-      Research Council (UKI-EPSRC) under grants EP/R025460/1 and EP/W035731/1.
+      Research Council (UKRI-EPSRC) under grants EP/R025460/1 and EP/W035731/1.
 
   - author: "Renato Alves"
     firstName: Renato
     lastName: Alves
     affiliations:
-      - European Molecular Biology Laboratory
+      - European Molecular Biology Laboratory, Heidelberg, Germany
     orcid: 0000-0002-7212-0234
     email: renato.alves@embl.de
 
@@ -82,7 +82,7 @@ authors:
     firstName: Fredo
     lastName: Erxleben
     affiliations:
-      - Helmholtz-Zentrum Dresden-Rossendorf
+      - Helmholtz-Zentrum Dresden-Rossendorf, Germany
     orcid: 0000-0001-7233-3005
     email: f.erxleben@hzdr.de
 
@@ -90,7 +90,7 @@ authors:
     firstName: Magnus
     lastName: Hagdorn
     affiliations:
-      - Charité Universitätsmedizin Berlin
+      - Charité Universitätsmedizin Berlin, Germany
     orcid: 0000-0002-5076-4864
     email: magnus.hagdorn@charite.de
 
@@ -135,7 +135,7 @@ authors:
     firstName: Simon
     lastName: Christ
     affiliations:
-      - Leibniz University Hannover, Department of Cell Biology and Biophysics, Computational Biology
+      - Leibniz University Hannover, Department of Cell Biology and Biophysics, Computational Biology, Germany
     orcid: 0000-0002-5866-1472
     email: christ@cell.uni-hannover.de
   
@@ -143,7 +143,7 @@ authors:
     firstName: Gerasimos
     lastName: Chourdakis
     affiliations:
-      - Technical University of Munich, School of Computation, Information and Technology
+      - School of Computation, Information and Technology, Technical University of Munich, Garching, Germany
     orcid: 0000-0002-3977-1385
     email: gerasimos.chourdakis@tum.de
 
