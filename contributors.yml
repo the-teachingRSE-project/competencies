@@ -4,7 +4,7 @@ authors:
     lastName: Seibold
     firstName: Heidi
     affiliations:
-    - IGDORE Munich
+    - IGDORE Munich, Germany
     orcid: 0000-0002-8960-9642
     email: heidi@seibold.co
 
@@ -23,7 +23,7 @@ authors:
     firstName: Jan
     lastName: Linxweiler
     affiliations:
-      - Technische Universität Braunschweig
+      - Technische Universität Braunschweig, Germany
     orcid: 0000-0002-2755-5087
     email: j.linxweiler@tu-braunschweig.de
 
@@ -50,7 +50,7 @@ authors:
     firstName: Renato
     lastName: Alves
     affiliations:
-      - European Molecular Biology Laboratory
+      - European Molecular Biology Laboratory, Heidelberg, Germany
     orcid: 0000-0002-7212-0234
     email: renato.alves@embl.de
 
