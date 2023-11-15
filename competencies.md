@@ -17,6 +17,7 @@ author:
   - Matthias Braun
   - Simon Christ
   - Gerasimos Chourdakis
+  - Anna-Lena Lamprecht
 output:
   pdf_document:
     citation_package: biblatex
