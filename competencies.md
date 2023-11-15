@@ -698,7 +698,7 @@ of developers is based locally within a research team or department,
 or when they are based in a dedicated, centralised RSE team.
 We also look at organisational aspects in the context of each of the considered
 competencies, since there are a variety of ways that organisations can contribute
-to and support them, complementing those proposed by @Katerbow2018. Some of them are brought to life in the example career path of @subsec:examplemaster in the appendix.
+to and support them, complementing those proposed by @Katerbow2018. Some of them are brought to life in the example career path of @subsec:examplemaster.
 We first summarise the meaning of each of the columns in the tables:
 
 - **Competency:** The code assigned to the competency being considered, as defined in @sec:required-generic-skills.
@@ -1080,7 +1080,7 @@ social skill-set focused specialisations
 
 Having the competencies is a first step to finding common ground around which to structure
 curricula, institutions, and teachers in this framework.
-Applications of them in an individual's career can be found in the appendix.
+Applications of them in an individual's career can be found in @subsec:examplemaster.
 An omission that we found and that we would like to highlight in order to spark a community discussion
 is that RSEs that choose explicitly a science-supporting role outside of research will not be eligible
 for funding under the statutes of many funding organisations that require a PhD at minimum.
@@ -1142,6 +1142,8 @@ interest in fostering RSE training to support the use of FAIR data and FAIR soft
 a direction determined by new incentives created by scientific journals and librarians.
 How we update existing institutions and set up new ones
 that provide this education will be the topic of a follow-up paper.
+
+\appendix
 
 # Appendix {#sec:appendix}
 
