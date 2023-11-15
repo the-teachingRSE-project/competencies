@@ -55,7 +55,7 @@ and what experience, skills and competencies are required to become one is chall
 In this paper we define the broad notion of what an RSE is, explore the different types of work they undertake, and
 define a list of fundamental competencies as well as values that define the general profile of an RSE.
 On this basis, we elaborate on the progression of these skills along different
-dimensions, looking at specific types of RSE roles and giving examples of future specialisations.
+dimensions, looking at specific types of RSE roles, proposing recommendations for organisations, and giving examples of future specialisations.
 An Appendix details how existing curricula fit into this framework.
 "
 ---
@@ -149,6 +149,9 @@ to use all the skills highlighted to the same level of expertise.
 Therefore, @sec:how-much-to-know examines how much a person
 needs to know depending on their education or career level
 or on the type of projects they would like to be involved with.
+In the same section, we provide an overview of what skills and limitations
+an RSE in different team structures typically has, and we give
+recommendations for organisations that need to support RSEs.
 @sec:rse-specialisations provides a list of RSE specialisations
 and discusses the level of skill needed to work in each of them,
 before we conclude the paper with details of future work in @sec:future-work
@@ -564,35 +567,47 @@ depending on their circumstances. A strong beneficiary of specialised RSEs can a
 
 At different career levels, differing skills are required. We have set this up according to the following separation often applied within a single project:
 
-- Junior RSE: These are persons who have just started, but generally speaking they should have the skills to contribute to software projects.
+- Junior RSE: These are people who are in the earlier stages of their RSE career journey, but they should still have the skills to contribute reliable and well-structured code to software projects.
 - Senior RSE: They have gained experience and can set the standards in a software project.
 - Principal RSE: Their actual job description varies a lot. These may be RSE team leaders based in a professional services type role, or they may be professors or research group leaders based in a more academic-focused role. They are often the people responsible for bringing in the funding that supports new projects and sustains existing projects. Generally speaking, they do not need to be actively involved in the day-to-day technical tasks but they should be able to guide projects from both a technical and a research perspective while providing an inclusive working space.
 
-The following table elaborates on the required facets of the competencies in different roles.
+@tbl:comp-lvls-se, @tbl:comp-lvls-res, and @tbl:comp-lvls-comm elaborate on the required facets of the competencies in different roles.
 A story-like example of an individual through the hierarchies can be found in @subsec:examplecareer .
 
 \blandscape
 \small
 \renewcommand*{\arraystretch}{1.4}
 
-|         | Junior                                                                                                                        | Senior                                                                                                                                | Principal RSE(brings in funding)                                                                                                                           |
-| ------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| DOCBB   | should be able to write reusable building blocks                                                                              | same as junior, but the quality should set the standard for the project, while following current best practices                       | should know the current best practices and point their staff to the right resources.                                                                        |
-| LIBS    | should be able to use package distribution platforms                                                                          | same as junior, but should set the project standard and follow current best practices.                                                | should ensure that their project is in an up-to-date distribution platform                                                                                 |
-| MOD     | should have a basic grasp of their piece of the software in order to use basic tools like a debugger                          | Should understand the characteristics of large parts of the codebase considering a variety of the metrics                             | Should understand the big idea of the software project in order to define the task that the software solves                                                |
-| SWLC    | Awareness about the existence of the software life-cycle.                                                                      | Should know which decisions lead to technical debt.                                                                                   | Should know in which part of the life-cycle their project is and how to steer development/project resources accordingly.                                    |
-| SWREPOS | Seamless interaction with the swrepo of their project is a must                                                               | Should be well-versed in the intricacies of a swrepo, and probably interact with multiple projects' repos                             | Should be able to effectively interact with swrepos and especially the interaction with the connecting projects.                                           |
-| NEW     | Some curiosity required to fit into research teams                                                                            | same as junior, but a curiosity to enhance the code base is required                                                                  | Curiosity to know in which direction to steer the project is required                                                                                      |
-| RC      | Awareness about the RC                                                                                                        | should know the position of the project in the RC                                                                                     | Should know what is necessary for the project to fit into its position in the RC                                                                           |
-| SRU     | Should be aware about tools for SRU                                                                                           | Should be able to find sth. with SRU tools                                                                                            | Should be able to effectively find sth. with SRU tools and be able to evaluate and perform the integration of a library into the project.                  |
-| SP      | Should be aware that SP needs to consider issues of intellectual property                                                     | Should be able to correctly publish software in simple cases and be able to identify cases where professional legal advice is needed. | Same as Senior plus the ability to take the future publication of software into account when initiating and guiding larger software collaboration projects |
-| DOMREP  | The RSE should be able to interact with the domain repository                                                                 | same as junior RSE                                                                                                                    | same as junior, and should know about how it fits into workflows surrounding these domain repositories                                                     |
-| USERS   | The RSE should be able to communicate with non-SE users of the project                                                        | same as junior                                                                                                                        | same as junior, and take feedback into account of the steering                                                                                             |
-| TEACH   | should be able to perform simple peer-to-peer on-boarding tasks                                                                | should be able to explain logical components to other RSEs                                                                            | Should be able to effectively communicate about all large-scale parts of the project.                                                                      |
-| PM      | Awareness about the employed project management method                                                                      | Should be able to use the employed PM method                                                                                          | Should be able to design and adapt the employed PM method.                                                                                                 |
-| TEAM    | Should be able to work in the team in order to effectively fulfil the given tasks. Should be able to learn from code review. | Should be able to break down tasks into more easily digestible sub-tasks                                                              | Should be able to lead the team and set the respective direction.                                                                                          |
+| Competency | Junior RSE                                                                                                                    | Senior RSE                                                                                                                            | Principal RSE                                                                                                                                                                       |
+| ---        | ----------                                                                                                                    | ----------                                                                                                                            | ----------                                                                                                                                                                          |
+| DOCBB      | Should be able to write reusable building blocks.                                                                             | Same as junior, but the quality should set the standard for the project, while following current best practices.                      | Should know the current best practices and point their staff to the right resources.                                                                                                |
+| LIBS       | Should be able to use package distribution platforms.                                                                         | Same as junior, but should also be familiar with current best practices for building and deploying packages.                          | Should ensure that their project is available via an up-to-date and secure distribution platform.                                                                                   |
+| SWLC       | Should be aware of the software life-cycle.                                                                                   | Should know where in the life-cycle their project is and which decisions are likely to lead to technical debt.                        | Should know how to manage and steer development/project resources accordingly. Should also have an understanding of the potential consequences of key project management decisions. |
+| SWREPOS    | Should seamlessly interact with the repository of their project.                                                              | Should be well-versed in the intricacies of a repository, and probably interact with repositories of multiple projects.               | Should promote the use of repositories and be able to convey best practices to junior and senior RSEs.                                                                              |
+| MOD        | Should have a basic grasp of their piece of the software in order to use basic tools such as a debugger.                      | Should understand the characteristics of large parts of the codebase considering a variety of the metrics.                            | Should understand the big idea of the software project in order to define the task that the software solves.                                                                        |
 
-Table: Levels of competency expected for different RSE career stages. {#tbl:comp-lvls}
+Table: Levels of software eng. skills expected per RSE career stage. {#tbl:comp-lvls-se}
+
+\newpage
+
+| Competency | Junior RSE                                                                                                                    | Senior RSE                                                                                                                            | Principal RSE                                                                                                                                                                       |
+| ---        | ----------                                                                                                                    | ----------                                                                                                                            | ----------                                                                                                                                                                          |
+| NEW        | Should have some curiosity to fit into research teams.                                                                        | Same as junior, but a curiosity to enhance the code base is required.                                                                 | Should have curiosity to know in which direction to steer the project.                                                                                                              |
+| RC         | Should be aware of the research life-cycle.                                                                                   | Should know the position of the project in the research life-cycle.                                                                   | Should know what is necessary for the project to fit into its position in the research life-cycle.                                                                                  |
+| SRU        | Should be aware of software reusability tools.                                                                                | Should be able to search with software reusability tools.                                                                             | Should be able to effectively search with SRU tools and to evaluate and perform the integration of a library into the project.                                                      |
+| SP         | Should be aware that software publication needs to consider issues of intellectual property.                                  | Should be able to correctly publish software in simple cases and to identify cases where professional legal advice is needed.         | Same as senior, plus the ability to take the future publication of software into account when initiating and guiding larger software collaboration projects.                        |
+| DOMREP     | The RSE should be able to interact with the domain repository.                                                                | Same as junior RSE.                                                                                                                   | Same as junior, and should know about how it fits into workflows surrounding these domain repositories.                                                                             |
+
+Table: Levels of research skills expected per RSE career stage. {#tbl:comp-lvls-res}
+
+| Competency | Junior RSE                                                                                                                    | Senior RSE                                                                                                                            | Principal RSE                                                                                                                                                                       |
+| ---        | ----------                                                                                                                    | ----------                                                                                                                            | ----------                                                                                                                                                                          |
+| TEAM       | Should be able to work in the team in order to effectively fulfil the given tasks. Should be able to learn from code review.  | Should be able to break down tasks into more easily digestible sub-tasks.                                                             | Should be able to lead the team and set the respective direction.                                                                                                                   |
+| TEACH      | Should be able to perform simple peer-to-peer on-boarding tasks.                                                              | Should be able to explain logical components and the general architecture to other RSEs.                                              | Should be able to effectively communicate about all high-level parts of the project.                                                                                                |
+| PM         | Should be aware of the employed project management method.                                                                    | Should be able to use and adapt the employed PM method.                                                                               | Should be able to design and adapt the employed PM method.                                                                                                                          |
+| USERS      | Should be able to communicate with non-SE users of the project.                                                               | Same as junior RSE, and be able to interpret the feedback.                                                                            | Same as senior, and should also be able to effectively take feedback into account when steering the project.                                                                        |
+
+Table: Levels of communication skills expected per RSE career stage. {#tbl:comp-lvls-comm}
 
 \elandscape
 
@@ -675,163 +690,167 @@ They need to manage and lead their research group (PM, TEAM).
 
 ## Project team structures
 
-In this table, we look at individual or team competencies and approaches to them,
+In @tbl:teams-se, @tbl:teams-res, and @tbl:teams-comm, we look at individual or team competencies and approaches to them,
 considering how these differ depending on whether an RSE or researcher is working alone on a software project,
 or whether they are working as part of a team of research software developers.
 We extend this to consider how things differ when a developer or a group
 of developers is based locally within a research team or department,
-or when they are based in a dedicated RSE team.
+or when they are based in a dedicated, centralised RSE team.
 We also look at organisational aspects in the context of each of the considered
 competencies, since there are a variety of ways that organisations can contribute
-to and support them. Some of them are brought to life in the example career path of the appendix.
-We first summarise the meaning of each of the columns in the table:
+to and support them, complementing those proposed by @Katerbow2018. Some of them are brought to life in the example career path of @subsec:examplemaster in the appendix.
+We first summarise the meaning of each of the columns in the tables:
 
-- **Competency:** The code assigned to the competency being considered.
-  See the list in @tbl:comp-lvls.
+- **Competency:** The code assigned to the competency being considered, as defined in @sec:required-generic-skills.
 - **Individual developer (Locally-based):** A single person working on some
-  research software - often a researcher with RSE skills.
+  research software - often a researcher with RSE skills. Often time-constrained,
+      may be self-taught.
 - **Individual developer (RSE team-based):** A single person working on research
-  software - generally a professional RSE supporting another team's software on its own,
+  software - generally a professional RSE assigned to support another team's software on their own,
   who however is connected to an RSE team.
 - **Group of developers (Locally-based):** A group of RSEs/researchers within
   a research group or team, working together on developing software to support
   or undertake a single research goal/project.
+  Similarly to the individual RSE, they are often researchers with RSE skills,
+  often self-taught.
 - **Group of developers (RSE team-based):** A group of members of the RSE team
   working together on a research software project for a research group.
 - **Organisation-level support:** How the defined competencies are recognised
-  and represented at an organisational level.
+  and represented at an organisational level and what the organisation can
+  do to support the RSEs in the context of the different team structures.
+  These can be read as policy/action recommendations.
+
+These tables take the perspective of the expected skill set of each developer or team
+of developers, similarly to personas in a user experience analysis.
+The current situation may differ.
 
 \blandscape
 \small
 \renewcommand*{\arraystretch}{1.4}
 \begin{longtable}{|p{1.8cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{4.5cm}|}
+    \caption{Levels of software eng. skills expected per team structure.}\label{tbl:teams-se}\\
     \hline
     \multirow{2}{*}{Competency} & \multicolumn{2}{c|}{Working as an individual developer}
     & \multicolumn{2}{c|}{Working with a group of developers} & \multirow{2}{*}{Organisation-level support} \\
     \cline{2-5}
-              & locally-based & RSE-Team based & locally-based & RSE-Team based &\\\hline
+              & Locally-based & RSE-Team based & Locally-based & RSE-Team based &\\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     DOCBB &
-    Focus on getting outputs to support research. Often time-constrained,
-      may be self-taught, less awareness/familiarity with code quality and
-      structure. Simple Best Practice documents can be sufficient&
-    Likely greater focus on reusability, documentation, and knowledge of best practices
-      but potential lack of domain scientist support.&
-    More opportunity to discuss and share ideas but team members may be
-      self-taught and less aware of key practices. &
-    Stronger ingrained focus on team-based project management and development
-      methodologies resulting in higher quality, more reusable code.&
-    Will offer training and other resources in core topics to support self-taught/embedded developers.
+    Focuses on getting outputs to support research. Is not very familiar with code quality and
+      structure. Follows basic best practice guides.&
+    Puts greater focus on reusability, documentation, and knowledge of best practices,
+      but potentially lacks domain knowledge.&
+    Has more opportunities to discuss and share ideas, but team members may be
+      less aware of key practices. &
+    Has stronger ingrained focus on team-based PM and development
+      methodologies, resulting in higher quality, more reusable code.&
+    Should offer training and other resources in core topics to support individual developers.
       Should have research software guidance/policies that provide advice.\\
     \hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     LIBS&
-    Reusability and sharing/distribution of code often not a focus or considered relevant. &
-    Greater trained focus on reusability/sharing but likely not part of the project aims.&
-    May be looking to develop reusable shareable outputs but likely case-by-case basis. Need easy resources.&
-    Focus on quality and practices, reusability/packaging driven by project needs and spec.&
-    Should provide policies on sharing and reuse of software. May be driven by requirements/policies of the funding agency.
+    Does not emphasise code reusability and sharing/distribution. &
+    Puts greater focus on reusability/sharing, but likely not as part of the project aims.&
+    May want to develop reusable shareable outputs for a specific case. Needs clear guidelines.&
+    Focuses on quality and best practices. Reusability/packaging driven by project needs and spec.&
+    Should provide policies on reusability/sharing. May be driven by requirements/policies of the funding agency.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     SWLC&
-    It's down to you to manage the complete life-cycle, if you move on,
-      what will happen to the code?&
-    More support with a team but do they have awareness/expertise
-      of managing the life-cycle? What is the "bus factor"?&
-    Even when working alone, team infrastructure and tooling can be vital
-      in supporting the life-cycle and supporting sustainability.&
-    As previous but with a large codebase, how many people know about each part?
+    Manages the complete life-cycle, bus factor equal to 1.&
+    The team supports parts of the software life-cycle, but with low bus factor.&
+    The team infrastructure and tooling supports the life-cycle and sustainability.&
+    The bus factor may still be low in parts of the code.
       Need to think about coherent life-cycle management across the team - generally
-      a key part of RSE team expertise.&
-    Support for training important. Organisation may also provide site
-      licences for e.g. management tools.
+      a key area of expertise for an RSE team.&
+    Should support with training. Organisation may also provide site
+      licences for, e.g. management tools.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     SWREPOS&
-    Where open source, use of repositories important for code management
-      and demonstrating outputs - e.g. supporting academic credit.
-      May not have awareness/skills if self-taught.&
-    As previous but professional RSEs generally very experienced
+    Uses repositories for code management and demonstrating outputs,
+    e.g. for supporting academic credit, but may be missing skills.&
+    As locally-based, but professional RSEs are generally very experienced
       with use of repositories and their many features.&
-    Repos are a vital aspect of modern team-based development.
-      Short courses can facilitate effective use.&
-    Repos used extensively by RSE teams - often the base for project
+    Uses repositories to collaborate inside the team.
+      Can benefit from short courses on effective use.&
+    Uses repositories extensively for project
       management, issue tracking, etc. in addition to code itself.
       May train others.&
-    Organisations can offer enterprise repository set ups,
+    Should offer enterprise repository set ups,
       site licences etc. Also fund either internal or external training
       for this vital research software development tooling.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     MOD&
-    Needs full awareness of entire codebase to support extension/maintenance.
-      May not need/get additional experience or support.
-      If project taken on from another individual developer,
-      there may be challenges in transferring this mental model of the software.&
-    As local but greater awareness of need for future transition to other
-      developer(s), likely provide e.g. docs/issues/project board and other
+    Needs full awareness of entire codebase to extend/maintain.
+      If project taken on from another developer,
+      there may be challenges in transferring the mental model.&
+    As local, but more aware of need for future transition to other
+      developer(s), likely provides docs, issues, and other
       support from central services to support this. May only need to know
-      part of code.&
-    Internal team training important to ensure ability to build necessary
-      mental model of codebase and to document it via text or tools to support
+      parts of the code.&
+    Internal team training ensures ability to build necessary
+      mental model of codebase and to document it via text or tools for
       sustainability.&
-    As local team but likely stronger awareness of tooling and practices
-      in place within RSE team to support this. Distributing work makes it only necessary
+    As local team, but likely more aware of tooling and practices
+      in place within RSE team. Distributing work makes it only necessary
       for each developer to understand code related to their assigned tasks.&
-    Training and experience are key here and organisations can help
-      to coordinate and provide support for training and mentoring/community activities.
+    Should provide training and retain experience via
+      coordinating and provide support for mentoring/community activities.
       Establishing RSE departments with specialists for certain aspects of software
       will improve overall turnaround times.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{longtable}
+
+\begin{longtable}{|p{1.8cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{4.5cm}|}
+    \caption{Levels of research skills expected per team structure.}\label{tbl:teams-res}\\
+    \hline
+    \multirow{2}{*}{Competency} & \multicolumn{2}{c|}{Working as an individual developer}
+    & \multicolumn{2}{c|}{Working with a group of developers} & \multirow{2}{*}{Organisation-level support} \\
+    \cline{2-5}
+              & Locally-based & RSE-Team based & Locally-based & RSE-Team based &\\\hline
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     NEW&
-    An individual's curiosity has now to be shared between the research
-      goal and the software project, therefore learning new methods and
-      skills may be challenging and is often not the core aim.&
-    RSE teams should support their team members, especially when working
-      individually on a project, to explore new tools and approaches,
-      make relevant contacts and learn more about the research in the project domain.&
-    Likely to be an area of interest for an embedded development team
-      but if they are researchers, they definitely have curiosity in their domain.
-      A curiosity for tools would be appreciated.&
+    Struggles to learn new methods and skills due to split curiosity
+      between research goal and software project.&
+    Gets support from the RSE team to explore new methods and skills,
+      make relevant contacts and learn more about the domain.&
+    Has increased interest in learning new methods and skills,
+      but still prioritises domain research.&
     As per Individual (RSE team).&
-    Organisations should reach out to relevant groups locally to help share
-      information on new technical processes and tooling, and facilitate training.
+    Should reach out to relevant local groups to facilitate training
+      and sharing of know-how on new technical processes and tooling.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     RC&
-    This is likely to be familiar to individuals, who are often researchers,
-      especially if they are embedded within a research team.&
-    Many RSEs will have familiarity with the research life-cycle,
-      although they may not have domain knowledge. This can be alleviated by interacting with a group&
-    Likely to be familiar to software teams (often researchers) working
-      in a research group. Can share knowledge among themselves or reach
-      out to colleagues.&
-    Teams of RSEs from an RSE group are likely to include one or more
-      team members with strong awareness of the research life-cycle.&
-    Research organisations have extensive infrastructure to manage
-      the research life-cycle, this can support researchers/RSEs.
+    Is familiar with the research life-cycle in their domain,
+      especially when embedded in a research team.&
+    Is familiar with the RC,
+      although they may not have domain knowledge, which a group can provide.&
+    Is familiar with the RC and can share knowledge within the team.&
+    One or more members of the team are strongly aware of the
+      RC.&
+    Should provide extensive infrastructure to manage
+      the research life-cycle, supporting researchers/RSEs.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     SRU&
-    Need to know how to find other work to build awareness of existing
-      solutions. Researchers sometimes like to do things themselves.
-      Working individually means there may not be someone to highlight this.&
-    RSE team members will generally be familiar with software sharing
-      and discovery tools and platforms.&
-    As per individual (Local) but being part of a team can help to address this.&
+    Has limited awareness of existing solutions and limited support in this regard.&
+    Is familiar with software sharing and can discover tools and platforms.&
+    As per individual (local), but being part of a team can help to address this.&
     As per individual (RSE Team).&
-    Can choose to run local environments to host software or catalogue software,
-      they can also provide institution-level access to platforms that support this.
+    Should run local environments to host software, catalogue software,
+      and/or provide institution-level access to platforms that support this.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     SP&
-    Responsibility may be with an individual but they may not have necessary knowledge/skills.&
-    This is a core area that RSE teams need to be aware of.
-    An RSE team might have established practices, workflows and policies at hand to routinely publish software.&
-    As with individual (local) developer.&
-    As with individual (RSE Team).&
-    The organisation should raise awareness about software as publishable scientific output, provide recommendations and checklists to support software-publications and have legal experts in place to deal with complex cases.
+    Has limited knowledge and motivation regarding software publication.&
+    Applies practices, workflows, and policies established in the RSE team.&
+    As per individual (local) developer.&
+    As per individual (RSE Team).&
+    Should raise awareness about software as a publishable scientific output, provide recommendations and checklists to support software publications, and have legal experts in place to offer advice on complex cases.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     DOMREP&
@@ -839,57 +858,64 @@ We first summarise the meaning of each of the columns in the table:
       with the domain-specific solutions.&
     RSEs may need guidance from domain researchers around domain-specific
       repositories if they have a background in a different domain.&
-    As per individual (Local).&
-    As per individual (RSE Team)&
-    May host domain-specific repositories for areas that they work
-      extensively in but this is likely to be handled at a research group level.
+    As per individual (local).&
+    As per individual (RSE Team).&
+    Should host domain-specific repositories for areas that the organisation works
+      extensively in, but this is likely to be handled at a research group level.
     \\\hline
+  \end{longtable}
+
+\newpage
+
+\begin{longtable}{|p{1.8cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{4.5cm}|}
+    \caption{Levels of communication skills expected per team structure.}\label{tbl:teams-comm}\\
+    \hline
+    \multirow{2}{*}{Competency} & \multicolumn{2}{c|}{Working as an individual developer}
+    & \multicolumn{2}{c|}{Working with a group of developers} & \multirow{2}{*}{Organisation-level support} \\
+    \cline{2-5}
+              & Locally-based & RSE-Team based & Locally-based & RSE-Team based &\\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     USERS&
-    Is the software developed to support external users?
-      If so, additional technical skills may be required,
-      especially if future sustainability is an aim.&
-    Is there a plan for external use? RSEs generally have the skills
-      to support this or can access assistance via team colleagues.&
-    If a team of embedded researchers/developers are involved in a larger
-      project, there's more chance that there's a case for external use.
-      Do they have the skills and resources to support this?&
-    A team of RSEs can generally better prepare code for external users
-      (e.g. by applying development best practices) and provide infrastructure
-      or specialised RSEs for dealing with user support. &
+    May have additional skills to safeguard potential future development
+      and maintenance of the software for external users. Resourcing for future maintenance may be a challenge.&
+    Has additional skills or can access support to safeguard potential
+      future development and maintenance of the software for external users.&
+    Needs to safeguard future development and maintenance of the software for
+      external users, but may not have the skills or resources to support this.&
+    Applies best practices to prepare the code for external users,
+      while the team provides infrastructure and/or specialised RSEs for user support. &
     Should have institutions that are able to offer support with outreach and publicising outputs.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     TEACH&
     May be independently involved in training activities.&
     May be able to support researchers with core technical skills.&
-    Sharing knowledge and skills within their group - peer support.&
-    Often support teaching more widely, either through organised courses
-      or ad hoc activities such as "code clinics".&
-    Should have programs for a diverse range of teaching/training activities.
+    Shares knowledge and skills within the group (peer support).&
+    Supports teaching more widely, either through organised courses
+      or ad hoc activities such as ``code clinics''.&
+    Should have programs for a diverse range of teaching/training activities,
+      such as an RSE curriculum, as described in~\autoref{subsec:examplemaster}.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     PM&
-    Limited requirement beyond being well organised - can be important
-      if someone else might take over codebase.&
-    Limited requirement but team will likely have standard PM approaches
-      to be followed.&
-    Challenging for groups of local researchers/developers on larger projects.
-      May not have awareness/experience of key skills, but this can be alleviated with some low-key courses.&
-    Likely have well structured approaches and tooling to support this.&
-    Can offer training to support management of projects.
+    Is organised enough to be able to transfer the codebase to future developers.&
+    Follows the project management approach set by the team, or can suggest such PM approaches.&
+    Has additional PM challenges, but may not have awareness of or experience with key PM skills,
+      which can acquire with low-key courses.&
+    Team provides well-structured approaches and tooling to support management of projects.&
+    Should offer training to support management of projects.
       May offer organisation-level tooling.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     TEAM&
     N/A&
-    Will need to work effectively with their home RSE team, as well as,
-      potentially with researchers they are developing code for.&
-    Effective teamwork vital - do they have the skills and knowledge
-      to support team-based software development?&
-    Will need to be able to work and collaborate effectively in a team,
+    Must be able to work effectively with their home RSE team, as well as
+      with researchers they are potentially developing code for.&
+    Must have strong team skills and knowledge
+      to support team-based software development.&
+    Must be able to work and collaborate effectively in a team,
       use required tools and processes, infrastructure, etc.&
-    Can offer support with team work. Should support team-building initiatives
+    Should offer support with team work. Should facilitate team-building initiatives,
     also on a social level.
     \\\hline
 \end{longtable}
@@ -1101,7 +1127,8 @@ abstractly without referencing any particular information-processing device.
 As expected, we draw equally upon notions from software engineering and research,
 but find that we likewise require teamwork capabilities.
 We continue with detailing these competencies in various dimensions and find that
-a different amount is required in different positions and scientific domains.
+a different amount is required in different positions and scientific domains,
+while proposing recommendations for organisations to foster the development of these competencies.
 Nevertheless, they are required and hence the values and competencies form a common denominator
 that unifies RSEs and enables them to identify with this domain that will become critically
 important for many areas of science.
