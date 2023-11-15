@@ -137,6 +137,7 @@ RSE's
 rse-specialisations
 RTPs
 scipy
+SeniorCC
 SRU
 SSI
 sth
