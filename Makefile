@@ -32,6 +32,9 @@ all: $(objects)
 	    -V hyperrefoptions=pdfa \
 	    -V colorlinks=true \
 	    -V papersize=a4 \
+	    -M mainfont="Linux Libertine O" \
+	    -M sansfont="Linux Biolinum O" \
+	    -M monofont="Linux Libertine Mono O" \
 	    -o "build/${@:.pdf=}.tex" \
 	    "build/$<"
 	latexmk \
