@@ -83,7 +83,7 @@ in this regard. This situation is exemplified by the extracurricular MIT class
 "The Missing Semester of Your CS Education" [@MIT], which aims to convey computing
 ecosystem literacy even to students of Computer Science at MIT.
 
-Researchers investing increasing amounts of their time developing their software engineering
+Researchers investing increasing amounts of their time developing their software engineering (SE)
 skills to support their research work can find themselves with little time to do the research
 itself.
 This, in turn, presents career development challenges since the experience required to gain
