@@ -185,7 +185,7 @@ However, we also recognise that many RSEs have chosen specifically to focus on a
 role as an alternative to a traditional research role because they enjoy and wish to focus
 on the development of research software.
 
-# Related Work {#sec:related-work}
+# Related work {#sec:related-work}
 
 Various initiatives are working to support technical professionals develop their computational skills.
 Particularly related to this work are initiatives that aim to define sets of such skills
@@ -276,7 +276,7 @@ This situation yields a specific set of challenges RSEs should be aware of
 to consciously make ethically sound judgement calls.
 We list some example areas that highlight present-day challenges.
 
-## Current Challenges
+## Current challenges
 
 ### Handling of data and personal data
 
@@ -304,7 +304,7 @@ This imbalance is even more pronounced in software engineering with a majority o
 Thereby, to promote their values of an honest, open, and inclusive research space, they should be aware of
 the diversity problem and help to mediate it whenever they have the chance to do so.
 
-### Shaping Digital Science
+### Shaping digital science
 
 Through writing research software, RSEs have a pivotal position in the process of scientific production.
 Their choices might determine whether the respective research is reproducible or not,
@@ -323,7 +323,7 @@ where RSEs working in these fields should stay up-to-date and be able to help re
 such as training-data bias, LLM "hallucinations" or malicious use, with the greater goal of
 making these powerful tools work for the welfare of society.
 
-# Required Generic RSE skills {#sec:required-generic-skills}
+# Required generic RSE skills {#sec:required-generic-skills}
 
 The role of an RSE lies somewhere on the spectrum between that of a researcher
 (the "R") and a software engineer (the "SE") and, therefore, requires
@@ -345,7 +345,7 @@ and competencies also depends on the size of the RSE team
 (**Project team size**). Finally, different sets of skills are emphasised in
 the different RSE specialisations (**RSE specialisations**).
 
-## Software Engineering Skills
+## Software engineering skills
 
 There are many software engineering curricula out there, that try to define
 which tasks a software engineer should be able to perform. A recent example
@@ -394,7 +394,7 @@ and be able to predict and cater to the changing needs of software as it moves t
 The RSE should be able to identify and use fitting public platforms (so-called software repositories or repos) to share the artefacts they have
 created and invite the public to scrutinise them for public review.
 
-### Software Behaviour Awareness and Analysis (MOD)
+### Software behaviour awareness and analysis (MOD)
 
 We define this as a certain quality of analytical thinking that enables an RSE to
 form a mental model of a piece of software in a specific environment.
@@ -405,7 +405,7 @@ An important facet of this capability relates to information security.
 RSEs need to consider the safety and integrity of personal data and other sensitive information
 and make sure that they do not negatively impact the integrity of their institution's network.
 
-## The research skills
+## Research skills
 
 ### Curiosity (NEW)
 
@@ -454,7 +454,7 @@ aware of any domain specific software repositories, data sets and catalogues.
 The RSE also needs to be aware of how their software can interact with the existing
 domain-specific data repositories.
 
-## Communication Skills
+## Communication skills
 
 RSEs do not work in isolation.
 They are embedded in a research group or work within a team of RSEs supporting particular research projects.
@@ -483,7 +483,7 @@ for example from The Carpentries [@Carpentries], or entire lecture series.
 RSEs may also act as mentors and consultants.
 Code review also includes aspects of the teaching skill.
 
-### Project Management (PM)
+### Project management (PM)
 
 The RSE should have knowledge about project management. At some institutes, it follows the practices of the local research groups,
 but it is useful if an RSE knows its place in a PM scheme, or can bring in new ideas for improvement.
@@ -503,7 +503,7 @@ but at the same time to be able to convey their knowledge and experience to expe
 of other fields or persons at different hierarchy levels in a way they can understand more easily.
 These conditions pose specific challenges for requirements analysis, project management, training and support.
 
-## RSE Tasks and Responsibilities
+## RSE tasks and responsibilities
 
 These skills, while already numerous are also generic on purpose. They span a
 multidimensional space in which the day-to-day tasks and responsibilities of an
@@ -563,7 +563,7 @@ Beyond that, we feel that today other important tasks of RSEs are
 Now that we have the different competencies, we can explore various dimensions of these competencies,
 depending on their circumstances. A strong beneficiary of specialised RSEs can also be newly formed RSE centres at research institutions.
 
-## Career Level
+## Career level
 
 At different career levels, differing skills are required. We have set this up according to the following separation often applied within a single project:
 
@@ -638,7 +638,7 @@ the described levels serve as a baseline
 and certain fields will require higher SE skill levels
 as development is a large part of their actual research.
 
-#### Bachelor's Level
+#### Bachelor's level
 
 Students at the undergraduate level mostly consume science/knowledge.
 During their studies, they should also learn about the existence of digital tools and structures.
@@ -649,7 +649,7 @@ They should have an awareness of software licenses and whom to ask regarding lic
 They will be taught about the research cycle (RC) and that researchers often work in groups (TEAM).
 During practicals, they will have an opportunity for peer learning (TEACH).
 
-#### Master's Level
+#### Master's level
 
 A student at a master's level can participate in science and should therefore be able to use "some" digital structures.
 A master's student needs to be aware of relevant tools and data sets for their domain, where to find them and how to use them (LIBS, SWREPOS, DOMREP).
@@ -698,7 +698,7 @@ of developers is based locally within a research team or department,
 or when they are based in a dedicated, centralised RSE team.
 We also look at organisational aspects in the context of each of the considered
 competencies, since there are a variety of ways that organisations can contribute
-to and support them, complementing those proposed by @Katerbow2018. Some of them are brought to life in the example career path of @subsec:examplemaster in the appendix.
+to and support them, complementing those proposed by @Katerbow2018. Some of them are brought to life in the example career path of @subsec:examplemaster.
 We first summarise the meaning of each of the columns in the tables:
 
 - **Competency:** The code assigned to the competency being considered, as defined in @sec:required-generic-skills.
@@ -955,7 +955,7 @@ when practising Open Science, such as "How do I make my code presentable?",
 "How do I sustainably work with an (international) team on a large code base?".
 Like the Data-focused RSE, they have a deep understanding of research data management (RDM) topics.
 
-#### Project/Community Manager RSEs
+#### Project/community manager RSEs
 
 When research software projects become larger, they need someone who manages
 processes and people. This gap can be filled by people who invest in the (PM), (USERS), and (TEAM) skills, as exemplified in @subsec:examplecareer.
@@ -970,7 +970,7 @@ They need to have a good understanding of all RSE competencies relevant to their
 additionally should have experience or training in the educational field.
 
 
-#### User Interface/User Experience Designers for Research Software
+#### User interface/user experience designers for research software
 Scientific software is a complex product that often needs to be refined in order to be usable even by other scientists.
 To facilitate this, there are people required that specialise in the (DOCBB) and probably the (LIBS) competency
 with a focus on making end-user facing software really reusable and hence FAIR.
@@ -1003,7 +1003,7 @@ storage, and preservation of data, and publication and sharing of data in reposi
 New areas of expertise
 -->
 
-#### Research Infrastructure RSE
+#### Research infrastructure RSE
 This RSE is interested in SysOps and system administration and sets up IT infrastructures for and with researchers.
 Therefore, this specialisation on the one hand requires a deep knowledge of physical computer and network hardware and
 on the other hand knowledge about setup and configuration of particular server software, like
@@ -1017,7 +1017,7 @@ needs to be spent on maintenance to ensure that software remains useful or even 
 With regard to which additional competency is required,
 these are people having experience with software stacks that are not part of the general curricula any more (e.g., COBOL or Fortran).
 
-#### High Performance Computing (HPC) - RSE
+#### High performance computing (HPC) - RSE
 
 RSEs with a focus on High Performance Computing (HPC) have specialist knowledge
 about programming models that can be used to efficiently undertake large-scale
@@ -1046,14 +1046,14 @@ and can assist domain scientists who have excellent command of scripting languag
 but only a cursory understanding of compiled languages get up to speed with
 compiled software.-->
 
-#### Machine Learning(ML) - RSE
+#### Machine learning (ML) - RSE
 The development of research software based on machine learning (ML) requires specialised theoretical background and experienced handling of appropriate software in order to produce meaningful results.
 This involves knowledge about data analysis and feature engineering, metrics that are involved in ML, ML algorithm selection and cross validation, and knowledge in mathematical optimisation methods and statistics.
 ML-RSEs analyse and check the suitability of an algorithm if it fulfils the needs of a certain task and they play a main role in deciding and selecting machine learning libraries for a given task.
 The increasing usage of ML in numerous scientific areas with social impact involves an emphasised awareness and consideration of possible manipulative or discriminatory influences.
 At the intersection of data science [@SSIDataScience] and Data-focused RSEs, the complex way of solving problems utilising machine learning calls for this separate specialisation.
 
-#### Web-Development RSE
+#### Web-development RSE
 This RSE is skilled in web applications, front- and/or backend, and/or building
 and using APIs, for example for research data portals or big research projects.
 Ideally, this RSE should also have knowledge about (web) accessibility to allow a broad
@@ -1076,11 +1076,11 @@ They are able to communicate and collaborate with lawyers.
 social skill-set focused specialisations
 -->
 
-# Future Work {#sec:future-work}
+# Future work {#sec:future-work}
 
 Having the competencies is a first step to finding common ground around which to structure
 curricula, institutions, and teachers in this framework.
-Applications of them in an individual's career can be found in the appendix.
+Applications of them in an individual's career can be found in @subsec:examplemaster.
 An omission that we found and that we would like to highlight in order to spark a community discussion
 is that RSEs that choose explicitly a science-supporting role outside of research will not be eligible
 for funding under the statutes of many funding organisations that require a PhD at minimum.
@@ -1143,9 +1143,11 @@ a direction determined by new incentives created by scientific journals and libr
 How we update existing institutions and set up new ones
 that provide this education will be the topic of a follow-up paper.
 
+\appendix
+
 # Appendix {#sec:appendix}
 
-## An Example Master's Programme for Research Software Engineering {#subsec:examplemaster}
+## An example master's programme for research software engineering {#subsec:examplemaster}
 
 The target audience for such a master's programme would be students holding a bachelor's degree from
 a domain science, which we will call "home domain" in the following. There is explicitly
@@ -1210,7 +1212,7 @@ Meet Kay, Kim's younger sister [@Anzt2021] who currently studies researchology i
 We will follow Kay’s fictional career to illustrate how education, job-experience and a career in academic institutions could lead to become a successful RSE.
 In Kay’s world, some of the measures proposed in this paper have already been implemented.
 
-#### Bachelor's Degree
+#### Bachelor's degree
 
 Through a program like Software Carpentry [@CarpentriesSoftware] or The Missing Semester [@Athalye2023],
 Kay learns about using computational tools to support the sophisticated statistical analysis typical for researchology.
@@ -1218,7 +1220,7 @@ She uses those tools to create and automate the steps of processing data and pro
 (generating plots with matplotlib and even CI for automatic building)
 and takes pride in a fully open and reproducible bachelor's thesis enabling her to graduate with honours from the faculty of researchonomy.
 
-#### Master's Degree
+#### Master's degree
 
 Kay ponders whether to continue with computational researchology, which her bachelor's supervisor is responsible for,
 or enrol in a domain-agnostic RSE master's programme.
@@ -1264,7 +1266,7 @@ There is a lot of interaction with different stakeholders in the project like fu
 To oversee the project, she uses an amalgamation of both agile and traditional project-management concepts and methods which she acquires on-the-job (PM skills).
 Her work so far has already been heavy on (TEAM) skills, but now also the leadership aspect comes into play.
 
-#### RSE-focused Principal Investigator
+#### RSE-focused principal investigator
 
 The job experience as a leading RSE for a large project was the last requirement necessary to be awarded the title of a "Certified Research Software Professional" (CRSP) 
 from an institutionalised centre of RSE education.
@@ -1274,7 +1276,7 @@ as well as her capability to enable, foster and contribute to high-quality resea
 It is recognised by various funding agencies, such as the DFG, and hence enables RSEs to act as a Principal Investigator for RSE-focused grant applications. It is also recognised by many prestigious universities and opens many career options that are also typical for PhDs.
 Kay can now write her own grant proposals to effectively fund work of moving research software projects from prototypes to infrastructure.
 
-## Existing Frameworks
+## Existing frameworks
 
 ### HPC skills and certification
 

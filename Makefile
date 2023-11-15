@@ -3,10 +3,8 @@
 MAKE_PDFA := true
 
 ifeq ($(MAKE_PDFA),true)
-  template_opts=--with-pdfx
   xelatex_opts=-shell-escape
 else
-  template_opts=
   xelatex_opts=
 endif
 
@@ -28,6 +26,7 @@ all: $(objects)
 	    --biblatex \
 	    --toc \
 	    --template="build/template.tex" \
+	    -M pdfa-$(MAKE_PDFA)=1 \
 	    -M date="`date "+%B %e, %Y"`" \
 	    -M datexmp="`date "+%F"`" \
 	    -V hyperrefoptions=pdfa \
@@ -47,7 +46,7 @@ all: $(objects)
 build/template.tex: template.py
 	@mkdir -p build
 	pandoc --print-default-template=latex > "${@}"
-	python3 "${<}" $(template_opts) "${@}"
+	python3 "${<}" "${@}"
 
 clean:
 	rm -f $(objects)

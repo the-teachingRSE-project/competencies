@@ -7,7 +7,6 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument("file", type=str, help="pandoc template file")
-parser.add_argument("--with-pdfx", action="store_true", help="use pdfx")
 args = parser.parse_args()
 
 def substitute(content, old_text, new_text):
@@ -19,9 +18,9 @@ with open(args.file) as f:
     content = f.read()
 
 # generate XMP data and make document PDF-A compliant
-if args.with_pdfx:
-    content = re.sub("\n *pdfcreator=\{[^\{\}]+\},?", "\n", content)
-    content = substitute(content, r"\begin{document}", r"""
+content = re.sub("\n *pdfcreator=\{[^\{\}]+\},?", "\n$if(pdfa-true)$\n$else$\g<0>\n$endif$\n", content)
+content = substitute(content, r"\begin{document}", r"""
+$if(pdfa-true)$
 \begin{filecontents*}{\jobname.xmpdata}
 \Author{$for(authorxmp)$$authorxmp$$sep$\sep $endfor$}
 $if(title-meta)$
@@ -46,6 +45,7 @@ $endif$
 
 % PDF/A compliance with pdfx, must be loaded last (loads hyperref and xcolor)
 \usepackage[a-3u]{pdfx}
+$endif$
 
 \begin{document}""")
 
