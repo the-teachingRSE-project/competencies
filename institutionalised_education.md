@@ -38,7 +38,7 @@ structures and which additional structures are required.
 "
 ---
 
-## Organisational Infrastructures
+# Organisational Infrastructures
 So we have defined our set of competencies that we feel every RSE should possess.
 Table 2 above nevertheless already hints at the fact that some RSE skills are required during the domain studies,
 while Table 1 tells us that we also need an ongoing qualification programme for people that want to become specialised RSEs.
@@ -47,8 +47,8 @@ In order to set up a proper educational scheme we need to discuss two more items
 - Who are our teachers?
 - How is this teaching organised?
 
-### The teachers
-#### What issues are trainers facing today?
+## The teachers
+### What issues are trainers facing today?
 There are already some people teaching RSE-related topics, sometimes within university structures, but often outside of formal structures.
 Currently, they often teach in workshop-like formats at research institutions.
 The community discussion shed light on the issues our trainers are faced with nowadays:
@@ -66,7 +66,7 @@ The community discussion shed light on the issues our trainers are faced with no
 - Lack of 'Train the Trainer' opportunities makes self-improvement difficult.
 - Get teaching effort attributed as further qualification that counts as a professional qualification.
 
-#### What mindset makes up a good teacher
+### What mindset makes up a good teacher
 Irrespective of where people come from they need to have the proper mindset to properly foster RSEs-to-be.
 The basis for our proposed mindset is the conviction that research software engineering (RSEing) is an important topic that supports good scientific practice and reproducible research as well as the motivation to share their experience and skills with prospective RSEs.
 In addition, we expect it is a fundamental part of a teacher's mindset to adopt a set of shared values, which we have detailed above in the [values](#values) section.
@@ -81,7 +81,7 @@ Therefore, it is also inevitable that teachers have positive and high expectatio
 Inspired by the proverb "If you want to go fast, go alone; if you want to go far, go together?", teachers should actively engage with the RSE community and see the benefits of networking.
 Finally, teachers should be motivated to follow up and offer continued support to their students after the training has ended.
 
-#### Where do we get our teachers from
+### Where do we get our teachers from
 The community discussion brought to light the need for a mixture of people, therefore
 the education of aspiring RSEs will involve people from close domain sciences or experienced RSEs
 and people that have respective additional skills to teach RSE competencies to the new generation.
@@ -102,9 +102,9 @@ Such a platform should allow to:
 - align a curriculum with the requirements of academic credit systems, like the European Credit Transfer and Accumulation System (ECTS) [@ECTS]
 (FIXME: DETAIL ME FURTHER!!!!)
 
-### Organisation of teaching
+## Organisation of teaching
 
-#### Certificates
+### Certificates
 
 With the ever-growing demand for RSEs in science it could be helpful for
 people to earn certificates for skills needed in certain RSE positions.
@@ -137,7 +137,7 @@ A big demand for specialised RSEs will certainly come from the newly established
 And using the certificates, the demand can now be satisfied with people offering this skill.
 Some exemplary skills for which courses are already held are version control tools like git, HPC topics like multithreading, MPI and GPU computations, FAIR principles.
 
-## Required Next Steps
+# Required Next Steps
 We have identified the RSE as an individual who brings a unique set of skills for
 supporting and undertaking modern digital research into research groups and teams.
 We have elaborated on the basic competencies that RSEs may have, and we have
@@ -161,8 +161,8 @@ environment but they may also exist fully or partially outside of the academic s
 also providing opportunities for education on digital skills into wider society or
 industry (see [@HPCAkademie] for an existing, HPC focused instance of this).
 
-### First Professional Qualification
-#### A possible graduation path within the classical university structures
+## First Professional Qualification
+### A possible graduation path within the classical university structures
 We have put forward the idea that familiarity with research is a prerequisite for an RSE in order to be able to work effectively in the research space and in collaboration with researchers.
 To generate the required number of skilled persons we propose to offer a classical Bachelor's and Master's curriculum at selected sites.
 In this particular example, we consider a path into RSE via a traditional university route involving Bachelor's and Master's degree studies that include a RSE element.
@@ -203,7 +203,7 @@ should do a PhD that on one end combines knowledge of a research domain with sof
 such that both pillars are suitably covered and have been exposed to research, software development and team dynamics.
 Graduating from this PhD program, opens a future career path as a lead RSE in their domain to them.
 
-#### Specialised Master's Programs
+### Specialised Master's Programs
 On the other hand, when pursuing a PhD,
 scientists are increasingly required to do RSE-type work as part of their research as data
 and computation are becoming part of research tasks in a huge range of fields.
@@ -218,11 +218,11 @@ Examples would be Computational Sciences in Engineering (CSE) or Bioinformatics
 (see Appendix: [Bioinformatics skills and certification]).
 Where appropriate similar programs should also be established in other domains.
 
-#### Alternative first qualification paths
+### Alternative first qualification paths
 For completeness we mention that vocational programs like the MATSE [@MATSE] can provide a more application oriented less research oriented profile for individuals.
 Since a certain amount of overlap with sciences is expected, it is expected that programs can be switched with minimal friction.
 
-### Extra-academic institutions for continuous learning
+## Extra-academic institutions for continuous learning
 As elaborated in the instruction the dynamic working place of an RSE requires continuous learning.
 Knowledge-based industries have long recognised the value of qualifying their employees and hence invest time and money into this.
 We propose institutionalised structures that offer graduates a venue for life-long learning, or to deepen their skills.
@@ -236,7 +236,7 @@ The tasks of these centres is facilitated by reusing the work of initiatives lik
 Naturally, other existing structures outside of academia mentioned before like the Carpentries [@Carpentries] can be nicely integrated
 and offered to a broad audience on a regular basis.
 
-## How do we reach people in different stages of their careers?
+# How do we reach people in different stages of their careers?
 
 Many current RSEs have found their way to being an RSE during their doctoral studies.
 This transition usually happens slowly. You start programming a tool, and someone else likes it, it becomes known that you have programming skills and suddenly you are the RSE of the group that everyone would like to have in their projects. If you enjoy this role, you need to be aware that there is a RSE career path as well as that specialised training materials exist. One place to generate awareness of the career option and training is universities' doctoral on-boarding processes or right thereafter.
@@ -327,13 +327,13 @@ Further ideas:
 - more inclusive RSE-Humanities teaching material [@Crymble2016; @Sichani2019]
 - related discussion in CSE [@Webb2017]
 
-### Improve findability of open educational resources
+## Improve findability of open educational resources
 
 Although multiple organisations have published open educational resources for RSEs, in particular for foundational skills, their findability can be significantly improved.
 The RSE community of lacks an agreed-upon standard of metadata with which to annotate RSE OER, which would help learners as well as teachers to find suitable resources to satisfy their concerns.
 Building on such annotations, a community agreed-upon registry for RSE OER would additionally improve the situation.
 
-### Micro-accreditation
+## Micro-accreditation
 With the existence of institutions for continuous learning
 after the first professional level of education the question of certification arises.
 We propose, digital certificates and
@@ -389,13 +389,13 @@ remaining Plan:
 
 FIXME: The career path discussion.
 
-## Appendix
+# Appendix
 
-### An applied example curriculum
-### An example of a possible career path
+## An applied example curriculum
+## An example of a possible career path
 - We can follow Kim, who has been the protagonist of the original deRSE Paper.
 
-### HPC skills and certification
+## HPC skills and certification
 
 As an area that generally requires a range of advanced skills,
 High Performance Computing (HPC) is one field where there is ongoing work
@@ -415,7 +415,7 @@ and exascale domains. The project is gathering open source training materials
 to develop curricula that support the training pathways that are underpinned
 by high-quality training materials.
 
-### Bioinformatics skills and certification
+## Bioinformatics skills and certification
 
 Bioinformatics is another field that actively works on developing skill trees.
 The Bioinformatics Core Competencies [@Mulder2018; @Welch2016; @Welch2014],
@@ -448,7 +448,7 @@ in bioinformatics [@BioinformaticsCertification; @Mulder2018].
 The database includes Bachelor and Master's degree programs and specialisations,
 PhD programs, and certificates from graduate schools.
 
-### Digital competencies and certification
+## Digital competencies and certification
 
 The European Commission Joint Research Center developed the "DigComp" framework
 to categorise general digital competencies in 8 levels of proficiency
