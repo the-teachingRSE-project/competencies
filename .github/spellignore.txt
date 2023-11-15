@@ -22,7 +22,9 @@ Center
 CHAOSS
 codebase
 CodeRefinery
+comp-lvls-se
 Coursera
+CRSP
 CSE
 cybersecurity
 DALIA
@@ -45,12 +47,14 @@ EduTrain
 edX
 EMBL
 EMBL-EBI
+eng
 ENCCS
 EOR
 Erlangen-Nürnberg
 ERuDIte
 EuroCC
 EuroHPC
+examplemaster
 exascale
 ExCALIBUR
 EXCELERATE
@@ -61,7 +65,8 @@ findability
 findable
 FIXME
 Forschung
-FORTRAN
+ReproHack
+Fortran
 franca
 funders
 FutureUniversity
@@ -114,6 +119,7 @@ OSI-approved
 Paderborn
 pdf
 PerMedCoE
+PhDs
 PRACE
 pre-recorded
 pre-requisite
@@ -141,7 +147,9 @@ swrepo
 swrepos
 SWREPOS
 SysOps
+tbl
 TeSS
+teams-se
 TrainingMaterial
 UofO
 un-deRSE

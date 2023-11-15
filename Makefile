@@ -14,7 +14,7 @@ objects := intro.pdf competencies.pdf institutionalised_education.pdf survey.pdf
 
 all: $(objects)
 
-%.pdf: %.md bibliography.bib contributors.yml preamble.sty template.tex
+%.pdf: %.md bibliography.bib contributors.yml preamble.sty build/template.tex
 	@mkdir -p build
 	@rm -f build/pdfa.xmpi build/creationdate.lua build/creationdate.timestamp
 	cp --update preamble.sty build/
@@ -27,7 +27,7 @@ all: $(objects)
 	    --bibliography=bibliography.bib \
 	    --biblatex \
 	    --toc \
-	    --template="template.tex" \
+	    --template="build/template.tex" \
 	    -M date="`date "+%B %e, %Y"`" \
 	    -M datexmp="`date "+%F"`" \
 	    -V hyperrefoptions=pdfa \
@@ -44,7 +44,8 @@ all: $(objects)
 	    -jobname="${@:.pdf=}" -cd "build/${@:.pdf=}.tex"
 	@mv "build/${@}" ${@}
 
-template.tex: template.py
+build/template.tex: template.py
+	@mkdir -p build
 	pandoc --print-default-template=latex > "${@}"
 	python3 "${<}" $(template_opts) "${@}"
 

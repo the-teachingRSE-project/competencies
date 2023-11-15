@@ -28,6 +28,8 @@ keywords:
   - training
   - learning
   - open educational resources
+  - lifelong learning
+  - digital competence
 abstract: "
 In this publication we survey the existing RSE-training related resources and initiatives.
 "
@@ -105,7 +107,7 @@ in the form of massive open online courses (MOOCs), online and on-site training
 events at European HPC facilities (aggregated on various websites, e.g. EuroCC
 Training [@EuroCCTraining]), and white papers. While most training events are
 tailored for HPC-RSE, several recurring courses about programming languages
-(C++, FORTRAN, Python) are suitable for general RSEs, as they teach coding
+(C++, Fortran, Python) are suitable for general RSEs, as they teach coding
 best practices, modern software design [@LRZModernCpp], project management and
 version control [@LRZIntroCpp].
 
