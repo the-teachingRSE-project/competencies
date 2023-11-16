@@ -170,7 +170,7 @@ authors:
     lastName: Hodges
     firstName: Toby
     affiliations:
-    - The Carpentries, USA
+      - The Carpentries, USA
     orcid: 0000-0003-1766-456X
     email: tobyhodges@carpentries.org
 
