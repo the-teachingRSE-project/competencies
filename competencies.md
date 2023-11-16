@@ -19,6 +19,7 @@ author:
   - Gerasimos Chourdakis
   - Anna-Lena Lamprecht
   - Dominic Kempf
+  - Toby Hodges
 output:
   pdf_document:
     citation_package: biblatex
