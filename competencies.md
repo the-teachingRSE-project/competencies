@@ -18,6 +18,7 @@ author:
   - Simon Christ
   - Gerasimos Chourdakis
   - Anna-Lena Lamprecht
+  - Dominic Kempf
 output:
   pdf_document:
     citation_package: biblatex
