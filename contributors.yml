@@ -158,6 +158,17 @@ authors:
       DK acknowledges support from the Scientific Software Center which is funded as part
       of the Excellence Strategy of the German Federal and State Governments.
 
+  - author: "Leyla Jael Castro"
+    firstName: Leyla Jael
+    lastName: Castro
+    affiliations:
+      - ZB MED Information Centre for Life Sciences, Cologne, Germany
+    orcid: 0000-0003-3986-0510
+    email: ljgarcia@zbmed.de
+    acknowledgements: |
+      LJC acknowledges support from the NFDI4DS consortium funded by the German Research Foundation (DFG) - project number
+      [460234259](https://gepris.dfg.de/gepris/projekt/460234259?language=en).
+
 # please use the following author template (all fields are optional):
 
 #  - author: "F. D. C. Willard, Jr."
