@@ -138,7 +138,7 @@ authors:
       - Leibniz University Hannover, Department of Cell Biology and Biophysics, Computational Biology, Germany
     orcid: 0000-0002-5866-1472
     email: christ@cell.uni-hannover.de
-  
+
   - author: "Gerasimos Chourdakis"
     firstName: Gerasimos
     lastName: Chourdakis
@@ -162,7 +162,7 @@ authors:
     firstName: Anna-Lena
     lastName: Lamprecht
     affiliations:
-      -  Institute of Computer Science, University of Potsdam, Germany
+      - Institute of Computer Science, University of Potsdam, Germany
     orcid: 0000-0003-1953-5606
     email: anna-lena.lamprecht@uni-potsdam.de
 

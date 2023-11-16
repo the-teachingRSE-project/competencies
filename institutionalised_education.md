@@ -178,7 +178,7 @@ Indeed, we consider it much more useful if new graduates looking to work in the 
 Expertise, beyond software development skills,
 in another research domain can be an important element of an RSE team being able to support RSE projects in that domain.
 
-A \${Domain}-RSE in the STEM domains can start with a Bachelor's degree in their domain that shares large portions
+A \${DOMAIN}-RSE in the STEM domains can start with a Bachelor's degree in their domain that shares large portions
 of the curriculum with their original domain. There will only be some courses that advance peoples knowledge about digital
 tools and how to create tools from them.
 The Master's years bring them forward to actually applying their knowledge. So during these years they
@@ -189,11 +189,11 @@ So we can assume that the lectures to that point contain a mixture of domain spe
 In order for young RSEs to get their research experience we believe it is necessary that already
 in their master's thesis young RSE students are given computational research tasks
 that can be solved with the RSE specific skills of that domain.
-This gives them a Master's degree of a ${DOMAIN}-RSE that has learnt in their lectures a research domain specific part and a software engineering specific part,
+This gives them a Master's degree of a \${DOMAIN}-RSE that has learnt in their lectures a research domain specific part and a software engineering specific part,
 and enabled them to get a first dip into actual science in their master's thesis.
 Of course special care has to be taken to integrate them at some point in their studies into mature projects
 to expose them to the experience of senior RSEs and how they approach problems.
-An example of this \${DOMAIN} - RSE can be found in Appendix: [Bioinformatics skills and certification].
+An example of this \${DOMAIN}-RSE can be found in Appendix: [Bioinformatics skills and certification].
 Of course, the next question for their future is whether a master's degree enables them to really be effective parts of a research group.
 While we accept this is something of a generalisation, we argue that this is most likely not the case since
 undertaking a PhD provides a much more extensive set of research training and experience that can be vital for a researcher's future.
