@@ -25,6 +25,7 @@ secnumdepth: 3
 bibliography: bibliography.bib
 header-includes:
     - \input{preamble.sty}
+    - '\defaultfontfeatures{Extension = .otf}'
     - \usepackage{pdflscape}
     - \usepackage{multirow}
     - \usepackage{array}
