@@ -73,7 +73,7 @@ software skills are now required by researchers at all
 career levels, and in fields significantly beyond what was previously expected.
 Research software is now used and developed not only in
 science, technology, engineering and mathematics (STEM) domains,
-but also in medicine, digital humanities and any other scientific domain.
+but also in medicine, digital humanities, and any other scientific domain.
 
 Researchers often lack the skills to use specialised software
 for their research, let alone write it [@NamingPain]. If they come from a non-technical domain, they may
