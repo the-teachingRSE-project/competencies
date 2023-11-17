@@ -98,7 +98,7 @@ allowing for better training of researchers and more effective support for the d
 quality research software, and therefore higher quality research.
 There is still a long way to go, but positive change is well underway.
 
-RSEs may work within one of the increasing number of research SE teams that
+RSEs may work within one of the increasing number of RSE teams that
 have been set up at universities and research
 organisations over the past decade, or they may be embedded within a research
 team. They may have a job title that officially recognises them as an RSE, or
