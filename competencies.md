@@ -519,7 +519,7 @@ These skills, while already numerous are also generic on purpose. They span a
 multidimensional space in which the day-to-day tasks and responsibilities of an
 RSE can be found. A snapshot of what this means today was obtained
 from learners and novice RSEs that we surveyed during the Paderborn deRSE workshop.
-The question was what they would have like to learn before becoming an RSE. Among the top five things mentioned were:
+The question was what they would have liked to learn before becoming an RSE. Among the top five things mentioned were:
 
 - Testing. This task is a manifestation of the SE competencies of DOCBB and MOD
   since a model of the software is required in order to write good tests that
