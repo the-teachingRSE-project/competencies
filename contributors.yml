@@ -3,6 +3,7 @@ authors:
   - author: "Heidi Seibold"
     firstName: Heidi
     lastName: Seibold
+    initials: HS
     affiliations:
     - IGDORE Munich, Germany
     orcid: 0000-0002-8960-9642
@@ -11,6 +12,7 @@ authors:
   - author: "Florian Goth"
     firstName: Florian
     lastName: Goth
+    initials: FG
     affiliations:
       - Institute for Theoretical Physics and Astrophysics, University of Würzburg, Germany
     orcid: 0000-0003-2707-4790
@@ -22,6 +24,7 @@ authors:
   - author: "Jan Linxweiler"
     firstName: Jan
     lastName: Linxweiler
+    initials: JL
     affiliations:
       - Technische Universität Braunschweig, Germany
     orcid: 0000-0002-2755-5087
@@ -30,6 +33,7 @@ authors:
   - author: "Jan Philipp Thiele"
     firstName: Jan Philipp
     lastName: Thiele
+    initials: JPT
     affiliations:
       - Weierstrass Institute, Berlin, Germany
     orcid: 0000-0002-8901-6660
@@ -38,6 +42,7 @@ authors:
   - author: "Jeremy Cohen"
     firstName: Jeremy
     lastName: Cohen
+    initials: JC
     affiliations:
       - Imperial College London, London, UK
     orcid: 0000-0003-4312-2537
@@ -49,6 +54,7 @@ authors:
   - author: "Renato Alves"
     firstName: Renato
     lastName: Alves
+    initials: RA
     affiliations:
       - European Molecular Biology Laboratory, Heidelberg, Germany
     orcid: 0000-0002-7212-0234
@@ -57,6 +63,7 @@ authors:
   - author: "Samantha Wittke"
     firstName: Samantha
     lastName: Wittke
+    initials: SW
     affiliations:
       - CSC – IT Center for Science, Espoo, Finland
     orcid: 0000-0002-9625-7235
@@ -65,6 +72,7 @@ authors:
   - author: "Jean-Noël Grad"
     firstName: Jean-Noël
     lastName: Grad
+    initials: JNG
     affiliations:
       - Institute for Computational Physics, University of Stuttgart, Germany
     orcid: 0000-0002-5821-4912
@@ -80,6 +88,7 @@ authors:
   - author: "Fredo Erxleben"
     firstName: Fredo
     lastName: Erxleben
+    initials: FE
     affiliations:
       - Helmholtz-Zentrum Dresden-Rossendorf, Germany
     orcid: 0000-0001-7233-3005
@@ -88,6 +97,7 @@ authors:
   - author: "Magnus Hagdorn"
     firstName: Magnus
     lastName: Hagdorn
+    initials: MH
     affiliations:
       - Geschäftsbereich IT, Charité Universitätsmedizin Berlin, Germany
     orcid: 0000-0002-5076-4864
@@ -96,6 +106,7 @@ authors:
   - author: "Moritz Schwarzmeier"
     firstName: Moritz
     lastName: Schwarzmeier
+    initials: MS
     affiliations:
       - Mathematical Modeling and Analysis, TU Darmstadt, Germany
     orcid: 0000-0001-8992-6245
@@ -113,6 +124,7 @@ authors:
   - author: "Matthias Braun"
     firstName: Matthias
     lastName: Braun
+    initials: MB
     affiliations:
       - Cluster of Excellence IntCDC, University of Stuttgart, Germany
     orcid: 0000-0001-8591-3690
@@ -125,6 +137,7 @@ authors:
   - author: "Harald von Waldow"
     firstName: Harald
     lastName: von Waldow
+    initials: HvW
     affiliations:
       - Johann Heinrich von Thünen Institute, Centre for Information Management, Germany
     orcid: 0000-0003-4800-2833
@@ -133,6 +146,7 @@ authors:
   - author: "Simon Christ"
     firstName: Simon
     lastName: Christ
+    initials: SC
     affiliations:
       - Leibniz University Hannover, Department of Cell Biology and Biophysics, Computational Biology, Germany
     orcid: 0000-0002-5866-1472
@@ -141,6 +155,7 @@ authors:
   - author: "Gerasimos Chourdakis"
     firstName: Gerasimos
     lastName: Chourdakis
+    initials: GC
     affiliations:
       - School of Computation, Information and Technology, Technical University of Munich, Garching, Germany
     orcid: 0000-0002-3977-1385
@@ -149,6 +164,7 @@ authors:
   - author: "Dominic Kempf"
     firstName: Dominic
     lastName: Kempf
+    initials: DK
     affiliations:
       - Heidelberg University, Scientific Software Center, Germany
     orcid: 0000-0002-6140-2332
@@ -160,6 +176,7 @@ authors:
   - author: "Anna-Lena Lamprecht"
     firstName: Anna-Lena
     lastName: Lamprecht
+    initials: ALL
     affiliations:
       - Institute of Computer Science, University of Potsdam, Germany
     orcid: 0000-0003-1953-5606
@@ -168,6 +185,7 @@ authors:
   - author: "Toby Hodges"
     firstName: Toby
     lastName: Hodges
+    initials: TH
     affiliations:
       - The Carpentries, USA
     orcid: 0000-0003-1766-456X
@@ -176,6 +194,7 @@ authors:
   - author: "Leyla Jael Castro"
     firstName: Leyla Jael
     lastName: Castro
+    initials: LJC
     affiliations:
       - ZB MED Information Centre for Life Sciences, Cologne, Germany
     orcid: 0000-0003-3986-0510
@@ -187,6 +206,7 @@ authors:
   - author: "Guido Juckeland"
     firstName: Guido
     lastName: Juckeland
+    initials: GJ
     affiliations:
       - Helmholtz-Zentrum Dresden-Rossendorf, Germany
     orcid: 0000-0002-9935-4428
@@ -198,6 +218,7 @@ authors:
 #    firstName: F. D. C.
 #    lastName: Willard
 #    suffixName: Jr.
+#    initials: FDCW
 #    affiliations:
 #      - University of Arcadia
 #      - Michigan State University, East Lansing, Michigan, USA

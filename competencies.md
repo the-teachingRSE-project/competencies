@@ -2,7 +2,7 @@
 title: "Foundational Competencies and Responsibilities of a Research Software Engineer"
 geometry: margin=2.5cm
 author:
-  - Florian Goth
+  - Florian Goth | Corresponding author
   - Renato Alves
   - Matthias Braun
   - Leyla Jael Castro
