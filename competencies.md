@@ -218,7 +218,7 @@ that can underpin the certification process.
 
 #### EMBL-EBI Competency Hub
 
-The European Molecular Biology Laboratory - Europan Bioinformatics Institute (EMBL-EBI) Competency Hub [@CompetencyHub] provides a bioinformatics/computational
+The European Molecular Biology Laboratory - European Bioinformatics Institute (EMBL-EBI) Competency Hub [@CompetencyHub] provides a bioinformatics/computational
 biology-focused example of a competency portal. In addition to collecting
 information on a range of competencies that can be browsed within the
 web-based tool, it also provides career profiles for roles
@@ -464,8 +464,8 @@ domain-specific data repositories.
 While software repositories (see SWREPOS in the previous section) are commonly used to actually host the software and follow its development, 
 domain-based repositories/registries/directories provide a quick description of the software together with some links to other research outcomes. 
 Such descriptions and links can be represented with metadata (improving FAIRness of the software) and be exposed to the broad public, 
-making it easier for others (people and machines) to find, for instance, software used for a partiucular task, taking a specific dataset as imput, or dealing with a certain type of data.
-In addition to software repositores and domain-based repositories, archives are also used in research for (software) long-term preservation. 
+making it easier for others (people and machines) to find, for instance, software used for a particular task, taking a specific dataset as input, or dealing with a certain type of data.
+In addition to software repositories and domain-based repositories, archives are also used in research for (software) long-term preservation. 
 
 ## Communication skills
 
