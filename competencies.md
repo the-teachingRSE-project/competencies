@@ -1151,11 +1151,12 @@ How we update existing institutions and set up new ones
 that provide this education will be the topic of a follow-up paper.
 
 # Contribution details
-Heidi Seibold did the original conceptualisation and conceived the workshop.
+Heidi Seibold did the original conceptualisation and conceived the deRSE23 workshop.
+We thank all the participants of this original community workshop!
+Toby Hodges conceptualised and organised the un-deRSE23 workshop.
+We also thank all the participants of this follow-up community workshop!
 Heidi Seibold, Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele,
 and Samantha Wittke organised the deRSE23 workshop.
-We thank all the participants of this original community workshop!
-
 Heidi Seibold, Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele,
 Jan Linxweiler, Jean-Noël Grad, and Samantha Wittke contributed the initial draft.
 Florian Goth supervised the project and did the project administration.
