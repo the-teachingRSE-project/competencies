@@ -65,7 +65,7 @@ findability
 findable
 FIXME
 Forschung
-ReproHack
+Friedrich
 Fortran
 franca
 funders
@@ -114,6 +114,7 @@ numpy
 OECD
 OER
 OpenScience
+Organization
 Orithena
 OSI-approved
 Paderborn
@@ -129,6 +130,7 @@ RDM
 RDM-RSE
 repos
 reproducibility
+ReproHack
 researchology
 researchonomy
 reusability
