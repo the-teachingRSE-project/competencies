@@ -17,13 +17,10 @@ author:
   - Matthias Braun
   - Simon Christ
   - Gerasimos Chourdakis
-<<<<<<< HEAD
   - Leyla Jael Castro
-=======
   - Anna-Lena Lamprecht
   - Dominic Kempf
   - Toby Hodges
->>>>>>> main
 output:
   pdf_document:
     citation_package: biblatex
@@ -391,7 +388,7 @@ Initial development generally involves a creative process where requirements are
 followed by a formulation of a plan to fulfil them that is finally implemented.
 This is then followed by testing that things work as expected and that they continue to do so into the future.
 Often the development is iterated.
-We emphasise that the life-cycle is not a close-end process as it also includes periods of maintaining a software
+We emphasise that the life-cycle is not a close-end process, as it also includes periods of maintaining a software
 and also withdrawing software from its original use.
 The RSE should be aware of this life-cycle
 and be able to predict and cater to the changing needs of software as it moves through the stages.
@@ -461,13 +458,13 @@ such as applying licences, honouring copyright statements and crediting contribu
 Almost all research software is developed within a specific scientific domain.
 Some software may be able to cross boundaries, but the majority will have a
 home domain, with which it needs to be able to interact. The RSE needs to be
-aware of any domain specific software repositories, data sets and catalogues (aka as registries or directories).
+aware of any domain specific software repositories, data sets and catalogues (also known as registries or directories).
 The RSE also needs to be aware of how their software can interact with the existing
 domain-specific data repositories.
 While software repositories (see SWREPOS in the previous section) are commonly used to actually host the software and follow its development, 
 domain-based repositories/registries/directories provide a quick description of the software together with some links to other research outcomes. 
 Such descriptions and links can be represented with metadata (improving FAIRness of the software) and be exposed to the broad public, 
-making it easier for others (people and machines) to find, for instance, software used of a partiucular task, taking a specific dataset as imput, dealing with a certain type of data.
+making it easier for others (people and machines) to find, for instance, software used for a partiucular task, taking a specific dataset as imput, or dealing with a certain type of data.
 In addition to software repositores and domain-based repositories, archives are also used in research for (software) long-term preservation. 
 
 ## Communication skills
@@ -525,7 +522,7 @@ These skills, while already numerous are also generic on purpose. They span a
 multidimensional space in which the day-to-day tasks and responsibilities of an
 RSE can be found. A snapshot of what this means today was obtained
 from learners and novice RSEs that we surveyed during the Paderborn deRSE workshop.
-The question was what they would have like to learn before becoming an RSE. Among the top five things mentioned were:
+The question was what they would have liked to learn before becoming an RSE. Among the top five things mentioned were:
 
 - Testing. This task is a manifestation of the SE competencies of DOCBB and MOD
   since a model of the software is required in order to write good tests that
