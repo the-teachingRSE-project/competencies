@@ -455,7 +455,7 @@ such as applying licences, honouring copyright statements and crediting contribu
 Almost all research software is developed within a specific scientific domain.
 Some software may be able to cross boundaries, but the majority will have a
 home domain, with which it needs to be able to interact. The RSE needs to be
-aware of any domain specific software repositories, data sets and catalogues (aka as registries or directories).
+aware of any domain specific software repositories, data sets and catalogues (also known as registries or directories).
 The RSE also needs to be aware of how their software can interact with the existing
 domain-specific data repositories.
 While software repositories (see SWREPOS in the previous section) are commonly used to actually host the software and follow its development, 
