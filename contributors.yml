@@ -90,7 +90,7 @@ authors:
     firstName: Magnus
     lastName: Hagdorn
     affiliations:
-      - Charité Universitätsmedizin Berlin, Germany
+      - Geschäftsbereich IT, Charité Universitätsmedizin Berlin, Germany
     orcid: 0000-0002-5076-4864
     email: magnus.hagdorn@charite.de
 
@@ -138,7 +138,7 @@ authors:
       - Leibniz University Hannover, Department of Cell Biology and Biophysics, Computational Biology, Germany
     orcid: 0000-0002-5866-1472
     email: christ@cell.uni-hannover.de
-  
+
   - author: "Gerasimos Chourdakis"
     firstName: Gerasimos
     lastName: Chourdakis
@@ -168,6 +168,22 @@ authors:
     acknowledgements: |
       LJC acknowledges support from the NFDI4DS consortium funded by the German Research Foundation (DFG) - project number
       [460234259](https://gepris.dfg.de/gepris/projekt/460234259?language=en).
+
+  - author: "Anna-Lena Lamprecht"
+    firstName: Anna-Lena
+    lastName: Lamprecht
+    affiliations:
+      - Institute of Computer Science, University of Potsdam, Germany
+    orcid: 0000-0003-1953-5606
+    email: anna-lena.lamprecht@uni-potsdam.de
+
+  - author: "Toby Hodges"
+    lastName: Hodges
+    firstName: Toby
+    affiliations:
+      - The Carpentries, USA
+    orcid: 0000-0003-1766-456X
+    email: tobyhodges@carpentries.org
 
 # please use the following author template (all fields are optional):
 

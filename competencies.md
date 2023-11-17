@@ -17,7 +17,13 @@ author:
   - Matthias Braun
   - Simon Christ
   - Gerasimos Chourdakis
+<<<<<<< HEAD
   - Leyla Jael Castro
+=======
+  - Anna-Lena Lamprecht
+  - Dominic Kempf
+  - Toby Hodges
+>>>>>>> main
 output:
   pdf_document:
     citation_package: biblatex
@@ -994,7 +1000,7 @@ This task is supported by strong (MOD) skills to reason about the behaviour of p
 Research focused specialisations
 -->
 
-#### ${DOMAIN}-RSE
+#### \${DOMAIN}-RSE
 While software is the lingua franca of all RSEs, there will be RSEs that have specialised in the intricacies of one particular research domain,
 such as medical RSEs, digital humanities RSEs, or physics RSEs.
 This can often serve as a base domain for RSE specialisation as in @subsec:examplemaster
@@ -1363,7 +1369,7 @@ and "comply with licensing policy", which would in our framework be part of (SP)
 In addition, they have a dedicated parallel computing competency section,
 thereby shifting the emphasis of the knowledge of their computational tools towards the HPC-RSE specialisation in our framework.
 Career profiles, such as the computational chemist, bring additional domain specific knowledge;
-we would classify those as a mixture of DOMAIN-RSE and HPC-RSE.
+we would classify those as a mixture of \${DOMAIN}-RSE and HPC-RSE.
 It is noteworthy, however, that the BioExcel framework puts very little emphasis on communication skills, which are often involved in RSE-related tasks.
 
 [^JuniorRSE]: [https://competency.ebi.ac.uk/framework/bioexcel/3.0/profile/view/10115/alex-2](https://competency.ebi.ac.uk/framework/bioexcel/3.0/profile/view/10115/alex-2)
