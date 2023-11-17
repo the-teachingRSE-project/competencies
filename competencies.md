@@ -20,6 +20,7 @@ author:
   - Anna-Lena Lamprecht
   - Dominic Kempf
   - Toby Hodges
+  - Leyla Jael Castro
 output:
   pdf_document:
     citation_package: biblatex
