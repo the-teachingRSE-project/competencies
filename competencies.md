@@ -947,7 +947,7 @@ as ours include a range of different roles (mostly) taken from King's Digital La
 # RSE specialisations {#sec:rse-specialisations}
 
 What we have defined above are intended to be base skills that an RSE —irrespective of domain, place, and time, should know about.
-However, not all RSEs carreers are equal, they specialise in different areas,
+However, not all RSEs' career are equal, they specialise in different areas,
 some of which we want to present below. Many of the specialisations may overlap,
 so the same RSE might, for example, work on data management and open science.
 We categorise them in such a way that categories can be seen as a specialisation within RSE-specific topics,
@@ -1025,13 +1025,13 @@ As an interface between the researchers and the infrastructure, they take care o
 The constantly evolving software environment can hinder or prevent reproducibility.
 In this changing environment, a significant amount of effort in (research) software development
 needs to be spent on maintenance to ensure that software remains useful or even installable.
-With regard to which additional competency is required,
+With regards to which additional competency is required,
 these are people having experience with software stacks that are not part of the general curricula any more (e.g., COBOL or Fortran).
 
 #### High performance computing (HPC) - RSE
 
-RSEs with a focus on High Performance Computing (HPC) have specialist knowledge
-about programming models that can be used to efficiently undertake large-scale
+RSEs with a focus on HPC specialise 
+on programming models that can be used to efficiently undertake large-scale
 computations on parallel computing clusters. They may have knowledge of (automatic)
 code optimisation tools and methods and will understand how to write code that is
 optimised for different types of computing platforms, leveraging various efficiency
@@ -1065,7 +1065,7 @@ The increasing usage of ML in numerous scientific areas with social impact invol
 At the intersection of data science [@SSIDataScience] and Data-focused RSEs, the complex way of solving problems utilising machine learning calls for this separate specialisation.
 
 #### Web-development RSE
-This RSE is skilled in web applications, front- and/or backend, and/or building
+This RSE is skilled in web applications, front- and/or back-end, and/or building
 and using APIs, for example for research data portals or big research projects.
 Ideally, this RSE should also have knowledge about (web) accessibility to allow a broad
 range of researchers or even the public to use the resulting applications.
@@ -1075,7 +1075,7 @@ Therefore, a deep knowledge of web development skills is a required additional s
 All RSEs are a go-to person for questions about licensing, in particular when mixing software components with different licences.
 But with the rising requirements from legislation,
 we foresee the need for RSEs that still have a background in RSE but extend it with a knowledge of legal processes,
-that cover corner cases and go beyond applying Best Practice guides.
+that cover corner cases and go beyond applying best practice guides.
 These requirements may arise in the area of publication of research software,
 as this also requires knowledge about particular laws or regulatory frameworks concerning data protection,
 like the GDPR within the EU [@GDPR].
@@ -1089,19 +1089,19 @@ social skill-set focused specialisations
 
 # Future work {#sec:future-work}
 
-Having the competencies is a first step to finding common ground around which to structure
-curricula, institutions, and teachers in this framework.
-Applications of them in an individual's career can be found in @subsec:examplemaster.
+Defining RSEs' competencies is a first step to find common ground to structure
+curricula, institutions, and teachers around this framework.
+Applications of these competencies in an individual's career can be found in @subsec:examplemaster.
 An omission that we found and that we would like to highlight in order to spark a community discussion
-is that RSEs that choose explicitly a science-supporting role outside of research will not be eligible
-for funding under the statutes of many funding organisations that require a PhD at minimum.
+is that RSEs that choose explicitly a science-supporting role outside of a research group will not be eligible
+for funding (as grantee) under the statutes of many funding organisations that require a PhD at minimum.
 To alleviate that and give RSEs in leadership positions a means
 to become eligible for funding themselves, since completion of scientific training is often a requirement [@DFG_50_01],
 we propose the introduction of certificates that can be handed out by selected institutions.
 Examples of this could be doctorates based on software contributions to the scientific community, or new
-certificates like the certificate in @subsec:examplecareer that should become widely accepted.
+certificates such as those in @subsec:examplecareer that should become widely accepted.
 Beyond having that discussion, a diverse set of publications is already in the making.
-Next, we will work on how to institutionalise education.
+Next, we will work on how to institutionalise education for RSEs.
 In that publication, we will detail how we organise our institutions and what qualifications our teachers
 need to have in order to effectively communicate our values.
 We will put forward ideas on how to build up bachelor's and master's programmes,
@@ -1117,7 +1117,7 @@ courses. This is the intention of the so-called "survey-publication".
 That survey of existing resources will not be carried out as a traditional publication, but
 it will be made available as a continuously-evolving online resource.
 
-And finally, we will formulate the call to action - building on the previous
+Finally, we will formulate a call to action —building on the previous
 publication on the necessary institutions,
 to lay down what is required to best support the continuous need
 for young RSEs to support digital science specifically in Germany.
@@ -1134,22 +1134,22 @@ In this publication, we have tried to formalise these concepts.
 We have formulated a set of values that guide our actions in society,
 manifestly making RSEs part of the scientific community that shares the ideals of good scientific practice.
 At the same time,
-being software engineers, we cherish that we have to take responsibility for our tools.
+being RSEs ourselves, we cherish taking responsibility for our tools.
 We continue with core competencies that have been intentionally formulated
-abstractly without referencing any particular information-processing device.
-As expected, we draw equally upon notions from software engineering and research,
+at an abstract level, without referencing any particular information-processing device.
+As expected, we draw equally upon notions from SE and research,
 but find that we likewise require teamwork capabilities.
 We continue with detailing these competencies in various dimensions and find that
 a different amount is required in different positions and scientific domains,
 while proposing recommendations for organisations to foster the development of these competencies.
-Nevertheless, they are required and hence the values and competencies form a common denominator
-that unifies RSEs and enables them to identify with this domain that will become critically
+Nevertheless, all of them are required, and hence the values and competencies form a common denominator
+unifying RSEs and enabling them to identify with this RSE domain. A domain that will become critically
 important for many areas of science.
-These competencies at the intersection of research and software engineering
-coupled with a firm belief in team processes makes RSEs sought after on the job market
+These competencies at the intersection of research and SE
+coupled with a firm belief in team processes make RSEs sought after on the job market,
 and their values make them responsible members of a digital society.
-This yields a qualification profile which makes
-an education based on it highly attractive to young people.
+This yields a qualification profile, which makes
+an education based on it, highly attractive to young people.
 At an institutional level, research performing organisations have a growing
 interest in fostering RSE training to support the use of FAIR data and FAIR software in the academic world,
 a direction determined by new incentives created by scientific journals and librarians.
