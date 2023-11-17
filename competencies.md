@@ -30,13 +30,15 @@ output:
 secnumdepth: 3
 bibliography: bibliography.bib
 header-includes:
-    - \input{preamble.sty}
-    - \usepackage{pdflscape}
-    - \usepackage{multirow}
-    - \usepackage{array}
-    - \usepackage{longtable}
-    - \newcommand{\blandscape}{\begin{landscape}}
-    - \newcommand{\elandscape}{\end{landscape}}
+  - \input{preamble.sty}
+  - \usepackage{pdflscape}
+  - \usepackage{multirow}
+  - \usepackage{array}
+  - \usepackage{longtable}
+  - \newcommand{\blandscape}{\begin{landscape}}
+  - \newcommand{\elandscape}{\end{landscape}}
+include-before:
+    - \newpage
 xnos-cleveref: True
 xnos-capitalise: True
 keywords:

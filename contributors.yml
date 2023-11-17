@@ -1,8 +1,8 @@
 authors:
 
   - author: "Heidi Seibold"
-    lastName: Seibold
     firstName: Heidi
+    lastName: Seibold
     affiliations:
     - IGDORE Munich, Germany
     orcid: 0000-0002-8960-9642
@@ -71,8 +71,7 @@ authors:
     email: jgrad@icp.uni-stuttgart.de
     acknowledgements: |
       JNG acknowledges funding from the Deutsche Forschungsgemeinschaft
-      (DFG, German Research Foundation) Research Software Sustainability grant
-      no. [391126171](https://gepris.dfg.de/gepris/projekt/391126171?language=en)
+      (DFG, German Research Foundation) - project number \geprislink{391126171}
       (PI: Holm) and from the European Union – this work has received funding
       from the European High Performance Computing Joint Undertaking (JU) and
       countries participating in the project under grant agreement
@@ -107,7 +106,7 @@ authors:
       as well as the Joint Science Conference (GWK), for their
       funding and support within the framework of the NFDI4Ing consortium.
       Part of this work was funded by the German Research Foundation (DFG) - project number
-      [442146713](https://gepris.dfg.de/gepris/projekt/442146713?language=en).
+      \geprislink{442146713}.
       Part of this work was funded by the Hessian Ministry of Higher Education,
       Research, Science and the Arts - cluster project Clean Circles.
 
@@ -121,7 +120,7 @@ authors:
     acknowledgements: |
         MB acknowledges support by the Deutsche Forschungsgemeinschaft
         (DFG, German Research Foundation) under Germany's Excellence Strategy –
-        EXC 2120/1 – [390831618](https://gepris.dfg.de/gepris/projekt/390831618?language=en).
+        EXC 2120/1 – \geprislink{390831618}.
 
   - author: "Harald von Waldow"
     firstName: Harald
@@ -167,13 +166,13 @@ authors:
     email: anna-lena.lamprecht@uni-potsdam.de
 
   - author: "Toby Hodges"
-    lastName: Hodges
     firstName: Toby
+    lastName: Hodges
     affiliations:
       - The Carpentries, USA
     orcid: 0000-0003-1766-456X
     email: tobyhodges@carpentries.org
-    
+
   - author: "Leyla Jael Castro"
     firstName: Leyla Jael
     lastName: Castro
@@ -182,8 +181,8 @@ authors:
     orcid: 0000-0003-3986-0510
     email: ljgarcia@zbmed.de
     acknowledgements: |
-      LJC acknowledges support from the NFDI4DS consortium funded by the German Research Foundation (DFG) - project number
-      [460234259](https://gepris.dfg.de/gepris/projekt/460234259?language=en).
+      LJC acknowledges support from the NFDI4DS consortium funded by the German
+      Research Foundation (DFG) - project number \geprislink{460234259}.
 
   - author: "Guido Juckeland"
     firstName: Guido
