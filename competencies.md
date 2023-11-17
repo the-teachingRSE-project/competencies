@@ -717,15 +717,15 @@ We first summarise the meaning of each of the columns in the tables:
   research software - often a researcher with RSE skills. Often time-constrained,
       may be self-taught.
 - **Individual developer (RSE team-based):** A single person working on research
-  software - generally a professional RSE assigned to support another team's software on their own,
-  who however is connected to an RSE team.
+  software - generally a professional RSE assigned to support another team's software on their own.
 - **Group of developers (Locally-based):** A group of RSEs/researchers within
   a research group or team, working together on developing software to support
   or undertake a single research goal/project.
   Similarly to the individual RSE, they are often researchers with RSE skills,
   often self-taught.
 - **Group of developers (RSE team-based):** A group of members of the RSE team
-  working together on a research software project for a research group.
+  working together on a research software project for a research group
+  or on an institutional software to support research.
 - **Organisation-level support:** How the defined competencies are recognised
   and represented at an organisational level and what the organisation can
   do to support the RSEs in the context of the different team structures.
@@ -935,36 +935,36 @@ The current situation may differ.
 In the table above, we have looked at how different competencies can be related
 to and handled by researchers and RSEs working in different environments within
 an organisation and how the organisations themselves can contribute.
-We recognise that this is a challenging area to gain a detailed view of
-and that our content in the table is still a significant generalisation.
+We recognise that this is challenging getting a detailed view 
+and that our content in the table is still a generalisation.
 We talk about the "research software engineer" as a single entity but as the field expands,
 we expect to see more roles and job titles emerging around the RSE concept,
 many of which fit under the wider umbrella of research technology professionals (RTPs).
-Examples are different RSE-like computational roles of
-the European Bioinformatics Institute (EMBL-EBI)'s BioExcel competency framework [@BIOEXCEL] (also @subsec:emblbio),
-as is a range of different roles from King's Digital Lab at King's College London [@KDL].
+Examples might differ from other RSE-like computational roles, 
+e.g., EMBL-EBI's BioExcel competency framework [@BIOEXCEL] (also @subsec:emblbio),
+as ours include a range of different roles (mostly) taken from King's Digital Lab at King's College London [@KDL].
 
 # RSE specialisations {#sec:rse-specialisations}
 
-What we have defined above are intended to be base skills that an RSE irrespective of domain, place, and time should know about.
-But not all RSEs are created equal, they specialise in different areas,
+What we have defined above are intended to be base skills that an RSE —irrespective of domain, place, and time, should know about.
+However, not all RSEs carreers are equal, they specialise in different areas,
 some of which we want to present below. Many of the specialisations may overlap,
-so the same RSE might for example work on data management and open science.
-We categorise them into those that can be viewed as a specialisation within RSE-specific topics,
+so the same RSE might, for example, work on data management and open science.
+We categorise them in such a way that categories can be seen as a specialisation within RSE-specific topics,
 while other RSEs might expand their skill set and profession to areas, that are not typical for an RSE.
 
 
 ## Specialisations within the core RSE competencies
 
-#### OpenScience RSE
-Open science and FAIRness of data and software are increasingly important topics in research,
+#### Open Science RSE
+Open science and FAIRness of data and software (and other research artefacts) are increasingly important topics in research,
 as exemplified by the demand of an increasing amount of research funding agencies requiring openness.
 Hence, an open science RSE is required to have a deeper knowledge in (RC) and how to distribute software publicly (SRU, SP).
 Open Science RSEs can help researchers navigate the technical questions that come up
 when practising Open Science, such as "How do I make my code presentable?",
 "What do I need to do to make my software FAIR?", or
 "How do I sustainably work with an (international) team on a large code base?".
-Like the Data-focused RSE, they have a deep understanding of research data management (RDM) topics.
+Like the Data-focused RSE, they have a deep understanding of research data management (RDM) and research software management plan (SMP) topics.
 
 #### Project/community manager RSEs
 
