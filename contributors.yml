@@ -127,7 +127,7 @@ authors:
     firstName: Harald
     lastName: von Waldow
     affiliations:
-      - Johann Heinrich von Thünen Institute, Centre for Information Management, Braunschweig, Germany
+      - Johann Heinrich von Thünen Institute, Centre for Information Management, Germany
     orcid: 0000-0003-4800-2833
     email: harald.vonwaldow@thuenen.de
 
@@ -184,6 +184,15 @@ authors:
     acknowledgements: |
       LJC acknowledges support from the NFDI4DS consortium funded by the German Research Foundation (DFG) - project number
       [460234259](https://gepris.dfg.de/gepris/projekt/460234259?language=en).
+
+  - author: "Guido Juckeland"
+    firstName: Guido
+    lastName: Juckeland
+    affiliations:
+      - Helmholtz-Zentrum Dresden-Rossendorf, Germany
+    orcid: 0000-0002-9935-4428
+    email: g.juckeland@hzdr.de
+
 # please use the following author template (all fields are optional):
 
 #  - author: "F. D. C. Willard, Jr."

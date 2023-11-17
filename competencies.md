@@ -21,6 +21,7 @@ author:
   - Dominic Kempf
   - Toby Hodges
   - Leyla Jael Castro
+  - Guido Juckeland
 output:
   pdf_document:
     citation_package: biblatex
