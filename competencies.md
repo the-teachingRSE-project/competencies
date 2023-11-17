@@ -461,7 +461,7 @@ domain-specific data repositories.
 While software repositories (see SWREPOS in the previous section) are commonly used to actually host the software and follow its development, 
 domain-based repositories/registries/directories provide a quick description of the software together with some links to other research outcomes. 
 Such descriptions and links can be represented with metadata (improving FAIRness of the software) and be exposed to the broad public, 
-making it easier for others (people and machines) to find, for instance, software used of a partiucular task, taking a specific dataset as imput, dealing with a certain type of data.
+making it easier for others (people and machines) to find, for instance, software used for a partiucular task, taking a specific dataset as imput, or dealing with a certain type of data.
 In addition to software repositores and domain-based repositories, archives are also used in research for (software) long-term preservation. 
 
 ## Communication skills
