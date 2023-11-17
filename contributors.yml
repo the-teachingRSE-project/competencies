@@ -173,6 +173,17 @@ authors:
       - The Carpentries, USA
     orcid: 0000-0003-1766-456X
     email: tobyhodges@carpentries.org
+    
+  - author: "Leyla Jael Castro"
+    firstName: Leyla Jael
+    lastName: Castro
+    affiliations:
+      - ZB MED Information Centre for Life Sciences, Cologne, Germany
+    orcid: 0000-0003-3986-0510
+    email: ljgarcia@zbmed.de
+    acknowledgements: |
+      LJC acknowledges support from the NFDI4DS consortium funded by the German Research Foundation (DFG) - project number
+      [460234259](https://gepris.dfg.de/gepris/projekt/460234259?language=en).
 
   - author: "Guido Juckeland"
     firstName: Guido

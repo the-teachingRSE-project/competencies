@@ -20,6 +20,7 @@ author:
   - Anna-Lena Lamprecht
   - Dominic Kempf
   - Toby Hodges
+  - Leyla Jael Castro
   - Guido Juckeland
 output:
   pdf_document:
