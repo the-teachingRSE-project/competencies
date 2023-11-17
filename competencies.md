@@ -2,26 +2,26 @@
 title: "Foundational Competencies and Responsibilities of a Research Software Engineer"
 geometry: margin=2.5cm
 author:
-  - Heidi Seibold
   - Florian Goth
-  - Jan Linxweiler
-  - Jan Philipp Thiele
-  - Jeremy Cohen
   - Renato Alves
-  - Samantha Wittke
-  - Jean-Noël Grad
-  - Fredo Erxleben
-  - Magnus Hagdorn
-  - Harald von Waldow
-  - Moritz Schwarzmeier
   - Matthias Braun
-  - Simon Christ
-  - Gerasimos Chourdakis
-  - Anna-Lena Lamprecht
-  - Dominic Kempf
-  - Toby Hodges
   - Leyla Jael Castro
+  - Gerasimos Chourdakis
+  - Simon Christ
+  - Jeremy Cohen
+  - Fredo Erxleben
+  - Jean-Noël Grad
+  - Magnus Hagdorn
+  - Toby Hodges
   - Guido Juckeland
+  - Dominic Kempf
+  - Anna-Lena Lamprecht
+  - Jan Linxweiler
+  - Moritz Schwarzmeier
+  - Heidi Seibold
+  - Jan Philipp Thiele
+  - Harald von Waldow
+  - Samantha Wittke
 output:
   pdf_document:
     citation_package: biblatex
