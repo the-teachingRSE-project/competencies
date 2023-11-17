@@ -1244,7 +1244,7 @@ Her work so far has already been heavy on (\faicon{"F500} TEAM) skills, but now 
 
 #### RSE-focused Principal Investigator
 
-The job experience as a leading RSE for a large project was the last requirement necessary to be awarded the title of a "Certified Research Software Professional" (CR\faicon{"F1EA} SP)
+The job experience as a leading RSE for a large project was the last requirement necessary to be awarded the title of a "Certified Research Software Professional" (CRSP)
 from an institutionalised centre of RSE education.
 The certificate confirms her track record of valuable software contributions
 and of teaching and mentoring people,
