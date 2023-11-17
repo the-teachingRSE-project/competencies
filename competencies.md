@@ -82,7 +82,7 @@ for their research, let alone write it [@NamingPain]. If they come from a non-te
 also struggle to know what to ask when trying to request help from and interact with
 more experienced staff at their institutions. A gap still exists in
 academic education, as many curricula do not sufficiently prepare their students
-in this regard. This situation is exemplified by the extracurricular MIT class
+in this regard. This situation is exemplified by the extracurricular Massachusetts Institute of Technology (MIT) class
 "The Missing Semester of Your CS Education" [@MIT], which aims to convey computing
 ecosystem literacy even to students of Computer Science at MIT.
 
@@ -94,7 +94,7 @@ and progress in research and academic roles is traditionally assessed through me
 do not directly include software outputs.
 A recent shift towards the establishment of the distinct role of a
 _"Research Software Engineer"_ [@WhatResearchSoftware]
-(RSE, a term that emerged from the UK a little over 10 years ago [@Hettrick2016]),
+(RSE, a term that emerged from the United Kingdom a little over 10 years ago [@Hettrick2016]),
 now provides a base on which sustainable career opportunities can be (and are being) built,
 allowing for better training of researchers and more effective support for the development of high
 quality research software.
@@ -160,7 +160,7 @@ and discusses the level of skill needed to work in each of them,
 before we conclude the paper with details of future work in @sec:future-work
 and conclusions in @sec:conclusion.
 Finally, @sec:appendix provides an example curriculum in @subsec:examplemaster,
-a story like description of a fictional RSE career progression in @subsec:examplecareer,
+a story-like description of a fictional RSE career progression in @subsec:examplecareer,
 and a list of existing skills and certifications in related fields, in @subsec:existingframeworks.
 
 ## Terminology
@@ -206,7 +206,7 @@ resources that are linked to a competency framework.
 
 #### HPC Certification Forum
 
-The HPC Certification Forum [@HPCCF] is working towards providing a certification
+The High-performance Computing (HPC) Certification Forum [@HPCCF] is working towards providing a certification
 process for High Performance Computing skills.
 As part of this process, the group is developing a Competence Standard [@HPCCFCompetencies]
 and an associated skill tree that provides a classification of HPC competencies.
@@ -214,13 +214,13 @@ This work aims to develop a standardised representation of relevant HPC knowledg
 and skills which can, in turn, lead to structured and recognised sets of skills
 that can underpin the certification process.
 
-#### EMBL/EBI Competency Hub
+#### EMBL-EBI Competency Hub
 
-The EMBL/EBI Competency Hub [@CompetencyHub] provides a bioinformatics/computational
+The European Molecular Biology Laboratory - European Bioinformatics Institute (EMBL-EBI) Competency Hub [@CompetencyHub] provides a bioinformatics/computational
 biology-focused example of a competency portal. In addition to collecting
 information on a range of competencies that can be browsed within the
 web-based tool, it also provides career profiles for roles
-within the domains that EMBL/EBI focuses on. The hub provides
+within the domains that EMBL-EBI focuses on. The hub provides
 access to variety of training resources that are linked to the specific
 competencies that they relate to. This enables learners to more easily
 find the right training materials in order to support their career
@@ -240,8 +240,8 @@ a range of open source training materials and international communities
 of volunteer instructors and helpers who run courses around these materials.
 A similar framework is provided by CodeRefinery [@CodeRefinery], currently
 funded by the Nordic e-Infrastructure,
-as well as SURESOFT [@SURESOFTLink; @SURESOFT2022], a DFG funded project at TU Braunschweig and
-FAU Erlangen-Nürnberg, targeting more advanced SE topics like
+as well as SURESOFT [@SURESOFTLink; @SURESOFT2022], a German Research Foundation (DFG, from its German name) funded project at Technical University (TU) Braunschweig and
+Friedrich-Alexander-University (FAU) Erlangen-Nürnberg, targeting more advanced SE topics such as 
 Software Design Principles, Design Patterns, Refactoring, Continuous Integration and Test Driven Development.
 
 There are also several initiatives focused on training HPC-oriented RSEs,
@@ -302,7 +302,7 @@ special topics such as cryptography or re-identification attacks [@Henriksen2016
 RSEs are often experienced professionals who instruct and work closely with early career researchers.
 Similarly to academic supervisors, they bear a certain responsibility to guide and advise younger colleagues
 with respect to career development and the achievement of academic goals.
-According to the UNESCO Science Report [@Schneegans2021] women account for 33.3% of all researchers while the majority of researchers come from G20 countries (88.8%).
+According to the United Nations Educational, Scientific and Cultural Organization (UNESCO) Science Report [@Schneegans2021] women account for 33.3% of all researchers while the majority of researchers come from G20 countries (88.8%).
 This imbalance is even more pronounced in SE with a majority of developers identifying as white male [@StackOverflow2022].
 Thereby, to promote their values of an honest, open, and inclusive research space, they should be aware of
 the diversity problem and help to mediate it whenever they have the chance to do so.
@@ -402,7 +402,7 @@ created and invite the public to scrutinise them for public review.
 We define this as a certain quality of analytical thinking that enables an RSE to
 form a mental model of a piece of software in a specific environment.
 Using that, an RSE should be able to make predictions about a software's behaviour.
-This is a required skill for common tasks like debugging, profiling, optimising, designing good
+This is a required skill for common tasks such as debugging, profiling, optimising, designing good
 tests, or predicting user interaction.
 An important facet of this capability relates to information security.
 RSEs need to consider the safety and integrity of personal data and other sensitive information
@@ -429,7 +429,7 @@ Thereby they know that they are part of a bigger cycle that involves many other 
 their domain, and also that their software can be utilised at different stages of the research cycle by different people.
 Like other researchers, RSEs are open to discussions and arguments beyond
 their own expertise and appreciate the underlying principles of
-good research, like publications, reviews and reproducibility.
+good research, including publications, reviews and reproducibility.
 
 ### Software re-use (SRU)
 
@@ -488,7 +488,7 @@ Code review also includes aspects of the teaching skill.
 
 ### Project management (PM)
 
-The RSE should have knowledge about project management. At some institutes, it follows the practices of the local research groups,
+The RSE should have knowledge about project management (PM). At some institutes, it follows the practices of the local research groups,
 but it is useful if an RSE knows its place in a PM scheme, or can bring in new ideas for improvement.
 Project management in research software engineering poses specific challenges (see [USERS](#interaction-with-users-and-other-stakeholders-users)) that might require the capacity
 to flexibly adapt to changing conditions and deviate from common project management methods.
@@ -517,13 +517,13 @@ what they would like to have learnt. Among the top five things mentioned were:
 - Testing. This task is a manifestation of the SE competencies of DOCBB and MOD
   since a model of the software is required in order to write good tests that
   facilitate understanding and documentation. Today this encompasses the
-  knowledge of testing frameworks and CI/CD practices.
+  knowledge of testing frameworks as well as continuous integration and continuous delivery/deployment (CI/CD) practices.
 - Contributing to large projects. This is a topic that requires competency in
   SWREPOS, SRU, SP in order to understand the ramifications of sharing, and DOCBB,
   since the contributed code has to be understood by others. Interacting with
   project members depends on the TEAM skill. Today this entails the effective
   use of collaborative platforms like GitHub/GitLab, honouring a project's code of
-  conduct, and some knowledge of popular software licences like e.g., the GPL.
+  conduct, and some knowledge of popular software licences, e.g., the General Public License (GPL).
 - When or why to keep repositories private. This decision requires knowledge in
   the RC, to understand when it makes sense to open up or close down a repository.
   The USERS, TEAM and sometimes SP skills are required to make this decision.
@@ -634,7 +634,7 @@ It is important to note that this section does not reflect the current state of 
 Instead, it summarises the discussions with and between workshop participants at different levels of academic progression on what they would have liked to learn at an earlier stage or know before starting their current position.
 While individuals already work at implementing some of these changes and teaching these skills, it has not yet reached a systemic level.
 
-The text is organised along the academic progression path (bachelor's degree, master's degree, PhD, Postdoc, PI/Professor).
+The text is organised along the academic progression path (bachelor's degree, master's degree, PhD, Postdoc, Principal Investigator (PI)/Professor).
 Since each level is based on the previous levels, we presume that the skills and competencies at each level also encompass those of the previous levels.
 Due to the broad need throughout academic specialisations,
 the described levels serve as a baseline
@@ -933,7 +933,7 @@ We talk about the "research software engineer" as a single entity but as the fie
 we expect to see more roles and job titles emerging around the RSE concept,
 many of which fit under the wider umbrella of research technology professionals (RTPs).
 Examples are different RSE-like computational roles of
-the European Bioinformatics Institute (EMBL-EBI)'s BioExcel competency framework [@BIOEXCEL] (also @subsec:emblbio),
+the EMBL-EBI BioExcel competency framework [@BIOEXCEL] (also @subsec:emblbio),
 as is a range of different roles from King's Digital Lab at King's College London [@KDL].
 
 # RSE specialisations {#sec:rse-specialisations}
@@ -948,7 +948,7 @@ while other RSEs might expand their skill set and profession to areas, that are 
 
 ## Specialisations within the core RSE competencies
 
-#### OpenScience RSE
+#### Open science RSE
 Open science and FAIRness of data and software are increasingly important topics in research,
 as exemplified by the demand of an increasing amount of research funding agencies requiring openness.
 Hence, an open science RSE is required to have a deeper knowledge in (RC) and how to distribute software publicly (SRU, SP).
@@ -1009,7 +1009,7 @@ New areas of expertise
 #### Research infrastructure RSE
 This RSE is interested in SysOps and system administration and sets up IT infrastructures for and with researchers.
 Therefore, this specialisation on the one hand requires a deep knowledge of physical computer and network hardware and
-on the other hand knowledge about setup and configuration of particular server software, like
+on the other hand knowledge about setup and configuration of particular server software, 
 e.g., setup of virtual machines on hypervisors or the planning and setup of compute server clusters machine learning.
 As an interface between the researchers and the infrastructure, they take care of user management, access permissions, and configuration of required services.
 
@@ -1070,7 +1070,7 @@ we foresee the need for RSEs that still have a background in RSE but extend it w
 that cover corner cases and go beyond applying Best Practice guides.
 These requirements may arise in the area of publication of research software,
 as this also requires knowledge about particular laws or regulatory frameworks concerning data protection,
-like the GDPR within the EU [@GDPR].
+like the General Data Protection Regulation (GDPR) within the European Union (EU) [@GDPR].
 Another area are legal aspects of cybersecurity and export control in science and research (see @ExportControl for Germany).
 Legal-RSEs focus on facilitating the achievement of technically feasible solutions, while adhering to regulatory mandates.
 They are able to communicate and collaborate with lawyers.
@@ -1091,7 +1091,7 @@ To alleviate that and give RSEs in leadership positions a means
 to become eligible for funding themselves, since completion of scientific training is often a requirement [@DFG_50_01],
 we propose the introduction of certificates that can be handed out by selected institutions.
 Examples of this could be doctorates based on software contributions to the scientific community, or new
-certificates like the certificate in @subsec:examplecareer that should become widely accepted.
+certificates like those in @subsec:examplecareer that should become widely accepted.
 Beyond having that discussion, a diverse set of publications is already in the making.
 Next, we will work on how to institutionalise education.
 In that publication, we will detail how we organise our institutions and what qualifications our teachers
@@ -1172,7 +1172,7 @@ Core modules are of course drawn from the three pillars of the RSE and can be ca
 
 - SE skills:
   - Foundational module: Here we have an introduction to programming: Students learn at least two languages: a language that facilitates prototyping and data processing (e.g., Python or R) and a language for designing complex, performance-critical systems (e.g., C/C++). This exposes them to computers in a hands-on fashion and is the foundation for (DOCBB, LIBS).
-  - Digital ecosystem module: Programming languages are not enough to work in a digital ecosystem, hence we require something like software craftsmanship, where tools like the Unix shell, version control systems, build systems, documentation generators, package distribution platforms, and software discovery systems are taught to strengthen skills in (LIBS, DOCBB, SWREPOS, SRU).
+  - Digital ecosystem module: Programming languages are not enough to work in a digital ecosystem, hence we require something like software craftsmanship, where tools such as the Unix shell, version control systems, build systems, documentation generators, package distribution platforms, and software discovery systems are taught to strengthen skills in (LIBS, DOCBB, SWREPOS, SRU).
   - Software architecture module: Here we teach software design and SE, again strengthening (DOCBB, LIBS) on a more abstract level.
 
 - Research skills:
