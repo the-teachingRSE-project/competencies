@@ -31,7 +31,7 @@ header-includes:
     - \usepackage{longtable}
     - \newcommand{\blandscape}{\begin{landscape}}
     - \newcommand{\elandscape}{\end{landscape}}
-    - '\newfontfamily\FA[Path=./fonts/, Extension=.otf]{Font Awesome 6 Free-Solid-900}'
+    - '\newfontfamily\FA[Path=../fonts/, Extension=.otf]{Font Awesome 6 Free-Solid-900}'
     - \newcommand*{\faicon}[1]{{\FA \symbol{#1}}}
 xnos-cleveref: True
 xnos-capitalise: True
