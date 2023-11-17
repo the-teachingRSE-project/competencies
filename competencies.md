@@ -84,7 +84,7 @@ for their research, let alone write it [@NamingPain]. If they come from a non-te
 also struggle to know what to ask when trying to request help from and interact with
 more experienced staff at their institutions. A gap still exists in
 academic education, as many curricula do not sufficiently prepare their students
-in this regard. This situation is exemplified by the extracurricular MIT class
+in this regard. This situation is exemplified by the extracurricular Massachusetts Institute of Technology (MIT) class
 "The Missing Semester of Your CS Education" [@MIT], which aims to convey computing
 ecosystem literacy even to students of Computer Science at MIT.
 
@@ -96,7 +96,7 @@ and progress in research and academic roles is traditionally assessed through me
 do not directly include software outputs.
 A recent shift towards the establishment of the distinct role of a
 _"Research Software Engineer"_ [@WhatResearchSoftware]
-(RSE, a term that emerged from the UK a little over 10 years ago [@Hettrick2016]),
+(RSE, a term that emerged from the United Kingdom a little over 10 years ago [@Hettrick2016]),
 now provides a base on which sustainable career opportunities can be (and are being) built,
 allowing for better training of researchers and more effective support for the development of high
 quality research software.
@@ -110,7 +110,7 @@ they may have a standard research or technical job title such as Research
 Assistant, Research Fellow, or Software Engineer. Regardless of their job title,
 RSEs share a set of core skills that are required to write software, understand
 the research environment, and ensure that they produce sustainable, maintainable
-code that supports reproducible research outputs, following the FAIR principles [@FAIR4RS].
+code that supports reproducible research outputs, following the Findability, Accessibility, Interoperability and Reusability (FAIR) principles [@FAIR4RS].
 
 This paper defines a set of core values and competencies,
 agnostic of specific technical capabilities or research domains,
@@ -120,9 +120,9 @@ we provide a guiding framework to facilitate
 the training and continuous professional development of RSEs,
 thus helping to provide a positive impact on
 research outputs and, ultimately, society as a whole.
-These competencies draw upon skills from traditional software engineering practice,
+These competencies draw upon skills from traditional SE practice,
 established research culture, and the commitment to being part of a team.
-While there is anecdotal evidence that academic software engineering practitioners
+While there is anecdotal evidence that academic SE practitioners
 would have chosen different competencies, we will argue that this trifecta of skills
 is exactly what is needed for modern digital research.
 
@@ -162,7 +162,7 @@ and discusses the level of skill needed to work in each of them,
 before we conclude the paper with details of future work in @sec:future-work
 and conclusions in @sec:conclusion.
 Finally, @sec:appendix provides an example curriculum in @subsec:examplemaster,
-a story like description of a fictional RSE career progression in @subsec:examplecareer,
+a story-like description of a fictional RSE career progression in @subsec:examplecareer,
 and a list of existing skills and certifications in related fields, in @subsec:existingframeworks.
 
 ## Terminology
@@ -208,7 +208,7 @@ resources that are linked to a competency framework.
 
 #### HPC Certification Forum
 
-The HPC Certification Forum [@HPCCF] is working towards providing a certification
+The High-performance Computing (HPC) Certification Forum [@HPCCF] is working towards providing a certification
 process for High Performance Computing skills.
 As part of this process, the group is developing a Competence Standard [@HPCCFCompetencies]
 and an associated skill tree that provides a classification of HPC competencies.
@@ -216,13 +216,13 @@ This work aims to develop a standardised representation of relevant HPC knowledg
 and skills which can, in turn, lead to structured and recognised sets of skills
 that can underpin the certification process.
 
-#### EMBL/EBI Competency Hub
+#### EMBL-EBI Competency Hub
 
-The EMBL/EBI Competency Hub [@CompetencyHub] provides a bioinformatics/computational
+The European Molecular Biology Laboratory - European Bioinformatics Institute (EMBL-EBI) Competency Hub [@CompetencyHub] provides a bioinformatics/computational
 biology-focused example of a competency portal. In addition to collecting
 information on a range of competencies that can be browsed within the
 web-based tool, it also provides career profiles for roles
-within the domains that EMBL/EBI focuses on. The hub provides
+within the domains that EMBL-EBI focuses on. The hub provides
 access to variety of training resources that are linked to the specific
 competencies that they relate to. This enables learners to more easily
 find the right training materials in order to support their career
@@ -242,13 +242,13 @@ a range of open source training materials and international communities
 of volunteer instructors and helpers who run courses around these materials.
 A similar framework is provided by CodeRefinery [@CodeRefinery], currently
 funded by the Nordic e-Infrastructure,
-as well as SURESOFT [@SURESOFTLink; @SURESOFT2022], a DFG funded project at TU Braunschweig and
-FAU Erlangen-Nürnberg, targeting more advanced software engineering topics like
+as well as SURESOFT [@SURESOFTLink; @SURESOFT2022], a German Research Foundation (DFG, from its German name) funded project at Technical University (TU) Braunschweig and
+Friedrich-Alexander-University (FAU) Erlangen-Nürnberg, targeting more advanced SE topics such as 
 Software Design Principles, Design Patterns, Refactoring, Continuous Integration and Test Driven Development.
 
 There are also several initiatives focused on training HPC-oriented RSEs,
 such as the Partnership for Advanced Computing in Europe (PRACE) [@PRACE]
-(with material aggregated on various websites, e.g. on EuroCC Training [@EuroCCTraining]),
+(with material aggregated on various websites, e.g., on EuroCC Training [@EuroCCTraining]),
 UNIVERSE-HPC (Understanding and Nurturing an Integrated Vision for
 Education in RSE and HPC) [@UNIVERSEHPC] (a project funded under the UK's
 ExCALIBUR research programme [@EXCALIBUR]),
@@ -262,7 +262,7 @@ the Helmholtz Federated IT Services platform (HIFIS) [@HIFIS], and the already m
 
 The activities of an RSE are guided by ethical values.
 In addition to the values for good scientific practice [@dfg_gsp], RSEs also adhere to
-the software engineering Code of Ethics [@Gotterbarn1999].
+the SE Code of Ethics [@Gotterbarn1999].
 Central to that code is the RSE's obligation to
 commit to the health, safety and welfare of the public and act in the interest of society, their employer and their clients.
 Further values loosely based on that code include the obligations
@@ -274,7 +274,7 @@ Further values loosely based on that code include the obligations
 + to treat colleagues and collaborators with respect and work towards a fair and inclusive environment, and
 + to promote these values whenever possible and make sure that they are passed on to new practitioners.
 
-RSEs often assume a multifaceted role at the junction of research, software engineering and data management.
+RSEs often assume a multifaceted role at the junction of research, SE and data management.
 They work with a varying and diverse set of colleagues that might include other developers,
 support unit staff and academics of different fields and all career stages.
 This situation yields a specific set of challenges RSEs should be aware of
@@ -290,7 +290,7 @@ We highlight that professional conduct requires these creations to be reliable a
 In particular, the way that personal data is handled can have far-reaching implications for society.
 Independent of the encoding into the respective national law in an RSE's jurisdiction,
 the right to information privacy is internationally recognised as a fundamental human right,
-e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988; @Hirvela2022].
+e.g., in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988; @Hirvela2022].
 RSEs need to be aware of this topic's importance
 and deal with tensions that might arise with researchers' desire for trouble-free sharing of data, thereby expecting openness about the research process,
 versus the integrity expectations of the society towards IT systems.
@@ -304,8 +304,8 @@ special topics such as cryptography or re-identification attacks [@Henriksen2016
 RSEs are often experienced professionals who instruct and work closely with early career researchers.
 Similarly to academic supervisors, they bear a certain responsibility to guide and advise younger colleagues
 with respect to career development and the achievement of academic goals.
-According to the UNESCO Science Report [@Schneegans2021] women account for 33.3% of all researchers while the majority of researchers come from G20 countries (88.8%).
-This imbalance is even more pronounced in software engineering with a majority of developers identifying as white male [@StackOverflow2022].
+According to the United Nations Educational, Scientific and Cultural Organization (UNESCO) Science Report [@Schneegans2021] women account for 33.3% of all researchers while the majority of researchers come from G20 countries (88.8%).
+This imbalance is even more pronounced in SE with a majority of developers identifying as white male [@StackOverflow2022].
 Thereby, to promote their values of an honest, open, and inclusive research space, they should be aware of
 the diversity problem and help to mediate it whenever they have the chance to do so.
 
@@ -352,13 +352,13 @@ the different RSE specialisations (**RSE specialisations**).
 
 ## Software engineering skills
 
-There are many software engineering curricula out there, that try to define
+There are many SE curricula out there, that try to define
 which tasks a software engineer should be able to perform. A recent example
 highlighting some aspects in more detail than here is @Landwehr2017.
 The software skills outlined here are required to make research software adhere
 to the FAIR principles, which are aspects of good scientific practice.
 @ChueHong2014 defines different levels of research
-software reusability and the extent to which the software engineering skills
+software reusability and the extent to which the SE skills
 need to be applied to reach them.
 
 ### Creating documented code building blocks (DOCBB)
@@ -404,7 +404,7 @@ created and invite the public to scrutinise them for public review.
 We define this as a certain quality of analytical thinking that enables an RSE to
 form a mental model of a piece of software in a specific environment.
 Using that, an RSE should be able to make predictions about a software's behaviour.
-This is a required skill for common tasks like debugging, profiling, optimising, designing good
+This is a required skill for common tasks such as debugging, profiling, optimising, designing good
 tests, or predicting user interaction.
 An important facet of this capability relates to information security.
 RSEs need to consider the safety and integrity of personal data and other sensitive information
@@ -431,7 +431,7 @@ Thereby they know that they are part of a bigger cycle that involves many other 
 their domain, and also that their software can be utilised at different stages of the research cycle by different people.
 Like other researchers, RSEs are open to discussions and arguments beyond
 their own expertise and appreciate the underlying principles of
-good research, like publications, reviews and reproducibility.
+good research, including publications, reviews and reproducibility.
 
 ### Software re-use (SRU)
 
@@ -466,7 +466,7 @@ They are embedded in a research group or work within a team of RSEs supporting p
 RSEs often need to interact with and facilitate communication among colleagues, clients and contractors
 with a very broad spectrum of background-knowledge, specialisation, expectations, and experience.
 Communication skills are therefore crucially important.
-Team skills are also mentioned in common guides for software engineering such as the software engineering body of knowledge [@swebok_2014].
+Team skills are also mentioned in common guides for SE such as the software engineering body of knowledge [@swebok_2014].
 However, the interpersonal and organisational skills and the capacity for adaption required to work in a research setting
 warrants a much stronger emphasis on this field of competence.
 
@@ -490,7 +490,7 @@ Code review also includes aspects of the teaching skill.
 
 ### Project management (PM)
 
-The RSE should have knowledge about project management. At some institutes, it follows the practices of the local research groups,
+The RSE should have knowledge about project management (PM). At some institutes, it follows the practices of the local research groups,
 but it is useful if an RSE knows its place in a PM scheme, or can bring in new ideas for improvement.
 Project management in research software engineering poses specific challenges (see [USERS](#interaction-with-users-and-other-stakeholders-users)) that might require the capacity
 to flexibly adapt to changing conditions and deviate from common project management methods.
@@ -519,13 +519,13 @@ what they would like to have learnt. Among the top five things mentioned were:
 - Testing. This task is a manifestation of the SE competencies of DOCBB and MOD
   since a model of the software is required in order to write good tests that
   facilitate understanding and documentation. Today this encompasses the
-  knowledge of testing frameworks and CI/CD practices.
+  knowledge of testing frameworks as well as continuous integration and continuous delivery/deployment (CI/CD) practices.
 - Contributing to large projects. This is a topic that requires competency in
   SWREPOS, SRU, SP in order to understand the ramifications of sharing, and DOCBB,
   since the contributed code has to be understood by others. Interacting with
   project members depends on the TEAM skill. Today this entails the effective
   use of collaborative platforms like GitHub/GitLab, honouring a project's code of
-  conduct, and some knowledge of popular software licences like e.g. the GPL.
+  conduct, and some knowledge of popular software licences, e.g., the General Public License (GPL).
 - When or why to keep repositories private. This decision requires knowledge in
   the RC, to understand when it makes sense to open up or close down a repository.
   The USERS, TEAM and sometimes SP skills are required to make this decision.
@@ -559,7 +559,7 @@ Beyond that, we feel that today other important tasks of RSEs are
   Some research software might even be used to deal with critical questions such as weather forecasting or medical diagnosis.
   To formalise the process of giving good advice a classification of software is commonly used [@Wang2012; @Schlauch2018b]
   where research software can move from one class to another during its life-cycle.
-  @Schlauch2018b classify applications based on their scope and criticality and provide software engineering recommendations.
+  @Schlauch2018b classify applications based on their scope and criticality and provide SE recommendations.
   The RSE needs to be able to identify the application class they are dealing with and apply the respective RSE practices.
 - Enforcing reproducibility. Projects like ReproHack [@ReproHack] can greatly help in fostering that competency.
 
@@ -627,7 +627,7 @@ Additionally, many researchers in fields from classical examples like
 numerical mathematics or theoretical physics
 to newer disciplines like digital humanities
 will spend time in their research on writing and developing software.
-Therefore, RSE focused training, e.g. in a master's programme,
+Therefore, RSE focused training, e.g., in a master's programme,
 is also beneficial for students in these fields
 resulting in a broader audience.
 
@@ -636,7 +636,7 @@ It is important to note that this section does not reflect the current state of 
 Instead, it summarises the discussions with and between workshop participants at different levels of academic progression on what they would have liked to learn at an earlier stage or know before starting their current position.
 While individuals already work at implementing some of these changes and teaching these skills, it has not yet reached a systemic level.
 
-The text is organised along the academic progression path (bachelor's degree, master's degree, PhD, Postdoc, PI/Professor).
+The text is organised along the academic progression path (bachelor's degree, master's degree, PhD, Postdoc, Principal Investigator (PI)/Professor).
 Since each level is based on the previous levels, we presume that the skills and competencies at each level also encompass those of the previous levels.
 Due to the broad need throughout academic specialisations,
 the described levels serve as a baseline
@@ -769,12 +769,12 @@ The current situation may differ.
       Need to think about coherent life-cycle management across the team - generally
       a key area of expertise for an RSE team.&
     Should support with training. Organisation may also provide site
-      licences for, e.g. management tools.
+      licences for, e.g., management tools.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     SWREPOS&
     Uses repositories for code management and demonstrating outputs,
-    e.g. for supporting academic credit, but may be missing skills.&
+    e.g., for supporting academic credit, but may be missing skills.&
     As locally-based, but professional RSEs are generally very experienced
       with use of repositories and their many features.&
     Uses repositories to collaborate inside the team.
@@ -935,7 +935,7 @@ We talk about the "research software engineer" as a single entity but as the fie
 we expect to see more roles and job titles emerging around the RSE concept,
 many of which fit under the wider umbrella of research technology professionals (RTPs).
 Examples are different RSE-like computational roles of
-the European Bioinformatics Institute (EMBL-EBI)'s BioExcel competency framework [@BIOEXCEL] (also @subsec:emblbio),
+the EMBL-EBI BioExcel competency framework [@BIOEXCEL] (also @subsec:emblbio),
 as is a range of different roles from King's Digital Lab at King's College London [@KDL].
 
 # RSE specialisations {#sec:rse-specialisations}
@@ -950,7 +950,7 @@ while other RSEs might expand their skill set and profession to areas, that are 
 
 ## Specialisations within the core RSE competencies
 
-#### OpenScience RSE
+#### Open science RSE
 Open science and FAIRness of data and software are increasingly important topics in research,
 as exemplified by the demand of an increasing amount of research funding agencies requiring openness.
 Hence, an open science RSE is required to have a deeper knowledge in (RC) and how to distribute software publicly (SRU, SP).
@@ -997,7 +997,7 @@ This can often serve as a base domain for RSE specialisation as in @subsec:examp
 RSEs working at the flourishing intersection between data science and RSE.
 They are skilled in cleaning data and/or running data analyses and can help researchers
 in setting up their analysis pipeline and/or RDM solutions.
-When the field requires research on sensitive data or information, e.g. patient information in medicine,
+When the field requires research on sensitive data or information, e.g., patient information in medicine,
 this RSE should have knowledge about secure transfer methods and/or ways to anonymise the data.
 As part of RDM, this RSE profile is able to support all stages of the research data life-cycle [@Nieva2020], with synchronous data management processes.
 Those processes implement established best practices for planning and documenting of data acquisition in a data management plan (DMP), as well as for management,
@@ -1011,8 +1011,8 @@ New areas of expertise
 #### Research infrastructure RSE
 This RSE is interested in SysOps and system administration and sets up IT infrastructures for and with researchers.
 Therefore, this specialisation on the one hand requires a deep knowledge of physical computer and network hardware and
-on the other hand knowledge about setup and configuration of particular server software, like
-e.g. setup of virtual machines on hypervisors or the planning and setup of compute server clusters machine learning.
+on the other hand knowledge about setup and configuration of particular server software, 
+e.g., setup of virtual machines on hypervisors or the planning and setup of compute server clusters machine learning.
 As an interface between the researchers and the infrastructure, they take care of user management, access permissions, and configuration of required services.
 
 #### Maintenance RSEs
@@ -1072,7 +1072,7 @@ we foresee the need for RSEs that still have a background in RSE but extend it w
 that cover corner cases and go beyond applying Best Practice guides.
 These requirements may arise in the area of publication of research software,
 as this also requires knowledge about particular laws or regulatory frameworks concerning data protection,
-like the GDPR within the EU [@GDPR].
+like the General Data Protection Regulation (GDPR) within the European Union (EU) [@GDPR].
 Another area are legal aspects of cybersecurity and export control in science and research (see @ExportControl for Germany).
 Legal-RSEs focus on facilitating the achievement of technically feasible solutions, while adhering to regulatory mandates.
 They are able to communicate and collaborate with lawyers.
@@ -1093,7 +1093,7 @@ To alleviate that and give RSEs in leadership positions a means
 to become eligible for funding themselves, since completion of scientific training is often a requirement [@DFG_50_01],
 we propose the introduction of certificates that can be handed out by selected institutions.
 Examples of this could be doctorates based on software contributions to the scientific community, or new
-certificates like the certificate in @subsec:examplecareer that should become widely accepted.
+certificates like those in @subsec:examplecareer that should become widely accepted.
 Beyond having that discussion, a diverse set of publications is already in the making.
 Next, we will work on how to institutionalise education.
 In that publication, we will detail how we organise our institutions and what qualifications our teachers
@@ -1131,7 +1131,7 @@ At the same time,
 being software engineers, we cherish that we have to take responsibility for our tools.
 We continue with core competencies that have been intentionally formulated
 abstractly without referencing any particular information-processing device.
-As expected, we draw equally upon notions from software engineering and research,
+As expected, we draw equally upon notions from SE and research,
 but find that we likewise require teamwork capabilities.
 We continue with detailing these competencies in various dimensions and find that
 a different amount is required in different positions and scientific domains,
@@ -1139,7 +1139,7 @@ while proposing recommendations for organisations to foster the development of t
 Nevertheless, they are required and hence the values and competencies form a common denominator
 that unifies RSEs and enables them to identify with this domain that will become critically
 important for many areas of science.
-These competencies at the intersection of research and software engineering
+These competencies at the intersection of research and SE
 coupled with a firm belief in team processes makes RSEs sought after on the job market
 and their values make them responsible members of a digital society.
 This yields a qualification profile which makes
@@ -1172,10 +1172,10 @@ and attend these additional modules to deepen their knowledge in the field.
 
 Core modules are of course drawn from the three pillars of the RSE and can be categorised accordingly.
 
-- Software engineering skills:
+- SE skills:
   - Foundational module: Here we have an introduction to programming: Students learn at least two languages: a language that facilitates prototyping and data processing (e.g., Python or R) and a language for designing complex, performance-critical systems (e.g., C/C++). This exposes them to computers in a hands-on fashion and is the foundation for (DOCBB, LIBS).
-  - Digital ecosystem module: Programming languages are not enough to work in a digital ecosystem, hence we require something like software craftsmanship, where tools like the Unix shell, version control systems, build systems, documentation generators, package distribution platforms, and software discovery systems are taught to strengthen skills in (LIBS, DOCBB, SWREPOS, SRU).
-  - Software architecture module: Here we teach software design and software engineering, again strengthening (DOCBB, LIBS) on a more abstract level.
+  - Digital ecosystem module: Programming languages are not enough to work in a digital ecosystem, hence we require something like software craftsmanship, where tools such as the Unix shell, version control systems, build systems, documentation generators, package distribution platforms, and software discovery systems are taught to strengthen skills in (LIBS, DOCBB, SWREPOS, SRU).
+  - Software architecture module: Here we teach software design and SE, again strengthening (DOCBB, LIBS) on a more abstract level.
 
 - Research skills:
   - Optional domain mastery module: Additional minor research courses, but students with a home-domain already have the research part well-covered.
@@ -1298,7 +1298,7 @@ in collaboration with initiatives funded by the European High Performance Comput
 Joint Undertaking (EuroHPC JU) to create a framework for HPC certification [@EuroHPCJU2023].
 While this framework focuses mostly on skills specific to HPC, there are a couple of similarities
 to the framework proposed in this paper. The "SD: Software Development" skill set
-is very similar to the software engineering skills discussed in @sec:required-generic-skills,
+is very similar to the SE skills discussed in @sec:required-generic-skills,
 describing a wide range of such skills.
 This skill set contains
 Programming Best Practices (SD2), Software Configuration Management (SD3), Software Quality (SD5),
@@ -1332,10 +1332,10 @@ These frameworks eventually converged into the EMBL-EBI Competency Hub
 [@CompetencyHub; @Lloret-Llinares2022],
 where typical RSE and bioinformatician profiles at different levels
 of seniority can be queried
-(e.g. Junior RSE[^JuniorRSE], 
+(e.g., Junior RSE[^JuniorRSE], 
 Senior Computational Chemist[^SeniorCC])
 and compared against one another
-(e.g. Junior vs. Senior RSE[^Comp]).
+(e.g., Junior vs. Senior RSE[^Comp]).
 
 Competencies can be divided into more fine-grained building blocks:
 knowledge, skills and abilities (KSAs). They can be organised in a taxonomy,
