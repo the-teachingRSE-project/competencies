@@ -12,7 +12,7 @@ jobs:
         run: |
           sudo apt-get update && sudo apt-get install -y --no-install-recommends \
             texlive pandoc texlive-bibtex-extra texlive-fonts-recommended \
-            texlive-xetex texlive-fonts-extra lmodern biber latexmk python3 python3-yaml \
+            texlive-xetex lmodern biber latexmk python3 python3-yaml \
             xz-utils make gpg-agent
           python3 -m pip install -r ${{ env.DIR }}/requirements.txt
       - name: Configure LaTeX environment
@@ -21,7 +21,7 @@ jobs:
           mkdir -p "${HOME}/texmf"
           tlmgr init-usertree
           tlmgr option repository https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2021/tlnet-final/
-          tlmgr install academicons fontawesome
+          tlmgr install academicons
       - name: pandoc compile
         working-directory: ${{ env.DIR }}
         run: make all
