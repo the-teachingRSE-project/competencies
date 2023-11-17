@@ -1152,12 +1152,14 @@ that provide this education will be the topic of a follow-up paper.
 
 # Contribution details
 Heidi Seibold did the original conceptualisation and conceived the workshop.
-Heidi Seibold, Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele, and Samantha Wittke organised the deRSE23 workshop.
+Heidi Seibold, Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele,
+and Samantha Wittke organised the deRSE23 workshop.
 We thank all the participants of this original community workshop!
 
-Heidi Seibold, Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele, Jan Linxweiler, Jean-Noel Grad, and Samantha Wittke contributed the initial draft
+Heidi Seibold, Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele,
+Jan Linxweiler, Jean-Noël Grad, and Samantha Wittke contributed the initial draft.
 Florian Goth supervised the project and did the project administration.
-Jean-Noel Grad conceived and implemented the software tooling.
+Jean-Noël Grad conceived and implemented the software tooling.
 Everybody contributed to the final review and editing.
 
 \appendix
