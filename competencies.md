@@ -342,7 +342,7 @@ to the FAIR principles. [@ChueHong2014] defines different levels of research
 software reusability and the extent to which the software engineering skills
 need to be applied to reach them.
 
-### Creating documented code building blocks (\faicon{"F0E8} DOCBB)
+### Creating documented code building blocks (\faicon{"F0E8}\nobreakspace{}DOCBB)
 
 The RSE should be able to create building blocks from source code that are
 reusable. This ranges from simple libraries of functions up to complex
@@ -353,7 +353,7 @@ is primarily achieved through a "clean" implementation and enhanced by
 documentation. Documentation ranges from commenting code blocks to using
 documentation (building) tools.
 
-### Building distributable libraries (\faicon{"E4C7} LIBS)
+### Building distributable libraries (\faicon{"E4C7}\nobreakspace{}LIBS)
 
 The RSE should be able to distribute their code on their domain/language
 specific distribution platforms. This almost always encompasses
@@ -362,7 +362,7 @@ requires knowledge of using build systems to enable interoperability with other
 systems.
 
 
-### Adapting to the software life-cycle (\faicon{"E4E2} SWLC)
+### Adapting to the software life-cycle (\faicon{"E4E2}\nobreakspace{}SWLC)
 
 The traditional software life-cycle defines the stages that form the process of building a piece of software.
 Initial development generally involves a creative process where requirements are gathered and analysed,
@@ -375,12 +375,12 @@ The RSE should be aware of this life-cycle
 and be able to predict and cater to the changing needs of software as it moves through the stages.
 
 
-### Use repositories (\faicon{"E13C} SWREPOS)
+### Use repositories (\faicon{"E13C}\nobreakspace{}SWREPOS)
 
 The RSE should be able to use public platforms (so-called software repositories or repos) to share the artefacts they have
 created and invite the public to scrutinise them for public review.
 
-### Software Behaviour Awareness and Analysis (\faicon{"F5FC} MOD)
+### Software Behaviour Awareness and Analysis (\faicon{"F5FC}\nobreakspace{}MOD)
 
 We define this as a certain quality of analytical thinking that enables an RSE to
 form a mental model of a piece of software in a specific environment.
@@ -393,7 +393,7 @@ and make sure that they do not negatively impact the integrity of their institut
 
 ## The research skills
 
-### Curiosity (\faicon{"E54D} NEW)
+### Curiosity (\faicon{"E54D}\nobreakspace{}NEW)
 
 RSEs gain their reputation from their effectiveness in interacting with their
 domain peers. Therefore, some curiosity together with a broad overview of the
@@ -402,7 +402,7 @@ Curiosity is also reflected when an RSE is actively
 trying out new tools. Lifelong learning is then no longer just a phrase but
 becomes a motivation to work.
 
-### Understanding the research cycle (\faicon{"E4BB} RC)
+### Understanding the research cycle (\faicon{"E4BB}\nobreakspace{}RC)
 
 One of the crucial skills of RSEs is their mental proximity to research.
 They embrace being part of a larger community which,
@@ -414,7 +414,7 @@ Like other researchers, RSEs are open to discussions and arguments beyond
 their own expertise and appreciate the underlying principles of
 good research, like publications, reviews and reproducibility.
 
-### Software re-use (\faicon{"F1B8} SRU)
+### Software re-use (\faicon{"F1B8}\nobreakspace{}SRU)
 
 One goal of FAIR software is to avoid unnecessary duplication of work by reusing
 existing work instead. To (re-) use software, researchers have to be able to
@@ -422,7 +422,7 @@ find it and then easily evaluate if the software actually suits their needs.
 Apart from functionality, the integration with other software,
 expected sustainability, and extensibility also have to be part of this evaluation.
 
-### Software publication (\faicon{"F1EA} SP)
+### Software publication (\faicon{"F1EA}\nobreakspace{}SP)
 
 The second part of FAIR software is concerned with publishing new and derived works
 and making them available for re-use by the research community and the general public.
@@ -431,7 +431,7 @@ the compatibility of different common licenses and the ramifications for re-usin
 Finally, RSEs will need to properly execute the technicalities of software publishing,
 such as applying licenses, honouring copyright statements and crediting contributors.
 
-### Using domain repositories/directories (\faicon{"F07B} DOMREP)
+### Using domain repositories/directories (\faicon{"F07B}\nobreakspace{}DOMREP)
 
 Almost all research software is developed within a specific scientific domain.
 Some software may be able to cross boundaries, but the majority will have a
@@ -451,7 +451,7 @@ Team skills are also mentioned in common guides for software engineering such as
 However, the interpersonal and organisational skills and the capacity for adaption required to work in a research setting
 warrants a much stronger emphasis on this field of competence.
 
-### Working in a team (\faicon{"F500} TEAM)
+### Working in a team (\faicon{"F500}\nobreakspace{}TEAM)
 
 Working in a team is all about communication and teamwork.
 For example, RSEs need to be able to explain particular implementation choices made and may even need to defend them.
@@ -463,7 +463,7 @@ including, for example, IT staff, domain scientists and technicians working alon
 The shared values come into play and each RSE needs to ensure that these values are lived by and passed on to others.
 Senior RSEs may lead a team of RSEs.
 
-### Teaching (\faicon{"F51C} TEACH)
+### Teaching (\faicon{"F51C}\nobreakspace{}TEACH)
 
 RSEs have many opportunities to teach.
 These range from inducting new colleagues to teaching digital skills either through short courses,
@@ -471,14 +471,14 @@ for example from The Carpentries [@Carpentries], or entire lecture series.
 RSEs may also act as mentors and consultants.
 Code review also includes aspects of the teaching skill.
 
-### Project Management (\faicon{"F46D} PM)
+### Project Management (\faicon{"F46D}\nobreakspace{}PM)
 
 The RSE should have knowledge about project management. At some institutes, it follows the practices of the local research groups,
-but it is useful, if an RSE knows its place in a \faicon{"F46D} PM scheme, or can bring in new ideas for improvement.
-Project management in research software engineering poses specific challenges (see [\faicon{"F086} USERS](#interaction-with-users-and-other-stakeholders-users)) that might require the capacity
+but it is useful, if an RSE knows its place in a \faicon{"F46D}\nobreakspace{}PM scheme, or can bring in new ideas for improvement.
+Project management in research software engineering poses specific challenges (see [\faicon{"F086}\nobreakspace{}USERS](#interaction-with-users-and-other-stakeholders-users)) that might require the capacity
 to flexibly adapt to changing conditions and deviate from common project management methods.
 
-### Interaction with users and other stakeholders (\faicon{"F086} USERS)
+### Interaction with users and other stakeholders (\faicon{"F086}\nobreakspace{}USERS)
 
 Since research software is often developed as part of the research process itself,
 its requirements and specifications might change with the progression of research.
@@ -499,33 +499,33 @@ RSE can be found. A snapshot of what this means today was obtained
 from learners and novice RSEs that we asked during the Paderborn workshop
 what they would like to have learnt. Among the top five things mentioned were:
 
-- Testing. This task is a manifestation of the SE competencies of \faicon{"F0E8} DOCBB and \faicon{"F5FC} MOD
+- Testing. This task is a manifestation of the SE competencies of \faicon{"F0E8}\nobreakspace{}DOCBB and \faicon{"F5FC}\nobreakspace{}MOD
   since a model of the software is required in order to write good tests that
   facilitate understanding and documentation. Today this encompasses the
   knowledge of testing frameworks and CI/CD practices.
 - Contributing to large projects. This is a topic that requires competency in
-  \faicon{"E13C} SWREPOS, \faicon{"F1B8} SRU, \faicon{"F1EA} SP in order to understand the ramifications of sharing, and \faicon{"F0E8} DOCBB,
+  \faicon{"E13C}\nobreakspace{}SWREPOS, \faicon{"F1B8}\nobreakspace{}SRU, \faicon{"F1EA}\nobreakspace{}SP in order to understand the ramifications of sharing, and \faicon{"F0E8}\nobreakspace{}DOCBB,
   since the contributed code has to be understood by others. Interacting with
-  project members depends on the \faicon{"F500} TEAM skill. Today this entails the effective
+  project members depends on the \faicon{"F500}\nobreakspace{}TEAM skill. Today this entails the effective
   use of collaborative platforms like GitHub/GitLab, honouring a project's Code of
   Conduct, and some knowledge of popular software licenses like e.g. GPL.
 - When or why to keep repositories private. This decision requires knowledge in
-  the \faicon{"E4BB} RC, to understand when it makes sense to open up or close down a repository.
-  The \faicon{"F086} USERS, \faicon{"F500} TEAM and sometimes \faicon{"F1EA} SP skills are required to make this decision.
+  the \faicon{"E4BB}\nobreakspace{}RC, to understand when it makes sense to open up or close down a repository.
+  The \faicon{"F086}\nobreakspace{}USERS, \faicon{"F500}\nobreakspace{}TEAM and sometimes \faicon{"F1EA}\nobreakspace{}SP skills are required to make this decision.
   Furthermore, knowledge of the practices and contractual regulations of the
   RSE's institution are also required.
 - Proper Development. This broad topic requires all of the SE skills. Of course,
   these are the competencies that are the most fluid since they have to adapt at
   a high rate to technological advancements. Additionally, proper SE skills
-  often require knowledge of \faicon{"F500} TEAM, and \faicon{"F46D} PM. Today this means effective use of IDEs,
+  often require knowledge of \faicon{"F500}\nobreakspace{}TEAM, and \faicon{"F46D}\nobreakspace{}PM. Today this means effective use of IDEs,
   static analysis tools, design patterns, documentation (for oneself and others),
   etc.
 - Finding a community. This can be interpreted in two different ways. First,
   we have the aspect of community building for a research project. Since this
   deals with software that is supposed to be used in research this requires
-  knowledge of \faicon{"E4BB} RC, \faicon{"F086} USERS, and also \faicon{"E54D} NEW, in order to effectively interact with
+  knowledge of \faicon{"E4BB}\nobreakspace{}RC, \faicon{"F086}\nobreakspace{}USERS, and also \faicon{"E54D}\nobreakspace{}NEW, in order to effectively interact with
   domain scientists. Today, an example is a presence on social media. The other
-  \faicon{"F500} TEAM-related aspect is the embedding of RSE graduates into the community of
+  \faicon{"F500}\nobreakspace{}TEAM-related aspect is the embedding of RSE graduates into the community of
   RSEs. We envision our RSE graduates to be a part of a strong network of other
   RSEs, tool-related communities and the classical domain communities. This point
   is further elaborated in @sec:reachout.
@@ -534,7 +534,7 @@ Beyond that, we feel that today other important tasks of RSEs are
 
 - Mentoring colleagues.
   This necessitates giving good advice that fits to a projects stage in its life-cycle,
-  thereby requiring knowledge of (\faicon{"E4E2} SWLC), and its context in its research domain and thus (\faicon{"E4BB} RC).
+  thereby requiring knowledge of (\faicon{"E4E2}\nobreakspace{}SWLC), and its context in its research domain and thus (\faicon{"E4BB}\nobreakspace{}RC).
   Research software often starts out as a tool to answer a personal research
   question and becomes more important when other researchers rely on it.
   Some research software might even be used to deal with critical questions such as weather forecasting or medical diagnosis.
@@ -566,20 +566,20 @@ A story-like example of an individual through the hierarchies can be found in @s
 
 |         | Junior                                                                                                                        | Senior                                                                                                                                | Principal RSE(brings in funding)                                                                                                                           |
 | ------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| \faicon{"F0E8} DOCBB   | should be able to write reusable building blocks                                                                              | same as junior, but the quality should set the standard for the project, while following current best practices                       | should know the current best practices and point its people to the right resources.                                                                        |
-| \faicon{"E4C7} LIBS    | should be able to use package distribution platforms                                                                          | same as junior, but should set the project standard and follow current best practices.                                                | should ensure that their project is in an up-to-date distribution platform                                                                                 |
-| \faicon{"F5FC} MOD     | should have a basic grasp of their piece of the software in order to use basic tools like a debugger                          | Should understand the characteristics of large parts of the codebase considering a variety of the metrics                             | Should understand the big idea of the software project in order to define the task that the software solves                                                |
-| \faicon{"E4E2} SWLC    | Awareness about the existence of the software life-cycle.                                                                      | Should know which decisions lead to technical debt.                                                                                   | Should know in which part of the life-cycle their project is and how to steer development/project resources accordingly.                                    |
-| \faicon{"E13C} SWREPOS | Seamless interaction with the swrepo of their project is a must                                                               | Should be well-versed in the intricacies of a swrepo, and probably interact with multiple projects' repos                             | Should be able to effectively interact with swrepos and especially the interaction with the connecting projects.                                           |
-| \faicon{"E54D} NEW     | Some curiosity required to fit into research teams                                                                            | same as junior, but a curiosity to enhance the code base is required                                                                  | Curiosity to know in which direction to steer the project is required                                                                                      |
-| \faicon{"E4BB} RC      | Awareness about the \faicon{"E4BB} RC                                                                                                        | should know the position of the project in the \faicon{"E4BB} RC                                                                                     | Should know what is necessary for the project to fit into its position in the \faicon{"E4BB} RC                                                                           |
-| \faicon{"F1B8} SRU     | Should be aware about tools for \faicon{"F1B8} SRU                                                                                           | Should be able to find sth. with \faicon{"F1B8} SRU tools                                                                                            | Should be able to effectively find sth. with \faicon{"F1B8} SRU tools and be able to evaluate and perform the integration of a library into the project.                  |
-| \faicon{"F1EA} SP      | Should be aware that \faicon{"F1EA} SP needs to consider issues of intellectual property                                                     | Should be able to correctly publish software in simple cases and be able to identify cases where professional legal advice is needed. | Same as Senior plus the ability to take the future publication of software into account when initiating and guiding larger software collaboration projects |
-| \faicon{"F07B} DOMREP  | The RSE should be able to interact with the domain repository                                                                 | same as junior RSE                                                                                                                    | same as junior, and should know about how it fits into workflows surrounding these domain repositories                                                     |
-| \faicon{"F086} USERS   | The RSE should be able to communicate with non-SE users of the project                                                        | same as junior                                                                                                                        | same as junior, and take feedback into account of the steering                                                                                             |
-| \faicon{"F51C} TEACH   | should be able to perform simple peer-to-peer on-boarding tasks                                                                | should be able to explain logical components to other RSEs                                                                            | Should be able to effectively communicate about all large-scale parts of the project.                                                                      |
-| \faicon{"F46D} PM      | Awareness about the employed project management method                                                                      | Should be able to use the employed \faicon{"F46D} PM method                                                                                          | Should be able to design and adapt the employed \faicon{"F46D} PM method.                                                                                                 |
-| \faicon{"F500} TEAM    | Should be able to work in the team in order to effectively fulfil the given tasks. Should be able to learn from code review. | Should be able to break down tasks into more easily digestible sub-tasks                                                              | Should be able to lead the team and set the respective direction.                                                                                          |
+| \faicon{"F0E8}\nobreakspace{}DOCBB   | should be able to write reusable building blocks                                                                              | same as junior, but the quality should set the standard for the project, while following current best practices                       | should know the current best practices and point its people to the right resources.                                                                        |
+| \faicon{"E4C7}\nobreakspace{}LIBS    | should be able to use package distribution platforms                                                                          | same as junior, but should set the project standard and follow current best practices.                                                | should ensure that their project is in an up-to-date distribution platform                                                                                 |
+| \faicon{"F5FC}\nobreakspace{}MOD     | should have a basic grasp of their piece of the software in order to use basic tools like a debugger                          | Should understand the characteristics of large parts of the codebase considering a variety of the metrics                             | Should understand the big idea of the software project in order to define the task that the software solves                                                |
+| \faicon{"E4E2}\nobreakspace{}SWLC    | Awareness about the existence of the software life-cycle.                                                                      | Should know which decisions lead to technical debt.                                                                                   | Should know in which part of the life-cycle their project is and how to steer development/project resources accordingly.                                    |
+| \faicon{"E13C}\nobreakspace{}SWREPOS | Seamless interaction with the swrepo of their project is a must                                                               | Should be well-versed in the intricacies of a swrepo, and probably interact with multiple projects' repos                             | Should be able to effectively interact with swrepos and especially the interaction with the connecting projects.                                           |
+| \faicon{"E54D}\nobreakspace{}NEW     | Some curiosity required to fit into research teams                                                                            | same as junior, but a curiosity to enhance the code base is required                                                                  | Curiosity to know in which direction to steer the project is required                                                                                      |
+| \faicon{"E4BB}\nobreakspace{}RC      | Awareness about the \faicon{"E4BB}\nobreakspace{}RC                                                                                                        | should know the position of the project in the \faicon{"E4BB}\nobreakspace{}RC                                                                                     | Should know what is necessary for the project to fit into its position in the \faicon{"E4BB}\nobreakspace{}RC                                                                           |
+| \faicon{"F1B8}\nobreakspace{}SRU     | Should be aware about tools for \faicon{"F1B8}\nobreakspace{}SRU                                                                                           | Should be able to find sth. with \faicon{"F1B8}\nobreakspace{}SRU tools                                                                                            | Should be able to effectively find sth. with \faicon{"F1B8}\nobreakspace{}SRU tools and be able to evaluate and perform the integration of a library into the project.                  |
+| \faicon{"F1EA}\nobreakspace{}SP      | Should be aware that \faicon{"F1EA}\nobreakspace{}SP needs to consider issues of intellectual property                                                     | Should be able to correctly publish software in simple cases and be able to identify cases where professional legal advice is needed. | Same as Senior plus the ability to take the future publication of software into account when initiating and guiding larger software collaboration projects |
+| \faicon{"F07B}\nobreakspace{}DOMREP  | The RSE should be able to interact with the domain repository                                                                 | same as junior RSE                                                                                                                    | same as junior, and should know about how it fits into workflows surrounding these domain repositories                                                     |
+| \faicon{"F086}\nobreakspace{}USERS   | The RSE should be able to communicate with non-SE users of the project                                                        | same as junior                                                                                                                        | same as junior, and take feedback into account of the steering                                                                                             |
+| \faicon{"F51C}\nobreakspace{}TEACH   | should be able to perform simple peer-to-peer on-boarding tasks                                                                | should be able to explain logical components to other RSEs                                                                            | Should be able to effectively communicate about all large-scale parts of the project.                                                                      |
+| \faicon{"F46D}\nobreakspace{}PM      | Awareness about the employed project management method                                                                      | Should be able to use the employed \faicon{"F46D}\nobreakspace{}PM method                                                                                          | Should be able to design and adapt the employed \faicon{"F46D}\nobreakspace{}PM method.                                                                                                 |
+| \faicon{"F500}\nobreakspace{}TEAM    | Should be able to work in the team in order to effectively fulfil the given tasks. Should be able to learn from code review. | Should be able to break down tasks into more easily digestible sub-tasks                                                              | Should be able to lead the team and set the respective direction.                                                                                          |
 
 Table: Levels of competency expected for different RSE career stages. {#tbl:comp-lvls}
 
@@ -616,51 +616,51 @@ as development is a large part of their actual research.
 
 Students at undergraduate level mostly consume science/knowledge.
 During their studies, they should also learn about the existence of digital tools and structures.
-Undergrad students should be aware that RSEs exist and that software has different quality aspects (\faicon{"F0E8} DOCBB).
-They should be aware of domain specific tools (\faicon{"E4C7} LIBS, \faicon{"F1B8} SRU) and where to find them (\faicon{"E13C} SWREPOS, \faicon{"F07B} DOMREP).
-At this level it is sufficient to consider software as black boxes (\faicon{"F086} USERS) although some training in data presentation would be very helpful and a good way to find out about programming (\faicon{"F5FC} MOD, \faicon{"E54D} NEW).
-They should have an awareness of software licenses and whom to ask if they have any questions (\faicon{"F1EA} SP).
-They will be taught about the research cycle (\faicon{"E4BB} RC) and that researchers often work in groups (\faicon{"F500} TEAM).
-During practicals, they will have an opportunity for peer learning (\faicon{"F51C} TEACH).
+Undergrad students should be aware that RSEs exist and that software has different quality aspects (\faicon{"F0E8}\nobreakspace{}DOCBB).
+They should be aware of domain specific tools (\faicon{"E4C7}\nobreakspace{}LIBS, \faicon{"F1B8}\nobreakspace{}SRU) and where to find them (\faicon{"E13C}\nobreakspace{}SWREPOS, \faicon{"F07B}\nobreakspace{}DOMREP).
+At this level it is sufficient to consider software as black boxes (\faicon{"F086}\nobreakspace{}USERS) although some training in data presentation would be very helpful and a good way to find out about programming (\faicon{"F5FC}\nobreakspace{}MOD, \faicon{"E54D}\nobreakspace{}NEW).
+They should have an awareness of software licenses and whom to ask if they have any questions (\faicon{"F1EA}\nobreakspace{}SP).
+They will be taught about the research cycle (\faicon{"E4BB}\nobreakspace{}RC) and that researchers often work in groups (\faicon{"F500}\nobreakspace{}TEAM).
+During practicals, they will have an opportunity for peer learning (\faicon{"F51C}\nobreakspace{}TEACH).
 
 #### Master's Level
 
 A student at a master's level can participate in science and should therefore be able to use "some" digital structures.
-A master's student needs to be aware of relevant tools and data sets for their domain, where to find them and how to use them (\faicon{"E4C7} LIBS, \faicon{"E13C} SWREPOS, \faicon{"F07B} DOMREP).
-They should be able to process and present their data (\faicon{"F5FC} MOD).
-They need to understand how their research depends on software (\faicon{"E4E2} SWLC).
-Working on their master's thesis allows them to understand the research cycle (\faicon{"E4BB} RC), practice project management (\faicon{"F46D} PM) and collaborate with other members of their research group (\faicon{"F500} TEAM).
+A master's student needs to be aware of relevant tools and data sets for their domain, where to find them and how to use them (\faicon{"E4C7}\nobreakspace{}LIBS, \faicon{"E13C}\nobreakspace{}SWREPOS, \faicon{"F07B}\nobreakspace{}DOMREP).
+They should be able to process and present their data (\faicon{"F5FC}\nobreakspace{}MOD).
+They need to understand how their research depends on software (\faicon{"E4E2}\nobreakspace{}SWLC).
+Working on their master's thesis allows them to understand the research cycle (\faicon{"E4BB}\nobreakspace{}RC), practice project management (\faicon{"F46D}\nobreakspace{}PM) and collaborate with other members of their research group (\faicon{"F500}\nobreakspace{}TEAM).
 
 #### PhD
 
 A PhD student performs independent research under guidance.
 They need to know relevant tools and structures.
-They should know where to find information about tools and where to find help using them (\faicon{"F0E8} DOCBB, \faicon{"E13C} SWREPOS).
-They should be able to use the tools (\faicon{"E4C7} LIBS) and identify and report bugs (\faicon{"F5FC} MOD).
-They need to be aware that the user's perspective is different from the developer's perspective in order to be able to write bug reports (\faicon{"F086} USERS).
-They might produce new software (\faicon{"F5FC} MOD, \faicon{"F1B8} SRU) in which case they need to understand how to license their code for publication (\faicon{"F1EA} SP).
+They should know where to find information about tools and where to find help using them (\faicon{"F0E8}\nobreakspace{}DOCBB, \faicon{"E13C}\nobreakspace{}SWREPOS).
+They should be able to use the tools (\faicon{"E4C7}\nobreakspace{}LIBS) and identify and report bugs (\faicon{"F5FC}\nobreakspace{}MOD).
+They need to be aware that the user's perspective is different from the developer's perspective in order to be able to write bug reports (\faicon{"F086}\nobreakspace{}USERS).
+They might produce new software (\faicon{"F5FC}\nobreakspace{}MOD, \faicon{"F1B8}\nobreakspace{}SRU) in which case they need to understand how to license their code for publication (\faicon{"F1EA}\nobreakspace{}SP).
 PhD students need to be curious to be able to conduct their research.
-In order to be able to explore new tools (\faicon{"E54D} NEW) they must be able to evaluate research software (\faicon{"E4E2} SWLC).
-They need to be able to interact with services (\faicon{"E4BB} RC) and domain specific repositories (\faicon{"F07B} DOMREP).
-They should be able to supervise a student (\faicon{"F51C} TEACH).
+In order to be able to explore new tools (\faicon{"E54D}\nobreakspace{}NEW) they must be able to evaluate research software (\faicon{"E4E2}\nobreakspace{}SWLC).
+They need to be able to interact with services (\faicon{"E4BB}\nobreakspace{}RC) and domain specific repositories (\faicon{"F07B}\nobreakspace{}DOMREP).
+They should be able to supervise a student (\faicon{"F51C}\nobreakspace{}TEACH).
 
 #### Postdoc
 
 Postdocs are independent researchers.
 Their role is similar to that of a PhD student with a deepened focus on their research career.
 However, they are proficient users of all relevant tools, which makes them active contributors to their domain of research.
-They need to be aware of more advanced topics regarding intellectual property rights, such as patents (\faicon{"F1EA} SP).
+They need to be aware of more advanced topics regarding intellectual property rights, such as patents (\faicon{"F1EA}\nobreakspace{}SP).
 
 #### PI/Professor
 
 They are experts in their field and should be able to give proper guidance to their students on which digital tools are currently relevant.
 They should be aware of the skills of an RSE and when they might need one in their group.
-They should encourage their students to use relevant tools (\faicon{"E4C7} LIBS).
-They need to be able to judge the suitability of the software (\faicon{"E4E2} SWLC) and follow the interactions between relevant projects (\faicon{"E13C} SWREPOS).
-They should be able to advise their students on the legal aspects of software production and distribution (\faicon{"F1EA} SP).
-They should be able to contribute meaningfully to the steering decisions of the software in their field (\faicon{"F086} USERS).
-They need to guide students and give full-size lectures (\faicon{"F51C} TEACH).
-They need to manage and lead their research group (\faicon{"F46D} PM, \faicon{"F500} TEAM).
+They should encourage their students to use relevant tools (\faicon{"E4C7}\nobreakspace{}LIBS).
+They need to be able to judge the suitability of the software (\faicon{"E4E2}\nobreakspace{}SWLC) and follow the interactions between relevant projects (\faicon{"E13C}\nobreakspace{}SWREPOS).
+They should be able to advise their students on the legal aspects of software production and distribution (\faicon{"F1EA}\nobreakspace{}SP).
+They should be able to contribute meaningfully to the steering decisions of the software in their field (\faicon{"F086}\nobreakspace{}USERS).
+They need to guide students and give full-size lectures (\faicon{"F51C}\nobreakspace{}TEACH).
+They need to manage and lead their research group (\faicon{"F46D}\nobreakspace{}PM, \faicon{"F500}\nobreakspace{}TEAM).
 
 ## Project team structures
 
@@ -699,7 +699,7 @@ We first summarise the meaning of each of the columns in the table:
     \cline{2-5}
               & locally-based & RSE-Team based & locally-based & RSE-Team based &\\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \faicon{"F0E8} DOCBB &
+    \faicon{"F0E8}\nobreakspace{}DOCBB &
     Focus on getting outputs to support research. Often time-constrained,
       may be self-taught, less awareness/familiarity with code quality and
       structure. Simple Best Practice documents can be sufficient&
@@ -713,7 +713,7 @@ We first summarise the meaning of each of the columns in the table:
       Should have research software guidance/policies that provide advice.\\
     \hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \faicon{"E4C7} LIBS&
+    \faicon{"E4C7}\nobreakspace{}LIBS&
     Reusability and sharing/distribution of code often not a focus or considered relevant. &
     Greater trained focus on reusability/sharing but likely not part of the project aims.&
     May be looking to develop reusable shareable outputs but likely case-by-case basis. Need easy resources.&
@@ -721,7 +721,7 @@ We first summarise the meaning of each of the columns in the table:
     Should provide policies on sharing and reuse of software. May be driven by requirements/policies of the funding agency.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \faicon{"E4E2} SWLC&
+    \faicon{"E4E2}\nobreakspace{}SWLC&
     It's down to you to manage the complete life-cycle, if you move on,
       what will happen to the code?&
     More support with a team but do they have awareness/expertise
@@ -735,7 +735,7 @@ We first summarise the meaning of each of the columns in the table:
       licences for e.g. management tools.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \faicon{"E13C} SWREPOS&
+    \faicon{"E13C}\nobreakspace{}SWREPOS&
     Where open source, use of repositories important for code management
       and demonstrating outputs - e.g. supporting academic credit.
       May not have awareness/skills if self-taught.&
@@ -751,7 +751,7 @@ We first summarise the meaning of each of the columns in the table:
       for this vital research software development tooling.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \faicon{"F5FC} MOD&
+    \faicon{"F5FC}\nobreakspace{}MOD&
     Needs full awareness of entire codebase to support extension/maintenance.
       May not need/get additional experience or support.
       If project taken on from another individual developer,
@@ -772,7 +772,7 @@ We first summarise the meaning of each of the columns in the table:
       will improve overall turnaround times.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \faicon{"E54D} NEW&
+    \faicon{"E54D}\nobreakspace{}NEW&
     An individual's curiosity has now to be shared between the research
       goal and the software project, therefore learning new methods and
       skills may be challenging and is often not the core aim.&
@@ -787,7 +787,7 @@ We first summarise the meaning of each of the columns in the table:
       information on new technical processes and tooling, and facilitate training.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \faicon{"E4BB} RC&
+    \faicon{"E4BB}\nobreakspace{}RC&
     This is likely to be familiar to individuals, who are often researchers,
       especially if they are embedded within a research team.&
     Many RSEs will have familiarity with the research life-cycle,
@@ -801,7 +801,7 @@ We first summarise the meaning of each of the columns in the table:
       the research life-cycle, this can support researchers/RSEs.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \faicon{"F1B8} SRU&
+    \faicon{"F1B8}\nobreakspace{}SRU&
     Need to know how to find other work to build awareness of existing
       solutions. Researchers sometimes like to do things themselves.
       Working individually means there may not be someone to highlight this.&
@@ -813,7 +813,7 @@ We first summarise the meaning of each of the columns in the table:
       they can also provide institution-level access to platforms that support this.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \faicon{"F1EA} SP&
+    \faicon{"F1EA}\nobreakspace{}SP&
     Responsibility may be with an individual but they may not have necessary knowledge/skills.&
     This is a core area that RSE teams need to be aware of.
     An RSE team might have established practices, workflows and policies at hand to routinely publish software.&
@@ -822,7 +822,7 @@ We first summarise the meaning of each of the columns in the table:
     The organisation should raise awareness about software as publishable scientific output, provide recommendations and checklists to support software-publications and have legal experts in place to deal with complex cases.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \faicon{"F07B} DOMREP&
+    \faicon{"F07B}\nobreakspace{}DOMREP&
     Domain researchers working on software are likely to be more familiar
       with the domain-specific solutions.&
     RSEs may need guidance from domain researchers around domain-specific
@@ -833,7 +833,7 @@ We first summarise the meaning of each of the columns in the table:
       extensively in but this is likely to be handled at a research group level.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \faicon{"F086} USERS&
+    \faicon{"F086}\nobreakspace{}USERS&
     Is the software developed to support external users?
       If so, additional technical skills may be required,
       especially if future sustainability is an aim.&
@@ -848,7 +848,7 @@ We first summarise the meaning of each of the columns in the table:
     Should have institutions that are able to offer support with outreach and publicising outputs.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \faicon{"F51C} TEACH&
+    \faicon{"F51C}\nobreakspace{}TEACH&
     May be independently involved in training activities.&
     May be able to support researchers with core technical skills.&
     Sharing knowledge and skills within their group - peer support.&
@@ -857,10 +857,10 @@ We first summarise the meaning of each of the columns in the table:
     Should have programs for a diverse range of teaching/training activities.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \faicon{"F46D} PM&
+    \faicon{"F46D}\nobreakspace{}PM&
     Limited requirement beyond being well organised - can be important
       if someone else might take over codebase.&
-    Limited requirement but team will likely have standard \faicon{"F46D} PM approaches
+    Limited requirement but team will likely have standard \faicon{"F46D}\nobreakspace{}PM approaches
       to be followed.&
     Challenging for groups of local researchers/developers on larger projects.
       May not have awareness/experience of key skills, but this can be alleviated with some low-key courses.&
@@ -869,7 +869,7 @@ We first summarise the meaning of each of the columns in the table:
       May offer organisation-level tooling.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \faicon{"F500} TEAM&
+    \faicon{"F500}\nobreakspace{}TEAM&
     N/A&
     Will need to work effectively with their home RSE team, as well as,
       potentially with researchers they are developing code for.&
@@ -910,7 +910,7 @@ while other RSEs might expand their skill set and profession to areas, that are 
 #### OpenScience RSE
 Open Science and FAIRness of Data and Software are increasingly important topics in research,
 as exemplified by the demand of an increasing amount of research funding agencies requiring openness.
-Hence an Open Science RSE is required to have a deeper knowledge in (\faicon{"E4BB} RC) and how to distribute software publicly (\faicon{"F1B8} SRU, \faicon{"F1EA} SP).
+Hence an Open Science RSE is required to have a deeper knowledge in (\faicon{"E4BB}\nobreakspace{}RC) and how to distribute software publicly (\faicon{"F1B8}\nobreakspace{}SRU, \faicon{"F1EA}\nobreakspace{}SP).
 Open Science RSEs can help researchers navigate the technical questions that come up
 when practising Open Science, such as "How do I make my code presentable?",
 "What do I need to do to make my software FAIR?", or
@@ -920,13 +920,13 @@ Like the Data-focused RSE, they have a deep understanding of RDM topics.
 #### Project/Community Manager RSEs
 
 When research software projects become larger, they need someone who manages
-processes and people. This gap can be filled by people who invest in the (\faicon{"F46D} PM), (\faicon{"F086} USERS), and (\faicon{"F500} TEAM) skills, as exemplified in @subsec:examplecareer.
+processes and people. This gap can be filled by people who invest in the (\faicon{"F46D}\nobreakspace{}PM), (\faicon{"F086}\nobreakspace{}USERS), and (\faicon{"F500}\nobreakspace{}TEAM) skills, as exemplified in @subsec:examplecareer.
 Building a community around a research project is an
 important building block in building sustainable software [@Segal2009], so these RSEs play
 an important role, even if they do not necessarily touch much of the code themselves.
 
 #### Teaching RSEs
-RSEs interested in developing their (\faicon{"F51C} TEACH) skill can focus on teaching the next generation of researchers and/or RSEs and will play
+RSEs interested in developing their (\faicon{"F51C}\nobreakspace{}TEACH) skill can focus on teaching the next generation of researchers and/or RSEs and will play
 a vital role in improving the quality of research software.
 They need to have a good understanding of all RSE competencies relevant to their domain and
 additionally should have experience or training in the educational field.
@@ -934,9 +934,9 @@ additionally should have experience or training in the educational field.
 
 #### User Interface/User Experience Designers for Research Software
 Scientific software is a complex product that often needs to be refined in order to be usable even by other scientists.
-To facilitate this, there are people required that specialise in the (\faicon{"F0E8} DOCBB) and probably the (\faicon{"E4C7} LIBS) competency
+To facilitate this, there are people required that specialise in the (\faicon{"F0E8}\nobreakspace{}DOCBB) and probably the (\faicon{"E4C7}\nobreakspace{}LIBS) competency
 with a focus on making end-user facing software really reusable and hence FAIR.
-This task is supported by strong (\faicon{"F5FC} MOD) skills to reason about the behaviour of potential users of the software.
+This task is supported by strong (\faicon{"F5FC}\nobreakspace{}MOD) skills to reason about the behaviour of potential users of the software.
 
 ## Specialisations outside the core RSE competencies
 
@@ -1143,18 +1143,18 @@ Core modules are of course drawn from the three pillars of the RSE and can be ca
 
 - Research Skills:
   - Optional Domain Mastery Module: Additional minor research courses, but students with a home-domain already have the research part well-covered.
-  - Research Tools Module: Here we teach tools used to distribute and publish software, as well as introducing students to domain specific data repositories. Thereby gaining foundational knowledge in (\faicon{"F1B8} SRU, \faicon{"F1EA} SP, \faicon{"F07B} DOMREP).
+  - Research Tools Module: Here we teach tools used to distribute and publish software, as well as introducing students to domain specific data repositories. Thereby gaining foundational knowledge in (\faicon{"F1B8}\nobreakspace{}SRU, \faicon{"F1EA}\nobreakspace{}SP, \faicon{"F07B}\nobreakspace{}DOMREP).
   - Meta-Research Module: Here we teach people how research works. The research life cycle is introduced, as well as the data life cycle and the software life cycle are abstractly introduced.
 
 - Software Engineering Skills:
-  - Foundational Module: Here we have an introduction to programming: Students learn at least two languages: a language that facilitates prototyping and data processing (e.g., Python or R) and a language for designing complex, performance-critical systems (e.g., C/C++). This exposes them to computers in a hands-on fashion and is the foundation for (\faicon{"F0E8} DOCBB, \faicon{"E4C7} LIBS).
-  - Digital Ecosystem Module: Programming languages are not enough to work in a digital ecosystem, hence we require something like Software Craftsmanship, where tools like the Unix Shell, version control systems, Build Systems, Documentation generators, Package distribution platforms, and Software Discovery systems are taught to strengthen skills in (\faicon{"E4C7} LIBS, \faicon{"F0E8} DOCBB, \faicon{"E13C} SWREPOS, \faicon{"F1B8} SRU).
-  - Software Architecture Module: Here we teach Software Design and Software Engineering, again strengthening (\faicon{"F0E8} DOCBB, \faicon{"E4C7} LIBS) on a more abstract level.
+  - Foundational Module: Here we have an introduction to programming: Students learn at least two languages: a language that facilitates prototyping and data processing (e.g., Python or R) and a language for designing complex, performance-critical systems (e.g., C/C++). This exposes them to computers in a hands-on fashion and is the foundation for (\faicon{"F0E8}\nobreakspace{}DOCBB, \faicon{"E4C7}\nobreakspace{}LIBS).
+  - Digital Ecosystem Module: Programming languages are not enough to work in a digital ecosystem, hence we require something like Software Craftsmanship, where tools like the Unix Shell, version control systems, Build Systems, Documentation generators, Package distribution platforms, and Software Discovery systems are taught to strengthen skills in (\faicon{"E4C7}\nobreakspace{}LIBS, \faicon{"F0E8}\nobreakspace{}DOCBB, \faicon{"E13C}\nobreakspace{}SWREPOS, \faicon{"F1B8}\nobreakspace{}SRU).
+  - Software Architecture Module: Here we teach Software Design and Software Engineering, again strengthening (\faicon{"F0E8}\nobreakspace{}DOCBB, \faicon{"E4C7}\nobreakspace{}LIBS) on a more abstract level.
 
 - Communication Skills:
-  - Project Management Methods: Here we teach project management methods that are useful in science, such as agile ones(\faicon{"F46D} PM).
-  - Communication Skills Module: Here we have courses focusing on interdisciplinary communication, interacting across cultures, communication in hierarchies, supporting end users effectively. These are all facets of the (\faicon{"F086} USERS) skill.
-  - Teaching Module: This module covers topics to effectively design courses and teaching material for the various digital tools, thereby strengthening the (\faicon{"F51C} TEACH) skill.
+  - Project Management Methods: Here we teach project management methods that are useful in science, such as agile ones(\faicon{"F46D}\nobreakspace{}PM).
+  - Communication Skills Module: Here we have courses focusing on interdisciplinary communication, interacting across cultures, communication in hierarchies, supporting end users effectively. These are all facets of the (\faicon{"F086}\nobreakspace{}USERS) skill.
+  - Teaching Module: This module covers topics to effectively design courses and teaching material for the various digital tools, thereby strengthening the (\faicon{"F51C}\nobreakspace{}TEACH) skill.
 
 Given that RSE work also involves a lot of craftsmanship skills,
 hands-on practice is an integral part of the curriculum.
@@ -1162,13 +1162,13 @@ At least two lab projects are required within the mandatory curriculum.
 These should be executed as a team and involve a question from a domain science.
 We recommend covering both the candidate's home domain as well as another domain of science.
 Ideally, projects stem from collaborations with scientists within the institution and RSE
-students take the role of a consultant. This setup strengthens the (\faicon{"F500} TEAM, \faicon{"F51C} TEACH, \faicon{"F086} USERS) skill
-and most likely also the (\faicon{"F5FC} MOD) skill through interaction.
+students take the role of a consultant. This setup strengthens the (\faicon{"F500}\nobreakspace{}TEAM, \faicon{"F51C}\nobreakspace{}TEACH, \faicon{"F086}\nobreakspace{}USERS) skill
+and most likely also the (\faicon{"F5FC}\nobreakspace{}MOD) skill through interaction.
 
 To emphasise the exposure to domains outside of their bachelor's degree domain,
 we recommend that RSEs also support their non-home-domain project by supporting it with introductory
 courses from this discipline. We support the idea of broadening the interaction with other domains even more.
-This schools their ability to quickly adapt their vocabulary and thinking to other disciplines. This is an aspect of (\faicon{"F5FC} MOD).
+This schools their ability to quickly adapt their vocabulary and thinking to other disciplines. This is an aspect of (\faicon{"F5FC}\nobreakspace{}MOD).
 
 To align with the specialisations listed in this paper, example optional modules include topics on
 HPC engineering/parallel programming, numerical mathematics/scientific computing, web technologies,
@@ -1176,7 +1176,7 @@ data stewardship, AI models/statistics, and community management/training.
 
 The programme is finalised with a master's thesis which should be dual-supervised by an
 RSE supervisor from an actual project, and a domain supervisor.
-The thesis should answer a relevant research question (strengthening (\faicon{"E54D} NEW)) from the domain using computational methods.
+The thesis should answer a relevant research question (strengthening (\faicon{"E54D}\nobreakspace{}NEW)) from the domain using computational methods.
 Software development is required, and the code is part of the gradable deliverables.
 The RSE supervisor ensures and grades the software craftsmanship aspects of the project.
 This setup ensures that we are grading the effectiveness of applying RSE skills in an actual research environment.
@@ -1214,7 +1214,7 @@ The project management skills that are being taught as part of the core RSE curr
 Apart from working with the researchers in her archaeology group,
 she has to work with members of the central RSE department to help her with the pipelines.
 She also has to liaise with the central IT department to organise storage for the large data sets.
-Towards the end of the programme, she visits her first RSE conference where she sees a lot of notions (\faicon{"E4E2} SWLC, \faicon{"E4BB} RC) in action
+Towards the end of the programme, she visits her first RSE conference where she sees a lot of notions (\faicon{"E4E2}\nobreakspace{}SWLC, \faicon{"E4BB}\nobreakspace{}RC) in action
 that so far have been abstract in her master's degree.
 
 The exposure to the wider RSE community inspires her to invest additional time into her thesis to publish
@@ -1226,7 +1226,7 @@ Kay has now completed the RSE programme and has reached Junior RSE level.
 Kay finds a position in the central RSE department at her university with a competitive IT salary.
 Although the contract is temporary, there is a good chance that it will lead to a permanent position.
 Kay completes the Software Carpentry Instructor training and teaches basic research computing,
-while advising fellow students of her department on better programming (\faicon{"F0E8} DOCBB and \faicon{"F5FC} MOD skill).
+while advising fellow students of her department on better programming (\faicon{"F0E8}\nobreakspace{}DOCBB and \faicon{"F5FC}\nobreakspace{}MOD skill).
 She also runs a seminar in the RSE Master's programme. She publishes a condensed version of that in JOSE[@JOSE].
 During her teaching duties, she becomes aware of a new project in her department that requires a community manager RSE
 and she gladly signs up to focus more on her communication skills.
@@ -1237,10 +1237,10 @@ After three years, she takes an exciting opportunity to work in another universi
 The new position involves taking responsibility for the RSE related aspects of a large inter-organisational project involving different organisations.
 With her new responsibilities comes a shift in the importance of various aspects of her work.
 Having this position in an inter-organisational project places far more emphasis on communication and organisation skills.
-She is spending time teaching people (\faicon{"F51C} TEACH skill) to onboard them into the project.
-There is a lot of interaction with different stakeholders in the project like funders and user groups (\faicon{"F086} USERS skill).
-To oversee the project, she uses an amalgam of both agile and traditional project-management concepts and methods which she acquires on-the-job (\faicon{"F46D} PM skills).
-Her work so far has already been heavy on (\faicon{"F500} TEAM) skills, but now also the leadership aspect comes into play.
+She is spending time teaching people (\faicon{"F51C}\nobreakspace{}TEACH skill) to onboard them into the project.
+There is a lot of interaction with different stakeholders in the project like funders and user groups (\faicon{"F086}\nobreakspace{}USERS skill).
+To oversee the project, she uses an amalgam of both agile and traditional project-management concepts and methods which she acquires on-the-job (\faicon{"F46D}\nobreakspace{}PM skills).
+Her work so far has already been heavy on (\faicon{"F500}\nobreakspace{}TEAM) skills, but now also the leadership aspect comes into play.
 
 #### RSE-focused Principal Investigator
 
