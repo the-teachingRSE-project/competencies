@@ -35,28 +35,51 @@ def get_manuscript_metadata(markdown):
     return yaml.safe_load(metadata), body
 
 
+def get_author_thanks(metadata):
+    retval = {}
+    for line in metadata["author"]:
+        author, *thanks = [x.strip() for x in line.split("|")]
+        retval[author] = thanks
+    return retval
+
+
 def process_markdown(metadata, body, contributors):
-    authors = []
+    authors_tex = []
     authors_xmp = []
     affiliations = {}
     acknowledgements = ["# Acknowledgements {- #sec:acknowledgements}"]
+    bookkeeping_initials = {}
+    author_thanks = get_author_thanks(metadata)
     # parse metadata
-    for key in metadata["author"]:
-        author_metadata = contributors[key]
-        authors_xmp.append(key)
-        author = key
+    for fullname, annotations in author_thanks.items():
+        author_metadata = contributors[fullname]
+        authors_xmp.append(fullname)
+        author_tex = fullname
         if "orcid" in author_metadata:
-            author += rf" \orcidlinksimple{{{author_metadata['orcid']}}}"
+            author_tex += f"\\texorpdfstring{{\\thinspace\\orcidlink{{{author_metadata['orcid']}}}}}{{}}"
+        author_affil = []
+        if annotations:
+            author_affil.append("")
+            for thanks in annotations:
+                author_tex += f"\\texorpdfstring{{\\thanks{{{thanks}}}}}{{}}"
         for affiliation in author_metadata.get("affiliations", []):
             if affiliation not in affiliations:
-                affiliations[affiliation] = f"[^affiliation{len(affiliations) + 1}]"
-            author += f"{affiliations[affiliation]}"
-        authors.append(author)
+                affiliations[affiliation] = f"{len(affiliations) + 1}"
+            author_affil.append(affiliations[affiliation])
+        authors_tex.append(f"\\author[{','.join(author_affil)}]{{{author_tex}}}")
+        initials = author_metadata["initials"]
+        assert initials not in bookkeeping_initials, f"initials '{initials}' collide with '{fullname}' and '{bookkeeping_initials[initials]}'"
+        bookkeeping_initials[initials] = fullname
         if "acknowledgements" in author_metadata:
-            acknowledgements.append(author_metadata["acknowledgements"])
+            message = author_metadata["acknowledgements"]
+            assert initials in message, f"'{initials}' doesn't appear in the acknowledgements of '{fullname}'"
+            acknowledgements.append(message)
+    affiliations_tex = [f"\\affil[{key}]{{{affil}}}" for affil, key in affiliations.items()]
     # update Markdown metadata
-    metadata["author"] = authors
+    del metadata["author"]
     metadata["authorxmp"] = authors_xmp
+    metadata["header-includes"].extend(authors_tex)
+    metadata["header-includes"].extend(affiliations_tex)
     # rewrite Markdown file
     markdown = []
     markdown.append("---")
@@ -70,8 +93,6 @@ def process_markdown(metadata, body, contributors):
         markdown.append(body)
         markdown.append("")
         markdown.extend(acknowledgements)
-    markdown.append("")
-    markdown.extend([f"{v}: {k}" for k, v in affiliations.items()])
     return "\n".join(markdown)
 
 
@@ -81,8 +102,8 @@ if __name__ == "__main__":
         contributors = get_contributors_metadata(f.read())
     with open(args.input) as f:
         metadata, body = get_manuscript_metadata(f.read())
-    for key in metadata["author"]:
-        assert key in contributors, f"author '{key}' {debuginfo} in {args.input} not found in {args.contributors}"
+    for key in get_author_thanks(metadata).keys():
+        assert key in contributors, f"author '{key}' in {args.input} not found in {args.contributors}"
     markdown = process_markdown(metadata, body, contributors)
     if args.output:
         with open(args.output, "w") as f:

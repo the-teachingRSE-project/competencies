@@ -53,11 +53,6 @@ $endif$
 content = substitute(content,
 r"""\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}""",
 r"""\usepackage[bottom]{footmisc}
-\usepackage{etoolbox}
-\makeatletter
-\patchcmd{\maketitle}{\@fnsymbol}{\@arabic}{}{}
-\patchcmd{\maketitle}{\setcounter{footnote}{0}}{}{}{}
-\makeatother
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}""")
 
 # generate the abstract and keywords list
@@ -83,6 +78,22 @@ $if(abstract)$
 $elseif(keywords)$
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 $endif$"""
+)
+
+content = substitute(content,
+r"\printbibliography$if(biblio-title)$[title=$biblio-title$]$endif$",
+r"\printbibliography[heading=bibintoc$if(biblio-title)$,title=$biblio-title$$endif$]"
+)
+
+content = substitute(content,
+r"""
+\tableofcontents
+""",
+r"""
+$if(toc-baselinestretch)$\renewcommand{\baselinestretch}{$toc-baselinestretch$}\normalsize$endif$
+\tableofcontents
+$if(toc-baselinestretch)$\renewcommand{\baselinestretch}{1.0}\normalsize$endif$
+"""
 )
 
 with open(args.file, "w") as f:

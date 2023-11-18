@@ -2,22 +2,16 @@
 
 MAKE_PDFA := true
 
-ifeq ($(MAKE_PDFA),true)
-  xelatex_opts=-shell-escape
-else
-  xelatex_opts=
-endif
-
 objects := intro.pdf competencies.pdf institutionalised_education.pdf survey.pdf call_to_action.pdf
 
 all: $(objects)
 
-%.pdf: %.md bibliography.bib contributors.yml preamble.sty build/template.tex
+%.pdf: %.md bibliography.bib contributors.yml preamble.sty build/template.tex filter.py
 	@mkdir -p build
-	@rm -f build/pdfa.xmpi build/creationdate.lua build/creationdate.timestamp
+	@rm -f build/pdfa.xmpi
 	cp --update preamble.sty build/
 	cp --update bibliography.bib build/
-	python3 filter.py --input="$<" --output="build/$<" --contributors="contributors.yml"
+	python3 filter.py --input="${<}" --output="build/${<}" --contributors="contributors.yml"
 	pandoc \
 	    --standalone \
 	    --number-sections \
@@ -32,16 +26,13 @@ all: $(objects)
 	    -V hyperrefoptions=pdfa \
 	    -V colorlinks=true \
 	    -V papersize=a4 \
-	    -M mainfont="Linux Libertine O" \
-	    -M sansfont="Linux Biolinum O" \
-	    -M monofont="Linux Libertine Mono O" \
 	    -o "build/${@:.pdf=}.tex" \
 	    "build/$<"
+	@sed -i '/\\author{}/d' "build/${@:.pdf=}.tex"
 	latexmk \
-	    -e '$$'"hash_calc_ignore_pattern{'timestamp'} = '^';" \
-	    -xelatex -bibtex -halt-on-error $(xelatex_opts) \
+	    -pdflatex -bibtex -halt-on-error \
 	    -jobname="${@:.pdf=}" -cd "build/${@:.pdf=}.tex"
-	@mv "build/${@}" ${@}
+	@mv "build/${@}" "${@}"
 
 build/template.tex: template.py
 	@mkdir -p build
