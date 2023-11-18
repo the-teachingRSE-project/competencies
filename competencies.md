@@ -59,7 +59,7 @@ At the other extreme, they resemble that of a software engineer in industry.
 Most RSE roles inhabit the space between these two extremes. Therefore, providing a straightforward,
 comprehensive definition of what an RSE does
 and what experience, skills and competencies are required to become one is challenging.
-In this paper we define the broad notion of what an RSE is, explore the different types of work they undertake, and
+In this community paper we define the broad notion of what an RSE is, explore the different types of work they undertake, and
 define a list of fundamental competencies as well as values that define the general profile of an RSE.
 On this basis, we elaborate on the progression of these skills along different
 dimensions, looking at specific types of RSE roles, proposing recommendations for organisations, and giving examples of future specialisations.
@@ -128,7 +128,7 @@ While there is anecdotal evidence that academic SE practitioners
 would have chosen different competencies, we will argue that this trifecta of skills
 is exactly what is needed for modern digital research.
 
-While this paper is based on workshop discussions that were attended largely by Research Software Engineers (deRSE23 in Paderborn, un-deRSE23 in Jena, Germany),
+While this community paper is based on workshop discussions that were attended largely by Research Software Engineers (deRSE23 in Paderborn, un-deRSE23 in Jena, Germany),
 we believe that the competencies formulated here can offer far-reaching
 impact beyond the domain of RSE into adjacent fields of science and, indeed, the wider research community,
 since most research involves some amount
