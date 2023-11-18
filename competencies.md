@@ -63,7 +63,7 @@ In this community paper we define the broad notion of what an RSE is, explore th
 define a list of fundamental competencies as well as values that define the general profile of an RSE.
 On this basis, we elaborate on the progression of these skills along different
 dimensions, looking at specific types of RSE roles, proposing recommendations for organisations, and giving examples of future specialisations.
-An Appendix details how existing curricula fit into this framework.
+An appendix details how existing curricula fit into this framework.
 "
 ---
 
