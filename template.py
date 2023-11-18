@@ -80,5 +80,21 @@ $elseif(keywords)$
 $endif$"""
 )
 
+content = substitute(content,
+r"\printbibliography$if(biblio-title)$[title=$biblio-title$]$endif$",
+r"\printbibliography[heading=bibintoc$if(biblio-title)$,title=$biblio-title$$endif$]"
+)
+
+content = substitute(content,
+r"""
+\tableofcontents
+""",
+r"""
+$if(toc-baselinestretch)$\renewcommand{\baselinestretch}{$toc-baselinestretch$}\normalsize$endif$
+\tableofcontents
+$if(toc-baselinestretch)$\renewcommand{\baselinestretch}{1.0}\normalsize$endif$
+"""
+)
+
 with open(args.file, "w") as f:
     f.write(content)
