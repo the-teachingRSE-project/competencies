@@ -330,7 +330,7 @@ where RSEs working in these fields should stay up-to-date and be able to help re
 such as training-data bias, LLM "hallucinations" or malicious use, with the greater goal of
 making these powerful tools work for the welfare of society.
 
-# Required generic RSE skills {#sec:required-generic-skills}
+# Foundational RSE competencies {#sec:required-generic-skills}
 
 The role of an RSE lies somewhere on the spectrum between that of a researcher
 (the "R") and a software engineer (the "SE") and, therefore, requires
@@ -338,7 +338,7 @@ competencies in both fields. RSEs typically apply their knowledge and
 experience in larger teams which allows them to cultivate this hybrid nature.
 Therefore, we categorise the competencies into three categories: *software engineering skills*,
 *research skills*, and *communication skills*, with a particular focus on the software and
-research cycle and the scientific process. The generic skills are relevant in a
+research cycle and the scientific process. These competencies are relevant in a
 broad setting and form the foundation for specific specialisations.
 These competencies have been chosen in order to make RSEs contribute to an open and inclusive research
 environment, with tools that respect their professional values.
