@@ -114,7 +114,7 @@ RSEs share a set of core skills that are required to write software, understand
 the research environment, and ensure that they produce sustainable, maintainable
 code that supports reproducible research outputs, following the Findability, Accessibility, Interoperability and Reusability (FAIR) principles [@FAIR4RS].
 
-This paper defines a set of core values and competencies,
+This community paper defines a set of core values and competencies,
 agnostic of specific technical capabilities or research domains,
 which an RSE should acquire during training and formal education.
 By defining these competencies,
