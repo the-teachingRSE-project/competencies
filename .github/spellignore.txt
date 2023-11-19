@@ -114,7 +114,6 @@ numpy
 OECD
 OER
 OpenScience
-Organization
 Orithena
 OSI-approved
 Paderborn

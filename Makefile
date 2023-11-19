@@ -6,11 +6,12 @@ objects := intro.pdf competencies.pdf institutionalised_education.pdf survey.pdf
 
 all: $(objects)
 
-%.pdf: %.md bibliography.bib contributors.yml preamble.sty build/template.tex filter.py
+%.pdf: %.md bibliography.bib contributors.yml preamble.sty build/template.tex glossary.tex filter.py
 	@mkdir -p build
 	@rm -f build/pdfa.xmpi
 	cp --update preamble.sty build/
 	cp --update bibliography.bib build/
+	cp --update glossary.tex build/
 	python3 filter.py --input="${<}" --output="build/${<}" --contributors="contributors.yml"
 	pandoc \
 	    --standalone \
@@ -23,12 +24,18 @@ all: $(objects)
 	    -M pdfa-$(MAKE_PDFA)=1 \
 	    -M date="`date "+%B %e, %Y"`" \
 	    -M datexmp="`date "+%F"`" \
+	    -M linkcolor=darkgray \
 	    -V hyperrefoptions=pdfa \
 	    -V colorlinks=true \
 	    -V papersize=a4 \
 	    -o "build/${@:.pdf=}.tex" \
 	    "build/$<"
 	@sed -i '/\\author{}/d' "build/${@:.pdf=}.tex"
+	if grep -q "\\makeglossaries" "${<}"; then \
+		cd build; \
+		pdflatex --jobname="${@:.pdf=}" "${@:.pdf=}.tex"; \
+		makeglossaries "${@:.pdf=}"; \
+	fi
 	latexmk \
 	    -pdflatex -bibtex -halt-on-error \
 	    -jobname="${@:.pdf=}" -cd "build/${@:.pdf=}.tex"
