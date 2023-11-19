@@ -350,7 +350,7 @@ where RSEs working in these fields should stay up-to-date and be able to help re
 such as training-data bias, \ac{LLM} "hallucinations" or malicious use, with the greater goal of
 making these powerful tools work for the welfare of society.
 
-# Required generic RSE skills {#sec:required-generic-skills}
+# Foundational RSE competencies {#sec:required-generic-skills}
 
 The role of an RSE lies somewhere on the spectrum between that of a researcher
 (the "R") and a software engineer (the "SE") and, therefore, requires
@@ -358,7 +358,7 @@ competencies in both fields. RSEs typically apply their knowledge and
 experience in larger teams which allows them to cultivate this hybrid nature.
 Therefore, we categorise the competencies into three categories: *software engineering skills*,
 *research skills*, and *communication skills*, with a particular focus on the software and
-research cycle and the scientific process. The generic skills are relevant in a
+research cycle and the scientific process. These competencies are relevant in a
 broad setting and form the foundation for specific specialisations.
 These competencies have been chosen in order to make RSEs contribute to an open and inclusive research
 environment, with tools that respect their professional values.
@@ -1028,7 +1028,7 @@ Research focused specialisations
 #### \${DOMAIN}-RSE
 While software is the lingua franca of all RSEs, there will be RSEs that have specialised in the intricacies of one particular research domain,
 such as medical RSEs, digital humanities RSEs, or physics RSEs.
-This can often serve as a base domain for RSE specialisation as in @subsec:examplemaster
+This can often serve as a base domain for RSE specialisation as in @subsec:examplemaster.
 
 #### Data-focused RSE
 RSEs working at the flourishing intersection between data science and RSE.
@@ -1093,7 +1093,8 @@ The development of research software based on \ac{ML} requires specialised theor
 This involves knowledge about data analysis and feature engineering, metrics that are involved in ML, ML algorithm selection and cross validation, and knowledge in mathematical optimisation methods and statistics.
 ML-RSEs analyse and check the suitability of an algorithm if it fulfils the needs of a certain task and they play a main role in deciding and selecting machine learning libraries for a given task.
 The increasing usage of ML in numerous scientific areas with social impact involves an emphasised awareness and consideration of possible manipulative or discriminatory influences.
-At the intersection of data science [@SSIDataScience] and Data-focused RSEs, the complex way of solving problems utilising machine learning calls for this separate specialisation.
+At the intersection of data science [@SSIDataScience] and data-focused RSEs,
+the complex way of solving problems utilising machine learning calls for this separate specialisation.
 
 #### Web-development RSE
 This RSE is skilled in web applications, front- and/or backend, and/or building
@@ -1187,7 +1188,22 @@ a direction determined by new incentives created by scientific journals and libr
 How we update existing institutions and set up new ones
 that provide this education will be the topic of a follow-up paper.
 
+# Contribution details {-}
+Heidi Seibold did the original conceptualisation and conceived the deRSE23 workshop.
+We thank all the participants of this original community workshop!
+Heidi Seibold, Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele,
+and Samantha Wittke organised the deRSE23 workshop.
+Toby Hodges conceptualised and organised the un-deRSE23 workshop.
+We also thank all the participants of this follow-up community workshop!
+
+Heidi Seibold, Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele,
+Jan Linxweiler, Jean-Noël Grad, and Samantha Wittke contributed the initial draft.
+Florian Goth supervised the project and did the project administration.
+Jean-Noël Grad conceived and implemented the software tooling.
+Everybody contributed to the final review and editing.
+
 \appendix
+
 
 # Appendix {#sec:appendix}
 

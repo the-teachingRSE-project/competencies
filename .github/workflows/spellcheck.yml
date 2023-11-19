@@ -28,6 +28,13 @@ jobs:
             # remove header
             sed -i '1,/---/{/^---$/,/^---$/d}' $file
           done
+      - name: "populate spellignore with author names"
+        uses: mikefarah/yq@master
+        with:
+          cmd: |
+            yq '.authors[] | .lastName' contributors.yml | sed 's/ /\n/g; /null/d' >> .github/spellignore.txt
+            yq '.authors[] | .firstName' contributors.yml | sed 's/ /\n/g; /null/d' >> .github/spellignore.txt
+            yq '.authors[] | .suffixName' contributors.yml | sed 's/ /\n/g; /null/d' >> .github/spellignore.txt
       - uses: eschercloudai/md-spellcheck-action@v0.0.2
         with:
           files-to-check: "competencies.md|call_to_action.md|survey.md|institutionalised_education.md|intro.md"
