@@ -1153,7 +1153,7 @@ a direction determined by new incentives created by scientific journals and libr
 How we update existing institutions and set up new ones
 that provide this education will be the topic of a follow-up paper.
 
-# Contribution details
+# Contribution details {-}
 Heidi Seibold did the original conceptualisation and conceived the deRSE23 workshop.
 We thank all the participants of this original community workshop!
 Heidi Seibold, Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele,
