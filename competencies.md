@@ -1058,7 +1058,8 @@ The development of research software based on machine learning (ML) requires spe
 This involves knowledge about data analysis and feature engineering, metrics that are involved in ML, ML algorithm selection and cross validation, and knowledge in mathematical optimisation methods and statistics.
 ML-RSEs analyse and check the suitability of an algorithm if it fulfils the needs of a certain task and they play a main role in deciding and selecting machine learning libraries for a given task.
 The increasing usage of ML in numerous scientific areas with social impact involves an emphasised awareness and consideration of possible manipulative or discriminatory influences.
-At the intersection of data science [@SSIDataScience] and Data-focused RSEs, the complex way of solving problems utilising machine learning calls for this separate specialisation.
+At the intersection of data science [@SSIDataScience] and data-focused RSEs,
+the complex way of solving problems utilising machine learning calls for this separate specialisation.
 
 #### Web-development RSE
 This RSE is skilled in web applications, front- and/or backend, and/or building
