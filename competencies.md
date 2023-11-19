@@ -993,7 +993,7 @@ Research focused specialisations
 #### \${DOMAIN}-RSE
 While software is the lingua franca of all RSEs, there will be RSEs that have specialised in the intricacies of one particular research domain,
 such as medical RSEs, digital humanities RSEs, or physics RSEs.
-This can often serve as a base domain for RSE specialisation as in @subsec:examplemaster
+This can often serve as a base domain for RSE specialisation as in @subsec:examplemaster.
 
 #### Data-focused RSE
 RSEs working at the flourishing intersection between data science and RSE.
