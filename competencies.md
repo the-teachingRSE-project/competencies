@@ -56,7 +56,11 @@ header-includes:
   - \newglossaryentry{PM}{name={PM},type={skills},description={Project management}}
   - \newglossaryentry{USERS}{name={USERS},type={skills},description={Interaction with users and other stakeholders}}
 include-before:
-    - \newpage
+  - \newpage
+include-after:
+  - \printglossary
+  - \printglossary[type=skills]
+  - \printglossary[type=\acronymtype]
 xnos-cleveref: True
 xnos-capitalise: True
 toc-baselinestretch: 0.95
@@ -269,11 +273,9 @@ software design principles, \glspl{design-pattern}, refactoring, continuous inte
 There are also several initiatives focused on training \acrshort{HPC}-oriented RSEs,
 such as the \acrfull{PRACE} [@PRACE]
 (with material aggregated on various websites, e.g., on EuroCC Training [@EuroCCTraining]),
-UNIVERSE-HPC (Understanding and Nurturing an Integrated Vision for
-Education in RSE and \ac{HPC}) [@UNIVERSEHPC] (a project funded under the \acrshort{UK}'s
-ExCALIBUR research programme [@EXCALIBUR]),
-and the \ac{ENCCS} [@ENCCS], which offers
-a collection of lessons for \ac{HPC} skills [@ENCCSLessons].
+\ac{UNIVERSE-HPC} [@UNIVERSEHPC] (a project funded under the \acrshort{UK}'s
+ExCALIBUR research programme [@EXCALIBUR]), and the \ac{ENCCS} [@ENCCS],
+which offers a collection of lessons for \ac{HPC} skills [@ENCCSLessons].
 
 Initiatives focused on Germany include EduTrain [@EDUTRAIN] (a section of the \acrfull{NFDI} [@NFDI]),
 the \acrfull{HIFIS} [@HIFIS], and the already mentioned SURESOFT [@SURESOFTLink].
@@ -384,6 +386,7 @@ to the \ac{FAIR} principles, which are aspects of good scientific practice.
 software reusability and the extent to which the \ac{SE} skills
 need to be applied to reach them.
 
+<!-- Creating documented code building blocks -->
 \skillsection{DOCBB}
 
 The RSE should be able to create building blocks from source code that are
@@ -395,6 +398,7 @@ is primarily achieved through a "clean" implementation and enhanced by
 documentation. Documentation ranges from commenting code blocks to using
 documentation (building) tools.
 
+<!-- Building distributable libraries -->
 \skillsection{LIBS}
 
 The RSE should be able to distribute their code on their domain/language
@@ -403,6 +407,7 @@ handling/documenting dependencies with other packages/libraries. It sometimes
 requires knowledge of using build systems to enable interoperability with other
 systems.
 
+<!-- Adapting to the software life-cycle -->
 \skillsection{SWLC}
 
 The traditional software life-cycle defines the stages that form the process of building a piece of software.
@@ -415,11 +420,13 @@ and also withdrawing software from its original use.
 The RSE should be aware of this life-cycle
 and be able to predict and cater to the changing needs of software as it moves through the stages.
 
+<!-- Use repositories -->
 \skillsection{SWREPOS}
 
 The RSE should be able to identify and use fitting public platforms (so-called software repositories or repos) to share the artefacts they have
 created and invite the public to scrutinise them for public review.
 
+<!-- Software behaviour awareness and analysis -->
 \skillsection{MOD}
 
 We define this as a certain quality of analytical thinking that enables an RSE to
@@ -433,6 +440,7 @@ and make sure that they do not negatively impact the integrity of their institut
 
 ## Research skills
 
+<!-- Curiosity -->
 \skillsection{NEW}
 
 RSEs gain their reputation from their effectiveness in interacting with their
@@ -442,6 +450,7 @@ Curiosity is also reflected when an RSE is actively
 trying out new tools. Lifelong learning is then no longer just a phrase but
 becomes a motivation to work.
 
+<!-- Understanding the research cycle -->
 \skillsection{RC}
 
 One of the crucial skills of RSEs is their mental proximity to research.
@@ -454,6 +463,7 @@ Like other researchers, RSEs are open to discussions and arguments beyond
 their own expertise and appreciate the underlying principles of
 good research, including publications, reviews and reproducibility.
 
+<!-- Software re-use -->
 \skillsection{SRU}
 
 One goal of \ac{FAIR} software is to avoid unnecessary duplication of work by reusing
@@ -462,6 +472,7 @@ find it and then easily evaluate if the software actually suits their needs.
 Apart from functionality, the integration with other software,
 expected sustainability, and extensibility also have to be part of this evaluation.
 
+<!-- Software publication -->
 \skillsection{SP}
 
 The second part of \ac{FAIR} software is concerned with publishing new and derived works
@@ -471,6 +482,7 @@ the compatibility of different common licences and the ramifications for re-usin
 Finally, RSEs will need to properly execute the technicalities of software publishing,
 such as applying licences, honouring copyright statements and crediting contributors.
 
+<!-- Using domain repositories/directories -->
 \skillsection{DOMREP}
 
 Almost all research software is developed within a specific scientific domain.
@@ -491,6 +503,7 @@ Team skills are also mentioned in common guides for \ac{SE} such as the software
 However, the interpersonal and organisational skills and the capacity for adaption required to work in a research setting
 warrants a much stronger emphasis on this field of competence.
 
+<!-- Working in a team -->
 \skillsection{TEAM}
 
 Working in a team is all about communication and teamwork.
@@ -501,6 +514,7 @@ including, for example, \ac{IT} staff, domain scientists and technicians working
 The shared values come into play and each RSE needs to ensure that these values are lived by and passed on to others.
 Senior RSEs may lead a team of RSEs.
 
+<!-- Teaching -->
 \skillsection{TEACH}
 
 RSEs have many opportunities to teach.
@@ -509,6 +523,7 @@ for example from The Carpentries [@Carpentries], or entire lecture series.
 RSEs may also act as mentors and consultants.
 Code review also includes aspects of the teaching skill.
 
+<!-- Project management -->
 \skillsection{PM}
 
 The RSE should have knowledge about project management. At some institutes, it follows the practices of the local research groups,
@@ -516,6 +531,7 @@ but it is useful if an RSE knows its place in a \gls{PM} scheme, or can bring in
 Project management in research software engineering poses specific challenges (see \gls{USERS}) that might require the capacity
 to flexibly adapt to changing conditions and deviate from common project management methods.
 
+<!-- Interaction with users and other stakeholders -->
 \skillsection{USERS}
 
 Since research software is often developed as part of the research process itself,
@@ -1171,12 +1187,6 @@ a direction determined by new incentives created by scientific journals and libr
 How we update existing institutions and set up new ones
 that provide this education will be the topic of a follow-up paper.
 
-\printglossary[type=\acronymtype]
-
-\printglossary[type=skills]
-
-\printglossary
-
 \appendix
 
 # Appendix {#sec:appendix}
@@ -1336,7 +1346,7 @@ the absence of skills related to research or communication.
 Noteworthy is already now the level of detail in their skill tree which is more similar to @subsec:examplemaster.
 
 Also looking at pathways and how different skills are related,
-the UNIVERSE-HPC project [@UNIVERSEHPC], funded under the \acrshort{UK}'s ExCALIBUR
+the \ac{UNIVERSE-HPC} project [@UNIVERSEHPC], funded under the \acrshort{UK}'s ExCALIBUR
 research programme [@EXCALIBUR], is looking to understand and develop
 training pathways to support the development of specialist skills in the \ac{HPC}
 and exascale domains. The project is gathering open source training materials
@@ -1380,9 +1390,9 @@ Their computing competencies roughly map to our software skills.
 Here, we find competencies such as "package and distribute software", which maps to our (\gls{LIBS}) competencies,
 and "comply with licensing policy", which would in our framework be part of (\gls{SP}) in the research competencies.
 In addition, they have a dedicated parallel computing competency section,
-thereby shifting the emphasis of the knowledge of their computational tools towards the HPC-RSE specialisation in our framework.
+thereby shifting the emphasis of the knowledge of their computational tools towards the \acrshort{HPC}-RSE specialisation in our framework.
 Career profiles, such as the computational chemist, bring additional domain specific knowledge;
-we would classify those as a mixture of \${DOMAIN}-RSE and HPC-RSE.
+we would classify those as a mixture of \${DOMAIN}-RSE and \acrshort{HPC}-RSE.
 It is noteworthy, however, that the BioExcel framework puts very little emphasis on communication skills, which are often involved in RSE-related tasks.
 
 [^JuniorRSE]: [https://competency.ebi.ac.uk/framework/bioexcel/3.0/profile/view/10115/alex-2](https://competency.ebi.ac.uk/framework/bioexcel/3.0/profile/view/10115/alex-2)
