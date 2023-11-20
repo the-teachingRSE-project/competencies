@@ -599,7 +599,7 @@ Beyond that, we feel that today other important tasks of RSEs are
   @Schlauch2018b classify applications based on their scope and criticality and provide \ac{SE} recommendations.
   The RSE needs to be able to identify the application class they are dealing with and apply the respective RSE practices.
 - Enforcing reproducibility. Projects like ReproHack [@ReproHack] can greatly help in fostering that competency. 
-- Understanding metadata for research and, in particular, research software. There are ongoing efforts on metadata for research software such as Codemeta [@jones_codemeta_2016], [Bioschemas ComputationalTool](https://bioschemas.org/profiles/ComputationalTool/) and the \ac{NFDI} working group [@castro_research_sw_metadata_2023] on the subject. Other efforts focus on Software Management Plans (e.g., [@alves_elixir_2021], [@martinez_ortiz_practical_2022]) which could be helpful for RSEs at early stages (i.e., with no much experience on project management) as they give quick hints on what to look for wrt basic management for research software (including information on e.g., licenses, releases, publication, citation) together with some ongoing work on corresponding metadata [@giraldo_metadata_2023].
+- Understanding metadata for research and, in particular, research software. There are ongoing efforts on metadata for research software such as Codemeta [@jones_codemeta_2016], [Bioschemas Computational Tool](https://bioschemas.org/profiles/ComputationalTool/) and the \ac{NFDI} working group [@castro_research_sw_metadata_2023] on the subject. Other efforts focus on Software Management Plans (e.g., [@alves_elixir_2021], [@martinez_ortiz_practical_2022]) which could be helpful for RSEs at early stages (i.e., with no much experience on project management) as they give quick hints on what to look for regarding to basic management for research software (including information on e.g., licenses, releases, publication, citation) together with some ongoing work on corresponding metadata [@giraldo_metadata_2023].
 
 # How much do different people need to know? {#sec:how-much-to-know}
 
@@ -1091,7 +1091,7 @@ compiled software.-->
 
 #### ML-RSE
 The development of research software based on \ac{ML} requires specialised theoretical background and experienced handling of appropriate software in order to produce meaningful results.
-This involves knowledge about data analysis and feature engineering, metrics that are involved in ML, ML algorithm selection and cross validation, and knowledge in mathematical optimisation methods and statistics. Here, we use \ac{ML} on a broad sense of machine-based learning including deep learning, reinforcement learning, nuero-symbolic learning and similar.
+This involves knowledge about data analysis and feature engineering, metrics that are involved in ML, ML algorithm selection and cross validation, and knowledge in mathematical optimisation methods and statistics. Here, we use \ac{ML} on a broad sense of machine-based learning including deep learning, reinforcement learning, neuro-symbolic learning and similar.
 
 ML-RSEs analyse and check the suitability of an algorithm if it fulfils the needs of a certain task and they play a main role in deciding and selecting \ac{ML} libraries for a given task.
 The increasing usage of ML in numerous scientific areas with social impact involves an emphasised awareness and consideration of possible manipulative or discriminatory influences.
