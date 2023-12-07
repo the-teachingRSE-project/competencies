@@ -73,3 +73,8 @@ All people that have participated in discussions with us,
 e.g. at deRSE23 or undeRSE23 are at least eligible for contributor status.
 If you have participated regularly at our weekly working meetings you are eligible for
 authorship.
+
+The first paper,
+_Foundational Competencies and Responsibilities of a Research Software Engineer_,
+is now available as a pre-print: https://arxiv.org/abs/2311.11457
+Feedback is welcome as an issue on this repository.
