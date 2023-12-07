@@ -1091,7 +1091,8 @@ compiled software.-->
 
 #### ML-RSE
 The development of research software based on \ac{ML} requires specialised theoretical background and experienced handling of appropriate software in order to produce meaningful results.
-This involves knowledge about data analysis and feature engineering, metrics that are involved in \ac{ML}, \ac{ML} algorithm selection and cross validation, and knowledge in mathematical optimisation methods and statistics. Here, we use \ac{ML} on a broad sense of machine-based learning including deep learning, reinforcement learning, neuro-symbolic learning and similar.
+This involves knowledge about data analysis and feature engineering, metrics that are involved in \ac{ML}, \ac{ML} algorithm selection and cross validation, and knowledge in mathematical optimisation methods and statistics.
+Here, we use \ac{ML} in a broad sense of machine-based learning including deep learning, reinforcement learning, neuro-symbolic learning and similar.
 
 ML-RSEs analyse and check the suitability of an algorithm if it fulfils the needs of a certain task and they play a main role in deciding and selecting \ac{ML} libraries for a given task.
 The increasing usage of \ac{ML} in numerous scientific areas with social impact involves an emphasised awareness and consideration of possible manipulative or discriminatory influences.
