@@ -96,7 +96,7 @@ Computers and software have played a key role in the research life-cycle for man
 decades, while they are now vital elements of the research process across almost all domains.
 They enable researchers to collect and process ever-increasing amounts of data,
 simulate a wide range of physical phenomena across previously unexplored scales of the universe,
-and discover previously inconceivably complex structures in nature and societies via machine learning (ML).
+and discover previously inconceivably complex structures in nature and societies via \ac{ML}.
 This prevalence of computations in research means that basic
 software skills are now required by researchers at all
 career levels, and in fields significantly beyond the previously expected.
@@ -1091,10 +1091,10 @@ compiled software.-->
 
 #### ML-RSE
 The development of research software based on \ac{ML} requires specialised theoretical background and experienced handling of appropriate software in order to produce meaningful results.
-This involves knowledge about data analysis and feature engineering, metrics that are involved in ML, ML algorithm selection and cross validation, and knowledge in mathematical optimisation methods and statistics. Here, we use \ac{ML} on a broad sense of machine-based learning including deep learning, reinforcement learning, neuro-symbolic learning and similar.
+This involves knowledge about data analysis and feature engineering, metrics that are involved in \ac{ML}, \ac{ML} algorithm selection and cross validation, and knowledge in mathematical optimisation methods and statistics. Here, we use \ac{ML} on a broad sense of machine-based learning including deep learning, reinforcement learning, neuro-symbolic learning and similar.
 
 ML-RSEs analyse and check the suitability of an algorithm if it fulfils the needs of a certain task and they play a main role in deciding and selecting \ac{ML} libraries for a given task.
-The increasing usage of ML in numerous scientific areas with social impact involves an emphasised awareness and consideration of possible manipulative or discriminatory influences.
+The increasing usage of \ac{ML} in numerous scientific areas with social impact involves an emphasised awareness and consideration of possible manipulative or discriminatory influences.
 At the intersection of data science [@SSIDataScience] and data-focused RSEs,
 the complex way of solving problems utilising \ac{ML} calls for this separate specialisation.
 
