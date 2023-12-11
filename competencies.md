@@ -1050,7 +1050,7 @@ New areas of expertise
 This RSE is interested in \glspl{SysOp} and system administration and sets up \ac{IT} infrastructures for and with researchers.
 Therefore, this specialisation on the one hand requires a deep knowledge of physical computer and network hardware and
 on the other hand knowledge about setup and configuration of particular server software, 
-e.g., setup of virtual machines on hypervisors or the planning and setup of compute server clusters \ac{ML}.
+e.g., setup of virtual machines on hypervisors or the planning and setup of compute server clusters for \ac{ML}.
 As an interface between the researchers and the infrastructure, they take care of user management, access permissions, and configuration of required services.
 
 #### Maintenance RSEs
