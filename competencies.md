@@ -599,7 +599,15 @@ Beyond that, we feel that today other important tasks of RSEs are
   @Schlauch2018b classify applications based on their scope and criticality and provide \ac{SE} recommendations.
   The RSE needs to be able to identify the application class they are dealing with and apply the respective RSE practices.
 - Enforcing reproducibility. Projects like ReproHack [@ReproHack] can greatly help in fostering that competency. 
-- Understanding metadata for research and, in particular, research software. There are ongoing efforts on metadata for research software such as CodeMeta [@jones_codemeta_2016], [Bioschemas Computational Tool](https://bioschemas.org/profiles/ComputationalTool/) and the \ac{NFDI} working group [@castro_research_sw_metadata_2023] on the subject. Other efforts focus on Software Management Plans (e.g., [@alves_elixir_2021], [@martinez_ortiz_practical_2022]) which could be helpful for RSEs at early stages (i.e., with not much experience of project management). They give quick hints on what to look for regarding basic management for research software (including information on e.g., licenses, releases, publication, citation) together with some ongoing work on corresponding metadata [@giraldo_metadata_2023].
+- Understanding metadata for research and, in particular, research software.
+  There are ongoing efforts on metadata for research software such as CodeMeta [@jones_codemeta_2016],
+  [Bioschemas Computational Tool](https://bioschemas.org/profiles/ComputationalTool/)
+  and the \ac{NFDI} working group [@castro_research_sw_metadata_2023] on the subject.
+  Other efforts focus on Software Management Plans (e.g., [@alves_elixir_2021; @martinez_ortiz_practical_2022])
+  which could be helpful for RSEs at early stages (i.e., with not much experience of project management).
+  They give quick hints on what to look for regarding basic management for research
+  software (including information on e.g., licenses, releases, publication, citation)
+  together with some ongoing work on corresponding metadata [@giraldo_metadata_2023].
 
 # How much do different people need to know? {#sec:how-much-to-know}
 
