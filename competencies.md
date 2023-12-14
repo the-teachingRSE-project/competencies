@@ -598,7 +598,7 @@ Beyond that, we feel that today other important tasks of RSEs are
   where research software can move from one class to another during its life-cycle.
   @Schlauch2018b classify applications based on their scope and criticality and provide \ac{SE} recommendations.
   The RSE needs to be able to identify the application class they are dealing with and apply the respective RSE practices.
-- Enforcing reproducibility. Projects like ReproHack [@ReproHack] can greatly help in fostering that competency. 
+- Enforcing reproducibility. Projects like ReproHack [@ReproHack] can greatly help in fostering that competency.
 - Understanding metadata for research and, in particular, research software.
   There are ongoing efforts on metadata for research software such as CodeMeta [@jones_codemeta_2016],
   [Bioschemas Computational Tool](https://bioschemas.org/profiles/ComputationalTool/)
