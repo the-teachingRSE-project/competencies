@@ -471,6 +471,8 @@ existing work instead. To (re-) use software, researchers have to be able to
 find it and then easily evaluate if the software actually suits their needs.
 Apart from functionality, the integration with other software,
 expected sustainability, and extensibility also have to be part of this evaluation.
+Additional software citation and metadata skills are necessary to provide evidence
+of software re-use in the scientific record.
 
 <!-- Software publication -->
 \skillsection{SP}
