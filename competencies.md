@@ -475,7 +475,7 @@ expected sustainability, and extensibility also have to be part of this evaluati
 <!-- Software publication -->
 \skillsection{SP}
 
-The second part of \ac{FAIR} software is concerned with publishing new and derived works
+Another part of \ac{FAIR} software is concerned with publishing new and derived works
 and making them available for re-use by the research community and the general public.
 RSEs need to have a basic understanding of common software licence types, such as "proprietary", "copyleft", and "permissive",
 the compatibility of different common licences and the ramifications for re-using and composing programs.
