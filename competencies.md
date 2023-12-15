@@ -1058,6 +1058,8 @@ In this changing environment, a significant amount of effort in (research) softw
 needs to be spent on maintenance to ensure that software remains useful or even installable.
 Maintenance RSEs are mainly concerned with change management for code and documentation,
 and working with the community to safeguard usability and adaptability.
+They have additional competence in the governance of software projects,
+and scalable decision-making processes.
 
 #### Legacy RSEs
 Research software may be used and evolved over generations of research without change management or governance processes,
