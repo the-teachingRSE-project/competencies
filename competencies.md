@@ -1056,8 +1056,15 @@ As an interface between the researchers and the infrastructure, they take care o
 The constantly evolving software environment can hinder or prevent reproducibility.
 In this changing environment, a significant amount of effort in (research) software development
 needs to be spent on maintenance to ensure that software remains useful or even installable.
-With regard to which additional competency is required,
-these are people having experience with software stacks that are not part of the general curricula any more (e.g., \gls{COBOL} or \gls{Fortran}).
+Maintenance RSEs are mainly concerned with change management for code and documentation,
+and working with the community to safeguard usability and adaptability.
+
+#### Legacy RSEs
+Research software may be used and evolved over generations of research without change management or governance processes,
+which may lead to the emergence of legacy code that is actively used.
+To safeguard continued usability and adoption,
+these RSEs have experience in working with legacy code,
+and are competent in the application of software stacks that are not part of the general curricula any more (e.g., \gls{COBOL} or \gls{Fortran}).
 
 #### HPC-RSE
 
