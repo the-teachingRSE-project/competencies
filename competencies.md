@@ -479,8 +479,12 @@ Another part of \ac{FAIR} software is concerned with publishing new and derived 
 and making them available for re-use by the research community and the general public.
 RSEs need to have a basic understanding of common software licence types, such as "proprietary", "copyleft", and "permissive",
 the compatibility of different common licences and the ramifications for re-using and composing programs.
-Finally, RSEs will need to properly execute the technicalities of software publishing,
+Beyond that, RSEs will need to properly execute the technicalities of software publishing,
 such as applying licences, honouring copyright statements and crediting contributors.
+RSEs also need to understand and apply principles and good practices of software publication.
+This includes the collection, curation and provision of relevant software publication metadata [@druskat_hermes_2022]
+both for software citation [@druskat_cff_2021], and
+for generic and domain-specific software description [@jones_codemeta_2017].
 
 <!-- Using domain repositories/directories -->
 \skillsection{DOMREP}
@@ -491,6 +495,9 @@ home domain, with which it needs to be able to interact. The RSE needs to be
 aware of any domain specific software repositories, data sets and catalogues.
 The RSE also needs to be aware of how their software can interact with the existing
 domain-specific data repositories.
+Finally, they need to be able to assess and use software repositories -
+domain-specific or generic -
+for publishing software with the relevant metadata.
 
 ## Communication skills
 
