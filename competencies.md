@@ -415,8 +415,10 @@ Initial development generally involves a creative process where requirements are
 followed by a formulation of a plan to fulfil them that is finally implemented.
 This is then followed by testing that things work as expected and that they continue to do so into the future.
 Often the development is iterated.
-We emphasise that the life-cycle is not complete here but also includes periods of maintaining a software
-and also withdrawing software from its original use.
+We emphasise that the life-cycle as described here is not complete, 
+as it includes periods of software maintenance and software retirement.
+Additionally, the research software life-cycle extends the traditional life-cycle
+with a \gls{software-publication} stage.
 The RSE should be aware of this life-cycle
 and be able to predict and cater to the changing needs of software as it moves through the stages.
 
