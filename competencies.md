@@ -1013,6 +1013,7 @@ as exemplified by the demand of an increasing amount of research funding agencie
 Hence, an open science RSE is required to have a deeper knowledge in (\gls{RC}) and how to distribute software publicly (\gls{SRU}, \gls{SP}).
 Open Science RSEs can help researchers navigate the technical questions that come up
 when practising Open Science, such as "How do I make my code presentable?",
+"How do I make my code citable?",
 "What do I need to do to make my software \ac{FAIR}?", or
 "How do I sustainably work with an (international) team on a large code base?".
 Like the Data-focused RSE, they have a deep understanding of \ac{RDM} topics.
