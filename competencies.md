@@ -1328,7 +1328,14 @@ Towards the end of the programme, she visits her first RSE conference where she 
 that so far have been abstract in her master's degree.
 
 The exposure to the wider RSE community inspires her to invest additional time into her thesis to publish
-her software project under a licence approved by the Open Source Initiative and write an accompanying article in the open source journal JOSS[@JOSS].
+her software project under a licence approved by the Open Source Initiative and write an accompanying article in the open source journal JOSS [@JOSS].
+Inspired by the discussion with reviewers of her JOSS paper,
+and the citation metadata file that JOSS created automatically for her when her paper is published,
+Kay starts to think more about making her software FAIR.
+She reads up on the topic in a guide suggested to her, the Turing Way [@turing_way_2022],
+and creates metadata files that provide the citation metadata and general description for her software.
+She adds the files to her source code repository,
+and also adds an automated \gls{CI}/\gls{CD} pipeline that updates metadata and creates a new publication record in the Zenodo repository for each new release.
 Kay has now completed the RSE programme and has reached Junior RSE level.
 
 #### Junior RSE
