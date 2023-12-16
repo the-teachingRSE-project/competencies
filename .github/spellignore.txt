@@ -31,6 +31,7 @@ cybersecurity
 DALIA
 DaLiJe
 de
+deRSE
 DFG
 DigComp
 DigCompEdu
@@ -109,6 +110,7 @@ MOOCs
 MPI
 multicore
 multithreading
+neuro-symbolic
 NFDI
 NFDI4Ing
 numpy
@@ -135,6 +137,7 @@ researchology
 researchonomy
 reusability
 RSE
+RSE's
 rse-specialisations
 RTPs
 scipy
