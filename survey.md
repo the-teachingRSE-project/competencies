@@ -297,6 +297,13 @@ FIXME:
 - survey of 8 OER repositories with non-standardised metadata [@SimaodeDeus2020]
 - OER certification proposal in Austria [@Schon2023]
 - databases: see Appendix section [Directories of resources]
+- from competencies document: Other efforts focus on Software Management Plans (e.g., [@alves_elixir_2021;
+  @martinez_ortiz_practical_2022]) which could be helpful for RSEs at early stages
+  (i.e., with not much experience of project management). They give quick hints on what to look for regarding basic
+  management for research software (including information on e.g., licenses, releases, publication, citation)
+  together with some ongoing work on corresponding metadata [@giraldo_metadata_2023].
+- [Bioschemas Computational Tool](https://bioschemas.org/profiles/ComputationalTool/)
+
 
 \appendix
 

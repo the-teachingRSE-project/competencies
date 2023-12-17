@@ -609,7 +609,7 @@ Beyond that, we feel that today other important tasks of RSEs are
   where research software can move from one class to another during its life-cycle.
   @Schlauch2018b classify applications based on their scope and criticality and provide \ac{SE} recommendations.
   The RSE needs to be able to identify the application class they are dealing with and apply the respective RSE practices.
-- Enforcing reproducibility. Projects like ReproHack [@ReproHack] can greatly help in fostering that competency. 
+- Enforcing reproducibility. Projects like ReproHack [@ReproHack] can greatly help in fostering that competency.
 - Understanding metadata for research and, in particular, research software.
   There are ongoing efforts on metadata for research software such as CodeMeta [@jones_codemeta_2017],
   [Bioschemas Computational Tool](https://bioschemas.org/profiles/ComputationalTool/)
@@ -622,6 +622,7 @@ Beyond that, we feel that today other important tasks of RSEs are
   They give quick hints on what to look for regarding basic management for research
   software (including information on e.g., licenses, releases, publication, citation)
   together with some ongoing work on corresponding metadata [@giraldo_metadata_2023].
+  Metadata can also be used actively during and within a research project to inform the decision making processes [@Bird2016].
 
 # How much do different people need to know? {#sec:how-much-to-know}
 
@@ -1118,7 +1119,7 @@ This involves knowledge about data analysis and feature engineering, metrics tha
 Here, we use \ac{ML} in a broad sense of machine-based learning including deep learning, reinforcement learning, neuro-symbolic learning and similar.
 
 ML-RSEs analyse and check the suitability of an algorithm if it fulfils the needs of a certain task and they play a main role in deciding and selecting \ac{ML} libraries for a given task.
-The increasing usage of \ac{ML} in numerous scientific areas with social impact involves an emphasised awareness and consideration of possible manipulative or discriminatory influences.
+The increasing usage of \ac{ML} in numerous scientific areas with social impact involves an emphasised awareness and consideration of possible influences and biases.
 At the intersection of data science [@SSIDataScience] and data-focused RSEs,
 the complex way of solving problems utilising \ac{ML} calls for this separate specialisation.
 
