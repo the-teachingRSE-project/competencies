@@ -610,10 +610,9 @@ Beyond that, we feel that today other important tasks of RSEs are
   @Schlauch2018b classify applications based on their scope and criticality and provide \ac{SE} recommendations.
   The RSE needs to be able to identify the application class they are dealing with and apply the respective RSE practices.
 - Enforcing reproducibility. Projects like ReproHack [@ReproHack] can greatly help in fostering that competency.
-- Understanding metadata for research and, in particular, research software.
-  There are ongoing efforts on metadata for research software such as CodeMeta [@jones_codemeta_2017],
-  [Bioschemas Computational Tool](https://bioschemas.org/profiles/ComputationalTool/)
-  the \ac{NFDI} working group [@castro_research_sw_metadata_2023] on the subject.
+- Understanding metadata for research and research software.
+  There are ongoing efforts on metadata for research software such as CodeMeta [@jones_codemeta_2017]
+  and the \ac{NFDI} working group [@castro_research_sw_metadata_2023] on the subject.
   These are complemented by the development of new tools and methods
   for providing and working with software metadata, such as
   the Citation File Format project [@druskat_cff_2021] and HERMES [druskat_hermes_2022].
