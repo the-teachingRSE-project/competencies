@@ -486,9 +486,9 @@ the compatibility of different common licences and the ramifications for re-usin
 Beyond that, RSEs will need to properly execute the technicalities of software publishing,
 such as applying licences, honouring copyright statements and crediting contributors.
 RSEs also need to understand and apply principles and good practices of software publication.
-This includes the collection, curation and provision of relevant software publication metadata [@druskat_hermes_2022]
-both for software citation [@druskat_cff_2021], and
-for generic and domain-specific software description [@jones_codemeta_2017].
+This includes the collection, curation and provision of relevant software publication metadata
+both for software citation, and
+for generic and domain-specific software description [@druskat_hermes_2022].
 
 <!-- Using domain repositories/directories -->
 \skillsection{DOMREP}
