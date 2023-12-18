@@ -20,6 +20,7 @@ CarpentriesLibrary
 CarpentriesSoftware
 Center
 CHAOSS
+citable
 codebase
 CodeMeta
 CodeRefinery
@@ -27,6 +28,7 @@ comp-lvls-se
 Coursera
 CRSP
 CSE
+curation
 cybersecurity
 DALIA
 DaLiJe
