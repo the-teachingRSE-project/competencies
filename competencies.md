@@ -615,7 +615,7 @@ Beyond that, we feel that today other important tasks of RSEs are
   and the \ac{NFDI} working group [@castro_research_sw_metadata_2023] on the subject.
   These are complemented by the development of new tools and methods
   for providing and working with software metadata, such as
-  the Citation File Format project [@druskat_cff_2021] and HERMES [druskat_hermes_2022].
+  the Citation File Format project [@druskat_cff_2021] and HERMES [@druskat_hermes_2022].
   Other efforts focus on Software Management Plans (e.g., [@alves_elixir_2021; @martinez_ortiz_practical_2022])
   which could be helpful for RSEs at early stages (i.e., with not much experience of project management).
   They give quick hints on what to look for regarding basic management for research
