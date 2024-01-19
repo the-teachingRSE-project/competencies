@@ -24,6 +24,8 @@ This paper is intended as a collaborative effort and we are looking for input fr
 
 **We use British English**
 
+**We have regular meetings, out meeting notes can be found here: https://pad.gwdg.de/s/pVBQ3Sh7Z# **
+
 - competencies.md will be published on arxiv. LaTeX tags/code is fine in here.
 - survey.md will move to a website, hence this file has to be Markdown
 - We utilise tags to categorise issues and PRs to the respective paper.
