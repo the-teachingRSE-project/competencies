@@ -400,7 +400,7 @@ The life-cycle further includes periods of deployment, maintenance and further d
 as well as software retirement. 
 Additionally, the research software life-cycle extends the traditional life-cycle
 with \gls{software-publication}. The RSE should be aware of this life-cycle
-and be able to predict and cater to the changing needs a software project as it moves through the stages.
+and be able to predict and cater to the changing needs of a software project as it moves through the stages.
 
 
 <!-- Creating documented code building blocks -->
