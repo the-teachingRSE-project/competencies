@@ -38,6 +38,25 @@ structures and which additional structures are required.
 "
 ---
 
+# Introduction
+In a previous paper [@Goth2023] we have defined the core competencies and resposibilities of a Research Software Engineer (RSE). 
+
+* like in all aspects of modern life digital skills are required in all forms of research
+* where are RSEs employed?
+  * traditional subjects computational physics such as weather forecasting, engineering, material science
+  * data acquisition systems from satellites to IoT sensors
+  * machine learning medical sciences
+  * visual/performing arts
+* large variety of RSEs, refer to RSE specialisations in [@Goth2023]
+* by definition research is innovative and ready-made digital solutions often do not exist. researchers need to develop their own tools
+* as digitisation increases the need for RSE skills will only increase
+* therefore all researchers need to be exposed to some RSE skills
+* universities need to facilitate training RSEs
+* current pathway to RSEs
+
+
+
+
 # Organisational Infrastructures
 So we have defined our set of competencies that we feel every RSE should possess.
 Table 2 above nevertheless already hints at the fact that some RSE skills are required during the domain studies,
