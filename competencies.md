@@ -35,11 +35,11 @@ header-includes:
     - \newcommand*{\faicon}[1]{{\FA \symbol{#1}}}
     - \newcommand*{\DOCBB}{\faicon{"F0E8}\nobreakspace{}DOCBB}
     - \newcommand*{\LIBS}{\faicon{"E4C7}\nobreakspace{}LIBS}
-    - \newcommand*{\SWLC}{\faicon{"E4E2}\nobreakspace{}SWLC}
+    - \newcommand*{\SWLC}{\faicon{"E4BB}\nobreakspace{}SWLC}
     - \newcommand*{\SWREPOS}{\faicon{"E13C}\nobreakspace{}SWREPOS}
     - \newcommand*{\MOD}{\faicon{"F5FC}\nobreakspace{}MOD}
-    - \newcommand*{\NEW}{\faicon{"E54D}\nobreakspace{}NEW}
-    - \newcommand*{\RC}{\faicon{"E4BB}\nobreakspace{}RC}
+    - \newcommand*{\NEW}{\faicon{"F0EB}\nobreakspace{}NEW}
+    - \newcommand*{\RC}{\faicon{"F19D}\nobreakspace{}RC}
     - \newcommand*{\SRU}{\faicon{"F1B8}\nobreakspace{}SRU}
     - \newcommand*{\SP}{\faicon{"F1EA}\nobreakspace{}SP}
     - \newcommand*{\DOMREP}{\faicon{"F07B}\nobreakspace{}DOMREP}
