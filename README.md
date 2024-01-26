@@ -5,11 +5,14 @@ Output of the de-RSE 2023 Conference Workshop on "Teaching and Learning Research
 Since the original idea grew in size and scope we had to split the paper in different subpapers highlighting different aspects
 
 Get the latest version of the respective PDF files here:
-* "Teaching and Learning Research Software Engineering" ([intro.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/intro.pdf))
+
 * "Foundational competencies and responsibilities of an RSE" ([competencies.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/competencies.pdf))
 * "Institutionalized Organisation of RSE Education" ([institutionalised_education.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/institutionalised_education.pdf))
 * "A Survey of Initiatives Providing Educative Material in the RSE Space" ([survey.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/survey.pdf))
 * "Educating RSEs in Germany - What Needs to Be Done" ([call_to_action.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/call_to_action.pdf))
+
+Older:
+* "Teaching and Learning Research Software Engineering" ([intro.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/intro.pdf))
 
 ## How to contribute - Some of our rules
 
@@ -20,6 +23,10 @@ This paper is intended as a collaborative effort and we are looking for input fr
 **Please utilise semantic line breaks!**
 
 **We use British English**
+
+**We have regular meetings, out meeting notes can be found here: https://pad.gwdg.de/s/pVBQ3Sh7Z#**
+
+**If you want to get notified of our calls, and participate in the discussion by E-Mail, we have a Mailing-List: https://lists.uni-wuerzburg.de/mailman/listinfo/teachingrse**
 
 - competencies.md will be published on arxiv. LaTeX tags/code is fine in here.
 - survey.md will move to a website, hence this file has to be Markdown
@@ -70,3 +77,8 @@ All people that have participated in discussions with us,
 e.g. at deRSE23 or undeRSE23 are at least eligible for contributor status.
 If you have participated regularly at our weekly working meetings you are eligible for
 authorship.
+
+The first paper,
+_Foundational Competencies and Responsibilities of a Research Software Engineer_,
+is now available as a pre-print: https://arxiv.org/abs/2311.11457
+Feedback is welcome as an issue on this repository.

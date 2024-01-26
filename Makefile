@@ -2,24 +2,17 @@
 
 MAKE_PDFA := true
 
-ifeq ($(MAKE_PDFA),true)
-  template_opts=--with-pdfx
-  xelatex_opts=-shell-escape
-else
-  template_opts=
-  xelatex_opts=
-endif
-
 objects := intro.pdf competencies.pdf institutionalised_education.pdf survey.pdf call_to_action.pdf
 
 all: $(objects)
 
-%.pdf: %.md bibliography.bib contributors.yml preamble.sty build/template.tex
+%.pdf: %.md bibliography.bib contributors.yml preamble.sty build/template.tex glossary.tex filter.py
 	@mkdir -p build
-	@rm -f build/pdfa.xmpi build/creationdate.lua build/creationdate.timestamp
+	@rm -f build/pdfa.xmpi
 	cp --update preamble.sty build/
 	cp --update bibliography.bib build/
-	python3 filter.py --input="$<" --output="build/$<" --contributors="contributors.yml"
+	cp --update glossary.tex build/
+	python3 filter.py --input="${<}" --output="build/${<}" --contributors="contributors.yml"
 	pandoc \
 	    --standalone \
 	    --number-sections \
@@ -28,23 +21,30 @@ all: $(objects)
 	    --biblatex \
 	    --toc \
 	    --template="build/template.tex" \
+	    -M pdfa-$(MAKE_PDFA)=1 \
 	    -M date="`date "+%B %e, %Y"`" \
 	    -M datexmp="`date "+%F"`" \
+	    -M linkcolor=darkgray \
 	    -V hyperrefoptions=pdfa \
 	    -V colorlinks=true \
 	    -V papersize=a4 \
 	    -o "build/${@:.pdf=}.tex" \
 	    "build/$<"
+	@sed -i '/\\author{}/d' "build/${@:.pdf=}.tex"
+	if grep -q "\\makeglossaries" "${<}"; then \
+		cd build; \
+		pdflatex --jobname="${@:.pdf=}" "${@:.pdf=}.tex"; \
+		makeglossaries "${@:.pdf=}"; \
+	fi
 	latexmk \
-	    -e '$$'"hash_calc_ignore_pattern{'timestamp'} = '^';" \
-	    -xelatex -bibtex -halt-on-error $(xelatex_opts) \
+	    -pdflatex -bibtex -halt-on-error \
 	    -jobname="${@:.pdf=}" -cd "build/${@:.pdf=}.tex"
-	@mv "build/${@}" ${@}
+	@mv "build/${@}" "${@}"
 
 build/template.tex: template.py
 	@mkdir -p build
 	pandoc --print-default-template=latex > "${@}"
-	python3 "${<}" $(template_opts) "${@}"
+	python3 "${<}" "${@}"
 
 clean:
 	rm -f $(objects)
