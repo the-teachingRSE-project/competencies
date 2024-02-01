@@ -214,6 +214,10 @@ However, we also recognise that many RSEs have chosen specifically to focus on a
 role as an alternative to a traditional research role because they enjoy and wish to focus
 on the development of research software.
 
+**Researchers**: We refer by researcher to all others involved in research or in research
+supporting organizations as \eg libraries,
+hence those that are at most sporadically performing RSE actions.
+
 # Related work {#sec:related-work}
 
 Various initiatives are working to support technical professionals develop their computational skills.
