@@ -39,18 +39,18 @@ header-includes:
   - \newcommand{\blandscape}{\begin{landscape}}
   - \newcommand{\elandscape}{\end{landscape}}
   - \newcommand*{\DOCBB}{\includesvg{fonts/sitemap}\nobreakspace{}DOCBB}
-  - \newcommand*{\LIBS}{\includesvg{fonts/boxes-packing}\nobreakspace{}LIBS}
-  - \newcommand*{\SWLC}{\includesvg{fonts/arrows-spin}\nobreakspace{}SWLC}
-  - \newcommand*{\SWREPOS}{\includesvg{fonts/code-pull-request}\nobreakspace{}SWREPOS}
-  - \newcommand*{\MOD}{\includesvg{fonts/laptop-code}\nobreakspace{}MOD}
+  - \newcommand*{\LIBS}{\includesvg{{fonts/boxes-packing}}\nobreakspace{}LIBS}
+  - \newcommand*{\SWLC}{\includesvg{{fonts/arrows-spin}}\nobreakspace{}SWLC}
+  - \newcommand*{\SWREPOS}{\includesvg{{fonts/code-pull-request}}\nobreakspace{}SWREPOS}
+  - \newcommand*{\MOD}{\includesvg{{fonts/laptop-code}}\nobreakspace{}MOD}
   - \newcommand*{\NEW}{\includesvg{fonts/lightbulb}\nobreakspace{}NEW}
-  - \newcommand*{\RC}{\includesvg{fonts/graduation-cap}\nobreakspace{}RC}
+  - \newcommand*{\RC}{\includesvg{{fonts/graduation-cap}}\nobreakspace{}RC}
   - \newcommand*{\SRU}{\includesvg{fonts/recycle}\nobreakspace{}SRU}
   - \newcommand*{\SP}{\includesvg{fonts/newspaper}\nobreakspace{}SP}
   - \newcommand*{\DOMREP}{\includesvg{fonts/folder}\nobreakspace{}DOMREP}
-  - \newcommand*{\TEAM}{\includesvg{fonts/user-group}\nobreakspace{}TEAM}
-  - \newcommand*{\TEACH}{\includesvg{fonts/chalkboard-user}\nobreakspace{}TEACH}
-  - \newcommand*{\PM}{\includesvg{fonts/clipboard-list}\nobreakspace{}PM}
+  - \newcommand*{\TEAM}{\includesvg{{fonts/user-group}}\nobreakspace{}TEAM}
+  - \newcommand*{\TEACH}{\includesvg{{fonts/chalkboard-user}}\nobreakspace{}TEACH}
+  - \newcommand*{\PM}{\includesvg{{fonts/clipboard-list}}\nobreakspace{}PM}
   - \newcommand*{\USERS}{\includesvg{fonts/comments}\nobreakspace{}USERS}
   - \usepackage[acronym,toc,shortcuts,nogroupskip]{glossaries}
   - \newglossary[skills.glg]{skills}{skills.gls}{skills.glo}{Skill codes}
