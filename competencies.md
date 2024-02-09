@@ -38,20 +38,20 @@ header-includes:
   - \usepackage{svg}
   - \newcommand{\blandscape}{\begin{landscape}}
   - \newcommand{\elandscape}{\end{landscape}}
-  - \newcommand*{\DOCBB}{\includesvg{fonts/sitemap}\nobreakspace{}DOCBB}
-  - \newcommand*{\LIBS}{\includesvg{{fonts/boxes-packing}}\nobreakspace{}LIBS}
-  - \newcommand*{\SWLC}{\includesvg{{fonts/arrows-spin}}\nobreakspace{}SWLC}
-  - \newcommand*{\SWREPOS}{\includesvg{{fonts/code-pull-request}}\nobreakspace{}SWREPOS}
-  - \newcommand*{\MOD}{\includesvg{{fonts/laptop-code}}\nobreakspace{}MOD}
-  - \newcommand*{\NEW}{\includesvg{fonts/lightbulb}\nobreakspace{}NEW}
-  - \newcommand*{\RC}{\includesvg{{fonts/graduation-cap}}\nobreakspace{}RC}
-  - \newcommand*{\SRU}{\includesvg{fonts/recycle}\nobreakspace{}SRU}
-  - \newcommand*{\SP}{\includesvg{fonts/newspaper}\nobreakspace{}SP}
-  - \newcommand*{\DOMREP}{\includesvg{fonts/folder}\nobreakspace{}DOMREP}
-  - \newcommand*{\TEAM}{\includesvg{{fonts/user-group}}\nobreakspace{}TEAM}
-  - \newcommand*{\TEACH}{\includesvg{{fonts/chalkboard-user}}\nobreakspace{}TEACH}
-  - \newcommand*{\PM}{\includesvg{{fonts/clipboard-list}}\nobreakspace{}PM}
-  - \newcommand*{\USERS}{\includesvg{fonts/comments}\nobreakspace{}USERS}
+  - \newcommand*{\DOCBB}{\includesvg[height=10pt]{fonts/sitemap}\nobreakspace{}DOCBB}
+  - \newcommand*{\LIBS}{\includesvg[height=10pt]{{fonts/boxes-packing}}\nobreakspace{}LIBS}
+  - \newcommand*{\SWLC}{\includesvg[height=10pt]{{fonts/arrows-spin}}\nobreakspace{}SWLC}
+  - \newcommand*{\SWREPOS}{\includesvg[height=10pt]{{fonts/code-pull-request}}\nobreakspace{}SWREPOS}
+  - \newcommand*{\MOD}{\includesvg[height=10pt]{{fonts/laptop-code}}\nobreakspace{}MOD}
+  - \newcommand*{\NEW}{\includesvg[height=10pt]{fonts/lightbulb}\nobreakspace{}NEW}
+  - \newcommand*{\RC}{\includesvg[height=10pt]{{fonts/graduation-cap}}\nobreakspace{}RC}
+  - \newcommand*{\SRU}{\includesvg[height=10pt]{fonts/recycle}\nobreakspace{}SRU}
+  - \newcommand*{\SP}{\includesvg[height=10pt]{fonts/newspaper}\nobreakspace{}SP}
+  - \newcommand*{\DOMREP}{\includesvg[height=10pt]{fonts/folder}\nobreakspace{}DOMREP}
+  - \newcommand*{\TEAM}{\includesvg[height=10pt]{{fonts/user-group}}\nobreakspace{}TEAM}
+  - \newcommand*{\TEACH}{\includesvg[height=10pt]{{fonts/chalkboard-user}}\nobreakspace{}TEACH}
+  - \newcommand*{\PM}{\includesvg[height=10pt]{{fonts/clipboard-list}}\nobreakspace{}PM}
+  - \newcommand*{\USERS}{\includesvg[height=10pt]{fonts/comments}\nobreakspace{}USERS}
   - \usepackage[acronym,toc,shortcuts,nogroupskip]{glossaries}
   - \newglossary[skills.glg]{skills}{skills.gls}{skills.glo}{Skill codes}
   - \makeglossaries
