@@ -88,3 +88,5 @@ Feedback is welcome as an issue on this repository.
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 
 Each file in this repository is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
+When re-using material from this repository, please attribute it with the information given in the file [attribution.md](attribution.md).
