@@ -35,24 +35,23 @@ header-includes:
   - \usepackage{multirow}
   - \usepackage{array}
   - \usepackage{longtable}
+  - \usepackage{svg}
   - \newcommand{\blandscape}{\begin{landscape}}
   - \newcommand{\elandscape}{\end{landscape}}
-  - '\newfontfamily\FA[Path=../fonts/, Extension=.otf]{Font Awesome 6 Free-Solid-900}'
-  - \newcommand*{\faicon}[1]{{\FA \symbol{#1}}}
-  - \newcommand*{\DOCBB}{\faicon{"F0E8}\nobreakspace{}DOCBB}
-  - \newcommand*{\LIBS}{\faicon{"E4C7}\nobreakspace{}LIBS}
-  - \newcommand*{\SWLC}{\faicon{"E4BB}\nobreakspace{}SWLC}
-  - \newcommand*{\SWREPOS}{\faicon{"E13C}\nobreakspace{}SWREPOS}
-  - \newcommand*{\MOD}{\faicon{"F5FC}\nobreakspace{}MOD}
-  - \newcommand*{\NEW}{\faicon{"F0EB}\nobreakspace{}NEW}
-  - \newcommand*{\RC}{\faicon{"F19D}\nobreakspace{}RC}
-  - \newcommand*{\SRU}{\faicon{"F1B8}\nobreakspace{}SRU}
-  - \newcommand*{\SP}{\faicon{"F1EA}\nobreakspace{}SP}
-  - \newcommand*{\DOMREP}{\faicon{"F07B}\nobreakspace{}DOMREP}
-  - \newcommand*{\TEAM}{\faicon{"F500}\nobreakspace{}TEAM}
-  - \newcommand*{\TEACH}{\faicon{"F51C}\nobreakspace{}TEACH}
-  - \newcommand*{\PM}{\faicon{"F46D}\nobreakspace{}PM}
-  - \newcommand*{\USERS}{\faicon{"F086}\nobreakspace{}USERS}
+  - \newcommand*{\DOCBB}{\includesvg{fonts/sitemap}\nobreakspace{}DOCBB}
+  - \newcommand*{\LIBS}{\includesvg{fonts/boxes-packing}\nobreakspace{}LIBS}
+  - \newcommand*{\SWLC}{\includesvg{fonts/arrows-spin}\nobreakspace{}SWLC}
+  - \newcommand*{\SWREPOS}{\includesvg{fonts/code-pull-request}\nobreakspace{}SWREPOS}
+  - \newcommand*{\MOD}{\includesvg{fonts/laptop-code}\nobreakspace{}MOD}
+  - \newcommand*{\NEW}{\includesvg{fonts/lightbulb}\nobreakspace{}NEW}
+  - \newcommand*{\RC}{\includesvg{fonts/graduation-cap}\nobreakspace{}RC}
+  - \newcommand*{\SRU}{\includesvg{fonts/recycle}\nobreakspace{}SRU}
+  - \newcommand*{\SP}{\includesvg{fonts/newspaper}\nobreakspace{}SP}
+  - \newcommand*{\DOMREP}{\includesvg{fonts/folder}\nobreakspace{}DOMREP}
+  - \newcommand*{\TEAM}{\includesvg{fonts/user-group}\nobreakspace{}TEAM}
+  - \newcommand*{\TEACH}{\includesvg{fonts/chalkboard-user}\nobreakspace{}TEACH}
+  - \newcommand*{\PM}{\includesvg{fonts/clipboard-list}\nobreakspace{}PM}
+  - \newcommand*{\USERS}{\includesvg{fonts/comments}\nobreakspace{}USERS}
   - \usepackage[acronym,toc,shortcuts,nogroupskip]{glossaries}
   - \newglossary[skills.glg]{skills}{skills.gls}{skills.glo}{Skill codes}
   - \makeglossaries
@@ -431,7 +430,7 @@ Initial development generally involves a creative process where requirements are
 followed by a formulation of a plan to fulfil them that is finally implemented.
 This is then followed by testing that things work as expected and that they continue to do so into the future.
 Often the development is iterated.
-We emphasise that the life-cycle as described here is not complete, 
+We emphasise that the life-cycle as described here is not complete,
 as it includes periods of software maintenance and software retirement.
 Additionally, the research software life-cycle extends the traditional life-cycle
 with a \gls{software-publication} stage.
@@ -1088,7 +1087,7 @@ New areas of expertise
 #### Research infrastructure RSE
 This RSE is interested in \glspl{SysOp} and system administration and sets up \ac{IT} infrastructures for and with researchers.
 Therefore, this specialisation on the one hand requires a deep knowledge of physical computer and network hardware and
-on the other hand knowledge about setup and configuration of particular server software, 
+on the other hand knowledge about setup and configuration of particular server software,
 e.g., setup of virtual machines on hypervisors or the planning and setup of compute server clusters for \ac{ML}.
 As an interface between the researchers and the infrastructure, they take care of user management, access permissions, and configuration of required services.
 
@@ -1433,7 +1432,7 @@ These frameworks eventually converged into the \ac{EMBL-EBI} Competency Hub
 [@CompetencyHub; @Lloret-Llinares2022],
 where typical RSE and bioinformatician profiles at different levels
 of seniority can be queried
-(e.g., Junior RSE[^JuniorRSE], 
+(e.g., Junior RSE[^JuniorRSE],
 Senior Computational Chemist[^SeniorCC])
 and compared against one another
 (e.g., Junior vs. Senior RSE[^Comp]).
