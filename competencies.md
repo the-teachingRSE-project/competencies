@@ -96,7 +96,7 @@ Computers and software have played a key role in the research life-cycle for man
 decades, while they are now vital elements of the research process across almost all domains.
 They enable researchers to collect and process ever-increasing amounts of data,
 simulate a wide range of physical phenomena across previously unexplored scales of the universe,
-and discover previously inconceivably complex structures in nature and societies via machine learning.
+and discover previously inconceivably complex structures in nature and societies via \ac{ML}.
 This prevalence of computations in research means that basic
 software skills are now required by researchers at all
 career levels, and in fields significantly beyond the previously expected.
@@ -213,6 +213,11 @@ part of their role.
 However, we also recognise that many RSEs have chosen specifically to focus on a technical
 role as an alternative to a traditional research role because they enjoy and wish to focus
 on the development of research software.
+
+**Researchers**: 
+People who are using the services provided by Research Software Engineers.
+These not only include academics but also people from related fields such as librarians and technicians
+who are at most sporadically performing RSE actions.
 
 # Related work {#sec:related-work}
 
@@ -415,8 +420,10 @@ Initial development generally involves a creative process where requirements are
 followed by a formulation of a plan to fulfil them that is finally implemented.
 This is then followed by testing that things work as expected and that they continue to do so into the future.
 Often the development is iterated.
-We emphasise that the life-cycle is not complete here but also includes periods of maintaining a software
-and also withdrawing software from its original use.
+We emphasise that the life-cycle as described here is not complete, 
+as it includes periods of software maintenance and software retirement.
+Additionally, the research software life-cycle extends the traditional life-cycle
+with a \gls{software-publication} stage.
 The RSE should be aware of this life-cycle
 and be able to predict and cater to the changing needs of software as it moves through the stages.
 
@@ -471,16 +478,22 @@ existing work instead. To (re-) use software, researchers have to be able to
 find it and then easily evaluate if the software actually suits their needs.
 Apart from functionality, the integration with other software,
 expected sustainability, and extensibility also have to be part of this evaluation.
+Additional software citation and metadata skills are necessary to provide evidence
+of software re-use in the scientific record.
 
 <!-- Software publication -->
 \skillsection{SP}
 
-The second part of \ac{FAIR} software is concerned with publishing new and derived works
+Another part of \ac{FAIR} software is concerned with publishing new and derived works
 and making them available for re-use by the research community and the general public.
 RSEs need to have a basic understanding of common software licence types, such as "proprietary", "copyleft", and "permissive",
 the compatibility of different common licences and the ramifications for re-using and composing programs.
-Finally, RSEs will need to properly execute the technicalities of software publishing,
+Beyond that, RSEs will need to properly execute the technicalities of software publishing,
 such as applying licences, honouring copyright statements and crediting contributors.
+RSEs also need to understand and apply principles and good practices of software publication.
+This includes the collection, curation and provision of relevant software publication metadata
+both for software citation, and
+for generic and domain-specific software description [@druskat_hermes_2022].
 
 <!-- Using domain repositories/directories -->
 \skillsection{DOMREP}
@@ -491,6 +504,9 @@ home domain, with which it needs to be able to interact. The RSE needs to be
 aware of any domain specific software repositories, data sets and catalogues.
 The RSE also needs to be aware of how their software can interact with the existing
 domain-specific data repositories.
+Finally, they need to be able to assess and use software repositories -
+domain-specific or generic -
+for publishing software with the relevant metadata.
 
 ## Communication skills
 
@@ -599,6 +615,18 @@ Beyond that, we feel that today other important tasks of RSEs are
   @Schlauch2018b classify applications based on their scope and criticality and provide \ac{SE} recommendations.
   The RSE needs to be able to identify the application class they are dealing with and apply the respective RSE practices.
 - Enforcing reproducibility. Projects like ReproHack [@ReproHack] can greatly help in fostering that competency.
+- Understanding metadata for research and research software.
+  There are ongoing efforts on metadata for research software such as CodeMeta [@jones_codemeta_2017]
+  and the \ac{NFDI} working group [@castro_research_sw_metadata_2023] on the subject.
+  These are complemented by the development of new tools and methods
+  for providing and working with software metadata, such as
+  the Citation File Format project [@druskat_cff_2021] and HERMES [@druskat_hermes_2022].
+  Other efforts focus on Software Management Plans (e.g., [@alves_elixir_2021; @martinez_ortiz_practical_2022])
+  which could be helpful for RSEs at early stages (i.e., with not much experience of project management).
+  They give quick hints on what to look for regarding basic management for research
+  software (including information on e.g., licenses, releases, publication, citation)
+  together with some ongoing work on corresponding metadata [@giraldo_metadata_2023].
+  Metadata can also be used actively during and within a research project to inform the decision making processes [@Bird2016].
 
 # How much do different people need to know? {#sec:how-much-to-know}
 
@@ -993,6 +1021,7 @@ as exemplified by the demand of an increasing amount of research funding agencie
 Hence, an open science RSE is required to have a deeper knowledge in (\gls{RC}) and how to distribute software publicly (\gls{SRU}, \gls{SP}).
 Open Science RSEs can help researchers navigate the technical questions that come up
 when practising Open Science, such as "How do I make my code presentable?",
+"How do I make my code citable?",
 "What do I need to do to make my software \ac{FAIR}?", or
 "How do I sustainably work with an (international) team on a large code base?".
 Like the Data-focused RSE, they have a deep understanding of \ac{RDM} topics.
@@ -1049,7 +1078,7 @@ New areas of expertise
 This RSE is interested in \glspl{SysOp} and system administration and sets up \ac{IT} infrastructures for and with researchers.
 Therefore, this specialisation on the one hand requires a deep knowledge of physical computer and network hardware and
 on the other hand knowledge about setup and configuration of particular server software, 
-e.g., setup of virtual machines on hypervisors or the planning and setup of compute server clusters machine learning.
+e.g., setup of virtual machines on hypervisors or the planning and setup of compute server clusters for \ac{ML}.
 As an interface between the researchers and the infrastructure, they take care of user management, access permissions, and configuration of required services.
 
 #### Maintenance RSEs
@@ -1099,11 +1128,13 @@ compiled software.-->
 
 #### ML-RSE
 The development of research software based on \ac{ML} requires specialised theoretical background and experienced handling of appropriate software in order to produce meaningful results.
-This involves knowledge about data analysis and feature engineering, metrics that are involved in ML, ML algorithm selection and cross validation, and knowledge in mathematical optimisation methods and statistics.
-ML-RSEs analyse and check the suitability of an algorithm if it fulfils the needs of a certain task and they play a main role in deciding and selecting machine learning libraries for a given task.
-The increasing usage of ML in numerous scientific areas with social impact involves an emphasised awareness and consideration of possible manipulative or discriminatory influences.
+This involves knowledge about data analysis and feature engineering, metrics that are involved in \ac{ML}, \ac{ML} algorithm selection and cross validation, and knowledge in mathematical optimisation methods and statistics.
+Here, we use \ac{ML} in a broad sense of machine-based learning including deep learning, reinforcement learning, neuro-symbolic learning and similar.
+
+ML-RSEs analyse and check the suitability of an algorithm if it fulfils the needs of a certain task and they play a main role in deciding and selecting \ac{ML} libraries for a given task.
+The increasing usage of \ac{ML} in numerous scientific areas with social impact involves an emphasised awareness and consideration of possible influences and biases.
 At the intersection of data science [@SSIDataScience] and data-focused RSEs,
-the complex way of solving problems utilising machine learning calls for this separate specialisation.
+the complex way of solving problems utilising \ac{ML} calls for this separate specialisation.
 
 #### Web-development RSE
 This RSE is skilled in web applications, front- and/or backend, and/or building
@@ -1302,7 +1333,7 @@ which makes her happier than the subdued sense of achievement from having a rese
 For her, coding and sharing knowledge in the form of software is of similar importance to writing a paper focused mostly on the obtained results.
 
 The domain-agnostic RSE Master programme consists of a core of RSE topics with various electives for specialisation, some of them domain-specific (e.g., chemistry) or topic-specific (e.g., cloud computing for research).
-Kay chooses digital archaeology and develops a pipeline for reconstructing 3D models from ground penetrating radar data, to simplify the process for archaeologists (reproducibility, big data, machine learning).
+Kay chooses digital archaeology and develops a pipeline for reconstructing 3D models from ground penetrating radar data, to simplify the process for archaeologists (reproducibility, big data, \ac{ML}).
 The project management skills that are being taught as part of the core RSE curriculum really help her to not get lost in this project.
 Apart from working with the researchers in her archaeology group,
 she has to work with members of the central RSE department to help her with the pipelines.
@@ -1311,7 +1342,14 @@ Towards the end of the programme, she visits her first RSE conference where she 
 that so far have been abstract in her master's degree.
 
 The exposure to the wider RSE community inspires her to invest additional time into her thesis to publish
-her software project under a licence approved by the Open Source Initiative and write an accompanying article in the open source journal JOSS[@JOSS].
+her software project under a licence approved by the Open Source Initiative and write an accompanying article in the open source journal JOSS [@JOSS].
+Inspired by the discussion with reviewers of her JOSS paper,
+and the citation metadata file that JOSS created automatically for her when her paper is published,
+Kay starts to think more about making her software FAIR.
+She reads up on the topic in a guide suggested to her, the Turing Way [@turing_way_2022],
+and creates metadata files that provide the citation metadata and general description for her software.
+She adds the files to her source code repository,
+and also adds an automated \gls{CI}/\gls{CD} pipeline that updates metadata and creates a new publication record in the Zenodo repository for each new release.
 Kay has now completed the RSE programme and has reached Junior RSE level.
 
 #### Junior RSE
