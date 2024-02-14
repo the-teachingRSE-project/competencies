@@ -9,6 +9,7 @@ author:
   - Gerasimos Chourdakis
   - Simon Christ
   - Jeremy Cohen
+  - Stephan Druskat
   - Fredo Erxleben
   - Jean-Noël Grad
   - Magnus Hagdorn
