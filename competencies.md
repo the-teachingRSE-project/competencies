@@ -479,8 +479,13 @@ The second part of \ac{FAIR} software is concerned with publishing new and deriv
 and making them available for re-use by the research community and the general public.
 RSEs need to have a basic understanding of common software licence types, such as "proprietary", "copyleft", and "permissive",
 the compatibility of different common licences and the ramifications for re-using and composing programs.
-Finally, RSEs will need to properly execute the technicalities of software publishing,
-such as applying licences, honouring copyright statements and crediting contributors.
+RSEs will need to properly execute the technicalities of software publishing.
+These include the application of licences and copyright statements,
+understanding and assigning software authorship, crediting contributors,
+maintaining FAIR software metadata and publishing software artefacts.
+Finally, RSEs will need to understand the principles of software citation.
+This concerns both the potential for reuse of their own work, which demands the provision of complete and correct up-to-date citation metadata for their software,
+as well as their own citation obligations deriving from building on previous work in the form of dependencies.
 
 <!-- Using domain repositories/directories -->
 \skillsection{DOMREP}
