@@ -1029,7 +1029,11 @@ Like the Data-focused RSE, they have a deep understanding of \ac{RDM} topics.
 #### Project/community manager RSEs
 
 When research software projects become larger, they need someone who manages
-processes and people. This gap can be filled by people who invest in the (\gls{PM}), (\gls{USERS}), and (\gls{TEAM}) skills, as exemplified in @subsec:examplecareer.
+processes and people.
+In practice, this concerns change management for code and documentation
+and community work to safeguard usability and adaptability,
+but also handling project governance and scalable decision-making processes.
+This gap can be filled by people who invest in the (\gls{PM}), (\gls{USERS}), and (\gls{TEAM}) skills, as exemplified in @subsec:examplecareer.
 Building a community around a research project is an
 important building block in building sustainable software [@Segal2009], so these RSEs play
 an important role, even if they do not necessarily touch much of the code themselves.
@@ -1080,15 +1084,6 @@ Therefore, this specialisation on the one hand requires a deep knowledge of phys
 on the other hand knowledge about setup and configuration of particular server software, 
 e.g., setup of virtual machines on hypervisors or the planning and setup of compute server clusters for \ac{ML}.
 As an interface between the researchers and the infrastructure, they take care of user management, access permissions, and configuration of required services.
-
-#### Maintenance RSEs
-The constantly evolving software environment can hinder or prevent reproducibility.
-In this changing environment, a significant amount of effort in (research) software development
-needs to be spent on maintenance to ensure that software remains useful or even installable.
-Maintenance RSEs are mainly concerned with change management for code and documentation,
-and working with the community to safeguard usability and adaptability.
-They have additional competence in the governance of software projects,
-and scalable decision-making processes.
 
 #### Legacy RSEs
 Research software may be used and evolved over generations of research without change management or governance processes, while software ecosystems (e.g., programming languages, frameworks, operating systems) constantly evolve.
