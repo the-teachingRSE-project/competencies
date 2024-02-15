@@ -92,7 +92,7 @@ Assistant, Research Fellow or Software Engineer. Regardless of their job title,
 RSEs share a set of core skills that are required to write software, understand
 the research environment and ensure that they produce sustainable, maintainable
 code that supports reproducible research outputs. They are the ones who
-implement the FAIR principles that make digital research output more valuable.
+implement the FAIR principles that enhance the value of the digital artifacts of research.
 In order to do so they draw upon skills from traditional software engineering,
 established research culture and a commitment to being part of a team.
 

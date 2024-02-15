@@ -148,7 +148,7 @@ These competencies draw upon skills from traditional SE practice,
 established research culture, and the commitment to being part of a team.
 While there is anecdotal evidence that academic SE practitioners
 would have chosen different competencies, we will argue that this trifecta of skills
-is exactly what is needed for modern digital research.
+is exactly what is needed for modern digitally enhanced research.
 
 While this community paper is based on workshop discussions that were attended largely by Research Software Engineers (deRSE23 in Paderborn, un-deRSE23 in Jena, Germany),
 we believe that the competencies formulated here can offer far-reaching

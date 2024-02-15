@@ -139,7 +139,7 @@ Some exemplary skills for which courses are already held are version control too
 
 # Required Next Steps
 We have identified the RSE as an individual who brings a unique set of skills for
-supporting and undertaking modern digital research into research groups and teams.
+supporting and undertaking modern digitally enhanced research into research groups and teams.
 We have elaborated on the basic competencies that RSEs may have, and we have
 provided a detailed picture of how these competencies manifest along different
 dimensions.
