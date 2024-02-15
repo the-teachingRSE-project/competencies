@@ -110,7 +110,7 @@ more experienced staff at their institutions. A gap still exists in
 academic education, as many curricula do not sufficiently prepare their students
 in this regard. This situation is exemplified by the extracurricular \ac{MIT} class
 "The Missing Semester of Your CS Education" [@MIT], which aims to convey basic
-programming environment literacy skills even to students of Computer Science at \ac{MIT}.
+"computing ecosystem" literacy skills even to students of Computer Science at \ac{MIT}.
 
 Researchers investing increasing amounts of their time developing their \ac{SE}
 skills to support their research work can find themselves with little time to do the research
