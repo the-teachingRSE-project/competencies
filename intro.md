@@ -72,8 +72,8 @@ for their research and even to effectively request help from and interact with
 more experienced staff at their institutions. There still exists a gap in
 academic education, as many curricula do not sufficiently prepare their students
 in that regard. This situation is exemplified by the extracurricular MIT class
-"The Missing Semester of Your CS Education" [@MIT], which aims to convey computing
-ecosystem literacy even to students of Computer Science at MIT.
+"The Missing Semester of Your CS Education" [@MIT], which aims to convey basic
+programming environment literacy skills even to students of Computer Science at MIT.
 
 The need to access both research data and software has been formalised with the
 FAIR principles: software and data need to be easily findable by both people and
@@ -162,9 +162,9 @@ during the research process or for a research purpose.
 This definition is broader than in @FAIR4RS and is the outcome of a recent
 discussion in @Gruenpeter2021.
 
-Using this, Research Software Engineers are now people who
+Using this, Research Software Engineers are now professionals who
 create or improve research software and/or the structures that the software interacts with
-in the computational ecosystem of a research domain.
+in the computational environment of a research domain.
 They are highly skilled team members who can also conduct their own research as part of their role.
 
 ## Intended Target Audience
