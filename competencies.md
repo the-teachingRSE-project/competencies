@@ -1087,6 +1087,7 @@ In this changing environment, a significant amount of effort in (research) softw
 needs to be spent on maintenance to ensure that software remains useful or even installable.
 With regard to which additional competency is required,
 these are people having experience with software stacks that are not part of the general curricula any more (e.g., \gls{COBOL} or \gls{Fortran}).
+Adaption of existing, large-scale codebases to evolving dependencies (\gls{LIBS}) or changing hardware (\ac{HPC}; see the HPC-RSE point below) may require mastery of in refactoring techniques and in the usage of specialized code transformation tools.
 
 #### HPC-RSE
 
