@@ -162,7 +162,7 @@ during the research process or for a research purpose.
 This definition is broader than in @FAIR4RS and is the outcome of a recent
 discussion in @Gruenpeter2021.
 
-Using this, Research Software Engineers are now professionals who
+Using this, Research Software Engineers are professionals who
 create or improve research software and/or the structures that the software interacts with
 in the computational environment of a research domain.
 They are highly skilled team members who can also conduct their own research as part of their role.
