@@ -9,6 +9,7 @@ author:
   - Gerasimos Chourdakis
   - Simon Christ
   - Jeremy Cohen
+  - Stephan Druskat
   - Fredo Erxleben
   - Jean-Noël Grad
   - Magnus Hagdorn
@@ -49,7 +50,7 @@ header-includes:
   - \newglossaryentry{NEW}{name={NEW},type={skills},description={Curiosity}}
   - \newglossaryentry{RC}{name={RC},type={skills},description={Understanding the research cycle}}
   - \newglossaryentry{SRU}{name={SRU},type={skills},description={Software re-use}}
-  - \newglossaryentry{SP}{name={SP},type={skills},description={Software publication}}
+  - \newglossaryentry{SP}{name={SP},type={skills},description={Software publication and citation}}
   - \newglossaryentry{DOMREP}{name={DOMREP},type={skills},description={Using domain repositories/directories}}
   - \newglossaryentry{TEAM}{name={TEAM},type={skills},description={Working in a team}}
   - \newglossaryentry{TEACH}{name={TEACH},type={skills},description={Teaching}}
@@ -488,12 +489,13 @@ Another part of \ac{FAIR} software is concerned with publishing new and derived 
 and making them available for re-use by the research community and the general public.
 RSEs need to have a basic understanding of common software licence types, such as "proprietary", "copyleft", and "permissive",
 the compatibility of different common licences and the ramifications for re-using and composing programs.
-Beyond that, RSEs will need to properly execute the technicalities of software publishing,
-such as applying licences, honouring copyright statements and crediting contributors.
-RSEs also need to understand and apply principles and good practices of software publication.
-This includes the collection, curation and provision of relevant software publication metadata
-both for software citation, and
-for generic and domain-specific software description [@druskat_hermes_2022].
+Beyond that, RSEs will need to properly execute the technicalities of software publishing.
+These include the application of licences and copyright statements,
+understanding and assigning software authorship, crediting contributors,
+maintaining FAIR software metadata and publishing software artefacts.
+Finally, RSEs will need to understand the principles of software citation [@smith_SoftwareCitationPrinciples2016].
+This concerns both the potential for reuse of their own work, which demands the provision of complete and correct up-to-date citation metadata for their software,
+as well as their own citation obligations deriving from building on previous work in the form of dependencies.
 
 <!-- Using domain repositories/directories -->
 \skillsection{DOMREP}
