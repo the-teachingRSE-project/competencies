@@ -65,7 +65,7 @@ header-includes:
   - \newglossaryentry{NEW}{name={\NEW},type={skills},description={Curiosity}}
   - \newglossaryentry{RC}{name={\RC},type={skills},description={Understanding the research cycle}}
   - \newglossaryentry{SRU}{name={\SRU},type={skills},description={Software re-use}}
-  - \newglossaryentry{SP}{name={\SP},type={skills},description={Software publication and citation}}}
+  - \newglossaryentry{SP}{name={\SP},type={skills},description={Software publication and citation}}
   - \newglossaryentry{DOMREP}{name={\DOMREP},type={skills},description={Using domain repositories/directories}}
   - \newglossaryentry{TEAM}{name={\TEAM},type={skills},description={Working in a team}}
   - \newglossaryentry{TEACH}{name={\TEACH},type={skills},description={Teaching}}
@@ -230,7 +230,7 @@ However, we also recognise that many RSEs have chosen specifically to focus on a
 role as an alternative to a traditional research role because they enjoy and wish to focus
 on the development of research software.
 
-**Researchers**: 
+**Researchers**:
 People who are using the services provided by Research Software Engineers.
 These not only include academics but also people from related fields such as librarians and technicians
 who are at most sporadically performing RSE actions.
