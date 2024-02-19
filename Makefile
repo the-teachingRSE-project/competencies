@@ -21,6 +21,7 @@ all: $(objects)
 	    --biblatex \
 	    --toc \
 	    --template="build/template.tex" \
+		-f markdown-latex_macros \
 	    -M pdfa-$(MAKE_PDFA)=1 \
 	    -M date="`date "+%B %e, %Y"`" \
 	    -M datexmp="`date "+%F"`" \

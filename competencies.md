@@ -35,41 +35,41 @@ header-includes:
   - \usepackage{multirow}
   - \usepackage{array}
   - \usepackage{longtable}
-  - \usepackage{svg}
+  - \usepackage[inkscapepath=../svg-inkscape]{svg}
   - \newcommand{\blandscape}{\begin{landscape}}
   - \newcommand{\elandscape}{\end{landscape}}
-  - \newcommand*{\DOCBB}{\includesvg[height=10pt]{fonts/sitemap}\nobreakspace{}DOCBB}
-  - \newcommand*{\LIBS}{\includesvg[height=10pt]{{fonts/boxes-packing}}\nobreakspace{}LIBS}
-  - \newcommand*{\SWLC}{\includesvg[height=10pt]{{fonts/arrows-spin}}\nobreakspace{}SWLC}
-  - \newcommand*{\SWREPOS}{\includesvg[height=10pt]{{fonts/code-pull-request}}\nobreakspace{}SWREPOS}
-  - \newcommand*{\MOD}{\includesvg[height=10pt]{{fonts/laptop-code}}\nobreakspace{}MOD}
-  - \newcommand*{\NEW}{\includesvg[height=10pt]{fonts/lightbulb}\nobreakspace{}NEW}
-  - \newcommand*{\RC}{\includesvg[height=10pt]{{fonts/graduation-cap}}\nobreakspace{}RC}
-  - \newcommand*{\SRU}{\includesvg[height=10pt]{fonts/recycle}\nobreakspace{}SRU}
-  - \newcommand*{\SP}{\includesvg[height=10pt]{fonts/newspaper}\nobreakspace{}SP}
-  - \newcommand*{\DOMREP}{\includesvg[height=10pt]{fonts/folder}\nobreakspace{}DOMREP}
-  - \newcommand*{\TEAM}{\includesvg[height=10pt]{{fonts/user-group}}\nobreakspace{}TEAM}
-  - \newcommand*{\TEACH}{\includesvg[height=10pt]{{fonts/chalkboard-user}}\nobreakspace{}TEACH}
-  - \newcommand*{\PM}{\includesvg[height=10pt]{{fonts/clipboard-list}}\nobreakspace{}PM}
-  - \newcommand*{\USERS}{\includesvg[height=10pt]{fonts/comments}\nobreakspace{}USERS}
+  - \newcommand*{\DOCBB}{\includesvg[height=10pt]{{../fonts/sitemap}}\nobreakspace{}DOCBB}
+  - \newcommand*{\LIBS}{\includesvg[height=10pt]{{../fonts/boxes-packing}}\nobreakspace{}LIBS}
+  - \newcommand*{\SWLC}{\includesvg[height=10pt]{{../fonts/arrows-spin}}\nobreakspace{}SWLC}
+  - \newcommand*{\SWREPOS}{\includesvg[height=10pt]{{../fonts/code-pull-request}}\nobreakspace{}SWREPOS}
+  - \newcommand*{\MOD}{\includesvg[height=10pt]{{../fonts/laptop-code}}\nobreakspace{}MOD}
+  - \newcommand*{\NEW}{\includesvg[height=10pt]{../fonts/lightbulb}\nobreakspace{}NEW}
+  - \newcommand*{\RC}{\includesvg[height=10pt]{{../fonts/graduation-cap}}\nobreakspace{}RC}
+  - \newcommand*{\SRU}{\includesvg[height=10pt]{../fonts/recycle}\nobreakspace{}SRU}
+  - \newcommand*{\SP}{\includesvg[height=10pt]{../fonts/newspaper}\nobreakspace{}SP}
+  - \newcommand*{\DOMREP}{\includesvg[height=10pt]{../fonts/folder}\nobreakspace{}DOMREP}
+  - \newcommand*{\TEAM}{\includesvg[height=10pt]{{../fonts/user-group}}\nobreakspace{}TEAM}
+  - \newcommand*{\TEACH}{\includesvg[height=10pt]{{../fonts/chalkboard-user}}\nobreakspace{}TEACH}
+  - \newcommand*{\PM}{\includesvg[height=10pt]{{../fonts/clipboard-list}}\nobreakspace{}PM}
+  - \newcommand*{\USERS}{\includesvg[height=10pt]{../fonts/comments}\nobreakspace{}USERS}
   - \usepackage[acronym,toc,shortcuts,nogroupskip]{glossaries}
   - \newglossary[skills.glg]{skills}{skills.gls}{skills.glo}{Skill codes}
   - \makeglossaries
   - \input{glossary.tex}
-  - \newglossaryentry{DOCBB}{name={DOCBB},type={skills},description={Creating documented code building blocks}}
-  - \newglossaryentry{LIBS}{name={LIBS},type={skills},description={Building distributable libraries}}
-  - \newglossaryentry{SWLC}{name={SWLC},type={skills},description={Adapting to the software life-cycle}}
-  - \newglossaryentry{SWREPOS}{name={SWREPOS},type={skills},description={Use repositories}}
-  - \newglossaryentry{MOD}{name={MOD},type={skills},description={Software behaviour awareness and analysis}}
-  - \newglossaryentry{NEW}{name={NEW},type={skills},description={Curiosity}}
-  - \newglossaryentry{RC}{name={RC},type={skills},description={Understanding the research cycle}}
-  - \newglossaryentry{SRU}{name={SRU},type={skills},description={Software re-use}}
-  - \newglossaryentry{SP}{name={SP},type={skills},description={Software publication}}
-  - \newglossaryentry{DOMREP}{name={DOMREP},type={skills},description={Using domain repositories/directories}}
-  - \newglossaryentry{TEAM}{name={TEAM},type={skills},description={Working in a team}}
-  - \newglossaryentry{TEACH}{name={TEACH},type={skills},description={Teaching}}
-  - \newglossaryentry{PM}{name={PM},type={skills},description={Project management}}
-  - \newglossaryentry{USERS}{name={USERS},type={skills},description={Interaction with users and other stakeholders}}
+  - \newglossaryentry{DOCBB}{name={\DOCBB},type={skills},description={Creating documented code building blocks}}
+  - \newglossaryentry{LIBS}{name={\LIBS},type={skills},description={Building distributable libraries}}
+  - \newglossaryentry{SWLC}{name={\SWLC},type={skills},description={Adapting to the software life-cycle}}
+  - \newglossaryentry{SWREPOS}{name={\SWREPOS},type={skills},description={Use repositories}}
+  - \newglossaryentry{MOD}{name={\MOD},type={skills},description={Software behaviour awareness and analysis}}
+  - \newglossaryentry{NEW}{name={\NEW},type={skills},description={Curiosity}}
+  - \newglossaryentry{RC}{name={\RC},type={skills},description={Understanding the research cycle}}
+  - \newglossaryentry{SRU}{name={\SRU},type={skills},description={Software re-use}}
+  - \newglossaryentry{SP}{name={\SP},type={skills},description={Software publication}}
+  - \newglossaryentry{DOMREP}{name={\DOMREP},type={skills},description={Using domain repositories/directories}}
+  - \newglossaryentry{TEAM}{name={\TEAM},type={skills},description={Working in a team}}
+  - \newglossaryentry{TEACH}{name={\TEACH},type={skills},description={Teaching}}
+  - \newglossaryentry{PM}{name={\PM},type={skills},description={Project management}}
+  - \newglossaryentry{USERS}{name={\USERS},type={skills},description={Interaction with users and other stakeholders}}
 include-before:
   - \newpage
 include-after:
@@ -390,7 +390,7 @@ the different RSE specialisations (**RSE specialisations**).
 ## Software engineering skills
 
 \newcommand{\skillsection}[1]{\hypertarget{skills-#1}{%
-\subsubsection{\glsentrydesc{#1} (\glsentrytext{#1})}\label{skills-#1}}}
+\subsubsection{\glsentrydesc{#1}(\glsentrytext{#1})}\label{skills-#1}}}
 
 There are many \ac{SE} curricula out there, that try to define
 which tasks a software engineer should be able to perform. A recent example
@@ -402,7 +402,7 @@ software reusability and the extent to which the \ac{SE} skills
 need to be applied to reach them.
 
 <!-- Creating documented code building blocks -->
-\skillsection{\DOCBB}
+\skillsection{DOCBB}
 
 The RSE should be able to create building blocks from source code that are
 reusable. This ranges from simple libraries of functions up to complex
@@ -414,7 +414,7 @@ documentation. Documentation ranges from commenting code blocks to using
 documentation (building) tools.
 
 <!-- Building distributable libraries -->
-\skillsection{\LIBS}
+\skillsection{LIBS}
 
 The RSE should be able to distribute their code on their domain/language
 specific distribution platforms. This almost always encompasses
@@ -423,7 +423,7 @@ requires knowledge of using build systems to enable interoperability with other
 systems.
 
 <!-- Adapting to the software life-cycle -->
-\skillsection{\SWLC}
+\skillsection{SWLC}
 
 The traditional software life-cycle defines the stages that form the process of building a piece of software.
 Initial development generally involves a creative process where requirements are gathered and analysed,
@@ -438,13 +438,13 @@ The RSE should be aware of this life-cycle
 and be able to predict and cater to the changing needs of software as it moves through the stages.
 
 <!-- Use repositories -->
-\skillsection{\SWREPOS}
+\skillsection{SWREPOS}
 
 The RSE should be able to identify and use fitting public platforms (so-called software repositories or repos) to share the artefacts they have
 created and invite the public to scrutinise them for public review.
 
 <!-- Software behaviour awareness and analysis -->
-\skillsection{\MOD}
+\skillsection{MOD}
 
 We define this as a certain quality of analytical thinking that enables an RSE to
 form a mental model of a piece of software in a specific environment.
@@ -458,7 +458,7 @@ and make sure that they do not negatively impact the integrity of their institut
 ## Research skills
 
 <!-- Curiosity -->
-\skillsection{\NEW}
+\skillsection{NEW}
 
 RSEs gain their reputation from their effectiveness in interacting with their
 domain peers. Therefore, some curiosity together with a broad overview of the
@@ -468,7 +468,7 @@ trying out new tools. Lifelong learning is then no longer just a phrase but
 becomes a motivation to work.
 
 <!-- Understanding the research cycle -->
-\skillsection{\RC}
+\skillsection{RC}
 
 One of the crucial skills of RSEs is their mental proximity to research.
 They embrace being part of a larger community which,
@@ -481,7 +481,7 @@ their own expertise and appreciate the underlying principles of
 good research, including publications, reviews and reproducibility.
 
 <!-- Software re-use -->
-\skillsection{\SRU}
+\skillsection{SRU}
 
 One goal of \ac{FAIR} software is to avoid unnecessary duplication of work by reusing
 existing work instead. To (re-) use software, researchers have to be able to
@@ -492,7 +492,7 @@ Additional software citation and metadata skills are necessary to provide eviden
 of software re-use in the scientific record.
 
 <!-- Software publication -->
-\skillsection{\SP}
+\skillsection{SP}
 
 Another part of \ac{FAIR} software is concerned with publishing new and derived works
 and making them available for re-use by the research community and the general public.
@@ -506,7 +506,7 @@ both for software citation, and
 for generic and domain-specific software description [@druskat_hermes_2022].
 
 <!-- Using domain repositories/directories -->
-\skillsection{\DOMREP}
+\skillsection{DOMREP}
 
 Almost all research software is developed within a specific scientific domain.
 Some software may be able to cross boundaries, but the majority will have a
@@ -530,7 +530,7 @@ However, the interpersonal and organisational skills and the capacity for adapti
 warrants a much stronger emphasis on this field of competence.
 
 <!-- Working in a team -->
-\skillsection{\TEAM}
+\skillsection{TEAM}
 
 Working in a team is all about communication and teamwork.
 For example, RSEs need to be able to explain particular implementation choices made and may even need to defend them.
@@ -541,7 +541,7 @@ The shared values come into play and each RSE needs to ensure that these values 
 Senior RSEs may lead a team of RSEs.
 
 <!-- Teaching -->
-\skillsection{\TEACH}
+\skillsection{TEACH}
 
 RSEs have many opportunities to teach.
 These range from inducting new colleagues to teaching digital skills either through short courses,
@@ -550,7 +550,7 @@ RSEs may also act as mentors and consultants.
 Code review also includes aspects of the teaching skill.
 
 <!-- Project management -->
-\skillsection{\PM}
+\skillsection{PM}
 
 The RSE should have knowledge about project management. At some institutes, it follows the practices of the local research groups,
 but it is useful if an RSE knows its place in a \gls{PM} scheme, or can bring in new ideas for improvement.
@@ -558,7 +558,7 @@ Project management in research software engineering poses specific challenges (s
 to flexibly adapt to changing conditions and deviate from common project management methods.
 
 <!-- Interaction with users and other stakeholders -->
-\skillsection{\USERS}
+\skillsection{USERS}
 
 Since research software is often developed as part of the research process itself,
 its requirements and specifications might change with the progression of research.
