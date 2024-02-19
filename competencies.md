@@ -9,6 +9,7 @@ author:
   - Gerasimos Chourdakis
   - Simon Christ
   - Jeremy Cohen
+  - Stephan Druskat
   - Fredo Erxleben
   - Jean-Noël Grad
   - Magnus Hagdorn
@@ -64,7 +65,7 @@ header-includes:
   - \newglossaryentry{NEW}{name={\NEW},type={skills},description={Curiosity}}
   - \newglossaryentry{RC}{name={\RC},type={skills},description={Understanding the research cycle}}
   - \newglossaryentry{SRU}{name={\SRU},type={skills},description={Software re-use}}
-  - \newglossaryentry{SP}{name={\SP},type={skills},description={Software publication}}
+  - \newglossaryentry{SP}{name={\SP},type={skills},description={Software publication and citation}}}
   - \newglossaryentry{DOMREP}{name={\DOMREP},type={skills},description={Using domain repositories/directories}}
   - \newglossaryentry{TEAM}{name={\TEAM},type={skills},description={Working in a team}}
   - \newglossaryentry{TEACH}{name={\TEACH},type={skills},description={Teaching}}
@@ -228,6 +229,11 @@ part of their role.
 However, we also recognise that many RSEs have chosen specifically to focus on a technical
 role as an alternative to a traditional research role because they enjoy and wish to focus
 on the development of research software.
+
+**Researchers**: 
+People who are using the services provided by Research Software Engineers.
+These not only include academics but also people from related fields such as librarians and technicians
+who are at most sporadically performing RSE actions.
 
 # Related work {#sec:related-work}
 
@@ -498,12 +504,13 @@ Another part of \ac{FAIR} software is concerned with publishing new and derived 
 and making them available for re-use by the research community and the general public.
 RSEs need to have a basic understanding of common software licence types, such as "proprietary", "copyleft", and "permissive",
 the compatibility of different common licences and the ramifications for re-using and composing programs.
-Beyond that, RSEs will need to properly execute the technicalities of software publishing,
-such as applying licences, honouring copyright statements and crediting contributors.
-RSEs also need to understand and apply principles and good practices of software publication.
-This includes the collection, curation and provision of relevant software publication metadata
-both for software citation, and
-for generic and domain-specific software description [@druskat_hermes_2022].
+Beyond that, RSEs will need to properly execute the technicalities of software publishing.
+These include the application of licences and copyright statements,
+understanding and assigning software authorship, crediting contributors,
+maintaining FAIR software metadata and publishing software artefacts.
+Finally, RSEs will need to understand the principles of software citation [@smith_SoftwareCitationPrinciples2016].
+This concerns both the potential for reuse of their own work, which demands the provision of complete and correct up-to-date citation metadata for their software,
+as well as their own citation obligations deriving from building on previous work in the form of dependencies.
 
 <!-- Using domain repositories/directories -->
 \skillsection{DOMREP}
@@ -1039,7 +1046,11 @@ Like the Data-focused RSE, they have a deep understanding of \ac{RDM} topics.
 #### Project/community manager RSEs
 
 When research software projects become larger, they need someone who manages
-processes and people. This gap can be filled by people who invest in the (\gls{PM}), (\gls{USERS}), and (\gls{TEAM}) skills, as exemplified in @subsec:examplecareer.
+processes and people.
+In practice, this concerns change management for code and documentation
+and community work to safeguard usability and adaptability,
+but also handling project governance and scalable decision-making processes.
+This gap can be filled by people who invest in the (\gls{PM}), (\gls{USERS}), and (\gls{TEAM}) skills, as exemplified in @subsec:examplecareer.
 Building a community around a research project is an
 important building block in building sustainable software [@Segal2009], so these RSEs play
 an important role, even if they do not necessarily touch much of the code themselves.
@@ -1091,12 +1102,12 @@ on the other hand knowledge about setup and configuration of particular server s
 e.g., setup of virtual machines on hypervisors or the planning and setup of compute server clusters for \ac{ML}.
 As an interface between the researchers and the infrastructure, they take care of user management, access permissions, and configuration of required services.
 
-#### Maintenance RSEs
-The constantly evolving software environment can hinder or prevent reproducibility.
-In this changing environment, a significant amount of effort in (research) software development
-needs to be spent on maintenance to ensure that software remains useful or even installable.
-With regard to which additional competency is required,
-these are people having experience with software stacks that are not part of the general curricula any more (e.g., \gls{COBOL} or \gls{Fortran}).
+#### Legacy RSEs
+Research software may be used and evolved over generations of research without change management or governance processes, while software ecosystems (e.g., programming languages, frameworks, operating systems) constantly evolve.
+This may lead to the emergence of legacy code that is actively used.
+To safeguard continued usability and adoption,
+these RSEs have experience in working with legacy code,
+and are competent in the application of software stacks that are no longer part of the general curricula (e.g., \gls{COBOL} or \gls{Fortran}).
 
 #### HPC-RSE
 
