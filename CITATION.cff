@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+title: The teachingRSE project
+type: software
+authors:
+  - given-names: Florian
+    family-names: Goth
+    email: florian.goth@uni-wuerzburg.de
+    affiliation: >-
+      Institute for Theoretical Physics and Astrophysics,
+      University of Würzburg, Germany
+    orcid: 'https://orcid.org/0000-0003-2707-4790'
+  - given-names: Jan
+    family-names: Linxweiler
+    affiliation:  >-
+      Technische Universität Braunschweig, Germany
+    orcid: 'https://orcid.org/0000-0002-2755-5087'
+    email: j.linxweiler@tu-braunschweig.de
+
+repository-code: >-
+  https://github.com/CaptainSifff/paper_teaching-learning-RSE
+abstract: >-
+  The project started at a workshop at deRSE23 in Paderborn
+  where the community came together to discuss what to teach
+  to future RSEs and in which institutions to bring up the
+  next generation of RSEs.
+
+  We currently have split the topic of teaching RSEs in
+  Germany across four topics. We aim for a publication of
+  most of these topics as papers. This repository serves as
+  collaboration platform to collect material and write these
+  papers.
+keywords:
+  - research software engineering
+  - curriculum design
+  - competencies
+  - certification
+  - inititutionalized education
+  - training resources
+license: CC-BY-4.0
+message: >-
+  Please check the README.md for pointers to already
+  published articles or pre-prints. Please prefer citing
+  these publications, if applicable, to the citation of this
+  repository.
