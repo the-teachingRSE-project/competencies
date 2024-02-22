@@ -1182,9 +1182,9 @@ That publication will again intentionally be free of regional specifics, to also
 as a blueprint that other national RSE societies can build upon.
 
 Another important building block is to provide people with online resources for use in their
-courses. This is the intention of the so-called "survey-publication".
-That survey of existing resources will not be carried out as a traditional publication, but
-it will be made available as a continuously-evolving online resource.
+courses. This is the intention of the learn-and-teach project [@learnandteach].
+Surveying and curating of existing resources is not carried out as a traditional publication,
+but we make it available as a continuously-evolving online resource at [@learnandteach].
 
 And finally, we will formulate the call to action - building on the previous
 publication on the necessary institutions,
