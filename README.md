@@ -1,8 +1,10 @@
-# Paper: Teaching and Learning Research Software Engineering  [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
+# The teachingRSE project: "Teaching and Learning Research Software Engineering"   [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
 
-Output of the de-RSE 2023 Conference Workshop on "Teaching and Learning Research Software Engineering".
+It started all at a workshop at deRSE23 in Paderborn where the community came together to discuss what to teach to future RSEs
+and in which institutions to bring up the next generation of RSEs.
 
-Since the original idea grew in size and scope we had to split the paper in different subpapers highlighting different aspects
+As we discovered, the scope of this task is so big that 
+we had to split the paper in different subpapers highlighting different aspects
 
 Get the latest version of the respective PDF files here:
 
