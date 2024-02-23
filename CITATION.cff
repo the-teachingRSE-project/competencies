@@ -1,20 +1,131 @@
 cff-version: 1.2.0
 title: The teachingRSE project
-type: software
 authors:
+  - given-names: Heidi
+    family-names: Seibold
+    affiliation: IGDORE Munich, Germany
+    orcid: https://orcid.org/0000-0002-8960-9642
+    email: heidi@seibold.com
+
   - given-names: Florian
     family-names: Goth
+    affiliation:  Institute for Theoretical Physics and Astrophysics, University of Würzburg, Germany
+    orcid: https://orcid.org/0000-0003-2707-4790
     email: florian.goth@uni-wuerzburg.de
-    affiliation: >-
-      Institute for Theoretical Physics and Astrophysics,
-      University of Würzburg, Germany
-    orcid: 'https://orcid.org/0000-0003-2707-4790'
+
   - given-names: Jan
     family-names: Linxweiler
-    affiliation:  >-
-      Technische Universität Braunschweig, Germany
-    orcid: 'https://orcid.org/0000-0002-2755-5087'
+    affiliation:  Technische Universität Braunschweig, Germany
+    orcid: https://orcid.org/0000-0002-2755-5087
     email: j.linxweiler@tu-braunschweig.de
+
+  - given-names: Jan Philipp
+    family-names: Thiele
+    affiliation:  Weierstrass Institute, Berlin, Germany
+    orcid: https://orcid.org/0000-0002-8901-6660
+    email: thiele@wias-berlin.de
+
+  - given-names: Jeremy
+    family-names: Cohen
+    affiliation:  Imperial College London, London, UK
+    orcid: https://orcid.org/0000-0003-4312-2537
+    email: jeremy.cohen@imperial.ac.uk
+
+  - given-names: Renato
+    family-names: Alves
+    affiliation:  European Molecular Biology Laboratory, Heidelberg, Germany
+    orcid: https://orcid.org/0000-0002-7212-0234
+    email: renato.alves@embl.de
+
+  - given-names: Samantha
+    family-names: Wittke
+    affiliation:  CSC – IT Center for Science, Espoo, Finland
+    orcid: https://orcid.org/0000-0002-9625-7235
+    email: samantha.wittke@csc.fi
+
+  - given-names: Jean-Noël
+    family-names: Grad
+    affiliation:  Institute for Computational Physics, University of Stuttgart, Germany
+    orcid: https://orcid.org/0000-0002-5821-4912
+    email: jgrad@icp.uni-stuttgart.de
+
+  - given-names: Fredo
+    family-names: Erxleben
+    affiliation:  Helmholtz-Zentrum Dresden-Rossendorf, Germany
+    orcid: https://orcid.org/0000-0001-7233-3005
+    email: f.erxleben@hzdr.de
+
+  - given-names: Magnus
+    family-names: Hagdorn
+    affiliation:  Geschäftsbereich IT, Charité Universitätsmedizin Berlin, Germany
+    orcid: https://orcid.org/0000-0002-5076-4864
+    email: magnus.hagdorn@charite.de
+
+  - given-names: Moritz
+    family-names: Schwarzmeier
+    affiliation:  Mathematical Modeling and Analysis, TU Darmstadt, Germany
+    orcid: https://orcid.org/0000-0001-8992-6245
+    email: moritz.schwarzmeier@tu-darmstadt.de
+
+  - given-names: Matthias
+    family-names: Braun
+    affiliation:  Cluster of Excellence IntCDC, University of Stuttgart, Germany
+    orcid: https://orcid.org/0000-0001-8591-3690
+    email: matthias.braun@intcdc.uni-stuttgart.de
+
+  - given-names: Harald
+    family-names: von Waldow
+    affiliation:  Johann Heinrich von Thünen Institute, Centre for Information Management, Germany
+    orcid: https://orcid.org/0000-0003-4800-2833
+    email: harald.vonwaldow@thuenen.de
+
+  - given-names: Simon
+    family-names: Christ
+    affiliation:  Leibniz University Hannover, Department of Cell Biology and Biophysics, Computational Biology, Germany
+    orcid: https://orcid.org/0000-0002-5866-1472
+    email: christ@cell.uni-hannover.de
+
+  - given-names: Gerasimos
+    family-names: Chourdakis
+    affiliation:  School of Computation, Information and Technology, Technical University of Munich, Garching, Germany
+    orcid: https://orcid.org/0000-0002-3977-1385
+    email: gerasimos.chourdakis@tum.de
+
+  - given-names: Dominic
+    family-names: Kempf
+    affiliation:  Heidelberg University, Scientific Software Center, Germany
+    orcid: https://orcid.org/0000-0002-6140-2332
+    email: dominic.kempf@iwr.uni-heidelberg.de
+
+  - given-names: Anna-Lena
+    family-names: Lamprecht
+    affiliation:  Institute of Computer Science, University of Potsdam, Germany
+    orcid: https://orcid.org/0000-0003-1953-5606
+    email: anna-lena.lamprecht@uni-potsdam.de
+
+  - given-names: Toby
+    family-names: Hodges
+    affiliation:  The Carpentries, USA
+    orcid: https://orcid.org/0000-0003-1766-456X
+    email: tobyhodges@carpentries.org
+
+  - given-names: Leyla Jael
+    family-names: Castro
+    affiliation:  ZB MED Information Centre for Life Sciences, Cologne, Germany
+    orcid: https://orcid.org/0000-0003-3986-0510
+    email: ljgarcia@zbmed.de
+
+  - given-names: Guido
+    family-names: Juckeland
+    affiliation:  Helmholtz-Zentrum Dresden-Rossendorf, Germany
+    orcid: https://orcid.org/0000-0002-9935-4428
+    email: g.juckeland@hzdr.de
+
+  - given-names: Stephan
+    family-names: Druskat
+    affiliation:  German Aerospace Center (DLR), Institute for Software Technology, Berlin, Germany and Humboldt-Universität zu Berlin, Department of Computer Science, Berlin, Germany
+    orcid: https://orcid.org/0000-0003-4925-7248
+    email: stephan.druskat@dlr.de
 
 repository-code: >-
   https://github.com/CaptainSifff/paper_teaching-learning-RSE
@@ -42,3 +153,4 @@ message: >-
   published articles or pre-prints. Please prefer citing
   these publications, if applicable, to the citation of this
   repository.
+url: https://github.com/CaptainSifff/paper_teaching-learning-RSE
