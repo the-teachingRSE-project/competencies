@@ -36,23 +36,25 @@ header-includes:
   - \usepackage{multirow}
   - \usepackage{array}
   - \usepackage{longtable}
-  - \usepackage[inkscapepath=../svg-inkscape]{svg}
+  - \usepackage[inkscapepath=svg-inkscape]{svg}
+  - \pdfsuppresswarningpagegroup=1
   - \newcommand{\blandscape}{\begin{landscape}}
   - \newcommand{\elandscape}{\end{landscape}}
-  - \newcommand*{\DOCBB}{\includesvg[height=10pt]{{../fonts/sitemap}}\nobreakspace{}DOCBB}
-  - \newcommand*{\LIBS}{\includesvg[height=10pt]{{../fonts/boxes-packing}}\nobreakspace{}LIBS}
-  - \newcommand*{\SWLC}{\includesvg[height=10pt]{{../fonts/arrows-spin}}\nobreakspace{}SWLC}
-  - \newcommand*{\SWREPOS}{\includesvg[height=10pt]{{../fonts/code-pull-request}}\nobreakspace{}SWREPOS}
-  - \newcommand*{\MOD}{\includesvg[height=10pt]{{../fonts/laptop-code}}\nobreakspace{}MOD}
-  - \newcommand*{\NEW}{\includesvg[height=10pt]{../fonts/lightbulb}\nobreakspace{}NEW}
-  - \newcommand*{\RC}{\includesvg[height=10pt]{{../fonts/graduation-cap}}\nobreakspace{}RC}
-  - \newcommand*{\SRU}{\includesvg[height=10pt]{../fonts/recycle}\nobreakspace{}SRU}
-  - \newcommand*{\SP}{\includesvg[height=10pt]{../fonts/newspaper}\nobreakspace{}SP}
-  - \newcommand*{\DOMREP}{\includesvg[height=10pt]{../fonts/folder}\nobreakspace{}DOMREP}
-  - \newcommand*{\TEAM}{\includesvg[height=10pt]{{../fonts/user-group}}\nobreakspace{}TEAM}
-  - \newcommand*{\TEACH}{\includesvg[height=10pt]{{../fonts/chalkboard-user}}\nobreakspace{}TEACH}
-  - \newcommand*{\PM}{\includesvg[height=10pt]{{../fonts/clipboard-list}}\nobreakspace{}PM}
-  - \newcommand*{\USERS}{\includesvg[height=10pt]{../fonts/comments}\nobreakspace{}USERS}
+  - \newcommand{\fonticon}[2]{\includesvg[height=1.5ex]{{../fonts/#1}}\nobreakspace{}#2}
+  - \newcommand*{\DOCBB}{\fonticon{sitemap}{DOCBB}}
+  - \newcommand*{\LIBS}{\fonticon{boxes-packing}{LIBS}}
+  - \newcommand*{\SWLC}{\fonticon{arrows-spin}{SWLC}}
+  - \newcommand*{\SWREPOS}{\fonticon{code-pull-request}{SWREPOS}}
+  - \newcommand*{\MOD}{\fonticon{laptop-code}{MOD}}
+  - \newcommand*{\NEW}{\fonticon{lightbulb}{NEW}}
+  - \newcommand*{\RC}{\fonticon{graduation-cap}{RC}}
+  - \newcommand*{\SRU}{\fonticon{recycle}{SRU}}
+  - \newcommand*{\SP}{\fonticon{newspaper}{SP}}
+  - \newcommand*{\DOMREP}{\fonticon{folder}{DOMREP}}
+  - \newcommand*{\TEAM}{\fonticon{user-group}{TEAM}}
+  - \newcommand*{\TEACH}{\fonticon{chalkboard-user}{TEACH}}
+  - \newcommand*{\PM}{\fonticon{clipboard-list}{PM}}
+  - \newcommand*{\USERS}{\fonticon{comments}{USERS}}
   - \usepackage[acronym,toc,shortcuts,nogroupskip]{glossaries}
   - \newglossary[skills.glg]{skills}{skills.gls}{skills.glo}{Skill codes}
   - \makeglossaries
@@ -396,7 +398,7 @@ the different RSE specialisations (**RSE specialisations**).
 ## Software engineering skills
 
 \newcommand{\skillsection}[1]{\hypertarget{skills-#1}{%
-\subsubsection{\glsentrydesc{#1}(\glsentrytext{#1})}\label{skills-#1}}}
+\subsubsection{\glsentrydesc{#1} (\texorpdfstring{\glsentrytext{#1}}{#1})}\label{skills-#1}}}
 
 There are many \ac{SE} curricula out there, that try to define
 which tasks a software engineer should be able to perform. A recent example
