@@ -10,6 +10,7 @@ Get the latest version of the respective PDF files here:
 
 * "Foundational competencies and responsibilities of an RSE" ([competencies.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/competencies.pdf))
 * "Institutionalized Organisation of RSE Education" ([institutionalised_education.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/institutionalised_education.pdf))
+* A separate web project on surveying and curating existing resources, the [learn-and-teach project](https://github.com/DE-RSE/learn-and-teach)  [website](https://de-rse.org/learn-and-teach/)
 * "A Survey of Initiatives Providing Educative Material in the RSE Space" ([survey.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/survey.pdf))
 * "Educating RSEs in Germany - What Needs to Be Done" ([call_to_action.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/call_to_action.pdf))
 
