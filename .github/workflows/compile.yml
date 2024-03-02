@@ -11,6 +11,7 @@ jobs:
       - name: Install pandoc
         run: |
           sudo apt-get update && sudo apt-get install -y --no-install-recommends \
+            inkscape \
             texlive texlive-latex-extra pandoc latexmk \
             texlive-bibtex-extra biber \
             texlive-fonts-recommended texlive-fonts-extra lmodern fonts-linuxlibertine \
