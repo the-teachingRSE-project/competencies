@@ -36,43 +36,26 @@ header-includes:
   - \usepackage{multirow}
   - \usepackage{array}
   - \usepackage{longtable}
-  - \usepackage[inkscapepath=svg-inkscape]{svg}
-  - \pdfsuppresswarningpagegroup=1
   - \newcommand{\blandscape}{\begin{landscape}}
   - \newcommand{\elandscape}{\end{landscape}}
-  - \newcommand{\fonticon}[2]{\includesvg[height=1.5ex]{{../fonts/#1}}\nobreakspace{}#2}
-  - \newcommand*{\DOCBB}{\fonticon{sitemap}{DOCBB}}
-  - \newcommand*{\LIBS}{\fonticon{boxes-packing}{LIBS}}
-  - \newcommand*{\SWLC}{\fonticon{arrows-spin}{SWLC}}
-  - \newcommand*{\SWREPOS}{\fonticon{code-pull-request}{SWREPOS}}
-  - \newcommand*{\MOD}{\fonticon{laptop-code}{MOD}}
-  - \newcommand*{\NEW}{\fonticon{lightbulb}{NEW}}
-  - \newcommand*{\RC}{\fonticon{graduation-cap}{RC}}
-  - \newcommand*{\SRU}{\fonticon{recycle}{SRU}}
-  - \newcommand*{\SP}{\fonticon{newspaper}{SP}}
-  - \newcommand*{\DOMREP}{\fonticon{folder}{DOMREP}}
-  - \newcommand*{\TEAM}{\fonticon{user-group}{TEAM}}
-  - \newcommand*{\TEACH}{\fonticon{chalkboard-user}{TEACH}}
-  - \newcommand*{\PM}{\fonticon{clipboard-list}{PM}}
-  - \newcommand*{\USERS}{\fonticon{comments}{USERS}}
   - \usepackage[acronym,toc,shortcuts,nogroupskip]{glossaries}
   - \newglossary[skills.glg]{skills}{skills.gls}{skills.glo}{Skill codes}
   - \makeglossaries
   - \input{glossary.tex}
-  - \newglossaryentry{DOCBB}{name={\DOCBB},type={skills},description={Creating documented code building blocks}}
-  - \newglossaryentry{LIBS}{name={\LIBS},type={skills},description={Building distributable libraries}}
-  - \newglossaryentry{SWLC}{name={\SWLC},type={skills},description={Adapting to the software life-cycle}}
-  - \newglossaryentry{SWREPOS}{name={\SWREPOS},type={skills},description={Use repositories}}
-  - \newglossaryentry{MOD}{name={\MOD},type={skills},description={Software behaviour awareness and analysis}}
-  - \newglossaryentry{NEW}{name={\NEW},type={skills},description={Curiosity}}
-  - \newglossaryentry{RC}{name={\RC},type={skills},description={Understanding the research cycle}}
-  - \newglossaryentry{SRU}{name={\SRU},type={skills},description={Software re-use}}
-  - \newglossaryentry{SP}{name={\SP},type={skills},description={Software publication and citation}}
-  - \newglossaryentry{DOMREP}{name={\DOMREP},type={skills},description={Using domain repositories/directories}}
-  - \newglossaryentry{TEAM}{name={\TEAM},type={skills},description={Working in a team}}
-  - \newglossaryentry{TEACH}{name={\TEACH},type={skills},description={Teaching}}
-  - \newglossaryentry{PM}{name={\PM},type={skills},description={Project management}}
-  - \newglossaryentry{USERS}{name={\USERS},type={skills},description={Interaction with users and other stakeholders}}
+  - \newglossaryentry{DOCBB}{name={DOCBB},type={skills},description={Creating documented code building blocks}}
+  - \newglossaryentry{LIBS}{name={LIBS},type={skills},description={Building distributable libraries}}
+  - \newglossaryentry{SWLC}{name={SWLC},type={skills},description={Adapting to the software life-cycle}}
+  - \newglossaryentry{SWREPOS}{name={SWREPOS},type={skills},description={Use repositories}}
+  - \newglossaryentry{MOD}{name={MOD},type={skills},description={Software behaviour awareness and analysis}}
+  - \newglossaryentry{NEW}{name={NEW},type={skills},description={Curiosity}}
+  - \newglossaryentry{RC}{name={RC},type={skills},description={Understanding the research cycle}}
+  - \newglossaryentry{SRU}{name={SRU},type={skills},description={Software re-use}}
+  - \newglossaryentry{SP}{name={SP},type={skills},description={Software publication and citation}}
+  - \newglossaryentry{DOMREP}{name={DOMREP},type={skills},description={Using domain repositories/directories}}
+  - \newglossaryentry{TEAM}{name={TEAM},type={skills},description={Working in a team}}
+  - \newglossaryentry{TEACH}{name={TEACH},type={skills},description={Teaching}}
+  - \newglossaryentry{PM}{name={PM},type={skills},description={Project management}}
+  - \newglossaryentry{USERS}{name={USERS},type={skills},description={Interaction with users and other stakeholders}}
 include-before:
   - \newpage
 include-after:
@@ -232,7 +215,7 @@ However, we also recognise that many RSEs have chosen specifically to focus on a
 role as an alternative to a traditional research role because they enjoy and wish to focus
 on the development of research software.
 
-**Researchers**:
+**Researchers**: 
 People who are using the services provided by Research Software Engineers.
 These not only include academics but also people from related fields such as librarians and technicians
 who are at most sporadically performing RSE actions.
@@ -398,7 +381,7 @@ the different RSE specialisations (**RSE specialisations**).
 ## Software engineering skills
 
 \newcommand{\skillsection}[1]{\hypertarget{skills-#1}{%
-\subsubsection{\glsentrydesc{#1} (\texorpdfstring{\glsentrytext{#1}}{#1})}\label{skills-#1}}}
+\subsubsection{\glsentrydesc{#1} (\glsentrytext{#1})}\label{skills-#1}}}
 
 There are many \ac{SE} curricula out there, that try to define
 which tasks a software engineer should be able to perform. A recent example
@@ -438,7 +421,7 @@ Initial development generally involves a creative process where requirements are
 followed by a formulation of a plan to fulfil them that is finally implemented.
 This is then followed by testing that things work as expected and that they continue to do so into the future.
 Often the development is iterated.
-We emphasise that the life-cycle as described here is not complete,
+We emphasise that the life-cycle as described here is not complete, 
 as it includes periods of software maintenance and software retirement.
 Additionally, the research software life-cycle extends the traditional life-cycle
 with a \gls{software-publication} stage.
@@ -1100,7 +1083,7 @@ New areas of expertise
 #### Research infrastructure RSE
 This RSE is interested in \glspl{SysOp} and system administration and sets up \ac{IT} infrastructures for and with researchers.
 Therefore, this specialisation on the one hand requires a deep knowledge of physical computer and network hardware and
-on the other hand knowledge about setup and configuration of particular server software,
+on the other hand knowledge about setup and configuration of particular server software, 
 e.g., setup of virtual machines on hypervisors or the planning and setup of compute server clusters for \ac{ML}.
 As an interface between the researchers and the infrastructure, they take care of user management, access permissions, and configuration of required services.
 
@@ -1389,7 +1372,7 @@ Her work so far has already been heavy on (\gls{TEAM}) skills, but now also the 
 
 #### RSE-focused principal investigator
 
-The job experience as a leading RSE for a large project was the last requirement necessary to be awarded the title of a "Certified Research Software Professional" (CRSP)
+The job experience as a leading RSE for a large project was the last requirement necessary to be awarded the title of a "Certified Research Software Professional" (CRSP) 
 from an institutionalised centre of RSE education.
 The certificate confirms her track record of valuable software contributions
 and of teaching and mentoring people,
@@ -1445,7 +1428,7 @@ These frameworks eventually converged into the \ac{EMBL-EBI} Competency Hub
 [@CompetencyHub; @Lloret-Llinares2022],
 where typical RSE and bioinformatician profiles at different levels
 of seniority can be queried
-(e.g., Junior RSE[^JuniorRSE],
+(e.g., Junior RSE[^JuniorRSE], 
 Senior Computational Chemist[^SeniorCC])
 and compared against one another
 (e.g., Junior vs. Senior RSE[^Comp]).
