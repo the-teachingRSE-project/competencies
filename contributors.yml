@@ -147,6 +147,14 @@ authors:
     orcid: 0000-0002-3977-1385
     email: gerasimos.chourdakis@tum.de
 
+  - author: "Frank Löffler"
+    firstName: Frank
+    lastName: Löffler
+    affiliations:
+      - Friedrich Schiller University Jena, Jena, Germany
+      - Michael Stifel Center Jena, Jena, Germany
+    orcid: 0000-0001-6643-6323
+    email: frank.loeffler@uni-jena.de
 
 # please use the following author template (all fields are optional):
 
