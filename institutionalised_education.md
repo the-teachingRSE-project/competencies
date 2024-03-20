@@ -47,6 +47,57 @@ In order to set up a proper educational scheme we need to discuss two more items
 - Who are our teachers?
 - How is this teaching organised?
 
+## Getting RSE into Institutions
+Getting RSE topics into institutions requires a two-pronged
+approach: 1. teachers on the ground can introduce RSE topics into
+their courses and offer regular workshops (bottom up), and 2. national
+research organisations and government institutions can generate a
+demand for RSEs that need to be trained (top down).
+
+The bottom up approach is opportunistic and requires teachers to
+recognise opportunities and use them to teach RSE topics. Some courses
+naturally lend themselves to RSE topics. For example, a course on
+statistics that uses the R programming language for the practicals can
+also introduce version control and writing documentation. Project work
+lends itself particularly well to teaching RSE topics. Using a
+repository for submission and feedback also makes the work for the
+teacher easier. Group projects can be used to teach collaboration.
+
+Another approach is to teach RSE skills in workshops. Materials for
+introductory courses such as the carpentry workshops are available and
+greatly reduce the effort to run workshops. Encouraging PhD students
+to participate as helpers or instructors also helps them get the
+required teaching experience. These workshops can also be run as part
+of the training provided by grad-schools. The visibility of workshops
+can be increased by adding funding for them in research grant
+applications. Workshops tend to be popular and are quickly fully
+booked. These statistics can be used to demonstrate to the university
+that there is a demand for RSE subjects.
+
+Boot camp workshops at the beginning of semester allow students with
+varying skills reach the same level of digital literacy. Physical
+computing is a great way to generate enthusiasm. Workshops not only
+target students but also more senior academic staff. They raise
+awareness of RSE topics.
+
+Both lecture courses and workshops can often be generalised and
+materials can be shared. Words spread about successful courses
+generating demand elsewhere.
+
+The bottom up approach is slow and workshops compete for time in the
+already packed curriculum of students. Getting senior academics on
+board can be very helpful establishing RSE courses. However, a
+top-down approach where universities are required to provide RSE
+training will be more effective in freeing up resources and effecting
+larger changes. The FAIR principles are well understood by research
+organisations and government institutions. Implementing these requires
+RSEs which need to be trained in universities. Changing curricula is a
+large project and requires long term investment, both financial and
+intellectual. This investment needs to be justified in order to be
+agreed upon. Providing strong RSE training might well prove to be a
+competitive advantage.
+
+
 ## The teachers
 ### What issues are trainers facing today?
 There are already some people teaching RSE-related topics, sometimes within university structures, but often outside of formal structures.
