@@ -28,12 +28,14 @@ keywords:
   - training
   - learning
   - open educational resources
+  - lifelong learning
+  - digital competence
 abstract: "
 In this publication we survey the existing RSE-training related resources and initiatives.
 "
 ---
 
-## Related Work and Activities
+# Related Work and Activities
 
 The challenges of understanding the current state of skills
 within the research software community and related areas,
@@ -42,7 +44,7 @@ and providing training materials are areas that are being looked at
 and addressed by various groups and projects.
 In this section, we highlight some of these other projects and activities.
 
-### RSE-related training resources
+## RSE-related training resources
 
 The day-to-day work of many RSEs often includes teaching activities to improve the RSE-related skill-set of researchers,
 e.g. in university courses, workshops or one-on-one.
@@ -58,7 +60,7 @@ and any change is automatically mirrored to their websites.
 The organisations and initiatives listed below provide support for teaching activities conducted by RSEs
 but are also helpful to fill gaps in the capabilities of professional RSEs.
 
-#### The Carpentries
+### The Carpentries
 
 The Carpentries [@Carpentries] is a non-profit entity that supports
 a range of open source training materials and international communities
@@ -81,7 +83,7 @@ Carpentry instructors must be certified before organising a workshop.
 There is a selection process [@CarpentriesBecomingInstructor] as well as
 an instructor training course, upon which a certificate is delivered [@Wilson2013a].
 
-#### CodeRefinery
+### CodeRefinery
 
 CodeRefinery [@CodeRefinery] is a project currently funded by the Nordic
 e-Infrastructure and thus active primarily in the Nordics with the goal
@@ -98,18 +100,18 @@ seamlessly integrates with other initiatives.
 
 FIXME: elaborate on the integration part if it's relevant, else leave out.
 
-#### PRACE
+### PRACE
 
 The Partnership for Advanced Computing in Europe (PRACE) [@PRACE] offers training
 in the form of massive open online courses (MOOCs), online and on-site training
 events at European HPC facilities (aggregated on various websites, e.g. EuroCC
 Training [@EuroCCTraining]), and white papers. While most training events are
 tailored for HPC-RSE, several recurring courses about programming languages
-(C++, FORTRAN, Python) are suitable for general RSEs, as they teach coding
+(C++, Fortran, Python) are suitable for general RSEs, as they teach coding
 best practices, modern software design [@LRZModernCpp], project management and
 version control [@LRZIntroCpp].
 
-#### Helmholtz
+### Helmholtz
 
 As part of its push towards a better RSE environment, the Helmholtz Association
 launched the Helmholtz Federated IT Services platform (HIFIS) [@HIFIS]
@@ -128,7 +130,7 @@ Further RSE training offers within the Helmholtz context are provided
 by the Helmholtz-AI [@HAI] and Helmholtz-Imaging [@HImaging] platforms
 as well as the Helmholtz Metadata Collaboration platform [@HMC].
 
-#### ENCCS
+### ENCCS
 
 The [National Competence Center Sweden (ENCCS)](https://enccs.se/)
 has created a collection of lessons for HPC-oriented RSEs [@ENCCSLessons] and
@@ -137,7 +139,7 @@ to create their own instructor manual [@ENCCSInstructorTraining; @ENCCS2022].
 The ENCCS lessons are targeted at individuals who already have general RSE
 skills and are seeking new skills relevant to HPC and software engineering.
 
-#### German National Research Data Infrastructure (NFDI)
+### German National Research Data Infrastructure (NFDI)
 
 EduTrain (Training & Education) [@EDUTRAIN] is a section of the NFDI [@NFDI].
 Based on the slogan "data literacy from the beginning",
@@ -162,7 +164,7 @@ One specific example is the lecture 'Sustainable Development of Simulation Softw
 that has been developed as master's course at the Institute for Modelling Hydraulic
 and Environmental Systems at the University of Stuttgart [@SDSSCOURSE; @SDSSMATERIAL].
 
-#### SureSoft
+### SureSoft
 
 SureSoft [@SURESOFTLink] is a DFG funded project at TU Braunschweig and
 FAU Erlangen-Nürnberg fostering the sustainability of research software
@@ -171,7 +173,7 @@ engineering community [@SURESOFT2022].
 The project implements a twofold approach that combines tools and
 infrastructure with education in the form of workshops and training.
 
-#### Programming Historian
+### Programming Historian
 
 The [Programming Historian](https://programminghistorian.org/)
 is an open-source, peer-reviewed journal of digital humanities
@@ -179,7 +181,7 @@ edited in English, Spanish, French, and Portuguese.
 It publishes hands-on tutorials on shell, Python,
 and software specialised for digital humanities.
 
-### FAIRness of RSE-related (open) educational resources(OER)
+## FAIRness of RSE-related (open) educational resources(OER)
 
 Due to the ever-evolving nature of skills and infrastructure in the RSE field,
 training materials are often open educational resources(OER) that are often version-controlled, so that trainers can update them
@@ -229,12 +231,12 @@ ADDME:
   [@Pinto2017; @Pereira2021; @Oprescu2022; @Couto2020],
   teaching by SusTrainable [@SusTrainable; @Koopman2022]
 
-## Challenges
+# Challenges
 - Point out gaps
 - What is missing
 - domain application?
 
-### A fundamental skills gap
+## A fundamental skills gap
 
 A major challenge for the future of Research Software Engineering
 is the significant gap between the availability of basic training
@@ -295,11 +297,20 @@ FIXME:
 - survey of 8 OER repositories with non-standardised metadata [@SimaodeDeus2020]
 - OER certification proposal in Austria [@Schon2023]
 - databases: see Appendix section [Directories of resources]
+- from competencies document: Other efforts focus on Software Management Plans (e.g., [@alves_elixir_2021;
+  @martinez_ortiz_practical_2022]) which could be helpful for RSEs at early stages
+  (i.e., with not much experience of project management). They give quick hints on what to look for regarding basic
+  management for research software (including information on e.g., licenses, releases, publication, citation)
+  together with some ongoing work on corresponding metadata [@giraldo_metadata_2023].
+- [Bioschemas Computational Tool](https://bioschemas.org/profiles/ComputationalTool/)
 
-## Appendix
-### Sources for RSE-related training material
 
-#### Books
+\appendix
+
+# Appendix
+## Sources for RSE-related training material
+
+### Books
 
 + "Producing Open Source Software" ([@Fogel2005; @Fogel2017]) describes
   a lot of aspects for running a free software project.
@@ -308,7 +319,7 @@ FIXME:
   Python programming novices and introduces a set of essential tools
   next to the programming language itself.
 
-#### Course material
+### Course material
 
 + The Software Carpentries Lessons [@CarpentriesSoftware] provide extensive teaching
   material for basic research software skills geared towards researchers.
@@ -316,7 +327,7 @@ FIXME:
 + The unofficial MIT course "The Missing Semester of Your CS Education" ([@Athalye2023])
   covers a lot of basic computer skills typically taught by RSEs.
 
-#### Train-the-trainers material
+### Train-the-trainers material
 
 + "Teaching Tech Together" is a book that derives from and extends the
   Carpentries Instructor Training [@Brown2023],
@@ -326,7 +337,7 @@ FIXME:
   developed from Carpentries and CodeRefinery material,
   as well as lessons for HPC-oriented RSEs [@ENCCSLessons].
 
-#### Directories of resources
+### Directories of resources
 
 + Better Scientific Software [BSSW](https://bssw.io/)
   (Collection of resources for computational science and engineering)

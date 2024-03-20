@@ -25,6 +25,7 @@ output:
 bibliography: bibliography.bib
 keywords:
   - research software engineering
+  - education policy
   - training
   - learning
   - competencies
@@ -44,7 +45,7 @@ The discussion in this paper is meant to be general. Therefore, we will discuss 
 "
 ---
 
-## Introduction
+# Introduction
 - background
     - RSEs have been around for a long time but the name is new.
     - RSEs have a specialist skill set that brings together technical and research knowledge.
@@ -138,7 +139,7 @@ the training of new RSEs.
 FIXME (finalisation): Exchange chapter titles by numbers?
 
 
-### Some Definitions
+## Some Definitions
 A few definitions are in order.
 First, as software, we define source code, documentation, tests
 and all other artefacts that are created by humans during the development process
@@ -158,15 +159,15 @@ but we limit our considerations to the views of public research.
 This enables us to define Research Software in this paper to include source code files,
 algorithms, scripts, computational workflows and executables that were created
 during the research process or for a research purpose.
-This definition is broader than in [@FAIR4RS] and is the outcome of a recent
-discussion in [@Gruenpeter2021].
+This definition is broader than in @FAIR4RS and is the outcome of a recent
+discussion in @Gruenpeter2021.
 
 Using this, Research Software Engineers are now people who
 create or improve research software and/or the structures that the software interacts with
 in the computational ecosystem of a research domain.
 They are highly skilled team members who can also conduct their own research as part of their role.
 
-### Intended Target Audience
+## Intended Target Audience
 While this paper is based on discussions held during a workshop at the deRSE23
 conference we believe that the competencies formulated here have a far-reaching
 impact beyond the domain of RSE into adjacent fields of science. The most
@@ -187,7 +188,7 @@ valuable in order to observe how software development in academia will be
 institutionalised. Finally, the strong emphasis on team skills allows RSEs to be
 very employable in industrial workplaces.
 
-### National Context
+## National Context
 
 Having been developed at a workshop in Paderborn in Germany, naturally a part
 of the discussion in this paper focuses on the German academic landscape.
@@ -196,7 +197,7 @@ we are nevertheless dealing with the education of humans to become RSEs -
 A topic that is of major relevance also in an international context.
 
 
-## Values
+# Values
 
 The activities of an RSE are guided by ethical values.
 A general list of applicable values is given in the Software Engineering Code of Ethics [@Gotterbarn1999].
@@ -215,18 +216,18 @@ This situation yields a specific set of challenges RSEs should be aware of
 to consciously make ethically sound judgement calls.
 We list some example areas that could be addressed in RSE courses or workshops.
 
-### Personal data
+## Personal data
 
 Independent from the encoding into the respective national law in an RSE's jurisdiction,
 the right to information privacy is internationally recognised as a fundamental human right,
-e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988], [@Hirvela2022].
+e.g. in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988; @Hirvela2022].
 RSEs need to be aware of this topic's importance
 and deal with tensions that might arise with researchers' desire for trouble-free sharing of data.
 Handling personal data also has ramifications for information security considerations during the software development process.
 Data protection is a difficult subject and RSEs should notice when they need to consult external expertise for example when dealing with
-special topics such as cryptography or re-identification attacks (e.g. [@Sweeney2002]).
+special topics such as cryptography or re-identification attacks (e.g. @Sweeney2002).
 
-### Mentoring and diversity
+## Mentoring and diversity
 
 RSEs are often experienced professionals who instruct and work closely with early career researchers.
 Similarly to academic supervisors, they bear a certain responsibility to guide and advise younger colleagues
@@ -237,7 +238,7 @@ to encourage, mentor and empower people who gravitate towards software-related o
 In this capacity, they should be aware of the diversity problem and help to mediate it
 whenever they have the chance to do so.
 
-### The scientific community
+## The scientific community
 
 Through writing research software, RSEs have a pivotal position in the process of scientific production.
 Their choices might determine whether the respective research is reproducible or not,
@@ -246,7 +247,7 @@ Builders of larger research-infrastructure projects determine to some extent
 the possibilities and limitations of future research
 and therefore need to be aware of concepts such as Open Science, path dependence and vendor lock-in.
 
-### Emerging challenges
+## Emerging challenges
 
 RSEs often operate at the cutting edge of technological development
 and therefore might have to deal with technologies of which the dangers and drawbacks are still poorly understood.
@@ -254,7 +255,7 @@ A current example is the rush for the application of Large Language Models (LLMs
 where RSEs working in these fields should stay up-to-date and be able to help researchers to assess topics
 such as training-data bias, LLM "hallucinations" or malicious use.
 
-### Number of required RSE graduates
+## Number of required RSE graduates
 In order to set up the argument for dedicated RSE education we need at least a ballpark estimate of the number of required graduates.
 We start from the number of researchers in Germany. The OECD Data [@OECD2023] reports a number of 667,394 researchers in 2019.
 In public research alone we have better numbers and 71,733 researchers were recorded in 2020.
@@ -267,7 +268,7 @@ This calculation assumes that RSEs remain within the research community and do n
 While this calculation is only supposed to give a rough ballpark estimate, we note that Germany has 319 places of higher education [@destatis2023].
 Having only three RSEs at each site already gives a requirement of 1000 persons.
 
-## Identifying skills and pathways
+# Identifying skills and pathways
 
 The development of a standardised list of RSE competencies could help develop
 metrics to measure an individual's progression in specific RSE skill sets,

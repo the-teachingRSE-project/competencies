@@ -1,62 +1,70 @@
 authors:
 
   - author: "Heidi Seibold"
-    lastName: Seibold
     firstName: Heidi
+    lastName: Seibold
+    initials: HS
     affiliations:
-    - IGDORE Munich
+    - IGDORE Munich, Germany
     orcid: 0000-0002-8960-9642
     email: heidi@seibold.co
 
   - author: "Florian Goth"
     firstName: Florian
     lastName: Goth
+    initials: FG
     affiliations:
-      - Universität Würzburg
+      - Institute for Theoretical Physics and Astrophysics, University of Würzburg, Germany
     orcid: 0000-0003-2707-4790
-    email: fgoth@physik.uni-wuerzburg.de
+    email: florian.goth@uni-wuerzburg.de
     acknowledgements: |
-      FG thanks the GRF for funding through the SFB 1170 “Tocotronics”
-      under the grant number Z03.
+      FG acknowledges funding from the Deutsche Forschungsgemeinschaft
+      (DFG, German Research Foundation) through the SFB 1170 “Tocotronics”,
+      project Z03 - project number \geprislink{258499086}.
 
   - author: "Jan Linxweiler"
     firstName: Jan
     lastName: Linxweiler
+    initials: JL
     affiliations:
-      - Technische Universität Braunschweig
+      - Technische Universität Braunschweig, Germany
     orcid: 0000-0002-2755-5087
     email: j.linxweiler@tu-braunschweig.de
 
   - author: "Jan Philipp Thiele"
     firstName: Jan Philipp
     lastName: Thiele
+    initials: JPT
     affiliations:
-      - Weierstrass Institute
+      - Weierstrass Institute, Berlin, Germany
     orcid: 0000-0002-8901-6660
-    email: thiele@ifam.uni-hannover.de
+    email: thiele@wias-berlin.de
 
   - author: "Jeremy Cohen"
     firstName: Jeremy
     lastName: Cohen
+    initials: JC
     affiliations:
-      - Imperial College London
+      - Imperial College London, London, UK
     orcid: 0000-0003-4312-2537
     email: jeremy.cohen@imperial.ac.uk
     acknowledgements: |
       JC acknowledges support from the UK Engineering and Physical Sciences
-      Research Council (UKI-EPSRC) under grants EP/R025460/1 and EP/W035731/1.
+      Research Council (UKRI-EPSRC) under grants EP/R025460/1 and EP/W035731/1.
 
   - author: "Renato Alves"
     firstName: Renato
     lastName: Alves
+    initials: RA
     affiliations:
-      - European Molecular Biology Laboratory
+      - European Molecular Biology Laboratory, Heidelberg, Germany
     orcid: 0000-0002-7212-0234
     email: renato.alves@embl.de
 
   - author: "Samantha Wittke"
     firstName: Samantha
     lastName: Wittke
+    initials: SW
     affiliations:
       - CSC – IT Center for Science, Espoo, Finland
     orcid: 0000-0002-9625-7235
@@ -65,14 +73,14 @@ authors:
   - author: "Jean-Noël Grad"
     firstName: Jean-Noël
     lastName: Grad
+    initials: JNG
     affiliations:
       - Institute for Computational Physics, University of Stuttgart, Germany
     orcid: 0000-0002-5821-4912
     email: jgrad@icp.uni-stuttgart.de
     acknowledgements: |
       JNG acknowledges funding from the Deutsche Forschungsgemeinschaft
-      (DFG, German Research Foundation) Research Software Sustainability grant
-      no. [391126171](https://gepris.dfg.de/gepris/projekt/391126171?language=en)
+      (DFG, German Research Foundation) - project number \geprislink{391126171}
       (PI: Holm) and from the European Union – this work has received funding
       from the European High Performance Computing Joint Undertaking (JU) and
       countries participating in the project under grant agreement
@@ -81,24 +89,27 @@ authors:
   - author: "Fredo Erxleben"
     firstName: Fredo
     lastName: Erxleben
+    initials: FE
     affiliations:
-      - Helmholtz-Zentrum Dresden-Rossendorf
+      - Helmholtz-Zentrum Dresden-Rossendorf, Germany
     orcid: 0000-0001-7233-3005
     email: f.erxleben@hzdr.de
 
   - author: "Magnus Hagdorn"
     firstName: Magnus
     lastName: Hagdorn
+    initials: MH
     affiliations:
-      - Charité Universitätsmedizin Berlin
+      - Geschäftsbereich IT, Charité Universitätsmedizin Berlin, Germany
     orcid: 0000-0002-5076-4864
     email: magnus.hagdorn@charite.de
 
   - author: "Moritz Schwarzmeier"
     firstName: Moritz
     lastName: Schwarzmeier
+    initials: MS
     affiliations:
-      - TU Darmstadt
+      - Mathematical Modeling and Analysis, TU Darmstadt, Germany
     orcid: 0000-0001-8992-6245
     email: moritz.schwarzmeier@tu-darmstadt.de
     acknowledgements: |
@@ -107,13 +118,14 @@ authors:
       as well as the Joint Science Conference (GWK), for their
       funding and support within the framework of the NFDI4Ing consortium.
       Part of this work was funded by the German Research Foundation (DFG) - project number
-      [442146713](https://gepris.dfg.de/gepris/projekt/442146713?language=en).
+      \geprislink{442146713}.
       Part of this work was funded by the Hessian Ministry of Higher Education,
       Research, Science and the Arts - cluster project Clean Circles.
 
   - author: "Matthias Braun"
     firstName: Matthias
     lastName: Braun
+    initials: MB
     affiliations:
       - Cluster of Excellence IntCDC, University of Stuttgart, Germany
     orcid: 0000-0001-8591-3690
@@ -121,31 +133,95 @@ authors:
     acknowledgements: |
         MB acknowledges support by the Deutsche Forschungsgemeinschaft
         (DFG, German Research Foundation) under Germany's Excellence Strategy –
-        EXC 2120/1 – [390831618](https://gepris.dfg.de/gepris/projekt/390831618?language=en).
+        EXC 2120/1 – \geprislink{390831618}.
 
   - author: "Harald von Waldow"
     firstName: Harald
     lastName: von Waldow
+    initials: HvW
     affiliations:
-      - Johann Heinrich von Thünen Institute, Centre for Information Management, Braunschweig, Germany
+      - Johann Heinrich von Thünen Institute, Centre for Information Management, Germany
     orcid: 0000-0003-4800-2833
     email: harald.vonwaldow@thuenen.de
 
   - author: "Simon Christ"
     firstName: Simon
     lastName: Christ
+    initials: SC
     affiliations:
-      - Leibniz University Hannover, Department of Cell Biology and Biophysics, Computational Biology
+      - Leibniz University Hannover, Department of Cell Biology and Biophysics, Computational Biology, Germany
     orcid: 0000-0002-5866-1472
     email: christ@cell.uni-hannover.de
-  
+
   - author: "Gerasimos Chourdakis"
     firstName: Gerasimos
     lastName: Chourdakis
+    initials: GC
     affiliations:
-      - Technical University of Munich, School of Computation, Information and Technology
+      - School of Computation, Information and Technology, Technical University of Munich, Garching, Germany
     orcid: 0000-0002-3977-1385
     email: gerasimos.chourdakis@tum.de
+
+  - author: "Dominic Kempf"
+    firstName: Dominic
+    lastName: Kempf
+    initials: DK
+    affiliations:
+      - Heidelberg University, Scientific Software Center, Germany
+    orcid: 0000-0002-6140-2332
+    email: dominic.kempf@iwr.uni-heidelberg.de
+    acknowledgements: |
+      DK acknowledges support from the Scientific Software Center which is funded as part
+      of the Excellence Strategy of the German Federal and State Governments.
+
+  - author: "Anna-Lena Lamprecht"
+    firstName: Anna-Lena
+    lastName: Lamprecht
+    initials: ALL
+    affiliations:
+      - Institute of Computer Science, University of Potsdam, Germany
+    orcid: 0000-0003-1953-5606
+    email: anna-lena.lamprecht@uni-potsdam.de
+
+  - author: "Toby Hodges"
+    firstName: Toby
+    lastName: Hodges
+    initials: TH
+    affiliations:
+      - The Carpentries, USA
+    orcid: 0000-0003-1766-456X
+    email: tobyhodges@carpentries.org
+
+  - author: "Leyla Jael Castro"
+    firstName: Leyla Jael
+    lastName: Castro
+    initials: LJC
+    affiliations:
+      - ZB MED Information Centre for Life Sciences, Cologne, Germany
+    orcid: 0000-0003-3986-0510
+    email: ljgarcia@zbmed.de
+    acknowledgements: |
+      LJC acknowledges support from the NFDI4DS consortium funded by the German
+      Research Foundation (DFG) - project number \geprislink{460234259}.
+
+  - author: "Guido Juckeland"
+    firstName: Guido
+    lastName: Juckeland
+    initials: GJ
+    affiliations:
+      - Helmholtz-Zentrum Dresden-Rossendorf, Germany
+    orcid: 0000-0002-9935-4428
+    email: g.juckeland@hzdr.de
+
+  - author: "Stephan Druskat"
+    firstName: Stephan
+    lastName: Druskat
+    initials: SD
+    affiliations:
+      - German Aerospace Center (DLR), Institute for Software Technology, Berlin, Germany
+      - Humboldt-Universität zu Berlin, Department of Computer Science, Berlin, Germany
+    orcid: 0000-0003-4925-7248
+    email: stephan.druskat@dlr.de
 
   - author: "Frank Löffler"
     firstName: Frank
@@ -162,6 +238,7 @@ authors:
 #    firstName: F. D. C.
 #    lastName: Willard
 #    suffixName: Jr.
+#    initials: FDCW
 #    affiliations:
 #      - University of Arcadia
 #      - Michigan State University, East Lansing, Michigan, USA

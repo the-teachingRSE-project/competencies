@@ -7,7 +7,6 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument("file", type=str, help="pandoc template file")
-parser.add_argument("--with-pdfx", action="store_true", help="use pdfx")
 args = parser.parse_args()
 
 def substitute(content, old_text, new_text):
@@ -19,9 +18,9 @@ with open(args.file) as f:
     content = f.read()
 
 # generate XMP data and make document PDF-A compliant
-if args.with_pdfx:
-    content = re.sub("\n *pdfcreator=\{[^\{\}]+\},?", "\n", content)
-    content = substitute(content, r"\begin{document}", r"""
+content = re.sub("\n *pdfcreator=\{[^\{\}]+\},?", "\n$if(pdfa-true)$\n$else$\g<0>\n$endif$\n", content)
+content = substitute(content, r"\begin{document}", r"""
+$if(pdfa-true)$
 \begin{filecontents*}{\jobname.xmpdata}
 \Author{$for(authorxmp)$$authorxmp$$sep$\sep $endfor$}
 $if(title-meta)$
@@ -46,6 +45,7 @@ $endif$
 
 % PDF/A compliance with pdfx, must be loaded last (loads hyperref and xcolor)
 \usepackage[a-3u]{pdfx}
+$endif$
 
 \begin{document}""")
 
@@ -53,11 +53,6 @@ $endif$
 content = substitute(content,
 r"""\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}""",
 r"""\usepackage[bottom]{footmisc}
-\usepackage{etoolbox}
-\makeatletter
-\patchcmd{\maketitle}{\@fnsymbol}{\@arabic}{}{}
-\patchcmd{\maketitle}{\setcounter{footnote}{0}}{}{}{}
-\makeatother
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}""")
 
 # generate the abstract and keywords list
@@ -83,6 +78,22 @@ $if(abstract)$
 $elseif(keywords)$
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 $endif$"""
+)
+
+content = substitute(content,
+r"\printbibliography$if(biblio-title)$[title=$biblio-title$]$endif$",
+r"\printbibliography[heading=bibintoc$if(biblio-title)$,title=$biblio-title$$endif$]"
+)
+
+content = substitute(content,
+r"""
+\tableofcontents
+""",
+r"""
+$if(toc-baselinestretch)$\renewcommand{\baselinestretch}{$toc-baselinestretch$}\normalsize$endif$
+\tableofcontents
+$if(toc-baselinestretch)$\renewcommand{\baselinestretch}{1.0}\normalsize$endif$
+"""
 )
 
 with open(args.file, "w") as f:
