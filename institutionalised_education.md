@@ -139,7 +139,7 @@ Some exemplary skills for which courses are already held are version control too
 
 # Required Next Steps
 We have identified the RSE as an individual who brings a unique set of skills for
-supporting and undertaking modern digitally enhanced research into research groups and teams.
+supporting and undertaking modern software-enabled research into research groups and teams.
 We have elaborated on the basic competencies that RSEs may have, and we have
 provided a detailed picture of how these competencies manifest along different
 dimensions.
@@ -294,7 +294,7 @@ Those interested in domain-specific RSE skills or even programming will gain the
 special knowledge in classes and projects they choose.
 For example, statistics curricula can
 be used to showcase RSE infrastructure, e.g. the R programming language and
-its collection of statistics libraries and integrated development environments
+its ecosystem of statistics libraries and integrated development environments
 [@Reinhart2021; @Beckman2021; @CetinkayaRundel2018].
 There are also bioinformatics courses designed for high school students that
 cover topics such as pen-and-paper algorithm design, genomic database querying
@@ -440,7 +440,7 @@ digital competence. The scale is based on the six proficiency levels used by
 the Common European Framework of Reference for Languages, ranging from A1
 (no use of digital technologies in the classroom) to C2 (champion the use
 of digital technologies in teaching environments, actively contribute
-to the stack of available digital tools and curate open educational resources).
+to the palette of interoperable digital tools and curate open educational resources).
 
 The "DigCompOrg" framework [@Kampylis2015] aims to facilitate the inclusion
 of digital learning technologies by education organisation and provide

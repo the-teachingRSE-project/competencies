@@ -109,8 +109,8 @@ also struggle to know what to ask when trying to request help from and interact 
 more experienced staff at their institutions. A gap still exists in
 academic education, as many curricula do not sufficiently prepare their students
 in this regard. This situation is exemplified by the extracurricular \ac{MIT} class
-"The Missing Semester of Your CS Education" [@MIT], which aims to convey basic
-"computing ecosystem" literacy skills even to students of Computer Science at \ac{MIT}.
+"The Missing Semester of Your CS Education" [@MIT], which aims to increase 
+"computing ecosystem literacy" even among students of Computer Science at \ac{MIT}.
 
 Researchers investing increasing amounts of their time developing their \ac{SE}
 skills to support their research work can find themselves with little time to do the research
@@ -148,7 +148,7 @@ These competencies draw upon skills from traditional SE practice,
 established research culture, and the commitment to being part of a team.
 While there is anecdotal evidence that academic SE practitioners
 would have chosen different competencies, we will argue that this trifecta of skills
-is exactly what is needed for modern digitally enhanced research.
+is exactly what is needed for modern, software-enabled research.
 
 While this community paper is based on workshop discussions that were attended largely by Research Software Engineers (deRSE23 in Paderborn, un-deRSE23 in Jena, Germany),
 we believe that the competencies formulated here can offer far-reaching
@@ -1259,7 +1259,7 @@ Core modules are of course drawn from the three pillars of the RSE and can be ca
 
 - \ac{SE} skills:
   - Foundational module: Here we have an introduction to programming: Students learn at least two languages: a language that facilitates prototyping and data processing (e.g., \gls{Python} or \gls{R}) and a language for designing complex, performance-critical systems (e.g., \gls{C}/\gls{Cpp}). This exposes them to computers in a hands-on fashion and is the foundation for (\gls{DOCBB}, \gls{LIBS}).
-  - Computing environment module: Programming languages are not enough to work in a landscape of many interconnected software components (sometimes incorrectly called 'ecosystem'); hence we require something like software craftsmanship, where tools such as the Unix shell, version control systems, build systems, documentation generators, package distribution platforms, and software discovery systems are taught to strengthen skills in (\gls{LIBS}, \gls{DOCBB}, \gls{SWREPOS}, \gls{SRU}).
+  - Computing environment module: Programming languages are not enough to work in a landscape of many interconnected software components; hence we require something like software craftsmanship, where tools such as the Unix shell, version control systems, build systems, documentation generators, package distribution platforms, and software discovery systems are taught to strengthen skills in (\gls{LIBS}, \gls{DOCBB}, \gls{SWREPOS}, \gls{SRU}).
   - Software architecture module: Here we teach software design and \ac{SE}, again strengthening (\gls{DOCBB}, \gls{LIBS}) on a more abstract level.
 
 - Research skills:
