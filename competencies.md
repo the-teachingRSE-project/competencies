@@ -9,6 +9,7 @@ author:
   - Gerasimos Chourdakis
   - Simon Christ
   - Jeremy Cohen
+  - Stephan Druskat
   - Fredo Erxleben
   - Jean-Noël Grad
   - Magnus Hagdorn
@@ -35,26 +36,43 @@ header-includes:
   - \usepackage{multirow}
   - \usepackage{array}
   - \usepackage{longtable}
+  - \usepackage[inkscapepath=svg-inkscape]{svg}
+  - \pdfsuppresswarningpagegroup=1
   - \newcommand{\blandscape}{\begin{landscape}}
   - \newcommand{\elandscape}{\end{landscape}}
+  - \newcommand{\fonticon}[2]{\includesvg[height=1.5ex]{{../fonts/#1}}\nobreakspace{}#2}
+  - \newcommand*{\DOCBB}{\fonticon{sitemap}{DOCBB}}
+  - \newcommand*{\LIBS}{\fonticon{boxes-packing}{LIBS}}
+  - \newcommand*{\SWLC}{\fonticon{arrows-spin}{SWLC}}
+  - \newcommand*{\SWREPOS}{\fonticon{code-pull-request}{SWREPOS}}
+  - \newcommand*{\MOD}{\fonticon{laptop-code}{MOD}}
+  - \newcommand*{\NEW}{\fonticon{lightbulb}{NEW}}
+  - \newcommand*{\RC}{\fonticon{graduation-cap}{RC}}
+  - \newcommand*{\SRU}{\fonticon{recycle}{SRU}}
+  - \newcommand*{\SP}{\fonticon{newspaper}{SP}}
+  - \newcommand*{\DOMREP}{\fonticon{folder}{DOMREP}}
+  - \newcommand*{\TEAM}{\fonticon{user-group}{TEAM}}
+  - \newcommand*{\TEACH}{\fonticon{chalkboard-user}{TEACH}}
+  - \newcommand*{\PM}{\fonticon{clipboard-list}{PM}}
+  - \newcommand*{\USERS}{\fonticon{comments}{USERS}}
   - \usepackage[acronym,toc,shortcuts,nogroupskip]{glossaries}
   - \newglossary[skills.glg]{skills}{skills.gls}{skills.glo}{Skill codes}
   - \makeglossaries
   - \input{glossary.tex}
-  - \newglossaryentry{DOCBB}{name={DOCBB},type={skills},description={Creating documented code building blocks}}
-  - \newglossaryentry{LIBS}{name={LIBS},type={skills},description={Building distributable libraries}}
-  - \newglossaryentry{SWLC}{name={SWLC},type={skills},description={Adapting to the software life-cycle}}
-  - \newglossaryentry{SWREPOS}{name={SWREPOS},type={skills},description={Use repositories}}
-  - \newglossaryentry{MOD}{name={MOD},type={skills},description={Software behaviour awareness and analysis}}
-  - \newglossaryentry{NEW}{name={NEW},type={skills},description={Curiosity}}
-  - \newglossaryentry{RC}{name={RC},type={skills},description={Understanding the research cycle}}
-  - \newglossaryentry{SRU}{name={SRU},type={skills},description={Software re-use}}
-  - \newglossaryentry{SP}{name={SP},type={skills},description={Software publication}}
-  - \newglossaryentry{DOMREP}{name={DOMREP},type={skills},description={Using domain repositories/directories}}
-  - \newglossaryentry{TEAM}{name={TEAM},type={skills},description={Working in a team}}
-  - \newglossaryentry{TEACH}{name={TEACH},type={skills},description={Teaching}}
-  - \newglossaryentry{PM}{name={PM},type={skills},description={Project management}}
-  - \newglossaryentry{USERS}{name={USERS},type={skills},description={Interaction with users and other stakeholders}}
+  - \newglossaryentry{DOCBB}{name={\DOCBB},type={skills},description={Creating documented code building blocks}}
+  - \newglossaryentry{LIBS}{name={\LIBS},type={skills},description={Building distributable libraries}}
+  - \newglossaryentry{SWLC}{name={\SWLC},type={skills},description={Adapting to the software life-cycle}}
+  - \newglossaryentry{SWREPOS}{name={\SWREPOS},type={skills},description={Use repositories}}
+  - \newglossaryentry{MOD}{name={\MOD},type={skills},description={Software behaviour awareness and analysis}}
+  - \newglossaryentry{NEW}{name={\NEW},type={skills},description={Curiosity}}
+  - \newglossaryentry{RC}{name={\RC},type={skills},description={Understanding the research cycle}}
+  - \newglossaryentry{SRU}{name={\SRU},type={skills},description={Software re-use}}
+  - \newglossaryentry{SP}{name={\SP},type={skills},description={Software publication and citation}}
+  - \newglossaryentry{DOMREP}{name={\DOMREP},type={skills},description={Using domain repositories/directories}}
+  - \newglossaryentry{TEAM}{name={\TEAM},type={skills},description={Working in a team}}
+  - \newglossaryentry{TEACH}{name={\TEACH},type={skills},description={Teaching}}
+  - \newglossaryentry{PM}{name={\PM},type={skills},description={Project management}}
+  - \newglossaryentry{USERS}{name={\USERS},type={skills},description={Interaction with users and other stakeholders}}
 include-before:
   - \newpage
 include-after:
@@ -214,7 +232,7 @@ However, we also recognise that many RSEs have chosen specifically to focus on a
 role as an alternative to a traditional research role because they enjoy and wish to focus
 on the development of research software.
 
-**Researchers**: 
+**Researchers**:
 People who are using the services provided by Research Software Engineers.
 These not only include academics but also people from related fields such as librarians and technicians
 who are at most sporadically performing RSE actions.
@@ -380,7 +398,7 @@ the different RSE specialisations (**RSE specialisations**).
 ## Software engineering skills
 
 \newcommand{\skillsection}[1]{\hypertarget{skills-#1}{%
-\subsubsection{\glsentrydesc{#1} (\glsentrytext{#1})}\label{skills-#1}}}
+\subsubsection{\glsentrydesc{#1} (\texorpdfstring{\glsentrytext{#1}}{#1})}\label{skills-#1}}}
 
 There are many \ac{SE} curricula out there, that try to define
 which tasks a software engineer should be able to perform. A recent example
@@ -420,7 +438,7 @@ Initial development generally involves a creative process where requirements are
 followed by a formulation of a plan to fulfil them that is finally implemented.
 This is then followed by testing that things work as expected and that they continue to do so into the future.
 Often the development is iterated.
-We emphasise that the life-cycle as described here is not complete, 
+We emphasise that the life-cycle as described here is not complete,
 as it includes periods of software maintenance and software retirement.
 Additionally, the research software life-cycle extends the traditional life-cycle
 with a \gls{software-publication} stage.
@@ -488,12 +506,13 @@ Another part of \ac{FAIR} software is concerned with publishing new and derived 
 and making them available for re-use by the research community and the general public.
 RSEs need to have a basic understanding of common software licence types, such as "proprietary", "copyleft", and "permissive",
 the compatibility of different common licences and the ramifications for re-using and composing programs.
-Beyond that, RSEs will need to properly execute the technicalities of software publishing,
-such as applying licences, honouring copyright statements and crediting contributors.
-RSEs also need to understand and apply principles and good practices of software publication.
-This includes the collection, curation and provision of relevant software publication metadata
-both for software citation, and
-for generic and domain-specific software description [@druskat_hermes_2022].
+Beyond that, RSEs will need to properly execute the technicalities of software publishing.
+These include the application of licences and copyright statements,
+understanding and assigning software authorship, crediting contributors,
+maintaining FAIR software metadata and publishing software artefacts.
+Finally, RSEs will need to understand the principles of software citation [@smith_SoftwareCitationPrinciples2016].
+This concerns both the potential for reuse of their own work, which demands the provision of complete and correct up-to-date citation metadata for their software,
+as well as their own citation obligations deriving from building on previous work in the form of dependencies.
 
 <!-- Using domain repositories/directories -->
 \skillsection{DOMREP}
@@ -1029,7 +1048,11 @@ Like the Data-focused RSE, they have a deep understanding of \ac{RDM} topics.
 #### Project/community manager RSEs
 
 When research software projects become larger, they need someone who manages
-processes and people. This gap can be filled by people who invest in the (\gls{PM}), (\gls{USERS}), and (\gls{TEAM}) skills, as exemplified in @subsec:examplecareer.
+processes and people.
+In practice, this concerns change management for code and documentation
+and community work to safeguard usability and adaptability,
+but also handling project governance and scalable decision-making processes.
+This gap can be filled by people who invest in the (\gls{PM}), (\gls{USERS}), and (\gls{TEAM}) skills, as exemplified in @subsec:examplecareer.
 Building a community around a research project is an
 important building block in building sustainable software [@Segal2009], so these RSEs play
 an important role, even if they do not necessarily touch much of the code themselves.
@@ -1077,17 +1100,18 @@ New areas of expertise
 #### Research infrastructure RSE
 This RSE is interested in \glspl{SysOp} and system administration and sets up \ac{IT} infrastructures for and with researchers.
 Therefore, this specialisation on the one hand requires a deep knowledge of physical computer and network hardware and
-on the other hand knowledge about setup and configuration of particular server software, 
+on the other hand knowledge about setup and configuration of particular server software,
 e.g., setup of virtual machines on hypervisors or the planning and setup of compute server clusters for \ac{ML}.
 As an interface between the researchers and the infrastructure, they take care of user management, access permissions, and configuration of required services.
 
-#### Maintenance RSEs
-The constantly evolving software environment can hinder or prevent reproducibility.
-In this changing environment, a significant amount of effort in (research) software development
-needs to be spent on maintenance to ensure that software remains useful or even installable.
-With regard to which additional competency is required,
-these are people having experience with software stacks that are not part of the general curricula any more (e.g., \gls{COBOL} or \gls{Fortran}).
-Adaption of existing, large-scale codebases to evolving dependencies (\gls{LIBS}) or changing hardware (\ac{HPC}; see the HPC-RSE point below) may require mastery of in refactoring techniques and in the usage of specialized code transformation tools.
+#### Legacy RSEs
+Research software may be used and evolved over generations of research without change management or governance processes, while software "ecosystems" (e.g., programming languages, frameworks, operating systems) constantly evolve.
+This may lead to the emergence of legacy code that is actively used.
+To safeguard continued usability and adoption,
+these RSEs have experience in working with legacy code,
+and are competent in the application of software stacks that are no longer part of the general curricula (e.g., \gls{COBOL} or \gls{Fortran}).
+Adaption of existing, large-scale codebases to evolving dependencies (\gls{LIBS}) or changing hardware (\ac{HPC}; see the HPC-RSE point below)
+may require mastery of in refactoring techniques and in the usage of specialized code transformation tools.
 
 #### HPC-RSE
 
@@ -1177,9 +1201,9 @@ That publication will again intentionally be free of regional specifics, to also
 as a blueprint that other national RSE societies can build upon.
 
 Another important building block is to provide people with online resources for use in their
-courses. This is the intention of the so-called "survey-publication".
-That survey of existing resources will not be carried out as a traditional publication, but
-it will be made available as a continuously-evolving online resource.
+courses. This is the intention of the learn-and-teach project [@learnandteach].
+Surveying and curating of existing resources is not carried out as a traditional publication,
+but we make it available as a continuously-evolving online resource at [@learnandteach].
 
 And finally, we will formulate the call to action - building on the previous
 publication on the necessary institutions,
@@ -1367,7 +1391,7 @@ Her work so far has already been heavy on (\gls{TEAM}) skills, but now also the 
 
 #### RSE-focused principal investigator
 
-The job experience as a leading RSE for a large project was the last requirement necessary to be awarded the title of a "Certified Research Software Professional" (CRSP) 
+The job experience as a leading RSE for a large project was the last requirement necessary to be awarded the title of a "Certified Research Software Professional" (CRSP)
 from an institutionalised centre of RSE education.
 The certificate confirms her track record of valuable software contributions
 and of teaching and mentoring people,
@@ -1423,7 +1447,7 @@ These frameworks eventually converged into the \ac{EMBL-EBI} Competency Hub
 [@CompetencyHub; @Lloret-Llinares2022],
 where typical RSE and bioinformatician profiles at different levels
 of seniority can be queried
-(e.g., Junior RSE[^JuniorRSE], 
+(e.g., Junior RSE[^JuniorRSE],
 Senior Computational Chemist[^SeniorCC])
 and compared against one another
 (e.g., Junior vs. Senior RSE[^Comp]).
