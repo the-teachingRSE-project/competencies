@@ -15,6 +15,7 @@ author:
   - Harald von Waldow
   - Moritz Schwarzmeier
   - Matthias Braun
+  - Michele Martone
 header-includes:
   - \input{preamble.sty}
 output:
