@@ -1,13 +1,16 @@
-# Paper: Teaching and Learning Research Software Engineering  [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
+# The teachingRSE project: "Teaching and Learning Research Software Engineering"  [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
 
-Output of the de-RSE 2023 Conference Workshop on "Teaching and Learning Research Software Engineering".
+It started all at a workshop at deRSE23 in Paderborn where the community came together to discuss what to teach to future RSEs
+and in which institutions to bring up the next generation of RSEs.
 
-Since the original idea grew in size and scope we had to split the paper in different subpapers highlighting different aspects
+As we discovered, the scope of this task is so big that 
+we had to split the paper in different subpapers highlighting different aspects
 
 Get the latest version of the respective PDF files here:
 
 * "Foundational competencies and responsibilities of an RSE" ([competencies.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/competencies.pdf))
 * "Institutionalized Organisation of RSE Education" ([institutionalised_education.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/institutionalised_education.pdf))
+* A separate web project on surveying and curating existing resources, the [learn-and-teach project](https://github.com/DE-RSE/learn-and-teach)  [website](https://de-rse.org/learn-and-teach/)
 * "A Survey of Initiatives Providing Educative Material in the RSE Space" ([survey.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/survey.pdf))
 * "Educating RSEs in Germany - What Needs to Be Done" ([call_to_action.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/call_to_action.pdf))
 

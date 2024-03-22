@@ -142,6 +142,7 @@ RSE
 RSE's
 rse-specialisations
 RTPs
+scalable
 scipy
 SeniorCC
 SRU
