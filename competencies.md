@@ -127,8 +127,8 @@ also struggle to know what to ask when trying to request help from and interact 
 more experienced staff at their institutions. A gap still exists in
 academic education, as many curricula do not sufficiently prepare their students
 in this regard. This situation is exemplified by the extracurricular \ac{MIT} class
-"The Missing Semester of Your CS Education" [@MIT], which aims to convey computing
-ecosystem literacy even to students of Computer Science at \ac{MIT}.
+"The Missing Semester of Your CS Education" [@MIT], which aims to increase 
+"computing ecosystem literacy" even among students of Computer Science at \ac{MIT}.
 
 Researchers investing increasing amounts of their time developing their \ac{SE}
 skills to support their research work can find themselves with little time to do the research
@@ -166,7 +166,7 @@ These competencies draw upon skills from traditional SE practice,
 established research culture, and the commitment to being part of a team.
 While there is anecdotal evidence that academic SE practitioners
 would have chosen different competencies, we will argue that this trifecta of skills
-is exactly what is needed for modern digital research.
+is exactly what is needed for modern, software-enabled research.
 
 While this community paper is based on workshop discussions that were attended largely by Research Software Engineers (deRSE23 in Paderborn, un-deRSE23 in Jena, Germany),
 we believe that the competencies formulated here can offer far-reaching
@@ -225,7 +225,7 @@ discussion in @Gruenpeter2021.
 
 **Research software engineers**: People who
 create or improve research software and/or the structures that the software interacts with
-in the computational ecosystem of a research domain.
+in the computational environment of a research domain.
 They are highly skilled team members who may also choose to conduct their own research as
 part of their role.
 However, we also recognise that many RSEs have chosen specifically to focus on a technical
@@ -1105,11 +1105,13 @@ e.g., setup of virtual machines on hypervisors or the planning and setup of comp
 As an interface between the researchers and the infrastructure, they take care of user management, access permissions, and configuration of required services.
 
 #### Legacy RSEs
-Research software may be used and evolved over generations of research without change management or governance processes, while software ecosystems (e.g., programming languages, frameworks, operating systems) constantly evolve.
+Research software may be used and evolved over generations of research without change management or governance processes, while software "ecosystems" (e.g., programming languages, frameworks, operating systems) constantly evolve.
 This may lead to the emergence of legacy code that is actively used.
 To safeguard continued usability and adoption,
 these RSEs have experience in working with legacy code,
 and are competent in the application of software stacks that are no longer part of the general curricula (e.g., \gls{COBOL} or \gls{Fortran}).
+Adaption of existing, large-scale codebases to evolving dependencies (\gls{LIBS}) or changing hardware (\ac{HPC}; see the HPC-RSE point below)
+may require mastery of in refactoring techniques and in the usage of specialized code transformation tools.
 
 #### HPC-RSE
 
@@ -1215,7 +1217,7 @@ where people working in RSE related fields got together to figure out
 structures and ideas for educating newcomers to this field.
 One outcome of this diverse gathering is that RSEs from far away fields gather
 around similar core concepts, and at the same time share a vision of how to
-update the scientific ecosystem to the age of digitalisation.
+renew scientific research practice making proper use of digital tools.
 In this publication, we have tried to formalise these concepts.
 We have formulated a set of values that guide our actions in society,
 manifestly making RSEs part of the scientific community that shares the ideals of good scientific practice.
@@ -1281,7 +1283,7 @@ Core modules are of course drawn from the three pillars of the RSE and can be ca
 
 - \ac{SE} skills:
   - Foundational module: Here we have an introduction to programming: Students learn at least two languages: a language that facilitates prototyping and data processing (e.g., \gls{Python} or \gls{R}) and a language for designing complex, performance-critical systems (e.g., \gls{C}/\gls{Cpp}). This exposes them to computers in a hands-on fashion and is the foundation for (\gls{DOCBB}, \gls{LIBS}).
-  - Digital ecosystem module: Programming languages are not enough to work in a digital ecosystem, hence we require something like software craftsmanship, where tools such as the Unix shell, version control systems, build systems, documentation generators, package distribution platforms, and software discovery systems are taught to strengthen skills in (\gls{LIBS}, \gls{DOCBB}, \gls{SWREPOS}, \gls{SRU}).
+  - Computing environment module: Programming languages are not enough to work in a landscape of many interconnected software components; hence we require something like software craftsmanship, where tools such as the Unix shell, version control systems, build systems, documentation generators, package distribution platforms, and software discovery systems are taught to strengthen skills in (\gls{LIBS}, \gls{DOCBB}, \gls{SWREPOS}, \gls{SRU}).
   - Software architecture module: Here we teach software design and \ac{SE}, again strengthening (\gls{DOCBB}, \gls{LIBS}) on a more abstract level.
 
 - Research skills:
