@@ -1111,7 +1111,7 @@ To safeguard continued usability and adoption,
 these RSEs have experience in working with legacy code,
 and are competent in the application of software stacks that are no longer part of the general curricula (e.g., \gls{COBOL} or \gls{Fortran}).
 Adaption of existing, large-scale codebases to evolving dependencies (\gls{LIBS}) or changing hardware (\ac{HPC}; see the HPC-RSE point below)
-may require mastery of in refactoring techniques and in the usage of specialized code transformation tools.
+may require mastery in refactoring techniques and in the usage of specialised code transformation tools.
 
 #### HPC-RSE
 
