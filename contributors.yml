@@ -232,6 +232,20 @@ authors:
     orcid: 0000-0001-6643-6323
     email: frank.loeffler@uni-jena.de
 
+  - author: "Michele Martone"
+    firstName: Michele 
+    lastName: Martone
+#    suffixName: Jr.
+#    initials: FDCW
+#    affiliations:
+#      - University of Arcadia
+#      - Michigan State University, East Lansing, Michigan, USA
+#    orcid: 0000-0000-0000-0000
+#    email: willard@u-arcadia.edu
+#    acknowledgements: |
+#      FDCW acknowledges support from the University of Arcadia
+#      under grants UofA/A1234/5 and UofA/A1234/6.
+
 # please use the following author template (all fields are optional):
 
 #  - author: "F. D. C. Willard, Jr."
