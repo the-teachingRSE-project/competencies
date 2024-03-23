@@ -235,16 +235,13 @@ authors:
   - author: "Michele Martone"
     firstName: Michele 
     lastName: Martone
-#    suffixName: Jr.
     initials: MM
     affiliations:
-      - LRZ
-#      - Michigan State University, East Lansing, Michigan, USA
-#    orcid: 0000-0000-0000-0000
-#    email: willard@u-arcadia.edu
-#    acknowledgements: |
-#      FDCW acknowledges support from the University of Arcadia
-#      under grants UofA/A1234/5 and UofA/A1234/6.
+      - Leibniz Supercomputing Centre, Garching, Germany
+    orcid: 0000-0003-3239-8554
+    email: michele.martone@lrz.de
+    acknowledgements: |
+      MM acknowledges funding from the SiVeGCS Project
 
 # please use the following author template (all fields are optional):
 
