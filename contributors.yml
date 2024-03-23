@@ -236,9 +236,9 @@ authors:
     firstName: Michele 
     lastName: Martone
 #    suffixName: Jr.
-#    initials: FDCW
-#    affiliations:
-#      - University of Arcadia
+    initials: MM
+    affiliations:
+      - LRZ
 #      - Michigan State University, East Lansing, Michigan, USA
 #    orcid: 0000-0000-0000-0000
 #    email: willard@u-arcadia.edu
