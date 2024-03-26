@@ -1284,7 +1284,7 @@ and attend these additional modules to deepen their knowledge in the field.
 Core modules are of course drawn from the three pillars of the RSE and can be categorised accordingly.
 
 - \ac{SE} skills:
-  - Foundational module: Here we have an introduction to programming: Emphasizing use cases over programming paradigms, students learn at least two languages: a language that facilitates prototyping and data processing (e.g., \gls{Python} or \gls{R}) and a language for designing complex, performance-critical systems (e.g., \gls{C}/\gls{Cpp}). This exposes them to computers in a hands-on fashion and is the foundation for (\gls{DOCBB}, \gls{LIBS}).
+  - Foundational module: Here we have an introduction to programming: Emphasising use cases over programming paradigms, students learn at least two languages: a language that facilitates prototyping and data processing (e.g., \gls{Python} or \gls{R}) and a language for designing complex, performance-critical systems (e.g., \gls{C}/\gls{Cpp}). This exposes them to computers in a hands-on fashion and is the foundation for (\gls{DOCBB}, \gls{LIBS}).
   - Computing environment module: Programming languages are not enough to work in a landscape of many interconnected software components; hence we require something like software craftsmanship, where tools such as the Unix shell, version control systems, build systems, documentation generators, package distribution platforms, and software discovery systems are taught to strengthen skills in (\gls{LIBS}, \gls{DOCBB}, \gls{SWREPOS}, \gls{SRU}).
   - Software architecture module: Here we teach software design and \ac{SE}, again strengthening (\gls{DOCBB}, \gls{LIBS}) on a more abstract level.
 
