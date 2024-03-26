@@ -14,9 +14,6 @@ Get the latest version of the respective PDF files here:
 * "A Survey of Initiatives Providing Educative Material in the RSE Space" ([survey.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/survey.pdf))
 * "Educating RSEs in Germany - What Needs to Be Done" ([call_to_action.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/call_to_action.pdf))
 
-Older:
-* "Teaching and Learning Research Software Engineering" ([intro.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/intro.pdf))
-
 ## How to contribute - Some of our rules
 
 This paper is intended as a collaborative effort and we are looking for input from you.
