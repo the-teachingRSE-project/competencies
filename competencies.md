@@ -542,7 +542,7 @@ warrants a much stronger emphasis on this field of competence.
 <!-- Working in a team -->
 \skillsection{TEAM}
 
-Working in a team is all about communication and teamwork.
+Being able to work, and effectively communicate in teams is essential for RSEs.
 For example, RSEs need to be able to explain particular implementation choices made and may even need to defend them.
 Within a team of RSEs code reviews improve knowledge transfer and increase team cohesion.
 The team might change on a project-to-project basis and might be comprised of colleagues with very different backgrounds
