@@ -466,7 +466,7 @@ and be able to predict and cater to the changing needs of software as it moves t
 <!-- Use repositories -->
 \skillsection{SWREPOS}
 
-The RSE should be able to identify and use fitting public platforms (so-called software repositories or repos with version control) 
+The RSE should be able to identify and use fitting public platforms (so-called software source code repositories or "repos" with version control) 
 to share the artefacts they have created and invite the public to scrutinise them for public review.
 
 
