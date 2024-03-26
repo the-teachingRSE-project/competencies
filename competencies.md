@@ -466,8 +466,8 @@ and be able to predict and cater to the changing needs of software as it moves t
 <!-- Use repositories -->
 \skillsection{SWREPOS}
 
-The RSE should be able to identify and use fitting public platforms (so-called software source code repositories or "repos" with version control) 
-to share the code artefacts they have created and invite the public to scrutinise them in public reviews.
+The RSE should be able to identify and use fitting public platforms (so-called software repositories or "repos")
+to share the artefacts they have created and invite the public to scrutinise them in public reviews.
 
 
 <!-- Software behaviour awareness and analysis -->
@@ -692,7 +692,7 @@ A story-like example of an individual through the hierarchies can be found in @s
 | \gls{SWLC}       | Should be aware of the software life-cycle.                                                                                   | Should know where in the life-cycle their project is and which decisions are likely to lead to technical debt.                        | Should know how to manage and steer development/project resources accordingly. Should also have an understanding of the potential consequences of key project management decisions. |
 | \gls{DOCBB}      | Should be able to write reusable building blocks.                                                                             | Same as junior, but the quality should set the standard for the project, while following current best practices.                      | Should know the current best practices and point their staff to the right resources.                                                                                                |
 | \gls{LIBS}       | Should be able to use package distribution platforms.                                                                         | Same as junior, but should also be familiar with current best practices for building and deploying packages.                          | Should ensure that their project is available via an up-to-date and secure distribution platform.                                                                                   |
-| \gls{SWREPOS}    | Should seamlessly interact with the repository of their project.                                                              | Should be well-versed in the intricacies of a repository, and probably interact with repositories of multiple projects.               | Should promote the use of repositories and be able to convey best practices to junior and senior RSEs.                                                                              |
+| \gls{SWREPOS}    | Should seamlessly interact with the repository of their project.                                                              | Should be well-versed in the intricacies of a repository, and probably interact with repositories of multiple projects.               | Should promote the use of repositories and be able to convey best practices of sharing and reviewing to junior and senior RSEs.                                                                              |
 | \gls{MOD}        | Should have a basic grasp of their piece of the software in order to use basic tools such as a debugger.                      | Should understand the characteristics of large parts of the codebase considering a variety of the metrics.                            | Should understand the big idea of the software project in order to define the task that the software solves.                                                                        |
 
 Table: Levels of software eng. skills expected per RSE career stage. {#tbl:comp-lvls-se}
