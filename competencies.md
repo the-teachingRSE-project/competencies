@@ -418,7 +418,7 @@ The traditional software development life-cycle defines the stages that form the
 Initial development generally involves an analytic process where needs and ideas are gathered and analysed (requirements engineering),
 followed by a formulation of a plan to fulfil them (design) that is finally turned into running code (implementation).
 This is accompanied by different measures of quality control (e.g., reviews, testing), validating and verifying 
-that things work as expected and that they continue to do when develoment progresses further. Depending on the software project, this can mean a simple "Think-before-you-do", or more elaborate and formal processes.
+that things work as expected and that they continue to do when development progresses further. Depending on the software project, this can mean a simple "Think-before-you-do", or more elaborate and formal processes.
 Often the development cycles are executed iteratively and incrementally.
 The life-cycle further includes periods of deployment, maintenance and further development (software evolution), 
 as well as software retirement.
@@ -1304,7 +1304,7 @@ Core modules are of course drawn from the three pillars of the RSE and can be ca
 - Software/Technical skills:
   - Foundational module: Here we have an introduction to programming: Emphasising use cases over programming paradigms, students learn at least two languages: a language that facilitates prototyping and data processing (e.g., \gls{Python} or \gls{R}) and a language for designing complex, performance-critical systems (e.g., \gls{C}/\gls{Cpp}). This exposes them to computers in a hands-on fashion and is the foundation for (\gls{DOCBB}, \gls{LIBS}).
   - Computing environment module: Programming languages are not enough to work in a landscape of many interconnected software components; hence we require something like software craftsmanship, where tools such as the Unix shell, version control systems, build systems, documentation generators, package distribution platforms, and software discovery systems are taught to strengthen skills in (\gls{LIBS}, \gls{DOCBB}, \gls{SWREPOS}, \gls{SRU}).
-  - Software engineering module: Here we develop foundational software engineering competencies (basic knowledge and skill regarding requirements engineering, software architecture and design, implementation, quality assurance, software evolution), again emphasizing and strengthening (\gls{DOCBB}, \gls{LIBS}) on a more abstract level.
+  - Software engineering module: Here we develop foundational software engineering competencies (basic knowledge and skill regarding requirements engineering, software architecture and design, implementation, quality assurance, software evolution), again emphasising and strengthening (\gls{DOCBB}, \gls{LIBS}) on a more abstract level.
 
 - Research skills:
   - Optional domain mastery module: Additional minor research courses, but students with a home-domain already have the research part well-covered.
