@@ -396,6 +396,13 @@ and competencies also depends on the size of the RSE team
 (**Project team size**). Finally, different sets of skills are emphasised in
 the different RSE specialisations (**RSE specialisations**).
 
+During the Paderborn workshop we asked learners and novice RSEs what they would
+like to have learnt. The top five things mentioned were: testing, contributing to
+large projects, when or why to keep repositories private, proper development, and
+finding a community. Those topics comprise combinations of the skills and
+competencies defined below. We will elaborate these in
+@sec:tasks-and-responsibilities.
+
 ## Software engineering skills
 
 \newcommand{\skillsection}[1]{\hypertarget{skills-#1}{%
@@ -582,7 +589,7 @@ but at the same time to be able to convey their knowledge and experience to expe
 of other fields or persons at different hierarchy levels in a way they can understand more easily.
 These conditions pose specific challenges for requirements analysis, project management, training and support.
 
-## RSE tasks and responsibilities
+## RSE tasks and responsibilities {#sec:tasks-and-responsibilities}
 
 These skills, while already numerous are also generic on purpose. They span a
 multidimensional space in which the day-to-day tasks and responsibilities of an
