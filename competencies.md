@@ -187,7 +187,7 @@ We start with a non-exhaustive overview of existing initiatives in @sec:related-
 provide the guiding principles for the work of an RSE.
 @sec:required-generic-skills defines a set of core skills based on these values.
 The skills themselves fall into three categories, namely
-"software engineering", "research", and "communication" skills,
+"software/technical", "research", and "communication" skills,
 reflecting the hybrid nature of an RSE.
 To justify the selection of these skills,
 we also list some current tasks
