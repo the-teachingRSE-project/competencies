@@ -600,8 +600,8 @@ This broad topic requires all the \ac{SE} skills. Of course, these are the
 competencies that are the most fluid since they have to adapt at a high rate to
 technological advancements. Additionally, proper \ac{SE} skills often require
 knowledge of \gls{TEAM}, and \gls{PM}. Today this means effective use of
-\acp{IDE}, \gls{static-analysis} tools, \glspl{design-pattern}, documentation
-(for oneself and others), etc.
+\acp{IDE}, \gls{static-analysis} tools, \glspl{design-pattern} and documentation
+(for oneself and others).
 
 Software development also includes testing. This task is a manifestation of the
 \ac{SE} competencies of \gls{DOCBB} and \gls{MOD} since a model of the software
@@ -642,7 +642,7 @@ contributed code has to be understood by others. Interacting with project
 members depends on the \gls{TEAM} skill. Today this entails the effective use
 of collaborative platforms like \gls{GitHub}/\gls{GitLab}, honouring a
 project's code of conduct, and some knowledge of popular software licences,
-e.g., the \ac{GPL}.
+e.g. the \ac{GPL}.
 
 RSEs are embdded in communities. There are two different aspects to finding
 these communities: First, we have the aspect of community building for a
@@ -657,7 +657,7 @@ making them more effective at supporting research. These networks are a lifelong
 manifestation where RSEs work to provide an inclusive environment for their
 peers and provide opportunities for life-long learning.
 
-RSEs are aslo mentoring colleagues. This necessitates giving good advice that
+RSEs are also mentoring colleagues. This necessitates giving good advice that
 fits to a projects stage in its life-cycle, thereby requiring knowledge of
 (\gls{SWLC}), and its context in its research domain and thus (\gls{RC}).
 Research software often starts out as a tool to answer a personal research
