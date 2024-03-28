@@ -593,68 +593,83 @@ These conditions pose specific challenges for requirements analysis, project man
 
 These skills, while already numerous are also generic on purpose. They span a
 multidimensional space in which the day-to-day tasks and responsibilities of an
-RSE can be found. A snapshot of what this means today was obtained
-from learners and novice RSEs that we asked during the Paderborn workshop
-what they would like to have learnt. Among the top five things mentioned were:
+RSE can be found.
 
-- Testing. This task is a manifestation of the \ac{SE} competencies of \gls{DOCBB} and \gls{MOD}
-  since a model of the software is required in order to write good tests that
-  facilitate understanding and documentation. Today this encompasses the
-  knowledge of testing frameworks as well as continuous integration and \ac{CICD} practices.
-- Contributing to large projects. This is a topic that requires competency in
-  \gls{SWREPOS}, \gls{SRU}, \gls{SP} in order to understand the ramifications of sharing, and \gls{DOCBB},
-  since the contributed code has to be understood by others. Interacting with
-  project members depends on the \gls{TEAM} skill. Today this entails the effective
-  use of collaborative platforms like \gls{GitHub}/\gls{GitLab}, honouring a project's code of
-  conduct, and some knowledge of popular software licences, e.g., the \ac{GPL}.
-- When or why to keep repositories private. This decision requires knowledge in
-  the \gls{RC}, to understand when it makes sense to open up or close down a repository.
-  The \gls{USERS}, \gls{TEAM} and sometimes \gls{SP} skills are required to make this decision.
-  Furthermore, knowledge of the practices and contractual regulations of the
-  RSE's institution are also required.
-- Proper development. This broad topic requires all the \ac{SE} skills. Of course,
-  these are the competencies that are the most fluid since they have to adapt at
-  a high rate to technological advancements. Additionally, proper \ac{SE} skills
-  often require knowledge of \gls{TEAM}, and \gls{PM}. Today this means effective use of \acp{IDE},
-  \gls{static-analysis} tools, \glspl{design-pattern}, documentation (for oneself and others),
-  etc.
-- Finding a community. This can be interpreted in two different ways. First,
-  we have the aspect of community building for a research project. Since this
-  deals with software that is supposed to be used in research this requires
-  knowledge of \gls{RC}, \gls{USERS}, and also \gls{NEW}, in order to effectively interact with
-  domain scientists. Today, an example is a presence on social media. The other
-  \gls{TEAM}-related aspect is the embedding of RSE graduates into the community of
-  RSEs, sharing the same set of values and competencies. We envision our RSE graduates to be a part of a strong network of other
-  RSEs, tool-related communities, and the classical domain communities, making them more effective at supporting research.
-  These networks are a lifelong manifestation where RSEs work to provide an inclusive environment
-  for their peers and provide opportunities for life-long learning.
+The most obvious task of an RSE is to develop software that is used in research.
+This broad topic requires all the \ac{SE} skills. Of course, these are the
+competencies that are the most fluid since they have to adapt at a high rate to
+technological advancements. Additionally, proper \ac{SE} skills often require
+knowledge of \gls{TEAM}, and \gls{PM}. Today this means effective use of
+\acp{IDE}, \gls{static-analysis} tools, \glspl{design-pattern}, documentation
+(for oneself and others), etc.
 
+Software development also includes testing. This task is a manifestation of the
+\ac{SE} competencies of \gls{DOCBB} and \gls{MOD} since a model of the software
+is required in order to write good tests that facilitate understanding and
+documentation. Today this encompasses the knowledge of testing frameworks as
+well as continuous integration and \ac{CICD} practices. Additionally to being
+tested, software should also be reproducible. Projects like ReproHack
+[@ReproHack] can greatly help in fostering that competency.
 
-Beyond that, we feel that today other important tasks of RSEs are
+Part of the \ac{FAIR} principles is to make software findable and reusable. The
+RSE needs to be able to decide when and why to keep a repository private. This
+decision requires knowledge in the \gls{RC}, to understand when it makes sense
+to open up or close down a repository. The \gls{USERS}, \gls{TEAM} and sometimes
+\gls{SP} skills are required to make this decision. Furthermore, knowledge of
+the practices and contractual regulations of the RSE's institution are also
+required.
 
-- Mentoring colleagues.
-  This necessitates giving good advice that fits to a projects stage in its life-cycle,
-  thereby requiring knowledge of (\gls{SWLC}), and its context in its research domain and thus (\gls{RC}).
-  Research software often starts out as a tool to answer a personal research
-  question and becomes more important when other researchers rely on it.
-  Some research software might even be used to deal with critical questions such as weather forecasting or medical diagnosis.
-  To formalise the process of giving good advice a classification of software is commonly used [@Wang2012; @Schlauch2018b]
-  where research software can move from one class to another during its life-cycle.
-  @Schlauch2018b classify applications based on their scope and criticality and provide \ac{SE} recommendations.
-  The RSE needs to be able to identify the application class they are dealing with and apply the respective RSE practices.
-- Enforcing reproducibility. Projects like ReproHack [@ReproHack] can greatly help in fostering that competency.
-- Understanding metadata for research and research software.
-  There are ongoing efforts on metadata for research software such as CodeMeta [@jones_codemeta_2017]
-  and the \ac{NFDI} working group [@castro_research_sw_metadata_2023] on the subject.
-  These are complemented by the development of new tools and methods
-  for providing and working with software metadata, such as
-  the Citation File Format project [@druskat_cff_2021] and HERMES [@druskat_hermes_2022].
-  Other efforts focus on Software Management Plans (e.g., [@alves_elixir_2021; @martinez_ortiz_practical_2022])
-  which could be helpful for RSEs at early stages (i.e., with not much experience of project management).
-  They give quick hints on what to look for regarding basic management for research
-  software (including information on e.g., licenses, releases, publication, citation)
-  together with some ongoing work on corresponding metadata [@giraldo_metadata_2023].
-  Metadata can also be used actively during and within a research project to inform the decision making processes [@Bird2016].
+The RSE also needs to understand metadata for research and research software.
+There are ongoing efforts on metadata for research software such as CodeMeta
+[@jones_codemeta_2017] and the \ac{NFDI} working group
+[@castro_research_sw_metadata_2023] on the subject. These are complemented by
+the development of new tools and methods for providing and working with software
+metadata, such as the Citation File Format project [@druskat_cff_2021] and
+HERMES [@druskat_hermes_2022]. Other efforts focus on Software Management Plans
+(e.g., [@alves_elixir_2021; @martinez_ortiz_practical_2022]) which could be
+helpful for RSEs at early stages (i.e., with not much experience of project
+management). They give quick hints on what to look for regarding basic
+management for research software (including information on e.g., licenses,
+releases, publication, citation) together with some ongoing work on
+corresponding metadata [@giraldo_metadata_2023]. Metadata can also be used
+actively during and within a research project to inform the decision making
+processes [@Bird2016].
+
+Most RSEs will contribute to other projects, some of which will be large. This
+is a topic that requires competency in \gls{SWREPOS}, \gls{SRU}, \gls{SP} in
+order to understand the ramifications of sharing, and \gls{DOCBB}, since the
+contributed code has to be understood by others. Interacting with project
+members depends on the \gls{TEAM} skill. Today this entails the effective use
+of collaborative platforms like \gls{GitHub}/\gls{GitLab}, honouring a
+project's code of conduct, and some knowledge of popular software licences,
+e.g., the \ac{GPL}.
+
+RSEs are embdded in communities. There are two different aspects to finding
+these communities: First, we have the aspect of community building for a
+research project. Since this deals with software that is supposed to be used in
+research this requires knowledge of \gls{RC}, \gls{USERS}, and also \gls{NEW},
+in order to effectively interact with domain scientists. Today, an example is a
+presence on social media. The other \gls{TEAM}-related aspect is the embedding
+of RSE graduates into the community of RSEs, sharing the same set of values and
+competencies. We envision our RSE graduates to be a part of a strong network of
+other RSEs, tool-related communities, and the classical domain communities,
+making them more effective at supporting research. These networks are a lifelong
+manifestation where RSEs work to provide an inclusive environment for their
+peers and provide opportunities for life-long learning.
+
+RSEs are aslo mentoring colleagues. This necessitates giving good advice that
+fits to a projects stage in its life-cycle, thereby requiring knowledge of
+(\gls{SWLC}), and its context in its research domain and thus (\gls{RC}).
+Research software often starts out as a tool to answer a personal research
+question and becomes more important when other researchers rely on it. Some
+research software might even be used to deal with critical questions such as
+weather forecasting or medical diagnosis. To formalise the process of giving
+good advice a classification of software is commonly used [@Wang2012;
+@Schlauch2018b] where research software can move from one class to another
+during its life-cycle. @Schlauch2018b classify applications based on their scope
+and criticality and provide \ac{SE} recommendations. The RSE needs to be able to
+identify the application class they are dealing with and apply the respective
+RSE practices.
 
 # How much do different people need to know? {#sec:how-much-to-know}
 
