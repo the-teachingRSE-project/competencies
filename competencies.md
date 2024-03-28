@@ -644,7 +644,7 @@ of collaborative platforms like \gls{GitHub}/\gls{GitLab}, honouring a
 project's code of conduct, and some knowledge of popular software licences,
 e.g. the \ac{GPL}.
 
-RSEs are embdded in communities. There are two different aspects to finding
+RSEs are embedded in communities. There are two different aspects to finding
 these communities: First, we have the aspect of community building for a
 research project. Since this deals with software that is supposed to be used in
 research this requires knowledge of \gls{RC}, \gls{USERS}, and also \gls{NEW},
