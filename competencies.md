@@ -23,6 +23,7 @@ author:
   - Jan Philipp Thiele
   - Harald von Waldow
   - Samantha Wittke
+  - Michele Martone
 output:
   pdf_document:
     citation_package: biblatex
@@ -127,8 +128,8 @@ also struggle to know what to ask when trying to request help from and interact 
 more experienced staff at their institutions. A gap still exists in
 academic education, as many curricula do not sufficiently prepare their students
 in this regard. This situation is exemplified by the extracurricular \ac{MIT} class
-"The Missing Semester of Your CS Education" [@MIT], which aims to convey computing
-ecosystem literacy even to students of Computer Science at \ac{MIT}.
+"The Missing Semester of Your CS Education" [@MIT], which aims to increase 
+"computing ecosystem literacy" even among students of Computer Science at \ac{MIT}.
 
 Researchers investing increasing amounts of their time developing their \ac{SE}
 skills to support their research work can find themselves with little time to do the research
@@ -166,7 +167,7 @@ These competencies draw upon skills from traditional SE practice,
 established research culture, and the commitment to being part of a team.
 While there is anecdotal evidence that academic SE practitioners
 would have chosen different competencies, we will argue that this trifecta of skills
-is exactly what is needed for modern digital research.
+is exactly what is needed for modern, software-enabled research.
 
 While this community paper is based on workshop discussions that were attended largely by Research Software Engineers (deRSE23 in Paderborn, un-deRSE23 in Jena, Germany),
 we believe that the competencies formulated here can offer far-reaching
@@ -186,7 +187,7 @@ We start with a non-exhaustive overview of existing initiatives in @sec:related-
 provide the guiding principles for the work of an RSE.
 @sec:required-generic-skills defines a set of core skills based on these values.
 The skills themselves fall into three categories, namely
-"software engineering", "research", and "communication" skills,
+"software/technical", "research", and "communication" skills,
 reflecting the hybrid nature of an RSE.
 To justify the selection of these skills,
 we also list some current tasks
@@ -225,7 +226,7 @@ discussion in @Gruenpeter2021.
 
 **Research software engineers**: People who
 create or improve research software and/or the structures that the software interacts with
-in the computational ecosystem of a research domain.
+in the computational environment of a research domain.
 They are highly skilled team members who may also choose to conduct their own research as
 part of their role.
 However, we also recognise that many RSEs have chosen specifically to focus on a technical
@@ -379,7 +380,7 @@ The role of an RSE lies somewhere on the spectrum between that of a researcher
 (the "R") and a software engineer (the "SE") and, therefore, requires
 competencies in both fields. RSEs typically apply their knowledge and
 experience in larger teams which allows them to cultivate this hybrid nature.
-Therefore, we categorise the competencies into three categories: *software engineering skills*,
+Therefore, we categorise the competencies into three categories: *software/technical skills*,
 *research skills*, and *communication skills*, with a particular focus on the software and
 research cycle and the scientific process. These competencies are relevant in a
 broad setting and form the foundation for specific specialisations.
@@ -395,19 +396,36 @@ and competencies also depends on the size of the RSE team
 (**Project team size**). Finally, different sets of skills are emphasised in
 the different RSE specialisations (**RSE specialisations**).
 
-## Software engineering skills
+## Software/Technical skills
 
 \newcommand{\skillsection}[1]{\hypertarget{skills-#1}{%
 \subsubsection{\glsentrydesc{#1} (\texorpdfstring{\glsentrytext{#1}}{#1})}\label{skills-#1}}}
 
-There are many \ac{SE} curricula out there, that try to define
-which tasks a software engineer should be able to perform. A recent example
-highlighting some aspects in more detail than here is @Landwehr2017.
-The software skills outlined here are required to make research software adhere
-to the \ac{FAIR} principles, which are aspects of good scientific practice.
-@ChueHong2014 defines different levels of research
-software reusability and the extent to which the \ac{SE} skills
-need to be applied to reach them.
+The technical skills required by an RSE overlap to a large extent with the common 
+fundamental software engineering skills (see, e.g., @Landwehr2017), but put greater
+emphasis on aspects related to achieving good scientific practice. 
+For example, RSEs need to know how to make research software adhere to the 
+\ac{FAIR} principles, and how to achieve different levels of research
+software reusability @ChueHong2014. To reflect this, the technical skills
+listed below complement competencies regarding the standard life-cycle of 
+software development with RSE-specific focus skills. 
+
+
+<!-- Adapting to the software life-cycle -->
+\skillsection{SWLC}
+
+The traditional software development life-cycle defines the stages that form the process of building a piece of software.
+Initial development generally involves an analytic process where needs and ideas are gathered and analysed (requirements engineering),
+followed by a formulation of a plan to fulfil them (design) that is finally turned into running code (implementation).
+This is accompanied by different measures of quality control (e.g., reviews, testing), validating and verifying 
+that things work as expected and that they continue to do when development progresses further. Depending on the software project, this can mean a simple "Think-before-you-do", or more elaborate and formal processes.
+Often the development cycles are executed iteratively and incrementally.
+The life-cycle further includes periods of deployment, maintenance and further development (software evolution), 
+as well as software retirement.
+Additionally, the research software life-cycle extends the traditional life-cycle
+with \gls{software-publication}. The RSE should be aware of this life-cycle
+and be able to predict and cater to the changing needs of a software project as it moves through the stages.
+
 
 <!-- Creating documented code building blocks -->
 \skillsection{DOCBB}
@@ -448,14 +466,15 @@ and be able to predict and cater to the changing needs of software as it moves t
 <!-- Use repositories -->
 \skillsection{SWREPOS}
 
-The RSE should be able to identify and use fitting public platforms (so-called software repositories or repos) to share the artefacts they have
-created and invite the public to scrutinise them for public review.
+The RSE should be able to identify and use fitting public platforms (so-called software repositories or "repos")
+to share the artefacts they have created and invite the public to scrutinise them in public reviews.
+
 
 <!-- Software behaviour awareness and analysis -->
 \skillsection{MOD}
 
 We define this as a certain quality of analytical thinking that enables an RSE to
-form a mental model of a piece of software in a specific environment.
+form a mental model of a piece of software in a specific environment (program comprehension).
 Using that, an RSE should be able to make predictions about a software's behaviour.
 This is a required skill for common tasks such as debugging, profiling, optimising, designing good
 tests, or predicting user interaction.
@@ -511,7 +530,8 @@ These include the application of licences and copyright statements,
 understanding and assigning software authorship, crediting contributors,
 maintaining FAIR software metadata and publishing software artefacts.
 Finally, RSEs will need to understand the principles of software citation [@smith_SoftwareCitationPrinciples2016].
-This concerns both the potential for reuse of their own work, which demands the provision of complete and correct up-to-date citation metadata for their software,
+This concerns both the potential for reuse of their own work,
+which demands the provision of complete and correct up-to-date citation metadata for their software,
 as well as their own citation obligations deriving from building on previous work in the form of dependencies.
 
 <!-- Using domain repositories/directories -->
@@ -541,7 +561,7 @@ warrants a much stronger emphasis on this field of competence.
 <!-- Working in a team -->
 \skillsection{TEAM}
 
-Working in a team is all about communication and teamwork.
+Being able to work, and effectively communicate in teams is essential for RSEs.
 For example, RSEs need to be able to explain particular implementation choices made and may even need to defend them.
 Within a team of RSEs code reviews improve knowledge transfer and increase team cohesion.
 The team might change on a project-to-project basis and might be comprised of colleagues with very different backgrounds
@@ -669,10 +689,10 @@ A story-like example of an individual through the hierarchies can be found in @s
 
 | Competency | Junior RSE                                                                                                                    | Senior RSE                                                                                                                            | Principal RSE                                                                                                                                                                       |
 | ---        | ----------                                                                                                                    | ----------                                                                                                                            | ----------                                                                                                                                                                          |
+| \gls{SWLC}       | Should be aware of the software life-cycle.                                                                                   | Should know where in the life-cycle their project is and which decisions are likely to lead to technical debt.                        | Should know how to manage and steer development/project resources accordingly. Should also have an understanding of the potential consequences of key project management decisions. |
 | \gls{DOCBB}      | Should be able to write reusable building blocks.                                                                             | Same as junior, but the quality should set the standard for the project, while following current best practices.                      | Should know the current best practices and point their staff to the right resources.                                                                                                |
 | \gls{LIBS}       | Should be able to use package distribution platforms.                                                                         | Same as junior, but should also be familiar with current best practices for building and deploying packages.                          | Should ensure that their project is available via an up-to-date and secure distribution platform.                                                                                   |
-| \gls{SWLC}       | Should be aware of the software life-cycle.                                                                                   | Should know where in the life-cycle their project is and which decisions are likely to lead to technical debt.                        | Should know how to manage and steer development/project resources accordingly. Should also have an understanding of the potential consequences of key project management decisions. |
-| \gls{SWREPOS}    | Should seamlessly interact with the repository of their project.                                                              | Should be well-versed in the intricacies of a repository, and probably interact with repositories of multiple projects.               | Should promote the use of repositories and be able to convey best practices to junior and senior RSEs.                                                                              |
+| \gls{SWREPOS}    | Should seamlessly interact with the repository of their project.                                                              | Should be well-versed in the intricacies of a repository, and probably interact with repositories of multiple projects.               | Should promote the use of repositories and be able to convey best practices of sharing and reviewing to junior and senior RSEs.                                                                              |
 | \gls{MOD}        | Should have a basic grasp of their piece of the software in order to use basic tools such as a debugger.                      | Should understand the characteristics of large parts of the codebase considering a variety of the metrics.                            | Should understand the big idea of the software project in order to define the task that the software solves.                                                                        |
 
 Table: Levels of software eng. skills expected per RSE career stage. {#tbl:comp-lvls-se}
@@ -1105,11 +1125,13 @@ e.g., setup of virtual machines on hypervisors or the planning and setup of comp
 As an interface between the researchers and the infrastructure, they take care of user management, access permissions, and configuration of required services.
 
 #### Legacy RSEs
-Research software may be used and evolved over generations of research without change management or governance processes, while software ecosystems (e.g., programming languages, frameworks, operating systems) constantly evolve.
+Research software may be used and evolved over generations of research without change management or governance processes, while software "ecosystems" (e.g., programming languages, frameworks, operating systems) constantly evolve.
 This may lead to the emergence of legacy code that is actively used.
 To safeguard continued usability and adoption,
 these RSEs have experience in working with legacy code,
 and are competent in the application of software stacks that are no longer part of the general curricula (e.g., \gls{COBOL} or \gls{Fortran}).
+Adaption of existing, large-scale codebases to evolving dependencies (\gls{LIBS}) or changing hardware (\ac{HPC}; see the HPC-RSE point below)
+may require mastery in refactoring techniques and in the usage of specialised code transformation tools.
 
 #### HPC-RSE
 
@@ -1215,7 +1237,7 @@ where people working in RSE related fields got together to figure out
 structures and ideas for educating newcomers to this field.
 One outcome of this diverse gathering is that RSEs from far away fields gather
 around similar core concepts, and at the same time share a vision of how to
-update the scientific ecosystem to the age of digitalisation.
+renew scientific research practice making proper use of digital tools.
 In this publication, we have tried to formalise these concepts.
 We have formulated a set of values that guide our actions in society,
 manifestly making RSEs part of the scientific community that shares the ideals of good scientific practice.
@@ -1279,10 +1301,10 @@ and attend these additional modules to deepen their knowledge in the field.
 
 Core modules are of course drawn from the three pillars of the RSE and can be categorised accordingly.
 
-- \ac{SE} skills:
-  - Foundational module: Here we have an introduction to programming: Students learn at least two languages: a language that facilitates prototyping and data processing (e.g., \gls{Python} or \gls{R}) and a language for designing complex, performance-critical systems (e.g., \gls{C}/\gls{Cpp}). This exposes them to computers in a hands-on fashion and is the foundation for (\gls{DOCBB}, \gls{LIBS}).
-  - Digital ecosystem module: Programming languages are not enough to work in a digital ecosystem, hence we require something like software craftsmanship, where tools such as the Unix shell, version control systems, build systems, documentation generators, package distribution platforms, and software discovery systems are taught to strengthen skills in (\gls{LIBS}, \gls{DOCBB}, \gls{SWREPOS}, \gls{SRU}).
-  - Software architecture module: Here we teach software design and \ac{SE}, again strengthening (\gls{DOCBB}, \gls{LIBS}) on a more abstract level.
+- Software/Technical skills:
+  - Foundational module: Here we have an introduction to programming: Emphasising use cases over programming paradigms, students learn at least two languages: a language that facilitates prototyping and data processing (e.g., \gls{Python} or \gls{R}) and a language for designing complex, performance-critical systems (e.g., \gls{C}/\gls{Cpp}). This exposes them to computers in a hands-on fashion and is the foundation for (\gls{DOCBB}, \gls{LIBS}).
+  - Computing environment module: Programming languages are not enough to work in a landscape of many interconnected software components; hence we require something like software craftsmanship, where tools such as the Unix shell, version control systems, build systems, documentation generators, package distribution platforms, and software discovery systems are taught to strengthen skills in (\gls{LIBS}, \gls{DOCBB}, \gls{SWREPOS}, \gls{SRU}).
+  - Software engineering module: Here we develop foundational software engineering competencies (basic knowledge and skill regarding requirements engineering, software architecture and design, implementation, quality assurance, software evolution), again emphasising and strengthening (\gls{DOCBB}, \gls{LIBS}) on a more abstract level.
 
 - Research skills:
   - Optional domain mastery module: Additional minor research courses, but students with a home-domain already have the research part well-covered.

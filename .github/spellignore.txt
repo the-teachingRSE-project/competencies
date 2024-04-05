@@ -22,6 +22,7 @@ Center
 CHAOSS
 citable
 codebase
+codebases
 CodeMeta
 CodeRefinery
 comp-lvls-se
@@ -93,6 +94,7 @@ HTC
 IDEs
 Ing
 ISCB
+iteratively
 Jena
 JOSS
 JU

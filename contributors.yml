@@ -223,6 +223,26 @@ authors:
     orcid: 0000-0003-4925-7248
     email: stephan.druskat@dlr.de
 
+  - author: "Frank Löffler"
+    firstName: Frank
+    lastName: Löffler
+    affiliations:
+      - Friedrich Schiller University Jena, Jena, Germany
+      - Michael Stifel Center Jena, Jena, Germany
+    orcid: 0000-0001-6643-6323
+    email: frank.loeffler@uni-jena.de
+
+  - author: "Michele Martone"
+    firstName: Michele 
+    lastName: Martone
+    initials: MM
+    affiliations:
+      - Leibniz Supercomputing Centre, Garching, Germany
+    orcid: 0000-0003-3239-8554
+    email: michele.martone@lrz.de
+    acknowledgements: |
+      MM acknowledges funding from the SiVeGCS Project
+
 # please use the following author template (all fields are optional):
 
 #  - author: "F. D. C. Willard, Jr."
