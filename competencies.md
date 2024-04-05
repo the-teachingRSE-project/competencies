@@ -658,7 +658,7 @@ manifestation where RSEs work to provide an inclusive environment for their
 peers and provide opportunities for life-long learning.
 
 RSEs are also mentoring colleagues. This necessitates giving good advice that
-fits to a projects stage in its life-cycle, thereby requiring knowledge of
+fits to a project's stage in its life-cycle, thereby requiring knowledge of
 (\gls{SWLC}), and its context in its research domain and thus (\gls{RC}).
 Research software often starts out as a tool to answer a personal research
 question and becomes more important when other researchers rely on it. Some
