@@ -39,7 +39,7 @@ structures and which additional structures are required.
 ---
 
 # Introduction
-In a previous paper [@Goth2023] we have defined the core competencies and resposibilities of a Research Software Engineer (RSE). 
+In a previous paper [@Goth2023] we have defined the core competencies and responsibilities of a Research Software Engineer (RSE). 
 
 * like in all aspects of modern life digital skills are required in all forms of research
 * where are RSEs employed?

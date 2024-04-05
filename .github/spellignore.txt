@@ -93,6 +93,7 @@ HPC-oriented
 HTC
 IDEs
 Ing
+IoT
 ISCB
 Jena
 JOSS
