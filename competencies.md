@@ -594,6 +594,8 @@ These conditions pose specific challenges for requirements analysis, project man
 These skills, while already numerous are also generic on purpose. They span a
 multidimensional space in which the day-to-day tasks and responsibilities of an
 RSE can be found.
+We describe here some examples of the competencies applied in combination to
+the set of current common tasks and challenges for RSEs identified during the Paderborn workshop.
 
 The most obvious task of an RSE is to develop software that is used in research.
 This broad topic requires all the \ac{SE} skills. Of course, these are the
