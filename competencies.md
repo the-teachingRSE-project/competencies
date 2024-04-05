@@ -597,7 +597,7 @@ RSE can be found.
 
 The most obvious task of an RSE is to develop software that is used in research.
 This broad topic requires all the \ac{SE} skills. Of course, these are the
-competencies that are the most fluid since they have to adapt at a high rate to
+competencies that are the most fluid since they have to adapt to frequent
 technological advancements. Additionally, proper \ac{SE} skills often require
 knowledge of \gls{TEAM}, and \gls{PM}. Today this means effective use of
 \acp{IDE}, \gls{static-analysis} tools, \glspl{design-pattern} and documentation
