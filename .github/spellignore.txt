@@ -94,6 +94,7 @@ HTC
 IDEs
 Ing
 ISCB
+iteratively
 Jena
 JOSS
 JU
