@@ -607,7 +607,7 @@ Software development also includes testing. This task is a manifestation of the
 \ac{SE} competencies of \gls{DOCBB} and \gls{MOD} since a model of the software
 is required in order to write good tests that facilitate understanding and
 documentation. Today this encompasses the knowledge of testing frameworks as
-well as continuous integration and \ac{CICD} practices. Additionally to being
+well as continuous integration and \ac{CICD} practices. In addition to being
 tested, software should also be reproducible. Projects like ReproHack
 [@ReproHack] can greatly help in fostering that competency.
 
