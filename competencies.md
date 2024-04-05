@@ -663,8 +663,8 @@ fits to a project's stage in its life-cycle, thereby requiring knowledge of
 Research software often starts out as a tool to answer a personal research
 question and becomes more important when other researchers rely on it. Some
 research software might even be used to deal with critical questions such as
-weather forecasting or medical diagnosis. To formalise the process of giving
-good advice a classification of software is commonly used [@Wang2012;
+weather forecasting or medical diagnosis. A classification of software is commonly used
+to formalise the process of giving good advice [@Wang2012;
 @Schlauch2018b] where research software can move from one class to another
 during its life-cycle. @Schlauch2018b classify applications based on their scope
 and criticality and provide \ac{SE} recommendations. The RSE needs to be able to
