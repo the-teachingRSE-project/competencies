@@ -616,7 +616,7 @@ RSE needs to be able to decide when and why to keep a repository private. This
 decision requires knowledge in the \gls{RC}, to understand when it makes sense
 to open up or close down a repository. The \gls{USERS}, \gls{TEAM} and sometimes
 \gls{SP} skills are required to make this decision. Furthermore, knowledge of
-the practices and contractual regulations of the RSE's institution are also
+the practices and contractual regulations of the RSE's institution is also
 required.
 
 The RSE also needs to understand metadata for research and research software.
