@@ -22,6 +22,7 @@ Center
 CHAOSS
 citable
 codebase
+codebases
 CodeMeta
 CodeRefinery
 comp-lvls-se
@@ -142,6 +143,7 @@ RSE
 RSE's
 rse-specialisations
 RTPs
+scalable
 scipy
 SeniorCC
 SRU

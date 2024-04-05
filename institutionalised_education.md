@@ -158,7 +158,7 @@ Some exemplary skills for which courses are already held are version control too
 
 # Required Next Steps
 We have identified the RSE as an individual who brings a unique set of skills for
-supporting and undertaking modern digital research into research groups and teams.
+supporting and undertaking modern software-enabled research into research groups and teams.
 We have elaborated on the basic competencies that RSEs may have, and we have
 provided a detailed picture of how these competencies manifest along different
 dimensions.
@@ -459,7 +459,7 @@ digital competence. The scale is based on the six proficiency levels used by
 the Common European Framework of Reference for Languages, ranging from A1
 (no use of digital technologies in the classroom) to C2 (champion the use
 of digital technologies in teaching environments, actively contribute
-to the ecosystem of digital tools and curate open educational resources).
+to the palette of interoperable digital tools and curate open educational resources).
 
 The "DigCompOrg" framework [@Kampylis2015] aims to facilitate the inclusion
 of digital learning technologies by education organisation and provide
