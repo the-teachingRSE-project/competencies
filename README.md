@@ -1,4 +1,4 @@
-# The teachingRSE project: "Teaching and Learning Research Software Engineering"
+# The teachingRSE project: "Teaching and Learning Research Software Engineering" [![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
 
 It started all at a workshop at deRSE23 in Paderborn where the community came together to discuss what to teach to future RSEs
 and in which institutions to bring up the next generation of RSEs.
@@ -82,3 +82,11 @@ The first paper,
 _Foundational Competencies and Responsibilities of a Research Software Engineer_,
 is now available as a pre-print: https://arxiv.org/abs/2311.11457
 Feedback is welcome as an issue on this repository.
+
+## License
+
+[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+
+Each file in this repository is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
+When re-using material from this repository, please attribute it with the information given in the file [attribution.md](attribution.md).
