@@ -365,6 +365,17 @@ and therefore need to be able to make a value-based judgement on topics
 such as open science, path dependence, and vendor lock-in.
 
 
+### Addressing environmental sustainability within planetary limits
+
+The last two decades saw the limits in the attainable miniaturization of transistor technology approaching, and top chip clock frequency mostly settled. [@Sutter2005]
+Nevertheless, the perception in the popular culture remains fairly unaware of that, and a misleading belief into limitless growth of computing capabilities (storage, computing power, transmission speed) is still widespread.
+A practical consequence of this is an ever-growing demand of resources to cover the expanded need for storage and processing, with no clear deceleration in sight (e.g. the IEA estimates a doubling in data centres energy consumption from 2024 to 2026 [@IEA2024]).
+At the same time, current science is well aware of several planetary boundaries being trespassed consequently to human activities [@Richardson2023], with this (computation and information) accounting for a non negligible fraction [@IEA2024].
+A reorientation of consumption into sustainable rates is being strived with great difficulty, despite repeated appeals from the sectors of society most knowledgeable on the matter [@Sills2019].
+In this scenario, RSEs have a responsibility, for instance when choosing computationally adequate approaches (e.g. recognizing where a well-proved statistical method may do well instead of a power-hungry AI model, or configuring a test pipeline to minimize redundancy), and embracing data frugality measures (e.g. recognizing sufficient resolutions when sampling data for processing or storage),
+If past computational solutions were frugal because of technological limits, future ones should tend to that by virtue of an awareness of what adequate solutions may be.
+To be helpful in these regards, RSEs may need basic skills in extrapolating energy, storage, and computational needs, resorting to expert knowledge for the details, and within regulatory frameworks yet to come.
+
 ### Emerging challenges
 
 RSEs often operate at the cutting edge of technological development
@@ -1301,6 +1312,7 @@ Heidi Seibold, Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele,
 Jan Linxweiler, Jean-Noël Grad, and Samantha Wittke contributed the initial draft.
 Florian Goth supervised the project and did the project administration.
 Jean-Noël Grad conceived and implemented the software tooling.
+Michele Martone wrote the first draft of the environmental sustainability section.
 Everybody contributed to the final review and editing.
 
 \appendix
