@@ -650,7 +650,7 @@ knowledge of \gls{TEAM}, and \gls{PM}. Today this means effective use of
 (for oneself and others).
 
 The RSE needs to be able to choose appropriate algorithms and techniques
-(\gls{MOD} and \gls{NEW}). Apart from the technical feasability, this choice is
+(\gls{MOD} and \gls{NEW}). Apart from the technical feasibility, this choice is
 also informed by the values outlined in Section @sec:values. For example, the
 RSE needs to be able to estimate resource usage (processing, memory and storage
 consumption). Resource usage has not only a financial price tag but also impacts
