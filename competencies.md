@@ -379,16 +379,16 @@ sight (e.g. the IEA estimates a doubling in data centres energy consumption from
 2024 to 2026 [@IEA2024]). At the same time, current science is well aware of
 several planetary boundaries being trespassed due to human activities
 [@Richardson2023]. Data processing, storage and transfer account for a non
-negligible fraction [@IEA2024]. A reorientation of resource consumption to sustainable
-rates is being strived with great difficulty, despite repeated appeals from the
-sectors of society most knowledgeable on the matter [@Sills2019]. In this
-scenario, RSEs have a responsibility, for instance when choosing computationally
-adequate approaches (e.g. recognising where a well-proved statistical method may
-do well instead of a power-hungry AI model, or configuring a test pipeline to
-minimise redundancy), and embracing data frugality measures (e.g. recognising
-sufficient resolutions when sampling data for processing or storage). If past
-computational solutions were frugal because of technological limits, future ones
-should tend to that by virtue of an awareness of what adequate solutions may be.
+negligible fraction [@IEA2024]. Demands to move resource consumption to a
+sustainable rate are well justified and supported by science [@Sills2019].
+RSEs have the opportunity to contribute to this effort by, for example,
+choosing computationally adequate approaches (e.g. recognising where a
+well-proved statistical method may do well instead of a power-hungry AI model,
+or configuring a test pipeline to minimise redundancy), and embracing data
+frugality measures (e.g. recognising sufficient resolution when sampling data
+for processing or storage). If past computational solutions were frugal because
+of technological limits, future ones should tend to that by virtue of an
+awareness of what adequate solutions may be.
 To be helpful in these regards, RSEs may need basic skills in extrapolating
 energy, storage, and computational needs, resorting to expert knowledge for the
 details, and within regulatory frameworks yet to come.
