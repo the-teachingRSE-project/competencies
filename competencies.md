@@ -535,13 +535,13 @@ as well as their own citation obligations deriving from building on previous wor
 
 Almost all research software is developed within a specific scientific domain.
 Some software may be able to cross boundaries, but the majority will have a
-home domain, with which it needs to be able to interact. The RSE needs to be
-aware of any domain specific software repositories, data sets and catalogues.
+home domain, with which it needs to be able to interact.
+The RSE then needs to be aware of any domain specific repositories that will contain
+data sets, catalogues, and other domain specific artefacts, in addition to software.
 The RSE also needs to be aware of how their software can interact with the existing
 domain-specific data repositories.
 Finally, they need to be able to assess and use software repositories -
-domain-specific or generic -
-for publishing software with the relevant metadata.
+domain-specific or generic - for publishing software with the relevant metadata.
 
 ## Communication skills
 
