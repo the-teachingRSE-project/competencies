@@ -389,9 +389,6 @@ frugality measures (e.g. recognising sufficient resolution when sampling data
 for processing or storage). If past computational solutions were frugal because
 of technological limits, future ones should tend to that by virtue of an
 awareness of what adequate solutions may be.
-To be helpful in these regards, RSEs may need basic skills in extrapolating
-energy, storage, and computational needs, resorting to expert knowledge for the
-details, and within regulatory frameworks yet to come.
 
 ### Emerging challenges
 
@@ -651,6 +648,13 @@ technological advancements. Additionally, proper \ac{SE} skills often require
 knowledge of \gls{TEAM}, and \gls{PM}. Today this means effective use of
 \acp{IDE}, \gls{static-analysis} tools, \glspl{design-pattern} and documentation
 (for oneself and others).
+
+The RSE needs to be able to choose appropriate algorithms and techniques
+(\gls{MOD} and \gls{NEW}). Apart from the technical feasability, this choice is
+also informed by the values outlined in Section @sec:values. For example, the
+RSE needs to be able to estimate resource usage (processing, memory and storage
+consumption). Resource usage has not only a financial price tag but also impacts
+environmental concerns via associated energy consumption.
 
 Software development also includes testing. This task is a manifestation of the
 \ac{SE} competencies of \gls{DOCBB} and \gls{MOD} since a model of the software
