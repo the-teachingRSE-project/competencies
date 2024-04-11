@@ -63,7 +63,7 @@ header-includes:
   - \newglossaryentry{DOCBB}{name={\DOCBB},type={skills},description={Creating documented code building blocks}}
   - \newglossaryentry{LIBS}{name={\LIBS},type={skills},description={Building distributable libraries}}
   - \newglossaryentry{SWLC}{name={\SWLC},type={skills},description={Adapting to the software life-cycle}}
-  - \newglossaryentry{SWREPOS}{name={\SWREPOS},type={skills},description={Use repositories}}
+  - \newglossaryentry{SWREPOS}{name={\SWREPOS},type={skills},description={Use software repositories}}
   - \newglossaryentry{MOD}{name={\MOD},type={skills},description={Software behaviour awareness and analysis}}
   - \newglossaryentry{NEW}{name={\NEW},type={skills},description={Curiosity}}
   - \newglossaryentry{RC}{name={\RC},type={skills},description={Understanding the research cycle}}
@@ -476,6 +476,8 @@ and be able to predict and cater to the changing needs of software as it moves t
 
 The RSE should be able to identify and use fitting public platforms (so-called software repositories or "repos")
 to share the artefacts they have created and invite the public to scrutinise them in public reviews.
+These software repositories usually provide facilities for software development, which 
+differentiate them from the later to be described domain repositories.
 
 
 <!-- Software behaviour awareness and analysis -->
