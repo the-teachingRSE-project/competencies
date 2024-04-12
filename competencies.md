@@ -470,6 +470,9 @@ what a piece of software aims to do and how to enable others to use the provided
 is primarily achieved through a "clean" implementation and enhanced by
 documentation. Documentation ranges from commenting code blocks to using
 documentation (building) tools.
+It should be written with consideration for the different audiences who may need it 
+depending on their goals and expertise, 
+for example by following the Diátaxis framework @Procida_Diataxis_documentation_framework.
 
 <!-- Building distributable libraries -->
 \skillsection{LIBS}
