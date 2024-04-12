@@ -386,8 +386,8 @@ proven statistical method may suffice in place of a power-hungry AI model,
 or configuring a test pipeline to minimise redundancy), and embracing data
 frugality measures (e.g. recognising sufficient resolution when sampling data
 for processing or storage). If past computational solutions were frugal because
-of technological limits, future ones should tend to that by virtue of an
-awareness of what adequate solutions may be.
+of technological limits, in future they should tend to that by virtue of an
+awareness of what may be adequate.
 
 ### Emerging challenges
 
