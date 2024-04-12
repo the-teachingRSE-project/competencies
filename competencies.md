@@ -463,7 +463,7 @@ systems.
 The RSE should be able to identify and use fitting public platforms (so-called software repositories or "repos")
 to share the artefacts they have created and invite the public to scrutinise them in public reviews.
 These software repositories usually provide facilities for software development, which 
-differentiate them from the later to be described domain repositories.
+differentiate them from the domain repositories described later.
 
 
 <!-- Software behaviour awareness and analysis -->
