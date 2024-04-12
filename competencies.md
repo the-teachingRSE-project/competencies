@@ -365,6 +365,30 @@ and therefore need to be able to make a value-based judgement on topics
 such as open science, path dependence, and vendor lock-in.
 
 
+### Addressing environmental sustainability within planetary limits
+
+The last two decades saw transistor technology approach the limits of attainable miniaturisation, 
+and top chip clock frequency begin to plateau [@Sutter2005].
+Nevertheless, a misleading belief in limitless growth of computing capabilities
+(storage, computing power, transfer speed) is still widespread within popular perception.
+A practical consequence of this is an ever-growing demand for resources to cover
+the expanding need of storage and processing, with no clear deceleration in
+sight (e.g. the IEA estimates a doubling in data centres energy consumption from
+2024 to 2026 [@IEA2024]). At the same time, current science is well aware of
+several planetary boundaries being trespassed due to human activities
+[@Richardson2023]. Data processing, storage and transfer account for a non
+negligible fraction [@IEA2024]. Demands to move resource consumption to a
+sustainable rate are well justified and supported by science [@Sills2019].
+
+RSEs have the opportunity to contribute to this effort by, for example,
+choosing computationally adequate approaches (e.g. recognising where a
+proven statistical method may suffice in place of a power-hungry AI model,
+or configuring a test pipeline to minimise redundancy), and embracing data
+frugality measures (e.g. recognising sufficient resolution when sampling data
+for processing or storage). If past computational solutions were frugal because
+of technological limits, in future they should tend to that by virtue of an
+awareness of what may be adequate.
+
 ### Emerging challenges
 
 RSEs often operate at the cutting edge of technological development
@@ -611,6 +635,13 @@ technological advancements. Additionally, proper \ac{SE} skills often require
 knowledge of \gls{TEAM}, and \gls{PM}. Today this means effective use of
 \acp{IDE}, \gls{static-analysis} tools, \glspl{design-pattern} and documentation
 (for oneself and others).
+
+The RSE needs to be able to choose appropriate algorithms and techniques
+(\gls{MOD} and \gls{NEW}). Apart from the technical feasibility, this choice is
+also informed by the values outlined in Section @sec:values. For example, the
+RSE needs to be able to estimate resource usage (processing, memory and storage
+consumption). Resource usage has not only a direct financial price tag but also
+environmental costs via associated energy consumption.
 
 Software development also includes testing. This task is a manifestation of the
 \ac{SE} competencies of \gls{DOCBB} and \gls{MOD} since a model of the software
@@ -1289,6 +1320,7 @@ Heidi Seibold, Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele,
 Jan Linxweiler, Jean-Noël Grad, and Samantha Wittke contributed the initial draft.
 Florian Goth supervised the project and did the project administration.
 Jean-Noël Grad conceived and implemented the software tooling.
+Michele Martone wrote the first draft of the environmental sustainability section.
 Everybody contributed to the final review and editing.
 
 \appendix
