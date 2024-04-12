@@ -523,6 +523,11 @@ might be crucial to validate its fitness for purpose or to discredit it.
 Code that incorporates research-domain specific knowledge
 needs to be understood at a very detailed level
 and its re-use documented to meet standards of good research practice.
+Not only the technical compatibility needs to be understood and documented
+(programming languages, system interoperability), but also the underlying
+models and computational methods need to fit the purpose; this question
+often requires wider research skills and deeper understanding of the
+research domain at hand.
 
 <!-- Software publication -->
 \skillsection{SP}
