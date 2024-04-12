@@ -367,9 +367,8 @@ such as open science, path dependence, and vendor lock-in.
 
 ### Addressing environmental sustainability within planetary limits
 
-The last two decades saw the limits in the attainable miniaturisation of
-transistor technology approaching, and top chip clock frequency mostly
-settled [@Sutter2005].
+The last two decades saw transistor technology approach the limits of attainable miniaturisation, 
+and top chip clock frequency begin to plateau [@Sutter2005].
 Nevertheless, popular perception remains fairly unaware of
 that, and a misleading belief in limitless growth of computing capabilities
 (storage, computing power, transfer speed) is still widespread.
