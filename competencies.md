@@ -379,6 +379,7 @@ several planetary boundaries being trespassed due to human activities
 [@Richardson2023]. Data processing, storage and transfer account for a non
 negligible fraction [@IEA2024]. Demands to move resource consumption to a
 sustainable rate are well justified and supported by science [@Sills2019].
+
 RSEs have the opportunity to contribute to this effort by, for example,
 choosing computationally adequate approaches (e.g. recognising where a
 well-proved statistical method may do well instead of a power-hungry AI model,
