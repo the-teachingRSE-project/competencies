@@ -382,7 +382,7 @@ sustainable rate are well justified and supported by science [@Sills2019].
 
 RSEs have the opportunity to contribute to this effort by, for example,
 choosing computationally adequate approaches (e.g. recognising where a
-well-proved statistical method may do well instead of a power-hungry AI model,
+proven statistical method may suffice in place of a power-hungry AI model,
 or configuring a test pipeline to minimise redundancy), and embracing data
 frugality measures (e.g. recognising sufficient resolution when sampling data
 for processing or storage). If past computational solutions were frugal because
