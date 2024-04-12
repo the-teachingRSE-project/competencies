@@ -63,7 +63,7 @@ header-includes:
   - \newglossaryentry{DOCBB}{name={\DOCBB},type={skills},description={Creating documented code building blocks}}
   - \newglossaryentry{LIBS}{name={\LIBS},type={skills},description={Building distributable libraries}}
   - \newglossaryentry{SWLC}{name={\SWLC},type={skills},description={Adapting to the software life-cycle}}
-  - \newglossaryentry{SWREPOS}{name={\SWREPOS},type={skills},description={Use repositories}}
+  - \newglossaryentry{SWREPOS}{name={\SWREPOS},type={skills},description={Use software repositories}}
   - \newglossaryentry{MOD}{name={\MOD},type={skills},description={Software behaviour awareness and analysis}}
   - \newglossaryentry{NEW}{name={\NEW},type={skills},description={Curiosity}}
   - \newglossaryentry{RC}{name={\RC},type={skills},description={Understanding the research cycle}}
@@ -462,6 +462,8 @@ systems.
 
 The RSE should be able to identify and use fitting public platforms (so-called software repositories or "repos")
 to share the artefacts they have created and invite the public to scrutinise them in public reviews.
+These software repositories usually provide facilities for software development, which 
+differentiate them from the domain repositories described later.
 
 
 <!-- Software behaviour awareness and analysis -->
@@ -533,13 +535,13 @@ as well as their own citation obligations deriving from building on previous wor
 
 Almost all research software is developed within a specific scientific domain.
 Some software may be able to cross boundaries, but the majority will have a
-home domain, with which it needs to be able to interact. The RSE needs to be
-aware of any domain specific software repositories, data sets and catalogues.
+home domain, with which it needs to be able to interact.
+The RSE then needs to be aware of any domain specific repositories that will contain
+data sets, catalogues, and other domain specific artefacts, in addition to software.
 The RSE also needs to be aware of how their software can interact with the existing
 domain-specific data repositories.
 Finally, they need to be able to assess and use software repositories -
-domain-specific or generic -
-for publishing software with the relevant metadata.
+domain-specific or generic - for publishing software with the relevant metadata.
 
 ## Communication skills
 
