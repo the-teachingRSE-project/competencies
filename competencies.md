@@ -18,12 +18,14 @@ author:
   - Dominic Kempf
   - Anna-Lena Lamprecht
   - Jan Linxweiler
+  - Frank Löffler
+  - Michele Martone
   - Moritz Schwarzmeier
   - Heidi Seibold
   - Jan Philipp Thiele
   - Harald von Waldow
   - Samantha Wittke
-  - Michele Martone
+
 output:
   pdf_document:
     citation_package: biblatex
