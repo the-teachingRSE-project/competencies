@@ -372,7 +372,7 @@ and top chip clock frequency begin to plateau [@Sutter2005].
 Nevertheless, a misleading belief in limitless growth of computing capabilities
 (storage, computing power, transfer speed) is still widespread within popular perception.
 A practical consequence of this is an ever-growing demand for resources to cover
-the expanded need of storage and processing, with no clear deceleration in
+the expanding need of storage and processing, with no clear deceleration in
 sight (e.g. the IEA estimates a doubling in data centres energy consumption from
 2024 to 2026 [@IEA2024]). At the same time, current science is well aware of
 several planetary boundaries being trespassed due to human activities
