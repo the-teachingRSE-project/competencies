@@ -530,13 +530,24 @@ good research, including publications, reviews and reproducibility.
 <!-- Software re-use -->
 \skillsection{SRU}
 
-One goal of \ac{FAIR} software is to avoid unnecessary duplication of work by reusing
-existing work instead. To (re-) use software, researchers have to be able to
-find it and then easily evaluate if the software actually suits their needs.
-Apart from functionality, the integration with other software,
-expected sustainability, and extensibility also have to be part of this evaluation.
-Additional software citation and metadata skills are necessary to provide evidence
-of software re-use in the scientific record.
+The re-use of existing assets such as libraries and pieces of code
+to improve efficiency and quality
+belongs to the fundamentals of software construction [@swebok_2014].
+To discover software, RSEs rely on domain-specific knowledge and
+domain repositories, as well as research skills, discovering related
+software via software citations and metadata.
+To evaluate whether the artifacts to be re-used suit their needs,
+RSEs often need to consider the scientific context of their origin.
+For example, a paper that references the code under consideration
+might be crucial to validate its fitness for purpose or to discredit it.
+Code that incorporates research-domain specific knowledge
+needs to be understood at a very detailed level
+and its re-use documented to meet standards of good research practice.
+Not only the technical compatibility needs to be understood and documented
+(programming languages, system interoperability), but also the underlying
+models and computational methods need to fit the purpose; this question
+often requires wider research skills and deeper understanding of the
+research domain at hand.
 
 <!-- Software publication -->
 \skillsection{SP}
