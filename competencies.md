@@ -369,9 +369,8 @@ such as open science, path dependence, and vendor lock-in.
 
 The last two decades saw transistor technology approach the limits of attainable miniaturisation, 
 and top chip clock frequency begin to plateau [@Sutter2005].
-Nevertheless, popular perception remains fairly unaware of
-that, and a misleading belief in limitless growth of computing capabilities
-(storage, computing power, transfer speed) is still widespread.
+Nevertheless, a misleading belief in limitless growth of computing capabilities
+(storage, computing power, transfer speed) is still widespread within popular perception.
 A practical consequence of this is an ever-growing demand for resources to cover
 the expanded need of storage and processing, with no clear deceleration in
 sight (e.g. the IEA estimates a doubling in data centres energy consumption from
