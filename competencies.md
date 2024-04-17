@@ -389,7 +389,9 @@ or configuring a test pipeline to minimise redundancy), and embracing data
 frugality measures (e.g. recognising sufficient resolution when sampling data
 for processing or storage). If past computational solutions were frugal because
 of technological limits, in future they should tend to that by virtue of an
-awareness of what may be adequate.
+awareness of what may be adequate. The \ac{GREENER} principles [@Lannelongue2023] suggest how
+these concerns can be addressed and how research computing can become more environmentally
+sustainable.
 
 ### Emerging challenges
 
