@@ -322,6 +322,12 @@ Further values loosely based on that code include the obligations
 + to treat colleagues and collaborators with respect and work towards a fair and inclusive environment, and
 + to promote these values whenever possible and make sure that they are passed on to new practitioners.
 
+Computers are universal machines. The RSE learns how to operate and manipulate
+them. Like any scientific product they are an expression of our view of the
+world. The RSE needs to critically evaluate the use of these tools: Is the
+model fit for purpose? Are the results consistent with theory or observations?
+Does the tool allow reasoning?
+
 RSEs often assume a multifaceted role at the junction of research, \ac{SE} and data management.
 They work with a varying and diverse set of colleagues that might include other developers,
 support unit staff and academics of different fields and all career stages.
