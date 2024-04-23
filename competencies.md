@@ -657,9 +657,9 @@ and behavioural aspects of software on a more general level than
 through the code itself and often even before a first line of code is written. 
 A set of tools and diagrams for effective and standardised communication 
 about software on a meta level is provided by the \acp{UML}.
-As a modelling tool it is directly related to \gls{MOD}.
-Additionally, it can be applied in various stages of the \gls{SWLC} 
-especially in the early stages as a first documentation of the planned
+As a modelling tool, it is directly related to \gls{MOD}.
+Additionally, it can be applied in various stages of the \gls{SWLC}, 
+especially in the early stages, as a first documentation of the planned
 modular structure to facilitate 
 \gls{DOCBB}, \gls{USERS}, \gls{PM} and \gls{TEAM}.
 
