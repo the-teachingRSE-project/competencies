@@ -583,7 +583,7 @@ domain-specific data repositories.
 Finally, they need to be able to assess and use software repositories -
 domain-specific or generic - for publishing software with the relevant metadata.
 
-## Communication skills
+## Communication and Management skills
 
 RSEs do not work in isolation.
 They are embedded in a research group or work within a team of RSEs supporting particular research projects.
