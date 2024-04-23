@@ -653,11 +653,11 @@ knowledge of \gls{TEAM}, and \gls{PM}. Today this means effective use of
 (for oneself and others).
 
 The RSE needs to be able to formulate and discuss structural 
-and behavioural aspects of softare on a more general level than 
+and behavioural aspects of software on a more general level than 
 through the code itself and often even before a first line of code is written. 
 A set of tools and diagrams for effective and standardised communication 
-about software on a meta level is provided by the Unified Modeling Language (UML).
-As a modeling tool it is directly related to \gls{MOD}.
+about software on a meta level is provided by the \acp{UML}.
+As a modelling tool it is directly related to \gls{MOD}.
 Additionally, it can be applied in various stages of the \gls{SWLC} 
 especially in the early stages as a first documentation of the planned
 modular structure to facilitate 
