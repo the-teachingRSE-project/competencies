@@ -503,6 +503,10 @@ form a mental model of a piece of software in a specific environment (program co
 Using that, an RSE should be able to make predictions about a software's behaviour.
 This is a required skill for common tasks such as debugging, profiling, optimising, designing good
 tests, or predicting user interaction.
+Many tools exist to help with understanding and evaluating existing code,
+especially from a structural point of view. An RSE should be familiar with 
+the, often static, code analysis tools for their specific environment 
+and should understand their output and its implications.
 An important facet of this capability relates to information security.
 RSEs need to consider the safety and integrity of personal data and other sensitive information
 and make sure that they do not negatively impact the integrity of their institution's network.
