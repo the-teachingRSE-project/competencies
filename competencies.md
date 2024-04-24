@@ -63,7 +63,7 @@ header-includes:
   - \makeglossaries
   - \input{glossary.tex}
   - \newglossaryentry{DOCBB}{name={\DOCBB},type={skills},description={Creating documented code building blocks}}
-  - \newglossaryentry{LIBS}{name={\LIBS},type={skills},description={Building distributable libraries}}
+  - \newglossaryentry{LIBS}{name={\LIBS},type={skills},description={Building distributable libraries and frameworks}}
   - \newglossaryentry{SWLC}{name={\SWLC},type={skills},description={Adapting to the software life-cycle}}
   - \newglossaryentry{SWREPOS}{name={\SWREPOS},type={skills},description={Use software repositories}}
   - \newglossaryentry{MOD}{name={\MOD},type={skills},description={Software behaviour awareness and analysis}}
@@ -484,6 +484,9 @@ specific distribution platforms. This almost always encompasses
 handling/documenting dependencies with other packages/libraries. It sometimes
 requires knowledge of using build systems to enable interoperability with other
 systems.
+In terms of usability and needs of the user community the RSE should be able
+to decide whether a library or a framework is the right type of program
+to build and distribute.
 
 
 <!-- Use repositories -->
