@@ -389,7 +389,9 @@ or configuring a test pipeline to minimise redundancy), and embracing data
 frugality measures (e.g. recognising sufficient resolution when sampling data
 for processing or storage). If past computational solutions were frugal because
 of technological limits, in future they should tend to that by virtue of an
-awareness of what may be adequate.
+awareness of what may be adequate. The \ac{GREENER} principles [@Lannelongue2023] suggest how
+these concerns can be addressed and how research computing can become more environmentally
+sustainable.
 
 ### Emerging challenges
 
@@ -656,7 +658,7 @@ The RSE needs to be able to choose appropriate algorithms and techniques
 (\gls{MOD} and \gls{NEW}). Apart from the technical feasibility, this choice is
 also informed by the values outlined in Section @sec:values. For example, the
 RSE needs to be able to estimate resource usage (processing, memory and storage
-consumption). Resource usage has not only a direct financial price tag but also
+consumption, e.g. @Lannelongue2021). Resource usage has not only a direct financial price tag but also
 environmental costs via associated energy consumption.
 
 Software development also includes testing. This task is a manifestation of the
