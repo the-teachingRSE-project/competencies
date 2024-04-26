@@ -531,7 +531,7 @@ that involves many other parties in and outside their domain,
 and also that their software can be utilised at different stages 
 of the research cycle by different people.
 They also know that the examination of ethical concerns 
-can be an important step in the life-cycle of a specific project, 
+can be an important step in the life cycle of a specific project, 
 to ensure integrity of the research performed therein.
 Like other researchers, RSEs are open to discussions and arguments beyond
 their own expertise and appreciate the underlying principles of
