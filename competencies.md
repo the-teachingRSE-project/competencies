@@ -64,7 +64,7 @@ header-includes:
   - \input{glossary.tex}
   - \newglossaryentry{DOCBB}{name={\DOCBB},type={skills},description={Creating documented code building blocks}}
   - \newglossaryentry{LIBS}{name={\LIBS},type={skills},description={Building distributable libraries}}
-  - \newglossaryentry{SWLC}{name={\SWLC},type={skills},description={Adapting to the software life-cycle}}
+  - \newglossaryentry{SWLC}{name={\SWLC},type={skills},description={Adapting to the software life cycle}}
   - \newglossaryentry{SWREPOS}{name={\SWREPOS},type={skills},description={Use software repositories}}
   - \newglossaryentry{MOD}{name={\MOD},type={skills},description={Software behaviour awareness and analysis}}
   - \newglossaryentry{NEW}{name={\NEW},type={skills},description={Curiosity}}
@@ -113,7 +113,7 @@ An appendix details how existing curricula fit into this framework.
 
 # Introduction {#sec:introduction}
 
-Computers and software have played a key role in the research life-cycle for many
+Computers and software have played a key role in the research life cycle for many
 decades, while they are now vital elements of the research process across almost all domains.
 They enable researchers to collect and process ever-increasing amounts of data,
 simulate a wide range of physical phenomena across previously unexplored scales of the universe,
@@ -443,23 +443,23 @@ emphasis on aspects related to achieving good scientific practice.
 For example, RSEs need to know how to make research software adhere to the 
 \ac{FAIR} principles, and how to achieve different levels of research
 software reusability @ChueHong2014. To reflect this, the technical skills
-listed below complement competencies regarding the standard life-cycle of 
+listed below complement competencies regarding the standard life cycle of
 software development with RSE-specific focus skills. 
 
 
-<!-- Adapting to the software life-cycle -->
+<!-- Adapting to the software life cycle -->
 \skillsection{SWLC}
 
-The traditional software development life-cycle defines the stages that form the process of building a piece of software.
+The traditional software development life cycle defines the stages that form the process of building a piece of software.
 Initial development generally involves an analytic process where needs and ideas are gathered and analysed (requirements engineering),
 followed by a formulation of a plan to fulfil them (design) that is finally turned into running code (implementation).
 This is accompanied by different measures of quality control (e.g., reviews, testing), validating and verifying 
 that things work as expected and that they continue to do when development progresses further. Depending on the software project, this can mean a simple "Think-before-you-do", or more elaborate and formal processes.
 Often the development cycles are executed iteratively and incrementally.
-The life-cycle further includes periods of deployment, maintenance and further development (software evolution), 
+The life cycle further includes periods of deployment, maintenance and further development (software evolution),
 as well as software retirement.
-Additionally, the research software life-cycle extends the traditional life-cycle
-with \gls{software-publication}. The RSE should be aware of this life-cycle
+Additionally, the research software life cycle extends the traditional life cycle
+with \gls{software-publication}. The RSE should be aware of this life cycle
 and be able to predict and cater to the changing needs of a software project as it moves through the stages.
 
 
@@ -713,10 +713,10 @@ competencies. We envision our RSE graduates to be a part of a strong network of
 other RSEs, tool-related communities, and the classical domain communities,
 making them more effective at supporting research. These networks are a lifelong
 manifestation where RSEs work to provide an inclusive environment for their
-peers and provide opportunities for life-long learning.
+peers and provide opportunities for life long learning.
 
 RSEs are also mentoring colleagues. This necessitates giving good advice that
-fits to a project's stage in its life-cycle, thereby requiring knowledge of
+fits to a project's stage in its life cycle, thereby requiring knowledge of
 (\gls{SWLC}), and its context in its research domain and thus (\gls{RC}).
 Research software often starts out as a tool to answer a personal research
 question and becomes more important when other researchers rely on it. Some
@@ -724,7 +724,7 @@ research software might even be used to deal with critical questions such as
 weather forecasting or medical diagnosis. A classification of software is commonly used
 to formalise the process of giving good advice [@Wang2012;
 @Schlauch2018b] where research software can move from one class to another
-during its life-cycle. @Schlauch2018b classify applications based on their scope
+during its life cycle. @Schlauch2018b classify applications based on their scope
 and criticality and provide \ac{SE} recommendations. The RSE needs to be able to
 identify the application class they are dealing with and apply the respective
 RSE practices.
@@ -751,7 +751,7 @@ A story-like example of an individual through the hierarchies can be found in @s
 
 | Competency | Junior RSE                                                                                                                    | Senior RSE                                                                                                                            | Principal RSE                                                                                                                                                                       |
 | ---        | ----------                                                                                                                    | ----------                                                                                                                            | ----------                                                                                                                                                                          |
-| \gls{SWLC}       | Should be aware of the software life-cycle.                                                                                   | Should know where in the life-cycle their project is and which decisions are likely to lead to technical debt.                        | Should know how to manage and steer development/project resources accordingly. Should also have an understanding of the potential consequences of key project management decisions. |
+| \gls{SWLC}       | Should be aware of the software life cycle.                                                                                   | Should know where in the life cycle their project is and which decisions are likely to lead to technical debt.                        | Should know how to manage and steer development/project resources accordingly. Should also have an understanding of the potential consequences of key project management decisions. |
 | \gls{DOCBB}      | Should be able to write reusable building blocks.                                                                             | Same as junior, but the quality should set the standard for the project, while following current best practices.                      | Should know the current best practices and point their staff to the right resources.                                                                                                |
 | \gls{LIBS}       | Should be able to use package distribution platforms.                                                                         | Same as junior, but should also be familiar with current best practices for building and deploying packages.                          | Should ensure that their project is available via an up-to-date and secure distribution platform.                                                                                   |
 | \gls{SWREPOS}    | Should seamlessly interact with the repository of their project.                                                              | Should be well-versed in the intricacies of a repository, and probably interact with repositories of multiple projects.               | Should promote the use of repositories and be able to convey best practices of sharing and reviewing to junior and senior RSEs.                                                                              |
@@ -764,7 +764,7 @@ Table: Levels of software eng. skills expected per RSE career stage. {#tbl:comp-
 | Competency | Junior RSE                                                                                                                    | Senior RSE                                                                                                                            | Principal RSE                                                                                                                                                                       |
 | ---        | ----------                                                                                                                    | ----------                                                                                                                            | ----------                                                                                                                                                                          |
 | \gls{NEW}        | Should have some curiosity to fit into research teams.                                                                        | Same as junior, but a curiosity to enhance the code base is required.                                                                 | Should have curiosity to know in which direction to steer the project.                                                                                                              |
-| \gls{RC}         | Should be aware of the research life-cycle.                                                                                   | Should know the position of the project in the research life-cycle.                                                                   | Should know what is necessary for the project to fit into its position in the research life-cycle.                                                                                  |
+| \gls{RC}         | Should be aware of the research life cycle.                                                                                   | Should know the position of the project in the research life cycle.                                                                   | Should know what is necessary for the project to fit into its position in the research life cycle.                                                                                  |
 | \gls{SRU}        | Should be aware of software reusability tools.                                                                                | Should be able to search with software reusability tools.                                                                             | Should be able to effectively search with \gls{SRU} tools and to evaluate and perform the integration of a library into the project.                                                      |
 | \gls{SP}         | Should be aware that software publication needs to consider issues of intellectual property.                                  | Should be able to correctly publish software in simple cases and to identify cases where professional legal advice is needed.         | Same as senior, plus the ability to take the future publication of software into account when initiating and guiding larger software collaboration projects.                        |
 | \gls{DOMREP}     | The RSE should be able to interact with the domain repository.                                                                | Same as junior RSE.                                                                                                                   | Same as junior, and should know about how it fits into workflows surrounding these domain repositories.                                                                             |
@@ -928,11 +928,11 @@ The current situation may differ.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \gls{SWLC}&
-    Manages the complete life-cycle, bus factor equal to 1.&
-    The team supports parts of the software life-cycle, but with low bus factor.&
-    The team infrastructure and tooling supports the life-cycle and sustainability.&
+    Manages the complete life cycle, bus factor equal to 1.&
+    The team supports parts of the software life cycle, but with low bus factor.&
+    The team infrastructure and tooling supports the life cycle and sustainability.&
     The bus factor may still be low in parts of the code.
-      Need to think about coherent life-cycle management across the team - generally
+      Need to think about coherent life cycle management across the team - generally
       a key area of expertise for an RSE team.&
     Should support with training. Organisation may also provide site
       licences for, e.g., management tools.
@@ -996,7 +996,7 @@ The current situation may differ.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \gls{RC}&
-    Is familiar with the research life-cycle in their domain,
+    Is familiar with the research life cycle in their domain,
       especially when embedded in a research team.&
     Is familiar with the \gls{RC},
       although they may not have domain knowledge, which a group can provide.&
@@ -1004,7 +1004,7 @@ The current situation may differ.
     One or more members of the team are strongly aware of the
       \gls{RC}.&
     Should provide extensive infrastructure to manage
-      the research life-cycle, supporting researchers/RSEs.
+      the research life cycle, supporting researchers/RSEs.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \gls{SRU}&
@@ -1170,7 +1170,7 @@ They are skilled in cleaning data and/or running data analyses and can help rese
 in setting up their analysis pipeline and/or \ac{RDM} solutions.
 When the field requires research on sensitive data or information, e.g., patient information in medicine,
 this RSE should have knowledge about secure transfer methods and/or ways to anonymise the data.
-As part of \ac{RDM}, this RSE profile is able to support all stages of the research data life-cycle [@Nieva2020], with synchronous data management processes.
+As part of \ac{RDM}, this RSE profile is able to support all stages of the research data life cycle [@Nieva2020], with synchronous data management processes.
 Those processes implement established best practices for planning and documenting of data acquisition in a \ac{DMP}, as well as for management,
 storage, and preservation of data, and publication and sharing of data in repositories according to the \ac{FAIR} principles [@FAIR].
 
