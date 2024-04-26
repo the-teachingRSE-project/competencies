@@ -323,13 +323,13 @@ Further values loosely based on that code include the obligations
 + to promote these values whenever possible and make sure that they are passed on to new practitioners.
 
 Computers are capable of performing arithmetic calculations faster than people.
-This induces increasingly decision makers into employing computers into tasks until then assigned to people, involving human judgement and reasoning.
-Most often, the rationale behind that is cost and perceived reliability of the machine.
-RSEs are conscious that software is merely a projection of a mathematical-logical model of reality, namely an approximation.
-In a context of increased machine-assisted decision making (by data procuring, processing, evaluation), being able to assess the quality of an outcome requires also the ability to recognize the possible inadequacy of it, which might be caused by a software bug or or a failure in the underlying model.
+This induces increasingly entrusting to computers tasks involving human judgement and reasoning, which until then were assigned to people.
+Most often, the rationale behind that are cost reasons and the assessment of sufficient reliability of the machine.
+Now, RSEs are conscious that software is merely a projection of a mathematical-logical model of reality, namely an approximation.
+And in a context of increased machine-assisted decision making (by data acquisition, processing, evaluation), being able to assess the quality of a complex computation requires in the first place also the ability to recognize the possible inadequacy of it, for the cases in which it might be caused by a software bug or or a failure in the underlying model.
 In the best case, an evident discrepancy, not justifiable by similar inputs, might be recognized by analogy and familiarity.
-But in strongly non-linear problems -- think of game theory applied to very large scale scenarios -- the methodology to assess the soundness, or even the plausibility of a solution might be simply absent.
-Caution, a culture of critical thinking, and the care of "putting human judgement in the loop" can mitigate such scenarios.
+In strongly non-linear problems -- think of game theory applied in research on large-scale scenarios with political choices involved -- the methodology to assess the soundness, or even the plausibility of a solution might be simply absent.
+For these reasons caution, a culture of critical thinking, and the care of "putting human judgement in the loop" (in practical means, increasing the opportunities for making results explainable) can mitigate problems.
 
 RSEs often assume a multifaceted role at the junction of research, \ac{SE} and data management.
 They work with a varying and diverse set of colleagues that might include other developers,
