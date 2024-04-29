@@ -104,7 +104,10 @@ Most RSE roles inhabit the space between these two extremes. Therefore, providin
 comprehensive definition of what an RSE does
 and what experience, skills and competencies are required to become one is challenging.
 In this community paper we define the broad notion of what an RSE is, explore the different types of work they undertake, and
-define a list of fundamental competencies as well as values that define the general profile of an RSE.
+define a list of foundational competencies as well as values that define the general profile of an RSE.
+We envision further research and training to build upon this foundation of skills,
+such that future graduates and practitioners will have a larger set of skills 
+than outlined here.
 On this basis, we elaborate on the progression of these skills along different
 dimensions, looking at specific types of RSE roles, proposing recommendations for organisations, and giving examples of future specialisations.
 An appendix details how existing curricula fit into this framework.
