@@ -526,7 +526,7 @@ One of the crucial skills of RSEs is their mental proximity to research.
 They embrace being part of a larger community which,
 despite friendly competition, shares the common goal of gaining knowledge
 for its own sake and not just for personal or commercial gain.
-Thereby they know that they are part of a bigger cycle 
+Thereby they know that they are part of a bigger undertaking 
 that involves many other parties in and outside their domain, 
 and also that their software can be utilised at different stages 
 of the research cycle by different people.
