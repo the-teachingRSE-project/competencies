@@ -658,6 +658,17 @@ knowledge of \gls{TEAM}, and \gls{PM}. Today this means effective use of
 \acp{IDE}, \gls{static-analysis} tools, \glspl{design-pattern} and documentation
 (for oneself and others).
 
+The RSE needs to be able to formulate and discuss structural 
+and behavioural aspects of software on a more general level than 
+through the code itself and often even before a first line of code is written. 
+A set of tools and diagrams for effective and standardised communication 
+about software on a meta level is provided by the \acp{UML}.
+As a modelling tool, it is directly related to \gls{MOD}.
+Additionally, it can be applied in various stages of the \gls{SWLC}, 
+especially in the early stages, as a first documentation of the planned
+modular structure to facilitate 
+\gls{DOCBB}, \gls{USERS}, \gls{PM} and \gls{TEAM}.
+
 The RSE needs to be able to choose appropriate algorithms and techniques
 (\gls{MOD} and \gls{NEW}). Apart from the technical feasibility, this choice is
 also informed by the values outlined in Section @sec:values. For example, the
