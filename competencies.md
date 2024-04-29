@@ -157,7 +157,7 @@ RSEs share a set of core skills that are required to write software, understand
 the research environment, and ensure that they produce sustainable, maintainable
 code that supports reproducible research outputs, following the \ac{FAIR} principles [@FAIR4RS].
 
-This community paper defines a set of core values and competencies,
+This community paper defines a set of core values and foundational competencies,
 agnostic of specific technical capabilities or research domains,
 which an RSE should acquire during training and formal education.
 By defining these competencies,
@@ -167,9 +167,15 @@ thus helping to provide a positive impact on
 research outputs and, ultimately, society as a whole.
 These competencies draw upon skills from traditional SE practice,
 established research culture, and the commitment to being part of a team.
-While there is anecdotal evidence that academic SE practitioners
+However, we see this set of skills as a foundation to build upon. 
+We envision that through specialised training the set of skills 
+of graduate RSEs and domain researchers will grow. 
+This is underlined by a growing interest to perform RSE research, 
+i.e. research into methods and tools more catered to the unique 
+challenges that research software provides.
+<!-- While there is anecdotal evidence that academic SE practitioners
 would have chosen different competencies, we will argue that this trifecta of skills
-is exactly what is needed for modern, software-enabled research.
+is exactly what is needed for modern, software-enabled research. -->
 
 While this community paper is based on workshop discussions that were attended largely by Research Software Engineers (deRSE23 in Paderborn, un-deRSE23 in Jena, Germany),
 we believe that the competencies formulated here can offer far-reaching
