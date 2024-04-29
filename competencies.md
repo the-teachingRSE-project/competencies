@@ -482,8 +482,8 @@ for example by following the Diátaxis framework @Procida_Diataxis_documentation
 The RSE should be able to distribute their code on their domain/language
 specific distribution platforms. This almost always encompasses
 handling/documenting dependencies with other packages/libraries. It sometimes
-requires knowledge of using build systems to enable interoperability with other
-systems.
+requires knowledge of using build 
+or package management systems to enable interoperability with other projects.
 In terms of usability and needs of the user community the RSE should be able
 to decide whether a library or a framework is the right type of program
 to build and distribute.
