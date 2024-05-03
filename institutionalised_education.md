@@ -77,7 +77,7 @@ the terminology that each audience will be familiar with. In team projects, the 
 often consist of members originating from different home domains, which, if the expectations are
 not managed correctly, can lead to load imbalances and friction. Possible remedies include a) for
 identifying the level and needs of the audience, make pre-course surveys, and b) for team projects,
-let teams self-organize into cross-functional teams that fulfil all expectations, identifying
+let teams self-organise into cross-functional teams that fulfil all expectations, identifying
 distinct roles and deliverables; let each member take ownership and leadership of their work packages.
 Finally, a challenge we identified was transfer of knowledge in teams, transitioning from hierarchical
 mentor-mentee structures to structures revolving around teams where members teach and learn from each other.
