@@ -95,6 +95,7 @@ HTC
 IDEs
 IEA
 Ing
+interdisciplinarity
 ISCB
 iteratively
 Jena
@@ -112,6 +113,8 @@ LRZIntroCpp
 LRZModernCpp
 matplotlib
 MATSE
+mentee
+mentees
 MOOCs
 MPI
 multicore
@@ -130,6 +133,7 @@ pdf
 PerMedCoE
 PhDs
 PRACE
+pre-course
 pre-recorded
 pre-requisite
 proto
@@ -141,6 +145,7 @@ reproducibility
 ReproHack
 researchology
 researchonomy
+retromat
 reusability
 RSE
 RSE's
@@ -168,4 +173,5 @@ un-deRSE
 US-RSE
 WIP
 Wissenschaft
+Würzburg
 Zenodo
