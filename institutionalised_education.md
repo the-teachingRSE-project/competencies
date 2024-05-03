@@ -66,6 +66,25 @@ The community discussion shed light on the issues our trainers are faced with no
 - Lack of 'Train the Trainer' opportunities makes self-improvement difficult.
 - Get teaching effort attributed as further qualification that counts as a professional qualification.
 
+Participants of the deRSE24 conference in Würzburg discussed current challenges and lessons learned
+from teaching RSE topics. In this discussion, teaching activities spanned from teaching university
+courses, to daily mentoring junior professionals.
+Key challenges that arose revolved around communication and interdisciplinarity.
+
+As RSE students and mentees typically come from various home domains, it is
+often challenging to estimate the level of previous knowledge, the needed learning outcomes, and
+the terminology that each audience will be familiar with. In team projects, the teams themselves
+often consist of members originating from different home domains, which, if the expectations are
+not managed correctly, can lead to load imbalances and friction. Possible remedies include a) for
+identifying the level and needs of the audience, make pre-course surveys, and b) for team projects,
+let teams sel-organize into cross-functional teams that fulfill all expectations, identifying
+distinct roles and deliverables; let each member take ownership and leadership of their work packages.
+Finally, a challenge we identified was transfer of knowledge in teams, transitioning from hierarchical
+mentor-mentee structures to structures revolving around teams where members teach and learn from each other.
+For this, useful strategies include peer-reviewing of contributions, joint meetings with both
+senior and junior team members involved, as well as further mingling activities, as presented, for example,
+in [retromat](https://retromat.org/).
+
 ### What mindset makes up a good teacher
 Irrespective of where people come from they need to have the proper mindset to properly foster RSEs-to-be.
 The basis for our proposed mindset is the conviction that research software engineering (RSEing) is an important topic that supports good scientific practice and reproducible research as well as the motivation to share their experience and skills with prospective RSEs.
