@@ -322,6 +322,16 @@ Further values loosely based on that code include the obligations
 + to treat colleagues and collaborators with respect and work towards a fair and inclusive environment, and
 + to promote these values whenever possible and make sure that they are passed on to new practitioners.
 
+The availability of computers has put a tremendously powerful tool at the disposal of the scientific community,
+making scientific simulation even a fourth pillar of science,
+With the possibility of performing a sheer unlimited number of simulations the importance of validation
+becomes far more important in order to stimulate sound decision-making.
+The RSE learns how to operate and manipulate computers and hence has a special obligation
+to critically evaluate their use and their outputs:
+Is the model fit for purpose? Are the results consistent with theory or observations?
+Can the amount of trust I put into a result be reasonably explained?
+For these reasons, caution, a culture of critical thinking, and care of "putting human judgement in the loop" (in practical means, increasing the opportunities for making results explainable) can mitigate problems.
+
 RSEs often assume a multifaceted role at the junction of research, \ac{SE} and data management.
 They work with a varying and diverse set of colleagues that might include other developers,
 support unit staff and academics of different fields and all career stages.
