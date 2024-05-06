@@ -328,7 +328,7 @@ With the possibility of performing a virtually unlimited number of simulations t
 becomes far more important in order to stimulate sound decision-making.
 The RSE learns how to operate and manipulate computers and hence has a special obligation
 to critically evaluate their use and their outputs:
-Is the model fit for purpose? Are the results consistent with theory or observations?
+Is the model fit for purpose? Are the results consistent with theory and/or observations?
 Can the amount of trust I put into a result be reasonably explained?
 For these reasons, caution, a culture of critical thinking, and care of "putting human judgement in the loop" (in practical means, increasing the opportunities for making results explainable) can mitigate problems.
 
