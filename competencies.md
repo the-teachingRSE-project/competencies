@@ -730,14 +730,17 @@ identify the application class they are dealing with and apply the respective
 RSE practices.
 
 Often RSEs, especially in RSE groups, will develop applications 
-and services with different variants for different research purposes and groups. 
-An example of this would be the `Mobile App Development Service' 
-of the RSE group of the University of Manchester [@UoMMobileApp],
-where the core components are shared between the various actual applications.
+and services with different variants for different research purposes and groups.
+Additionally, many research groups develop their own codes for specific
+research purposes, e.g. simulation codes. 
+A lot of their development of new features is project-based, 
+often through PhD projects, 
+which grow into their own variant with re-integration planned as a final step.
 To reduce the chance of variant source code diverging and producing 
 a large integration overhead, \gls{PM} skills and methods are needed.
 More specifically, software product line management methods have been 
 developed for this exact problem and purpose.
+
 
 # How much do different people need to know? {#sec:how-much-to-know}
 
