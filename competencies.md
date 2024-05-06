@@ -324,7 +324,7 @@ Further values loosely based on that code include the obligations
 
 The availability of computers has put a tremendously powerful tool at the disposal of the scientific community,
 making scientific simulation even a fourth pillar of science,
-With the possibility of performing a sheer unlimited number of simulations the importance of validation
+With the possibility of performing a virtually unlimited number of simulations the importance of validation
 becomes far more important in order to stimulate sound decision-making.
 The RSE learns how to operate and manipulate computers and hence has a special obligation
 to critically evaluate their use and their outputs:
