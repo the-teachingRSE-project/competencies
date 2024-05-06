@@ -630,6 +630,8 @@ The RSE should have knowledge about project management. At some institutes, it f
 but it is useful if an RSE knows its place in a \gls{PM} scheme, or can bring in new ideas for improvement.
 Project management in research software engineering poses specific challenges (see \gls{USERS}) that might require the capacity
 to flexibly adapt to changing conditions and deviate from common project management methods.
+Additionally, the RSE should know that SE offers various methods and approaches
+specifically tailored to management of software projects and products.
 
 <!-- Interaction with users and other stakeholders -->
 \skillsection{USERS}
@@ -746,6 +748,19 @@ during its life cycle. @Schlauch2018b classify applications based on their scope
 and criticality and provide \ac{SE} recommendations. The RSE needs to be able to
 identify the application class they are dealing with and apply the respective
 RSE practices.
+
+Often RSEs, especially in RSE groups, will develop applications 
+and services with different variants for different research purposes and groups.
+Additionally, many research groups develop their own codes for specific
+research purposes, e.g. simulation codes. 
+A lot of their development of new features is project-based, 
+often through PhD projects, 
+which grow into their own variant with re-integration planned as a final step.
+To reduce the chance of variant source code diverging and producing 
+a large integration overhead, \gls{PM} skills and methods are needed.
+More specifically, software product line management methods have been 
+developed for this exact problem and purpose.
+
 
 # How much do different people need to know? {#sec:how-much-to-know}
 
