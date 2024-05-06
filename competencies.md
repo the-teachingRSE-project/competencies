@@ -518,6 +518,9 @@ form a mental model of a piece of software in a specific environment (program co
 Using that, an RSE should be able to make predictions about a software's behaviour.
 This is a required skill for common tasks such as debugging, profiling, optimising, designing good
 tests, or predicting user interaction.
+Many tools exist to help with understanding and evaluating existing code,
+especially from a structural point of view. 
+An RSE should understand their output and its implications.
 An important facet of this capability relates to information security.
 RSEs need to consider the safety and integrity of personal data and other sensitive information
 and make sure that they do not negatively impact the integrity of their institution's network.
@@ -698,6 +701,16 @@ documentation. Today this encompasses the knowledge of testing frameworks as
 well as continuous integration and \ac{CICD} practices. In addition to being
 tested, software should also be reproducible. Projects like ReproHack
 [@ReproHack] can greatly help in fostering that competency.
+
+Apart from testing, there are many code analysis tools to monitor and improve the quality of code. 
+An RSE should be familiar with the tools available for their specific environment
+and how to include some of them into a \ac{CICD} pipeline.
+Typically, this includes linters and similar static tools as well as 
+dynamic tools like profilers and code coverage analysis. 
+The Development of these tools is very dynamic and environment specific.
+A good introduction can be found in [@swebok_2014] and an online resource is [@vihps]
+As these tools help with behavioural and structural analysis and therefore
+modularisation these tools enable \gls{MOD} as well as \gls{DOCBB}.
 
 Part of the \ac{FAIR} principles is to make software findable and reusable. The
 RSE needs to be able to decide when and why to keep a repository private. This
