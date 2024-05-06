@@ -106,6 +106,7 @@ KSA
 KSAs
 LIBS
 lingua
+linters
 LLM
 LLMs
 LRZIntroCpp
@@ -132,6 +133,7 @@ PhDs
 PRACE
 pre-recorded
 pre-requisite
+profilers
 proto
 PRs
 RDM
