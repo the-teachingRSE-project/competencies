@@ -67,7 +67,7 @@ header-includes:
   - \newglossaryentry{SWLC}{name={\SWLC},type={skills},description={Adapting to the software life cycle}}
   - \newglossaryentry{SWREPOS}{name={\SWREPOS},type={skills},description={Use software repositories}}
   - \newglossaryentry{MOD}{name={\MOD},type={skills},description={Software behaviour awareness and analysis}}
-  - \newglossaryentry{NEW}{name={\NEW},type={skills},description={Curiosity}}
+  - \newglossaryentry{NEW}{name={\NEW},type={skills},description={Conducting and leading research}}
   - \newglossaryentry{RC}{name={\RC},type={skills},description={Understanding the research cycle}}
   - \newglossaryentry{SRU}{name={\SRU},type={skills},description={Software re-use}}
   - \newglossaryentry{SP}{name={\SP},type={skills},description={Software publication and citation}}
@@ -511,14 +511,12 @@ and make sure that they do not negatively impact the integrity of their institut
 
 ## Research skills
 
-<!-- Curiosity -->
+<!-- Conducting and leading research -->
 \skillsection{NEW}
 
-RSEs gain their reputation from their effectiveness in interacting with their
-domain peers. Therefore, some curiosity together with a broad overview of the
-research field is required as this enables the RSE to learn new methods and algorithms directly from domain peers.
-Curiosity is also reflected when an RSE is actively
-trying out new tools. Lifelong learning is then no longer just a phrase but
+RSEs are curious and able to conduct research, both on research software engineering, and on their home domain (if any). Senior RSEs are also able to lead research, and many RSEs have a doctorate~\cite{hettrick_survey_2022}. As researchers often standing between research fields, they also gain their reputation from their effectiveness in interacting with researchers from the same or other domains. Therefore, some curiosity together with a broad overview of the
+research field is required, as this enables the RSE to learn new methods and algorithms directly from domain peers. Such curiosity and ability are also reflected when an RSE is actively
+trying out new tools and discovering related literature from adjacent domains. Lifelong learning is then no longer just a phrase but
 becomes a motivation to work.
 
 <!-- Understanding the research cycle -->
@@ -778,7 +776,7 @@ Table: Levels of software eng. skills expected per RSE career stage. {#tbl:comp-
 
 | Competency | Junior RSE                                                                                                                    | Senior RSE                                                                                                                            | Principal RSE                                                                                                                                                                       |
 | ---        | ----------                                                                                                                    | ----------                                                                                                                            | ----------                                                                                                                                                                          |
-| \gls{NEW}        | Should have some curiosity to fit into research teams.                                                                        | Same as junior, but a curiosity to enhance the code base is required.                                                                 | Should have curiosity to know in which direction to steer the project.                                                                                                              |
+| \gls{NEW}        | Should have some curiosity to fit into research teams.                                                                        | Same as junior, but proactivity towards enhancing the code base is required.                                                                 | Should have research insights and a broad view of the research field to steer the project.                                                                                                              |
 | \gls{RC}         | Should be aware of the research life cycle.                                                                                   | Should know the position of the project in the research life cycle.                                                                   | Should know what is necessary for the project to fit into its position in the research life cycle.                                                                                  |
 | \gls{SRU}        | Should be aware of software reusability tools.                                                                                | Should be able to search with software reusability tools.                                                                             | Should be able to effectively search with \gls{SRU} tools and to evaluate and perform the integration of a library into the project.                                                      |
 | \gls{SP}         | Should be aware that software publication needs to consider issues of intellectual property.                                  | Should be able to correctly publish software in simple cases and to identify cases where professional legal advice is needed.         | Same as senior, plus the ability to take the future publication of software into account when initiating and guiding larger software collaboration projects.                        |
@@ -999,7 +997,7 @@ The current situation may differ.
               & Locally-based & RSE-Team based & Locally-based & RSE-Team based &\\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \gls{NEW}&
-    Struggles to learn new methods and skills due to split curiosity
+    Struggles to learn new methods and skills due to split research focus
       between research goal and software project.&
     Gets support from the RSE team to explore new methods and skills,
       make relevant contacts and learn more about the domain.&
