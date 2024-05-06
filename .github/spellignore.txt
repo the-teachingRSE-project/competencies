@@ -106,6 +106,7 @@ KSA
 KSAs
 LIBS
 lingua
+linters
 LLM
 LLMs
 LRZIntroCpp
@@ -133,6 +134,7 @@ PRACE
 pre-recorded
 pre-requisite
 proactivity
+profilers
 proto
 PRs
 RDM

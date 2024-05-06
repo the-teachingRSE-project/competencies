@@ -45,7 +45,7 @@ header-includes:
   - \newcommand{\elandscape}{\end{landscape}}
   - \newcommand{\fonticon}[2]{\includesvg[height=1.5ex]{{../fonts/#1}}\nobreakspace{}#2}
   - \newcommand*{\DOCBB}{\fonticon{sitemap}{DOCBB}}
-  - \newcommand*{\LIBS}{\fonticon{boxes-packing}{LIBS}}
+  - \newcommand*{\DIST}{\fonticon{boxes-packing}{DIST}}
   - \newcommand*{\SWLC}{\fonticon{arrows-spin}{SWLC}}
   - \newcommand*{\SWREPOS}{\fonticon{code-pull-request}{SWREPOS}}
   - \newcommand*{\MOD}{\fonticon{laptop-code}{MOD}}
@@ -63,7 +63,7 @@ header-includes:
   - \makeglossaries
   - \input{glossary.tex}
   - \newglossaryentry{DOCBB}{name={\DOCBB},type={skills},description={Creating documented code building blocks}}
-  - \newglossaryentry{LIBS}{name={\LIBS},type={skills},description={Building distributable libraries}}
+  - \newglossaryentry{DIST}{name={\DIST},type={skills},description={Building distributable software}}
   - \newglossaryentry{SWLC}{name={\SWLC},type={skills},description={Adapting to the software life cycle}}
   - \newglossaryentry{SWREPOS}{name={\SWREPOS},type={skills},description={Use software repositories}}
   - \newglossaryentry{MOD}{name={\MOD},type={skills},description={Software behaviour awareness and analysis}}
@@ -104,7 +104,11 @@ Most RSE roles inhabit the space between these two extremes. Therefore, providin
 comprehensive definition of what an RSE does
 and what experience, skills and competencies are required to become one is challenging.
 In this community paper we define the broad notion of what an RSE is, explore the different types of work they undertake, and
-define a list of fundamental competencies as well as values that define the general profile of an RSE.
+define a list of foundational competencies as well as values that outline the general profile of an RSE.
+Further research and training can build upon this foundation of skills 
+and focus on various aspects in greater detail. 
+We expect that graduates and practitioners will have a larger 
+and more diverse set of skills than outlined here.
 On this basis, we elaborate on the progression of these skills along different
 dimensions, looking at specific types of RSE roles, proposing recommendations for organisations, and giving examples of future specialisations.
 An appendix details how existing curricula fit into this framework.
@@ -157,7 +161,7 @@ RSEs share a set of core skills that are required to write software, understand
 the research environment, and ensure that they produce sustainable, maintainable
 code that supports reproducible research outputs, following the \ac{FAIR} principles [@FAIR4RS].
 
-This community paper defines a set of core values and competencies,
+This community paper defines a set of core values and foundational competencies,
 agnostic of specific technical capabilities or research domains,
 which an RSE should acquire during training and formal education.
 By defining these competencies,
@@ -167,9 +171,15 @@ thus helping to provide a positive impact on
 research outputs and, ultimately, society as a whole.
 These competencies draw upon skills from traditional SE practice,
 established research culture, and the commitment to being part of a team.
-While there is anecdotal evidence that academic SE practitioners
+However, we see this set of skills as a foundation to build upon. 
+We envision that through specialised training the set of skills 
+of graduate RSEs and domain researchers will grow. 
+This is underlined by a growing interest to perform RSE research, 
+i.e. research into methods and tools more catered to the unique 
+challenges that research software provides.
+<!-- While there is anecdotal evidence that academic SE practitioners
 would have chosen different competencies, we will argue that this trifecta of skills
-is exactly what is needed for modern, software-enabled research.
+is exactly what is needed for modern, software-enabled research. -->
 
 While this community paper is based on workshop discussions that were attended largely by Research Software Engineers (deRSE23 in Paderborn, un-deRSE23 in Jena, Germany),
 we believe that the competencies formulated here can offer far-reaching
@@ -479,13 +489,16 @@ depending on their goals and expertise,
 for example by following the Diátaxis framework @Procida_Diataxis_documentation_framework.
 
 <!-- Building distributable libraries -->
-\skillsection{LIBS}
+\skillsection{DIST}
 
 The RSE should be able to distribute their code on their domain/language
 specific distribution platforms. This almost always encompasses
 handling/documenting dependencies with other packages/libraries. It sometimes
-requires knowledge of using build systems to enable interoperability with other
-systems.
+requires knowledge of using build 
+or package management systems to enable interoperability with other projects.
+In terms of usability and needs of the user community the RSE should be able
+to decide whether a library or a framework is the right type of program
+to build and distribute.
 
 
 <!-- Use repositories -->
@@ -505,6 +518,9 @@ form a mental model of a piece of software in a specific environment (program co
 Using that, an RSE should be able to make predictions about a software's behaviour.
 This is a required skill for common tasks such as debugging, profiling, optimising, designing good
 tests, or predicting user interaction.
+Many tools exist to help with understanding and evaluating existing code,
+especially from a structural point of view. 
+An RSE should understand their output and its implications.
 An important facet of this capability relates to information security.
 RSEs need to consider the safety and integrity of personal data and other sensitive information
 and make sure that they do not negatively impact the integrity of their institution's network.
@@ -625,6 +641,8 @@ The RSE should have knowledge about project management. At some institutes, it f
 but it is useful if an RSE knows its place in a \gls{PM} scheme, or can bring in new ideas for improvement.
 Project management in research software engineering poses specific challenges (see \gls{USERS}) that might require the capacity
 to flexibly adapt to changing conditions and deviate from common project management methods.
+Additionally, the RSE should know that SE offers various methods and approaches
+specifically tailored to management of software projects and products.
 
 <!-- Interaction with users and other stakeholders -->
 \skillsection{USERS}
@@ -681,6 +699,16 @@ documentation. Today this encompasses the knowledge of testing frameworks as
 well as continuous integration and \ac{CICD} practices. In addition to being
 tested, software should also be reproducible. Projects like ReproHack
 [@ReproHack] can greatly help in fostering that competency.
+
+Apart from testing, there are many code analysis tools to monitor and improve the quality of code. 
+An RSE should be familiar with the tools available for their specific environment
+and how to include some of them into a \ac{CICD} pipeline.
+Typically, this includes linters and similar static tools as well as 
+dynamic tools like profilers and code coverage analysis. 
+The Development of these tools is very dynamic and environment specific.
+A good introduction can be found in [@swebok_2014] and an online resource is [@vihps]
+As these tools help with behavioural and structural analysis and therefore
+modularisation these tools enable \gls{MOD} as well as \gls{DOCBB}.
 
 Part of the \ac{FAIR} principles is to make software findable and reusable. The
 RSE needs to be able to decide when and why to keep a repository private. This
@@ -742,6 +770,19 @@ and criticality and provide \ac{SE} recommendations. The RSE needs to be able to
 identify the application class they are dealing with and apply the respective
 RSE practices.
 
+Often RSEs, especially in RSE groups, will develop applications 
+and services with different variants for different research purposes and groups.
+Additionally, many research groups develop their own codes for specific
+research purposes, e.g. simulation codes. 
+A lot of their development of new features is project-based, 
+often through PhD projects, 
+which grow into their own variant with re-integration planned as a final step.
+To reduce the chance of variant source code diverging and producing 
+a large integration overhead, \gls{PM} skills and methods are needed.
+More specifically, software product line management methods have been 
+developed for this exact problem and purpose.
+
+
 # How much do different people need to know? {#sec:how-much-to-know}
 
 Now that we have the different competencies, we can explore various dimensions of these competencies,
@@ -766,7 +807,7 @@ A story-like example of an individual through the hierarchies can be found in @s
 | ---        | ----------                                                                                                                    | ----------                                                                                                                            | ----------                                                                                                                                                                          |
 | \gls{SWLC}       | Should be aware of the software life cycle.                                                                                   | Should know where in the life cycle their project is and which decisions are likely to lead to technical debt.                        | Should know how to manage and steer development/project resources accordingly. Should also have an understanding of the potential consequences of key project management decisions. |
 | \gls{DOCBB}      | Should be able to write reusable building blocks.                                                                             | Same as junior, but the quality should set the standard for the project, while following current best practices.                      | Should know the current best practices and point their staff to the right resources.                                                                                                |
-| \gls{LIBS}       | Should be able to use package distribution platforms.                                                                         | Same as junior, but should also be familiar with current best practices for building and deploying packages.                          | Should ensure that their project is available via an up-to-date and secure distribution platform.                                                                                   |
+| \gls{DIST}       | Should be able to use package distribution platforms.                                                                         | Same as junior, but should also be familiar with current best practices for building and deploying packages.                          | Should ensure that their project is available via an up-to-date and secure distribution platform.                                                                                   |
 | \gls{SWREPOS}    | Should seamlessly interact with the repository of their project.                                                              | Should be well-versed in the intricacies of a repository, and probably interact with repositories of multiple projects.               | Should promote the use of repositories and be able to convey best practices of sharing and reviewing to junior and senior RSEs.                                                                              |
 | \gls{MOD}        | Should have a basic grasp of their piece of the software in order to use basic tools such as a debugger.                      | Should understand the characteristics of large parts of the codebase considering a variety of the metrics.                            | Should understand the big idea of the software project in order to define the task that the software solves.                                                                        |
 
@@ -827,7 +868,7 @@ as development is a large part of their actual research.
 Students at the undergraduate level mostly consume science/knowledge.
 During their studies, they should also learn about the existence of digital tools and structures.
 Undergrad students should be aware that RSEs exist and that software has different quality aspects (\gls{DOCBB}).
-They should be aware of domain specific tools (\gls{LIBS}, \gls{SRU}) and where to find them (\gls{SWREPOS}, \gls{DOMREP}).
+They should be aware of domain specific tools (\gls{DIST}, \gls{SRU}) and where to find them (\gls{SWREPOS}, \gls{DOMREP}).
 At this level, it is sufficient to consider software as black boxes (\gls{USERS}) although some training in data presentation would be very helpful and a good way to find out about programming (\gls{MOD}, \gls{NEW}).
 They should have an awareness of software licences and whom to ask regarding licensing issues (\gls{SP}).
 They will be taught about the research cycle (\gls{RC}) and that researchers often work in groups (\gls{TEAM}).
@@ -836,7 +877,7 @@ During practicals, they will have an opportunity for peer learning (\gls{TEACH})
 #### Master's level
 
 A student at a master's level can participate in science and should therefore be able to use "some" digital structures.
-A master's student needs to be aware of relevant tools and data sets for their domain, where to find them and how to use them (\gls{LIBS}, \gls{SWREPOS}, \gls{DOMREP}).
+A master's student needs to be aware of relevant tools and data sets for their domain, where to find them and how to use them (\gls{DIST}, \gls{SWREPOS}, \gls{DOMREP}).
 They should be able to process and present their data (\gls{MOD}).
 They need to understand how their research depends on software (\gls{SWLC}).
 Working on their master's thesis allows them to understand the research cycle (\gls{RC}), practice project management (\gls{PM}) and collaborate with other members of their research group (\gls{TEAM}).
@@ -846,7 +887,7 @@ Working on their master's thesis allows them to understand the research cycle (\
 A PhD student performs independent research under guidance.
 They need to know relevant tools and structures.
 They should know where to find information about tools and where to find help using them (\gls{DOCBB}, \gls{SWREPOS}).
-They should be able to use the tools (\gls{LIBS}) and identify and report bugs (\gls{MOD}).
+They should be able to use the tools (\gls{DIST}) and identify and report bugs (\gls{MOD}).
 They need to be aware that the user's perspective is different from the developer's perspective in order to be able to write bug reports (\gls{USERS}).
 They might produce new software (\gls{MOD}, \gls{SRU}), in which case they need to understand how to licence their code for publication (\gls{SP}).
 PhD students need to be curious to be able to conduct their research.
@@ -865,7 +906,7 @@ They need to be aware of more advanced topics regarding intellectual property ri
 
 They are experts in their field and should be able to give proper guidance to their students on which digital tools are currently relevant.
 They should be aware of the skills of an RSE and when they might need one in their group.
-They should encourage their students to use relevant tools (\gls{LIBS}).
+They should encourage their students to use relevant tools (\gls{DIST}).
 They need to be able to judge the suitability of the software (\gls{SWLC}) and follow the interactions between relevant projects (\gls{SWREPOS}).
 They should be able to advise their students on the legal aspects of software production and distribution (\gls{SP}).
 They should be able to contribute meaningfully to the steering decisions of the software in their field (\gls{USERS}).
@@ -932,7 +973,7 @@ The current situation may differ.
       Should have research software guidance/policies that provide advice.\\
     \hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \gls{LIBS}&
+    \gls{DIST}&
     Does not emphasise code reusability and sharing/distribution. &
     Puts greater focus on reusability/sharing, but likely not as part of the project aims.&
     May want to develop reusable shareable outputs for a specific case. Needs clear guidelines.&
@@ -1161,7 +1202,7 @@ additionally should have experience or training in the educational field.
 
 #### User interface/user experience designers for research software
 Scientific software is a complex product that often needs to be refined in order to be usable even by other scientists.
-To facilitate this, there are people required that specialise in the (\gls{DOCBB}) and probably the (\gls{LIBS}) competency
+To facilitate this, there are people required that specialise in the (\gls{DOCBB}) and probably the (\gls{DIST}) competency
 with a focus on making end-user facing software really reusable and hence \ac{FAIR}.
 This task is supported by strong (\gls{MOD}) skills to reason about the behaviour of potential users of the software.
 
@@ -1205,7 +1246,7 @@ This may lead to the emergence of legacy code that is actively used.
 To safeguard continued usability and adoption,
 these RSEs have experience in working with legacy code,
 and are competent in the application of software stacks that are no longer part of the general curricula (e.g., \gls{COBOL} or \gls{Fortran}).
-Adaption of existing, large-scale codebases to evolving dependencies (\gls{LIBS}) or changing hardware (\ac{HPC}; see the HPC-RSE point below)
+Adaption of existing, large-scale codebases to evolving dependencies (\gls{DIST}) or changing hardware (\ac{HPC}; see the HPC-RSE point below)
 may require mastery in refactoring techniques and in the usage of specialised code transformation tools.
 
 #### HPC-RSE
@@ -1378,9 +1419,9 @@ and attend these additional modules to deepen their knowledge in the field.
 Core modules are of course drawn from the three pillars of the RSE and can be categorised accordingly.
 
 - Software/Technical skills:
-  - Foundational module: Here we have an introduction to programming: Emphasising use cases over programming paradigms, students learn at least two languages: a language that facilitates prototyping and data processing (e.g., \gls{Python} or \gls{R}) and a language for designing complex, performance-critical systems (e.g., \gls{C}/\gls{Cpp}). This exposes them to computers in a hands-on fashion and is the foundation for (\gls{DOCBB}, \gls{LIBS}).
-  - Computing environment module: Programming languages are not enough to work in a landscape of many interconnected software components; hence we require something like software craftsmanship, where tools such as the Unix shell, version control systems, build systems, documentation generators, package distribution platforms, and software discovery systems are taught to strengthen skills in (\gls{LIBS}, \gls{DOCBB}, \gls{SWREPOS}, \gls{SRU}).
-  - Software engineering module: Here we develop foundational software engineering competencies (basic knowledge and skill regarding requirements engineering, software architecture and design, implementation, quality assurance, software evolution), again emphasising and strengthening (\gls{DOCBB}, \gls{LIBS}) on a more abstract level.
+  - Foundational module: Here we have an introduction to programming: Emphasising use cases over programming paradigms, students learn at least two languages: a language that facilitates prototyping and data processing (e.g., \gls{Python} or \gls{R}) and a language for designing complex, performance-critical systems (e.g., \gls{C}/\gls{Cpp}). This exposes them to computers in a hands-on fashion and is the foundation for (\gls{DOCBB}, \gls{DIST}).
+  - Computing environment module: Programming languages are not enough to work in a landscape of many interconnected software components; hence we require something like software craftsmanship, where tools such as the Unix shell, version control systems, build systems, documentation generators, package distribution platforms, and software discovery systems are taught to strengthen skills in (\gls{DIST}, \gls{DOCBB}, \gls{SWREPOS}, \gls{SRU}).
+  - Software engineering module: Here we develop foundational software engineering competencies (basic knowledge and skill regarding requirements engineering, software architecture and design, implementation, quality assurance, software evolution), again emphasising and strengthening (\gls{DOCBB}, \gls{DIST}) on a more abstract level.
 
 - Research skills:
   - Optional domain mastery module: Additional minor research courses, but students with a home-domain already have the research part well-covered.
@@ -1562,7 +1603,7 @@ PhD programs, and certificates from graduate schools.
 
 BioExcel has research competencies that combine some of our research competencies and some notions from the communication skills.
 Their computing competencies roughly map to our software skills.
-Here, we find competencies such as "package and distribute software", which maps to our (\gls{LIBS}) competencies,
+Here, we find competencies such as "package and distribute software", which maps to our (\gls{DIST}) competencies,
 and "comply with licensing policy", which would in our framework be part of (\gls{SP}) in the research competencies.
 In addition, they have a dedicated parallel computing competency section,
 thereby shifting the emphasis of the knowledge of their computational tools towards the \acrshort{HPC}-RSE specialisation in our framework.
