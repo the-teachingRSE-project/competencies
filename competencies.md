@@ -531,7 +531,7 @@ and make sure that they do not negatively impact the integrity of their institut
 \skillsection{NEW}
 
 RSEs are curious and able to conduct research, both on research software engineering, and on their home domain (if any). Senior RSEs are also able to lead research, and many RSEs have a doctorate [@hettrick_survey_2022]. Since RSEs often operate in different research fields, they also gain their reputation from their effectiveness in interacting with researchers from the same or other domains. Therefore, some curiosity together with a broad overview of the
-research field is required, as this enables the RSE to learn new methods and algorithms directly from domain peers. Such curiosity and ability are also reflected when an RSE is actively
+research field is required, as this enables the RSE to learn new methods and algorithms directly from domain peers. This curiosity, together with the ability to convert it into new ideas, is also reflected when an RSE is actively
 trying out new tools or discovering related literature from adjacent domains. Lifelong learning is then no longer just a phrase but
 becomes a motivation to work.
 
