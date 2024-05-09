@@ -333,7 +333,7 @@ Further values loosely based on that code include the obligations
 + to promote these values whenever possible and make sure that they are passed on to new practitioners.
 
 The availability of computers has put a tremendously powerful tool at the disposal of the scientific community,
-making simulation the third pillar of science and data science, is on its way to becoming a fourth pillar [@Weinzierl2021].
+making simulation already the third pillar of science while data science is on its way to becoming a fourth pillar [@Weinzierl2021].
 With the possibility of performing a virtually unlimited number of simulations the importance of validation
 becomes far more important in order to stimulate sound decision-making.
 The RSE learns how to operate and manipulate computers and hence has a special obligation
