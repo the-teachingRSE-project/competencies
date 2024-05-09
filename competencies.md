@@ -334,12 +334,14 @@ Further values loosely based on that code include the obligations
 
 The availability of computers has put a tremendously powerful tool at the disposal of the scientific community,
 making simulation already the third pillar of science while data science is on its way to becoming a fourth pillar [@Weinzierl2021].
-With the possibility of performing a virtually unlimited number of simulations the importance of validation
-becomes far more important in order to stimulate sound decision-making.
-The RSE learns how to operate and manipulate computers and hence has a special obligation
-to critically evaluate their use:
+With the possibility of performing a virtually unlimited number of simulations, computers enable the study of systems of unprecedented complexity.
+Therefore validation becomes far more important in order to enable a sound decision-making that is grounded in independent observations from reality,
+and is aware of the limits of its epistemological capabilities.
+The RSE learns how to operate and manipulate computers and at the same time has been brought up on the value that an RSE
+has a special obligation to critically evaluate a computer's use:
 Is the model fit for purpose? Are the results consistent with theory and/or observations?
 Can the amount of trust I put into a result be reasonably explained?
+Scientific applications of AI systems are currently faced with exactly these issues.
 For these reasons, caution, a culture of critical thinking, and care of "putting human judgement in the loop" (in practical means, increasing the opportunities for making results explainable) can mitigate problems.
 
 RSEs often assume a multifaceted role at the junction of research, \ac{SE} and data management.
