@@ -341,7 +341,7 @@ The RSE learns how to operate and manipulate computers and at the same time has 
 has the obligation to critically evaluate a computer's use:
 Is the model fit for purpose? Are the results consistent with theory and/or observations?
 Can the amount of trust put into a result be reasonably explained?
-Scientific applications of AI systems are currently faced with exactly these issues.
+These issues are particularly relevant to the scientific application of AI systems.
 For these reasons the RSE needs to apply caution, a culture of critical thinking, and care of "putting human judgement in the loop"
 (this means in practice, increasing the opportunities for making results explainable).
 
