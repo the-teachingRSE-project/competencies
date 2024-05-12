@@ -342,8 +342,8 @@ has the obligation to critically evaluate a computer's use:
 Is the model fit for purpose? Are the results consistent with theory and/or observations?
 Can the amount of trust put into a result be reasonably explained?
 These issues are particularly relevant to the scientific application of AI systems.
-For these reasons the RSE needs to apply caution, a culture of critical thinking, and care of "putting human judgement in the loop"
-(this means in practice, increasing the opportunities for making results explainable).
+For these reasons the RSE needs to apply caution, a culture of critical thinking, and care of "putting human judgement in the loop".
+In practice this means increasing the opportunities for making results explainable.
 
 RSEs often assume a multifaceted role at the junction of research, \ac{SE} and data management.
 They work with a varying and diverse set of colleagues that might include other developers,
