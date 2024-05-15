@@ -17,6 +17,7 @@ jobs:
           do
             # strip citations and references
             sed -ri 's/\[@[A-Za-z0-9_ ;@-]+\]//g' $file
+            sed -ri 's/\[\^[A-Za-z0-9_ ;@-]+\]//g' $file
             sed -ri 's/[^#\[][@#][A-Za-z0-9_ ;@-]+:[A-Za-z0-9_ ;@-]+}*//g' $file
             sed -ri 's/@[A-Za-z0-9_]+//g' $file
             # strip words that escape the spellchecker allowlist

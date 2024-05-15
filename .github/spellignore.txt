@@ -1,5 +1,6 @@
 ADDME
 AllDigital
+Ausbildung
 anonymise
 APIs
 artifacts
@@ -71,6 +72,10 @@ findability
 findable
 FIXME
 Forschung
+Forschungspraktikum
+Forschungspraktika
+formatter
+formatters
 Friedrich
 Fortran
 franca
@@ -106,6 +111,7 @@ KSA
 KSAs
 LIBS
 lingua
+linter
 linters
 LLM
 LLMs

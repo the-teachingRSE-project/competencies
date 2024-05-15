@@ -393,6 +393,52 @@ FIXME: The career path discussion.
 
 # Appendix
 
+## What a beginning RSE should learn at the start of their career
+
+RSEs have a capacity to abstract away concrete problems and translate
+domain-specific problems to software. They should have basic training
+in mathematics, numerical methods and statistics [^math-skills-examples],
+because these skills can be applied to classes of problems that are common
+between otherwise unrelated scientific disciplines.
+In the context of a RSE Master's curriculum, mathematics and statistics modules
+from existing Bachelor's curricula could be made prerequisites.
+
+[^math-skills-examples]: A good example for each category would be:
+differential equations, simulated annealing, and regression analysis.
+
+RSEs should also be good communicators with domain scientists.
+This entails solving the knowledge gap between domain scientists and RSEs,
+bridging the gap between scientific programming and software engineering [@Storer2017],
+and learning nonviolent communication [@Rosenberg2003].
+One option to address the first point would be for the course to include
+practical experience by sending students a few hours a week
+in a domain-specific laboratory of the university where open source software
+is being developed as part of a domain-specific research project
+(in Germany: *Ausbildung*, *Forschungspraktika*); this would also help students
+build their GitHub or GitLab profile with contributions to real-world software.
+Alternatively, in the context of a RSE Master's curriculum,
+this criterion could be fulfilled simply by having a B.Sc.
+with a major in a domain-specific field.
+
+RSEs should have a basic introduction to computer science,
+e.g. know about computational complexity and data structures
+(linked lists vs. arrays vs. hash maps).
+Training should also cover good coding practices, such as version control, testing,
+documentation, linters, formatters, containerisation, licensing and library re-use,
+i.e. topics that are well-established and are unlikely to change in the future.
+Yet RSEs may also need to know about the current state of affairs,
+such as requirements from funding agencies (see for example the FAIR4RS [@FAIR4RS] clause
+in the 2022 DFG call for research software funding [@DFGResearchSoftwareCall2022]),
+or online services for continuous integration/delivery, code coverage analysis,
+code quality/security checkers, and field-specific package repositories,
+which are all part of a rapidly-evolving landscape of cloud technologies.
+There is also the open question of how to teach certain topics like linters,
+formatters and testing frameworks without also showing specific tools
+which may no longer be available or still be relevant in a few year's time,
+or may be too tied to a specific programming language whose market share
+may vary significantly across domain-specific fields
+(e.g. Python vs. Julia vs. R vs. MATLAB, or C++ vs. Fortran vs. Java vs. Rust).
+
 ## Digital competencies and certification
 
 The European Commission Joint Research Center developed the "DigComp" framework
