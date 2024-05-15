@@ -27,6 +27,7 @@ codebases
 CodeMeta
 CodeRefinery
 comp-lvls-se
+Cogniterra
 Coursera
 CRSP
 CSE
@@ -142,6 +143,7 @@ pre-requisite
 proactivity
 profilers
 proto
+pseudocode
 PRs
 RDM
 RDM-RSE

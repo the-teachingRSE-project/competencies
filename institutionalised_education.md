@@ -438,6 +438,50 @@ which may no longer be available or still be relevant in a few year's time,
 or may be too tied to a specific programming language whose market share
 may vary significantly across domain-specific fields
 (e.g. Python vs. Julia vs. R vs. MATLAB, or C++ vs. Fortran vs. Java vs. Rust).
+This is discussed in more details in [Designing language-agnostic programming courses].
+
+## Designing language-agnostic programming courses
+
+Making training language-agnostic can prove challenging.
+Courses on algorithms typically rely on pseudocode [@Zobel2004, chapter 7]
+to describe the program logic using natural language and/or mathematical notation,
+rather than a more concrete programming language syntax.
+When the programming language(s) cannot be abstracted away, for example
+when teaching software libraries designed for specific languages,
+one can present the algorithms in a language-agnostic way in a few slides,
+followed by a single slide that shows the corresponding function call in client codes.
+See for example the MPI course material [@RabenseifnerCourseMPI, slides 163 to 166]
+used by HPC training centres in the PRACE network [@PRACE],
+where code examples are provided in Fortran, C, C++ and Python.
+
+Another strategy developed by Rosalind [@RosalindFAQ; @Compeau2015] consists
+in presenting algorithms in pseudocode and asking students to implement them
+in their favourite programming language.
+For each exercise, the student downloads a data set and has a fixed amount
+of time, typically 2 to 5 minutes, to upload the output of their algorithm.
+Rosalind validates the result and grades the exercise accordingly.
+The time limit helps determine whether the algorithm was implemented
+as described in the lecture. For example,
+in the *Bioinformatics Algorithms* course [@Compeau2015vol1; @Compeau2015vol2],
+many algorithms have a computational complexity of $O(\log(N))$ or $O(N)$,
+with $N$ the problem size, while more naive implementations or a brute force
+search would scale with a much less favourable $O(N^2)$ or $O(2^N)$ computational
+complexity, which translates to significantly longer run times.
+This course eventually migrated from Rosalind to MOOC platforms [@Compeau2015]
+such as Cogniterra, where implementations must be submitted in C++, Java,
+Go or Python, and have a runtime limit and memory limit,
+both of which depend on the chosen programming language.
+
+The *Bioinformatics Algorithms* course was designed as an inverted
+classroom [@Compeau2019] with a non-linear structure:
+a sequence of core lectures and exercises are compulsory
+but do not award enough points to obtain a passing grade;
+several core blocks allow students to branch out to more in-depth modules,
+sometimes recursively, to develop additional skills and gain extra points,
+before eventually returning back to the core lessons [@Compeau2018].
+This design choice is also reflected in the accompanying interactive books
+[@Compeau2015vol1; @Compeau2015vol2] and allows students to tailor their
+learning experience according to their learning goals.
 
 ## Digital competencies and certification
 
