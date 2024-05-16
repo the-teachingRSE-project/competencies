@@ -393,6 +393,96 @@ FIXME: The career path discussion.
 
 # Appendix
 
+## What a beginning RSE should learn at the start of their career
+
+RSEs have a capacity to abstract away concrete problems and translate
+domain-specific problems to software. They should have basic training
+in mathematics, numerical methods and statistics [^math-skills-examples],
+because these skills can be applied to classes of problems that are common
+between otherwise unrelated scientific disciplines.
+In the context of a RSE Master's curriculum, mathematics and statistics modules
+from existing Bachelor's curricula could be made prerequisites.
+
+[^math-skills-examples]: A good example for each category would be:
+differential equations, simulated annealing, and regression analysis.
+
+RSEs should also be good communicators with domain scientists.
+This entails solving the knowledge gap between domain scientists and RSEs,
+bridging the gap between scientific programming and software engineering [@Storer2017],
+and learning nonviolent communication [@Rosenberg2003].
+One option to address the first point would be for the course to include
+practical experience by sending students a few hours a week
+in a domain-specific laboratory of the university where open source software
+is being developed as part of a domain-specific research project
+(in Germany: *Ausbildung*, *Forschungspraktika*); this would also help students
+build their GitHub or GitLab profile with contributions to real-world software.
+Alternatively, in the context of a RSE Master's curriculum,
+this criterion could be fulfilled simply by having a B.Sc.
+with a major in a domain-specific field.
+
+RSEs should have a basic introduction to computer science,
+e.g. know about computational complexity and data structures
+(linked lists vs. arrays vs. hash maps).
+Training should also cover good coding practices, such as version control, testing,
+documentation, linters, formatters, containerisation, licensing and library re-use,
+i.e. topics that are well-established and are unlikely to change in the future.
+Yet RSEs may also need to know about the current state of affairs,
+such as requirements from funding agencies (see for example the FAIR4RS [@FAIR4RS] clause
+in the 2022 DFG call for research software funding [@DFGResearchSoftwareCall2022]),
+or online services for continuous integration/delivery, code coverage analysis,
+code quality/security checkers, and field-specific package repositories,
+which are all part of a rapidly-evolving landscape of cloud technologies.
+There is also the open question of how to teach certain topics like linters,
+formatters and testing frameworks without also showing specific tools
+which may no longer be available or still be relevant in a few year's time,
+or may be too tied to a specific programming language whose market share
+may vary significantly across domain-specific fields
+(e.g. Python vs. Julia vs. R vs. MATLAB, or C++ vs. Fortran vs. Java vs. Rust).
+This is discussed in more details in [Designing language-agnostic programming courses].
+
+## Designing language-agnostic programming courses
+
+Making training language-agnostic can prove challenging.
+Courses on algorithms typically rely on pseudocode [@Zobel2004, chapter 7]
+to describe the program logic using natural language and/or mathematical notation,
+rather than a more concrete programming language syntax.
+When the programming language(s) cannot be abstracted away, for example
+when teaching software libraries designed for specific languages,
+one can present the algorithms in a language-agnostic way in a few slides,
+followed by a single slide that shows the corresponding function call in client codes.
+See for example the MPI course material [@RabenseifnerCourseMPI, slides 163 to 166]
+used by HPC training centres in the PRACE network [@PRACE],
+where code examples are provided in Fortran, C, C++ and Python.
+
+Another strategy developed by Rosalind [@RosalindFAQ; @Compeau2015] consists
+in presenting algorithms in pseudocode and asking students to implement them
+in their favourite programming language.
+For each exercise, the student downloads a data set and has a fixed amount
+of time, typically 2 to 5 minutes, to upload the output of their algorithm.
+Rosalind validates the result and grades the exercise accordingly.
+The time limit helps determine whether the algorithm was implemented
+as described in the lecture. For example,
+in the *Bioinformatics Algorithms* course [@Compeau2015vol1; @Compeau2015vol2],
+many algorithms have a computational complexity of $O(\log(N))$ or $O(N)$,
+with $N$ the problem size, while more naive implementations or a brute force
+search would scale with a much less favourable $O(N^2)$ or $O(2^N)$ computational
+complexity, which translates to significantly longer run times.
+This course eventually migrated from Rosalind to MOOC platforms [@Compeau2015]
+such as Cogniterra, where implementations must be submitted in C++, Java,
+Go or Python, and have a runtime limit and memory limit,
+both of which depend on the chosen programming language.
+
+The *Bioinformatics Algorithms* course was designed as an inverted
+classroom [@Compeau2019] with a non-linear structure:
+a sequence of core lectures and exercises are compulsory
+but do not award enough points to obtain a passing grade;
+several core blocks allow students to branch out to more in-depth modules,
+sometimes recursively, to develop additional skills and gain extra points,
+before eventually returning back to the core lessons [@Compeau2018].
+This design choice is also reflected in the accompanying interactive books
+[@Compeau2015vol1; @Compeau2015vol2] and allows students to tailor their
+learning experience according to their learning goals.
+
 ## Digital competencies and certification
 
 The European Commission Joint Research Center developed the "DigComp" framework
