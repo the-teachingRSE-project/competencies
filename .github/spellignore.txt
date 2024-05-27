@@ -22,6 +22,7 @@ Center
 CHAOSS
 citable
 codebase
+codebases
 CodeMeta
 CodeRefinery
 comp-lvls-se
@@ -35,6 +36,7 @@ DaLiJe
 de
 deRSE
 DFG
+Diátaxis
 DigComp
 DigCompEdu
 DigCompOrg
@@ -91,8 +93,10 @@ HPC-CF
 HPC-oriented
 HTC
 IDEs
+IEA
 Ing
 ISCB
+iteratively
 Jena
 JOSS
 JU
@@ -102,6 +106,7 @@ KSA
 KSAs
 LIBS
 lingua
+linters
 LLM
 LLMs
 LRZIntroCpp
@@ -128,6 +133,8 @@ PhDs
 PRACE
 pre-recorded
 pre-requisite
+proactivity
+profilers
 proto
 PRs
 RDM

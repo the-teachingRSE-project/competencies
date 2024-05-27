@@ -11,6 +11,7 @@ jobs:
       - name: Install pandoc
         run: |
           sudo apt-get update && sudo apt-get install -y --no-install-recommends \
+            inkscape \
             texlive texlive-latex-extra pandoc latexmk \
             texlive-bibtex-extra biber \
             texlive-fonts-recommended texlive-fonts-extra lmodern fonts-linuxlibertine \
@@ -30,7 +31,7 @@ jobs:
   deploy:
     needs: [paper]
     runs-on: ubuntu-latest
-    if: ${{ github.repository == 'CaptainSifff/paper_teaching-learning-RSE' && github.ref == 'refs/heads/main' }}
+    if: ${{ github.repository == 'the-teachingRSE-project/competencies' && github.ref == 'refs/heads/main' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -40,7 +41,7 @@ jobs:
       - name: move
         run: mkdir -p github_deploy && mv github_artifacts/*/* github_deploy
       - name: deploy on orphan branch
-        uses: peaceiris/actions-gh-pages@v3
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./github_deploy
