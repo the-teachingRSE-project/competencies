@@ -336,9 +336,8 @@ The availability of computers has put a tremendously powerful tool at the dispos
 Computer simulations are now considered to be the third pillar of science, while data science is on its way to becoming a fourth pillar [@Weinzierl2021].
 With the possibility of performing a virtually unlimited number of simulations, computers enable the study of systems of unprecedented complexity.
 Therefore validation becomes far more important in order to enable sound decision-making that is grounded in independent observations of reality.
-and is aware of the limits of its epistemological capabilities.
-The RSE learns how to operate and manipulate computers and at the same time has been brought up on the value that an RSE
-has the obligation to critically evaluate a computer's use:
+The RSE needs to be aware of the limits of the epistemological capabilities of a simulation 
+and has the obligation to critically evaluate a computer's use:
 Is the model fit for purpose? Are the results consistent with theory and/or observations?
 Can the amount of trust put into a result be reasonably explained?
 These issues are particularly relevant to the scientific application of AI systems.
