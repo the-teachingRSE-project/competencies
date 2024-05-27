@@ -2,7 +2,7 @@
 
 MAKE_PDFA := true
 
-objects := competencies.pdf institutionalised_education.pdf survey.pdf call_to_action.pdf
+objects := competencies.pdf
 
 all: $(objects)
 
