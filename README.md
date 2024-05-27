@@ -52,6 +52,11 @@ We use a single, shared BibTeX bibliography file for all papers in the teaching 
 ### How to create a pull request
 
 - Fork this repository
+- run
+  ```sh
+  git submodule update --init --recursive
+  git config --local submodule.recurse true
+  ```
 - Create your changes in your fork
 - Go to the [pull requests](https://github.com/CaptainSifff/paper_teaching-learning-RSE/pulls) page of this repository and push `new pull request`
 - You can add DRAFT, or WIP to indicate work-in-progress PRs.

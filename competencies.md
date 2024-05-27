@@ -32,7 +32,7 @@ output:
     toc: true
     number_sections: true
 secnumdepth: 3
-bibliography: bibliography/bibliography.bib
+bibliography: bibliography.bib
 header-includes:
   - \input{preamble.sty}
   - \usepackage{pdflscape}
