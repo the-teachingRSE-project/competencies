@@ -45,6 +45,10 @@ You will also need to install a few Python packages:
 python3 -m pip install -r requirements.txt
 ```
 
+### Bibliography
+
+We use a single, shared BibTeX bibliography file for all papers in the teaching RSE project. This is imported as a Git submodule from [another repository](https://github.com/the-teachingRSE-project/bibliography). See the instructions in that repository if you need to add bibliography entries.
+
 ### How to create a pull request
 
 - Fork this repository
