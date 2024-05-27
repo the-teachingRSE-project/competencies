@@ -22,7 +22,7 @@ output:
     citation_package: biblatex
     toc: true
     number_sections: true
-bibliography: bibliography.bib
+bibliography: bibliography/bibliography.bib
 keywords:
   - research software engineering
   - training
