@@ -349,6 +349,9 @@ will have a decisive impact on the adequacy for purpose of the model.
 An RSE usually takes a pivotal role in assessing this adequacy for purpose of a model
 as well as in characterizing and communicating the domain of its legitimate application
 and its limits of interpretability.
+Taking care of the model's explainability is not not limited to the scientific domain,
+as model outputs frequently serve to inform policy advice
+or the public perception of topics of general interest.
 This role, together with the enormous reliance on modelling and simulation of scientific results  
 as well as real-world decision-making
 places a larges responsibility on the RSE.
