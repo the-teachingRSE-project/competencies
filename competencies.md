@@ -335,7 +335,7 @@ Further values loosely based on that code include the obligations
 The deployment of computer-based modelling and simulation has dramatically changed the practice of science in a large number of fields,
 enabled the hitherto impossible study of new classes of problems,
 often replaces traditional experimentation and observation
-and can serve to integrate a communal body of knowledge (Parker, 2022, https://doi.org/10.1007/s10670-020-00260-1).
+and can serve to integrate a communal body of knowledge [@Parker2022].
 Humphreys (2004) regards this development as "more important than the invention of the calculus in the 1660s, an event that remained unparalleled for almost 300 years".
 The epistemological status of computer modelling and simulation is still the subject of debate,
 which ranges from the postulate of a new process of knowledge creation that has its own, unique, epistemology (Winsberg, 1999, https://doi.org/10.1017/S0269889700003422)
