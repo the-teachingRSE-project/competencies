@@ -332,6 +332,18 @@ Further values loosely based on that code include the obligations
 + to treat colleagues and collaborators with respect and work towards a fair and inclusive environment, and
 + to promote these values whenever possible and make sure that they are passed on to new practitioners.
 
+The availability of computers has put a tremendously powerful tool at the disposal of the scientific community.
+Computer simulations are now considered to be the third pillar of science, while data science is on its way to becoming a fourth pillar [@Weinzierl2021].
+With the possibility of performing a virtually unlimited number of simulations, computers enable the study of systems of unprecedented complexity.
+Therefore validation becomes far more important in order to enable sound decision-making that is grounded in independent observations of reality.
+The RSE needs to be aware of the limits of the epistemological capabilities of a simulation 
+and has the obligation to critically evaluate a computer's use:
+Is the model fit for purpose? Are the results consistent with theory and/or observations?
+Can the amount of trust put into a result be reasonably explained?
+These issues are particularly relevant to the scientific application of AI systems.
+For these reasons the RSE needs to apply caution, a culture of critical thinking, and care of "putting human judgement in the loop".
+In practice this means increasing the opportunities for making results explainable.
+
 RSEs often assume a multifaceted role at the junction of research, \ac{SE} and data management.
 They work with a varying and diverse set of colleagues that might include other developers,
 support unit staff and academics of different fields and all career stages.
