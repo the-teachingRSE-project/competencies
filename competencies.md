@@ -346,12 +346,13 @@ the choice of the mathematical representation of the processes to be represented
 the choice of numerical methods and other algorithms
 and even including the design of the user-interface
 will have a decisive impact on the adequacy for purpose of the model.
+The relationship between initial state, inputs and final state of a computer simulation is "epistemically opaque" ( https://doi.org/10.1093/0195158709.001.0001 , Humphrey2004 ),
+in that not every step of the process is directly observable.
+The current trend of an increasing application of computationally irreducible systems, such as those based artifical neural networks,
+further exacerbates this inherent limitation of explainablility. 
 An RSE usually takes a pivotal role in assessing this adequacy for purpose of a model
 as well as in characterizing and communicating the domain of its legitimate application
 and its limits of interpretability.
-Taking care of the model's explainability is not not limited to the scientific domain,
-as model outputs frequently serve to inform policy advice
-or the public perception of topics of general interest.
 This role, together with the enormous reliance on modelling and simulation of scientific results  
 as well as real-world decision-making
 places a larges responsibility on the RSE.
