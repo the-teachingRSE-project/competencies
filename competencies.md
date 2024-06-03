@@ -332,48 +332,27 @@ Further values loosely based on that code include the obligations
 + to treat colleagues and collaborators with respect and work towards a fair and inclusive environment, and
 + to promote these values whenever possible and make sure that they are passed on to new practitioners.
 
-## Barberousse & Vorms
-"he rationality of the production of empirical knowledge through computer simulations" is questioned (Barberousse & Vorms)
-"to explore to what extent, and in what conditions, the practice of relying on computers as a mean to achieve empirical knowledge is rationally warranted" (Barberousse & Vorms)
-"Where, on the methodological map (that is, where, between theory exploration and experiment) do computer simulations lie" is a common question (Barberousse & Vorms)
-
-"epistemic opacity, defined as the inability to follow the computational process": ": human beings are
-unable to follow what is going on within a computer simulation." This opacity is generally accepted / referrred to.
-
-"The collaborative character of many computer simulations thus adds to the difficulty of grounding justificational arguments about their outputs."
-
-## Parker, 2020
-"Philosophers of science, however, disagree about the extent to which computer simulation, as a methodological practice, really is like experimentation and observation, with similar epistemic powers "
-
-"Most notably, computer simulation is helpful when the body of first-order evidence for a hypothesis, and/or the background knowledge needed to interpret that body of first-order evidence, is large, complex and distributed across multiple agents."
-
-"computer simulation models not only serve to augment the computational powers of human beings (Humphreys 2004) but also serve as sites of community knowledge integration (Galison 1997; Gramelsberger 2011), where the implications of (one distillation of) collective knowledge can be explored"
-
-"the process of determining whether a simulation system has succeeded in revealing (something close to) the implications of an existing body of knowledge, or provides evidence for some hypothesis h about the world, can be a much more motley affair (Winsberg 2001) than the process of determining the same for a pencil-and-paper calculation."
-
-"Most notably, computer simulation is helpful when the body of first-order evidence for a hypothesis, and/or the background knowledge needed to interpret that body of first-order evidence, is large, complex and distributed across multiple agents"
-
-"In addition, because simulation models are often the product of a range of ingredients, including simplified implementations of various scientific theories, numerical solution methods, compilers—and sometimes ad hoc assumptions and mathematical tricks as well—the process of determining whether a simulation system has succeeded in revealing (something close to) the implications of an existing body of knowledge, or provides evidence for some hypothesis h about the world, can be a much more motley affair (Winsberg 2001) than the process of determining the same for a pencil-and-paper calculation. "
-
-## Frigg & Reiss, 2009
-
-"simulations, far from demanding a new metaphysics, epistemology, semantics and methodology, raise few if any new philosophical problems."
-
-
-
-
-The availability of computers has put a tremendously powerful tool at the disposal of the scientific community,
-making simulation already the third pillar of science while data science is on its way to becoming a fourth pillar [@Weinzierl2021].
-With the possibility of performing a virtually unlimited number of simulations, computers enable the study of systems of unprecedented complexity.
-Therefore validation becomes far more important in order to enable a sound decision-making that is grounded in independent observations of reality.
-and is aware of the limits of its epistemological capabilities.
-The RSE learns how to operate and manipulate computers and at the same time has been brought up on the value that an RSE
-has the obligation to critically evaluate a computer's use:
-Is the model fit for purpose? Are the results consistent with theory and/or observations?
-Can the amount of trust put into a result be reasonably explained?
-These issues are particularly relevant to the scientific application of AI systems.
-For these reasons the RSE needs to apply caution, a culture of critical thinking, and care of "putting human judgement in the loop".
-In practice this means increasing the opportunities for making results explainable.
+The deployment of computer-based modelling and simulation has dramatically changed the practice of science in a large number of fields,
+enabled the hitherto impossible study of new classes of problems,
+often replaces traditional experimentation and observation
+and can serve to integrate a communal body of knowledge (Parker, 2022, https://doi.org/10.1007/s10670-020-00260-1).
+Humphreys (2004) regards this development as "more important than the invention of the calculus in the 1660s, an event that remained unparalleled for almost 300 years".
+The epistemological status of computer modelling and simulation is still the subject of debate,
+which ranges from the postulate of a new process of knowledge creation that has its own, unique, epistemology (Winsberg, 1999, https://doi.org/10.1017/S0269889700003422)
+to the perception that from a philosophy of science perspective, there isn't really anything new (Frigg and Reiss, 2009, https://doi.org/10.1007/s11229-008-9438-z).
+In any case it is clear, that the construction of a simulation-model,
+including the selection of the salient characteristics of the system to be modelled,
+the choice of the mathematical representation of the processes to be represented,
+the choice of numerical methods and other algorithms
+and even including the design of the user-interface
+will have a decisive impact on the adequacy for purpose of the model.
+An RSE usually takes a pivotal role in assessing this adequacy for purpose of a model
+as well as in characterizing and communicating the domain of its legitimate application
+and its limits of interpretability.
+This role, together with the enormous reliance on modelling and simulation of scientific results  
+as well as real-world decision-making
+places a larges responsibility on the RSE.
+It is important that RSEs are aware of this responsibility and continuously improve their capabilities to live up to it.
 
 RSEs often assume a multifaceted role at the junction of research, \ac{SE} and data management.
 They work with a varying and diverse set of colleagues that might include other developers,
