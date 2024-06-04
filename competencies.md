@@ -348,7 +348,7 @@ and even including the design of the user-interface
 will have a decisive impact on the adequacy for purpose of the model.
 The relationship between initial state, inputs and final state of a computer simulation is "epistemically opaque" ( https://doi.org/10.1093/0195158709.001.0001 , Humphrey2004 ),
 in that not every step of the process is directly observable.
-The current trend of an increasing application of computationally irreducible systems, such as those based artifical neural networks,
+The current trend of an increasing application of computationally irreducible systems, such as those based artificial neural networks,
 further exacerbates this inherent limitation of explainablility. 
 An RSE usually takes a pivotal role in assessing this adequacy for purpose of a model
 as well as in characterizing and communicating the domain of its legitimate application
