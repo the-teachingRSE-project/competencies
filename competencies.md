@@ -472,11 +472,23 @@ software development with RSE-specific focus skills.
 <!-- Adapting to the software life cycle -->
 \skillsection{SWLC}
 
-The traditional software development life cycle defines the stages that form the process of building a piece of software.
-Initial development generally involves an analytic process where needs and ideas are gathered and analysed (requirements engineering),
-followed by a formulation of a plan to fulfil them (design) that is finally turned into running code (implementation).
-This is accompanied by different measures of quality control (e.g., reviews, testing), validating and verifying 
-that things work as expected and that they continue to do when development progresses further. Depending on the software project, this can mean a simple "Think-before-you-do", or more elaborate and formal processes.
+The traditional software development life cycle defines the stages that form the process of building a piece of software. RSEs need to have a firm understanding and working knowledge of core areas in software engineering that cover the development life cycle.
+
+Proper requirement elicitation, analysis and specification are of the essence for any successful development project.
+The results of the requirements engineering phase feed into the design stage of software development in which the RSE applies architectural patterns, principles and strategies to arrive at adequate design decisions.
+Actual software construction is tightly linked to the skill-areas covering design and testing
+and includes the actual coding of the program.
+An RSE needs to have mastered the programming languages(s) and programming paradigm(s) relevant for their respective environment
+and be well versed in common programming paradigms, principles and patterns.
+Testing and validating software occurs on several levels, from unit testst to integration tests,
+and is instrumental to achieve software sustainability, maintainability and re-usability
+as well as to ensure its fitness for the intended scientific use.
+
+It has to be kept in mind though, that these skill areas,
+together with other knowledge-domains listed in pertinent sources such as @swebok_2014,
+will have very different levels of importance for different RSEs
+due to the extremely heterogenous nature of their occupations.
+
 Often the development cycles are executed iteratively and incrementally.
 The life cycle further includes periods of deployment, maintenance and further development (software evolution),
 as well as software retirement.
