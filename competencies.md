@@ -336,17 +336,17 @@ The deployment of computer-based modelling and simulation has dramatically chang
 It has enabled the hitherto impossible study of new classes of problems,
 often replacing traditional experimentation and observation.
 It can also serve to integrate a communal body of knowledge [@Parker2022].
-Humphreys (2004) regards this development as "more important than the invention of the calculus in the 1660s, an event that remained unparalleled for almost 300 years".
+Humphreys [@humphreys_extending_2004] regards this development as "more important than the invention of the calculus in the 1660s, an event that remained unparalleled for almost 300 years".
 The epistemological status of computer modelling and simulation is still the subject of debate,
-which ranges from the postulate of a new process of knowledge creation that has its own, unique, epistemology (Winsberg, 1999, https://doi.org/10.1017/S0269889700003422)
-to the perception that from a philosophy of science perspective, there is nothing really new (Frigg and Reiss, 2009, https://doi.org/10.1007/s11229-008-9438-z).
+which ranges from the postulate of a new process of knowledge creation that has its own, unique, epistemology [@winsberg_sanctioning_1999]
+to the perception that from a philosophy of science perspective, there is nothing really new [@frigg_philosophy_2009].
 In any case it is clear, that the construction of a simulation-model,
 including the selection of the salient characteristics of the system to be modelled,
 the choice of the mathematical representation of the processes to be represented,
 the choice of numerical methods and other algorithms
 and even including the design of the user-interface
-will have a decisive impact on the adequacy for purpose (Bokulich and Parker, 2021, https://doi.org/10.1007/s13194-020-00345-2) of the model.
-The relationship between initial state, inputs and final state of a computer simulation is "epistemically opaque" ( https://doi.org/10.1093/0195158709.001.0001 , Humphrey2004 ),
+will have a decisive impact on the adequacy for purpose [@bokulich_data_2021] of the model.
+The relationship between initial state, inputs and final state of a computer simulation is "epistemically opaque" [@humphreys_extending_2004],
 in that not every step of the process is directly observable.
 The current trend of an increasing application of computationally irreducible systems, such as those based on artificial neural networks,
 further exacerbates this inherent limitation of explainability.
