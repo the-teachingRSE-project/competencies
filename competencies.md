@@ -345,7 +345,7 @@ including the selection of the salient characteristics of the system to be model
 the choice of the mathematical representation of the processes to be represented,
 the choice of numerical methods and other algorithms
 and even including the design of the user-interface
-will have a decisive impact on the adequacy for purpose of the model.
+will have a decisive impact on the adequacy for purpose (Bokulich and Parker, 2021, https://doi.org/10.1007/s13194-020-00345-2) of the model.
 The relationship between initial state, inputs and final state of a computer simulation is "epistemically opaque" ( https://doi.org/10.1093/0195158709.001.0001 , Humphrey2004 ),
 in that not every step of the process is directly observable.
 The current trend of an increasing application of computationally irreducible systems, such as those based artificial neural networks,
