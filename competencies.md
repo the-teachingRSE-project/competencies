@@ -339,7 +339,7 @@ It can also serve to integrate a communal body of knowledge [@Parker2022].
 Humphreys (2004) regards this development as "more important than the invention of the calculus in the 1660s, an event that remained unparalleled for almost 300 years".
 The epistemological status of computer modelling and simulation is still the subject of debate,
 which ranges from the postulate of a new process of knowledge creation that has its own, unique, epistemology (Winsberg, 1999, https://doi.org/10.1017/S0269889700003422)
-to the perception that from a philosophy of science perspective, there isn't really anything new (Frigg and Reiss, 2009, https://doi.org/10.1007/s11229-008-9438-z).
+to the perception that from a philosophy of science perspective, there is nothing really new (Frigg and Reiss, 2009, https://doi.org/10.1007/s11229-008-9438-z).
 In any case it is clear, that the construction of a simulation-model,
 including the selection of the salient characteristics of the system to be modelled,
 the choice of the mathematical representation of the processes to be represented,
