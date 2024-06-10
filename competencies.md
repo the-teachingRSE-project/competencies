@@ -332,10 +332,10 @@ Further values loosely based on that code include the obligations
 + to treat colleagues and collaborators with respect and work towards a fair and inclusive environment, and
 + to promote these values whenever possible and make sure that they are passed on to new practitioners.
 
-The deployment of computer-based modelling and simulation has dramatically changed the practice of science in a large number of fields,
-enabled the hitherto impossible study of new classes of problems,
-often replaces traditional experimentation and observation
-and can serve to integrate a communal body of knowledge [@Parker2022].
+The deployment of computer-based modelling and simulation has dramatically changed the practice of science in a large number of fields.
+It has enabled the hitherto impossible study of new classes of problems,
+often replacing traditional experimentation and observation.
+It can also serve to integrate a communal body of knowledge [@Parker2022].
 Humphreys (2004) regards this development as "more important than the invention of the calculus in the 1660s, an event that remained unparalleled for almost 300 years".
 The epistemological status of computer modelling and simulation is still the subject of debate,
 which ranges from the postulate of a new process of knowledge creation that has its own, unique, epistemology (Winsberg, 1999, https://doi.org/10.1017/S0269889700003422)
