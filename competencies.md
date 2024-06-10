@@ -332,17 +332,31 @@ Further values loosely based on that code include the obligations
 + to treat colleagues and collaborators with respect and work towards a fair and inclusive environment, and
 + to promote these values whenever possible and make sure that they are passed on to new practitioners.
 
-The availability of computers has put a tremendously powerful tool at the disposal of the scientific community.
-Computer simulations are now considered to be the third pillar of science, while data science is on its way to becoming a fourth pillar [@Weinzierl2021].
-With the possibility of performing a virtually unlimited number of simulations, computers enable the study of systems of unprecedented complexity.
-Therefore validation becomes far more important in order to enable sound decision-making that is grounded in independent observations of reality.
-The RSE needs to be aware of the limits of the epistemological capabilities of a simulation 
-and has the obligation to critically evaluate a computer's use:
-Is the model fit for purpose? Are the results consistent with theory and/or observations?
-Can the amount of trust put into a result be reasonably explained?
-These issues are particularly relevant to the scientific application of AI systems.
-For these reasons the RSE needs to apply caution, a culture of critical thinking, and care of "putting human judgement in the loop".
-In practice this means increasing the opportunities for making results explainable.
+The deployment of computer-based modelling and simulation has dramatically changed the practice of science in a large number of fields.
+It has enabled the hitherto impossible study of new classes of problems,
+often replacing traditional experimentation and observation.
+It can also serve to integrate a communal body of knowledge [@Parker2022].
+Humphreys [@humphreys_extending_2004] regards this development as "more important than the invention of the calculus in the 1660s, an event that remained unparalleled for almost 300 years".
+The epistemological status of computer modelling and simulation is still the subject of debate,
+which ranges from the postulate of a new process of knowledge creation that has its own, unique, epistemology [@winsberg_sanctioning_1999]
+to the perception that from a philosophy of science perspective, there is nothing really new [@frigg_philosophy_2009].
+In any case it is clear, that the construction of a simulation-model,
+including the selection of the salient characteristics of the system to be modelled,
+the choice of the mathematical representation of the processes to be represented,
+the choice of numerical methods and other algorithms
+and even including the design of the user-interface
+will have a decisive impact on the adequacy for purpose [@bokulich_data_2021] of the model.
+The relationship between initial state, inputs and final state of a computer simulation is "epistemically opaque" [@humphreys_extending_2004],
+in that not every step of the process is directly observable.
+The current trend of an increasing application of computationally irreducible systems, such as those based on artificial neural networks,
+further exacerbates this inherent limitation of explainability.
+An RSE usually takes a pivotal role in assessing this adequacy for purpose of a model
+as well as in characterising and communicating the domain of its legitimate application
+and its limits of interpretability.
+This role, together with the enormous reliance on modelling and simulation of scientific results  
+as well as real-world decision-making
+places a larges responsibility on the RSE.
+It is important that RSEs are aware of this responsibility and continuously improve their capabilities to live up to it.
 
 RSEs often assume a multifaceted role at the junction of research, \ac{SE} and data management.
 They work with a varying and diverse set of colleagues that might include other developers,
