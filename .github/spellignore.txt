@@ -66,6 +66,7 @@ exascale
 ExCALIBUR
 EXCELERATE
 executables
+explainability
 FAIRness
 FAU
 findability
