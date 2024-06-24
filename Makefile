@@ -6,12 +6,12 @@ objects := competencies.pdf
 
 all: $(objects)
 
-%.pdf: %.md bibliography.bib contributors.yml preamble.sty build/template.tex glossary.tex filter.py
+%.pdf: %.md bibliography/bibliography.bib contributors.yml preamble.sty build/template.tex glossary.tex filter.py
 	@mkdir -p build
 	@mkdir -p build/svg-inkscape
 	@rm -f build/pdfa.xmpi
 	cp --update preamble.sty build/
-	cp --update bibliography.bib build/
+	cp --update bibliography/bibliography.bib build/
 	cp --update glossary.tex build/
 	python3 filter.py --input="${<}" --output="build/${<}" --contributors="contributors.yml"
 	pandoc \

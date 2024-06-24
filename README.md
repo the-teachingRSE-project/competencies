@@ -45,9 +45,52 @@ You will also need to install a few Python packages:
 python3 -m pip install -r requirements.txt
 ```
 
+### Bibliography
+
+We use a single, shared BibTeX bibliography file for all papers in the teaching RSE project.
+This is imported as a git submodule from [another repository](https://github.com/the-teachingRSE-project/bibliography).
+See the instructions in that repository if you need to add bibliography entries.
+
+When you first clone this repository, the bibtex folder is empty.
+To download the bibliography, run the following commands:
+
+```sh
+git submodule update --init --recursive
+git config --local submodule.recurse true
+```
+
+This will populate the folder with the contents of the remote bibliography repository.
+To modify the bibliography, you need to clone
+[the-teachingRSE-project/bibliography](https://github.com/the-teachingRSE-project/bibliography),
+commit your changes and push them. Then you can synchronize the
+local bibliography submodule by running the following commands:
+
+```sh
+git submodule update --remote bibliography
+git add bibliography
+git commit -m 'Synchronize bibliography'
+```
+
+If the remote bibliography repository is broken, you can roll back the bibliography version
+in the submodule. For example to go back 4 commits in the past, run:
+
+```sh
+cd bibliography/
+git reset HEAD~4
+git checkout .
+cd ..
+git add bibliography/
+git commit -m 'Roll back to an older version of the bibliography'
+```
+
 ### How to create a pull request
 
 - Fork this repository
+- If you clone your fork locally, run
+  ```sh
+  git submodule update --init --recursive
+  git config --local submodule.recurse true
+  ```
 - Create your changes in your fork
 - Go to the [pull requests](https://github.com/CaptainSifff/paper_teaching-learning-RSE/pulls) page of this repository and push `new pull request`
 - You can add DRAFT, or WIP to indicate work-in-progress PRs.
