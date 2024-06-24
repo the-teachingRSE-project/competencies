@@ -32,6 +32,8 @@ jobs:
           path: ./github_artifacts
   deploy:
     needs: [paper]
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     if: ${{ github.repository == 'the-teachingRSE-project/competencies' && github.ref == 'refs/heads/main' }}
     steps:
