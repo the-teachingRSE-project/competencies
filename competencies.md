@@ -473,12 +473,15 @@ competencies defined below. We will elaborate these in
 \newcommand{\skillsection}[1]{\hypertarget{skills-#1}{%
 \subsubsection{\glsentrydesc{#1} (\texorpdfstring{\glsentrytext{#1}}{#1})}\label{skills-#1}}}
 
+Besides skilled researchers, research software engineers are also competent software engineers.
+As such, they solve complex software engineering problems, and design software as a user-oriented, future-proof product.
 The technical skills required by an RSE overlap to a large extent with the common 
 fundamental software engineering skills (see, e.g., @Landwehr2017), but put greater
-emphasis on aspects related to achieving good scientific practice. 
-For example, RSEs need to know how to make research software adhere to the 
+emphasis on aspects related to achieving good scientific practice.
+RSEs are competent in requirements analysis, design, construction, testing, analysis, and testing of software.
+But they also know, for example, how to make research software adhere to the 
 \ac{FAIR} principles, and how to achieve different levels of research
-software reusability @ChueHong2014. To reflect this, the technical skills
+software reusability (see, e.g., @ChueHong2014). To reflect this, the technical skills
 listed below complement competencies regarding the standard life cycle of
 software development with RSE-specific focus skills. 
 
