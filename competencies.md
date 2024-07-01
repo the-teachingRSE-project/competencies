@@ -478,7 +478,7 @@ As such, they solve complex software engineering problems, and design software a
 The technical skills required by an RSE overlap to a large extent with the common 
 fundamental software engineering skills (see, e.g., @Landwehr2017), but put greater
 emphasis on aspects related to achieving good scientific practice.
-RSEs are competent in requirements analysis, design, construction, testing, analysis, and testing of software.
+RSEs are competent in requirements analysis, design, construction, testing, program analysis, and maintenance of software.
 But they also know, for example, how to make research software adhere to the 
 \ac{FAIR} principles, and how to achieve different levels of research
 software reusability (see, e.g., @ChueHong2014). To reflect this, the technical skills
