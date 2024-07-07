@@ -484,16 +484,16 @@ But they also know, for example, how to make research software adhere to the
 \ac{FAIR} principles, and how to achieve different levels of research
 software reusability (see, e.g., @ChueHong2014). To reflect this, the technical skills
 listed below complement competencies regarding the standard life cycle of
-software development (as summarized in \autoref{subsec:technical-general}) with RSE-specific focus skills. 
+software development (as summarised in \autoref{subsec:technical-general}) with RSE-specific focus skills. 
 
 \subsubsection{Classical software engineering skills}\label{subsec:technical-general}
 
-To summarize the vast range of the skills a software engineer is typically equipped,
+To summarise the vast range of the skills a software engineer is typically equipped,
 we refer to the Guide to the Software Engineering Body of Knowledge (@swebok_2014).
 Because they stand between fields, RSEs are stronger in topics more commonly
 encountered in research software contexts (e.g., mathematical and engineering foundations)
 than in other (e.g., software engineering economics), but they bring a solid level of competence
-in all software engineering topics. Therefore, RSEs can set and analyze software requirements in the context of
+in all software engineering topics. Therefore, RSEs can set and analyse software requirements in the context of
 open-ended research. They can design software so that it can sustainably grow, often
 in an environment of rapid turnover of contributors. They are competent in implementing
 solutions themselves in a wide range of technologies fit for different scientific applications.
