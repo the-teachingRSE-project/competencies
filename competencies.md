@@ -442,9 +442,10 @@ making these powerful tools work for the welfare of society.
 
 The role of an RSE lies somewhere on the spectrum between that of a researcher
 (the "R") and a software engineer (the "SE") and, therefore, requires
-competencies in both fields. RSEs typically apply their knowledge and
-experience in larger teams which allows them to cultivate this hybrid nature.
-Therefore, we categorise the competencies into three categories: *software/technical skills*,
+competencies in both fields. RSEs have a background both in research and
+in software engineering and typically apply their knowledge and
+experience in larger teams, which allows them to cultivate this hybrid nature.
+We categorise the competencies into three categories, following the two backgrounds and the bridge between them: *software/technical skills*,
 *research skills*, and *communication skills*, with a particular focus on the software and
 research cycle and the scientific process. These competencies are relevant in a
 broad setting and form the foundation for specific specialisations.
@@ -483,8 +484,24 @@ But they also know, for example, how to make research software adhere to the
 \ac{FAIR} principles, and how to achieve different levels of research
 software reusability (see, e.g., @ChueHong2014). To reflect this, the technical skills
 listed below complement competencies regarding the standard life cycle of
-software development with RSE-specific focus skills. 
+software development (as summarized in \autoref{subsec:technical-general}) with RSE-specific focus skills. 
 
+\subsubsection{Classical software engineering skills}\label{subsec:technical-general}
+
+To summarize the vast range of the skills a software engineer is typically equipped,
+we refer to the Guide to the Software Engineering Body of Knowledge (@swebok_2014).
+Because they stand between fields, RSEs are stronger in topics more commonly
+encountered in research software contexts (e.g., mathematical and engineering foundations)
+than in other (e.g., software engineering economics), but they bring a solid level of competence
+in all software engineering topics. Therefore, RSEs can set and analyze software requirements in the context of
+open-ended research. They can design software so that it can sustainably grow, often
+in an environment of rapid turnover of contributors. They are competent in implementing
+solutions themselves in a wide range of technologies fit for different scientific applications.
+They can formulate and implement various types of tests, they can independently maintain software
+and automate operations of the integration and release process. They are engineers that can
+provide working, scalable, and future-proof solutions in a professional context and with common
+project and software management techniques, adapted to the needs of the research environment.
+Finally, as skilled scientists seasoned in computing applications, they have strong mathematical, computing, and engineering foundations.
 
 <!-- Adapting to the software life cycle -->
 \skillsection{SWLC}
