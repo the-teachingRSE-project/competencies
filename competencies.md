@@ -220,6 +220,24 @@ Finally, @sec:appendix provides an example curriculum in @subsec:examplemaster,
 a story-like description of a fictional RSE career progression in @subsec:examplecareer,
 and a list of existing skills and certifications in related fields, in @subsec:existingframeworks.
 
+## The Term Research Software Engineer
+
+Research Software Engineering considers itself as an interface discipline,
+between traditional Software Engineering, and Research itself.
+This in turn means that there are plethora of different variations of the RSE depending on the 
+particular Research domain they are working in. Therefore the broad notion of Research Software Engineers is better thought of
+as a collection of sub-communities.
+The term of the Research Software Engineer is made more difficult to grasp, since at least least anecdotal evidence suggests,
+that uk-RSE community has a more technical oriented working definition, de-RSE has a more open working definition that
+allows more people to self-identify as RSEs.
+Therefore there is a large spectrum across which different definitions of the RSE can be located in.
+Common to all of them is, that they  need to be able to work in a Research environment, and therefore
+RSEs potentially need to deal with non-technical complexities that are characteristic for them: organizational, motivational, with respect to the size of projects, independence and heterogeneous goals of stakeholders, boundary conditions for funding and future funding, to name just a few.
+This variability of how strong the emphasis on the research aspect is, is symbollically represented
+as "R(SE) vs. (RS)E" meaning on the one hand, (SE) in a research environment, which would put it closer to other related fields like automotive software engineering,
+whereas on the other hand we would have engineering practices for Research Software.
+
+
 ## Terminology
 
 Depending on the national research
