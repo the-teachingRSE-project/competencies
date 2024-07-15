@@ -468,7 +468,7 @@ finding a community. Those topics comprise combinations of the skills and
 competencies defined below. We will elaborate these in
 @sec:tasks-and-responsibilities.
 
-## Software/Technical skills
+## Technicl Skills and Engineering Mindset
 
 \newcommand{\skillsection}[1]{\hypertarget{skills-#1}{%
 \subsubsection{\glsentrydesc{#1} (\texorpdfstring{\glsentrytext{#1}}{#1})}\label{skills-#1}}}
@@ -478,9 +478,37 @@ fundamental software engineering skills (see, e.g., @Landwehr2017), but put grea
 emphasis on aspects related to achieving good scientific practice. 
 For example, RSEs need to know how to make research software adhere to the 
 \ac{FAIR} principles, and how to achieve different levels of research
-software reusability @ChueHong2014. To reflect this, the technical skills
-listed below complement competencies regarding the standard life cycle of
-software development with RSE-specific focus skills. 
+software reusability @ChueHong2014.
+This reflects a degree of product oriented thinking, that is not common in
+research focussed domains, but is more natural to the way traditional enginners are trained:
+Putting the focus on a reusable product.
+
+## Reliability and Quality Assurance
+The engineer is aware that in order to create an accepted product,
+the product needs to be perceived as reliable by the end-user. He employs
+state-of-the-art techniques for this. He uses development processes that allow to maintain
+this level of quality while also being able to document the achieved level.
+
+## Functional Performance and Efficiency
+The engineer is aware of the use-cases of its users. He gathered insights on how they intend to use
+the product and is aware of the long-term requirements that his users require.
+Within these boundaries he tries to achieve good performance with an economical use of resources.
+
+
+<!-- Software behaviour awareness and analysis -->
+\skillsection{MOD}
+
+We define this as a certain quality of analytical thinking that enables an RSE to
+form a mental model of a piece of software in a specific environment (program comprehension).
+Using that, an RSE should be able to make predictions about a software's behaviour.
+This is a required skill for common tasks such as debugging, profiling, optimising, designing good
+tests, or predicting user interaction.
+Many tools exist to help with understanding and evaluating existing code,
+especially from a structural point of view.
+An RSE should understand their output and its implications.
+An important facet of this capability relates to information security.
+RSEs need to consider the safety and integrity of personal data and other sensitive information
+and make sure that they do not negatively impact the integrity of their institution's network.
 
 
 <!-- Adapting to the software life cycle -->
@@ -499,34 +527,6 @@ with \gls{software-publication}. The RSE should be aware of this life cycle
 and be able to predict and cater to the changing needs of a software project as it moves through the stages.
 
 
-<!-- Creating documented code building blocks -->
-\skillsection{DOCBB}
-
-The RSE should be able to create building blocks from source code that are
-reusable. This ranges from simple libraries of functions up to complex
-architectures consisting of multiple software packages. An important part of
-reusability is that at least oneself, and ideally others, are able to understand
-what a piece of software aims to do and how to enable others to use the provided functionality. This
-is primarily achieved through a "clean" implementation and enhanced by
-documentation. Documentation ranges from commenting code blocks to using
-documentation (building) tools.
-It should be written with consideration for the different audiences who may need it 
-depending on their goals and expertise, 
-for example by following the Diátaxis framework @Procida_Diataxis_documentation_framework.
-
-<!-- Building distributable libraries -->
-\skillsection{DIST}
-
-The RSE should be able to distribute their code on their domain/language
-specific distribution platforms. This almost always encompasses
-handling/documenting dependencies with other packages/libraries. It sometimes
-requires knowledge of using build 
-or package management systems to enable interoperability with other projects.
-In terms of usability and needs of the user community the RSE should be able
-to decide whether a library or a framework is the right type of program
-to build and distribute.
-
-
 <!-- Use repositories -->
 \skillsection{SWREPOS}
 
@@ -534,22 +534,6 @@ The RSE should be able to identify and use fitting public platforms (so-called s
 to share the artefacts they have created and invite the public to scrutinise them in public reviews.
 These software repositories usually provide facilities for software development, which 
 differentiate them from the domain repositories described later.
-
-
-<!-- Software behaviour awareness and analysis -->
-\skillsection{MOD}
-
-We define this as a certain quality of analytical thinking that enables an RSE to
-form a mental model of a piece of software in a specific environment (program comprehension).
-Using that, an RSE should be able to make predictions about a software's behaviour.
-This is a required skill for common tasks such as debugging, profiling, optimising, designing good
-tests, or predicting user interaction.
-Many tools exist to help with understanding and evaluating existing code,
-especially from a structural point of view. 
-An RSE should understand their output and its implications.
-An important facet of this capability relates to information security.
-RSEs need to consider the safety and integrity of personal data and other sensitive information
-and make sure that they do not negatively impact the integrity of their institution's network.
 
 ## Research skills
 
