@@ -231,8 +231,8 @@ The term of the Research Software Engineer is made more difficult to grasp, sinc
 that uk-RSE community has a more technical oriented working definition, de-RSE has a more open working definition that
 allows more people to self-identify as RSEs.
 Therefore there is a large spectrum across which different definitions of the RSE can be located in.
-Common to all of them is, that they  need to be able to work in a Research environment, and therefore
-RSEs potentially need to deal with non-technical complexities that are characteristic for them: organisational, motivational, with respect to the size of projects, independence and heterogeneous goals of stakeholders, boundary conditions for funding and future funding, to name just a few.
+Common to all of them is, that they  need to be able to work in a Research environment. 
+RSEs often need to deal with non-technical complexities that are characteristic for Research environments: organisational, motivational, with respect to the size of projects, independence and heterogeneous goals of stakeholders, boundary conditions for funding and future funding, to name just a few.
 This variability of how strong the emphasis on the research aspect is, is symbolically represented
 as "R(SE) vs. (RS)E" meaning on the one hand, (SE) in a research environment, which would put it closer to other related fields like automotive software engineering,
 whereas on the other hand we would have engineering practices for Research Software.
