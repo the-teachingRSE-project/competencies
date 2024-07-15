@@ -479,11 +479,12 @@ Besides skilled researchers, research software engineers are also competent soft
 As such, they solve complex software engineering problems, and design software as a user-oriented, future-proof product.
 The technical skills required by an RSE overlap to a large extent with the common 
 fundamental software engineering skills (see, e.g., @Landwehr2017), but put greater
-emphasis on aspects related to achieving good scientific practice.
+emphasis on aspects related to achieving good scientific practice and to serving special needs of research software.
 RSEs are competent in requirements analysis, design, construction, testing, program analysis, and maintenance of software.
 But they also know, for example, how to make research software adhere to the 
 \ac{FAIR} principles, and how to achieve different levels of research
-software reusability (see, e.g., @ChueHong2014). To reflect this, the technical skills
+software reusability (see, e.g., @ChueHong2014), while they have deeper understanding of the scientific context
+around the research software projects they work on. To reflect this, the technical skills
 listed below complement competencies regarding the standard life cycle of
 software development (as summarised in \autoref{subsec:technical-general}) with RSE-specific focus skills. 
 
