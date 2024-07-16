@@ -765,7 +765,7 @@ to open up or close down a repository. The \gls{USERS}, \gls{TEAM} and sometimes
 the practices and contractual regulations of the RSE's institution is also
 required.
 
-The RSE also needs to understand metadata for research and research software.
+The RSE also needs to understand metadata for research data and research software.
 There are ongoing efforts on metadata for research software such as CodeMeta
 [@jones_codemeta_2017] and the \ac{NFDI} working group
 [@castro_research_sw_metadata_2023] on the subject. These are complemented by
