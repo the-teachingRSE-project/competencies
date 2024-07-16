@@ -608,7 +608,7 @@ belongs to the fundamentals of software construction [@swebok_2014].
 To discover software, RSEs rely on domain-specific knowledge and
 domain repositories, as well as research skills, discovering related
 software via software citations and metadata.
-To evaluate whether the artifacts to be re-used suit their needs,
+To evaluate whether the artefacts to be re-used suit their needs,
 RSEs often need to consider the scientific context of their origin.
 For example, a paper that references the code under consideration
 might be crucial to validate its fitness for purpose or to discredit it.
