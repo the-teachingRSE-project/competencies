@@ -129,12 +129,12 @@ Research software is now used and developed not only in \ac{STEM} domains,
 but also in others, like medicine and the humanities.
 
 Researchers often lack the skills to use specialised software
-for their research, let alone write it [@NamingPain]. If they come from a non-technical domain, they may
+for their research, let alone write it [@NamingPain]. If they come from a non-technical domain, they may
 also struggle to know what to ask when trying to request help from and interact with
 more experienced staff at their institutions. A gap still exists in
 academic education, as many curricula do not sufficiently prepare their students
 in this regard. This situation is exemplified by the extracurricular \ac{MIT} class
-"The Missing Semester of Your CS Education" [@MIT], which aims to increase 
+"The Missing Semester of Your CS Education" [@MIT], which aims to increase 
 "computing ecosystem literacy" even among students of Computer Science at \ac{MIT}.
 
 Researchers investing increasing amounts of their time developing their \ac{SE}
@@ -144,8 +144,8 @@ This, in turn, presents career development challenges since the experience requi
 and progress in research and academic roles is traditionally assessed through metrics that
 do not directly include software outputs.
 A recent shift towards the establishment of the distinct role of a
-_"Research Software Engineer"_ [@WhatResearchSoftware]
-(RSE, a term that emerged from the \ac{UK} a little over 10 years ago [@Hettrick2016]),
+_"Research Software Engineer"_ [@WhatResearchSoftware]
+(RSE, a term that emerged from the \ac{UK} a little over 10 years ago [@Hettrick2016]),
 now provides a base on which sustainable career opportunities can be (and are being) built,
 allowing for better training of researchers and more effective support for the development of high
 quality research software.
@@ -159,7 +159,7 @@ they may have a standard research or technical job title such as Research
 Assistant, Research Fellow, or Software Engineer. Regardless of their job title,
 RSEs share a set of core skills that are required to write software, understand
 the research environment, and ensure that they produce sustainable, maintainable
-code that supports reproducible research outputs, following the \ac{FAIR} principles [@FAIR4RS].
+code that supports reproducible research outputs, following the \ac{FAIR} principles [@FAIR4RS].
 
 This community paper defines a set of core values and foundational competencies,
 agnostic of specific technical capabilities or research domains,
@@ -233,8 +233,8 @@ that are necessary to understand its purpose.
 **Research software**: Foundational algorithms, the software itself,
 as well as scripts and computational workflows that were created
 during the research process or for a research purpose, across all domains of research.
-This definition is broader than in @FAIR4RS and is the outcome of a recent
-discussion in @Gruenpeter2021.
+This definition is broader than in @FAIR4RS and is the outcome of a recent
+discussion in @Gruenpeter2021.
 
 **Research software engineers**: People who
 create or improve research software and/or the structures that the software interacts with
@@ -258,9 +258,9 @@ and to guide the community with certification programs and training resources.
 
 #### RSE Competencies Toolkit
 
-The RSE Competencies Toolkit [@RSECompetenciesToolkit2023] is a community project
+The RSE Competencies Toolkit [@RSECompetenciesToolkit2023] is a community project
 that developed out of a hack day activity at the 2023 edition of the annual
-Software Sustainability Institute Collaborations Workshop [@SSICW23]. The
+Software Sustainability Institute Collaborations Workshop [@SSICW23]. The
 toolkit provides a web application that aims to support technical professionals
 in understanding how to develop their skills. It enables them to build a profile
 of their competencies within the system, while it also provides a set of training
@@ -268,9 +268,9 @@ resources that are linked to a competency framework.
 
 #### HPC Certification Forum
 
-The \ac{HPC} Certification Forum [@HPCCF] is working towards providing a certification
+The \ac{HPC} Certification Forum [@HPCCF] is working towards providing a certification
 process for \ac{HPC} skills.
-As part of this process, the group is developing a Competence Standard [@HPCCFCompetencies]
+As part of this process, the group is developing a Competence Standard [@HPCCFCompetencies]
 and an associated skill tree that provides a classification of \ac{HPC} competencies.
 This work aims to develop a standardised representation of relevant \ac{HPC} knowledge
 and skills which can, in turn, lead to structured and recognised sets of skills
@@ -278,7 +278,7 @@ that can underpin the certification process.
 
 #### EMBL-EBI Competency Hub
 
-The \ac{EMBL-EBI} Competency Hub [@CompetencyHub] provides a bioinformatics/computational
+The \ac{EMBL-EBI} Competency Hub [@CompetencyHub] provides a bioinformatics/computational
 biology-focused example of a competency portal. In addition to collecting
 information on a range of competencies that can be browsed within the
 web-based tool, it also provides career profiles for roles
@@ -297,29 +297,29 @@ initiatives, which will be discussed in more detail in a separate publication.
 In some cases, the activities extend beyond training, but they do not focus
 on defining frameworks of competencies.
 
-One prominent example is the Carpentries [@Carpentries], a non-profit entity that supports
+One prominent example is the Carpentries [@Carpentries], a non-profit entity that supports
 a range of open source training materials and international communities
 of volunteer instructors and helpers who run courses around these materials.
-A similar framework is provided by CodeRefinery [@CodeRefinery], currently
+A similar framework is provided by CodeRefinery [@CodeRefinery], currently
 funded by the Nordic e-Infrastructure,
-as well as SURESOFT [@SURESOFTLink; @SURESOFT2022], a project at Technical University (TU) Braunschweig and Friedrich-Alexander-University (FAU) Erlangen-Nürnberg, funded by the \ac{DFG} and targeting more advanced \ac{SE} topics such as
+as well as SURESOFT [@SURESOFTLink; @SURESOFT2022], a project at Technical University (TU) Braunschweig and Friedrich-Alexander-University (FAU) Erlangen-Nürnberg, funded by the \ac{DFG} and targeting more advanced \ac{SE} topics such as
 software design principles, \glspl{design-pattern}, refactoring, \ac{CI} and \ac{TDD}.
 
 There are also several initiatives focused on training \acrshort{HPC}-oriented RSEs,
-such as the \acrfull{PRACE} [@PRACE]
-(with material aggregated on various websites, e.g., on EuroCC Training [@EuroCCTraining]),
-\ac{UNIVERSE-HPC} [@UNIVERSEHPC] (a project funded under the \acrshort{UK}'s
-ExCALIBUR research programme [@EXCALIBUR]), and the \ac{ENCCS} [@ENCCS],
-which offers a collection of lessons for \ac{HPC} skills [@ENCCSLessons].
+such as the \acrfull{PRACE} [@PRACE]
+(with material aggregated on various websites, e.g., on EuroCC Training [@EuroCCTraining]),
+\ac{UNIVERSE-HPC} [@UNIVERSEHPC] (a project funded under the \acrshort{UK}'s
+ExCALIBUR research programme [@EXCALIBUR]), and the \ac{ENCCS} [@ENCCS],
+which offers a collection of lessons for \ac{HPC} skills [@ENCCSLessons].
 
-Initiatives focused on Germany include EduTrain [@EDUTRAIN] (a section of the \acrfull{NFDI} [@NFDI]),
-the \acrfull{HIFIS} [@HIFIS], and the already mentioned SURESOFT [@SURESOFTLink].
+Initiatives focused on Germany include EduTrain [@EDUTRAIN] (a section of the \acrfull{NFDI} [@NFDI]),
+the \acrfull{HIFIS} [@HIFIS], and the already mentioned SURESOFT [@SURESOFTLink].
 
 # Values {#sec:values}
 
 The activities of an RSE are guided by ethical values.
-In addition to the values for good scientific practice [@dfg_gsp], RSEs also adhere to
-the \ac{SE} Code of Ethics [@Gotterbarn1999].
+In addition to the values for good scientific practice [@dfg_gsp], RSEs also adhere to
+the \ac{SE} Code of Ethics [@Gotterbarn1999].
 Central to that code is the RSE's obligation to
 commit to the health, safety and welfare of the public and act in the interest of society, their employer and their clients.
 Further values loosely based on that code include the obligations
@@ -334,18 +334,18 @@ Further values loosely based on that code include the obligations
 The deployment of computer-based modelling and simulation has dramatically changed the practice of science in a large number of fields.
 It has enabled the hitherto impossible study of new classes of problems,
 often replacing traditional experimentation and observation.
-It can also serve to integrate a communal body of knowledge [@Parker2022].
-Humphreys [@humphreys_extending_2004] regards this development as "more important than the invention of the calculus in the 1660s, an event that remained unparalleled for almost 300 years".
+It can also serve to integrate a communal body of knowledge [@Parker2022].
+Humphreys [@humphreys_extending_2004] regards this development as "more important than the invention of the calculus in the 1660s, an event that remained unparalleled for almost 300 years".
 The epistemological status of computer modelling and simulation is still the subject of debate,
-which ranges from the postulate of a new process of knowledge creation that has its own, unique, epistemology [@winsberg_sanctioning_1999]
-to the perception that from a philosophy of science perspective, there is nothing really new [@frigg_philosophy_2009].
+which ranges from the postulate of a new process of knowledge creation that has its own, unique, epistemology [@winsberg_sanctioning_1999]
+to the perception that from a philosophy of science perspective, there is nothing really new [@frigg_philosophy_2009].
 In any case it is clear, that the construction of a simulation-model,
 including the selection of the salient characteristics of the system to be modelled,
 the choice of the mathematical representation of the processes to be represented,
 the choice of numerical methods and other algorithms
 and even including the design of the user-interface
-will have a decisive impact on the adequacy for purpose [@bokulich_data_2021] of the model.
-The relationship between initial state, inputs and final state of a computer simulation is "epistemically opaque" [@humphreys_extending_2004],
+will have a decisive impact on the adequacy for purpose [@bokulich_data_2021] of the model.
+The relationship between initial state, inputs and final state of a computer simulation is "epistemically opaque" [@humphreys_extending_2004],
 in that not every step of the process is directly observable.
 The current trend of an increasing application of computationally irreducible systems, such as those based on artificial neural networks,
 further exacerbates this inherent limitation of explainability.
@@ -373,13 +373,13 @@ We highlight that professional conduct requires these creations to be reliable a
 In particular, the way that personal data is handled can have far-reaching implications for society.
 Independent of the encoding into the respective national law in an RSE's jurisdiction,
 the right to information privacy is internationally recognised as a fundamental human right,
-e.g., in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988; @Hirvela2022].
+e.g., in the European Convention on Human Rights [@CouncilOfEuropeProtocol1988; @Hirvela2022].
 RSEs need to be aware of this topic's importance
 and deal with tensions that might arise with researchers' desire for trouble-free sharing of data, thereby expecting openness about the research process,
 versus the integrity expectations of the society towards \ac{IT} systems.
 Handling personal data also has ramifications for information security considerations during the software development process.
 Data protection is a difficult subject, so RSEs should notice when they need to consult external expertise, for example when dealing with
-special topics such as cryptography or re-identification attacks [@Henriksen2016].
+special topics such as cryptography or re-identification attacks [@Henriksen2016].
 
 
 ### Mentoring and diversity
@@ -387,8 +387,8 @@ special topics such as cryptography or re-identification attacks [@Henriksen2016
 RSEs are often experienced professionals who instruct and work closely with early career researchers.
 Similarly to academic supervisors, they bear a certain responsibility to guide and advise younger colleagues
 with respect to career development and the achievement of academic goals.
-According to the \ac{UNESCO} Science Report [@Schneegans2021] women account for 33.3% of all researchers while the majority of researchers come from G20 countries (88.8%).
-This imbalance is even more pronounced in \ac{SE} with a majority of developers identifying as white male [@StackOverflow2022].
+According to the \ac{UNESCO} Science Report [@Schneegans2021] women account for 33.3% of all researchers while the majority of researchers come from G20 countries (88.8%).
+This imbalance is even more pronounced in \ac{SE} with a majority of developers identifying as white male [@StackOverflow2022].
 Thereby, to promote their values of an honest, open, and inclusive research space, they should be aware of
 the diversity problem and help to mediate it whenever they have the chance to do so.
 
@@ -405,17 +405,17 @@ such as open science, path dependence, and vendor lock-in.
 ### Addressing environmental sustainability within planetary limits
 
 The last two decades saw transistor technology approach the limits of attainable miniaturisation, 
-and top chip clock frequency begin to plateau [@Sutter2005].
+and top chip clock frequency begin to plateau [@Sutter2005].
 Nevertheless, a misleading belief in limitless growth of computing capabilities
 (storage, computing power, transfer speed) is still widespread within popular perception.
 A practical consequence of this is an ever-growing demand for resources to cover
 the expanding need of storage and processing, with no clear deceleration in
 sight (e.g. the IEA estimates a doubling in data centres energy consumption from
-2024 to 2026 [@IEA2024]). At the same time, current science is well aware of
+2024 to 2026 [@IEA2024]). At the same time, current science is well aware of
 several planetary boundaries being trespassed due to human activities
 [@Richardson2023]. Data processing, storage and transfer account for a non
-negligible fraction [@IEA2024]. Demands to move resource consumption to a
-sustainable rate are well justified and supported by science [@Sills2019].
+negligible fraction [@IEA2024]. Demands to move resource consumption to a
+sustainable rate are well justified and supported by science [@Sills2019].
 
 RSEs have the opportunity to contribute to this effort by, for example,
 choosing computationally adequate approaches (e.g. recognising where a
@@ -424,7 +424,7 @@ or configuring a test pipeline to minimise redundancy), and embracing data
 frugality measures (e.g. recognising sufficient resolution when sampling data
 for processing or storage). If past computational solutions were frugal because
 of technological limits, in future they should tend to that by virtue of an
-awareness of what may be adequate. The \ac{GREENER} principles [@Lannelongue2023] suggest how
+awareness of what may be adequate. The \ac{GREENER} principles [@Lannelongue2023] suggest how
 these concerns can be addressed and how research computing can become more environmentally
 sustainable.
 
@@ -473,7 +473,7 @@ competencies defined below. We will elaborate these in
 \subsubsection{\glsentrydesc{#1} (\texorpdfstring{\glsentrytext{#1}}{#1})}\label{skills-#1}}}
 
 The technical skills required by an RSE overlap to a large extent with the common 
-fundamental software engineering skills (see, e.g., @Landwehr2017), but put greater
+fundamental software engineering skills (see, e.g., @Landwehr2017), but put greater
 emphasis on aspects related to achieving good scientific practice. 
 For example, RSEs need to know how to make research software adhere to the 
 \ac{FAIR} principles, and how to achieve different levels of research
@@ -511,7 +511,7 @@ documentation. Documentation ranges from commenting code blocks to using
 documentation (building) tools.
 It should be written with consideration for the different audiences who may need it 
 depending on their goals and expertise, 
-for example by following the Diátaxis framework @Procida_Diataxis_documentation_framework.
+for example by following the Diátaxis framework @Procida_Diataxis_documentation_framework.
 
 <!-- Building distributable libraries -->
 \skillsection{DIST}
@@ -555,7 +555,7 @@ and make sure that they do not negatively impact the integrity of their institut
 <!-- Conducting and leading research -->
 \skillsection{NEW}
 
-RSEs are curious and able to conduct research, both on research software engineering, and on their home domain (if any). Senior RSEs are also able to lead research, and many RSEs have a doctorate [@hettrick_survey_2022]. Since RSEs often operate in different research fields, they also gain their reputation from their effectiveness in interacting with researchers from the same or other domains. Therefore, some curiosity together with a broad overview of the
+RSEs are curious and able to conduct research, both on research software engineering, and on their home domain (if any). Senior RSEs are also able to lead research, and many RSEs have a doctorate [@hettrick_survey_2022]. Since RSEs often operate in different research fields, they also gain their reputation from their effectiveness in interacting with researchers from the same or other domains. Therefore, some curiosity together with a broad overview of the
 research field is required, as this enables the RSE to learn new methods and algorithms directly from domain peers.
 Similarly, a broad overview of the field of SE research 
 and the growing field of RSE research enables the RSE to learn, apply, and teach
@@ -586,7 +586,7 @@ good research, including publications, reviews and reproducibility.
 
 The re-use of existing assets such as libraries and pieces of code
 to improve efficiency and quality
-belongs to the fundamentals of software construction [@swebok_2014].
+belongs to the fundamentals of software construction [@swebok_2014].
 To discover software, RSEs rely on domain-specific knowledge and
 domain repositories, as well as research skills, discovering related
 software via software citations and metadata.
@@ -614,7 +614,7 @@ Beyond that, RSEs will need to properly execute the technicalities of software p
 These include the application of licences and copyright statements,
 understanding and assigning software authorship, crediting contributors,
 maintaining FAIR software metadata and publishing software artefacts.
-Finally, RSEs will need to understand the principles of software citation [@smith_SoftwareCitationPrinciples2016].
+Finally, RSEs will need to understand the principles of software citation [@smith_SoftwareCitationPrinciples2016].
 This concerns both the potential for reuse of their own work,
 which demands the provision of complete and correct up-to-date citation metadata for their software,
 as well as their own citation obligations deriving from building on previous work in the form of dependencies.
@@ -639,7 +639,7 @@ They are embedded in a research group or work within a team of RSEs supporting p
 RSEs often need to interact with and facilitate communication among colleagues, clients and contractors
 with a very broad spectrum of background-knowledge, specialisation, expectations, and experience.
 Communication skills are therefore crucially important.
-Team skills are also mentioned in common guides for \ac{SE} such as the software engineering body of knowledge [@swebok_2014].
+Team skills are also mentioned in common guides for \ac{SE} such as the software engineering body of knowledge [@swebok_2014].
 However, the interpersonal and organisational skills and the capacity for adaption required to work in a research setting
 warrants a much stronger emphasis on this field of competence.
 
@@ -659,7 +659,7 @@ Senior RSEs may lead a team of RSEs.
 
 RSEs have many opportunities to teach.
 These range from inducting new colleagues to teaching digital skills either through short courses,
-for example from The Carpentries [@Carpentries], or entire lecture series.
+for example from The Carpentries [@Carpentries], or entire lecture series.
 RSEs may also act as mentors and consultants.
 Code review also includes aspects of the teaching skill.
 
@@ -718,7 +718,7 @@ The RSE needs to be able to choose appropriate algorithms and techniques
 (\gls{MOD} and \gls{NEW}). Apart from the technical feasibility, this choice is
 also informed by the values outlined in Section @sec:values. For example, the
 RSE needs to be able to estimate resource usage (processing, memory and storage
-consumption, e.g. @Lannelongue2021). Resource usage has not only a direct financial price tag but also
+consumption, e.g. @Lannelongue2021). Resource usage has not only a direct financial price tag but also
 environmental costs via associated energy consumption.
 
 Software development also includes testing. This task is a manifestation of the
@@ -735,7 +735,7 @@ and how to include some of them into a \ac{CICD} pipeline.
 Typically, this includes linters and similar static tools as well as 
 dynamic tools like profilers and code coverage analysis. 
 The development of these tools is very dynamic and environment specific.
-A good introduction can be found in [@swebok_2014] and an online resource is [@vihps].
+A good introduction can be found in [@swebok_2014] and an online resource is [@vihps].
 As these tools help with behavioural and structural analysis and therefore
 modularisation these tools enable \gls{MOD} as well as \gls{DOCBB}.
 
@@ -752,14 +752,14 @@ There are ongoing efforts on metadata for research software such as CodeMeta
 [@jones_codemeta_2017] and the \ac{NFDI} working group
 [@castro_research_sw_metadata_2023] on the subject. These are complemented by
 the development of new tools and methods for providing and working with software
-metadata, such as the Citation File Format project [@druskat_cff_2021] and
-HERMES [@druskat_hermes_2022]. Other efforts focus on Software Management Plans
-(e.g., [@alves_elixir_2021; @martinez_ortiz_practical_2022]) which could be
+metadata, such as the Citation File Format project [@druskat_cff_2021] and
+HERMES [@druskat_hermes_2022]. Other efforts focus on Software Management Plans
+(e.g., [@alves_elixir_2021; @martinez_ortiz_practical_2022]) which could be
 helpful for RSEs at early stages (i.e., with not much experience of project
 management). They give quick hints on what to look for regarding basic
 management for research software (including information on e.g., licenses,
 releases, publication, citation) together with some ongoing work on
-corresponding metadata [@giraldo_metadata_2023]. Metadata can also be used
+corresponding metadata [@giraldo_metadata_2023]. Metadata can also be used
 actively during and within a research project to inform the decision making
 processes [@Bird2016].
 
@@ -792,7 +792,7 @@ Research software often starts out as a tool to answer a personal research
 question and becomes more important when other researchers rely on it. Some
 research software might even be used to deal with critical questions such as
 weather forecasting or medical diagnosis. A classification of software is commonly used
-to formalise the process of giving good advice [@Wang2012;
+to formalise the process of giving good advice [@Wang2012;
 @Schlauch2018b] where research software can move from one class to another
 during its life cycle. @Schlauch2018b classify applications based on their scope
 and criticality and provide \ac{SE} recommendations. The RSE needs to be able to
@@ -952,7 +952,7 @@ of developers is based locally within a research team or department,
 or when they are based in a dedicated, centralised RSE team.
 We also look at organisational aspects in the context of each of the considered
 competencies, since there are a variety of ways that organisations can contribute
-to and support them, complementing those proposed by @Katerbow2018. Some of them are brought to life in the example career path of @subsec:examplemaster.
+to and support them, complementing those proposed by @Katerbow2018. Some of them are brought to life in the example career path of @subsec:examplemaster.
 We first summarise the meaning of each of the columns in the tables:
 
 - **Competency:** The code assigned to the competency being considered, as defined in @sec:required-generic-skills.
@@ -1184,8 +1184,8 @@ We talk about the "research software engineer" as a single entity but as the fie
 we expect to see more roles and job titles emerging around the RSE concept,
 many of which fit under the wider umbrella of research technology professionals (RTPs).
 Examples are different RSE-like computational roles of
-the \ac{EMBL-EBI} BioExcel competency framework [@BIOEXCEL] (also @subsec:emblbio),
-as is a range of different roles from King's Digital Lab at King's College London [@KDL].
+the \ac{EMBL-EBI} BioExcel competency framework [@BIOEXCEL] (also @subsec:emblbio),
+as is a range of different roles from King's Digital Lab at King's College London [@KDL].
 
 # RSE specialisations {#sec:rse-specialisations}
 
@@ -1219,7 +1219,7 @@ and community work to safeguard usability and adaptability,
 but also handling project governance and scalable decision-making processes.
 This gap can be filled by people who invest in the (\gls{PM}), (\gls{USERS}), and (\gls{TEAM}) skills, as exemplified in @subsec:examplecareer.
 Building a community around a research project is an
-important building block in building sustainable software [@Segal2009], so these RSEs play
+important building block in building sustainable software [@Segal2009], so these RSEs play
 an important role, even if they do not necessarily touch much of the code themselves.
 
 #### Teaching RSEs
@@ -1253,9 +1253,9 @@ They are skilled in cleaning data and/or running data analyses and can help rese
 in setting up their analysis pipeline and/or \ac{RDM} solutions.
 When the field requires research on sensitive data or information, e.g., patient information in medicine,
 this RSE should have knowledge about secure transfer methods and/or ways to anonymise the data.
-As part of \ac{RDM}, this RSE profile is able to support all stages of the research data life cycle [@Nieva2020], with synchronous data management processes.
+As part of \ac{RDM}, this RSE profile is able to support all stages of the research data life cycle [@Nieva2020], with synchronous data management processes.
 Those processes implement established best practices for planning and documenting of data acquisition in a \ac{DMP}, as well as for management,
-storage, and preservation of data, and publication and sharing of data in repositories according to the \ac{FAIR} principles [@FAIR].
+storage, and preservation of data, and publication and sharing of data in repositories according to the \ac{FAIR} principles [@FAIR].
 
 
 <!--
@@ -1314,7 +1314,7 @@ Here, we use \ac{ML} in a broad sense of machine-based learning including deep l
 
 ML-RSEs analyse and check the suitability of an algorithm if it fulfils the needs of a certain task and they play a main role in deciding and selecting \ac{ML} libraries for a given task.
 The increasing usage of \ac{ML} in numerous scientific areas with social impact involves an emphasised awareness and consideration of possible influences and biases.
-At the intersection of data science [@SSIDataScience] and data-focused RSEs,
+At the intersection of data science [@SSIDataScience] and data-focused RSEs,
 the complex way of solving problems utilising \ac{ML} calls for this separate specialisation.
 
 #### Web-development RSE
@@ -1331,8 +1331,8 @@ we foresee the need for RSEs that still have a background in RSE but extend it w
 that cover corner cases and go beyond applying Best Practice guides.
 These requirements may arise in the area of publication of research software,
 as this also requires knowledge about particular laws or regulatory frameworks concerning data protection,
-like the \ac{GDPR} within the \ac{EU} [@GDPR].
-Another area are legal aspects of cybersecurity and export control in science and research (see @ExportControl for Germany).
+like the \ac{GDPR} within the \ac{EU} [@GDPR].
+Another area are legal aspects of cybersecurity and export control in science and research (see @ExportControl for Germany).
 Legal-RSEs focus on facilitating the achievement of technically feasible solutions, while adhering to regulatory mandates.
 They are able to communicate and collaborate with lawyers.
 
@@ -1349,7 +1349,7 @@ An omission that we found and that we would like to highlight in order to spark 
 is that RSEs that choose explicitly a science-supporting role outside of research will not be eligible
 for funding under the statutes of many funding organisations that require a PhD at minimum.
 To alleviate that and give RSEs in leadership positions a means
-to become eligible for funding themselves, since completion of scientific training is often a requirement [@DFG_50_01],
+to become eligible for funding themselves, since completion of scientific training is often a requirement [@DFG_50_01],
 we propose the introduction of certificates that can be handed out by selected institutions.
 Examples of this could be doctorates based on software contributions to the scientific community, or new
 certificates like those in @subsec:examplecareer that should become widely accepted.
@@ -1366,9 +1366,9 @@ That publication will again intentionally be free of regional specifics, to also
 as a blueprint that other national RSE societies can build upon.
 
 Another important building block is to provide people with online resources for use in their
-courses. This is the intention of the learn-and-teach project [@learnandteach].
+courses. This is the intention of the learn-and-teach project [@learnandteach].
 Surveying and curating of existing resources is not carried out as a traditional publication,
-but we make it available as a continuously-evolving online resource at [@learnandteach].
+but we make it available as a continuously-evolving online resource at [@learnandteach].
 
 And finally, we will formulate the call to action - building on the previous
 publication on the necessary institutions,
@@ -1490,13 +1490,13 @@ This setup ensures that we are grading the effectiveness of applying RSE skills 
 ## An example of a possible career path {#subsec:examplecareer}
 #### Setting the stage
 
-Meet Kay, Kim's younger sister [@Anzt2021] who currently studies researchology in a bachelor's programme in the established domain of researchonomy at University of Orithena (UofO).
+Meet Kay, Kim's younger sister [@Anzt2021] who currently studies researchology in a bachelor's programme in the established domain of researchonomy at University of Orithena (UofO).
 We will follow Kay’s fictional career to illustrate how education, job-experience and a career in academic institutions could lead to become a successful RSE.
 In Kay’s world, some of the measures proposed in this paper have already been implemented.
 
 #### Bachelor's degree
 
-Through a program like Software Carpentry [@CarpentriesSoftware] or The Missing Semester [@Athalye2023],
+Through a program like Software Carpentry [@CarpentriesSoftware] or The Missing Semester [@Athalye2023],
 Kay learns about using computational tools to support the sophisticated statistical analysis typical for researchology.
 She uses those tools to create and automate the steps of processing data and producing outcomes for her bachelor's thesis
 (generating plots with matplotlib and even CI for automatic building)
@@ -1524,11 +1524,11 @@ Towards the end of the programme, she visits her first RSE conference where she 
 that so far have been abstract in her master's degree.
 
 The exposure to the wider RSE community inspires her to invest additional time into her thesis to publish
-her software project under a licence approved by the Open Source Initiative and write an accompanying article in the open source journal JOSS [@JOSS].
+her software project under a licence approved by the Open Source Initiative and write an accompanying article in the open source journal JOSS [@JOSS].
 Inspired by the discussion with reviewers of her JOSS paper,
 and the citation metadata file that JOSS created automatically for her when her paper is published,
 Kay starts to think more about making her software FAIR.
-She reads up on the topic in a guide suggested to her, the Turing Way [@turing_way_2022],
+She reads up on the topic in a guide suggested to her, the Turing Way [@turing_way_2022],
 and creates metadata files that provide the citation metadata and general description for her software.
 She adds the files to her source code repository,
 and also adds an automated \gls{CI}/\gls{CD} pipeline that updates metadata and creates a new publication record in the Zenodo repository for each new release.
@@ -1572,11 +1572,11 @@ Kay can now write her own grant proposals to effectively fund work of moving res
 As an area that generally requires a range of advanced skills,
 \ac{HPC} is one field where there is ongoing work
 to identify relevant sets of skills for \ac{HPC} practitioners and potential paths
-to develop these skills. The \acrshort{HPC} Certification Forum [@HPCCFCompetencies] has
+to develop these skills. The \acrshort{HPC} Certification Forum [@HPCCFCompetencies] has
 developed a competence standard for \ac{HPC} that defines a range of skills and
-how they are related in the context of a skill tree [@Kunkel2020a; @Kunkel2020b].
-This competence standard is currently being built upon by the CASTIEL 2 [@CASTIEL2] project
-in collaboration with initiatives funded by the \ac{EuroHPC-JU} to create a framework for \ac{HPC} certification [@EuroHPCJU2023].
+how they are related in the context of a skill tree [@Kunkel2020a; @Kunkel2020b].
+This competence standard is currently being built upon by the CASTIEL 2 [@CASTIEL2] project
+in collaboration with initiatives funded by the \ac{EuroHPC-JU} to create a framework for \ac{HPC} certification [@EuroHPCJU2023].
 While this framework focuses mostly on skills specific to \ac{HPC}, there are a couple of similarities
 to the framework proposed in this paper. The "SD: Software Development" skill set
 is very similar to the \ac{SE} skills discussed in @sec:required-generic-skills,
@@ -1591,8 +1591,8 @@ the absence of skills related to research or communication.
 Noteworthy is already now the level of detail in their skill tree which is more similar to @subsec:examplemaster.
 
 Also looking at pathways and how different skills are related,
-the \ac{UNIVERSE-HPC} project [@UNIVERSEHPC], funded under the \acrshort{UK}'s ExCALIBUR
-research programme [@EXCALIBUR], is looking to understand and develop
+the \ac{UNIVERSE-HPC} project [@UNIVERSEHPC], funded under the \acrshort{UK}'s ExCALIBUR
+research programme [@EXCALIBUR], is looking to understand and develop
 training pathways to support the development of specialist skills in the \ac{HPC}
 and exascale domains. The project is gathering open source training materials
 to develop curricula that support the training pathways that are underpinned
@@ -1601,16 +1601,16 @@ by high-quality training materials.
 ### Bioinformatics skills and certification {#subsec:emblbio}
 
 Bioinformatics is another field that actively works on developing skill trees.
-The Bioinformatics Core Competencies [@Mulder2018; @Welch2016; @Welch2014],
-the BioExcel competency framework [@Matser2016],
-the PerMedCoE competency framework [@Lloret-Llinares2021],
-the Research Data Management and Data Stewardship competence framework [@Demchenko2021]
-and the ELIXIR Data Stewardship Competency Framework for Life Sciences [@Scholtens2019]
+The Bioinformatics Core Competencies [@Mulder2018; @Welch2016; @Welch2014],
+the BioExcel competency framework [@Matser2016],
+the PerMedCoE competency framework [@Lloret-Llinares2021],
+the Research Data Management and Data Stewardship competence framework [@Demchenko2021]
+and the ELIXIR Data Stewardship Competency Framework for Life Sciences [@Scholtens2019]
 are examples of grassroots efforts aiming at defining the set of skills
 of various bioinformatics specialities,
-one of them as a taxonomy [@Mulder2018].
+one of them as a taxonomy [@Mulder2018].
 These frameworks eventually converged into the \ac{EMBL-EBI} Competency Hub
-[@CompetencyHub; @Lloret-Llinares2022],
+[@CompetencyHub; @Lloret-Llinares2022],
 where typical RSE and bioinformatician profiles at different levels
 of seniority can be queried
 (e.g., Junior RSE[^JuniorRSE],
@@ -1621,12 +1621,12 @@ and compared against one another
 Competencies can be divided into more fine-grained building blocks:
 knowledge, skills and abilities (KSAs). They can be organised in a taxonomy,
 and are also transferable, i.e. a KSA can be a prerequisite to multiple competencies.
-The Mastery Rubric for Bioinformatics [@Tractenberg2019] and the ELIXIR
-Data Stewardship Competency Framework for Life Sciences [@Scholtens2019]
+The Mastery Rubric for Bioinformatics [@Tractenberg2019] and the ELIXIR
+Data Stewardship Competency Framework for Life Sciences [@Scholtens2019]
 are examples of KSA frameworks for bioinformatics curricula.
 
 The Curriculum Task Force of the \ac{ISCB} curates a database of degrees and certificates
-in bioinformatics [@BioinformaticsCertification; @Mulder2018].
+in bioinformatics [@BioinformaticsCertification; @Mulder2018].
 The database includes bachelor's and master's degree programs and specialisations,
 PhD programs, and certificates from graduate schools.
 
