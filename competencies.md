@@ -740,12 +740,9 @@ As these tools help with behavioural and structural analysis and therefore
 modularisation these tools enable \gls{MOD} as well as \gls{DOCBB}.
 
 Part of the \ac{FAIR} principles is to make software findable and reusable. The
-RSE needs to be able to decide when and why to keep a repository private. This
-decision requires knowledge in the \gls{RC}, to understand when it makes sense
-to open up or close down a repository. The \gls{USERS}, \gls{TEAM} and sometimes
-\gls{SP} skills are required to make this decision. Furthermore, knowledge of
-the practices and contractual regulations of the RSE's institution is also
-required.
+RSE needs to be able to decide when and why to keep a repository private.
+This decision requires knowledge in \gls{RC}, \gls{USERS}, \gls{TEAM}, and sometimes \gls{SP}.
+Furthermore, knowledge of the practices and contractual regulations of the RSE's institution is also required.
 
 The RSE also needs to understand metadata for research and research software.
 There are ongoing efforts on metadata for research software such as CodeMeta
