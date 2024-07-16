@@ -227,7 +227,7 @@ environments and processes that readers are familiar with, the notion of the ter
 Therefore, to avoid ambiguities, we define these as follows:
 
 **Software**: Source code, documentation, tests, executables
-and all other artefacts that are created by humans during the development process
+and all other artefacts that are created during the development process
 that are necessary to understand its purpose.
 
 **Research software**: Foundational algorithms, the software itself,
