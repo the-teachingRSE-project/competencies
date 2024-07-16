@@ -753,7 +753,7 @@ and how to include some of them into a \ac{CICD} pipeline.
 Typically, this includes linters and similar static tools as well as 
 dynamic tools like profilers and code coverage analysis. 
 The development of these tools is very dynamic and environment specific.
-A good introduction can be found in [@swebok_2014] and an online resource is [@vihps]
+A good introduction can be found in [@swebok_2014] and an online resource is [@vihps].
 As these tools help with behavioural and structural analysis and therefore
 modularisation these tools enable \gls{MOD} as well as \gls{DOCBB}.
 
