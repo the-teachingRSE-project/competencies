@@ -495,7 +495,7 @@ fundamental software engineering skills (see, e.g., @Landwehr2017), but put grea
 emphasis on aspects related to achieving good scientific practice. 
 For example, RSEs need to know how to make research software adhere to the 
 \ac{FAIR} principles, and how to achieve different levels of research
-software reusability @ChueHong2014. To reflect this, the technical skills
+software reusability (@ChueHong2014). To reflect this, the technical skills
 listed below complement competencies regarding the standard life cycle of
 software development with RSE-specific focus skills. 
 
