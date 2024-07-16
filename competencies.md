@@ -1288,7 +1288,7 @@ e.g., setup of virtual machines on hypervisors or the planning and setup of comp
 As an interface between the researchers and the infrastructure, they take care of user management, access permissions, and configuration of required services.
 
 #### Legacy RSEs
-Research software may be used and evolved over generations of research without change management or governance processes, while software "ecosystems" (e.g., programming languages, frameworks, operating systems) constantly evolve.
+Research software may be used and evolved over generations of researchers without change management or governance processes, while software "ecosystems" (e.g., programming languages, frameworks, operating systems) constantly evolve.
 This may lead to the emergence of legacy code that is actively used.
 To safeguard continued usability and adoption,
 these RSEs have experience in working with legacy code,
