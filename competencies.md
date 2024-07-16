@@ -272,7 +272,7 @@ who are at most sporadically performing RSE actions.
 
 Various initiatives are working to support technical professionals develop their computational skills.
 Particularly related to this work are initiatives that aim to define sets of such skills
-and guide the community with certification programs and training resources.
+and to guide the community with certification programs and training resources.
 
 #### RSE Competencies Toolkit
 
