@@ -782,8 +782,8 @@ actively during and within a research project to inform the decision making
 processes [@Bird2016].
 
 Most RSEs will contribute to other projects, some of which will be large. This
-is a topic that requires competency in \gls{SWREPOS}, \gls{SRU}, \gls{SP} in
-order to understand the ramifications of sharing, and \gls{DOCBB}, since the
+is a topic that requires competency in \gls{SWREPOS}, \gls{SRU}, and \gls{SP} in
+order to understand the ramifications of sharing, and in \gls{DOCBB}, since the
 contributed code has to be understood by others. Interacting with project
 members depends on the \gls{TEAM} skill. Today this entails the effective use
 of collaborative platforms like \gls{GitHub}/\gls{GitLab}, honouring a
@@ -820,7 +820,7 @@ RSE practices.
 Often RSEs, especially in RSE groups, will develop applications 
 and services with different variants for different research purposes and groups.
 Additionally, many research groups develop their own codes for specific
-research purposes, e.g. simulation codes. 
+research purposes, e.g. simulation codes or specialised data analysis pipelines. 
 A lot of their development of new features is project-based, 
 often through PhD projects, 
 which grow into their own variant with re-integration planned as a final step.
