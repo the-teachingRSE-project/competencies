@@ -320,9 +320,8 @@ a range of open source training materials and international communities
 of volunteer instructors and helpers who run courses around these materials.
 A similar framework is provided by CodeRefinery [@CodeRefinery], currently
 funded by the Nordic e-Infrastructure,
-as well as SURESOFT [@SURESOFTLink; @SURESOFT2022], a \ac{DFG} funded project at Technical University (TU) Braunschweig and
-Friedrich-Alexander-University (FAU) Erlangen-Nürnberg, targeting more advanced \ac{SE} topics such as
-software design principles, \glspl{design-pattern}, refactoring, continuous integration and \ac{TDD}.
+as well as SURESOFT [@SURESOFTLink; @SURESOFT2022], a project at Technical University (TU) Braunschweig and Friedrich-Alexander-University (FAU) Erlangen-Nürnberg, funded by the \ac{DFG} and targeting more advanced \ac{SE} topics such as
+software design principles, \glspl{design-pattern}, refactoring, \ac{CI} and \ac{TDD}.
 
 There are also several initiatives focused on training \acrshort{HPC}-oriented RSEs,
 such as the \acrfull{PRACE} [@PRACE]
@@ -744,7 +743,7 @@ Software development also includes testing. This task is a manifestation of the
 \ac{SE} competencies of \gls{DOCBB} and \gls{MOD} since a model of the software
 is required in order to write good tests that facilitate understanding and
 documentation. Today this encompasses the knowledge of testing frameworks as
-well as continuous integration and \ac{CICD} practices. In addition to being
+well as \ac{CICD} practices. In addition to being
 tested, software should also be reproducible. Projects like ReproHack
 [@ReproHack] can greatly help in fostering that competency.
 
