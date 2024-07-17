@@ -1615,7 +1615,7 @@ are examples of grassroots efforts aiming at defining the set of skills
 of various bioinformatics specialities,
 one of them as a taxonomy [@Mulder2018].
 These frameworks eventually converged into the \ac{EMBL-EBI} Competency Hub
-[@CompetencyHub; @Lloret-Llinares2022],
+[@CompetencyHub; @Lloret-Llinares2022],
 where typical RSE and bioinformatician profiles at different levels
 of seniority can be queried
 (e.g., Junior RSE[^JuniorRSE],
