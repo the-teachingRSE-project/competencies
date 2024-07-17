@@ -123,7 +123,7 @@ They enable researchers to collect and process ever-increasing amounts of data,
 simulate a wide range of physical phenomena across previously unexplored scales of the universe,
 and discover previously inconceivably complex structures in nature and societies via \ac{ML}.
 This prevalence of computations in research means that basic
-software skills are now required by researchers at all
+digital skills are now required by researchers at all
 career levels, and in fields significantly beyond the previously expected.
 Research software is now used and developed not only in \ac{STEM} domains,
 but also in others, like medicine and the humanities.
