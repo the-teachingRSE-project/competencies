@@ -126,7 +126,7 @@ This prevalence of computations in research means that basic
 digital skills are now required by researchers at all
 career levels, and in fields significantly beyond the previously expected.
 Research software is now used and developed not only in \ac{STEM} domains,
-but also in others, like medicine and the humanities.
+but also in other fields, like medicine and the humanities.
 
 Researchers often lack the skills to use specialised software
 for their research, let alone write it [@NamingPain]. If they come from a non-technical domain, they may
