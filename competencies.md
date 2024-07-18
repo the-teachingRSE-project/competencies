@@ -1475,9 +1475,9 @@ students take the role of a consultant. This setup strengthens the (\gls{TEAM}, 
 and encourages also the (\gls{MOD}) skill through interaction.
 
 To emphasise the exposure to domains outside their bachelor's degree domain,
-we recommend that RSEs also support their non-home-domain project by supporting it with introductory
-courses from this discipline. We support the idea of broadening the interaction with other domains even more.
-This schools their ability to quickly adapt their vocabulary and thinking to other disciplines. This is an aspect of (\gls{MOD}).
+we recommend that RSEs also support their non-home-domain project with introductory
+courses from this discipline.
+This schools their ability to quickly adapt their vocabulary and thinking to other disciplines and is an aspect of (\gls{MOD}).
 
 To align with the specialisations listed in this paper, example optional modules include topics on
 \ac{HPC} engineering/parallel programming, numerical mathematics/scientific computing, web technologies,
