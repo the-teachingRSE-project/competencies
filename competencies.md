@@ -917,7 +917,7 @@ PhD students perform independent research under guidance.
 They need to know relevant tools and structures.
 They should know where to find information about tools and where to find help using them (\gls{DOCBB}, \gls{SWREPOS}).
 They should be able to use the tools (\gls{DIST}) and identify and report bugs (\gls{MOD}).
-They need to be aware that the user's perspective is different from the developer's perspective in order to be able to write bug reports (\gls{USERS}).
+They need to be aware that the user's perspective is different from the developer's perspective in order to be able to write good bug reports (\gls{USERS}).
 They might produce new software (\gls{MOD}, \gls{SRU}), in which case they need to understand how to licence their code for publication (\gls{SP}).
 PhD students need to be curious to be able to conduct their research.
 In order to be able to explore new tools (\gls{NEW}) they must be able to evaluate research software (\gls{SWLC}).
