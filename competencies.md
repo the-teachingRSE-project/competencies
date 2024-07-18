@@ -1327,8 +1327,7 @@ Therefore, a deep knowledge of web development skills is a required additional s
 #### Legal-RSE
 All RSEs are a go-to person for questions about licensing, in particular when mixing software components that use different licences.
 But with the rising requirements from legislation,
-we foresee the need for RSEs that still have a background in RSE but extend it with a knowledge of legal processes,
-that cover corner cases and go beyond applying Best Practice guides.
+we foresee the need for RSEs that still have a background in RSE but extend it with a knowledge of legal processes that cover corner cases and go beyond applying Best Practice guides.
 These requirements may arise in the area of publication of research software,
 as this also requires knowledge about particular laws or regulatory frameworks concerning data protection,
 like the \ac{GDPR} within the \ac{EU} [@GDPR].
