@@ -1485,7 +1485,7 @@ data stewardship, AI models/statistics, and community management/training.
 
 The programme is finalised with a master's thesis which should be dual-supervised by an
 RSE supervisor from an actual project, and a domain supervisor.
-The thesis should answer a relevant research question (strengthening (\gls{NEW})) from the domain using computational methods.
+The thesis should answer a relevant research question from the domain using computational methods, strengthening (\gls{NEW}).
 Software development is required, and the code is part of the gradable deliverables.
 The RSE supervisor ensures and grades the software craftsmanship aspects of the project.
 This setup ensures that we are grading the effectiveness of applying RSE skills in an actual research environment.
