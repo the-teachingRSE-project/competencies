@@ -1392,7 +1392,7 @@ At the same time,
 being close to software engineers, we cherish that we have to take responsibility for our tools.
 We continue with core competencies that have been intentionally formulated
 abstractly without referencing any particular information-processing device.
-As expected, we draw equally upon notions from \ac{SE} and research,
+As expected, we draw equally upon notions from \ac{SE} and other research fields,
 but find that we likewise require teamwork capabilities.
 We continue with detailing these competencies in various dimensions and find that
 a different amount is required in different positions and scientific domains,
