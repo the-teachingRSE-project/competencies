@@ -1389,7 +1389,7 @@ In this publication, we have tried to formalise these concepts.
 We have formulated a set of values that guide our actions in society,
 manifestly making RSEs part of the scientific community that shares the ideals of good scientific practice.
 At the same time,
-being software engineers, we cherish that we have to take responsibility for our tools.
+being close to software engineers, we cherish that we have to take responsibility for our tools.
 We continue with core competencies that have been intentionally formulated
 abstractly without referencing any particular information-processing device.
 As expected, we draw equally upon notions from \ac{SE} and research,
