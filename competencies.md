@@ -1493,7 +1493,7 @@ This setup ensures that we are grading the effectiveness of applying RSE skills 
 ## An example of a possible career path {#subsec:examplecareer}
 #### Setting the stage
 
-Meet Kay, Kim's younger sister [@Anzt2021] who currently studies researchology in a bachelor's programme in the established domain of researchonomy at University of Orithena (UofO).
+Meet Kay, Kim's [@Anzt2021] younger sister who currently studies researchology in a bachelor's programme in the established domain of researchonomy at University of Orithena (UofO).
 We will follow Kay’s fictional career to illustrate how education, job-experience and a career in academic institutions could lead to become a successful RSE.
 In Kay’s world, some of the measures proposed in this paper have already been implemented.
 
