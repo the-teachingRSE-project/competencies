@@ -233,8 +233,8 @@ that are necessary to understand its purpose.
 **Research software**: Foundational algorithms, the software itself,
 as well as scripts and computational workflows that were created
 during the research process or for a research purpose, across all domains of research.
-This definition is broader than in @FAIR4RS and is the outcome of a recent
-discussion in @Gruenpeter2021.
+This definition is broader than in [@FAIR4RS] and is the outcome of a recent
+discussion in [@Gruenpeter2021].
 
 **Research software engineers**: People who
 create or improve research software and/or the structures that the software interacts with
@@ -473,7 +473,7 @@ competencies defined below. We will elaborate these in
 \subsubsection{\glsentrydesc{#1} (\texorpdfstring{\glsentrytext{#1}}{#1})}\label{skills-#1}}}
 
 The technical skills required by an RSE overlap to a large extent with the common 
-fundamental software engineering skills (see, e.g., @Landwehr2017), but put greater
+fundamental software engineering skills (see, e.g., [@Landwehr2017]), but put greater
 emphasis on aspects related to achieving good scientific practice. 
 For example, RSEs need to know how to make research software adhere to the 
 \ac{FAIR} principles, and how to achieve different levels of research
@@ -511,7 +511,7 @@ documentation. Documentation ranges from commenting code blocks to using
 documentation (building) tools.
 It should be written with consideration for the different audiences who may need it 
 depending on their goals and expertise, 
-for example by following the Diátaxis framework @Procida_Diataxis_documentation_framework.
+for example by following the Diátaxis framework [@Procida_Diataxis_documentation_framework].
 
 <!-- Building distributable libraries -->
 \skillsection{DIST}
@@ -718,7 +718,7 @@ The RSE needs to be able to choose appropriate algorithms and techniques
 (\gls{MOD} and \gls{NEW}). Apart from the technical feasibility, this choice is
 also informed by the values outlined in Section @sec:values. For example, the
 RSE needs to be able to estimate resource usage (processing, memory and storage
-consumption, e.g. @Lannelongue2021). Resource usage has not only a direct financial price tag but also
+consumption, e.g. [@Lannelongue2021]). Resource usage has not only a direct financial price tag but also
 environmental costs via associated energy consumption.
 
 Software development also includes testing. This task is a manifestation of the
@@ -792,9 +792,8 @@ Research software often starts out as a tool to answer a personal research
 question and becomes more important when other researchers rely on it. Some
 research software might even be used to deal with critical questions such as
 weather forecasting or medical diagnosis. A classification of software is commonly used
-to formalise the process of giving good advice [@Wang2012;
-@Schlauch2018b] where research software can move from one class to another
-during its life cycle. @Schlauch2018b classify applications based on their scope
+to formalise the process of giving good advice [@Wang2012; @Schlauch2018b] where research software can move from one class to another
+during its life cycle. [@Schlauch2018b] classify applications based on their scope
 and criticality and provide \ac{SE} recommendations. The RSE needs to be able to
 identify the application class they are dealing with and apply the respective
 RSE practices.
@@ -952,7 +951,7 @@ of developers is based locally within a research team or department,
 or when they are based in a dedicated, centralised RSE team.
 We also look at organisational aspects in the context of each of the considered
 competencies, since there are a variety of ways that organisations can contribute
-to and support them, complementing those proposed by @Katerbow2018. Some of them are brought to life in the example career path of @subsec:examplemaster.
+to and support them, complementing those proposed by [@Katerbow2018]. Some of them are brought to life in the example career path of @subsec:examplemaster.
 We first summarise the meaning of each of the columns in the tables:
 
 - **Competency:** The code assigned to the competency being considered, as defined in @sec:required-generic-skills, e.g. \gls{TEAM}.
@@ -1331,7 +1330,7 @@ we foresee the need for RSEs that still have a background in RSE but extend it w
 These requirements may arise in the area of publication of research software,
 as this also requires knowledge about particular laws or regulatory frameworks concerning data protection,
 like the \ac{GDPR} within the \ac{EU} [@GDPR].
-Another area are legal aspects of cybersecurity and export control in science and research (see @ExportControl for Germany).
+Another area are legal aspects of cybersecurity and export control in science and research (see [@ExportControl] for Germany).
 Legal-RSEs focus on facilitating the achievement of technically feasible solutions, while adhering to regulatory mandates.
 They are able to communicate and collaborate with lawyers.
 
@@ -1469,15 +1468,15 @@ Given that RSE work also involves a lot of craftsmanship skills,
 hands-on practice is an integral part of the curriculum.
 At least two lab projects are required within the mandatory curriculum.
 These should be executed as a team and involve a question from a domain science.
-We recommend covering both the candidate's home domain and another domain of science.
+We recommend covering both the candidate's home domain as well as a different one.
 Ideally, projects stem from collaborations with scientists within the institution and RSE
 students take the role of a consultant. This setup strengthens the (\gls{TEAM}, \gls{TEACH}, \gls{USERS}) skill
-and most likely also the (\gls{MOD}) skill through interaction.
+and encourages also the (\gls{MOD}) skill through interaction.
 
 To emphasise the exposure to domains outside their bachelor's degree domain,
-we recommend that RSEs also support their non-home-domain project by supporting it with introductory
-courses from this discipline. We support the idea of broadening the interaction with other domains even more.
-This schools their ability to quickly adapt their vocabulary and thinking to other disciplines. This is an aspect of (\gls{MOD}).
+we recommend that RSEs also support their non-home-domain project with introductory
+courses from this discipline.
+This schools their ability to quickly adapt their vocabulary and thinking to other disciplines and is an aspect of (\gls{MOD}).
 
 To align with the specialisations listed in this paper, example optional modules include topics on
 \ac{HPC} engineering/parallel programming, numerical mathematics/scientific computing, web technologies,
@@ -1485,7 +1484,7 @@ data stewardship, AI models/statistics, and community management/training.
 
 The programme is finalised with a master's thesis which should be dual-supervised by an
 RSE supervisor from an actual project, and a domain supervisor.
-The thesis should answer a relevant research question (strengthening (\gls{NEW})) from the domain using computational methods.
+The thesis should answer a relevant research question from the domain using computational methods, strengthening (\gls{NEW}).
 Software development is required, and the code is part of the gradable deliverables.
 The RSE supervisor ensures and grades the software craftsmanship aspects of the project.
 This setup ensures that we are grading the effectiveness of applying RSE skills in an actual research environment.
@@ -1493,7 +1492,7 @@ This setup ensures that we are grading the effectiveness of applying RSE skills 
 ## An example of a possible career path {#subsec:examplecareer}
 #### Setting the stage
 
-Meet Kay, Kim's younger sister [@Anzt2021] who currently studies researchology in a bachelor's programme in the established domain of researchonomy at University of Orithena (UofO).
+Meet Kay, Kim's [@Anzt2021] younger sister who currently studies researchology in a bachelor's programme in the established domain of researchonomy at University of Orithena (UofO).
 We will follow Kay’s fictional career to illustrate how education, job-experience and a career in academic institutions could lead to become a successful RSE.
 In Kay’s world, some of the measures proposed in this paper have already been implemented.
 
@@ -1527,7 +1526,7 @@ Towards the end of the programme, she visits her first RSE conference where she 
 that so far have been abstract in her master's degree.
 
 The exposure to the wider RSE community inspires her to invest additional time into her thesis to publish
-her software project under a licence approved by the Open Source Initiative and write an accompanying article in the open source journal JOSS [@JOSS].
+her software project under a licence approved by the Open Source Initiative and to write an accompanying article in the open source journal JOSS [@JOSS].
 Inspired by the discussion with reviewers of her JOSS paper,
 and the citation metadata file that JOSS created automatically for her when her paper is published,
 Kay starts to think more about making her software FAIR.
@@ -1550,7 +1549,7 @@ After three years, she takes an exciting opportunity to work in another universi
 
 #### Senior RSE
 
-The new position involves taking responsibility for the RSE related aspects of a large inter-organisational project involving different organisations.
+The new position involves taking responsibility for the RSE related aspects of a large inter-organisational project.
 With her new responsibilities comes a shift in the importance of various aspects of her work.
 Having this position in an inter-organisational project places far more emphasis on communication and organisation skills.
 She is spending time teaching people (\gls{TEACH} skill) to onboard them into the project.
