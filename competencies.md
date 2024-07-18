@@ -1325,7 +1325,7 @@ range of researchers or even the public to use the resulting applications.
 Therefore, a deep knowledge of web development skills is a required additional skill for this RSE.
 
 #### Legal-RSE
-All RSEs are a go-to person for questions about licensing, in particular when mixing software components with different licences.
+All RSEs are a go-to person for questions about licensing, in particular when mixing software components that use different licences.
 But with the rising requirements from legislation,
 we foresee the need for RSEs that still have a background in RSE but extend it with a knowledge of legal processes,
 that cover corner cases and go beyond applying Best Practice guides.
