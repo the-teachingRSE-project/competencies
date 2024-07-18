@@ -1472,7 +1472,7 @@ These should be executed as a team and involve a question from a domain science.
 We recommend covering both the candidate's home domain as well as a different one.
 Ideally, projects stem from collaborations with scientists within the institution and RSE
 students take the role of a consultant. This setup strengthens the (\gls{TEAM}, \gls{TEACH}, \gls{USERS}) skill
-and most likely also the (\gls{MOD}) skill through interaction.
+and encourages also the (\gls{MOD}) skill through interaction.
 
 To emphasise the exposure to domains outside their bachelor's degree domain,
 we recommend that RSEs also support their non-home-domain project by supporting it with introductory
