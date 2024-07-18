@@ -1550,7 +1550,7 @@ After three years, she takes an exciting opportunity to work in another universi
 
 #### Senior RSE
 
-The new position involves taking responsibility for the RSE related aspects of a large inter-organisational project involving different organisations.
+The new position involves taking responsibility for the RSE related aspects of a large inter-organisational project.
 With her new responsibilities comes a shift in the importance of various aspects of her work.
 Having this position in an inter-organisational project places far more emphasis on communication and organisation skills.
 She is spending time teaching people (\gls{TEACH} skill) to onboard them into the project.
