@@ -896,7 +896,7 @@ as development is a large part of their actual research.
 
 Students at the undergraduate level mostly consume science/knowledge.
 During their studies, they should also learn about the existence of digital tools and structures.
-Undergrad students should be aware that RSEs exist and that software has different quality aspects (\gls{DOCBB}).
+Undergraduate students should be aware that RSEs exist and that software has different quality aspects (\gls{DOCBB}).
 They should be aware of domain specific tools (\gls{DIST}, \gls{SRU}) and where to find them (\gls{SWREPOS}, \gls{DOMREP}).
 At this level, it is sufficient to consider software as black boxes (\gls{USERS}) although some training in data presentation would be very helpful and a good way to find out about programming (\gls{MOD}, \gls{NEW}).
 They should have an awareness of software licences and whom to ask regarding licensing issues (\gls{SP}).
