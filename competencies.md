@@ -913,7 +913,7 @@ Working on their master's thesis allows them to understand the research cycle (\
 
 #### PhD
 
-A PhD student performs independent research under guidance.
+PhD students perform independent research under guidance.
 They need to know relevant tools and structures.
 They should know where to find information about tools and where to find help using them (\gls{DOCBB}, \gls{SWREPOS}).
 They should be able to use the tools (\gls{DIST}) and identify and report bugs (\gls{MOD}).
