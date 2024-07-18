@@ -24,7 +24,7 @@ all: $(objects)
 	    --template="build/template.tex" \
 	    -f markdown-latex_macros \
 	    -M pdfa-$(MAKE_PDFA)=1 \
-	    -M date="`date "+%B %e, %Y"`" \
+	    -M date="`date "+%F"`" \
 	    -M datexmp="`date "+%F"`" \
 	    -M linkcolor=darkgray \
 	    -V hyperrefoptions=pdfa \
