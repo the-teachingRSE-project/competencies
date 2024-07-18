@@ -1383,7 +1383,7 @@ This paper started from a community workshop at deRSE23 in Paderborn
 where people working in RSE related fields got together to figure out
 structures and ideas for educating newcomers to this field.
 One outcome of this diverse gathering is that RSEs from far away fields gather
-around similar core concepts, and at the same time share a vision of how to
+around similar core concepts, and at the same time they share a vision of how to
 renew scientific research practice making proper use of digital tools.
 In this publication, we have tried to formalise these concepts.
 We have formulated a set of values that guide our actions in society,
