@@ -6,7 +6,7 @@ objects := competencies.pdf
 
 all: $(objects)
 
-%.pdf: %.md bibliography/bibliography.bib contributors.yml preamble.sty build/template.tex glossary.tex filter.py
+%.pdf: %.md bibliography/bibliography.bib contributors.yml preamble.sty build/template.tex glossary.tex filter.py Makefile
 	@mkdir -p build
 	@mkdir -p build/svg-inkscape
 	@rm -f build/pdfa.xmpi
