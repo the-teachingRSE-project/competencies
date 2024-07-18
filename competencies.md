@@ -989,13 +989,13 @@ The current situation may differ.
     \cline{2-5}
               & Locally-based & RSE-Team based & Locally-based & RSE-Team based &\\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    \gls{DOCBB} &
-    Focuses on getting outputs to support research. Is not very familiar with code quality and
+    \gls{DOCBB}&
+    Focuses on supporting research. May not be very familiar with code quality and
       structure. Follows basic best practice guides.&
     Puts greater focus on reusability, documentation, and knowledge of best practices,
       but potentially lacks domain knowledge.&
     Has more opportunities to discuss and share ideas, but team members may be
-      less aware of key practices. &
+      less aware of key practices.&
     Has stronger ingrained focus on team-based \gls{PM} and development
       methodologies, resulting in higher quality, more reusable code.&
     Should offer training and other resources in core topics to support individual developers.
@@ -1003,11 +1003,11 @@ The current situation may differ.
     \hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \gls{DIST}&
-    Does not emphasise code reusability and sharing/distribution. &
+    Does not emphasise code reusability and sharing/distribution.&
     Puts greater focus on reusability/sharing, but likely not as part of the project aims.&
     May want to develop reusable shareable outputs for a specific case. Needs clear guidelines.&
     Focuses on quality and best practices. Reusability/packaging driven by project needs and spec.&
-    Should provide policies on reusability/sharing. May be driven by requirements/policies of the funding agency.
+    Should provide policies on reusability/sharing. May be driven by requirements/policies, e.g., of institution or funding agency.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \gls{SWLC}&
@@ -1032,7 +1032,7 @@ The current situation may differ.
       management, issue tracking, etc. in addition to code itself.
       May train others.&
     Should offer enterprise repository set ups,
-      site licences etc. Also fund either internal or external training
+      site licences etc. Also provide training
       for this vital research software development tooling.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1067,19 +1067,19 @@ The current situation may differ.
               & Locally-based & RSE-Team based & Locally-based & RSE-Team based &\\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \gls{NEW}&
-    Struggles to learn new methods and skills due to split research focus
+    May struggle to learn new methods and skills due to split research focus
       between research goal and software project.&
     Gets support from the RSE team to explore new methods and skills,
       make relevant contacts and learn more about the domain.&
     Has increased interest in learning new methods and skills,
       but still prioritises domain research.&
-    As per Individual (RSE team).&
+    As team-based individual&
     Should reach out to relevant local groups to facilitate training
       and sharing of know-how on new technical processes and tooling.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \gls{RC}&
-    Is familiar with the research life cycle in their domain,
+    Is familiar with the \gls{RC} in their domain,
       especially when embedded in a research team.&
     Is familiar with the \gls{RC},
       although they may not have domain knowledge, which a group can provide.&
@@ -1087,23 +1087,23 @@ The current situation may differ.
     One or more members of the team are strongly aware of the
       \gls{RC}.&
     Should provide extensive infrastructure to manage
-      the research life cycle, supporting researchers/RSEs.
+      the \gls{RC}, supporting researchers/RSEs.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \gls{SRU}&
-    Has limited awareness of existing solutions and limited support in this regard.&
+    Has limited awareness of existing solutions and limited support regarding \gls{SRU}.&
     Is familiar with software sharing and can discover tools and platforms.&
-    As per individual (local), but being part of a team can help to address this.&
-    As per individual (RSE Team).&
+    As locally-based individual, but being part of a team can help to address this.&
+    As team-based individual&
     Should run local environments to host software, catalogue software,
       and/or provide institution-level access to platforms that support this.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \gls{SP}&
-    Has limited knowledge and motivation regarding software publication.&
+    Has limited knowledge and motivation regarding \gls{SP}.&
     Applies practices, workflows, and policies established in the RSE team.&
-    As per individual (local) developer.&
-    As per individual (RSE Team).&
+    As locally-based individual&
+    As team-based individual&
     Should raise awareness about software as a publishable scientific output, provide recommendations and checklists to support software publications, and have legal experts in place to offer advice on complex cases.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1112,8 +1112,8 @@ The current situation may differ.
       with the domain-specific solutions.&
     RSEs may need guidance from domain researchers around domain-specific
       repositories if they have a background in a different domain.&
-    As per individual (local).&
-    As per individual (RSE Team).&
+    As locally-based individual&
+    As team-based individual&
     Should host domain-specific repositories for areas that the organisation works
       extensively in, but this is likely to be handled at a research group level.
     \\\hline
@@ -1137,7 +1137,7 @@ The current situation may differ.
     Needs to safeguard future development and maintenance of the software for
       external users, but may not have the skills or resources to support this.&
     Applies best practices to prepare the code for external users,
-      while the team provides infrastructure and/or specialised RSEs for user support. &
+      while the team provides infrastructure and/or specialised RSEs for user support.&
     Should have institutions that are able to offer support with outreach and publicising outputs.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1155,7 +1155,7 @@ The current situation may differ.
     Is organised enough to be able to transfer the codebase to future developers.&
     Follows the project management approach set by the team, or can suggest such \gls{PM} approaches.&
     Has additional \gls{PM} challenges, but may not have awareness of or experience with key \gls{PM} skills,
-      which can acquire with low-key courses.&
+      which can be acquired with low-key courses.&
     Team provides well-structured approaches and tooling to support management of projects.&
     Should offer training to support management of projects.
       May offer organisation-level tooling.
