@@ -1271,7 +1271,7 @@ As an interface between the researchers and the infrastructure, they take care o
 
 #### Legacy RSEs
 Research software may be used and evolved over generations of researchers without change management or governance processes, while software "ecosystems" (e.g., programming languages, frameworks, operating systems) constantly evolve.
-This may lead to the emergence of legacy code that is actively used.
+This may lead to the emergence of legacy code that is still actively used.
 To safeguard continued usability and adoption,
 these RSEs have experience in working with legacy code,
 and are competent in the application of software stacks that are no longer part of the general curricula (e.g., \gls{COBOL} or \gls{Fortran}).
