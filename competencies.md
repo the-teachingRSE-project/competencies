@@ -1469,7 +1469,7 @@ Given that RSE work also involves a lot of craftsmanship skills,
 hands-on practice is an integral part of the curriculum.
 At least two lab projects are required within the mandatory curriculum.
 These should be executed as a team and involve a question from a domain science.
-We recommend covering both the candidate's home domain and another domain of science.
+We recommend covering both the candidate's home domain as well as a different one.
 Ideally, projects stem from collaborations with scientists within the institution and RSE
 students take the role of a consultant. This setup strengthens the (\gls{TEAM}, \gls{TEACH}, \gls{USERS}) skill
 and most likely also the (\gls{MOD}) skill through interaction.
