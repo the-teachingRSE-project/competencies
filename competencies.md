@@ -1341,28 +1341,28 @@ social skill-set focused specialisations
 
 # Future work {#sec:future-work}
 
-This list and description of competencies is a first step to finding common ground around which to structure
-curricula, institutions, and teachers in this framework.
+This list and description of competencies is a first step to finding common ground
+ around which to structure curricula, institutions, and teachers in this framework.
 Applications of these competencies in an individual's career can be found in @subsec:examplemaster.
-An omission that we found and that we would like to highlight in order to spark a community discussion
-is that RSEs that choose explicitly a science-supporting role outside of research will not be eligible
-for funding under the statutes of many funding organisations that require a PhD at minimum.
-To alleviate this and to give RSEs in leadership positions a means
-to become eligible for funding themselves, since completion of scientific training is often a requirement [@DFG_50_01],
-we propose the introduction of certificates that can be handed out by selected institutions.
-Examples of this could be doctorates based on software contributions to the scientific community, or new
-certificates like those in @subsec:examplecareer that should become widely accepted.
+An omission that we found and that we would like to highlight in order to spark a community discussion is
+ that RSEs that choose explicitly a science-supporting role outside of research will not be eligible for funding
+ under the statutes of many funding organisations that require a PhD at minimum.
+To alleviate this and to give RSEs in leadership positions a means to become eligible for funding themselves,
+ since completion of scientific training is often a requirement [@DFG_50_01],
+ we propose the introduction of certificates that can be handed out by selected institutions.
+Examples of this could be doctorates based on software contributions to the scientific community,
+ or new certificates like those in @subsec:examplecareer that should become widely accepted.
 Beyond having that discussion, a diverse set of publications is already in the making.
 Next, we will work on how to institutionalise education.
-In that publication, we will detail how we organise our institutions and what qualifications our teachers
-need to have in order to effectively communicate our values.
+In that publication, we will detail how we organise our institutions
+ and what qualifications our teachers need to have in order to effectively communicate our values.
 We will put forward ideas on how to build up bachelor's and master's programmes,
-of which a glimpse can already be found in this paper's appendix.
+ of which a glimpse can already be found in this paper's appendix.
 We will show how we intend to provide the necessary continuous education for RSEs after graduation,
-and we will connect that with the integration of RSEs into a mesh of community networks aimed at supporting research,
-while providing them with an inclusive social network that further facilitates life-long learning.
-That publication will again intentionally be free of regional specifics, to also serve
-as a blueprint that other national RSE societies can build upon.
+ and we will connect that with the integration of RSEs into a mesh of community networks aimed at supporting research,
+ while providing them with an inclusive social network that further facilitates life-long learning.
+That publication will again intentionally be free of regional specifics,
+ to also serve as a blueprint that other national RSE societies can build upon.
 
 Another important building block is to provide people with online resources for use in their
 courses. This is the intention of the learn-and-teach project [@learnandteach].
