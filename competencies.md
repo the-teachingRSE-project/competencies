@@ -1457,7 +1457,7 @@ Core modules are of course drawn from the three pillars of the RSE and can be ca
 
 - Research skills:
   - Optional domain mastery module: Additional minor research courses, but students with a home-domain already have the research part well-covered.
-  - Research tools module: Here we teach tools used to distribute and publish software, as well as introducing students to domain specific data repositories. Thereby gaining foundational knowledge in (\gls{SRU}, \gls{SP}, \gls{DOMREP}).
+  - Research tools module: Here we teach tools used to distribute and publish software, as well as introducing students to domain specific data repositories, thereby gaining foundational knowledge in (\gls{SRU}, \gls{SP}, \gls{DOMREP}).
   - Meta-research module: Here we teach people how research works. The research life cycle is introduced, as well as the data life cycle and the software life cycle are abstractly introduced.
 
 - Communication skills:
