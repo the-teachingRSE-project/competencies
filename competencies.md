@@ -1175,11 +1175,11 @@ The current situation may differ.
 \end{longtable}
 \elandscape
 
-In the table above, we have looked at how different competencies can be related
+In the tables above, we have looked at how different competencies can be related
 to and handled by researchers and RSEs working in different environments within
 an organisation and how the organisations themselves can contribute.
 We recognise that this is a challenging area to gain a detailed view of
-and that our content in the table is still a significant generalisation.
+and that this is still a significant generalisation.
 We talk about the "research software engineer" as a single entity but as the field expands,
 we expect to see more roles and job titles emerging around the RSE concept,
 many of which fit under the wider umbrella of research technology professionals (RTPs).
