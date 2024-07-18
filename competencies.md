@@ -1347,13 +1347,16 @@ Applications of these competencies in an individual's career can be found in @su
 An omission that we found and that we would like to highlight in order to spark a community discussion is
  that RSEs that choose explicitly a science-supporting role outside of research will not be eligible for funding
  under the statutes of many funding organisations that require a PhD at minimum.
+
 To alleviate this and to give RSEs in leadership positions a means to become eligible for funding themselves,
  since completion of scientific training is often a requirement [@DFG_50_01],
- we propose the introduction of certificates that can be handed out by selected institutions.
-Examples of this could be doctorates based on software contributions to the scientific community,
- or new certificates like those in @subsec:examplecareer that should become widely accepted.
-Beyond having that discussion, a diverse set of publications is already in the making.
-Next, we will work on how to institutionalise education.
+ we see two possible parts of a solution.
+One is to allow for doctorates primarily based on software contributions to the scientific community.
+Secondly, we propose the introduction of new, standardised certificates like those in @subsec:examplecareer,
+ and to officially accept them as PhD-equivalent concerning eligibility to be PI.
+Beyond this discussion, a diverse set of publications on the topic RSE teaching is already in the making.
+
+Within this set, we will work next on how to institutionalise education.
 In that publication, we will detail how we organise our institutions
  and what qualifications our teachers need to have in order to effectively communicate our values.
 We will put forward ideas on how to build up bachelor's and master's programmes,
