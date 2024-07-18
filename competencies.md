@@ -946,9 +946,9 @@ They need to manage and lead their research group (\gls{PM}, \gls{TEAM}).
 
 In @tbl:teams-se, @tbl:teams-res, and @tbl:teams-comm, we look at individual or team competencies and approaches to them,
 considering how these differ depending on whether an RSE or researcher is working alone on a software project,
-or whether they are working as part of a team of research software developers.
-We extend this to consider how things differ when a developer or a group
-of developers is based locally within a research team or department,
+or whether they are working as part of a team of RSEs.
+We extend this to consider how things differ when an RSE or a group
+of RSEs is based locally within a research team or department,
 or when they are based in a dedicated, centralised RSE team.
 We also look at organisational aspects in the context of each of the considered
 competencies, since there are a variety of ways that organisations can contribute
@@ -956,26 +956,26 @@ to and support them, complementing those proposed by @Katerbow2018. Some of the
 We first summarise the meaning of each of the columns in the tables:
 
 - **Competency:** The code assigned to the competency being considered, as defined in @sec:required-generic-skills, e.g. \gls{TEAM}.
-- **Individual developer (Locally-based):** A single person working on some
-  research software - often a researcher with RSE skills. Often time-constrained,
+- **Individual RSE (Locally-based):** A single person working on some
+  research software - often an RSE with focus on their own research. Often time-constrained,
       may be self-taught.
-- **Individual developer (RSE team-based):** A single person working on research
+- **Individual RSE (RSE team-based):** A single person working on research
   software - generally a professional RSE assigned to support another team's software on their own,
   who however is connected to an RSE team.
-- **Group of developers (Locally-based):** A group of RSEs/researchers within
-  a research group or team, working together on developing software to support
+- **Group of RSEs (Locally-based):** A group within
+  a research group or team, working together on software to support
   or undertake a single research goal/project.
-  Similarly to the individual RSE, they are often researchers with RSE skills,
+  Similarly to the individual RSE, they are often research-focused with RSE skills,
   often self-taught.
-- **Group of developers (RSE team-based):** A group of members of the RSE team
-  working together on a research software project for a research group.
-- **Organisation-level support:** How the defined competencies are recognised
+- **Group of RSEs (RSE team-based):** An RSE team
+  working together on a research software projects for a research group.
+- **Organisation-level RSE support:** Describes how the defined competencies are recognised
   and represented at an organisational level and what the organisation can
   do to support the RSEs in the context of the different team structures.
   These can be read as policy/action recommendations.
 
-These tables take the perspective of the expected skill set of each developer or team
-of developers, similarly to personas in a user experience analysis.
+These tables take the perspective of the expected skill set of each RSE or team
+of RSEs, similarly to personas in a user experience analysis.
 The current situation may differ.
 
 \blandscape
@@ -984,8 +984,8 @@ The current situation may differ.
 \begin{longtable}{|p{1.8cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{4.5cm}|}
     \caption{Levels of software eng. skills expected per team structure.}\label{tbl:teams-se}\\
     \hline
-    \multirow{2}{*}{Competency} & \multicolumn{2}{c|}{Working as an individual developer}
-    & \multicolumn{2}{c|}{Working with a group of developers} & \multirow{2}{*}{Organisation-level support} \\
+    \multirow{2}{*}{Competency} & \multicolumn{2}{c|}{Working as an individual RSE}
+    & \multicolumn{2}{c|}{Working with a group of RSEs} & \multirow{2}{*}{Organisation-level support} \\
     \cline{2-5}
               & Locally-based & RSE-Team based & Locally-based & RSE-Team based &\\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -998,7 +998,7 @@ The current situation may differ.
       less aware of key practices. &
     Has stronger ingrained focus on team-based \gls{PM} and development
       methodologies, resulting in higher quality, more reusable code.&
-    Should offer training and other resources in core topics to support individual developers.
+    Should offer training and other resources in core topics to support individual RSEs.
       Should have research software guidance/policies that provide advice.\\
     \hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1038,10 +1038,10 @@ The current situation may differ.
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \gls{MOD}&
     Needs full awareness of entire codebase to extend/maintain.
-      If project taken on from another developer,
+      If project taken on from another RSE,
       there may be challenges in transferring the mental model.&
     As local, but more aware of need for future transition to other
-      developer(s), likely provides docs, issues, and other
+      RSE(s), likely provides docs, issues, and other
       support from central services to support this. May only need to know
       parts of the code.&
     Internal team training ensures ability to build necessary
@@ -1049,7 +1049,7 @@ The current situation may differ.
       sustainability.&
     As local team, but likely more aware of tooling and practices
       in place within RSE team. Distributing work makes it only necessary
-      for each developer to understand code related to their assigned tasks.&
+      for each RSE to understand code related to their assigned tasks.&
     Should provide training and retain experience via
       coordinating and provide support for mentoring/community activities.
       Establishing RSE departments with specialists for certain aspects of software
@@ -1061,8 +1061,8 @@ The current situation may differ.
 \begin{longtable}{|p{1.8cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{4.5cm}|}
     \caption{Levels of research skills expected per team structure.}\label{tbl:teams-res}\\
     \hline
-    \multirow{2}{*}{Competency} & \multicolumn{2}{c|}{Working as an individual developer}
-    & \multicolumn{2}{c|}{Working with a group of developers} & \multirow{2}{*}{Organisation-level support} \\
+    \multirow{2}{*}{Competency} & \multicolumn{2}{c|}{Working as an individual RSE}
+    & \multicolumn{2}{c|}{Working with a group of RSEs} & \multirow{2}{*}{Organisation-level support} \\
     \cline{2-5}
               & Locally-based & RSE-Team based & Locally-based & RSE-Team based &\\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1102,7 +1102,7 @@ The current situation may differ.
     \gls{SP}&
     Has limited knowledge and motivation regarding software publication.&
     Applies practices, workflows, and policies established in the RSE team.&
-    As per individual (local) developer.&
+    As per individual (local) RSE.&
     As per individual (RSE Team).&
     Should raise awareness about software as a publishable scientific output, provide recommendations and checklists to support software publications, and have legal experts in place to offer advice on complex cases.
     \\\hline
@@ -1124,8 +1124,8 @@ The current situation may differ.
 \begin{longtable}{|p{1.8cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{4.5cm}|}
     \caption{Levels of communication skills expected per team structure.}\label{tbl:teams-comm}\\
     \hline
-    \multirow{2}{*}{Competency} & \multicolumn{2}{c|}{Working as an individual developer}
-    & \multicolumn{2}{c|}{Working with a group of developers} & \multirow{2}{*}{Organisation-level support} \\
+    \multirow{2}{*}{Competency} & \multicolumn{2}{c|}{Working as an individual RSE}
+    & \multicolumn{2}{c|}{Working with a group of RSEs} & \multirow{2}{*}{Organisation-level support} \\
     \cline{2-5}
               & Locally-based & RSE-Team based & Locally-based & RSE-Team based &\\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1152,7 +1152,7 @@ The current situation may differ.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \gls{PM}&
-    Is organised enough to be able to transfer the codebase to future developers.&
+    Is organised enough to be able to transfer the codebase to future RSEs.&
     Follows the project management approach set by the team, or can suggest such \gls{PM} approaches.&
     Has additional \gls{PM} challenges, but may not have awareness of or experience with key \gls{PM} skills,
       which can acquire with low-key courses.&
