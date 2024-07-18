@@ -1219,7 +1219,7 @@ and community work to safeguard usability and adaptability,
 but also handling project governance and scalable decision-making processes.
 This gap can be filled by people who invest in the (\gls{PM}), (\gls{USERS}), and (\gls{TEAM}) skills, as exemplified in @subsec:examplecareer.
 Building a community around a research project is an
-important building block in building sustainable software [@Segal2009], so these RSEs play
+important building block for sustainable software [@Segal2009], so these RSEs play
 an important role, even if they do not necessarily touch much of the code themselves.
 
 #### Teaching RSEs
