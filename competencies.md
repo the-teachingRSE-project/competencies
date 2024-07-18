@@ -233,8 +233,8 @@ that are necessary to understand its purpose.
 **Research software**: Foundational algorithms, the software itself,
 as well as scripts and computational workflows that were created
 during the research process or for a research purpose, across all domains of research.
-This definition is broader than in @FAIR4RS and is the outcome of a recent
-discussion in @Gruenpeter2021.
+This definition is broader than in [@FAIR4RS] and is the outcome of a recent
+discussion in [@Gruenpeter2021].
 
 **Research software engineers**: People who
 create or improve research software and/or the structures that the software interacts with
@@ -473,7 +473,7 @@ competencies defined below. We will elaborate these in
 \subsubsection{\glsentrydesc{#1} (\texorpdfstring{\glsentrytext{#1}}{#1})}\label{skills-#1}}}
 
 The technical skills required by an RSE overlap to a large extent with the common 
-fundamental software engineering skills (see, e.g., @Landwehr2017), but put greater
+fundamental software engineering skills (see, e.g., [@Landwehr2017]), but put greater
 emphasis on aspects related to achieving good scientific practice. 
 For example, RSEs need to know how to make research software adhere to the 
 \ac{FAIR} principles, and how to achieve different levels of research
@@ -511,7 +511,7 @@ documentation. Documentation ranges from commenting code blocks to using
 documentation (building) tools.
 It should be written with consideration for the different audiences who may need it 
 depending on their goals and expertise, 
-for example by following the Diátaxis framework @Procida_Diataxis_documentation_framework.
+for example by following the Diátaxis framework [@Procida_Diataxis_documentation_framework].
 
 <!-- Building distributable libraries -->
 \skillsection{DIST}
@@ -718,7 +718,7 @@ The RSE needs to be able to choose appropriate algorithms and techniques
 (\gls{MOD} and \gls{NEW}). Apart from the technical feasibility, this choice is
 also informed by the values outlined in Section @sec:values. For example, the
 RSE needs to be able to estimate resource usage (processing, memory and storage
-consumption, e.g. @Lannelongue2021). Resource usage has not only a direct financial price tag but also
+consumption, e.g. [@Lannelongue2021]). Resource usage has not only a direct financial price tag but also
 environmental costs via associated energy consumption.
 
 Software development also includes testing. This task is a manifestation of the
@@ -794,7 +794,7 @@ research software might even be used to deal with critical questions such as
 weather forecasting or medical diagnosis. A classification of software is commonly used
 to formalise the process of giving good advice [@Wang2012;
 @Schlauch2018b] where research software can move from one class to another
-during its life cycle. @Schlauch2018b classify applications based on their scope
+during its life cycle. [@Schlauch2018b] classify applications based on their scope
 and criticality and provide \ac{SE} recommendations. The RSE needs to be able to
 identify the application class they are dealing with and apply the respective
 RSE practices.
@@ -952,7 +952,7 @@ of developers is based locally within a research team or department,
 or when they are based in a dedicated, centralised RSE team.
 We also look at organisational aspects in the context of each of the considered
 competencies, since there are a variety of ways that organisations can contribute
-to and support them, complementing those proposed by @Katerbow2018. Some of them are brought to life in the example career path of @subsec:examplemaster.
+to and support them, complementing those proposed by [@Katerbow2018]. Some of them are brought to life in the example career path of @subsec:examplemaster.
 We first summarise the meaning of each of the columns in the tables:
 
 - **Competency:** The code assigned to the competency being considered, as defined in @sec:required-generic-skills, e.g. \gls{TEAM}.
@@ -1331,7 +1331,7 @@ we foresee the need for RSEs that still have a background in RSE but extend it w
 These requirements may arise in the area of publication of research software,
 as this also requires knowledge about particular laws or regulatory frameworks concerning data protection,
 like the \ac{GDPR} within the \ac{EU} [@GDPR].
-Another area are legal aspects of cybersecurity and export control in science and research (see @ExportControl for Germany).
+Another area are legal aspects of cybersecurity and export control in science and research (see [@ExportControl] for Germany).
 Legal-RSEs focus on facilitating the achievement of technically feasible solutions, while adhering to regulatory mandates.
 They are able to communicate and collaborate with lawyers.
 
