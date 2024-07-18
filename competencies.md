@@ -123,15 +123,15 @@ They enable researchers to collect and process ever-increasing amounts of data,
 simulate a wide range of physical phenomena across previously unexplored scales of the universe,
 and discover previously inconceivably complex structures in nature and societies via \ac{ML}.
 This prevalence of computations in research means that basic
-software skills are now required by researchers at all
+digital skills are now required by researchers at all
 career levels, and in fields significantly beyond the previously expected.
 Research software is now used and developed not only in \ac{STEM} domains,
-but also in others, like medicine and the humanities.
+but also in other fields, like medicine and the humanities.
 
 Researchers often lack the skills to use specialised software
 for their research, let alone write it [@NamingPain]. If they come from a non-technical domain, they may
 also struggle to know what to ask when trying to request help from and interact with
-more experienced staff at their institutions. A gap still exists in
+more experienced staff. A gap still exists in
 academic education, as many curricula do not sufficiently prepare their students
 in this regard. This situation is exemplified by the extracurricular \ac{MIT} class
 "The Missing Semester of Your CS Education" [@MIT], which aims to increase 
