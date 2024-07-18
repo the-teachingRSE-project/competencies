@@ -467,7 +467,7 @@ finding a community. Those topics comprise combinations of the skills and
 competencies defined below. We will elaborate these in
 @sec:tasks-and-responsibilities.
 
-## Technicl Skills and Engineering Mindset
+## Technical Skills and Engineering Mindset
 
 \newcommand{\skillsection}[1]{\hypertarget{skills-#1}{%
 \subsubsection{\glsentrydesc{#1} (\texorpdfstring{\glsentrytext{#1}}{#1})}\label{skills-#1}}}
@@ -479,7 +479,7 @@ For example, RSEs need to know how to make research software adhere to the
 \ac{FAIR} principles, and how to achieve different levels of research
 software reusability [@ChueHong2014].
 This reflects a degree of product oriented thinking, that is not common in
-research focussed domains, but is more natural to the way traditional enginners are trained:
+research focused domains, but is more natural to the way traditional engineers are trained:
 Putting the focus on a reusable product.
 
 ## Reliability and Quality Assurance
