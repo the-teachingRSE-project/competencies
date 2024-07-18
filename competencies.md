@@ -1527,7 +1527,7 @@ Towards the end of the programme, she visits her first RSE conference where she 
 that so far have been abstract in her master's degree.
 
 The exposure to the wider RSE community inspires her to invest additional time into her thesis to publish
-her software project under a licence approved by the Open Source Initiative and write an accompanying article in the open source journal JOSS [@JOSS].
+her software project under a licence approved by the Open Source Initiative and to write an accompanying article in the open source journal JOSS [@JOSS].
 Inspired by the discussion with reviewers of her JOSS paper,
 and the citation metadata file that JOSS created automatically for her when her paper is published,
 Kay starts to think more about making her software FAIR.
