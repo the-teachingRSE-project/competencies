@@ -955,7 +955,7 @@ competencies, since there are a variety of ways that organisations can contribut
 to and support them, complementing those proposed by @Katerbow2018. Some of them are brought to life in the example career path of @subsec:examplemaster.
 We first summarise the meaning of each of the columns in the tables:
 
-- **Competency:** The code assigned to the competency being considered, as defined in @sec:required-generic-skills.
+- **Competency:** The code assigned to the competency being considered, as defined in @sec:required-generic-skills, e.g. \gls{TEAM}.
 - **Individual developer (Locally-based):** A single person working on some
   research software - often a researcher with RSE skills. Often time-constrained,
       may be self-taught.
