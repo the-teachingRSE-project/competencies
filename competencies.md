@@ -458,13 +458,12 @@ making these powerful tools work for the welfare of society.
 
 # Foundational RSE competencies {#sec:required-generic-skills}
 
-The role of an RSE lies somewhere on the spectrum between that of a researcher
-(the "R") and a software engineer (the "SE") and, therefore, requires
-competencies in both fields. RSEs typically have a background in research or software engineering,
-but they definitely have obtained broader knowledge in both fields.
-They typically apply their knowledge and experience in larger teams,
+Although RSEs typically have a background in research or software engineering,
+they need to have obtained broader knowledge in both fields.
+They often apply their knowledge and experience in larger teams,
 which allows them to cultivate this hybrid nature.
-We categorise the competencies into three categories, following the two backgrounds and the bridge between them: *software/technical skills*,
+We categorise the competencies into three categories, following the two backgrounds and 
+the bridge between them: *software/technical skills*,
 *research skills*, and *communication skills*, with a particular focus on the software and
 research cycle and the scientific process. These competencies are relevant in a
 broad setting and form the foundation for specific specialisations.
