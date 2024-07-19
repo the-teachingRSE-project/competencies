@@ -32,6 +32,7 @@ output:
     toc: true
     number_sections: true
 secnumdepth: 3
+biblatexoptions: [alldates=iso]
 bibliography: bibliography.bib
 header-includes:
   - \input{preamble.sty}
