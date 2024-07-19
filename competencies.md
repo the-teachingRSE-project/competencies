@@ -1366,15 +1366,14 @@ We will show how we intend to provide the necessary continuous education for RSE
 That publication will again intentionally be free of regional specifics,
  to also serve as a blueprint that other national RSE societies can build upon.
 
-Another important building block is to provide people with online resources for use in their
-courses. This is the intention of the learn-and-teach project [@learnandteach].
+Online resources for courses are another important building block.
+This is the general intention of the learn-and-teach project [@learnandteach].
 Surveying and curating of existing resources is not carried out as a traditional publication,
-but we make it available as a continuously-evolving online resource at [@learnandteach].
+but it is made available as a continuously-evolving online resource at [@learnandteach].
 
-And finally, we will formulate the call to action - building on the previous
-publication on the necessary institutions,
-to lay down what is required to best support the continuous need
-for young RSEs to support digital science specifically in Germany.
+And finally, we plan to formulate a call to action,
+ building on the previously mentioned publication on the necessary institutions,
+ that spells out everything that is required to best support the continuous need for young RSEs to support digital science specifically in Germany.
 
 # Conclusion {#sec:conclusion}
 
