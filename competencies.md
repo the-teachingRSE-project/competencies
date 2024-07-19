@@ -1369,7 +1369,7 @@ That publication will again intentionally be free of regional specifics,
 Online resources for courses are another important building block.
 This is the general intention of the learn-and-teach project [@learnandteach].
 Surveying and curating of existing resources is not carried out as a traditional publication,
- but we make it available as a continuously-evolving online resource at [@learnandteach].
+but it is made available as a continuously-evolving online resource at [@learnandteach].
 
 And finally, we plan to formulate a call to action,
  building on the previously mentioned publication on the necessary institutions,
