@@ -201,10 +201,13 @@ We start with a non-exhaustive overview of existing initiatives in @sec:related-
 @sec:values elaborates on the values that
 provide the guiding principles for the work of an RSE.
 @sec:required-generic-skills defines a set of core skills based on these values.
-The skills themselves fall into three categories, namely
-"software/technical", "research", and "communication" skills,
-reflecting the hybrid nature of an RSE.
-To justify the selection of these skills,
+There are many ways to categorise the competencies of an RSE. We chose to
+distribute these competencies over three categories to reflect the fact
+that RSEs are both competent researchers (the research skills, Section
+@sec:research-skills) and software engineers (the software/technical skills,
+Section @sec:software-skills). The third categories (communication skills,
+Section @sec:communication-skills) forms the bridge between the former two
+categories. To justify the selection of these skills,
 we also list some current tasks
 and discuss the skills used therein.
 As with any general skill set, not all RSEs will need
@@ -485,7 +488,7 @@ finding a community. Those topics comprise combinations of the skills and
 competencies defined below. We will elaborate these in
 @sec:tasks-and-responsibilities.
 
-## Software/Technical skills
+## Software/Technical skills {#sec:software-skills}
 
 \newcommand{\skillsection}[1]{\hypertarget{skills-#1}{%
 \subsubsection{\glsentrydesc{#1} (\texorpdfstring{\glsentrytext{#1}}{#1})}\label{skills-#1}}}
@@ -568,7 +571,7 @@ An important facet of this capability relates to information security.
 RSEs need to consider the safety and integrity of personal data and other sensitive information
 and make sure that they do not negatively impact the integrity of their institution's network.
 
-## Research skills
+## Research skills {#sec:research-skills}
 
 <!-- Conducting and leading research -->
 \skillsection{NEW}
@@ -650,7 +653,7 @@ domain-specific data repositories.
 Finally, they need to be able to assess and use software repositories -
 domain-specific or generic - for publishing software with the relevant metadata.
 
-## Communication skills
+## Communication skills {#sec:communication-skills}
 
 RSEs do not work in isolation.
 They are embedded in a research group or work within a team of RSEs supporting particular research projects.
