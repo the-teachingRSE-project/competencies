@@ -226,22 +226,6 @@ Finally, @sec:appendix provides an example curriculum in @subsec:examplemaster,
 a story-like description of a fictional RSE career progression in @subsec:examplecareer,
 and a list of existing skills and certifications in related fields, in @subsec:existingframeworks.
 
-## The Term Research Software Engineer
-
-Due to this nature there is a plethora of different variations of RSE depending on the 
-particular Research domain they are working in. Therefore the broad notion of Research Software Engineers is better thought of
-as a collection of sub-communities.
-The term Research Software Engineer is made more difficult to grasp, since at least  anecdotal evidence suggests,
-that uk-RSE community has a more technical oriented working definition, de-RSE has a more open working definition that
-allows more people to self-identify as RSEs.
-RSEs fall therefore somewhere on the spectrum between a researcher at one end and a software engineer at the other.
-Common to all of them is, that they  need to be able to work in a Research environment. 
-RSEs often need to deal with non-technical complexities that are characteristic for Research environments: organisational, motivational, with respect to the size of projects, independence and heterogeneous goals of stakeholders, boundary conditions for funding and future funding, to name just a few.
-This variability of how strong the emphasis on the research aspect is, is symbolically represented
-as "R(SE) vs. (RS)E" meaning on the one hand, (SE) in a research environment, which would put it closer to other related fields like automotive software engineering,
-whereas on the other hand we would have engineering practices for Research Software.
-
-
 ## Terminology
 
 Depending on the national research
@@ -266,6 +250,20 @@ part of their role.
 However, we also recognise that many RSEs have chosen specifically to focus on a technical
 role as an alternative to a traditional research role because they enjoy and wish to focus
 on the development of research software.
+
+Due to this nature there is a plethora of different variations of RSEs depending on the
+particular Research domain they are working in.
+RSEs fall somewhere on the spectrum between a researcher at one end and a software
+engineer at the other. Common to all of them is, that they  need to be able to work in a
+research environment.
+RSEs often need to deal with non-technical complexities that are characteristic for research
+environments: organisational, motivational, with respect to the size of projects,
+independence and heterogeneous goals of stakeholders, boundary conditions for funding and
+future funding, to name just a few.
+The position on the RSE spectrum can be symbolically represented as "R(SE) vs. (RS)E":
+the R(SE) is a software engineer in a research environment which would make them akin to a
+SE in a specialised engineering field such as automotive engineering; the (RS)E is then
+somebody who applies engineering practices to research software.
 
 **Researchers**:
 People who are using the services provided by Research Software Engineers.
