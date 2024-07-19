@@ -938,7 +938,7 @@ They should encourage their students to use relevant tools (\gls{DIST}).
 They need to be able to judge the suitability of the software (\gls{SWLC}) and follow the interactions between relevant projects (\gls{SWREPOS}).
 They should be able to advise their students on the legal aspects of software production and distribution (\gls{SP}).
 They should be able to contribute meaningfully to the steering decisions of the software in their field (\gls{USERS}).
-They need to guide students and give full-size lectures (\gls{TEACH}).
+They are able to guide students and give full-size lectures (\gls{TEACH}).
 They need to manage and lead their research group (\gls{PM}, \gls{TEAM}).
 
 ## Project team structures
