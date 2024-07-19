@@ -505,7 +505,7 @@ around the research software projects they work on. To reflect this, the technic
 listed below complement competencies regarding the standard life cycle of
 software development (as summarised in \autoref{subsec:technical-general}) with RSE-specific focus skills. 
 
-\subsubsection{Classical software engineering skills}\label{subsec:technical-general}
+\subsubsection{Relationship to Software Engineering}\label{subsec:technical-general}
 
 To summarise the vast range of the skills a software engineer is typically equipped with,
 we refer to the Guide to the Software Engineering Body of Knowledge (@swebok_2014).
