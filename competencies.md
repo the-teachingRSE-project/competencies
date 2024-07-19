@@ -1323,6 +1323,7 @@ and using APIs, for example for research data portals or big research projects.
 Ideally, this RSE should also have knowledge about (web) accessibility to allow a broad
 range of researchers or even the public to use the resulting applications.
 Therefore, a deep knowledge of web development skills is a required additional skill for this RSE.
+Since a lot of web services for research may be accessible to a large audience or even to the public worldwide, this RSE is also familiar with possible cybersecurity threads and their mitigation, and is able to not only balance security decisions with other factors like usability, but can also effectively communicate those decisions to stakeholders.
 
 #### Legal-RSE
 All RSEs are a go-to person for questions about licensing, in particular when mixing software components that use different licences.
