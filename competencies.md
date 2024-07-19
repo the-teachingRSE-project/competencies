@@ -161,6 +161,8 @@ Assistant, Research Fellow, or Software Engineer. Regardless of their job title,
 RSEs share a set of core skills that are required to write software, understand
 the research environment, and ensure that they produce sustainable, maintainable
 code that supports reproducible research outputs, following the \ac{FAIR} principles [@FAIR4RS].
+Research Software Engineering can thus be considered an interface discipline,
+linking traditional Software Engineering with Research itself [@Lamprecht2024-giradar].
 
 This community paper defines a set of core values and foundational competencies,
 agnostic of specific technical capabilities or research domains,
@@ -223,8 +225,6 @@ and a list of existing skills and certifications in related fields, in @subsec:e
 
 ## The Term Research Software Engineer
 
-Research Software Engineering can be considered as an interface discipline,
-linking traditional Software Engineering with Research itself [@Lamprecht2024-giradar].
 Due to this nature there is a plethora of different variations of RSE depending on the 
 particular Research domain they are working in. Therefore the broad notion of Research Software Engineers is better thought of
 as a collection of sub-communities.
