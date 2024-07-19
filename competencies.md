@@ -221,6 +221,24 @@ Finally, @sec:appendix provides an example curriculum in @subsec:examplemaster,
 a story-like description of a fictional RSE career progression in @subsec:examplecareer,
 and a list of existing skills and certifications in related fields, in @subsec:existingframeworks.
 
+## The Term Research Software Engineer
+
+Research Software Engineering can be considered as an interface discipline,
+linking traditional Software Engineering with Research itself [@Lamprecht2024-giradar].
+Due to this nature there is a plethora of different variations of RSE depending on the 
+particular Research domain they are working in. Therefore the broad notion of Research Software Engineers is better thought of
+as a collection of sub-communities.
+The term Research Software Engineer is made more difficult to grasp, since at least  anecdotal evidence suggests,
+that uk-RSE community has a more technical oriented working definition, de-RSE has a more open working definition that
+allows more people to self-identify as RSEs.
+RSEs fall therefore somewhere on the spectrum between a researcher at one end and a software engineer at the other.
+Common to all of them is, that they  need to be able to work in a Research environment. 
+RSEs often need to deal with non-technical complexities that are characteristic for Research environments: organisational, motivational, with respect to the size of projects, independence and heterogeneous goals of stakeholders, boundary conditions for funding and future funding, to name just a few.
+This variability of how strong the emphasis on the research aspect is, is symbolically represented
+as "R(SE) vs. (RS)E" meaning on the one hand, (SE) in a research environment, which would put it closer to other related fields like automotive software engineering,
+whereas on the other hand we would have engineering practices for Research Software.
+
+
 ## Terminology
 
 Depending on the national research
@@ -1215,7 +1233,7 @@ and community work to safeguard usability and adaptability,
 but also handling project governance and scalable decision-making processes.
 This gap can be filled by people who invest in the (\gls{PM}), (\gls{USERS}), and (\gls{TEAM}) skills, as exemplified in @subsec:examplecareer.
 Building a community around a research project is an
-important building block for sustainable software [@Segal2009], so these RSEs play
+important building block for sustainable software [@Segal2009], so these RSEs play
 an important role, even if they do not necessarily touch much of the code themselves.
 
 #### Teaching RSEs
