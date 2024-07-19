@@ -1455,7 +1455,7 @@ Core modules are of course drawn from the three pillars of the RSE and can be ca
   - Software engineering module: Here we develop foundational software engineering competencies (basic knowledge and skill regarding requirements engineering, software architecture and design, implementation, quality assurance, software evolution), again emphasising and strengthening (\gls{DOCBB}, \gls{DIST}) on a more abstract level.
 
 - Research skills:
-  - Optional domain mastery module: Additional minor research courses, but students with a home-domain already have the research part well-covered.
+  - Optional domain mastery module: Additional minor research courses, but students with a home-domain already have the research part well-covered. Courses here should be allowed to fall in any research field, and those outside of the own home-domain should be especially encouraged.
   - Research tools module: Here we teach tools used to distribute and publish software, as well as introducing students to domain specific data repositories, thereby gaining foundational knowledge in (\gls{SRU}, \gls{SP}, \gls{DOMREP}).
   - Meta-research module: Here we teach people how research works. The research life cycle is introduced, as well as the data life cycle and the software life cycle are abstractly introduced.
 
