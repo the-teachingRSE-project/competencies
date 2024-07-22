@@ -248,8 +248,6 @@ on the development of research software.
 
 **Researchers**:
 People who are using the services provided by Research Software Engineers.
-These not only include academics but also people from related fields such as librarians and technicians
-who are at most sporadically performing RSE actions.
 
 # Related work {#sec:related-work}
 
