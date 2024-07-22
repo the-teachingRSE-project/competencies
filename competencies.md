@@ -1359,7 +1359,6 @@ social skill-set focused specialisations
 
 # Future work {#sec:future-work}
 
-<<<<<<< HEAD
 Having the competencies is a first step to finding common ground around which to structure
 curricula, institutions, and teachers in this framework.
 Applications of them in an individual's career can be found in @subsec:examplemaster.
@@ -1375,7 +1374,6 @@ Beyond having that discussion, a diverse set of publications is already in the m
 Next, we will work on how to institutionalise education.
 In that publication, we will detail how we organise our institutions and what qualifications our teachers
 need to have in order to effectively communicate our values.
-=======
 This list and description of competencies is a first step to finding common ground
  around which to structure curricula, institutions, and teachers in this framework.
 Applications of these competencies in an individual's career can be found in @subsec:examplemaster.
