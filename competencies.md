@@ -233,7 +233,7 @@ environments and processes that readers are familiar with, the notion of the ter
 Therefore, to avoid ambiguities, we define these as follows:
 
 **Software**: Source code, documentation, tests, executables
-and all other artefacts that are created by humans during the development process
+and all other artefacts that are created during the development process
 that are necessary to understand its purpose.
 
 **Research software**: Foundational algorithms, the software itself,
@@ -267,7 +267,6 @@ somebody who applies engineering practices to research software.
 
 **Researchers**:
 People who are using the services provided by Research Software Engineers.
-These not only include academics but also people from related fields such as librarians and technicians.
 
 # Related work {#sec:related-work}
 
@@ -858,7 +857,7 @@ depending on their circumstances. A strong beneficiary of specialised RSEs can a
 
 At different career levels, differing skills are required. We have set this up according to the following separation often applied within a single project:
 
-- Junior RSE: These are people who are in the earlier stages of their RSE career journey, but they should still have research experience of their own as well as the skills to contribute reliable and well-structured code to software projects.
+- Junior RSE: These are people who are in the earlier stages of their RSE career journey, but they should ideally have research experience of their own as well as the skills to contribute reliable and well-structured code to software projects.
 - Senior RSE: They have gained experience, both concerning their software skills as well as in their research collaborations in potentially many different fields. They can set the standards in a software project.
 - Principal RSE: Their actual job description varies a lot. These may be RSE team leaders based in a professional services type role, or they may be professors or research group leaders based in a more academic-focused role. They are often the people responsible for bringing in the funding that supports new and sustains existing projects. Generally speaking, they do not need to be actively involved in the day-to-day technical tasks, but they should be able to guide projects from both a technical and a research perspective while providing an inclusive working space and in many cases, lead research or RSE teams.
 
@@ -1280,7 +1279,7 @@ Research focused specialisations
 -->
 
 #### \${DOMAIN}-RSE
-While software is the lingua franca of all RSEs, there will be RSEs that have specialised in the intricacies of one particular research domain,
+While software is the common focus of all RSEs, there will be RSEs that have specialised in the intricacies of one particular research domain,
 such as medical RSEs, digital humanities RSEs, or physics RSEs.
 This can often serve as a base domain for RSE specialisation as in @subsec:examplemaster.
 
@@ -1360,7 +1359,7 @@ and using APIs, for example for research data portals or big research projects.
 Ideally, this RSE should also have knowledge about (web) accessibility to allow a broad
 range of researchers or even the public to use the resulting applications.
 Therefore, a deep knowledge of web development skills is a required additional skill for this RSE.
-Since a lot of web services for research may be accessible to a large audience or even to the public worldwide, this RSE is also familiar with possible cybersecurity threads and their mitigation, and is able to not only balance security decisions with other factors like usability, but can also effectively communicate those decisions to stakeholders.
+Since a lot of web services for research may be accessible to a large audience or even to the public, this RSE is also familiar with aspects relating to cybersecurity, usability and accessibility. Not only do they need to balance these concerns, but they also need to efficiently communicate the decisions made to stakeholders.
 
 #### Legal-RSE
 All RSEs are a go-to person for questions about licensing, in particular when mixing software components that use different licences.
