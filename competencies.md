@@ -234,7 +234,9 @@ allows more people to self-identify as RSEs.
 RSEs fall therefore somewhere on the spectrum between a researcher at one end and a software engineer at the other.
 Common to all of them is, that they  need to be able to work in a Research environment. 
 RSEs often need to deal with non-technical complexities that are characteristic for Research environments: organisational, motivational, with respect to the size of projects, independence and heterogeneous goals of stakeholders, boundary conditions for funding and future funding, to name just a few.
-The position on the RSE spectrum can be symbolically represented as "R(SE) vs. (RS)E": the R(SE) is a software engineer in a research environment which would make them akin to a SE in a specialised engineering field such as automotive engineering; the (RS)E is then somebody who applies engineering practices to research software.
+The position on the RSE spectrum can be symbolically represented as "R(SE) vs. (RS)E": the R(SE) is a software engineer in a research environment which would make them akin to a SE in a specialised engineering field such as automotive engineering; the (RS)E is then somebody who applies engineering practices to research software,
+and thereby puts an emphasis less on the technical aspects,
+but more on the creation of reusable software products with a certain notion of performance that are well-received by their users.
 
 
 ## Terminology
