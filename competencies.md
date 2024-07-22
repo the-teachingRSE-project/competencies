@@ -228,9 +228,9 @@ linking traditional Software Engineering with Research itself [@Lamprecht2024-g
 Due to this nature there is a plethora of different variations of RSE depending on the 
 particular Research domain they are working in. Therefore the broad notion of Research Software Engineers is better thought of
 as a collection of sub-communities.
-The term Research Software Engineer is made more difficult to grasp, since an internationally recognized definition
+The term Research Software Engineer is made more difficult to grasp, since an internationally recognised definition
 is still missing. Anecdotal evidence suggests that while there is a broad consensus about the broad notion, that an RSE
-is a person with one leg in research and the other in software development, there seem to be nuances which one is more emphasized.
+is a person with one leg in research and the other in software development, there seem to be nuances which one is more emphasised.
 Another dimension is required by the expected level of professionalism. A less strict definition allows more people to self-identify as RSEs.
 RSEs fall therefore somewhere on the spectrum between a researcher at one end and a software engineer at the other.
 Common to all of them is, that they  need to be able to work in a Research environment. 
