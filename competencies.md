@@ -388,6 +388,8 @@ special topics such as cryptography or re-identification attacks [@Henriksen201
 RSEs are often experienced professionals who instruct and work closely with early career researchers.
 Similarly to academic supervisors, they bear a certain responsibility to guide and advise younger colleagues
 with respect to career development and the achievement of academic goals.
+This can take the form of supervising a student or mentoring a fellow RSE.
+The RSE needs to be aware of the biases arising from the sociological imbalances in research and academia.
 According to the \ac{UNESCO} Science Report [@Schneegans2021] women account for 33.3% of all researchers.
 60.2% of researches come from high-income countries which account for 17.5% of the global population in 2018.
 Furthermore, the socioeconomic background of academics is not representative of the general population, for example in the US a tenure-track academic is 25 times more likely to have a parent with a PhD [@Morgan2022].
