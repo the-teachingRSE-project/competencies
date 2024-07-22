@@ -32,6 +32,7 @@ output:
     toc: true
     number_sections: true
 secnumdepth: 3
+biblatexoptions: [alldates=iso]
 bibliography: bibliography.bib
 header-includes:
   - \input{preamble.sty}
@@ -123,15 +124,15 @@ They enable researchers to collect and process ever-increasing amounts of data,
 simulate a wide range of physical phenomena across previously unexplored scales of the universe,
 and discover previously inconceivably complex structures in nature and societies via \ac{ML}.
 This prevalence of computations in research means that basic
-software skills are now required by researchers at all
+digital skills are now required by researchers at all
 career levels, and in fields significantly beyond the previously expected.
 Research software is now used and developed not only in \ac{STEM} domains,
-but also in others, like medicine and the humanities.
+but also in other fields, like medicine and the humanities.
 
 Researchers often lack the skills to use specialised software
 for their research, let alone write it [@NamingPain]. If they come from a non-technical domain, they may
 also struggle to know what to ask when trying to request help from and interact with
-more experienced staff at their institutions. A gap still exists in
+more experienced staff. A gap still exists in
 academic education, as many curricula do not sufficiently prepare their students
 in this regard. This situation is exemplified by the extracurricular \ac{MIT} class
 "The Missing Semester of Your CS Education" [@MIT], which aims to increase 
@@ -227,7 +228,7 @@ environments and processes that readers are familiar with, the notion of the ter
 Therefore, to avoid ambiguities, we define these as follows:
 
 **Software**: Source code, documentation, tests, executables
-and all other artefacts that are created by humans during the development process
+and all other artefacts that are created during the development process
 that are necessary to understand its purpose.
 
 **Research software**: Foundational algorithms, the software itself,
@@ -938,7 +939,7 @@ They should encourage their students to use relevant tools (\gls{DIST}).
 They need to be able to judge the suitability of the software (\gls{SWLC}) and follow the interactions between relevant projects (\gls{SWREPOS}).
 They should be able to advise their students on the legal aspects of software production and distribution (\gls{SP}).
 They should be able to contribute meaningfully to the steering decisions of the software in their field (\gls{USERS}).
-They need to guide students and give full-size lectures (\gls{TEACH}).
+They are able to guide students and give full-size lectures (\gls{TEACH}).
 They need to manage and lead their research group (\gls{PM}, \gls{TEAM}).
 
 ## Project team structures
@@ -1366,15 +1367,14 @@ We will show how we intend to provide the necessary continuous education for RSE
 That publication will again intentionally be free of regional specifics,
  to also serve as a blueprint that other national RSE societies can build upon.
 
-Another important building block is to provide people with online resources for use in their
-courses. This is the intention of the learn-and-teach project [@learnandteach].
+Online resources for courses are another important building block.
+This is the general intention of the learn-and-teach project [@learnandteach].
 Surveying and curating of existing resources is not carried out as a traditional publication,
-but we make it available as a continuously-evolving online resource at [@learnandteach].
+but it is made available as a continuously-evolving online resource at [@learnandteach].
 
-And finally, we will formulate the call to action - building on the previous
-publication on the necessary institutions,
-to lay down what is required to best support the continuous need
-for young RSEs to support digital science specifically in Germany.
+And finally, we plan to formulate a call to action,
+ building on the previously mentioned publication on the necessary institutions,
+ that spells out everything that is required to best support the continuous need for young RSEs to support digital science specifically in Germany.
 
 # Conclusion {#sec:conclusion}
 
@@ -1455,7 +1455,7 @@ Core modules are of course drawn from the three pillars of the RSE and can be ca
   - Software engineering module: Here we develop foundational software engineering competencies (basic knowledge and skill regarding requirements engineering, software architecture and design, implementation, quality assurance, software evolution), again emphasising and strengthening (\gls{DOCBB}, \gls{DIST}) on a more abstract level.
 
 - Research skills:
-  - Optional domain mastery module: Additional minor research courses, but students with a home-domain already have the research part well-covered.
+  - Optional domain mastery module: Additional minor research courses, but students with a home-domain already have the research part well-covered. Courses here should be allowed to fall in any research field, and those outside of the own home-domain should be especially encouraged.
   - Research tools module: Here we teach tools used to distribute and publish software, as well as introducing students to domain specific data repositories, thereby gaining foundational knowledge in (\gls{SRU}, \gls{SP}, \gls{DOMREP}).
   - Meta-research module: Here we teach people how research works. The research life cycle is introduced, as well as the data life cycle and the software life cycle are abstractly introduced.
 
