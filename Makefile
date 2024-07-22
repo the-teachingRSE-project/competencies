@@ -6,7 +6,7 @@ objects := competencies.pdf
 
 all: $(objects)
 
-%.pdf: %.md bibliography/bibliography.bib contributors.yml preamble.sty build/template.tex glossary.tex filter.py
+%.pdf: %.md bibliography/bibliography.bib contributors.yml preamble.sty build/template.tex glossary.tex filter.py Makefile
 	@mkdir -p build
 	@mkdir -p build/svg-inkscape
 	@rm -f build/pdfa.xmpi
@@ -24,7 +24,7 @@ all: $(objects)
 	    --template="build/template.tex" \
 	    -f markdown-latex_macros \
 	    -M pdfa-$(MAKE_PDFA)=1 \
-	    -M date="`date "+%B %e, %Y"`" \
+	    -M date="`date "+%F"`" \
 	    -M datexmp="`date "+%F"`" \
 	    -M linkcolor=darkgray \
 	    -V hyperrefoptions=pdfa \
