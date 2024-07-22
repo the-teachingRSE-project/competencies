@@ -395,7 +395,7 @@ According to the \ac{UNESCO} Science Report [@Schneegans2021] women account for 
 Furthermore, the socioeconomic background of academics is not representative of the general population, for example in the US a tenure-track academic is 25 times more likely to have a parent with a PhD [@Morgan2022].
 This imbalance is even more pronounced in \ac{SE} with a majority of developers identifying as white male [@StackOverflow2022].
 Thereby, to promote their values of an honest, open, and inclusive research space, they should be aware of
-the diversity problem and help to mediate it whenever they have the chance to do so.
+the diversity problems and help to mitigate them whenever they have the chance to do so.
 
 ### Shaping digital science
 
