@@ -224,7 +224,7 @@ and a list of existing skills and certifications in related fields, in @subsec:e
 ## The Term Research Software Engineer
 
 Research Software Engineering can be considered as an interface discipline,
-linking traditional Software Engineering with Research itself [@Lamprecht2024-giradar].
+linking traditional Software Engineering with Research itself [@Lamprecht2024-giradar].
 Due to this nature there is a plethora of different variations of RSE depending on the 
 particular Research domain they are working in. Therefore the broad notion of Research Software Engineers is better thought of
 as a collection of sub-communities.
