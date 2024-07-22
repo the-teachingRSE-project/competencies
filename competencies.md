@@ -820,7 +820,7 @@ depending on their circumstances. A strong beneficiary of specialised RSEs can a
 
 At different career levels, differing skills are required. We have set this up according to the following separation often applied within a single project:
 
-- Junior RSE: These are people who are in the earlier stages of their RSE career journey, but they should still have research experience of their own as well as the skills to contribute reliable and well-structured code to software projects.
+- Junior RSE: These are people who are in the earlier stages of their RSE career journey, but they should ideally have research experience of their own as well as the skills to contribute reliable and well-structured code to software projects.
 - Senior RSE: They have gained experience, both concerning their software skills as well as in their research collaborations in potentially many different fields. They can set the standards in a software project.
 - Principal RSE: Their actual job description varies a lot. These may be RSE team leaders based in a professional services type role, or they may be professors or research group leaders based in a more academic-focused role. They are often the people responsible for bringing in the funding that supports new and sustains existing projects. Generally speaking, they do not need to be actively involved in the day-to-day technical tasks, but they should be able to guide projects from both a technical and a research perspective while providing an inclusive working space and in many cases, lead research or RSE teams.
 
