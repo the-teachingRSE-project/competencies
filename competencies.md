@@ -229,7 +229,7 @@ Due to this nature there is a plethora of different variations of RSE depending 
 particular Research domain they are working in. Therefore the broad notion of Research Software Engineers is better thought of
 as a collection of sub-communities.
 The term Research Software Engineer is made more difficult to grasp, since an internationally recognised definition
-is still missing.  While there is a broad consensus about the broad notion, that an RSE
+is still missing.  While there is  consensus about the general notion, that an RSE
 is a person with one leg in research and the other in software development, there are nuances which one is more emphasised.
 There is also the question of what level of professionalism is expected. A less strict definition allows more people to self-identify as RSEs,
 thereby fostering an inclusive community of people working in digital science. This aspect will become a part of an RSEs values later.
