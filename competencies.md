@@ -238,7 +238,7 @@ RSEs fall therefore somewhere on the spectrum between a researcher at one end an
 Common to all of them is, that they need to be able to work in the research environment the software is used in, ideally at eye-level with native researchers, but at least as close as possible.
 RSEs often need to deal with non-technical complexities that are characteristic for research environments:
  organisational, motivational, with respect to the size of projects, independence and heterogeneous goals of stakeholders, boundary conditions for funding and future funding, to name just a few.
-Summarizing, RSEs have skills and experience in three important areas: in the research area(s) their software is used in, in software engineering topics, as well as in interdisciplinary communication.
+Summarising, RSEs have skills and experience in three important areas: in the research area(s) their software is used in, in software engineering topics, as well as in interdisciplinary communication.
 
 ## Terminology
 
