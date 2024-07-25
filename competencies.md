@@ -132,7 +132,7 @@ but also in other fields, like medicine and the humanities.
 Researchers often lack the skills to use specialised software
 for their research, let alone write it [@NamingPain]. If they come from a non-technical domain, they may
 also struggle to know what to ask when trying to request help from and interact with
-more experienced practitioners. A gap still exists in
+more experienced colleagues. A gap still exists in
 academic education, as many curricula do not sufficiently prepare their students
 in this regard. This situation is exemplified by the extracurricular \ac{MIT} class
 "The Missing Semester of Your CS Education" [@MIT], which aims to increase 
