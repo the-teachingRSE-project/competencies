@@ -930,6 +930,7 @@ will spend time in their research on writing and developing software.
 Therefore, RSE focused training, e.g., in a master's programme,
 is also beneficial for students in these fields
 resulting in a broader audience.
+This also means that students as well as researchers need to be given time to acquire those skills, e.g., to be able to attend training in RSE-relevant topics as part of their regular work or study.
 
 This section outlines how the RSE competencies could be reflected at all academic levels.
 It is important to note that this section does not reflect the current state of academic training and research institutions.
