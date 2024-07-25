@@ -221,6 +221,25 @@ Finally, @sec:appendix provides an example curriculum in @subsec:examplemaster,
 a story-like description of a fictional RSE career progression in @subsec:examplecareer,
 and a list of existing skills and certifications in related fields, in @subsec:existingframeworks.
 
+## The Term Research Software Engineer
+
+Research Software Engineering can be considered an interface discipline,
+ linking traditional Software Engineering with Research itself [@Lamprecht2024-giradar].
+Due to this nature there is a plethora of different variations of RSE depending on the particular Research domain they are working in.
+Therefore the broad notion of Research Software Engineers is better thought of as a collection of sub-communities.
+The term Research Software Engineer is made more difficult to grasp
+ since an internationally recognised definition is still missing.
+While there is consensus about the general notion that an RSE is a person with one leg in their research domain and the other in software development,
+ this spans a whole spectrum depending on which one is more emphasised.
+There is also the question of what level of professionalism concerning both non-SE research and SE is expected.
+A more inclusive definition allows more people to self-identify as RSEs,
+ thereby also fostering an inclusive community of people working in digital science (see also @sec:values on the values of an RSE).
+RSEs fall therefore somewhere on the spectrum between a researcher at one end and a software engineer at the other.
+Common to all of them is, that they need to be able to work in the research environment the software is used in, ideally at eye-level with native researchers, but at least as close as possible.
+RSEs often need to deal with non-technical complexities that are characteristic for research environments:
+ organisational, motivational, with respect to the size of projects, independence and heterogeneous goals of stakeholders, boundary conditions for funding and future funding, to name just a few.
+Summarising, RSEs have skills and experience in three important areas: in the research area(s) their software is used in, in software engineering topics, as well as in interdisciplinary communication.
+
 ## Terminology
 
 Depending on the national research
@@ -1348,7 +1367,7 @@ social skill-set focused specialisations
 
 This list and description of competencies is a first step to finding common ground
  around which to structure curricula, institutions, and teachers in this framework.
-Applications of these competencies in an individual's career can be found in @subsec:examplemaster.
+Applications of these competencies in an individual's career can be found in @subsec:examplemaster.
 An omission that we found and that we would like to highlight in order to spark a community discussion is
  that RSEs that choose explicitly a science-supporting role outside of research will not be eligible for funding
  under the statutes of many funding organisations that require a PhD at minimum.
@@ -1357,7 +1376,7 @@ To alleviate this and to give RSEs in leadership positions a means to become eli
  since completion of scientific training is often a requirement [@DFG_50_01],
  we see two possible parts of a solution.
 One is to allow for doctorates primarily based on software contributions to the scientific community.
-Secondly, we propose the introduction of new, standardised certificates like those in @subsec:examplecareer,
+Secondly, we propose the introduction of new, standardised certificates like those in @subsec:examplecareer,
  and to officially accept them as PhD-equivalent concerning eligibility to be PI.
 Beyond this discussion, a diverse set of publications on the topic RSE teaching is already in the making.
 
