@@ -123,7 +123,7 @@ decades, while they are now vital elements of the research process across almost
 They enable researchers to collect and process ever-increasing amounts of data,
 simulate a wide range of physical phenomena across previously unexplored scales of the universe,
 and discover previously inconceivably complex structures in nature and societies via \ac{ML}.
-This prevalence of computations in research means that basic
+This prevalence of computations in research means that
 digital skills are now required by researchers at all
 career levels, and in fields significantly beyond the previously expected.
 Research software is now used and developed not only in \ac{STEM} domains,
@@ -132,7 +132,7 @@ but also in other fields, like medicine and the humanities.
 Researchers often lack the skills to use specialised software
 for their research, let alone write it [@NamingPain]. If they come from a non-technical domain, they may
 also struggle to know what to ask when trying to request help from and interact with
-more experienced staff. A gap still exists in
+more experienced colleagues. A gap still exists in
 academic education, as many curricula do not sufficiently prepare their students
 in this regard. This situation is exemplified by the extracurricular \ac{MIT} class
 "The Missing Semester of Your CS Education" [@MIT], which aims to increase 
@@ -220,6 +220,25 @@ and conclusions in @sec:conclusion.
 Finally, @sec:appendix provides an example curriculum in @subsec:examplemaster,
 a story-like description of a fictional RSE career progression in @subsec:examplecareer,
 and a list of existing skills and certifications in related fields, in @subsec:existingframeworks.
+
+## The Term Research Software Engineer
+
+Research Software Engineering can be considered an interface discipline,
+ linking traditional Software Engineering with Research itself [@Lamprecht2024-giradar].
+Due to this nature there is a plethora of different variations of RSE depending on the particular Research domain they are working in.
+Therefore the broad notion of Research Software Engineers is better thought of as a collection of sub-communities.
+The term Research Software Engineer is made more difficult to grasp
+ since an internationally recognised definition is still missing.
+While there is consensus about the general notion that an RSE is a person with one leg in their research domain and the other in software development,
+ this spans a whole spectrum depending on which one is more emphasised.
+There is also the question of what level of professionalism concerning both non-SE research and SE is expected.
+A more inclusive definition allows more people to self-identify as RSEs,
+ thereby also fostering an inclusive community of people working in digital science (see also @sec:values on the values of an RSE).
+RSEs fall therefore somewhere on the spectrum between a researcher at one end and a software engineer at the other.
+Common to all of them is, that they need to be able to work in the research environment the software is used in, ideally at eye-level with native researchers, but at least as close as possible.
+RSEs often need to deal with non-technical complexities that are characteristic for research environments:
+ organisational, motivational, with respect to the size of projects, independence and heterogeneous goals of stakeholders, boundary conditions for funding and future funding, to name just a few.
+Summarising, RSEs have skills and experience in three important areas: in the research area(s) their software is used in, in software engineering topics, as well as in interdisciplinary communication.
 
 ## Terminology
 
@@ -356,6 +375,12 @@ as well as real-world decision-making
 places a larges responsibility on the RSE.
 It is important that RSEs are aware of this responsibility and continuously improve their capabilities to live up to it.
 
+Research software is also well on its way to be ever-present in data-driven research, in all research fields.
+This can probably be most prominently seen by considering software used to analyse data, e.g. within experimental research.
+It is not unusual for RSEs to support those more research data oriented efforts as well.
+Here specifically they closely interact with research data management, by designing research software such as to be better able to adhere to the \ac{FAIR} principles for the research data, but also to follow similar rules for the research software (FAIR4RS [@FAIR4RS]).
+As such, they are then familiar with, e.g., special requirements stemming from the field itself, e.g., in medical research, with privacy related issues especially for personal data, e.g., for conducting surveys.
+
 RSEs often assume a multifaceted role at the junction of research, \ac{SE} and data management.
 They work with a varying and diverse set of colleagues that might include other developers,
 support unit staff and academics of different fields and all career stages.
@@ -381,15 +406,18 @@ Data protection is a difficult subject, so RSEs should notice when they need to 
 special topics such as cryptography or re-identification attacks [@Henriksen2016].
 
 
-### Mentoring and diversity
+### Mentoring and diversity {#sec:mentoring-and-diversity}
 
 RSEs are often experienced professionals who instruct and work closely with early career researchers.
 Similarly to academic supervisors, they bear a certain responsibility to guide and advise younger colleagues
 with respect to career development and the achievement of academic goals.
-According to the \ac{UNESCO} Science Report [@Schneegans2021] women account for 33.3% of all researchers while the majority of researchers come from G20 countries (88.8%).
-This imbalance is even more pronounced in \ac{SE} with a majority of developers identifying as white male [@StackOverflow2022].
+This can take the form of supervising a student or mentoring a fellow RSE.
+The RSE needs to be aware of the biases arising from the sociological imbalances in research and academia.
+According to the \ac{UNESCO} Science Report [@Schneegans2021] women account for 33.3% of all researchers.
+60.2% of researches come from high-income countries which account for 17.5% of the global population in 2018.
+Furthermore, the socioeconomic background of academics is not representative of the general population, for example in the US a tenure-track academic is 25 times more likely to have a parent with a PhD [@Morgan2022].
 Thereby, to promote their values of an honest, open, and inclusive research space, they should be aware of
-the diversity problem and help to mediate it whenever they have the chance to do so.
+the diversity problems and help to mitigate them whenever they have the chance to do so.
 
 ### Shaping digital science
 
@@ -656,7 +684,7 @@ domain-specific or generic - for publishing software with the relevant metadata.
 RSEs do not work in isolation.
 They are embedded in a research group or work within a team of RSEs supporting particular research projects.
 RSEs often need to interact with and facilitate communication among colleagues, clients and contractors
-with a very broad spectrum of background-knowledge, specialisation, expectations, and experience.
+with a very broad spectrum of background-knowledge, specialisation, expectations, and experience whilst keeping diversity issues in mind (@sec:mentoring-and-diversity).
 Communication skills are therefore crucially important.
 Team skills are also mentioned in common guides for \ac{SE} such as the software engineering body of knowledge [@swebok_2014].
 However, the interpersonal and organisational skills and the capacity for adaption required to work in a research setting
@@ -840,7 +868,7 @@ At different career levels, differing skills are required. We have set this up a
 - Senior RSE: They have gained experience, both concerning their software skills as well as in their research collaborations in potentially many different fields. They can set the standards in a software project.
 - Principal RSE: Their actual job description varies a lot. These may be RSE team leaders based in a professional services type role, or they may be professors or research group leaders based in a more academic-focused role. They are often the people responsible for bringing in the funding that supports new and sustains existing projects. Generally speaking, they do not need to be actively involved in the day-to-day technical tasks, but they should be able to guide projects from both a technical and a research perspective while providing an inclusive working space and in many cases, lead research or RSE teams.
 
-@tbl:comp-lvls-se, @tbl:comp-lvls-res, and @tbl:comp-lvls-comm elaborate on the required facets of the competencies in different roles.
+@tbl:comp-lvls-techn, @tbl:comp-lvls-res, and @tbl:comp-lvls-comm elaborate on the required facets of the competencies in different roles.
 A story-like example of an individual through the hierarchies can be found in @subsec:examplecareer .
 
 \blandscape
@@ -855,7 +883,7 @@ A story-like example of an individual through the hierarchies can be found in @s
 | \gls{SWREPOS}    | Should seamlessly interact with the repository of their project.                                                              | Should be well-versed in the intricacies of a repository, and probably interact with repositories of multiple projects.               | Should promote the use of repositories and be able to convey best practices of sharing and reviewing to junior and senior RSEs.                                                                              |
 | \gls{MOD}        | Should have a basic grasp of their piece of the software in order to use basic tools such as a debugger.                      | Should understand the characteristics of large parts of the codebase considering a variety of the metrics.                            | Should understand the big idea of the software project in order to define the task that the software solves.                                                                        |
 
-Table: Levels of software eng. skills expected per RSE career stage. {#tbl:comp-lvls-se}
+Table: Levels of technical skills expected per RSE career stage. {#tbl:comp-lvls-techn}
 
 \newpage
 
@@ -961,9 +989,9 @@ They need to manage and lead their research group (\gls{PM}, \gls{TEAM}).
 
 In @tbl:teams-se, @tbl:teams-res, and @tbl:teams-comm, we look at individual or team competencies and approaches to them,
 considering how these differ depending on whether an RSE or researcher is working alone on a software project,
-or whether they are working as part of a team of research software developers.
-We extend this to consider how things differ when a developer or a group
-of developers is based locally within a research team or department,
+or whether they are working as part of a team of RSEs.
+We extend this to consider how things differ when an RSE or a group
+of RSEs is based locally within a research team or department,
 or when they are based in a dedicated, centralised RSE team.
 We also look at organisational aspects in the context of each of the considered
 competencies, since there are a variety of ways that organisations can contribute
@@ -971,26 +999,26 @@ to and support them, complementing those proposed by [@Katerbow2018]. Some of t
 We first summarise the meaning of each of the columns in the tables:
 
 - **Competency:** The code assigned to the competency being considered, as defined in @sec:required-generic-skills, e.g. \gls{TEAM}.
-- **Individual developer (Locally-based):** A single person working on some
-  research software - often a researcher with RSE skills. Often time-constrained,
+- **Individual RSE (Locally-based):** A single person working on some
+  research software - often an RSE with focus on their own research. Often time-constrained,
       may be self-taught.
-- **Individual developer (RSE team-based):** A single person working on research
+- **Individual RSE (RSE team-based):** A single person working on research
   software - generally a professional RSE assigned to support another team's software on their own,
   who however is connected to an RSE team.
-- **Group of developers (Locally-based):** A group of RSEs/researchers within
-  a research group or team, working together on developing software to support
+- **Group of RSEs (Locally-based):** A group within
+  a research group or team, working together on software to support
   or undertake a single research goal/project.
-  Similarly to the individual RSE, they are often researchers with RSE skills,
+  Similarly to the individual RSE, they are often research-focused with RSE skills,
   often self-taught.
-- **Group of developers (RSE team-based):** A group of members of the RSE team
-  working together on a research software project for a research group.
-- **Organisation-level support:** How the defined competencies are recognised
+- **Group of RSEs (RSE team-based):** An RSE team
+  working together on research software projects for a research group.
+- **Organisation-level RSE support:** Describes how the defined competencies are recognised
   and represented at an organisational level and what the organisation can
   do to support the RSEs in the context of the different team structures.
   These can be read as policy/action recommendations.
 
-These tables take the perspective of the expected skill set of each developer or team
-of developers, similarly to personas in a user experience analysis.
+These tables take the perspective of the expected skill set of each RSE or team
+of RSEs, similarly to personas in a user experience analysis.
 The current situation may differ.
 
 \blandscape
@@ -999,8 +1027,8 @@ The current situation may differ.
 \begin{longtable}{|p{1.8cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{4.5cm}|}
     \caption{Levels of software eng. skills expected per team structure.}\label{tbl:teams-se}\\
     \hline
-    \multirow{2}{*}{Competency} & \multicolumn{2}{c|}{Working as an individual developer}
-    & \multicolumn{2}{c|}{Working with a group of developers} & \multirow{2}{*}{Organisation-level support} \\
+    \multirow{2}{*}{Competency} & \multicolumn{2}{c|}{Working as an individual RSE}
+    & \multicolumn{2}{c|}{Working with a group of RSEs} & \multirow{2}{*}{Organisation-level support} \\
     \cline{2-5}
               & Locally-based & RSE-Team based & Locally-based & RSE-Team based &\\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1013,7 +1041,7 @@ The current situation may differ.
       less aware of key practices.&
     Has stronger ingrained focus on team-based \gls{PM} and development
       methodologies, resulting in higher quality, more reusable code.&
-    Should offer training and other resources in core topics to support individual developers.
+    Should offer training and other resources in core topics to support individual RSEs.
       Should have research software guidance/policies that provide advice.\\
     \hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1056,7 +1084,7 @@ The current situation may differ.
       If project taken on from another developer,
       there may be challenges in transferring the mental model.&
     As local, but more aware of need for future transition to other
-      developer(s), likely provides docs, issues, and other
+      RSE(s), likely provides docs, issues, and other
       support from central services to support this. May only need to know
       parts of the code.&
     Internal team training ensures ability to build necessary
@@ -1076,8 +1104,8 @@ The current situation may differ.
 \begin{longtable}{|p{1.8cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{4.5cm}|}
     \caption{Levels of research skills expected per team structure.}\label{tbl:teams-res}\\
     \hline
-    \multirow{2}{*}{Competency} & \multicolumn{2}{c|}{Working as an individual developer}
-    & \multicolumn{2}{c|}{Working with a group of developers} & \multirow{2}{*}{Organisation-level support} \\
+    \multirow{2}{*}{Competency} & \multicolumn{2}{c|}{Working as an individual RSE}
+    & \multicolumn{2}{c|}{Working with a group of RSEs} & \multirow{2}{*}{Organisation-level support} \\
     \cline{2-5}
               & Locally-based & RSE-Team based & Locally-based & RSE-Team based &\\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1117,8 +1145,8 @@ The current situation may differ.
     \gls{SP}&
     Has limited knowledge and motivation regarding \gls{SP}.&
     Applies practices, workflows, and policies established in the RSE team.&
-    As locally-based individual&
-    As team-based individual&
+    As locally-based RSE&
+    As team-based RSE&
     Should raise awareness about software as a publishable scientific output, provide recommendations and checklists to support software publications, and have legal experts in place to offer advice on complex cases.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1139,8 +1167,8 @@ The current situation may differ.
 \begin{longtable}{|p{1.8cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{3.5cm}|p{4.5cm}|}
     \caption{Levels of communication skills expected per team structure.}\label{tbl:teams-comm}\\
     \hline
-    \multirow{2}{*}{Competency} & \multicolumn{2}{c|}{Working as an individual developer}
-    & \multicolumn{2}{c|}{Working with a group of developers} & \multirow{2}{*}{Organisation-level support} \\
+    \multirow{2}{*}{Competency} & \multicolumn{2}{c|}{Working as an individual RSE}
+    & \multicolumn{2}{c|}{Working with a group of RSEs} & \multirow{2}{*}{Organisation-level support} \\
     \cline{2-5}
               & Locally-based & RSE-Team based & Locally-based & RSE-Team based &\\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1167,7 +1195,7 @@ The current situation may differ.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \gls{PM}&
-    Is organised enough to be able to transfer the codebase to future developers.&
+    Is organised enough to be able to transfer the codebase to future RSEs.&
     Follows the project management approach set by the team, or can suggest such \gls{PM} approaches.&
     Has additional \gls{PM} challenges, but may not have awareness of or experience with key \gls{PM} skills,
       which can be acquired with low-key courses.&
@@ -1362,7 +1390,7 @@ social skill-set focused specialisations
 
 This list and description of competencies is a first step to finding common ground
  around which to structure curricula, institutions, and teachers in this framework.
-Applications of these competencies in an individual's career can be found in @subsec:examplemaster.
+Applications of these competencies in an individual's career can be found in @subsec:examplemaster.
 An omission that we found and that we would like to highlight in order to spark a community discussion is
  that RSEs that choose explicitly a science-supporting role outside of research will not be eligible for funding
  under the statutes of many funding organisations that require a PhD at minimum.
@@ -1371,7 +1399,7 @@ To alleviate this and to give RSEs in leadership positions a means to become eli
  since completion of scientific training is often a requirement [@DFG_50_01],
  we see two possible parts of a solution.
 One is to allow for doctorates primarily based on software contributions to the scientific community.
-Secondly, we propose the introduction of new, standardised certificates like those in @subsec:examplecareer,
+Secondly, we propose the introduction of new, standardised certificates like those in @subsec:examplecareer,
  and to officially accept them as PhD-equivalent concerning eligibility to be PI.
 Beyond this discussion, a diverse set of publications on the topic RSE teaching is already in the making.
 
@@ -1631,7 +1659,7 @@ are examples of grassroots efforts aiming at defining the set of skills
 of various bioinformatics specialities,
 one of them as a taxonomy [@Mulder2018].
 These frameworks eventually converged into the \ac{EMBL-EBI} Competency Hub
-[@CompetencyHub; @Lloret-Llinares2022],
+[@CompetencyHub; @Lloret-Llinares2022],
 where typical RSE and bioinformatician profiles at different levels
 of seniority can be queried
 (e.g., Junior RSE[^JuniorRSE],
