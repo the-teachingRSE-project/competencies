@@ -28,7 +28,7 @@ jobs:
       - name: Upload pdf as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: PDF files
+          compression-level: 0
           path: ./github_artifacts/competencies.pdf
   deploy:
     needs: [paper]
