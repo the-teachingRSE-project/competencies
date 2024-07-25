@@ -406,15 +406,18 @@ Data protection is a difficult subject, so RSEs should notice when they need to 
 special topics such as cryptography or re-identification attacks [@Henriksen2016].
 
 
-### Mentoring and diversity
+### Mentoring and diversity {#sec:mentoring-and-diversity}
 
 RSEs are often experienced professionals who instruct and work closely with early career researchers.
 Similarly to academic supervisors, they bear a certain responsibility to guide and advise younger colleagues
 with respect to career development and the achievement of academic goals.
-According to the \ac{UNESCO} Science Report [@Schneegans2021] women account for 33.3% of all researchers while the majority of researchers come from G20 countries (88.8%).
-This imbalance is even more pronounced in \ac{SE} with a majority of developers identifying as white male [@StackOverflow2022].
+This can take the form of supervising a student or mentoring a fellow RSE.
+The RSE needs to be aware of the biases arising from the sociological imbalances in research and academia.
+According to the \ac{UNESCO} Science Report [@Schneegans2021] women account for 33.3% of all researchers.
+60.2% of researches come from high-income countries which account for 17.5% of the global population in 2018.
+Furthermore, the socioeconomic background of academics is not representative of the general population, for example in the US a tenure-track academic is 25 times more likely to have a parent with a PhD [@Morgan2022].
 Thereby, to promote their values of an honest, open, and inclusive research space, they should be aware of
-the diversity problem and help to mediate it whenever they have the chance to do so.
+the diversity problems and help to mitigate them whenever they have the chance to do so.
 
 ### Shaping digital science
 
@@ -661,7 +664,7 @@ domain-specific or generic - for publishing software with the relevant metadata.
 RSEs do not work in isolation.
 They are embedded in a research group or work within a team of RSEs supporting particular research projects.
 RSEs often need to interact with and facilitate communication among colleagues, clients and contractors
-with a very broad spectrum of background-knowledge, specialisation, expectations, and experience.
+with a very broad spectrum of background-knowledge, specialisation, expectations, and experience whilst keeping diversity issues in mind (@sec:mentoring-and-diversity).
 Communication skills are therefore crucially important.
 Team skills are also mentioned in common guides for \ac{SE} such as the software engineering body of knowledge [@swebok_2014].
 However, the interpersonal and organisational skills and the capacity for adaption required to work in a research setting
