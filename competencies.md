@@ -1033,7 +1033,7 @@ The current situation may differ.
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \gls{MOD}&
     Needs full awareness of entire codebase to extend/maintain.
-      If project taken on from another RSE,
+      If project taken on from another developer,
       there may be challenges in transferring the mental model.&
     As local, but more aware of need for future transition to other
       RSE(s), likely provides docs, issues, and other
@@ -1044,7 +1044,7 @@ The current situation may differ.
       sustainability.&
     As local team, but likely more aware of tooling and practices
       in place within RSE team. Distributing work makes it only necessary
-      for each RSE to understand code related to their assigned tasks.&
+      for each developer to understand code related to their assigned tasks.&
     Should provide training and retain experience via
       coordinating and provide support for mentoring/community activities.
       Establishing RSE departments with specialists for certain aspects of software
