@@ -1,5 +1,5 @@
 name: compilepaper
-on: [push]
+on: [push, pull_request]
 jobs:
   paper:
     runs-on: ubuntu-latest
