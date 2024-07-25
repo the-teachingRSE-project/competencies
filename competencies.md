@@ -963,7 +963,7 @@ We first summarise the meaning of each of the columns in the tables:
   Similarly to the individual RSE, they are often research-focused with RSE skills,
   often self-taught.
 - **Group of RSEs (RSE team-based):** An RSE team
-  working together on a research software projects for a research group.
+  working together on research software projects for a research group.
 - **Organisation-level RSE support:** Describes how the defined competencies are recognised
   and represented at an organisational level and what the organisation can
   do to support the RSEs in the context of the different team structures.
