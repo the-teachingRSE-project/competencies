@@ -356,6 +356,12 @@ as well as real-world decision-making
 places a larges responsibility on the RSE.
 It is important that RSEs are aware of this responsibility and continuously improve their capabilities to live up to it.
 
+Research software is also well on its way to be ever-present in data-driven research, in all research fields.
+This can probably be most prominently seen by considering software used to analyse data, e.g. within experimental research.
+It is not unusual for RSEs to support those more research data oriented efforts as well.
+Here specifically they closely interact with research data management, by designing research software such as to be better able to adhere to the \ac{FAIR} principles for the research data, but also to follow similar rules for the research software (FAIR4RS [@FAIR4RS]).
+As such, they are then familiar with, e.g., special requirements stemming from the field itself, e.g., in medical research, with privacy related issues especially for personal data, e.g., for conducting surveys.
+
 RSEs often assume a multifaceted role at the junction of research, \ac{SE} and data management.
 They work with a varying and diverse set of colleagues that might include other developers,
 support unit staff and academics of different fields and all career stages.
@@ -1611,7 +1617,7 @@ are examples of grassroots efforts aiming at defining the set of skills
 of various bioinformatics specialities,
 one of them as a taxonomy [@Mulder2018].
 These frameworks eventually converged into the \ac{EMBL-EBI} Competency Hub
-[@CompetencyHub; @Lloret-Llinares2022],
+[@CompetencyHub; @Lloret-Llinares2022],
 where typical RSE and bioinformatician profiles at different levels
 of seniority can be queried
 (e.g., Junior RSE[^JuniorRSE],
