@@ -488,7 +488,7 @@ To reflect this, the technical skills listed below complement competencies regar
 
 To summarise the vast range of the skills a software engineer is typically equipped with,
 we refer to the Guide to the Software Engineering Body of Knowledge (@swebok_2014).
-Because they stand between fields, RSEs are stronger in topics more commonly
+Because they stand between fields, RSEs are often stronger in topics more commonly
 encountered in research software contexts (e.g., mathematical and engineering foundations)
 than in other (e.g., software engineering economics), but they bring a solid level of competence
 in all software engineering topics. Therefore, RSEs can set and analyse software requirements in the context of
