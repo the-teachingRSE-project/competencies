@@ -361,6 +361,7 @@ Research software is also well on its way to be ever-present away from simulatio
 This can probably be most prominently seen by considering software used to analyse data, e.g. within experimental research.
 It is not unusual for RSEs to support those more research data oriented efforts as well.
 Here specifically they closely interact with research data management, by designing research software such as to be better able to adhere to the \ac{FAIR} principles for the research data, but also to follow similar rules for the research software (FAIR4RS [@FAIR4RS]).
+As such, they are then familiar with, e.g., special requirements stemming from the field itself, e.g., in medical research, with privacy related issues especially for personal data, e.g., for conducting surveys.
 
 RSEs often assume a multifaceted role at the junction of research, \ac{SE} and data management.
 They work with a varying and diverse set of colleagues that might include other developers,
