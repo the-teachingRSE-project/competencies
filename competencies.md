@@ -468,9 +468,11 @@ making these powerful tools work for the welfare of society.
 
 The role of an RSE lies somewhere on the spectrum between that of a researcher
 (the "R") and a software engineer (the "SE") and, therefore, requires
-competencies in both fields. RSEs typically apply their knowledge and
-experience in larger teams which allows them to cultivate this hybrid nature.
-Therefore, we group the competencies into three categories: *software/technical skills*,
+competencies in both fields. RSEs typically have a background in research or software engineering,
+but they definitely have obtained broader knowledge in both fields.
+They typically apply their knowledge and experience in larger teams,
+which allows them to cultivate this hybrid nature.
+We categorise the competencies into three categories, following the two backgrounds and the bridge between them: *software/technical skills*,
 *research skills*, and *communication skills*, with a particular focus on the software and
 research cycle and the scientific process. These competencies are relevant in a
 broad setting and form the foundation for specific specialisations.
@@ -494,20 +496,46 @@ finding a community. Those topics comprise combinations of the skills and
 competencies defined below. We will elaborate these in
 @sec:tasks-and-responsibilities.
 
-## Software/Technical skills
+## Software/Technical skills {#sec:software-skills}
 
 \newcommand{\skillsection}[1]{\hypertarget{skills-#1}{%
 \subsubsection{\glsentrydesc{#1} (\texorpdfstring{\glsentrytext{#1}}{#1})}\label{skills-#1}}}
 
-The technical skills required by an RSE overlap to a large extent with the common 
-fundamental software engineering skills (see, e.g., [@Landwehr2017]), but put greater
-emphasis on aspects related to achieving good scientific practice. 
-For example, RSEs need to know how to make research software adhere to the 
-\ac{FAIR} principles, and how to achieve different levels of research
-software reusability (@ChueHong2014). To reflect this, the technical skills
-listed below complement competencies regarding the standard life cycle of
-software development with RSE-specific focus skills. 
+Besides skilled researchers, research software engineers are also competent software engineers.
+As such, they ideally can solve complex software engineering problems and design software as a user-oriented, future-proof product.
+The technical skills required by an RSE overlap to a large extent with
+ the common fundamental software engineering skills (see, e.g., @Landwehr2017),
+ but put greater emphasis on aspects related to achieving good scientific practice and to serving special needs of research software.
+These skills include requirements analysis, design, construction, testing, program analysis, and maintenance of software.
+On the other hand, RSEs also know how to make research software adhere to the \ac{FAIR} principles [@FAIR4RS],
+ and how to achieve different levels of research software reusability (see, e.g., @ChueHong2014),
+ while they have deeper understanding of the scientific context around the research software projects they work on.
+To reflect this, the technical skills listed below complement competencies regarding the standard life cycle of software development (as summarised in \autoref{subsec:technical-general}) with RSE-specific focus skills. 
 
+\subsubsection{Classical software engineering skills}\label{subsec:technical-general}
+
+To summarise the vast range of the skills a software engineer is typically equipped with,
+we refer to the Guide to the Software Engineering Body of Knowledge (@swebok_2014).
+Because they stand between fields, RSEs are often stronger in topics more commonly
+encountered in research software contexts (e.g., mathematical and engineering foundations)
+than in other (e.g., software engineering economics), but they bring a solid level of competence
+in all software engineering topics. Therefore, RSEs can set and analyse software requirements in the context of
+open-ended, question-driven research. They can design software so that it can sustainably grow, often
+in an environment of rapid turnover of contributors. They are competent in implementing
+solutions themselves in a wide range of technologies fit for different scientific applications.
+They can formulate and implement various types of tests, they can independently maintain software
+and automate operations of the integration and release process. They can
+provide working, scalable, and future-proof solutions in a professional context and with common
+project and software management techniques, adapted to the needs of the research environment.
+Finally, as skilled researchers they combine the necessary foundations from their domain with software engineering skills to develop complex software.
+
+There are many ways to categorise the competencies of an RSE. We chose to
+distribute these competencies over the three pillars to reflect the fact
+that RSEs are both competent researchers (the research skills, Section
+@sec:research-skills) and software engineers (the software/technical skills,
+Section @sec:software-skills). The third category (communication skills,
+Section @sec:communication-skills) forms the bridge between the former two
+categories.
 
 <!-- Adapting to the software life cycle -->
 \skillsection{SWLC}
@@ -577,7 +605,7 @@ An important facet of this capability relates to information security.
 RSEs need to consider the safety and integrity of personal data and other sensitive information
 and make sure that they do not negatively impact the integrity of their institution's network.
 
-## Research skills
+## Research skills {#sec:research-skills}
 
 <!-- Conducting and leading research -->
 \skillsection{NEW}
@@ -659,7 +687,7 @@ domain-specific data repositories.
 Finally, they need to be able to assess and use software repositories -
 domain-specific or generic - for publishing software with the relevant metadata.
 
-## Communication skills
+## Communication skills {#sec:communication-skills}
 
 RSEs do not work in isolation.
 They are embedded in a research group or work within a team of RSEs supporting particular research projects.
