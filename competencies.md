@@ -499,7 +499,7 @@ They can formulate and implement various types of tests, they can independently 
 and automate operations of the integration and release process. They can
 provide working, scalable, and future-proof solutions in a professional context and with common
 project and software management techniques, adapted to the needs of the research environment.
-Finally, as skilled scientists seasoned in computing applications, they have strong mathematical, computing, and engineering foundations,
+Finally, as skilled researchers they combine the necessary foundations from their domain with software engineering skills to develop complex software.
 
 <!-- Adapting to the software life cycle -->
 \skillsection{SWLC}
