@@ -533,7 +533,7 @@ There are many ways to categorise the competencies of an RSE. We chose to
 distribute these competencies over the three categories to reflect the fact
 that RSEs are both competent researchers (the research skills, Section
 @sec:research-skills) and software engineers (the software/technical skills,
-Section @sec:software-skills). The third categories (communication skills,
+Section @sec:software-skills). The third category (communication skills,
 Section @sec:communication-skills) forms the bridge between the former two
 categories.
 
