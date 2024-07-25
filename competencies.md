@@ -500,7 +500,6 @@ and automate operations of the integration and release process. They can
 provide working, scalable, and future-proof solutions in a professional context and with common
 project and software management techniques, adapted to the needs of the research environment.
 Finally, as skilled scientists seasoned in computing applications, they have strong mathematical, computing, and engineering foundations,
-to the degree every software engineer needs to have to develop complex software projects.
 
 <!-- Adapting to the software life cycle -->
 \skillsection{SWLC}
