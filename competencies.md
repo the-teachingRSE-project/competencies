@@ -133,7 +133,7 @@ Researchers often lack the skills to use specialised software
 for their research, let alone write it [@NamingPain]. If they come from a non-technical domain, they may
 also struggle to know what to ask when trying to request help from and interact with
 more experienced colleagues. A gap still exists in
-academic education, as many curricula do not sufficiently prepare their students
+academic education, as many curricula do not sufficiently prepare students
 in this regard. This situation is exemplified by the extracurricular \ac{MIT} class
 "The Missing Semester of Your CS Education" [@MIT], which aims to increase 
 "computing ecosystem literacy" even among students of Computer Science at \ac{MIT}.
