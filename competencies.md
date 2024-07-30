@@ -1415,7 +1415,7 @@ Within this set, we will work next on how to institutionalise education.
 In that publication, we will detail how we organise our institutions
  and what qualifications our teachers need to have in order to effectively communicate our values.
 We will put forward ideas on how to build up bachelor's and master's programmes,
- of which a glimpse can already be found in this paper's appendix.
+ of which a glimpse can already be found in the appendix.
 We will show how we intend to provide the necessary continuous education for RSEs after graduation,
  and we will connect that with the integration of RSEs into a mesh of community networks aimed at supporting research,
  while providing them with an inclusive social network that further facilitates life-long learning.
