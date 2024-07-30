@@ -432,7 +432,7 @@ such as open science, path dependence, and vendor lock-in.
 ### Addressing environmental sustainability within planetary limits
 
 The last two decades saw transistor technology approach the limits of attainable miniaturisation, 
-and top chip clock frequency begin to plateau [@Sutter2005].
+and maximum chip clock frequency begin to plateau [@Sutter2005].
 Nevertheless, a misleading belief in limitless growth of computing capabilities
 (storage, computing power, transfer speed) is still widespread within popular perception.
 A practical consequence of this is an ever-growing demand for resources to cover
