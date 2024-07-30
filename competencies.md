@@ -501,7 +501,7 @@ competencies defined below. We will elaborate these in
 \newcommand{\skillsection}[1]{\hypertarget{skills-#1}{%
 \subsubsection{\glsentrydesc{#1} (\texorpdfstring{\glsentrytext{#1}}{#1})}\label{skills-#1}}}
 
-Besides skilled researchers, research software engineers are also competent software engineers.
+Besides skilled researchers, RSEs are also competent software engineers.
 As such, they ideally can solve complex software engineering problems and design software as a user-oriented, future-proof product.
 The technical skills required by an RSE overlap to a large extent with
  the common fundamental software engineering skills (see, e.g., @Landwehr2017),
