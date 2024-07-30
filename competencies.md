@@ -111,7 +111,7 @@ and focus on various aspects in greater detail.
 We expect that graduates and practitioners will have a larger 
 and more diverse set of skills than outlined here.
 On this basis, we elaborate on the progression of these skills along different
-dimensions, looking at specific types of RSE roles, proposing recommendations for organisations, and giving examples of future specialisations.
+dimensions. We look at specific types of RSE roles, propose recommendations for organisations, and give examples of future specialisations.
 An appendix details how existing curricula fit into this framework.
 "
 ---
