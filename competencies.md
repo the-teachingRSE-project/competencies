@@ -542,7 +542,7 @@ categories.
 \skillsection{SWLC}
 
 The traditional software development life cycle defines the stages that form the process of building a piece of software.
-Initial development generally involves an analytic process where needs and ideas are gathered and analysed (requirements engineering),
+Initial development generally involves an analytic process where requirements and ideas are gathered and analysed (requirements engineering),
 followed by a formulation of a plan to fulfil them (design) that is finally turned into running code (implementation).
 This is accompanied by different measures of quality control (e.g., reviews, testing), validating and verifying 
 that things work as expected and that they continue to do when development progresses further. Depending on the software project, this can mean a simple "Think-before-you-do", or more elaborate and formal processes.
