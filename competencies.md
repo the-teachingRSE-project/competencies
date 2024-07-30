@@ -1488,7 +1488,7 @@ Everybody contributed to the final review and editing.
 
 ## An example master's programme for research software engineering {#subsec:examplemaster}
 
-The target audience for such a master's programme would be students holding a bachelor's degree from
+The target audience for such a master's programme are students holding a bachelor's degree from
 a domain science, which we will call "home domain" in the following. There is explicitly
 no restriction on the candidates' home domain: it may be from the \ac{STEM} disciplines, life
 sciences, humanities or social sciences. Candidates with a bachelor's degree in computer science are also
