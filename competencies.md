@@ -1280,7 +1280,7 @@ an important role, even if they do not necessarily touch much of the code themse
 RSEs interested in developing their (\gls{TEACH}) skill can focus on teaching the next generation of researchers and/or RSEs and will play
 a vital role in improving the quality of research software.
 They need to have a good understanding of all RSE competencies relevant to their domain and
-additionally should have teaching experience and training in didactics and pedagogy.
+additionally should have teaching experience and training in didactic and pedagogy.
 
 
 #### User interface/user experience designers for research software
