@@ -1458,7 +1458,7 @@ The gathered values and competencies form a common denominator that unifies RSEs
 These competencies at the intersection of research and SE,
 coupled with a firm belief in team processes, make RSEs sought after on the job market
 and their values make them responsible members of a digital society.
-The result is a qualification profile which is highly attractive to young people.
+The result is a qualification profile which is highly attractive for young people.
 
 At an institutional level, research performing organisations have a growing
 interest in fostering RSE training to support the use of \ac{FAIR} data and \ac{FAIR} software in the academic world,
