@@ -1323,15 +1323,6 @@ on the other hand knowledge about setup and configuration of particular server s
 e.g., setup of virtual machines on hypervisors or the planning and setup of compute server clusters for special purposes, e.g., \ac{ML}.
 As an interface between the researchers and the infrastructure, they take care of user management, access permissions, and configuration of required services.
 
-#### Legacy RSEs
-Research software may be used and evolved over generations of researchers without change management or governance processes, while software "ecosystems" (e.g., programming languages, frameworks, operating systems) constantly evolve.
-This may lead to the emergence of legacy code that is still actively used.
-To safeguard continued usability and adoption,
-these RSEs have experience in working with legacy code,
-and are competent in the application of software stacks that are no longer part of the general curricula (e.g., \gls{COBOL} or \gls{Fortran}).
-Adaption of existing, large-scale codebases to evolving dependencies (\gls{DIST}) or changing hardware (\ac{HPC}; see the HPC-RSE point below)
-may require mastery in refactoring techniques and in the usage of specialised code transformation tools.
-
 #### HPC-RSE
 
 RSEs with a focus on \ac{HPC} have specialist knowledge
@@ -1370,6 +1361,15 @@ ML-RSEs analyse and check the suitability of an algorithm if it fulfils the need
 The increasing usage of \ac{ML} in numerous scientific areas with social impact involves an emphasised awareness and consideration of possible influences and biases.
 At the intersection of data science [@SSIDataScience] and data-focused RSEs,
 the complex way of solving problems utilising \ac{ML} calls for this separate specialisation.
+
+#### Legacy RSEs
+Research software may be used and evolved over generations of researchers without change management or governance processes, while software "ecosystems" (e.g., programming languages, frameworks, operating systems) constantly evolve.
+This may lead to the emergence of legacy code that is still actively used.
+To safeguard continued usability and adoption,
+these RSEs have experience in working with legacy code,
+and are competent in the application of software stacks that are no longer part of the general curricula (e.g., \gls{COBOL} or \gls{Fortran}).
+Adaption of existing, large-scale codebases to evolving dependencies (\gls{DIST}) or changing hardware (\ac{HPC}; see the HPC-RSE point below)
+may require mastery in refactoring techniques and in the usage of specialised code transformation tools.
 
 #### Web-development RSE
 This RSE is skilled in web applications, front- and/or backend, and/or building
