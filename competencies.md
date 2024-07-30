@@ -1477,7 +1477,7 @@ We also thank all the participants of this follow-up community workshop!
 Heidi Seibold, Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele,
 Jan Linxweiler, Jean-Noël Grad, and Samantha Wittke contributed the initial draft.
 Florian Goth supervised the project and did the project administration.
-Jean-Noël Grad conceived and implemented the software tooling.
+Jean-Noël Grad designed and implemented the software tooling.
 Michele Martone wrote the first draft of the environmental sustainability section.
 Everybody contributed to the final review and editing.
 
