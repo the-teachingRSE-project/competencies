@@ -1438,7 +1438,7 @@ where people working in RSE related fields got together to figure out
 structures and ideas for educating newcomers to this field.
 One outcome of this diverse gathering is that RSEs from differing fields gather
 around similar core concepts, At the same time they share a vision of how to
-renew scientific research practice making proper use of digital tools.
+renew scientific research practice making extensive use of digital tools.
 In this publication, we have tried to formalise these concepts.
 We have formulated a set of values that guide our actions in society,
 manifestly making RSEs part of the scientific community that shares the ideals of good scientific practice.
