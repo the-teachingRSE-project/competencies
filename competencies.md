@@ -119,7 +119,7 @@ An appendix details how existing curricula fit into this framework.
 # Introduction {#sec:introduction}
 
 Computers and software have played a key role in the research life cycle for many
-decades, while they are now vital elements of the research process across almost all domains.
+decades. They are now vital elements of the research process across almost all domains.
 They enable researchers to collect and process ever-increasing amounts of data,
 simulate a wide range of physical phenomena across previously unexplored scales of the universe,
 and discover previously inconceivably complex structures in nature and societies via \ac{ML}.
