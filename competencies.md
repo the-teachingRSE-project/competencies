@@ -631,7 +631,7 @@ Thereby they know that they are part of a bigger undertaking
 that involves many other parties in and outside their domain, 
 and also that their software can be utilised at different stages 
 of the research cycle by different people.
-They may be asked to contribute to the ethical evaluation of a project 
+They may be asked to contribute to the ethical and regulatory evaluation of a project 
 to ensure integrity of the research performed therein.
 Like other researchers, RSEs are open to discussions and arguments beyond
 their own expertise and appreciate the underlying principles of
