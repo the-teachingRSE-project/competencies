@@ -1500,7 +1500,7 @@ The curriculum is formed from a combination of modules,
 some of which are core modules teaching essential skills that must be completed by all students.
 Other modules introduce more specialised concepts and skills.
 During the master's programme, students should pick an RSE specialisation from the list in this paper
-and attend these additional modules to deepen their knowledge in the field.
+and attend these additional modules to deepen their knowledge in that field.
 
 Core modules are of course drawn from the three pillars of the RSE and can be categorised accordingly.
 
