@@ -146,7 +146,7 @@ and progress in research and academic roles is traditionally assessed through me
 do not directly include software outputs.
 A recent shift towards the establishment of the distinct role of a
 _"Research Software Engineer"_ [@WhatResearchSoftware]
-(RSE, a term that emerged from the \ac{UK} a little over 10 years ago [@Hettrick2016]),
+(RSE, a term that was coined in the \ac{UK} a little over 10 years ago [@Hettrick2016]),
 now provides a base on which sustainable career opportunities can be (and are being) built,
 allowing for better training of researchers and more effective support for the development of high
 quality research software.
