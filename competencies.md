@@ -1408,7 +1408,7 @@ To alleviate this and to give RSEs in leadership positions a means to become eli
  we see two possible parts of a solution.
 One is to allow for doctorates primarily based on software contributions to the scientific community.
 Secondly, we propose the introduction of new, standardised certificates like those in @subsec:examplecareer,
- and to officially accept them as PhD-equivalent concerning eligibility to be PI.
+ and to officially accept them as PhD-equivalent concerning eligibility to be a \ac{PI}.
 Beyond this discussion, a diverse set of publications on the topic RSE teaching is already in the making.
 
 Within this set, we will work next on how to institutionalise education.
