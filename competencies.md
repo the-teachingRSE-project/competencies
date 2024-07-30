@@ -1401,7 +1401,7 @@ This list and description of competencies is a first step to finding common grou
 Applications of these competencies in an individual's career can be found in @subsec:examplemaster.
 An omission that we found and that we would like to highlight in order to spark a community discussion is
  that RSEs that choose explicitly a science-supporting role outside of research will not be eligible for funding
- under the statutes of many funding organisations that require a PhD at minimum.
+ under the statutes of many funding organisations that require at least a PhD.
 
 To alleviate this and to give RSEs in leadership positions a means to become eligible for funding themselves,
  since completion of scientific training is often a requirement [@DFG_50_01],
