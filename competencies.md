@@ -1363,7 +1363,7 @@ At the intersection of data science [@SSIDataScience] and data-focused RSEs,
 the complex way of solving problems utilising \ac{ML} calls for this separate specialisation.
 
 #### Legacy RSEs
-Research software may be used and evolved over generations of researchers without change management or governance processes, while software "ecosystems" (e.g., programming languages, frameworks, operating systems) constantly evolve.
+Research software may have evolved over generations of researchers without change management or governance processes, while software "ecosystems" (e.g., programming languages, frameworks, operating systems) constantly evolve.
 This may lead to the emergence of legacy code that is still actively used.
 To safeguard continued usability and adoption,
 these RSEs have experience in working with legacy code,
