@@ -1256,7 +1256,7 @@ while other RSEs might expand their skill set and profession to areas that are n
 #### Open science RSE
 Open science and FAIRness of data and software are increasingly important topics in research,
 as exemplified by the demand of an increasing amount of research funding agencies requiring openness.
-Hence, an open science RSE is required to have a deeper knowledge in (\gls{RC}) and how to distribute software publicly (\gls{SRU}, \gls{SP}).
+Hence, an open science RSE is required to have a deeper knowledge of (\gls{RC}) and how to distribute software publicly (\gls{SRU}, \gls{SP}).
 Open Science RSEs can help researchers navigate the technical questions that come up
 when practising Open Science, such as "How do I make my code presentable?",
 "How do I make my code citable?",
