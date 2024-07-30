@@ -999,7 +999,7 @@ They need to manage and lead their research group (\gls{PM}, \gls{TEAM}).
 ## Project team structures
 
 In @tbl:teams-se, @tbl:teams-res, and @tbl:teams-comm, we look at individual or team competencies and approaches to them,
-considering how these differ depending on whether an RSE or researcher is working alone on a software project,
+considering how these differ depending on whether an RSE is working alone on a software project,
 or whether they are working as part of a team of RSEs.
 We extend this to consider how things differ when an RSE or a group
 of RSEs is based locally within a research team or department,
