@@ -1216,7 +1216,7 @@ The current situation may differ.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \gls{TEAM}&
-    Must be able to work effectively with researchers they are potentially developing code for.&
+    When not developing code for themselves, they must be able to work effectively with researchers they are potentially developing code for.&
     Must be able to work effectively with their home RSE team, as well as
       with researchers they are potentially developing code for.&
     Must have strong team skills and knowledge
