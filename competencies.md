@@ -1374,6 +1374,7 @@ may require mastery in refactoring techniques and in the usage of specialised co
 #### Web-development RSE
 This RSE is skilled in web applications, front- and/or backend, and/or building
 and using APIs, for example for research data portals or big research projects.
+A deep knowledge of web development skills is a required additional skill for this RSE.
 Since a lot of web services for research may be accessible to a large audience or even to the public,
 this RSE is also familiar with aspects relating to cybersecurity, usability and accessibility.
 Not only do they need to balance these concerns while adhering to their values from @sec:values,
