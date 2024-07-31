@@ -870,7 +870,8 @@ depending on their circumstances. A strong beneficiary of specialised RSEs can a
 
 ## Career level
 
-At different career levels, differing skills are required. We have set this up according to the following separation often applied within a single project:
+At different career levels, differing skills are required.
+To elaborate on that we have prepared the following table with three levels of experience in mind.
 
 - Junior RSE: These are people who are in the earlier stages of their RSE career journey, but they should ideally have research experience of their own as well as the skills to contribute reliable and well-structured code to software projects.
 - Senior RSE: They have gained experience, both concerning their software skills as well as in their research collaborations in potentially many different fields. They can set the standards in a software project.
