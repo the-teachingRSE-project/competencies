@@ -472,8 +472,13 @@ competencies in both fields. RSEs typically have a background in research or sof
 but they definitely have obtained broader knowledge in both fields.
 They typically apply their knowledge and experience in larger teams,
 which allows them to cultivate this hybrid nature.
-We categorise the competencies into three categories, following the two backgrounds and the bridge between them: *software/technical skills*,
-*research skills*, and *communication skills*, with a particular focus on the software and
+There are many ways to categorise the competencies of an RSE. We chose to
+distribute these competencies over the three pillars to reflect the fact
+that RSEs are both competent researchers (the research skills, Section
+@sec:research-skills) and software engineers (the software/technical skills,
+Section @sec:software-skills). The third pillar (communication skills,
+Section @sec:communication-skills) forms the bridge between the former two
+categories, with a particular focus on the software and
 research cycle and the scientific process. These competencies are relevant in a
 broad setting and form the foundation for specific specialisations.
 These competencies have been chosen in order to make RSEs contribute to an open and inclusive research
@@ -528,14 +533,6 @@ and automate operations of the integration and release process. They can
 provide working, scalable, and future-proof solutions in a professional context and with common
 project and software management techniques, adapted to the needs of the research environment.
 Finally, as skilled researchers they combine the necessary foundations from their domain with software engineering skills to develop complex software.
-
-There are many ways to categorise the competencies of an RSE. We chose to
-distribute these competencies over the three pillars to reflect the fact
-that RSEs are both competent researchers (the research skills, Section
-@sec:research-skills) and software engineers (the software/technical skills,
-Section @sec:software-skills). The third category (communication skills,
-Section @sec:communication-skills) forms the bridge between the former two
-categories.
 
 <!-- Adapting to the software life cycle -->
 \skillsection{SWLC}
