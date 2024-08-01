@@ -1596,7 +1596,7 @@ Kay has now completed the RSE programme and has reached Junior RSE level.
 
 Kay finds a position in the central RSE department at her university with a competitive \ac{IT} salary.
 Although the contract is temporary, there is a good chance that it will lead to a permanent position.
-The university makes an effort to enable that since it is a member of " The Technicians Commitment"[@techniciancommitment], an initiative to ensure recognition and career development of technicians.
+The university makes an effort to enable that since it is a member of "The Technicians Commitment"[@techniciancommitment], an initiative to ensure recognition and career development of technicians.
 Kay completes the Software Carpentry Instructor training and teaches basic research computing,
 while advising fellow students of her department on better programming (\gls{DOCBB} and \gls{MOD} skill).
 She also runs a seminar in the RSE Master's programme. She publishes a condensed version of that in JOSE[@JOSE].
