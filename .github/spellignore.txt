@@ -37,6 +37,7 @@ de
 deRSE
 DFG
 Diátaxis
+didactics
 DigComp
 DigCompEdu
 DigCompOrg
