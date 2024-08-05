@@ -1234,7 +1234,7 @@ We recognise that this is a challenging area to gain a detailed view of
 and that this is still a significant generalisation.
 We talk about the "research software engineer" as a single entity but as the field expands,
 we expect to see more roles and job titles emerging around the RSE concept,
-many of which fit under the wider umbrella of research technology professionals (RTPs), [@ukri_rtp, @techniciancommitment].
+many of which fit under the wider umbrella of research technology professionals (RTPs) [@ukri_rtp, @techniciancommitment].
 Examples are different RSE-like computational roles of
 the \ac{EMBL-EBI} BioExcel competency framework [@BIOEXCEL] (also @subsec:emblbio),
 as is a range of different roles from King's Digital Lab at King's College London [@KDL].
