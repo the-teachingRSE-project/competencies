@@ -511,7 +511,7 @@ As such, they ideally can solve complex software engineering problems and design
 The technical skills required by an RSE overlap to a large extent with
  the common fundamental software engineering skills (see, e.g., @Landwehr2017),
  but put greater emphasis on aspects related to achieving good scientific practice and to serving special needs of research software.
-In addition, a lot of RSEs are either self- or pear taught in these skills (see, e.g., figure 14 in @Barker2023).
+In addition, a lot of RSEs are either self- or peer taught in these skills (see, e.g., figure 14 in @Barker2023).
 These skills include requirements analysis, design, construction, testing, program analysis, and maintenance of software.
 On the other hand, RSEs also know how to make research software adhere to the \ac{FAIR} principles [@FAIR4RS],
  and how to achieve different levels of research software reusability (see, e.g., @ChueHong2014),
