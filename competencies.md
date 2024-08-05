@@ -119,7 +119,8 @@ An appendix details how existing curricula fit into this framework.
 # Introduction {#sec:introduction}
 
 Computers and software have played a key role in the research life cycle for many
-decades. They are now vital elements of the research process across almost all domains.
+decades.
+They are now vital elements of the research process across almost all domains.
 They enable researchers to collect and process ever-increasing amounts of data,
 simulate a wide range of physical phenomena across previously unexplored scales of the universe,
 and discover previously inconceivably complex structures in nature and societies via \ac{ML}.
@@ -519,8 +520,9 @@ we refer to the Guide to the Software Engineering Body of Knowledge (@swebok_201
 Because research software engineering is an interface discipline,
 RSEs are often stronger in topics more commonly
 encountered in research software contexts (e.g., mathematical and engineering foundations)
-than in other (e.g., software engineering economics). However, they bring a solid level of competence
-in all software engineering topics. Therefore, RSEs can set and analyse software requirements in the context of
+than in other (e.g., software engineering economics).
+However, they bring a solid level of competence in all software engineering topics.
+Therefore, RSEs can set and analyse software requirements in the context of
 open-ended, question-driven research. They can design software so that it can sustainably grow, often
 in an environment of rapid turnover of contributors. They are competent in implementing
 solutions themselves in a wide range of technologies fit for different scientific applications.
