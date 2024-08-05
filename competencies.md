@@ -774,7 +774,7 @@ modular structure to facilitate
 
 The RSE needs to be able to choose appropriate algorithms and techniques
 (\gls{MOD} and \gls{NEW}). Apart from the technical feasibility, this choice is
-also informed by the values outlined in Section @sec:values. For example, the
+also informed by the values outlined in @sec:values. For example, the
 RSE needs to be able to estimate resource usage (processing, memory and storage
 consumption, e.g. [@Lannelongue2021]). Resource usage has not only a direct financial price tag but also
 environmental costs via associated energy consumption.
