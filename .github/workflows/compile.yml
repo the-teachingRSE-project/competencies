@@ -9,7 +9,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: 'recursive'
+          submodules: false # must be done manually
       - name: Install pandoc
         run: |
           sudo apt-get update && sudo apt-get install -y --no-install-recommends \
@@ -18,8 +18,14 @@ jobs:
             texlive-bibtex-extra biber \
             texlive-fonts-recommended texlive-fonts-extra lmodern fonts-linuxlibertine \
             python3 python3-yaml \
-            xz-utils make gpg-agent
+            xz-utils make sed gpg-agent
           python3 -m pip install -r ${{ env.DIR }}/requirements.txt
+      - name: Fetch bibliography
+        run : |
+          # resolve relative paths in forked projects
+          sed -i 's|^[ \t]*url *= *../|  url = https://github.com/the-teachingRSE-project/|' .gitmodules
+          git submodule update --init --recursive
+          git config --local submodule.recurse true
       - name: pandoc compile
         working-directory: ${{ env.DIR }}
         run: make all

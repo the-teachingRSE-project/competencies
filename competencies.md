@@ -473,8 +473,13 @@ competencies in both fields. RSEs typically have a background in research or sof
 but they definitely have obtained broader knowledge in both fields.
 They typically apply their knowledge and experience in larger teams,
 which allows them to cultivate this hybrid nature.
-We categorise the competencies into three categories, following the two backgrounds and the bridge between them: *software/technical skills*,
-*research skills*, and *communication skills*, with a particular focus on the software and
+There are many ways to categorise the competencies of an RSE. We chose to
+distribute these competencies over the three pillars to reflect the fact
+that RSEs are both competent researchers (the research skills, Section
+@sec:research-skills) and software engineers (the software/technical skills,
+Section @sec:software-skills). The third pillar (communication skills,
+Section @sec:communication-skills) forms the bridge between the former two
+categories, with a particular focus on the software and
 research cycle and the scientific process. These competencies are relevant in a
 broad setting and form the foundation for specific specialisations.
 These competencies have been chosen in order to make RSEs contribute to an open and inclusive research
@@ -507,6 +512,7 @@ As such, they ideally can solve complex software engineering problems and design
 The technical skills required by an RSE overlap to a large extent with
  the common fundamental software engineering skills (see, e.g., @Landwehr2017),
  but put greater emphasis on aspects related to achieving good scientific practice and to serving special needs of research software.
+In addition, a lot of RSEs are either self- or peer taught in these skills (see, e.g., figure 14 in @Barker2023).
 These skills include requirements analysis, design, construction, testing, program analysis, and maintenance of software.
 On the other hand, RSEs also know how to make research software adhere to the \ac{FAIR} principles [@FAIR4RS],
  and how to achieve different levels of research software reusability (see, e.g., @ChueHong2014),
@@ -531,14 +537,6 @@ and automate operations of the integration and release process. They can
 provide working, scalable, and future-proof solutions in a professional context and with common
 project and software management techniques, adapted to the needs of the research environment.
 Finally, as skilled researchers they combine the necessary foundations from their domain with software engineering skills to develop complex software.
-
-There are many ways to categorise the competencies of an RSE. We chose to
-distribute these competencies over the three pillars to reflect the fact
-that RSEs are both competent researchers (the research skills, Section
-@sec:research-skills) and software engineers (the software/technical skills,
-Section @sec:software-skills). The third category (communication skills,
-Section @sec:communication-skills) forms the bridge between the former two
-categories.
 
 <!-- Adapting to the software life cycle -->
 \skillsection{SWLC}
@@ -613,7 +611,10 @@ and make sure that they do not negatively impact the integrity of their institut
 <!-- Conducting and leading research -->
 \skillsection{NEW}
 
-RSEs are curious and able to conduct research, both on research software engineering itself, and in their home domain. Senior RSEs are also able to lead research, and many RSEs have a doctorate [@hettrick_survey_2022]. Since RSEs often operate in different research fields, they also gain their reputation from their effectiveness in interacting with researchers from the same or other domains. Therefore, some curiosity together with a broad overview of the
+RSEs are curious and able to conduct research, both on research software engineering,
+and on the so called home domain they have been brought up in (see also @subsec:examplemaster).
+Senior RSEs are also able to lead research, and many RSEs have a doctorate [@hettrick_survey_2022].
+Since RSEs often operate in different research fields, they also gain their reputation from their effectiveness in interacting with researchers from the same or other domains. Therefore, some curiosity together with a broad overview of the
 research field is required, as this enables the RSE to learn new methods and algorithms directly from domain peers.
 Similarly, a broad overview of the field of SE research 
 and the growing field of RSE research enables the RSE to learn, apply, and teach
@@ -874,7 +875,8 @@ depending on their circumstances. A strong beneficiary of specialised RSEs can a
 
 ## Career level
 
-At different career levels, differing skills are required. We have set this up according to the following separation often applied within a single project:
+At different career levels, differing skills are required.
+To elaborate on that, we have prepared the following table with three levels of experience in mind.
 
 - Junior RSE: These are people who are in the earlier stages of their RSE career journey, but they should ideally have research experience of their own as well as the skills to contribute reliable and well-structured code to software projects.
 - Senior RSE: They have gained experience, both concerning their software skills as well as in their research collaborations in potentially many different fields. They can set the standards in a software project.
@@ -1238,7 +1240,7 @@ We recognise that this is a challenging area to gain a detailed view of
 and that this is still a significant generalisation.
 We talk about the "research software engineer" as a single entity but as the field expands,
 we expect to see more roles and job titles emerging around the RSE concept,
-many of which fit under the wider umbrella of research technology professionals (RTPs).
+many of which fit under the wider umbrella of research technology professionals (RTPs) [@ukri_rtp, @techniciancommitment].
 Examples are different RSE-like computational roles of
 the \ac{EMBL-EBI} BioExcel competency framework [@BIOEXCEL] (also @subsec:emblbio),
 as is a range of different roles from King's Digital Lab at King's College London [@KDL].
@@ -1598,6 +1600,7 @@ Kay has now completed the RSE programme and has reached Junior RSE level.
 
 Kay finds a position in the central RSE department at her university with a competitive \ac{IT} salary.
 Although the contract is temporary, there is a good chance that it will lead to a permanent position.
+The university makes an effort to enable that since it is a member of "The Technicians Commitment"[@techniciancommitment], an initiative to ensure recognition and career development of technicians, who face similar challenges to RSEs.
 Kay completes the Software Carpentry Instructor training and teaches basic research computing,
 while advising fellow students of her department on better programming (\gls{DOCBB} and \gls{MOD} skill).
 She also runs a seminar in the RSE Master's programme. She publishes a condensed version of that in JOSE[@JOSE].
