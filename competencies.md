@@ -1370,9 +1370,9 @@ the complex way of solving problems utilising \ac{ML} calls for this separate sp
 Research software may have evolved over generations of researchers without change management or governance processes, while software "ecosystems" (e.g., programming languages, frameworks, operating systems) constantly evolve.
 This may lead to the emergence of legacy code that is still actively used.
 To safeguard continued usability and adoption,
-these RSEs have experience in working with legacy code,
-and are competent in the application of software stacks that are no longer part of the general curricula (e.g., \gls{COBOL} or \gls{Fortran}).
-Adaption of existing, large-scale codebases to evolving dependencies (\gls{DIST}) or changing hardware (\ac{HPC}; see the HPC-RSE point below)
+these RSEs have experience in working with
+code written in language standards and on software stacks considered deprecated by their communities.
+Adaption of existing, large-scale codebases to evolving dependencies (\gls{DIST}) or changing hardware (\ac{HPC}; see the HPC-RSE specialization)
 may require mastery in refactoring techniques and in the usage of specialised code transformation tools.
 
 #### Web-development RSE
