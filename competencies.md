@@ -1372,7 +1372,7 @@ This may lead to the emergence of legacy code that is still actively used.
 To safeguard continued usability and adoption,
 these RSEs have experience in working with
 code written in language standards and on software stacks considered deprecated by their communities.
-Adaption of existing, large-scale codebases to evolving dependencies (\gls{DIST}) or changing hardware (\ac{HPC}; see the HPC-RSE specialization)
+Adaption of existing, large-scale codebases to evolving dependencies (\gls{DIST}) or changing hardware (\ac{HPC}; see the HPC-RSE specialisation)
 may require mastery in refactoring techniques and in the usage of specialised code transformation tools.
 
 #### Web-development RSE
