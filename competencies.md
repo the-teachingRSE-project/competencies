@@ -153,7 +153,7 @@ allowing for better training of researchers and more effective support for the d
 quality research software.
 There is still a long way to go, but positive change is well underway.
 
-RSEs may work within one of the increasing number of research software engineering teams that
+RSEs may work within one of the increasing numbers of research software engineering teams that
 have been set up at universities and research
 organisations over the past decade, or they may be embedded within a research
 team. They may have a job title that officially recognises them as an RSE, or
@@ -440,9 +440,9 @@ A practical consequence of this is an ever-growing demand for resources to cover
 the expanding need of storage and processing, with no clear deceleration in
 sight (e.g. the IEA estimates a doubling in data centres energy consumption from
 2024 to 2026 [@IEA2024]). At the same time, current science is well aware of
-several planetary boundaries being exceeded due to human activities
-[@Richardson2023]. Data processing, storage and transfer account for a non
-negligible fraction [@IEA2024]. Demands to move resource consumption to a
+several planetary boundaries being exceeded due to human activities [@Richardson2023].
+Data processing, storage and transfer account for a non-negligible fraction [@IEA2024].
+Demands to move resource consumption to a
 sustainable rate are well justified and supported by science [@Sills2019].
 
 RSEs have the opportunity to contribute to this effort by, for example,
@@ -814,9 +814,10 @@ HERMES [@druskat_hermes_2022]. Other efforts focus on Software Management Plans
 helpful for RSEs at early stages (i.e., with not much experience of project
 management). They give quick hints on what to look for regarding basic
 management for research software (including information on e.g., licenses,
-releases, publication, citation) together with some ongoing work on
-corresponding metadata [@giraldo_metadata_2023]. Metadata can also be used
-actively during and within a research project to inform the decision making
+releases, publication, citation, archiving) together with some ongoing work on
+corresponding metadata [@giraldo_metadata_2023]. %maybe add https://doi.org/10.5281/zenodo.10374838 to give an idea what's possible more?
+Metadata can also be used
+actively during, within and after a research project to edify the decision-making
 processes [@Bird2016].
 
 Most RSEs will contribute to other projects, some of which will be large. This
@@ -1500,7 +1501,7 @@ sciences, humanities or social sciences, and it can also change later in their c
 Candidates with a bachelor's degree in computer science are also
 explicitly included, although we acknowledge that their master's programme should include adaptations
 to make their interaction effective with other domain scientists.
-In order to give the future RSE the necessary breadth, we expect this to be a four semester curriculum.
+In order to give the future RSE the necessary breadth, we expect this to be a four-semester curriculum.
 
 The curriculum is formed from a combination of modules,
 some of which are core modules teaching essential skills that must be completed by all students.
