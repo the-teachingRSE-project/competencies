@@ -612,7 +612,7 @@ and make sure that they do not negatively impact the integrity of their institut
 \skillsection{NEW}
 
 RSEs are curious and able to conduct research, both on research software engineering,
-and on the so called home domain they have been brought up in (see also @subsec:examplemaster).
+and on their research-wise "home domain" (see also @subsec:examplemaster).
 Senior RSEs are also able to lead research, and many RSEs have a doctorate [@hettrick_survey_2022].
 Since RSEs often operate in different research fields, they also gain their reputation from their effectiveness in interacting with researchers from the same or other domains. Therefore, some curiosity together with a broad overview of the
 research field is required, as this enables the RSE to learn new methods and algorithms directly from domain peers.
@@ -1496,7 +1496,8 @@ Everybody contributed to the final review and editing.
 The target audience for such a master's programme are students holding a bachelor's degree from
 a domain science, which we will call "home domain" in the following. There is explicitly
 no restriction on the candidates' home domain: it may be from the \ac{STEM} disciplines, life
-sciences, humanities or social sciences. Candidates with a bachelor's degree in computer science are also
+sciences, humanities or social sciences, and it can also change later in their career.
+Candidates with a bachelor's degree in computer science are also
 explicitly included, although we acknowledge that their master's programme should include adaptations
 to make their interaction effective with other domain scientists.
 In order to give the future RSE the necessary breadth, we expect this to be a four semester curriculum.
