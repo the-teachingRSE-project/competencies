@@ -549,6 +549,9 @@ that things work as expected and that they continue to do when development progr
 Often the development cycles are executed iteratively and incrementally.
 The life cycle further includes periods of deployment, maintenance and further development (software evolution),
 as well as software retirement.
+To assess the current state and needs of the software, 
+the RSE should be familiar with different maturity metrics, 
+e.g. the DLR application classes [@Schlauch2018b], the research software maturity model [@Deekshitha2024] or technology readyness levels (TRLs).
 Additionally, the research software life cycle extends the traditional life cycle
 with \gls{software-publication}. The RSE should be aware of this life cycle
 and be able to predict and cater to the changing needs of a software project as it moves through the stages.
