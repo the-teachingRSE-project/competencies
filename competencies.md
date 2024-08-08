@@ -617,7 +617,7 @@ An RSE should understand their output and its implications.
 An important facet of this capability relates to information security.
 RSEs need to consider the safety and integrity of personal data and other sensitive information
 and make sure that they do not negatively impact the integrity of their
-institution's network and computing infrastruture.
+institution's network and computing infrastructure.
 
 ## Research skills {#sec:research-skills}
 
@@ -1017,7 +1017,7 @@ They should encourage their students to use relevant tools (\gls{DIST}).
 They need to be able to judge the suitability of the software (\gls{SWLC}) and follow the interactions between relevant projects (\gls{SWREPOS}).
 They should be able to advise their students on the legal aspects of software production and distribution (\gls{SP}).
 They should be able to contribute meaningfully to the steering decisions of the software in their field (\gls{USERS}).
-They are able to guide students and preare and deliver full-length lectures (\gls{TEACH}).
+They are able to guide students and prepare and deliver full-length lectures (\gls{TEACH}).
 They need to manage and lead their research group (\gls{PM}, \gls{TEAM}).
 
 ## Project team structures
