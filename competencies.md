@@ -769,13 +769,14 @@ These skills, while already numerous are also generic on purpose. They span a
 multidimensional space in which the day-to-day tasks and responsibilities of an
 RSE can be found.
 We describe here some examples of the competencies applied in combination to
-the set of current common tasks and challenges for RSEs identified during the Paderborn workshop.
+the set of current common tasks and challenges for RSEs identified during the
+deRSE23 Paderborn workshop.
 
 The most obvious task of an RSE is to develop software that is used in research.
 This broad topic requires all the \ac{SE} skills. Of course, these are the
 competencies that are the most fluid since they have to adapt to frequent
 technological advancements. Additionally, proper \ac{SE} skills often require
-knowledge of \gls{TEAM}, and \gls{PM}. Today this means effective use of
+knowledge of \gls{TEAM}, and \gls{PM}. Today, this means effective use of
 \acp{IDE}, \gls{static-analysis} tools, \glspl{design-pattern} and documentation
 (for oneself and others).
 
@@ -802,7 +803,7 @@ Software development also includes testing. This task is a manifestation of the
 is required in order to write good tests that facilitate understanding and
 documentation. Today this encompasses the knowledge of testing frameworks as
 well as \ac{CICD} practices. In addition to being
-tested, software should also be reproducible. Projects like ReproHack
+tested, software should also provide reproducible outputs. Projects like ReproHack
 [@ReproHack] can greatly help in fostering that competency.
 
 Apart from testing, there are many code analysis tools to monitor and improve the quality of code. 
@@ -840,9 +841,9 @@ Most RSEs will contribute to other projects, some of which will be large. This
 is a topic that requires competency in \gls{SWREPOS}, \gls{SRU}, and \gls{SP} in
 order to understand the ramifications of sharing, and in \gls{DOCBB}, since the
 contributed code has to be understood by others. Interacting with project
-members depends on the \gls{TEAM} skill. Today this entails the effective use
+members depends on the \gls{TEAM} skill. Today, this frequently involves the effective use
 of collaborative platforms like \gls{GitHub}/\gls{GitLab}, honouring a
-project's code of conduct, and some knowledge of popular software licences,
+project's code of conduct, and some knowledge of popular open source software licences,
 e.g. the \ac{GPL}.
 
 RSEs are embedded in communities. There are two different aspects to finding
@@ -851,24 +852,26 @@ research project. Since this deals with software that is supposed to be used in
 research this requires knowledge of \gls{RC}, \gls{USERS}, and also \gls{NEW},
 in order to effectively interact with domain scientists. Today, an example is a
 presence on social media. The other \gls{TEAM}-related aspect is the embedding
-of RSE graduates into the community of RSEs, sharing the same set of values and
-competencies. We envision our RSE graduates to be a part of a strong network of
+of recently-trained RSEs into the Research Software Engineering community,
+sharing the same set of values and competencies.
+We envision newcomers to the RSE field becoming part of a strong network of
 RSEs, tool-related communities, and the classical domain communities,
 making them more effective at supporting research. These networks are a lifelong
 manifestation where RSEs work to provide an inclusive environment for their
-peers and provide opportunities for life long learning.
+peers and provide opportunities for lifelong learning.
 
 RSEs are also mentoring colleagues (see also @sec:mentoring-and-diversity).
 This necessitates giving good advice that
 fits to a project's stage in its life cycle, thereby requiring knowledge of
 (\gls{SWLC}), and its context in its research domain and thus (\gls{RC}).
-Research software often starts out as a tool to answer a personal research
-question and becomes more important when other researchers rely on it. Some
-research software might even be used to deal with critical questions such as
+Research software can often start out as a tool to answer a personal research
+question, becoming more important when other researchers start to rely on it.
+At the other end of the scale, research software can sometimes underpin key
+processes that deal with critical questions such as
 weather forecasting or medical diagnosis. A classification of software is commonly used
 to formalise the process of giving good advice [@Wang2012; @Schlauch2018b] where research software can move from one class to another
-during its life cycle. [@Schlauch2018b] classify applications based on their scope
-and criticality and provide \ac{SE} recommendations. The RSE needs to be able to
+during its life cycle. [@Schlauch2018b] classifies applications based on their scope
+and criticality and provides \ac{SE} recommendations. The RSE needs to be able to
 identify the application class they are dealing with and apply the respective
 RSE practices.
 
@@ -877,9 +880,9 @@ and services with different variants for different research purposes and groups.
 Additionally, many research groups develop their own codes for specific
 research purposes, e.g. simulation codes or specialised data analysis pipelines. 
 A lot of their development of new features is project-based, 
-often through PhD projects, 
-which grow into their own variant with re-integration planned as a final step.
-To reduce the chance of variant source code diverging and producing 
+often through PhD projects. Work can sometimes result in code that diverges from
+the main project into a separate variant with re-integration planned as a final step.
+To reduce the chance of variant source code diverging significantly and producing 
 a large integration overhead, \gls{PM} skills and methods are needed.
 More specifically, software product line management methods have been 
 developed for this exact problem and purpose.
@@ -897,7 +900,7 @@ To elaborate on that, we have prepared the following table with three levels of 
 
 - Junior RSE: These are people who are in the earlier stages of their RSE career journey, but they should ideally have research experience of their own as well as the skills to contribute reliable and well-structured code to software projects.
 - Senior RSE: They have gained experience, both concerning their software skills as well as in their research collaborations in potentially many different fields. They can set the standards in a software project.
-- Principal RSE: Their actual job description varies a lot. These may be RSE team leaders based in a professional services type role, or they may be professors or research group leaders based in a more academic-focused role. They are often the people responsible for bringing in the funding that supports new and sustains existing projects. Generally speaking, they do not need to be actively involved in the day-to-day technical tasks, but they should be able to guide projects from both a technical and a research perspective while providing an inclusive working space and in many cases, lead research or RSE teams.
+- Principal RSE: Their actual job description varies a lot. These may be RSE team leaders based in a professional services type role, or they may be professors or research group leaders based in a more academic-focused role. They are often the people responsible for bringing in the funding that supports new and sustains existing projects. Generally speaking, they do not need to be actively involved in the day-to-day technical tasks, but they should be able to guide projects from both a technical and a research perspective while providing an inclusive working space.
 
 @tbl:comp-lvls-techn, @tbl:comp-lvls-res, and @tbl:comp-lvls-comm elaborate on the required facets of the competencies in different roles.
 A story-like example of an individual through the hierarchies can be found in @subsec:examplecareer .
@@ -909,9 +912,9 @@ A story-like example of an individual through the hierarchies can be found in @s
 | Competency | Junior RSE                                                                                                                    | Senior RSE                                                                                                                            | Principal RSE                                                                                                                                                                       |
 | ---        | ----------                                                                                                                    | ----------                                                                                                                            | ----------                                                                                                                                                                          |
 | \gls{SWLC}       | Should be aware of the software life cycle.                                                                                   | Should know where in the life cycle their project is and which decisions are likely to lead to technical debt.                        | Should know how to manage and steer development/project resources accordingly. Should also have an understanding of the potential consequences of key project management decisions. |
-| \gls{DOCBB}      | Should be able to write reusable building blocks.                                                                             | Same as junior, but the quality should set the standard for the project, while following current best practices.                      | Should know the current best practices and point their staff to the right resources.                                                                                                |
+| \gls{DOCBB}      | Should be able to write reusable building blocks.                                                                             | Same as junior, but the quality should set the standard for the project, while following current best practices.                      | Should know the current best practices and point their team members and collaborators to the right resources.                                                                                                |
 | \gls{DIST}       | Should be able to use package distribution platforms.                                                                         | Same as junior, but should also be familiar with current best practices for building and deploying packages.                          | Should ensure that their project is available via an up-to-date and secure distribution platform.                                                                                   |
-| \gls{SWREPOS}    | Should seamlessly interact with the repository of their project.                                                              | Should be well-versed in the intricacies of a repository, and probably interact with repositories of multiple projects.               | Should promote the use of repositories and be able to convey best practices of sharing and reviewing to junior and senior RSEs.                                                                              |
+| \gls{SWREPOS}    | Should seamlessly interact with the repository of their project.                                                              | Should be well-versed in the intricacies and best practices around working with a repository, and probably interact with repositories of multiple projects.               | Should promote the use of repositories and be able to convey best practices of sharing and reviewing to junior and senior RSEs.                                                                              |
 | \gls{MOD}        | Should have a basic grasp of their piece of the software in order to use basic tools such as a debugger.                      | Should understand the characteristics of large parts of the codebase considering a variety of the metrics.                            | Should understand the big idea of the software project in order to define the task that the software solves.                                                                        |
 
 Table: Levels of technical skills expected per RSE career stage. {#tbl:comp-lvls-techn}
@@ -923,14 +926,14 @@ Table: Levels of technical skills expected per RSE career stage. {#tbl:comp-lvls
 | \gls{NEW}        | Should have some curiosity to fit into research teams.                                                                        | Same as junior, but they should proactively propose directions in individual aspects of the project.                                  | Should have research insights and a broad view of the research field to steer the project.                                                                                                              |
 | \gls{RC}         | Should be aware of the research life cycle.                                                                                   | Should know the position of the project in the research life cycle.                                                                   | Should know what is necessary for the project to fit into its position in the research life cycle.                                                                                  |
 | \gls{SRU}        | Should be aware of software reusability tools.                                                                                | Should be able to search with software reusability tools.                                                                             | Should be able to effectively search with \gls{SRU} tools and to evaluate and perform the integration of a library into the project.                                                      |
-| \gls{SP}         | Should be aware that software publication needs to consider issues of intellectual property.                                  | Should be able to correctly publish software in simple cases and to identify cases where professional legal advice is needed.         | Same as senior, plus the ability to take the future publication of software into account when initiating and guiding larger software collaboration projects.                        |
+| \gls{SP}         | Should be aware of available opportunities to publish software and understand the need to consider issues of intellectual property.                                  | Should be able to correctly publish software in simple cases and to identify cases where professional legal advice is needed.         | Same as senior, plus the ability to take the future publication of software into account when initiating and guiding larger software collaboration projects.                        |
 | \gls{DOMREP}     | Should be able to interact with the domain repository.                                                                | Same as junior RSE.                                                                                                                   | Same as junior, and should know about how it fits into workflows surrounding these domain repositories.                                                                             |
 
 Table: Levels of research skills expected per RSE career stage. {#tbl:comp-lvls-res}
 
 | Competency | Junior RSE                                                                                                                    | Senior RSE                                                                                                                            | Principal RSE                                                                                                                                                                       |
 | ---        | ----------                                                                                                                    | ----------                                                                                                                            | ----------                                                                                                                                                                          |
-| \gls{TEAM}       | Should be able to work in the team in order to effectively fulfil the given tasks. Should be able to learn from code review.  | Should be able to break down tasks into more easily digestible sub-tasks.                                                             | Should be able to lead the team and set the respective direction.                                                                                                                   |
+| \gls{TEAM}       | Should be able to work in the team in order to effectively fulfil the given tasks. Should be able to learn from code review.  | Should be able to break down tasks into more easily digestible sub-tasks and review or guide work undertaken by less-experience team members.                                                             | Should be able to lead the team and set the respective direction.                                                                                                                   |
 | \gls{TEACH}      | Should be able to perform simple peer-to-peer on-boarding tasks.                                                              | Should be able to explain logical components and the general architecture to other RSEs.                                              | Should be able to effectively communicate about all high-level parts of the project.                                                                                                |
 | \gls{PM}         | Should be aware of the employed \gls{PM} method.                                                                    | Should be able to use and adapt the employed \gls{PM} method.                                                                               | Should be able to design and adapt the employed \gls{PM} method.                                                                                                                          |
 | \gls{USERS}      | Should be able to communicate with both users and SEs on the project, on topics of the research and SE.                                                               | Same as junior RSE, and be able to interpret the feedback.                                                                            | Same as senior, and should also be able to effectively take feedback into account when steering the project.                                                                        |
@@ -1014,7 +1017,7 @@ They should encourage their students to use relevant tools (\gls{DIST}).
 They need to be able to judge the suitability of the software (\gls{SWLC}) and follow the interactions between relevant projects (\gls{SWREPOS}).
 They should be able to advise their students on the legal aspects of software production and distribution (\gls{SP}).
 They should be able to contribute meaningfully to the steering decisions of the software in their field (\gls{USERS}).
-They are able to guide students and give full-size lectures (\gls{TEACH}).
+They are able to guide students and preare and deliver full-length lectures (\gls{TEACH}).
 They need to manage and lead their research group (\gls{PM}, \gls{TEAM}).
 
 ## Project team structures
@@ -1032,7 +1035,7 @@ We first summarise the meaning of each of the columns in the tables:
 
 - **Competency:** The code assigned to the competency being considered, as defined in @sec:required-generic-skills, e.g. \gls{TEAM}.
 - **Individual RSE (Locally-based):** A single person working on some
-  research software - often an RSE with focus on their own research. Often time-constrained,
+  research software - often primarily a researcher, but learning and applying RSE skills with focus on their own research. Often time-constrained,
       may be self-taught.
 - **Individual RSE (RSE team-based):** A single person working on research
   software - generally a professional RSE assigned to support another team's software on their own,
@@ -1080,13 +1083,13 @@ The current situation may differ.
     \gls{DIST}&
     Does not emphasise code reusability and sharing/distribution.&
     Puts greater focus on reusability/sharing, but likely not as part of the project aims.&
-    May want to develop reusable shareable outputs for a specific case. Needs clear guidelines.&
+    May want to develop reusable, shareable outputs for a specific case. Needs clear guidelines.&
     Focuses on quality and best practices. Reusability/packaging driven by project needs and spec.&
     Should provide policies on reusability/sharing. May be driven by requirements/policies, e.g., of institution or funding agency.
     \\\hline
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     \gls{SWLC}&
-    Manages the complete life cycle, bus factor equal to 1.&
+    Manages the complete life cycle, \glspl{bus-factor} equal to 1.&
     The team supports parts of the software life cycle, but with low bus factor.&
     The team infrastructure and tooling supports the life cycle and sustainability.&
     The bus factor may still be low in parts of the code.
@@ -1255,7 +1258,7 @@ to and handled by researchers and RSEs working in different environments within
 an organisation and how the organisations themselves can contribute.
 We recognise that this is a challenging area to gain a detailed view of
 and that this is still a significant generalisation.
-We talk about the "research software engineer" as a single entity but as the field expands,
+We talk about the "Research Software Engineer" as a single entity but as the field expands,
 we expect to see more roles and job titles emerging around the RSE concept,
 many of which fit under the wider umbrella of research technology professionals (RTPs) [@ukri_rtp] [@techniciancommitment].
 Examples are different RSE-like computational roles of
@@ -1378,7 +1381,9 @@ The development of research software based on \ac{ML} requires specialised theor
 This involves knowledge about data analysis and feature engineering, metrics that are involved in \ac{ML}, \ac{ML} algorithm selection and cross validation, and knowledge in mathematical optimisation methods and statistics.
 Here, we use \ac{ML} in a broad sense of machine-based learning including deep learning, reinforcement learning, neuro-symbolic learning and similar.
 
-ML-RSEs analyse and check the suitability of an algorithm if it fulfils the needs of a certain task and they play a main role in deciding and selecting \ac{ML} libraries for a given task.
+ML-RSEs analyse and check the suitability of an algorithm. They check if it
+fulfils the needs of a certain task and they play a central role in deciding on
+and selecting \ac{ML} libraries for a given task.
 The increasing usage of \ac{ML} in numerous scientific areas with social impact involves an emphasised awareness and consideration of possible influences and biases.
 At the intersection of data science [@SSIDataScience] and data-focused RSEs,
 the complex way of solving problems utilising \ac{ML} calls for this separate specialisation.
@@ -1393,16 +1398,16 @@ Adaption of existing, large-scale codebases to evolving dependencies (\gls{DIST}
 may require mastery in refactoring techniques and in the usage of specialised code transformation tools.
 
 #### Web-development RSE
-This RSE is skilled in web applications, front- and/or backend, and/or building
-and using APIs, for example for research data portals or big research projects.
-A deep knowledge of web development skills is a required additional skill for this RSE.
+This RSE is skilled in the development of web applications and/or mobile apps.
+They have expertise in one or more of frontend development, backend development
+and the design or implementation of APIs, for example to support research data portals or big research projects.
 Since a lot of web services for research may be accessible to a large audience or even to the public,
 this RSE is also familiar with aspects relating to cybersecurity, usability and accessibility.
 Not only do they need to balance these concerns while adhering to their values from @sec:values,
 but they also need to efficiently communicate the decisions made to stakeholders.
 
 #### Legal-RSE
-All RSEs are a go-to person for questions about licensing, in particular when mixing software components that use different licences.
+RSEs are often the go-to person for questions about software licensing, in particular when mixing software components that use different licences.
 But with the rising requirements from legislation,
 we foresee the need for RSEs that still have a background in RSE but extend it with a knowledge of legal processes that cover corner cases and go beyond applying Best Practice guides.
 These requirements may arise in the area of publication of research software,
@@ -1410,7 +1415,7 @@ as this also requires knowledge about particular laws or regulatory frameworks c
 like the \ac{GDPR} within the \ac{EU} [@GDPR].
 Another area are legal aspects of cybersecurity and export control in science and research (see [@ExportControl] for Germany).
 Legal-RSEs focus on facilitating the achievement of technically feasible solutions, while adhering to regulatory mandates.
-They are able to communicate and collaborate with lawyers.
+They are able to communicate and collaborate effectively with lawyers.
 
 <!--
 social skill-set focused specialisations
@@ -1618,7 +1623,7 @@ Kay has now completed the RSE programme and has reached Junior RSE level.
 
 Kay finds a position in the central RSE department at her university with a competitive \ac{IT} salary.
 Although the contract is temporary, there is a good chance that it will lead to a permanent position.
-The university makes an effort to enable that since it is a member of "The Technicians Commitment"[@techniciancommitment], an initiative to ensure recognition and career development of technicians, who face similar challenges to RSEs.
+The university makes an effort to enable that since it is a member of "The Technician Commitment"[@techniciancommitment], an initiative to ensure recognition and career development of technicians, who face similar challenges to RSEs.
 Kay completes the Software Carpentry Instructor training and teaches basic research computing,
 while advising fellow students of her department on better programming (\gls{DOCBB} and \gls{MOD} skill).
 She also runs a seminar in the RSE Master's programme. She publishes a condensed version of that in JOSE[@JOSE].
