@@ -1500,7 +1500,7 @@ Renato Alves quickly jumped in to host the first deRSE23 workshop to take over f
 Matthias Braun contributed early versions of the specialisations and also contributed to the survey.
 Leyla Jael Castro contributed to the initial draft of the example career path, and helped us in discussions on metadata.
 Gerasimos Chourdakis' contributions to the paper are numerous but he especially helped us in writing first drafts for clarifying
-the relationship of the RSE competencies to the SE competencies.
+the relationship of the RSE competencies to the SE competencies. He also designed the "Learning and teaching RSE" website.
 Simon Christ helped us with typesetting, contributed the competencies' symbols, and the spell-checker script.
 Jeremy Cohen drafted the initial introduction and contributed the tables for RSEs in centralised RSE departments(Jean-Noël Grad made them render properly).
 Stephan Druskat contributed parts on proper software citation and publication and sharpened various RSE specialisations.
