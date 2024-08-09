@@ -80,6 +80,7 @@ Forschung
 Friedrich
 Fortran
 franca
+frontend
 funders
 FutureUniversity
 genomic
@@ -182,4 +183,5 @@ un-deRSE
 US-RSE
 WIP
 Wissenschaft
+Würzburg
 Zenodo
