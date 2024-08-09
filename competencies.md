@@ -188,7 +188,7 @@ While this community paper is based on workshop discussions that were attended
 largely by Research Software Engineers (deRSE23 in Paderborn, un-deRSE23 in
 Jena, and deRSE24 in Würzburg, Germany),
 we believe that the competencies formulated here can offer far-reaching
-impact beyond the domain of RSE into adjacent aspects of research such as
+impact beyond the domain of RSE into adjacent aspects of research, such as
 research data.
 For example, this is especially important given that much research involves some amount of
 data management, processing and visualisation, and funding bodies and computing
