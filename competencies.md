@@ -1325,13 +1325,14 @@ Research focused specialisations
 -->
 
 #### \${DOMAIN}-RSE
-While software is the common focus of all RSEs, there will be RSEs that have specialised in the intricacies of one particular research domain,
+While software is the common focus of all RSEs,
+there will be RSEs that have additionally specialised in the intricacies of one particular research domain,
 such as medical RSEs, digital humanities RSEs, or physics RSEs.
 This can often serve as a base domain for RSE specialisation as in @subsec:examplemaster.
 
 #### Data-focused RSE
-RSEs working at the flourishing intersection between data science and RSE.
-They are skilled in cleaning data and/or running data analyses and can help researchers
+These are RSEs working at the flourishing intersection between data science and RSE.
+They are additionally skilled in cleaning data and/or running data analyses and can help researchers
 in setting up their analysis pipeline and/or \ac{RDM} solutions.
 When the field requires research on sensitive data or information, e.g., patient information in medicine,
 this RSE should have knowledge about secure transfer methods and/or ways to anonymise the data.
@@ -1345,7 +1346,7 @@ New areas of expertise
 -->
 
 #### Research infrastructure RSE
-This RSE is interested in \glspl{SysOp} and system administration and sets up \ac{IT} infrastructures for and with researchers.
+This RSE is additionally interested in \glspl{SysOp} and system administration and sets up \ac{IT} infrastructures for and with researchers.
 Therefore, this specialisation on the one hand requires a deep knowledge of physical computer and network hardware and
 on the other hand knowledge about setup and configuration of particular server software,
 e.g., setup of virtual machines on hypervisors or the planning and setup of compute server clusters for special purposes, e.g., \ac{ML}.
@@ -1353,7 +1354,7 @@ As an interface between the researchers and the infrastructure, they take care o
 
 #### HPC-RSE
 
-RSEs with a focus on \ac{HPC} have specialist knowledge
+RSEs with a focus on \ac{HPC} have additional specialist knowledge
 about programming models that can be used to efficiently undertake large-scale
 computations on parallel computing clusters. They may have knowledge of (automatic)
 code optimisation tools and methods and will understand how to write code that is
@@ -1381,7 +1382,7 @@ but only a cursory understanding of compiled languages get up to speed with
 compiled software.-->
 
 #### ML-RSE
-The development of research software based on \ac{ML} requires specialised theoretical background and experienced handling of appropriate software in order to produce meaningful results.
+The development of research software based on \ac{ML} requires additional specialised theoretical background and experienced handling of appropriate software in order to produce meaningful results.
 This involves knowledge about data analysis and feature engineering, metrics that are involved in \ac{ML}, \ac{ML} algorithm selection and cross validation, and knowledge in mathematical optimisation methods and statistics.
 Here, we use \ac{ML} in a broad sense of machine-based learning including deep learning, reinforcement learning, neuro-symbolic learning and similar.
 
@@ -1402,7 +1403,7 @@ Adaption of existing, large-scale codebases to evolving dependencies (\gls{DIST}
 may require mastery in refactoring techniques and in the usage of specialised code transformation tools.
 
 #### Web-development RSE
-This RSE is skilled in the development of web applications and/or mobile apps.
+This RSE is additionally skilled in the development of web applications and/or mobile apps.
 They have expertise in one or more of frontend development, backend development
 and the design or implementation of APIs, for example to support research data portals or big research projects.
 Since a lot of web services for research may be accessible to a large audience or even to the public,
