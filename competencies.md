@@ -1495,14 +1495,14 @@ Everybody contributed to the final review and editing.
 
 Maybe it's obvious, but as you can guess from having various workshops
 spread out over a two year period, and a total list of 23 authors
-the CRediT system is far to generic to adequately describe the contributions of everybody.
+the CRediT system is far too generic to adequately describe the contributions of everybody.
 Renato Alves quickly jumped in to host the first deRSE23 workshop to take over from a sick organiser.
 Matthias Braun contributed early versions of the specialisations and also contributed to the survey.
 Leyla Jael Castro contributed to the initial draft of the example career path, and helped us in discussions on metadata.
 Gerasimos Chourdakis' contributions to the paper are numerous but he especially helped us in writing first drafts for clarifying
 the relationship of the RSE competencies to the SE competencies. He also designed the "Learning and teaching RSE" website.
 Simon Christ helped us with typesetting, contributed the competencies' symbols, and the spell-checker script.
-Jeremy Cohen drafted the initial introduction and contributed the tables for RSEs in centralised RSE departments(Jean-Noël Grad made them render properly).
+Jeremy Cohen drafted the initial introduction and contributed the tables for RSEs in centralised RSE departments (Jean-Noël Grad made them render properly).
 Stephan Druskat contributed parts on proper software citation and publication and sharpened various RSE specialisations.
 Fredo Erxleben contributed to early discussions of the paper and contributed the efforts done by Helmholtz.
 Jean-Noël Grad contributed initial drafts for the ELIXIR framework and the section on the work of the HPC certification forum.
@@ -1511,7 +1511,7 @@ Magnus Hagdorn drafted and supervised the ethics and values section for an RSE a
 Toby Hodges contributed parts on the Carpentries, and helped steer the curriculum discussion.
 Guido Juckeland contributed experiences from his first RSE course for students.
 Dominic Kempf drafted the first version of the example curriculum.
-Anna-Lena Lamprecht helped us to use proper wording and make us aware, where we are misusing established SE terms.
+Anna-Lena Lamprecht helped us to use proper wording and made us aware, where we were misusing established SE terminology.
 Jan Linxweiler drafted various RSE specialisations and made sure that clean coding techniques have their importance.
 Frank Löffler rewrote numerous parts to be actually legible, and helped us in steering onto the final meters for a de-RSE position paper.
 Michele Martone wrote the first draft of the environmental sustainability section.
