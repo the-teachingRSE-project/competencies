@@ -187,11 +187,10 @@ is exactly what is needed for modern, software-enabled research. -->
 While this community paper is based on workshop discussions that were attended
 largely by RSEs (deRSE23 in Paderborn, un-deRSE23 in
 Jena, and deRSE24 in Würzburg, all in Germany),
-we believe that the competencies formulated here can offer far-reaching
-impact beyond the domain of RSE into adjacent aspects of research, such as
-research data.
+we believe that the competencies formulated here, centered around data processing, can offer far-reaching
+impact beyond the domain of RSE into adjacent aspects of research and, indeed, the wider research community.
 This is especially important given that much research involves some amount of
-data management, processing and visualisation, and funding bodies and computing
+data management, processing or visualisation, and funding bodies and computing
 infrastructure providers will sometimes prioritise projects that generate archived,
 annotated, re-usable, and potentially remotely executable data.
 In particular, funding agencies and research managers will find the discussion in this paper
@@ -1450,7 +1449,7 @@ We will put forward ideas on how to build up bachelor's and master's programmes,
  of which a glimpse can already be found in @subsec:examplemaster.
 We will show how we intend to provide the necessary continuous education for RSEs after graduation,
  and we will connect that with the integration of RSEs into a mesh of community networks aimed at supporting research,
- while providing them with an inclusive social network that further facilitates life-long learning.
+ while providing them with an inclusive social network that further facilitates lifelong learning.
 That publication will again intentionally be free of regional specifics,
  to also serve as a blueprint that other national RSE societies can build upon.
 
