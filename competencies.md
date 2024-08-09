@@ -816,7 +816,7 @@ HERMES [@druskat_hermes_2022]. Other efforts focus on Software Management Plans
 (e.g., [@alves_elixir_2021; @martinez_ortiz_practical_2022]) which could be
 helpful for RSEs at early stages (i.e., with not much experience of project
 management). They give quick hints on what to look for regarding basic
-management for research software (including information on e.g., licenses,
+management for research software (including information on, e.g., licenses,
 releases, publication, citation, archiving) together with some ongoing work on
 corresponding metadata [@giraldo_metadata_2023].
 Metadata can also be used
