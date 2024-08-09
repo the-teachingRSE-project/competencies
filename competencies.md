@@ -268,6 +268,7 @@ on the development of research software.
 
 **Researchers**:
 People who are using the services provided by Research Software Engineers.
+This, on purpose, is a very broad definition and was chosen for a better reading.
 
 # Related work {#sec:related-work}
 
