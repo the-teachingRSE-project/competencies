@@ -45,6 +45,7 @@ DigiFlex
 digitalisation
 DigitalSkillsGap
 distributable
+DLR
 DMP
 DOCBB
 DOMREP
@@ -170,6 +171,7 @@ SysOps
 tbl
 TeSS
 teams-se
+TRLs
 TrainingMaterial
 UofO
 un-deRSE
