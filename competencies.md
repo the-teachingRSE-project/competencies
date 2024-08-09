@@ -186,7 +186,7 @@ is exactly what is needed for modern, software-enabled research. -->
 
 While this community paper is based on workshop discussions that were attended
 largely by Research Software Engineers (deRSE23 in Paderborn, un-deRSE23 in
-Jena and deRSE24 in Würzburg, Germany),
+Jena, and deRSE24 in Würzburg, Germany),
 we believe that the competencies formulated here can offer far-reaching
 impact beyond the domain of RSE into adjacent aspects of research such as
 research data.
