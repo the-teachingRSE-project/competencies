@@ -818,7 +818,7 @@ helpful for RSEs at early stages (i.e., with not much experience of project
 management). They give quick hints on what to look for regarding basic
 management for research software (including information on e.g., licenses,
 releases, publication, citation, archiving) together with some ongoing work on
-corresponding metadata [@giraldo_metadata_2023]. %maybe add https://doi.org/10.5281/zenodo.10374838 to give an idea what's possible more?
+corresponding metadata [@giraldo_metadata_2023].
 Metadata can also be used
 actively during, within and after a research project to edify the decision-making
 processes [@Bird2016].
