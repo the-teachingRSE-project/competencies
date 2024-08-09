@@ -187,7 +187,7 @@ is exactly what is needed for modern, software-enabled research. -->
 While this community paper is based on workshop discussions that were attended
 largely by RSEs (deRSE23 in Paderborn, un-deRSE23 in
 Jena, and deRSE24 in Würzburg, all in Germany),
-we believe that the competencies formulated here, centered around data processing, can offer far-reaching
+we believe that the competencies formulated here, centred around data processing, can offer far-reaching
 impact beyond the domain of RSE into adjacent aspects of research and, indeed, the wider research community.
 This is especially important given that much research involves some amount of
 data management, processing or visualisation, and funding bodies and computing
