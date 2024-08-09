@@ -190,7 +190,7 @@ Jena, and deRSE24 in Würzburg, Germany),
 we believe that the competencies formulated here can offer far-reaching
 impact beyond the domain of RSE into adjacent aspects of research, such as
 research data.
-For example, this is especially important given that much research involves some amount of
+This is especially important given that much research involves some amount of
 data management, processing and visualisation, and funding bodies and computing
 infrastructure providers will sometimes prioritise projects that generate archived,
 annotated, re-usable, and potentially remotely executable data.
