@@ -124,7 +124,7 @@ They are now vital elements of the research process across almost all domains.
 They enable researchers to collect and process ever-increasing amounts of data,
 simulate a wide range of physical phenomena across previously unexplored scales of the universe,
 and discover previously inconceivably complex structures in nature and societies via \ac{ML}.
-This prevalence of computation in research means that
+This prevalence of computation and digitally-aided data analysis in research means that
 digital skills are now required by researchers at all
 career levels, and in fields significantly beyond those that would previously
 have been expected.
@@ -185,8 +185,8 @@ would have chosen different competencies, we will argue that this trifecta of sk
 is exactly what is needed for modern, software-enabled research. -->
 
 While this community paper is based on workshop discussions that were attended
-largely by Research Software Engineers (deRSE23 in Paderborn, un-deRSE23 in
-Jena, and deRSE24 in Würzburg, Germany),
+largely by RSEs (deRSE23 in Paderborn, un-deRSE23 in
+Jena, and deRSE24 in Würzburg, all in Germany),
 we believe that the competencies formulated here can offer far-reaching
 impact beyond the domain of RSE into adjacent aspects of research, such as
 research data.
@@ -339,9 +339,11 @@ the \acrfull{HIFIS} [@HIFIS], and the already mentioned SURESOFT [@SURESOFTLin
 
 # Values {#sec:values}
 
-In addition to the values for good scientific practice [@dfg_gsp], RSEs should also adhere to
-the \ac{SE} Code of Ethics [@Gotterbarn1999] and their activities should be guided by ethical values.
-Central to the \ac{SE} Code of Ethics is the RSE's obligation to
+It is important that the activities of an RSE are guided by ethical values.
+In addition to the values for good scientific practice [@dfg_gsp], RSEs also adhere to
+the \ac{SE} Code of Ethics [@Gotterbarn1999].
+Central to that code is the RSE's obligation to
+In addition to the values for good scientific practice
 commit to the health, safety and welfare of the public and act in the interest of society, their employer and their clients.
 Further values loosely based on that code include the obligations
 
@@ -361,7 +363,7 @@ The epistemological status of computer modelling and simulation is still the sub
 which ranges from the postulate of a new process of knowledge creation that has its own, unique, epistemology [@winsberg_sanctioning_1999]
 to the perception that from a philosophy of science perspective, there is nothing really new [@frigg_philosophy_2009].
 In any case, it is clear that a number of decisions in the construction of a simulation-model
-will have a decisive impact on the adequacy for purpose [@bokulich_data_2021] of the model.
+will have a significant impact on the adequacy for purpose [@bokulich_data_2021] of the model.
 These decisions include the selection of the salient characteristics of the system to be modelled,
 the choice of the mathematical representation of the processes to be represented,
 the choice of numerical methods and other algorithms
@@ -382,10 +384,10 @@ It is important that RSEs are aware of this responsibility and continuously impr
 Research software is also well on its way to being ever-present in data-driven research, in all research fields.
 This can probably be most prominently seen by considering software used to analyse data, e.g. within experimental research.
 It is not unusual for RSEs to support those more research data oriented efforts as well.
-Here, specifically, they closely interact with research data management
-professionals and practices by designing research software that is better able to
-adhere to the \ac{FAIR} principles for research data, but also to follow
-similar rules for research software (FAIR4RS [@FAIR4RS]).
+Here, specifically, they closely interact with research data management professionals
+and practices by designing research software 
+that is better able to adhere to the \ac{FAIR} principles for research data,
+but also to follow similar rules for research software (FAIR4RS [@FAIR4RS]).
 As such, they are then familiar with special requirements stemming from the field itself, e.g., in medical research, and with privacy related issues especially for personal data, e.g., for conducting surveys.
 
 RSEs often assume a multifaceted role at the junction of research, \ac{SE} and data management.
@@ -409,7 +411,7 @@ RSEs need to be aware of this topic's importance
 and deal with tensions that might arise with researchers' desire for trouble-free sharing of data, thereby expecting openness about the research process,
 versus the integrity expectations of the society towards \ac{IT} systems.
 Handling personal data also has ramifications for information security considerations during the software development process.
-Data protection is a complex topic, so RSEs should be aware of when they may need to consult external expertise, for example when dealing with
+Data protection is a complex topic, so RSEs should be aware that they may need to consult external expertise, for example when dealing with
 special topics such as cryptography or re-identification attacks [@Henriksen2016].
 
 
@@ -544,7 +546,7 @@ They can formulate and implement various types of tests, they can independently 
 and automate operations of the integration and release process. They can
 provide working, scalable, and future-proof solutions in a professional context and with common
 project and software management techniques, adapted to the needs of the research environment.
-Finally, as people who have often gained significant experience of research
+Finally, as people who have often gained significant research experience
 in a particular discipline, they combine the necessary foundations from their domain with software
 engineering skills to develop complex software.
 
@@ -936,7 +938,7 @@ Table: Levels of research skills expected per RSE career stage. {#tbl:comp-lvls-
 
 | Competency | Junior RSE                                                                                                                    | Senior RSE                                                                                                                            | Principal RSE                                                                                                                                                                       |
 | ---        | ----------                                                                                                                    | ----------                                                                                                                            | ----------                                                                                                                                                                          |
-| \gls{TEAM}       | Should be able to work in the team in order to effectively fulfil the given tasks. Should be able to learn from code review.  | Should be able to break down tasks into more easily digestible sub-tasks and review or guide work undertaken by less-experience team members.                                                             | Should be able to lead the team and set the respective direction.                                                                                                                   |
+| \gls{TEAM}       | Should be able to work in the team in order to effectively fulfil the given tasks. Should be able to learn from code review.  | Should be able to break down tasks into more easily digestible sub-tasks and review or guide work undertaken by less-experienced team members.                                                             | Should be able to lead the team and set the respective direction.                                                                                                                   |
 | \gls{TEACH}      | Should be able to perform simple peer-to-peer on-boarding tasks.                                                              | Should be able to explain logical components and the general architecture to other RSEs.                                              | Should be able to effectively communicate about all high-level parts of the project.                                                                                                |
 | \gls{PM}         | Should be aware of the employed \gls{PM} method.                                                                    | Should be able to use and adapt the employed \gls{PM} method.                                                                               | Should be able to design and adapt the employed \gls{PM} method.                                                                                                                          |
 | \gls{USERS}      | Should be able to communicate with both users and SEs on the project, on topics of the research and SE.                                                               | Same as junior RSE, and be able to interpret the feedback.                                                                            | Same as senior, and should also be able to effectively take feedback into account when steering the project.                                                                        |
@@ -1020,7 +1022,7 @@ They should encourage their students to use relevant tools (\gls{DIST}).
 They need to be able to judge the suitability of the software (\gls{SWLC}) and follow the interactions between relevant projects (\gls{SWREPOS}).
 They should be able to advise their students on the legal aspects of software production and distribution (\gls{SP}).
 They should be able to contribute meaningfully to the steering decisions of the software in their field (\gls{USERS}).
-They are able to guide students and prepare and deliver full-length lectures (\gls{TEACH}).
+They are able to guide students and prepare and deliver a full lecture course (\gls{TEACH}).
 They need to manage and lead their research group (\gls{PM}, \gls{TEAM}).
 
 ## Project team structures
@@ -1038,7 +1040,7 @@ We first summarise the meaning of each of the columns in the tables:
 
 - **Competency:** The code assigned to the competency being considered, as defined in @sec:required-generic-skills, e.g. \gls{TEAM}.
 - **Individual RSE (Locally-based):** A single person working on some
-  research software - often primarily a researcher, but learning and applying RSE skills with focus on their own research. Often time-constrained,
+research software - often an RSE with focus on their own research. Often time-constrained,
       may be self-taught.
 - **Individual RSE (RSE team-based):** A single person working on research
   software - generally a professional RSE assigned to support another team's software on their own,
