@@ -1476,19 +1476,52 @@ How we update existing institutions and set up new ones
 that provide this education will be the topic of a follow-up paper.
 
 # Contribution details {-}
-Heidi Seibold came up with the original idea for the deRSE23 workshop.
+Heidi Seibold came up with the original idea for the deRSE23 workshop in Paderborn.
 We thank all the participants of this community workshop!
 Heidi Seibold, Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele,
 and Samantha Wittke organised the deRSE23 workshop.
 Toby Hodges conceptualised and organised the un-deRSE23 workshop.
 We also thank all the participants of this follow-up community workshop!
-
+Jeremy Cohen, Gerasimos Chourdakis, Magnus Hagdorn, Jean-Noël Grad, Jan Philipp Thiele, and Matthias Braun organised the deRSE24 workshop in Würzburg.
+We also thank all the participants of this community workshop!
 Heidi Seibold, Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele,
 Jan Linxweiler, Jean-Noël Grad, and Samantha Wittke contributed the initial draft.
 Florian Goth supervised the project and did the project administration.
 Jean-Noël Grad designed and implemented the software tooling.
-Michele Martone wrote the first draft of the environmental sustainability section.
+We value the comments by Bernhard Rumpe and Wilhelm Hasselbring on previous drafts
+of this work.
 Everybody contributed to the final review and editing.
+
+
+Maybe it's obvious, but as you can guess from having various workshops
+spread out over a two year period, and a total list of 23 authors
+the CrediT system is far to generic to adequately describe the contributions of everybody.
+Renato Alves quickly jumped in to host the first deRSE23 workshop to take over from a sick organizer.
+Matthias Braun contributed early versions of the specializations and also contributed to the survey.
+Leyla Jael Castro contributed to the initial draft of the example career path, and helped us in discussions on metadata.
+Gerasimos Chourdakis' contributions to the paper are numerous but he especially helped us in writing first drafts for clarifying
+the relationship of the RSE competencies to the SE competencies.
+Simon Christ helped us with typesetting, contributed the competencies' symbols, and the spell-checker script.
+Jeremy Cohen drafted the initial introduction and contributed the tables for RSEs in centralized RSE departments(Jean-Noël Grad made them render properly).
+Stephan Druskat contributed parts on proper software citation and publication and sharpened various RSE specializations.
+Fredo Erxleben contributed to early discussions of the paper and contributed the efforts done by Helmholtz.
+Jean-Noël Grad contributed initial drafts for the ELIXIR framework and the section on the work of the HPC certification forum.
+And, most likely, without him, we wouldn't have a bibliography at all.
+Magnus Hagdorn drafted and supervised the ethics and values section for an RSE and made sure that these values are reflected in the competencies of RSEs.
+Toby Hodges contributed parts on the carpentries, and helped steer the curriculum discussion.
+Guido Juckeland contributed experiences from his first RSE course for students.
+Dominic Kempf drafted the first version of the example curriculum.
+Anna-Lena Lamprecht helped us to use proper wording and make us aware, where we are misusing establised SE terms.
+Jan Linxweiler drafted various RSE specializations and made sure that clean coding techniques have their importance.
+Frank Löffler rewrote numerous parts to be actually legible, and helped us in steering onto the final meters for a de-RSE position paper.
+Michele Martone wrote the first draft of the environmental sustainability section.
+Moritz Schwarzmeier drafted the categorization of the specializations.
+Heidi Seibold contributed the idea and started everything.
+Jan Philipp Thiele drafted initial parts of the technical pillar of the RSE competencies, and represnted the project on numerous discussions.
+Harald von Waldow contributed to initial drafts of the Masters program and contributed his knowledge to the explainability of computer simulations.
+Samantha Wittke contributed the parts on coderefinery and how to reach out to beginning RSEs.
+Florian Goth has the pleasure of being grateful to all collaborators in this project for contributing their time and knowledge into this project over the past two years!
+
 
 \appendix
 
