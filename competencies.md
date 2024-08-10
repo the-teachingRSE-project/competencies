@@ -165,8 +165,9 @@ the research environment, and ensure that they produce sustainable, maintainable
 code that supports reproducible research outputs, following the \ac{FAIR} principles [@FAIR4RS].
 
 This community paper defines a set of core values and foundational competencies,
-agnostic of specific technical capabilities or research domains,
 which an RSE should acquire during training and formal education.
+These skills are formulated independently of a specific research domain 
+and current technical tools used to support the application of the skills.
 By defining these competencies,
 we provide a guiding framework to facilitate
 the training and continuous professional development of RSEs,
