@@ -1500,13 +1500,12 @@ that provide this education will be the topic of a follow-up paper.
 
 # Contribution details {-}
 Heidi Seibold came up with the original idea for the deRSE23 workshop in Paderborn.
+Heidi Seibold, Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele, and Samantha Wittke organised the deRSE23 workshop.
 We thank all the participants of this community workshop!
-Heidi Seibold, Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele,
-and Samantha Wittke organised the deRSE23 workshop.
-Toby Hodges conceptualised and organised the un-deRSE23 workshop.
+Toby Hodges conceptualised and organised the un-deRSE23 workshop together with Jan Philipp Thiele and Florian Goth.
 We also thank all the participants of this follow-up community workshop!
 Jeremy Cohen, Gerasimos Chourdakis, Magnus Hagdorn, Jean-Noël Grad, Jan Philipp Thiele, and Matthias Braun organised the deRSE24 workshop in Würzburg.
-We also thank all the participants of this community workshop!
+We are also grateful to the participants of this third community workshop!
 Heidi Seibold, Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele,
 Jan Linxweiler, Jean-Noël Grad, and Samantha Wittke contributed the initial draft.
 Florian Goth supervised the project and did the project administration.
@@ -1519,6 +1518,7 @@ Everybody contributed to the final review and editing.
 Maybe it is obvious, but as you can guess from having various workshops
 spread out over a two year period, and a total list of 23 authors
 the CRediT system is far too generic to adequately describe the contributions of everybody.
+And while everybody contributed to the entirety of the script, some parts bear a personal handwriting.
 Renato Alves quickly jumped in to host the first deRSE23 workshop to take over from a sick organiser.
 Matthias Braun contributed early versions of the specialisations and also contributed to the survey.
 Leyla Jael Castro contributed to the initial draft of the example career path, and helped us in discussions on metadata.
@@ -1536,7 +1536,7 @@ Guido Juckeland contributed experiences from his first RSE course for students.
 Dominic Kempf drafted the first version of the example curriculum.
 Anna-Lena Lamprecht helped us to use proper wording and made us aware, where we were misusing established SE terminology.
 Jan Linxweiler drafted various RSE specialisations and made sure that clean coding techniques have their importance.
-Frank Löffler rewrote numerous parts to be actually legible, and helped us in steering onto the last mile for a de-RSE position paper.
+Frank Löffler rewrote numerous parts to be actually legible, and helped us in preparing for the last mile of a de-RSE position paper.
 Michele Martone wrote the first draft of the environmental sustainability section.
 Moritz Schwarzmeier drafted the categorisation of the specialisations.
 Heidi Seibold contributed the idea and started everything.
