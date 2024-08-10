@@ -1517,7 +1517,7 @@ Everybody contributed to the final review and editing.
 
 Maybe it is obvious, but as you can guess from having various workshops
 spread out over a two year period, and a total list of 23 authors
-the CRediT system is far too generic to adequately describe the contributions of everybody.
+the CRediT system [@Brand2015] is far too generic to adequately describe the contributions of everybody.
 And while everybody contributed to the entirety of the script, some parts bear a personal handwriting.
 Renato Alves quickly jumped in to host the first deRSE23 workshop to take over from a sick organiser.
 Matthias Braun contributed early versions of the specialisations and also contributed to the survey.
