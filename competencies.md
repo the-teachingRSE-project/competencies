@@ -1515,7 +1515,7 @@ of this work.
 Everybody contributed to the final review and editing.
 
 
-Maybe it's obvious, but as you can guess from having various workshops
+Maybe it is obvious, but as you can guess from having various workshops
 spread out over a two year period, and a total list of 23 authors
 the CRediT system is far too generic to adequately describe the contributions of everybody.
 Renato Alves quickly jumped in to host the first deRSE23 workshop to take over from a sick organiser.
@@ -1528,7 +1528,7 @@ Jeremy Cohen drafted the initial introduction and contributed the tables for RSE
 Stephan Druskat contributed parts on proper software citation and publication and sharpened various RSE specialisations.
 Fredo Erxleben contributed to early discussions of the paper and contributed the efforts done by Helmholtz.
 Jean-Noël Grad contributed initial drafts for the ELIXIR framework and the section on the work of the HPC certification forum.
-And, most likely, without him, we wouldn't have a bibliography at all.
+And, most likely, without him, we would not have a bibliography at all.
 Magnus Hagdorn drafted and supervised the ethics and values section for an RSE and made sure that these values are reflected in the competencies of RSEs.
 Toby Hodges contributed parts on the Carpentries, and helped steer the curriculum discussion.
 Guido Juckeland contributed experiences from his first RSE course for students.
