@@ -1348,7 +1348,7 @@ New areas of expertise
 -->
 
 #### Research infrastructure RSE
-This RSE is additionally interested in \glspl{SysOp} and system administration and sets up \ac{IT} infrastructures for and with researchers.
+This RSE has a special interest in \glspl{SysOp} and system administration and sets up \ac{IT} infrastructures for and with researchers.
 Therefore, this specialisation on the one hand requires a deep knowledge of physical computer and network hardware and
 on the other hand knowledge about setup and configuration of particular server software,
 e.g., setup of virtual machines on hypervisors or the planning and setup of compute server clusters for special purposes, e.g., \ac{ML}.
@@ -1356,7 +1356,7 @@ As an interface between the researchers and the infrastructure, they take care o
 
 #### HPC-RSE
 
-RSEs with a focus on \ac{HPC} have additional specialist knowledge
+RSEs with a focus on \ac{HPC} have specialist knowledge
 about programming models that can be used to efficiently undertake large-scale
 computations on parallel computing clusters. They may have knowledge of (automatic)
 code optimisation tools and methods and will understand how to write code that is
@@ -1405,7 +1405,7 @@ Adaption of existing, large-scale codebases to evolving dependencies (\gls{DIST}
 may require mastery in refactoring techniques and in the usage of specialised code transformation tools.
 
 #### Web-development RSE
-This RSE is additionally skilled in the development of web applications and/or mobile apps.
+This RSE is skilled in the development of web applications and/or mobile apps.
 They have expertise in one or more of frontend development, backend development
 and the design or implementation of APIs, for example to support research data portals or big research projects.
 Since a lot of web services for research may be accessible to a large audience or even to the public,
