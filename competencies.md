@@ -1542,7 +1542,7 @@ Moritz Schwarzmeier drafted the categorisation of the specialisations.
 Heidi Seibold contributed the idea and started everything.
 Jan Philipp Thiele drafted initial parts of the technical pillar of the RSE competencies, and represented the project on numerous discussions.
 Harald von Waldow contributed to initial drafts of the Masters program and contributed his knowledge to the explainability of computer simulations.
-Samantha Wittke contributed the parts on CodeRefinery and how to reach out to beginning RSEs.
+Samantha Wittke contributed the parts on CodeRefinery and how to reach out to new RSEs.
 Florian Goth has the pleasure of being grateful to all collaborators in this project for contributing their time and knowledge into this project over the past two years!
 
 
