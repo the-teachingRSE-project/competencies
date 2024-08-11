@@ -449,10 +449,10 @@ A practical consequence of this is an ever-growing demand for resources to cover
 the expanding need of storage and processing, with no clear deceleration in
 sight (e.g. the IEA estimates a doubling in data centres energy consumption from
 2024 to 2026 [@IEA2024]). At the same time, current science is well aware of
-several planetary boundaries being exceeded due to human activities
-[@Richardson2023]. Data processing, storage and transfer account for a non
-negligible fraction [@IEA2024]. Demands to move resource consumption to a
-sustainable rate are well justified and supported by science [@Sills2019].
+
+several planetary boundaries being exceeded due to human activities [@Richardson2023].
+Data processing, storage and transfer account for a non-negligible fraction [@IEA2024].
+Demands to move resource consumption to a sustainable rate are well justified and supported by science [@Sills2019].
 
 RSEs have the opportunity to contribute to this effort by, for example,
 choosing computationally adequate approaches (e.g. recognising where a
@@ -836,10 +836,11 @@ HERMES [@druskat_hermes_2022]. Other efforts focus on Software Management Plans
 (e.g., [@alves_elixir_2021; @martinez_ortiz_practical_2022]) which could be
 helpful for RSEs at early stages (i.e., with not much experience of project
 management). They give quick hints on what to look for regarding basic
-management for research software (including information on e.g., licenses,
-releases, publication, citation) together with some ongoing work on
-corresponding metadata [@giraldo_metadata_2023]. Metadata can also be used
-actively during and within a research project to inform the decision making
+management for research software (including information on, e.g., licenses,
+releases, publication, citation, archiving) together with some ongoing work on
+corresponding metadata [@giraldo_metadata_2023].
+Metadata can also be used
+actively during and within a research project, to inform the decision-making
 processes [@Bird2016].
 
 Most RSEs will contribute to other projects, some of which will be large. This
@@ -1527,7 +1528,7 @@ sciences, humanities or social sciences, and it can also change later in their c
 Candidates with a bachelor's degree in computer science are also
 explicitly included, although we acknowledge that their master's programme should include adaptations
 to make their interaction effective with other domain scientists.
-In order to give the future RSE the necessary breadth, we expect this to be a four semester curriculum.
+In order to give the future RSE the necessary breadth, we expect this to be a four-semester curriculum.
 
 The curriculum is formed from a combination of modules,
 some of which are core modules teaching essential skills that must be completed by all students.
