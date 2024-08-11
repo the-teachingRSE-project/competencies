@@ -1333,7 +1333,7 @@ such as medical RSEs, digital humanities RSEs, or physics RSEs.
 This can often serve as a base domain for RSE specialisation as in @subsec:examplemaster.
 
 #### Data-focused RSE
-These are RSEs working at the flourishing intersection between data science and RSE.
+Data-focused RSEs work at the flourishing intersection between data science and RSE.
 They are additionally skilled in cleaning data and/or running data analyses and can help researchers
 in setting up their analysis pipeline and/or \ac{RDM} solutions.
 When the field requires research on sensitive data or information, e.g., patient information in medicine,
