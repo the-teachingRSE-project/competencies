@@ -821,7 +821,7 @@ management for research software (including information on, e.g., licenses,
 releases, publication, citation, archiving) together with some ongoing work on
 corresponding metadata [@giraldo_metadata_2023].
 Metadata can also be used
-actively during, within, and after completion of a research project, to edify the decision-making
+actively during and within a research project, to inform the decision-making
 processes [@Bird2016].
 
 Most RSEs will contribute to other projects, some of which will be large. This
