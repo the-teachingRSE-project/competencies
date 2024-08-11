@@ -191,8 +191,8 @@ Jena, and deRSE24 in Würzburg, all in Germany),
 we believe that the competencies formulated here can offer far-reaching
 impact beyond the domain of RSE into adjacent aspects of research and, indeed, the wider research community.
 This is especially important given that much research involves some amount of
-data management, processing or visualisation, and funding bodies and computing
-infrastructure providers will sometimes prioritise projects that generate archived,
+data management, processing and visualisation, or the creation of tools for these tasks,
+and funding bodies and computing infrastructure providers will sometimes prioritise projects that generate archived,
 annotated, re-usable, and potentially remotely executable data.
 In particular, funding agencies and research managers will find the discussion in this paper
 valuable in order to discover where RSEs see their place in the existing landscape of scientific domains
