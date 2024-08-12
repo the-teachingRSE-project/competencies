@@ -92,6 +92,11 @@ keywords:
   - competencies
   - curriculum design
   - teaching
+acknowledgements-before: ""
+acknowledgements-after: "
+We appreciate the comments and suggestions from Yves Vincent Grossmann,
+Wilhelm Hasselbring, and Bernhard Rumpe.
+"
 abstract: "
 The term Research Software Engineer, or RSE,
 emerged a little over 10 years ago as a way to represent
@@ -1500,6 +1505,7 @@ How we update existing institutions and set up new ones
 that provide this education will be the topic of a follow-up paper.
 
 # Contribution details {-}
+
 Heidi Seibold came up with the original idea for the deRSE23 workshop in Paderborn.
 Heidi Seibold, Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele, and Samantha Wittke organised the deRSE23 workshop.
 We thank all the participants of this community workshop!
