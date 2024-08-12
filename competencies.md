@@ -88,11 +88,10 @@ xnos-capitalise: True
 toc-baselinestretch: 0.95
 keywords:
   - research software engineering
-  - curriculum design
-  - training
-  - learning
+  - RSE
   - competencies
-  - certification
+  - curriculum design
+  - teaching
 abstract: "
 The term Research Software Engineer, or RSE,
 emerged a little over 10 years ago as a way to represent
