@@ -85,7 +85,7 @@ include-after:
   - \printglossary[type=\acronymtype]
 xnos-cleveref: True
 xnos-capitalise: True
-toc-baselinestretch: 0.95
+toc-baselinestretch: 0.85
 keywords:
   - research software engineering
   - RSE
