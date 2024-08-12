@@ -6,6 +6,8 @@ artifacts
 aspirational
 backend
 Badging
+Bernhard
+BibTeX
 BioExcel
 BIOEXCEL-FRAMEWORK
 bioinformatician
@@ -27,6 +29,7 @@ CodeMeta
 CodeRefinery
 comp-lvls-techn
 Coursera
+CRediT
 CRSP
 CSE
 curation
@@ -89,6 +92,7 @@ GPL
 habilitation
 HAI
 Hannay
+Hasselbring
 HIDA
 HIFIS
 HMC
@@ -155,6 +159,7 @@ RSE
 RSE's
 rse-specialisations
 RTPs
+Rumpe
 scalable
 scipy
 SeniorCC

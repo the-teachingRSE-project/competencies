@@ -50,6 +50,9 @@ def process_markdown(metadata, body, contributors):
     acknowledgements = ["# Acknowledgements {- #sec:acknowledgements}"]
     bookkeeping_initials = {}
     author_thanks = get_author_thanks(metadata)
+    if "acknowledgements-before" in metadata:
+        acknowledgements.append(metadata["acknowledgements-before"])
+        del metadata["acknowledgements-before"]
     # parse metadata
     for fullname, annotations in author_thanks.items():
         author_metadata = contributors[fullname]
@@ -75,6 +78,9 @@ def process_markdown(metadata, body, contributors):
             assert initials in message, f"'{initials}' doesn't appear in the acknowledgements of '{fullname}'"
             acknowledgements.append(message)
     affiliations_tex = [f"\\affil[{key}]{{{affil}}}" for affil, key in affiliations.items()]
+    if "acknowledgements-after" in metadata:
+        acknowledgements.append(metadata["acknowledgements-after"])
+        del metadata["acknowledgements-after"]
     # update Markdown metadata
     del metadata["author"]
     metadata["authorxmp"] = authors_xmp
