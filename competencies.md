@@ -224,7 +224,7 @@ Finally, @sec:appendix provides an example curriculum in @subsec:examplemaster,
 a story-like description of a fictional RSE career progression in @subsec:examplecareer,
 and a list of existing skills and certifications in related fields, in @subsec:existingframeworks.
 
-## The Term Research Software Engineer
+## The term Research Software Engineer
 
 Research Software Engineering can be considered an interface discipline,
  linking traditional Software Engineering with Research itself [@Lamprecht2024-giradar].
