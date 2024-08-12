@@ -88,11 +88,10 @@ xnos-capitalise: True
 toc-baselinestretch: 0.95
 keywords:
   - research software engineering
-  - curriculum design
-  - training
-  - learning
+  - RSE
   - competencies
-  - certification
+  - curriculum design
+  - teaching
 abstract: "
 The term Research Software Engineer, or RSE,
 emerged a little over 10 years ago as a way to represent
@@ -188,11 +187,11 @@ is exactly what is needed for modern, software-enabled research. -->
 While this community paper is based on workshop discussions that were attended
 largely by RSEs (deRSE23 in Paderborn, un-deRSE23 in
 Jena, and deRSE24 in Würzburg, all in Germany),
-we believe that the competencies formulated here, centred around data processing, can offer far-reaching
+we believe that the competencies formulated here can offer far-reaching
 impact beyond the domain of RSE into adjacent aspects of research and, indeed, the wider research community.
 This is especially important given that much research involves some amount of
-data management, processing or visualisation, and funding bodies and computing
-infrastructure providers will sometimes prioritise projects that generate archived,
+data management, processing and visualisation, or the creation of tools for these tasks,
+and funding bodies and computing infrastructure providers will sometimes prioritise projects that generate archived,
 annotated, re-usable, and potentially remotely executable data.
 In particular, funding agencies and research managers will find the discussion in this paper
 valuable in order to discover where RSEs see their place in the existing landscape of scientific domains
@@ -418,7 +417,7 @@ special topics such as cryptography or re-identification attacks [@Henriksen201
 
 ### Mentoring and diversity {#sec:mentoring-and-diversity}
 
-RSEs are often experienced professionals who instruct and work closely with early career researchers.
+RSEs are often experienced professionals who work closely with and provide technical training and guidance to early career researchers.
 Similarly to academic supervisors, they bear a certain responsibility to guide and advise less-experienced colleagues
 with respect to career development and the achievement of academic goals.
 This can take the form of supervising a student or mentoring a fellow RSE.
@@ -449,10 +448,10 @@ A practical consequence of this is an ever-growing demand for resources to cover
 the expanding need of storage and processing, with no clear deceleration in
 sight (e.g. the IEA estimates a doubling in data centres energy consumption from
 2024 to 2026 [@IEA2024]). At the same time, current science is well aware of
-several planetary boundaries being exceeded due to human activities
-[@Richardson2023]. Data processing, storage and transfer account for a non
-negligible fraction [@IEA2024]. Demands to move resource consumption to a
-sustainable rate are well justified and supported by science [@Sills2019].
+
+several planetary boundaries being exceeded due to human activities [@Richardson2023].
+Data processing, storage and transfer account for a non-negligible fraction [@IEA2024].
+Demands to move resource consumption to a sustainable rate are well justified and supported by science [@Sills2019].
 
 RSEs have the opportunity to contribute to this effort by, for example,
 choosing computationally adequate approaches (e.g. recognising where a
@@ -836,10 +835,11 @@ HERMES [@druskat_hermes_2022]. Other efforts focus on Software Management Plans
 (e.g., [@alves_elixir_2021; @martinez_ortiz_practical_2022]) which could be
 helpful for RSEs at early stages (i.e., with not much experience of project
 management). They give quick hints on what to look for regarding basic
-management for research software (including information on e.g., licenses,
-releases, publication, citation) together with some ongoing work on
-corresponding metadata [@giraldo_metadata_2023]. Metadata can also be used
-actively during and within a research project to inform the decision making
+management for research software (including information on, e.g., licenses,
+releases, publication, citation, archiving) together with some ongoing work on
+corresponding metadata [@giraldo_metadata_2023].
+Metadata can also be used
+actively during and within a research project, to inform the decision-making
 processes [@Bird2016].
 
 Most RSEs will contribute to other projects, some of which will be large. This
@@ -920,7 +920,7 @@ A story-like example of an individual through the hierarchies can be found in @s
 | \gls{DOCBB}      | Should be able to write reusable building blocks.                                                                             | Same as junior, but the quality should set the standard for the project, while following current best practices.                      | Should know the current best practices and point their team members and collaborators to the right resources.                                                                                                |
 | \gls{DIST}       | Should be able to use package distribution platforms.                                                                         | Same as junior, but should also be familiar with current best practices for building and deploying packages.                          | Should ensure that their project is available via an up-to-date and secure distribution platform.                                                                                   |
 | \gls{SWREPOS}    | Should seamlessly interact with the repository of their project.                                                              | Should be well-versed in the intricacies and best practices around working with a repository, and probably interact with repositories of multiple projects.               | Should promote the use of repositories and be able to convey best practices of sharing and reviewing to junior and senior RSEs.                                                                              |
-| \gls{MOD}        | Should have a basic grasp of their piece of the software in order to use basic tools such as a debugger.                      | Should understand the characteristics of large parts of the codebase considering a variety of the metrics.                            | Should understand the big idea of the software project in order to define the task that the software solves.                                                                        |
+| \gls{MOD}        | Should have a basic grasp of the part of the software they are responsible for in order to use basic tools such as a debugger.                      | Should understand the characteristics of large parts of the codebase considering a variety of the metrics.                            | Should have a detailed understanding of the software project as well as its aims and potential for impact, in order to effectively steer it.                                                                        |
 
 Table: Levels of technical skills expected per RSE career stage. {#tbl:comp-lvls-techn}
 
@@ -1326,13 +1326,14 @@ Research focused specialisations
 -->
 
 #### \${DOMAIN}-RSE
-While software is the common focus of all RSEs, there will be RSEs that have specialised in the intricacies of one particular research domain,
+While software is the common focus of all RSEs,
+there will be RSEs that have additionally specialised in the intricacies of one particular research domain,
 such as medical RSEs, digital humanities RSEs, or physics RSEs.
 This can often serve as a base domain for RSE specialisation as in @subsec:examplemaster.
 
 #### Data-focused RSE
-RSEs working at the flourishing intersection between data science and RSE.
-They are skilled in cleaning data and/or running data analyses and can help researchers
+Data-focused RSEs work at the flourishing intersection between data science and RSE.
+They are additionally skilled in cleaning data and/or running data analyses and can help researchers
 in setting up their analysis pipeline and/or \ac{RDM} solutions.
 When the field requires research on sensitive data or information, e.g., patient information in medicine,
 this RSE should have knowledge about secure transfer methods and/or ways to anonymise the data.
@@ -1346,7 +1347,7 @@ New areas of expertise
 -->
 
 #### Research infrastructure RSE
-This RSE is interested in \glspl{SysOp} and system administration and sets up \ac{IT} infrastructures for and with researchers.
+This RSE has a special interest in \glspl{SysOp} and system administration and sets up \ac{IT} infrastructures for and with researchers.
 Therefore, this specialisation on the one hand requires a deep knowledge of physical computer and network hardware and
 on the other hand knowledge about setup and configuration of particular server software,
 e.g., setup of virtual machines on hypervisors or the planning and setup of compute server clusters for special purposes, e.g., \ac{ML}.
@@ -1382,7 +1383,7 @@ but only a cursory understanding of compiled languages get up to speed with
 compiled software.-->
 
 #### ML-RSE
-The development of research software based on \ac{ML} requires specialised theoretical background and experienced handling of appropriate software in order to produce meaningful results.
+The development of research software based on \ac{ML} requires additional specialised theoretical background and experienced handling of appropriate software in order to produce meaningful results.
 This involves knowledge about data analysis and feature engineering, metrics that are involved in \ac{ML}, \ac{ML} algorithm selection and cross validation, and knowledge in mathematical optimisation methods and statistics.
 Here, we use \ac{ML} in a broad sense of machine-based learning including deep learning, reinforcement learning, neuro-symbolic learning and similar.
 
@@ -1556,7 +1557,7 @@ sciences, humanities or social sciences, and it can also change later in their c
 Candidates with a bachelor's degree in computer science are also
 explicitly included, although we acknowledge that their master's programme should include adaptations
 to make their interaction effective with other domain scientists.
-In order to give the future RSE the necessary breadth, we expect this to be a four semester curriculum.
+In order to give the future RSE the necessary breadth, we expect this to be a four-semester curriculum.
 
 The curriculum is formed from a combination of modules,
 some of which are core modules teaching essential skills that must be completed by all students.
