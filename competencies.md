@@ -1517,8 +1517,8 @@ The CRediT system [@Brand2015] is far too generic to adequately describe the con
 While everybody contributed to the discussion formulating and refining the ideas, and to collaboratively writing and/or reviewing and editing the entirety the script, some parts merit special mention.
 Renato Alves quickly jumped in to host the first deRSE23 workshop to take over from a sick organiser.
 Matthias Braun contributed early versions of the specialisations and also contributed to the survey.
-Leyla Jael Castro contributed to the initial draft of the example career path, and helped us in discussions on metadata.
-Gerasimos Chourdakis' contributions to the paper are numerous but he especially helped us in writing first drafts for clarifying
+Leyla Jael Castro contributed to the initial draft of the example career path, and provided helpful insights in discussions on metadata.
+Gerasimos Chourdakis' contributions to the paper are numerous (extensively editing large parts of the initial draft), but he especially wrote first drafts for clarifying
 the relationship of the RSE competencies to the SE competencies. He also designed the "Learning and teaching RSE" website [@learnandteach].
 Simon Christ helped with typesetting and contributed the competencies' symbols and the spell-checker script.
 Jeremy Cohen drafted the initial introduction and contributed the tables for RSEs in centralised RSE departments (Jean-Noël Grad made them render properly).
@@ -1530,9 +1530,9 @@ Magnus Hagdorn drafted and supervised the ethics and values section for an RSE a
 Toby Hodges contributed parts on the Carpentries, and helped steer the curriculum discussion.
 Guido Juckeland contributed experiences from his first RSE course for students.
 Dominic Kempf drafted the first version of the example curriculum.
-Anna-Lena Lamprecht helped with proper wording and especially made us aware, where we were misusing established SE terminology.
+Anna-Lena Lamprecht helped with proper wording, especially with awareness about established SE terminology, that was misued earlier.
 Jan Linxweiler drafted various RSE specialisations and made sure that clean coding techniques got their due recognition.
-Frank Löffler rewrote numerous parts to be actually legible, and helped us in preparing for the last mile of a de-RSE position paper.
+Frank Löffler rewrote numerous parts to be actually legible, and helped with preparation for the final steps of a de-RSE position paper.
 Michele Martone wrote the first draft of the environmental sustainability section.
 Moritz Schwarzmeier drafted the categorisation of the specialisations.
 Heidi Seibold contributed the idea and started everything.
