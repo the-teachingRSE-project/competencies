@@ -1510,8 +1510,6 @@ Heidi Seibold, Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele,
 Jan Linxweiler, Jean-Noël Grad, and Samantha Wittke contributed the initial draft.
 Florian Goth supervised the project and did the project administration.
 Jean-Noël Grad designed and implemented the software tooling.
-We value the comments by Bernhard Rumpe and Wilhelm Hasselbring on previous drafts
-of this work.
 Everybody contributed to the final review and editing.
 
 
