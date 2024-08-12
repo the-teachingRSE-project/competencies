@@ -1515,7 +1515,6 @@ of this work.
 Everybody contributed to the final review and editing.
 
 
-Maybe it is obvious, but as you can guess from having various workshops
 the CRediT system [@Brand2015] is far too generic to adequately describe the contributions of everybody.
 And while everybody contributed to the entirety of the script, some parts merit special mention.
 Renato Alves quickly jumped in to host the first deRSE23 workshop to take over from a sick organiser.
