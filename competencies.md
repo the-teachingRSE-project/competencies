@@ -1509,7 +1509,7 @@ We are also grateful to the participants of this third community workshop!
 Heidi Seibold, Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele,
 Jan Linxweiler, Jean-Noël Grad, and Samantha Wittke contributed the initial draft.
 Florian Goth supervised the project and did the project administration.
-Jean-Noël Grad designed and implemented the software tooling for the collaborative writing of this manuscript on github.
+Jean-Noël Grad designed and implemented the software tooling for the collaborative writing of this manuscript on GitHub.
 Everybody contributed to the final review and editing.
 
 
@@ -1525,7 +1525,7 @@ Jeremy Cohen drafted the initial introduction and contributed the tables for RSE
 Stephan Druskat contributed parts on proper software citation and publication and sharpened various RSE specialisations.
 Fredo Erxleben contributed to early discussions of the paper and added the contributions by the Helmholtz Association.
 Jean-Noël Grad contributed initial drafts for the ELIXIR framework and the section on the work of the HPC certification forum
-as well as numerous other contributions to the bibtex infrastructure and the github actions.
+as well as numerous other contributions to the BibTeX infrastructure and the GitHub actions.
 Magnus Hagdorn drafted and supervised the ethics and values section for an RSE and made sure that these values are reflected in the competencies of RSEs.
 Toby Hodges contributed parts on the Carpentries, and helped steer the curriculum discussion.
 Guido Juckeland contributed experiences from his first RSE course for students.
