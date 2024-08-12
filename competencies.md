@@ -1514,7 +1514,7 @@ Everybody contributed to the final review and editing.
 
 
 The CRediT system [@Brand2015] is far too generic to adequately describe the contributions of everybody in various workshops, spread over a two year period.
-While everybody contributed to the entirety of the script, some parts merit special mention.
+While everybody contributed to the discussion formulating and refining the ideas, and to collaboratively writing and/or reviewing and editing the entirety the script, some parts merit special mention.
 Renato Alves quickly jumped in to host the first deRSE23 workshop to take over from a sick organiser.
 Matthias Braun contributed early versions of the specialisations and also contributed to the survey.
 Leyla Jael Castro contributed to the initial draft of the example career path, and helped us in discussions on metadata.
