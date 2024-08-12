@@ -1509,7 +1509,7 @@ We are also grateful to the participants of this third community workshop!
 Heidi Seibold, Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele,
 Jan Linxweiler, Jean-Noël Grad, and Samantha Wittke contributed the initial draft.
 Florian Goth supervised the project and did the project administration.
-Jean-Noël Grad designed and implemented the software tooling.
+Jean-Noël Grad designed and implemented the software tooling for the collaborative writing of this manuscript on github.
 Everybody contributed to the final review and editing.
 
 
@@ -1521,11 +1521,11 @@ Leyla Jael Castro contributed to the initial draft of the example career path, a
 Gerasimos Chourdakis' contributions to the paper are numerous (extensively editing large parts of the initial draft), but he especially wrote first drafts for clarifying
 the relationship of the RSE competencies to the SE competencies. He also designed the "Learning and teaching RSE" website [@learnandteach].
 Simon Christ helped with typesetting and contributed the competencies' symbols and the spell-checker script.
-Jeremy Cohen drafted the initial introduction and contributed the tables for RSEs in centralised RSE departments (Jean-Noël Grad made them render properly).
+Jeremy Cohen drafted the initial introduction and contributed the tables for RSEs in centralised RSE departments.
 Stephan Druskat contributed parts on proper software citation and publication and sharpened various RSE specialisations.
 Fredo Erxleben contributed to early discussions of the paper and added the contributions by the Helmholtz Association.
-Jean-Noël Grad contributed initial drafts for the ELIXIR framework and the section on the work of the HPC certification forum.
-And, most likely, without him, we would not have a bibliography at all.
+Jean-Noël Grad contributed initial drafts for the ELIXIR framework and the section on the work of the HPC certification forum
+as well as numerous other contributions to the bibtex infrastructure and the github actions.
 Magnus Hagdorn drafted and supervised the ethics and values section for an RSE and made sure that these values are reflected in the competencies of RSEs.
 Toby Hodges contributed parts on the Carpentries, and helped steer the curriculum discussion.
 Guido Juckeland contributed experiences from his first RSE course for students.
