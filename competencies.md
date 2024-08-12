@@ -1530,7 +1530,7 @@ Magnus Hagdorn drafted and supervised the ethics and values section for an RSE a
 Toby Hodges contributed parts on the Carpentries, and helped steer the curriculum discussion.
 Guido Juckeland contributed experiences from his first RSE course for students.
 Dominic Kempf drafted the first version of the example curriculum.
-Anna-Lena Lamprecht helped with proper wording, especially with awareness about established SE terminology, that was missed earlier.
+Anna-Lena Lamprecht helped with proper wording, especially with awareness about established SE terminology, that was misused earlier.
 Jan Linxweiler drafted various RSE specialisations and made sure that clean coding techniques got their due recognition.
 Frank Löffler rewrote numerous parts to be actually legible, and helped with preparation for the final steps of a de-RSE position paper.
 Michele Martone wrote the first draft of the environmental sustainability section.
