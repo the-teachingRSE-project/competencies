@@ -1,6 +1,6 @@
 ---
 title: "Foundational Competencies and Responsibilities of a Research Software Engineer"
-geometry: margin=2.5cm
+geometry: "top=0.5cm,right=2.5cm,bottom=2.5cm,left=2.5cm" # Only for the title page, see include-before for the rest.
 author:
   - Florian Goth | Corresponding author
   - Renato Alves
@@ -79,6 +79,7 @@ header-includes:
   - \newglossaryentry{USERS}{name={\USERS},type={skills},description={Interaction with users and other stakeholders}}
 include-before:
   - \newpage
+  - \newgeometry{top=2.5cm,right=2.5cm,bottom=2.5cm,left=2.5cm}
 include-after:
   - \printglossary
   - \printglossary[type=skills]
