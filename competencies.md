@@ -225,7 +225,9 @@ Finally, @sec:appendix provides an example curriculum in @subsec:examplemaster,
 a story-like description of a fictional RSE career progression in @subsec:examplecareer,
 and a list of existing skills and certifications in related fields, in @subsec:existingframeworks.
 
-## The Term Research Software Engineer
+## Terminology
+
+### The term Research Software Engineer
 
 Research Software Engineering can be considered an interface discipline,
  linking traditional Software Engineering with Research itself [@Lamprecht2024-giradar].
@@ -244,7 +246,7 @@ RSEs often need to deal with non-technical complexities that are characteristic 
  organisational, motivational, with respect to the size of projects, independence and heterogeneous goals of stakeholders, boundary conditions for funding and future funding, to name just a few.
 Summarising, RSEs have skills and experience in three important areas: in the research area(s) their software is used in, in software engineering topics, as well as in interdisciplinary communication.
 
-## Terminology
+### Further definitions
 
 Depending on the national research
 environments and processes that readers are familiar with, the notion of the terms *software* and *research* might differ.
