@@ -417,7 +417,7 @@ special topics such as cryptography or re-identification attacks [@Henriksen201
 
 ### Mentoring and diversity {#sec:mentoring-and-diversity}
 
-RSEs are often experienced professionals who instruct and work closely with early career researchers.
+RSEs are often experienced professionals who work closely with and provide technical training and guidance to early career researchers.
 Similarly to academic supervisors, they bear a certain responsibility to guide and advise less-experienced colleagues
 with respect to career development and the achievement of academic goals.
 This can take the form of supervising a student or mentoring a fellow RSE.
