@@ -49,6 +49,6 @@ We also describe a number of other technical specialisations including data, inf
 
 **Find out more, join the discussion**
 
-A pre-print of our paper, which you can find on [arXiv](https://arxiv.org/abs/2311.11457) has been adopted as an official position paper of [de-RSE](https://de-rse.org/en).
+A [pre-print](https://arxiv.org/abs/2311.11457) of our paper has been adopted as an official position paper of [de-RSE](https://de-rse.org/en/positions.html).
 As part of our aim to further develop the discussion on this work, take our findings to a wider audience and develop further research in this area, we are also exploring journal publication options for the final version of the paper.
 If you'd like to join our group and participate in the discussions and future work, get in touch with ....
