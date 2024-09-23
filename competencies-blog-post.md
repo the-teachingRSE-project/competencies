@@ -16,7 +16,7 @@ This is because the space in which RSEs work, and the work that they might do, i
 RSE's inhabit a previously "hidden space" - the wide gap between the work of researchers in an academic institution and the work of professional service staff whose roles can include everything from finance and student administration to managers of enterprise computing infrastructure.
 While the work of an RSE, of course, includes software development, RSEs at one end of the scale representing this hidden space will have roles that look very much like that of a researcher or academic.
 At the other end of the scale, the role of an RSE will look very much like that of a professional software engineer working in an industry environment.
-While an RSE undoubtely writes software, their role is defined by a much wider range of skills, competencies and experience.
+While an RSE undoubtedly writes software, their role is defined by a much wider range of skills, competencies and experience.
 
 Generic definitions of an RSE can be helpful - a common such definition generally highlights that "an RSE is someone who applies specialist software development skills to support and undertake research tasks".
 Nonetheless, while not incorrect, this definition masks a vast amount of complexity that we look into in great detail.
@@ -42,7 +42,7 @@ We see these three areas as the core of what an RSE provides - specialist, high-
 After defining the core competencies, we look at career levels - what should RSEs be expected to know and at what level of detail at different career stages? A series of tables look at the previously defined competencies in the context of a set of career levels, defining the expected skills and level of knowledge for each.
 We also recognise that researchers and academics increasingly expect to be able to apply some technical skills themselves so we look at the RSE skills that researchers and academics might want to learn to support this.
 
-Finally, focusing on the fact that RSEs can have a range of very different roles, we look at RSE specialisations, highlighting a number of different roles that RSEs might hold that involve the application of specialist knowldge in related areas.
+Finally, focusing on the fact that RSEs can have a range of very different roles, we look at RSE specialisations, highlighting a number of different roles that RSEs might hold that involve the application of specialist knowledge in related areas.
 This includes domain-specific RSEs, who have, and use, specialist research domain knowledge, in addition to technical skills.
 We also describe a number of other technical specialisations including data, infrastructure, High Performance Computing and Machine Learning-focused RSEs.
 
