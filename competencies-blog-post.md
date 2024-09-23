@@ -37,7 +37,7 @@ The length of time spent on this work and the very wide range of inputs and pers
 It starts with some general background and terminology before highlighting what we see as the key values of an RSE - what they're trying to achieve in their role and the values that underpin that work.
 We then look at the competencies themselves, identified through extensive discussion and debate about what RSEs do and how they do it.
 These skills are grouped into those that relate directly to software, those that are more research related and those that are communication focused.
-We see these three areas as the core of what an RSE provides - specialist, high-quality software engineering knowledge, an understanding of the research environment (potentially working as a direct contributor to research itself), and the ability to communicate well and work highly effectively with researchers who may not have a computational background.
+We see these three areas as the core of what an RSE provides - specialist, high-quality software engineering knowledge, an understanding of the research environment (potentially working as a direct contributor to research itself), and the ability to communicate well and work highly effectively with researchers who may not have a computational background, IT savvy personnel who may not have a research background, and managers who may have neither.
 
 After defining the core competencies, we look at career levels - what should RSEs be expected to know and at what level of detail at different career stages?
 A series of tables look at the previously defined competencies in the context of a set of career levels, defining the expected skills and level of knowledge for each.
