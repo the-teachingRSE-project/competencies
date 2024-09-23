@@ -15,7 +15,7 @@ Ask three people for a definition of RSE, and aside from the common words “sof
 This is because the space in which RSEs work, and the work that they might do, is not always straightforward to define.
 RSEs inhabit a previously “hidden space” - the wide gap between the work of researchers in an academic institution and the work of professional service staff whose roles can include everything from finance and student administration to managers of enterprise computing infrastructure.
 While the work of an RSE, of course, includes software development, RSEs at one end of the spectrum representing this hidden space will have roles that look very much like that of a researcher or academic.
-At the other end of the scale, the role of an RSE will look very much like that of a professional software engineer working in an industry environment.
+At the other end of the spectrum, the role of an RSE will look very much like that of a professional software engineer working in an industry environment.
 While an RSE undoubtedly writes software, their role is defined by a much wider range of skills, competencies and experience.
 
 Generic definitions of an RSE can be helpful - a common such definition generally highlights that “an RSE is someone who applies specialist software development skills to support and undertake research tasks”.
