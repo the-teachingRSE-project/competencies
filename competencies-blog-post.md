@@ -1,5 +1,6 @@
 # Identifying the Foundational Competencies of a Research Software Engineer
 
+_Flo's suggestion: The TeachingRSE collaboration_
 _Jeremy Cohen, Florian Goth, et al._ (author list to sort out - if we need one at all?) 
 
 Only a little over a decade ago, the term Research Software Engineer (RSE) didn't exist.
@@ -19,36 +20,38 @@ At the other end of the spectrum, the role of an RSE will look very much like th
 While an RSE undoubtedly writes software, their role is defined by a much wider range of skills, competencies and experience.
 
 Generic definitions of an RSE can be helpful - a common such definition generally highlights that “an RSE is someone who applies specialist software development skills to support and undertake research tasks”.
-Nonetheless, while not incorrect, this definition masks a vast amount of complexity that we look into in great detail.
+Nonetheless, while not incorrect, this definition masks a vast amount of complexity that warrants a greater discussion.
 
 **The foundational competencies of an RSE**
 
-Given this complicated and rapidly developing space, we set out to better understand and to identify the foundational competencies of a Research Software Engineer.
+Given this complicated and rapidly developing space, the authors of arXiv:2311.11457, the teachingRSE collaboration, set out to better understand and to identify the foundational competencies of a Research Software Engineer.
 
 In work initiated by Heidi Seibold and Florian Goth, a small team of co-organisers ran a workshop session, “Teaching and Learning Research Software Engineering”, at the German RSE conference in Paderborn, Germany in February 2023 ([deRSE23](https://de-rse23.sciencesconf.org/)) which initiated the discussions to understand what exactly the competencies of an RSE are.
 This led to a lengthy process of detailed discussions over the course of around two years, with further workshops organised at the 2023 de-RSE Unconference in Jena, Germany ([un-deRSE23](https://un-derse23.sciencesconf.org/index)) and then at [deRSE24](https://go.uniwue.de/derse24) in Würzburg, Germany.
-While largely based around a core group of members of the German RSE community - [de-RSE](https://de-rse.org/en) - the group also had international input to ensure representation of the wider international perspective in resulting outputs.
+While largely based around a core group of members of the German RSE community - [de-RSE](https://de-rse.org/en) - the collaboration also had international input to ensure representation of the wider international perspective in resulting outputs.
 
 The length of time spent on this work and the very wide range of inputs and perspectives provided serves to highlight the inherent complexity in identifying the foundational competencies and responsibilities of a Research Software Engineer.
 
 **The paper**
 
 “Foundational Competencies and Responsibilities of a Research Software Engineer” works through the process of understanding what makes up the role of an RSE.
-It starts with some general background and terminology before highlighting what we see as the key values of an RSE - what they're trying to achieve in their role and the values that underpin that work.
-We then look at the competencies themselves, identified through extensive discussion and debate about what RSEs do and how they do it.
+It starts with some general background and terminology before highlighting what the collaboration worked out as the key values of an RSE
+- what RSEs are trying to achieve in their role and the values that underpin that work.
+The authors then look at the competencies themselves, identified through extensive discussion and debate about what RSEs do and how they do it.
 These skills are grouped into those that relate directly to software, those that are more research related and those that are communication focused.
-We see these three areas as the core of what an RSE provides - specialist, high-quality software engineering knowledge, an understanding of the research environment (potentially working as a direct contributor to research itself), and the ability to communicate well and work highly effectively with researchers who may not have a computational background, IT savvy personnel who may not have a research background, and managers who may have neither.
+The collaboration identifies these three areas as the core of what an RSE provides - specialist, high-quality software engineering knowledge, an understanding of the research environment (potentially working as a direct contributor to research itself), and the ability to communicate well and work highly effectively with researchers who may not have a computational background, IT savvy personnel who may not have a research background, and managers who may have neither.
 
-After defining the core competencies, we look at career levels - what should RSEs be expected to know and at what level of detail at different career stages?
+After defining the core competencies, the authors consider career levels - what should RSEs be expected to know and at what level of detail at different career stages?
 A series of tables look at the previously defined competencies in the context of a set of career levels, defining the expected skills and level of knowledge for each.
-We also recognise that researchers and academics increasingly expect to be able to apply some technical skills themselves so we look at the RSE skills that researchers and academics might want to learn to support this.
+Recognising, that researchers and academics increasingly expect to be able to apply some technical skills themselves the collaboration pins down the RSE skills that researchers and academics might want to learn to support this.
 
-Finally, focusing on the fact that RSEs can have a range of very different roles, we look at RSE specialisations, highlighting a number of different roles that RSEs might hold that involve the application of specialist knowledge in related areas.
+Finally, focusing on the fact that RSEs can have a range of very different roles, the authors look at RSE specialisations, highlighting a number of different roles that RSEs might hold that involve the application of specialist knowledge in related areas.
 This includes domain-specific RSEs, who have, and use, specialist research domain knowledge, in addition to technical skills.
-We also describe a number of other technical specialisations including data, infrastructure, High Performance Computing and Machine Learning-focused RSEs.
+The authors also describe a number of other technical specialisations including data, infrastructure, High Performance Computing and Machine Learning-focused RSEs.
 
 **Find out more, join the discussion**
 
-A [pre-print](https://arxiv.org/abs/2311.11457) of our paper has been adopted as an official position paper of [de-RSE](https://de-rse.org/en/positions.html).
-As part of our aim to further develop the discussion on this work, take our findings to a wider audience and develop further research in this area, we are also exploring journal publication options for the final version of the paper.
-If you'd like to join our group and participate in the discussions and future work, get in touch with ....
+A [pre-print](https://arxiv.org/abs/2311.11457) has been adopted as an official position paper of [de-RSE](https://de-rse.org/en/positions.html).
+As part of the goal to further develop the discussion on this work, to take the findings to a wider audience and develop further research in this area,
+the authors are also exploring journal publication options for the final version of the paper.
+If you'd like to join the teachingRSE collaboration and participate in the discussions and future work, get in touch with find our contact details in our [github repository](https://github.com/the-teachingRSE-project/competencies)
