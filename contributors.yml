@@ -83,7 +83,10 @@ authors:
     acknowledgements: |
       JNG acknowledges funding from the Deutsche Forschungsgemeinschaft
       (DFG, German Research Foundation) - project number \geprislink{391126171}
-      (PI: Holm) and from the European Union – this work has received funding
+      (PI: Holm), from the German Federal Ministry of Education and Research
+      (Bundesministeriums für Bildung und Forschung, BMBF) under the funding
+      code [16HPC095](https://www.kooperation-international.de/foerderung/projekte/detail/info/verbundprojekt-multixscale-hpc-exzellenzzentrum-fuer-multi-skalen-simulationen-auf-hoechstleitungsrechnern-1),
+      and from the European Union – this work has received funding
       from the European High Performance Computing Joint Undertaking (JU) and
       countries participating in the project under grant agreement
       No [101093169](https://doi.org/10.3030/101093169).
