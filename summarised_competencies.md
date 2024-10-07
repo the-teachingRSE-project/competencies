@@ -448,8 +448,8 @@ During the Paderborn workshop (deRSE23) we asked learners and novice RSEs what t
 like to have learnt. The top five items mentioned were: testing, contributing to
 large projects, when or why to keep repositories private, high-quality software development, and
 finding a community. Those topics comprise combinations of the skills and
-competencies defined below. We will elaborate these in
-@sec:tasks-and-responsibilities.
+competencies defined below.
+We will elaborate these in @sec:tasks-and-responsibilities.
 
 ## Software/Technical skills {#sec:software-skills}
 
@@ -569,7 +569,7 @@ institution's network and computing infrastructure.
 \skillsection{NEW}
 
 RSEs are curious and able to conduct research, both on research software engineering,
-and on their research-wise "home domain" (see also @subsec:examplemaster).
+and on their research-wise "home domain".
 Senior RSEs are also able to lead research, and many RSEs have a doctorate [@hettrick_survey_2022].
 Since RSEs often operate in different research fields, they also gain their reputation from their effectiveness in interacting with researchers from the same or other domains. Therefore, some curiosity together with a broad overview of the
 research field is required, as this enables the RSE to learn new methods and algorithms directly from domain peers.
@@ -944,7 +944,7 @@ processes and people.
 In practice, this concerns change management for code and documentation
 and community work to safeguard usability and adaptability,
 but also handling project governance and scalable decision-making processes.
-This gap can be filled by people who invest in the (\gls{PM}), (\gls{USERS}), and (\gls{TEAM}) skills, as exemplified in @subsec:examplecareer.
+This gap can be filled by people who invest in the (\gls{PM}), (\gls{USERS}), and (\gls{TEAM}) skills.
 Building a community around a research project is an
 important building block for sustainable software [@Segal2009], so these RSEs play
 an important role, even if they do not necessarily touch much of the code themselves.
@@ -973,7 +973,6 @@ Research focused specialisations
 While software is the common focus of all RSEs,
 there will be RSEs that have additionally specialised in the intricacies of one particular research domain,
 such as medical RSEs, digital humanities RSEs, or physics RSEs.
-This can often serve as a base domain for RSE specialisation as in @subsec:examplemaster.
 
 #### Data-focused RSE
 Data-focused RSEs work at the flourishing intersection between data science and RSE.
@@ -1064,7 +1063,6 @@ social skill-set focused specialisations
 
 This list and description of competencies is a first step to finding common ground
  around which to structure curricula, institutions, and teachers in this framework.
-Applications of these competencies in an individual's career can be found in @subsec:examplemaster.
 An omission that we found and that we would like to highlight in order to spark a community discussion is
  that RSEs that choose explicitly a science-supporting role outside of research will not be eligible for funding
  under the statutes of many funding organisations that require at least a PhD.
@@ -1073,7 +1071,7 @@ To alleviate this and to give RSEs in leadership positions a means to become eli
  since completion of scientific training is often a requirement [@DFG_50_01],
  we see two possible parts of a solution.
 One is to allow for doctorates primarily based on software contributions to the scientific community.
-Secondly, we propose the introduction of new, standardised certificates like those in @subsec:examplecareer,
+Secondly, we propose the introduction of new, standardised certificates
  and to officially accept them as PhD-equivalent concerning eligibility to be a \ac{PI}.
 Beyond this discussion, a diverse set of publications on the topic RSE teaching is already in the making.
 
@@ -1081,7 +1079,7 @@ Within this set, we will work next on how to institutionalise education.
 In that publication, we will detail how we organise our institutions
  and what qualifications our teachers need to have in order to effectively communicate our values.
 We will put forward ideas on how to build up bachelor's and master's programmes,
- of which a glimpse can already be found in @subsec:examplemaster.
+ of which a glimpse can already be found in FIXMEPROPERCITATION.
 We will show how we intend to provide the necessary continuous education for RSEs after graduation,
  and we will connect that with the integration of RSEs into a mesh of community networks aimed at supporting research,
  while providing them with an inclusive social network that further facilitates lifelong learning.
