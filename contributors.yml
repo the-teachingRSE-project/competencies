@@ -249,6 +249,18 @@ authors:
     acknowledgements: |
       MM acknowledges funding from the SiVeGCS Project.
 
+  - author: "The teachingRSE project"
+    firstName: teachingRSE
+    lastName: Project
+    suffixName: the
+    initials: tRSE
+    affiliations:
+      - University of Würzburg
+    orcid: 0000-0000-0000-0000
+    email: teachingrse@lists.uni-wuerzburg.de
+    acknowledgements: |
+      We thank all the contributors to the teachingRSE project!
+
 # please use the following author template (all fields are optional):
 
 #  - author: "F. D. C. Willard, Jr."
