@@ -2,6 +2,7 @@
 title: "Foundational Competencies and Responsibilities of a Research Software Engineer - A summary"
 geometry: "top=0.5cm,right=2.5cm,bottom=2.5cm,left=2.5cm" # Only for the title page, see include-before for the rest.
 author:
+ <!---
   - Florian Goth | Corresponding author
   - Renato Alves
   - Matthias Braun
@@ -25,6 +26,9 @@ author:
   - Jan Philipp Thiele
   - Harald von Waldow
   - Samantha Wittke
+ --->
+
+  - the teachingRSE project
 
 output:
   pdf_document:
