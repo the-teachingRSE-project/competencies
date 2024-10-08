@@ -2,33 +2,30 @@
 title: "Foundational Competencies and Responsibilities of a Research Software Engineer - A summary"
 geometry: "top=0.5cm,right=2.5cm,bottom=2.5cm,left=2.5cm" # Only for the title page, see include-before for the rest.
 author:
- <!---
-  - Florian Goth | Corresponding author
-  - Renato Alves
-  - Matthias Braun
-  - Leyla Jael Castro
-  - Gerasimos Chourdakis
-  - Simon Christ
-  - Jeremy Cohen
-  - Stephan Druskat
-  - Fredo Erxleben
-  - Jean-Noël Grad
-  - Magnus Hagdorn
-  - Toby Hodges
-  - Guido Juckeland
-  - Dominic Kempf
-  - Anna-Lena Lamprecht
-  - Jan Linxweiler
-  - Frank Löffler
-  - Michele Martone
-  - Moritz Schwarzmeier
-  - Heidi Seibold
-  - Jan Philipp Thiele
-  - Harald von Waldow
-  - Samantha Wittke
- --->
-
-  - the teachingRSE project
+  - The teachingRSE project
+#  - Florian Goth | Corresponding author
+#  - Renato Alves
+#  - Matthias Braun
+#  - Leyla Jael Castro
+#  - Gerasimos Chourdakis
+#  - Simon Christ
+#  - Jeremy Cohen
+#  - Stephan Druskat
+#  - Fredo Erxleben
+#  - Jean-Noël Grad
+#  - Magnus Hagdorn
+#  - Toby Hodges
+#  - Guido Juckeland
+#  - Dominic Kempf
+#  - Anna-Lena Lamprecht
+#  - Jan Linxweiler
+#  - Frank Löffler
+#  - Michele Martone
+#  - Moritz Schwarzmeier
+#  - Heidi Seibold
+#  - Jan Philipp Thiele
+#  - Harald von Waldow
+#  - Samantha Wittke
 
 output:
   pdf_document:
