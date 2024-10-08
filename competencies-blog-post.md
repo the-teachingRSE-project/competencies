@@ -26,7 +26,7 @@ Nonetheless, while not incorrect, this definition masks a vast amount of complex
 
 Given this complicated and rapidly developing space, the authors of arXiv:2311.11457, the teachingRSE collaboration, set out to better understand and to identify the foundational competencies of a Research Software Engineer.
 
-In work initiated by Heidi Seibold and Florian Goth, a small team of co-organisers ran a workshop session, “Teaching and Learning Research Software Engineering”, at the German RSE conference in Paderborn, Germany in February 2023 ([deRSE23](https://de-rse23.sciencesconf.org/)) which initiated the discussions to understand what exactly the competencies of an RSE are.
+The initial team of Heidi Seibold, Jeremy Cohen, Florian Goth, Philipp Schäfer and Samantha Wittke ran a workshop session, “Teaching and Learning Research Software Engineering”, at the German RSE conference in Paderborn, Germany in February 2023 ([deRSE23](https://de-rse23.sciencesconf.org/)) which initiated the discussions to understand what exactly the competencies of an RSE are.
 This led to a lengthy process of detailed discussions over the course of around two years, with further workshops organised at the 2023 de-RSE Unconference in Jena, Germany ([un-deRSE23](https://un-derse23.sciencesconf.org/index)) and then at [deRSE24](https://go.uniwue.de/derse24) in Würzburg, Germany.
 While largely based around a core group of members of the German RSE community - [de-RSE](https://de-rse.org/en) - the collaboration also had international input to ensure representation of the wider international perspective in resulting outputs.
 
