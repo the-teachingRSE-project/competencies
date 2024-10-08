@@ -1,7 +1,10 @@
-# Identifying the Foundational Competencies of a Research Software Engineer
-
-_Flo's suggestion: The TeachingRSE collaboration_
-_Jeremy Cohen, Florian Goth, et al._ (author list to sort out - if we need one at all?) 
+---
+title: "Identifying the Foundational Competencies of a Research Software Engineer"
+layout: post
+author: "The TeachingRSE collaboration"
+menulang: en
+name_de: identifying-the-foundational-competencies-of-an-RSE-de
+---
 
 Only a little over a decade ago, the term Research Software Engineer (RSE) didn't exist.
 Now we find ourselves in a position where the term is increasingly widely accepted and research institutions are hiring RSEs to provide the vitally important skills that they need to support and undertake modern research.
@@ -32,9 +35,10 @@ The length of time spent on this work and the very wide range of inputs and pers
 
 **The paper**
 
+![First page of the position 002 PDF.]({{ "/assets/img/positions/position-002-cover.png" | prepend: site.baseurl }})
+
 “[Foundational Competencies and Responsibilities of a Research Software Engineer](https://arxiv.org/abs/2311.11457)” works through the process of understanding what makes up the role of an RSE.
-It starts with some general background and terminology before highlighting what the collaboration worked out as the key values of an RSE
-- what RSEs are trying to achieve in their role and the values that underpin that work.
+It starts with some general background and terminology before highlighting what the collaboration worked out as the key values of an RSE - what RSEs are trying to achieve in their role and the values that underpin that work.
 The authors then look at the competencies themselves, identified through extensive discussion and debate about what RSEs do and how they do it.
 These skills are grouped into those that relate directly to software, those that are more research related and those that are communication focused.
 The collaboration identifies these three areas as the core of what an RSE provides - specialist, high-quality software engineering knowledge, an understanding of the research environment (potentially working as a direct contributor to research itself), and the ability to communicate well and work highly effectively with researchers who may not have a computational background, IT savvy personnel who may not have a research background, and managers who may have neither.
@@ -53,4 +57,5 @@ As part of the goal to further develop the discussion on this work, to take the 
 the authors are also exploring journal publication options for the final version of the paper.
 If you'd like to join the teachingRSE collaboration and participate in the discussions and future work, get in touch with find our contact details in our [github repository](https://github.com/the-teachingRSE-project/competencies).
 
-This blog post is published under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
+This blog post is published under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/). Re-posts are encouraged and should link back to the [original](https://de-rse.org/blog/2024/10/08/identifying-the-foundational-competencies-of-an-RSE-en.html).
+
