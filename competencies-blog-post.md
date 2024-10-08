@@ -29,7 +29,6 @@ Given this complicated and rapidly developing space, the authors of arXiv:2311.1
 The initial team of Heidi Seibold, Jeremy Cohen, Florian Goth, Philipp Schäfer and Samantha Wittke ran a workshop session, “Teaching and Learning Research Software Engineering”, at the German RSE conference in Paderborn, Germany in February 2023 ([deRSE23](https://de-rse23.sciencesconf.org/)) which initiated the discussions to understand what exactly the competencies of an RSE are.
 We integrated the community early on through multiple workshops (at [deRSE23](https://de-rse23.sciencesconf.org/program/graphic/date/2023-02-22) in Paderborn, [un-deRSE23](https://un-derse23.sciencesconf.org/program/graphic/date/2023-09-26) in Jena, and [deRSE24](https://events.hifis.net/event/994/contributions/7914/) in Würzburg).
 While largely based around a core group of members of the German RSE community - [de-RSE](https://de-rse.org/en) - the collaboration also had international input to ensure representation of the wider international perspective in resulting outputs.
-
 The length of time spent on this work and the very wide range of inputs and perspectives provided serves to highlight the inherent complexity in identifying the foundational competencies and responsibilities of a Research Software Engineer.
 
 **The paper**
