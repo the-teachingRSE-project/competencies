@@ -253,9 +253,9 @@ authors:
     firstName: teachingRSE
     lastName: Project
     suffixName: the
-    initials: tRSE
+    initials: We
     affiliations:
-      - University of Würzburg
+      - \url{https://github.com/the-teachingRSE-project}
     orcid: 0000-0000-0000-0000
     email: teachingrse@lists.uni-wuerzburg.de
     acknowledgements: |
