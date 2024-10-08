@@ -52,3 +52,5 @@ A [pre-print](https://arxiv.org/abs/2311.11457) has been adopted as the second o
 As part of the goal to further develop the discussion on this work, to take the findings to a wider audience, and develop further research in this area,
 the authors are also exploring journal publication options for the final version of the paper.
 If you'd like to join the teachingRSE collaboration and participate in the discussions and future work, get in touch with find our contact details in our [github repository](https://github.com/the-teachingRSE-project/competencies).
+
+This blog post is published under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
