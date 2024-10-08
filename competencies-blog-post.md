@@ -42,8 +42,7 @@ These skills are grouped into those that relate directly to software, those that
 The collaboration identifies these three areas as the core of what an RSE provides - specialist, high-quality software engineering knowledge, an understanding of the research environment (potentially working as a direct contributor to research itself), and the ability to communicate well and work highly effectively with researchers who may not have a computational background, IT savvy personnel who may not have a research background, and managers who may have neither.
 
 After defining the core competencies, the authors consider career levels - what should RSEs be expected to know and at what level of detail at different career stages?
-A series of tables look at the previously defined competencies in the context of a set of career levels, defining the expected skills and level of knowledge for each.
-Recognising, that researchers and academics increasingly expect to be able to apply some technical skills themselves the collaboration pins down the RSE skills that researchers and academics might want to learn to support this.
+Recognising that researchers and academics increasingly expect to be able to apply some technical skills themselves the collaboration pins down the RSE skills that researchers and academics might want to learn to support this.
 
 Finally, focusing on the fact that RSEs can have a range of very different roles, the authors look at RSE specialisations, highlighting a number of different roles that RSEs might hold that involve the application of specialist knowledge in related areas.
 This includes domain-specific RSEs, who have, and use, specialist research domain knowledge, in addition to technical skills.
