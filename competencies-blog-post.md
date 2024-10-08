@@ -5,15 +5,13 @@ _Jeremy Cohen, Florian Goth, et al._ (author list to sort out - if we need one 
 
 Only a little over a decade ago, the term Research Software Engineer (RSE) didn't exist.
 Now we find ourselves in a position where the term is increasingly widely accepted and research institutions are hiring RSEs to provide the vitally important skills that they need to support and undertake modern research.
-The landscape is, however, not uniform - in some countries there are now academic institutions with large groups of central, or distributed, RSEs working to support their research.
-In others, the term is only just becoming known.
-Nonetheless, the space is developing rapidly and the community sees a strong future for RSEs and the wider developing community of technical professionals in research.
 
 **What defines an RSE?**
 
 So what, or who, exactly is an RSE?
 Ask three people for a definition of RSE, and aside from the common words “software” and “research”, you're likely to get three different answers!
-This is because the space in which RSEs work, and the work that they might do, is not always straightforward to define.
+This is because the space in which RSEs work, and the work that they might do, is not always straightforward to define, and so are their foundational competencies.
+
 RSEs inhabit a previously “hidden space” - the wide gap between the work of researchers in an academic institution and the work of professional service staff whose roles can include everything from finance and student administration to managers of enterprise computing infrastructure.
 While the work of an RSE, of course, includes software development, RSEs at one end of the spectrum representing this hidden space will have roles that look very much like that of a researcher or academic.
 At the other end of the spectrum, the role of an RSE will look very much like that of a professional software engineer working in an industry environment.
@@ -34,14 +32,14 @@ The length of time spent on this work and the very wide range of inputs and pers
 
 **The paper**
 
-“Foundational Competencies and Responsibilities of a Research Software Engineer” works through the process of understanding what makes up the role of an RSE.
+“[Foundational Competencies and Responsibilities of a Research Software Engineer](https://arxiv.org/abs/2311.11457)” works through the process of understanding what makes up the role of an RSE.
 It starts with some general background and terminology before highlighting what the collaboration worked out as the key values of an RSE
 - what RSEs are trying to achieve in their role and the values that underpin that work.
 The authors then look at the competencies themselves, identified through extensive discussion and debate about what RSEs do and how they do it.
 These skills are grouped into those that relate directly to software, those that are more research related and those that are communication focused.
 The collaboration identifies these three areas as the core of what an RSE provides - specialist, high-quality software engineering knowledge, an understanding of the research environment (potentially working as a direct contributor to research itself), and the ability to communicate well and work highly effectively with researchers who may not have a computational background, IT savvy personnel who may not have a research background, and managers who may have neither.
 
-After defining the core competencies, the authors consider career levels - what should RSEs be expected to know and at what level of detail at different career stages?
+After defining the foundational competencies, the authors consider career levels - what should RSEs be expected to know and at what level of detail at different career stages?
 Recognising that researchers and academics increasingly expect to be able to apply some technical skills themselves the collaboration pins down the RSE skills that researchers and academics might want to learn to support this.
 
 Finally, focusing on the fact that RSEs can have a range of very different roles, the authors look at RSE specialisations, highlighting a number of different roles that RSEs might hold that involve the application of specialist knowledge in related areas.
@@ -50,7 +48,7 @@ The authors also describe a number of other technical specialisations including 
 
 **Find out more, join the discussion**
 
-A [pre-print](https://arxiv.org/abs/2311.11457) has been adopted as an official position paper of [de-RSE](https://de-rse.org/en/positions.html).
-As part of the goal to further develop the discussion on this work, to take the findings to a wider audience and develop further research in this area,
+A [pre-print](https://arxiv.org/abs/2311.11457) has been adopted as the second official position paper of [de-RSE](https://de-rse.org/en/positions.html).
+As part of the goal to further develop the discussion on this work, to take the findings to a wider audience, and develop further research in this area,
 the authors are also exploring journal publication options for the final version of the paper.
-If you'd like to join the teachingRSE collaboration and participate in the discussions and future work, get in touch with find our contact details in our [github repository](https://github.com/the-teachingRSE-project/competencies)
+If you'd like to join the teachingRSE collaboration and participate in the discussions and future work, get in touch with find our contact details in our [github repository](https://github.com/the-teachingRSE-project/competencies).
