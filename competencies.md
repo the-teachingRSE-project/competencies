@@ -351,7 +351,6 @@ It is important that the activities of an RSE are guided by ethical values.
 In addition to the values for good scientific practice [@dfg_gsp], RSEs also adhere to
 the \ac{SE} Code of Ethics [@Gotterbarn1999].
 Central to that code is the RSE's obligation to
-In addition to the values for good scientific practice
 commit to the health, safety and welfare of the public and act in the interest of society, their employer and their clients.
 Further values loosely based on that code include the obligations
 
