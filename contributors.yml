@@ -20,10 +20,10 @@ authors:
     acknowledgements: |
       FG acknowledges funding from the Deutsche Forschungsgemeinschaft
       (DFG, German Research Foundation) through the SFB 1170 “Tocotronics”,
-      project Z03 - project number \geprislink{258499086}.
-      FG acknowledge financial support by the Deutsche Forschungsgemeinschaft (DFG, German Research
+      project Z03 - project number \geprislink{258499086}
+      as well as financial support by the Deutsche Forschungsgemeinschaft (DFG, German Research
       Foundation) under Germany’s Excellence Strategy through the Würzburg-Dresden Cluster of Excellence
-      on Complexity and Topology in Quantum Matter – ct.qmat (EXC 2147, project-id 390858490).
+      on Complexity and Topology in Quantum Matter – ct.qmat (EXC 2147, project-id \geprislink{390858490}).
 
   - author: "Jan Linxweiler"
     firstName: Jan
