@@ -2,7 +2,7 @@
 
 MAKE_PDFA := true
 
-objects := competencies.pdf
+objects := competencies.pdf summarised_competencies.pdf
 
 all: $(objects)
 

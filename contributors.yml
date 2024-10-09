@@ -14,13 +14,16 @@ authors:
     lastName: Goth
     initials: FG
     affiliations:
-      - Institute for Theoretical Physics and Astrophysics, University of Würzburg, Germany
+      - Würzburg-Dresden Cluster of Excellence ct.qmat, University of Würzburg, 97074, Würzburg, Germany
     orcid: 0000-0003-2707-4790
     email: florian.goth@uni-wuerzburg.de
     acknowledgements: |
       FG acknowledges funding from the Deutsche Forschungsgemeinschaft
       (DFG, German Research Foundation) through the SFB 1170 “Tocotronics”,
-      project Z03 - project number \geprislink{258499086}.
+      project Z03 - project number \geprislink{258499086}
+      as well as financial support by the Deutsche Forschungsgemeinschaft (DFG, German Research
+      Foundation) under Germany’s Excellence Strategy through the Würzburg-Dresden Cluster of Excellence
+      on Complexity and Topology in Quantum Matter – ct.qmat (EXC 2147, project-id \geprislink{390858490}).
 
   - author: "Jan Linxweiler"
     firstName: Jan
@@ -83,7 +86,10 @@ authors:
     acknowledgements: |
       JNG acknowledges funding from the Deutsche Forschungsgemeinschaft
       (DFG, German Research Foundation) - project number \geprislink{391126171}
-      (PI: Holm) and from the European Union – this work has received funding
+      (PI: Holm), from the German Federal Ministry of Education and Research
+      (Bundesministeriums für Bildung und Forschung, BMBF) under the funding
+      code [16HPC095](https://www.kooperation-international.de/foerderung/projekte/detail/info/verbundprojekt-multixscale-hpc-exzellenzzentrum-fuer-multi-skalen-simulationen-auf-hoechstleitungsrechnern-1),
+      and from the European Union – this work has received funding
       from the European High Performance Computing Joint Undertaking (JU) and
       countries participating in the project under grant agreement
       No [101093169](https://doi.org/10.3030/101093169).
@@ -245,6 +251,18 @@ authors:
     email: michele.martone@lrz.de
     acknowledgements: |
       MM acknowledges funding from the SiVeGCS Project.
+
+  - author: "The teachingRSE project"
+    firstName: teachingRSE
+    lastName: Project
+    suffixName: the
+    initials: We
+    affiliations:
+      - \url{https://github.com/the-teachingRSE-project}
+    orcid: 0000-0000-0000-0000
+    email: teachingrse@lists.uni-wuerzburg.de
+    acknowledgements: |
+      We thank all the contributors to the teachingRSE project!
 
 # please use the following author template (all fields are optional):
 
