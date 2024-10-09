@@ -455,7 +455,6 @@ A practical consequence of this is an ever-growing demand for resources to cover
 the expanding need of storage and processing, with no clear deceleration in
 sight (e.g. the IEA estimates a doubling in data centres energy consumption from
 2024 to 2026 [@IEA2024]). At the same time, current science is well aware of
-
 several planetary boundaries being exceeded due to human activities [@Richardson2023].
 Data processing, storage and transfer account for a non-negligible fraction [@IEA2024].
 Demands to move resource consumption to a sustainable rate are well justified and supported by science [@Sills2019].
