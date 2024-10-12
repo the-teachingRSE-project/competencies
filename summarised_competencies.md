@@ -258,7 +258,6 @@ It is important that the activities of an RSE are guided by ethical values.
 In addition to the values for good scientific practice [@dfg_gsp], RSEs also adhere to
 the \ac{SE} Code of Ethics [@Gotterbarn1999].
 Central to that code is the RSE's obligation to
-In addition to the values for good scientific practice
 commit to the health, safety and welfare of the public and act in the interest of society, their employer and their clients.
 Further values loosely based on that code include the obligations
 
@@ -312,10 +311,7 @@ This situation yields a specific set of challenges RSEs should be aware of
 to consciously make ethically sound judgement calls.
 We list some example areas that highlight present-day challenges.
 
-<!---
 ## Current challenges
-
-### Handling of data and personal data
 
 A lot of RSE work involves the manipulation or creation of data processing tools.
 We highlight that professional conduct requires these creations to be reliable and to maintain data integrity.
@@ -323,64 +319,22 @@ In particular, the way that personal data is handled can have far-reaching impli
 Independent of the encoding into the respective national law in an RSE's jurisdiction,
 the right to information privacy is internationally recognised as a fundamental human right,
 e.g., in the European Convention on Human Rights [@CouncilOfEurope-ETS005-2021; @Hirvela2022].
-RSEs need to be aware of this topic's importance
-and deal with tensions that might arise with researchers' desire for trouble-free sharing of data, thereby expecting openness about the research process,
-versus the integrity expectations of the society towards \ac{IT} systems.
-Handling personal data also has ramifications for information security considerations during the software development process.
-Data protection is a complex topic, so RSEs should be aware that they may need to consult external expertise, for example when dealing with
-special topics such as cryptography or re-identification attacks [@Henriksen2016].
-
-
-### Mentoring and diversity {#sec:mentoring-and-diversity}
 
 RSEs are often experienced professionals who work closely with and provide technical training and guidance to early career researchers.
 Similarly to academic supervisors, they bear a certain responsibility to guide and advise less-experienced colleagues
 with respect to career development and the achievement of academic goals.
 This can take the form of supervising a student or mentoring a fellow RSE.
 The RSE needs to be aware of the biases arising from the sociological imbalances in research and academia.
-According to the \ac{UNESCO} Science Report [@Schneegans2021] women account for 33.3% of all researchers.
-60.2% of researchers come from high-income countries which account for 17.5% of the global population in 2018.
-Furthermore, the socioeconomic background of academics is not representative of the general population, for example in the US a tenure-track academic is 25 times more likely to have a parent with a PhD [@Morgan2022].
-Thereby, to promote their values of an honest, open, and inclusive research space, they should be aware of
-the diversity problems and help to mitigate them whenever they have the chance to do so.
 
-### Shaping digital science
-
-Through writing research software, RSEs have a pivotal position in the process of scientific production.
-Their choices might determine whether the respective research is reproducible or not,
-whether the results can be re-used, whether future research can build on existing tools or has to start from scratch.
-Builders of larger research-infrastructure projects determine to some extent the possibilities and limitations of future research
-and therefore need to be able to make a value-based judgement on topics
-such as open science, path dependence, and vendor lock-in.
-
-
-### Addressing environmental sustainability within planetary limits
-
-The last two decades saw transistor technology approach the limits of attainable miniaturisation, 
-and maximum chip clock frequency begin to plateau [@Sutter2005].
-Nevertheless, a misleading belief in limitless growth of computing capabilities
-(storage, computing power, transfer speed) is still widespread within popular perception.
-A practical consequence of this is an ever-growing demand for resources to cover
+There is an ever-growing demand for resources to cover
 the expanding need of storage and processing, with no clear deceleration in
-sight (e.g. the IEA estimates a doubling in data centres energy consumption from
-2024 to 2026 [@IEA2024]). At the same time, current science is well aware of
-
+sight. At the same time, current science is well aware of
 several planetary boundaries being exceeded due to human activities [@Richardson2023].
 Data processing, storage and transfer account for a non-negligible fraction [@IEA2024].
 Demands to move resource consumption to a sustainable rate are well justified and supported by science [@Sills2019].
-
-RSEs have the opportunity to contribute to this effort by, for example,
-choosing computationally adequate approaches (e.g. recognising where a
-proven statistical method may suffice in place of a power-hungry AI model,
-or configuring a test pipeline to minimise redundancy), and embracing data
-frugality measures (e.g. recognising sufficient resolution when sampling data
-for processing or storage). If past computational solutions were frugal because
-of technological limits, in future they should tend to that by virtue of an
-awareness of what may be adequate. The \ac{GREENER} principles [@Lannelongue2023] suggest how
+The \ac{GREENER} principles [@Lannelongue2023] suggest how
 these concerns can be addressed and how research computing can become more environmentally
 sustainable.
-
-### Emerging challenges
 
 RSEs often operate at the cutting edge of technological development
 and therefore might have to deal with technologies of which the dangers and drawbacks are still poorly understood.
@@ -388,8 +342,6 @@ A current example is the rush for the application of \acp{LLM},
 where RSEs working in these fields should stay up-to-date and be able to help researchers assess topics
 such as training-data bias, \ac{LLM} "hallucinations" or malicious use, with the greater goal of
 making these powerful tools work for the welfare of society.
-
---->
 
 # Foundational RSE competencies {#sec:required-generic-skills}
 

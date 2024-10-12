@@ -351,7 +351,6 @@ It is important that the activities of an RSE are guided by ethical values.
 In addition to the values for good scientific practice [@dfg_gsp], RSEs also adhere to
 the \ac{SE} Code of Ethics [@Gotterbarn1999].
 Central to that code is the RSE's obligation to
-In addition to the values for good scientific practice
 commit to the health, safety and welfare of the public and act in the interest of society, their employer and their clients.
 Further values loosely based on that code include the obligations
 
@@ -456,7 +455,6 @@ A practical consequence of this is an ever-growing demand for resources to cover
 the expanding need of storage and processing, with no clear deceleration in
 sight (e.g. the IEA estimates a doubling in data centres energy consumption from
 2024 to 2026 [@IEA2024]). At the same time, current science is well aware of
-
 several planetary boundaries being exceeded due to human activities [@Richardson2023].
 Data processing, storage and transfer account for a non-negligible fraction [@IEA2024].
 Demands to move resource consumption to a sustainable rate are well justified and supported by science [@Sills2019].
