@@ -106,9 +106,7 @@ for their research, let alone write it [@NamingPain]. If they come from a non-t
 also struggle to know what to ask when trying to request help from and interact with
 more experienced colleagues. A gap still exists in
 academic education, as many curricula do not sufficiently prepare students
-in this regard. This situation is exemplified by the extracurricular \ac{MIT} class
-"The Missing Semester of Your CS Education" [@MIT], which aims to increase 
-"computing ecosystem literacy" even among students of Computer Science at \ac{MIT}.
+in this regard.
 
 Researchers investing increasing amounts of their time developing their \ac{SE}
 skills to support their research work can find themselves with little time to do the research
@@ -122,27 +120,13 @@ _"Research Software Engineer"_ [@WhatResearchSoftware]
 now provides a base on which sustainable career opportunities can be (and are being) built,
 allowing for better training of researchers and more effective support for the development of high
 quality research software.
-There is still a long way to go, but positive change is well underway.
-
-RSEs may work within one of the increasing number of research software engineering teams that
-have been set up at universities and research
-organisations over the past decade, or they may be embedded within a research
-team. They may have a job title that officially recognises them as an RSE, or
-they may have a standard research or technical job title such as Research
-Assistant, Research Fellow, or Software Engineer. Regardless of their job title,
+Regardless of their explicit or implicit job title and the environment in which they work,
 RSEs share a set of core skills that are required to design and develop research software, understand
 the research environment, and ensure that they produce sustainable, maintainable
 code that supports reproducible research outputs, following the \ac{FAIR} principles [@FAIR4RS].
 
-This community paper defines a set of core values and foundational competencies,
-which an RSE should acquire during training and formal education.
-These skills are formulated independently of a specific research domain 
-and current technical tools used to support the application of the skills.
-By defining these competencies,
-we provide a guiding framework to facilitate
-the training and continuous professional development of RSEs,
-thus helping to provide a positive impact on
-research outputs and, ultimately, society as a whole.
+This community paper (a summarized version of [@Goth2023], with content mostly extracted 1-to-1 from there) defines a set of core values and foundational competencies,
+which an RSE should acquire during training and formal education, as well as further professional development, independent of their research domain.
 These competencies draw upon skills from traditional SE practice,
 established research culture, and the commitment to being part of a team.
 However, we see this set of skills as a foundation to build upon. 
