@@ -99,20 +99,9 @@ We look at specific types of RSE roles, propose recommendations for organisation
 
 # Introduction {#sec:introduction}
 
-Computers and software have played a key role in the research life cycle for many
-decades.
-They are now vital elements of the research process across almost all domains.
-They enable researchers to collect and process ever-increasing amounts of data,
-simulate a wide range of physical phenomena across previously unexplored scales of the universe,
-and discover previously inconceivably complex structures in nature and societies via \ac{ML}.
-This prevalence of computation and digitally-aided data analysis in research means that
-digital skills are now required by researchers at all
-career levels, and in fields significantly beyond those that would previously
-have been expected.
 Research software is now used and developed not only in \ac{STEM} domains,
 but also in other fields, like medicine and the humanities.
-
-Researchers often lack the skills to use specialised software
+Researchers, however, often lack the skills to use specialised software
 for their research, let alone write it [@NamingPain]. If they come from a non-technical domain, they may
 also struggle to know what to ask when trying to request help from and interact with
 more experienced colleagues. A gap still exists in
