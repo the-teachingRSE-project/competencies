@@ -1,5 +1,5 @@
 ---
-title: "Foundational Competencies and Responsibilities of a Research Software Engineer - A summary"
+title: "Foundational Competencies of a Research Software Engineer - The summary"
 geometry: "top=0.5cm,right=2.5cm,bottom=2.5cm,left=2.5cm" # Only for the title page, see include-before for the rest.
 author:
   - The teachingRSE project
