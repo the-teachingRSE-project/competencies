@@ -2,7 +2,7 @@ name: compilepaper
 on: [push, pull_request]
 jobs:
   paper:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     env:
       DIR: .
     steps:
