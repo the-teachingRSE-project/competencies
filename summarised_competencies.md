@@ -185,9 +185,6 @@ provide the guiding principles for the work of an RSE.
 We categorise these skills into three pillars, namely
 "software/technical", "research", and "communication" skills,
 reflecting the hybrid nature of an RSE.
-To justify the selection of these skills,
-we also list some current tasks
-and discuss the skills used therein.
 
 As with any general skill set, not all RSEs will need
 to use all the skills highlighted to the same level of expertise.
