@@ -99,27 +99,14 @@ We look at specific types of RSE roles, propose recommendations for organisation
 
 # Introduction {#sec:introduction}
 
-Computers and software have played a key role in the research life cycle for many
-decades.
-They are now vital elements of the research process across almost all domains.
-They enable researchers to collect and process ever-increasing amounts of data,
-simulate a wide range of physical phenomena across previously unexplored scales of the universe,
-and discover previously inconceivably complex structures in nature and societies via \ac{ML}.
-This prevalence of computation and digitally-aided data analysis in research means that
-digital skills are now required by researchers at all
-career levels, and in fields significantly beyond those that would previously
-have been expected.
 Research software is now used and developed not only in \ac{STEM} domains,
 but also in other fields, like medicine and the humanities.
-
-Researchers often lack the skills to use specialised software
-for their research, let alone write it [@NamingPain]. If they come from a non-technical domain, they may
+Researchers, however, often lack the skills to use specialised software
+for their research, let alone write it. If they come from a non-technical domain, they may
 also struggle to know what to ask when trying to request help from and interact with
 more experienced colleagues. A gap still exists in
 academic education, as many curricula do not sufficiently prepare students
-in this regard. This situation is exemplified by the extracurricular \ac{MIT} class
-"The Missing Semester of Your CS Education" [@MIT], which aims to increase 
-"computing ecosystem literacy" even among students of Computer Science at \ac{MIT}.
+in this regard, therefore students and researchers fill this gap by themselves.
 
 Researchers investing increasing amounts of their time developing their \ac{SE}
 skills to support their research work can find themselves with little time to do the research
@@ -128,99 +115,38 @@ This, in turn, presents career development challenges since the experience requi
 and progress in research and academic roles is traditionally assessed through metrics that
 do not directly include software outputs.
 A recent shift towards the establishment of the distinct role of a
-_"Research Software Engineer"_ [@WhatResearchSoftware]
+_"Research Software Engineer"_ 
 (RSE, a term that was coined in the \ac{UK} a little over 10 years ago [@Hettrick2016]),
 now provides a base on which sustainable career opportunities can be (and are being) built,
 allowing for better training of researchers and more effective support for the development of high
 quality research software.
-There is still a long way to go, but positive change is well underway.
-
-RSEs may work within one of the increasing number of research software engineering teams that
-have been set up at universities and research
-organisations over the past decade, or they may be embedded within a research
-team. They may have a job title that officially recognises them as an RSE, or
-they may have a standard research or technical job title such as Research
-Assistant, Research Fellow, or Software Engineer. Regardless of their job title,
+Regardless of their explicit or implicit job title and the environment in which they work,
 RSEs share a set of core skills that are required to design and develop research software, understand
 the research environment, and ensure that they produce sustainable, maintainable
 code that supports reproducible research outputs, following the \ac{FAIR} principles [@FAIR4RS].
 
-This community paper defines a set of core values and foundational competencies,
-which an RSE should acquire during training and formal education.
-These skills are formulated independently of a specific research domain 
-and current technical tools used to support the application of the skills.
-By defining these competencies,
-we provide a guiding framework to facilitate
-the training and continuous professional development of RSEs,
-thus helping to provide a positive impact on
-research outputs and, ultimately, society as a whole.
-These competencies draw upon skills from traditional SE practice,
+This community paper defines a first set of core values (@sec:values) and foundational competencies (@sec:required-generic-skills),
+which an RSE should acquire during training and formal education, as well as further professional development.
+These are independent of a research domain and are drawn upon skills from traditional SE practice,
 established research culture, and the commitment to being part of a team.
-However, we see this set of skills as a foundation to build upon. 
-We envision that through specialised training, the set of skills 
-of graduate RSEs and domain researchers will grow. 
-This is underlined by a growing interest to perform RSE research, 
-i.e. research into methods and tools more catered to the unique 
-challenges that research software provides.
-
-While this community paper is based on workshop discussions that were attended
+While being the result of workshop discussions that were attended
 largely by RSEs (deRSE23 in Paderborn, un-deRSE23 in
 Jena, and deRSE24 in Würzburg, all in Germany),
-we believe that the competencies formulated here can offer far-reaching
-impact beyond the domain of RSE into adjacent aspects of research and, indeed, the wider research community.
+we believe that these competencies can offer far-reaching
+impact beyond the domain of RSE into the wider research community.
 This is especially important given that much research involves some amount of
 data management, processing and visualisation, or the creation of tools for these tasks,
 and funding bodies and computing infrastructure providers will sometimes prioritise projects that generate archived,
 annotated, re-usable, and potentially remotely executable data.
-In particular, funding agencies and research managers will find the discussion in this paper
-valuable in order to discover where RSEs see their place in the existing landscape of scientific domains
-and how to support the work of RSEs at different positions and career levels.
 
-This paper is a condensed version of a more comprehensive paper published at FIXME:INSERTREFHERE .
-A non-exhaustive overview of similar initiatives can be found in FIXME:INSERTREFHERE .
-In this paper, we start to elaborate in
-@sec:values on the values that
-provide the guiding principles for the work of an RSE.
-@sec:required-generic-skills defines a set of core skills based on these values.
-We categorise these skills into three pillars, namely
-"software/technical", "research", and "communication" skills,
-reflecting the hybrid nature of an RSE.
-
-As with any general skill set, not all RSEs will need
-to use all the skills highlighted to the same level of expertise.
-But the Discussion of how much a person
-needs to know depending on their education or career level
-or on the type of projects they would like to be involved with can be found in FIXME:INSERTREFHERE .
-Also, the overview of what skills and limitations
-an RSE in different team structures typically has, and
-recommendations for organisations that need to support RSEs is in expanded paper in FIXME:INSERTREFHERE .
-@sec:rse-specialisations provides a list of RSE specialisations
-and discusses the level of skill needed to work in each of them,
-before we conclude the paper with details of future work in @sec:future-work
-and conclusions in @sec:conclusion.
+This paper is a condensed version of a more comprehensive paper [@Goth2023] published at FIXME:INSERTREFHERE.
+Besides the foundational competencies (extracted 1-to-1 from there), that paper further elaborates
+on the guiding values and principles of an RSE, points to related work,
+describes the tasks and typical level of each competency for different career levels and working environment,
+together with actions that organizations can take to support these,
+and defines a list of RSE specializations.
 
 ## Terminology
-
-### The term Research Software Engineer
-
-Research Software Engineering can be considered an interface discipline,
- linking traditional Software Engineering with Research itself [@Lamprecht2024-giradar].
-Due to this nature there is a plethora of different variations of RSE depending on the particular Research domain they are working in.
-Therefore the broad notion of Research Software Engineers is better thought of as a collection of sub-communities.
-The term Research Software Engineer is made more difficult to grasp
- since an internationally recognised definition is still missing.
-While there is consensus about the general notion that an RSE is a person with one leg in their research domain and the other in software development,
- this spans a whole spectrum depending on which one is more emphasised.
-There is also the question of what level of professionalism concerning both non-SE research and SE is expected.
-A more inclusive definition allows more people to self-identify as RSEs,
- thereby also fostering an inclusive community of people working in digital science (see also @sec:values on the values of an RSE).
-RSEs fall therefore somewhere on the spectrum between a researcher at one end and a software engineer at the other.
-Common to all of them is, that they need to be able to work in the research environment the software is used in, ideally at eye-level with native researchers, but at least as close as possible.
-RSEs often need to deal with non-technical complexities that are characteristic for research environments:
- organisational, motivational, with respect to the size of projects, independence and heterogeneous goals of stakeholders, boundary conditions for funding and future funding, to name just a few.
-Summarising, RSEs have skills and experience in three important areas: in the research area(s) their software is used in, in software engineering topics, as well as in interdisciplinary communication.
-
-### Further definitions
 
 Depending on the national research
 environments and processes that readers are familiar with, the notion of the terms *software* and *research* might differ.
@@ -239,6 +165,8 @@ discussion in [@Gruenpeter2021].
 **Research software engineers**: People who
 create or improve research software and/or the structures that the software interacts with
 in the computational environment of a research domain.
+RSEs fall therefore somewhere on the spectrum between a researcher at one end and a software engineer at the other [@Lamprecht2024-giradar].
+Common to all of them is, that they need to be able to work in the research environment the software is used in, ideally at eye-level with native researchers, but at least as close as possible.
 They are highly skilled team members who may also choose to conduct their own research as
 part of their role.
 However, we also recognise that many RSEs have chosen specifically to focus on a technical
