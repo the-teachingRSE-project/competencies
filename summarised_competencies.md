@@ -125,16 +125,10 @@ RSEs share a set of core skills that are required to design and develop research
 the research environment, and ensure that they produce sustainable, maintainable
 code that supports reproducible research outputs, following the \ac{FAIR} principles [@FAIR4RS].
 
-This community paper (a summarized version of [@Goth2023], with content mostly extracted 1-to-1 from there) defines a set of core values and foundational competencies,
+This community paper defines a set of core values and foundational competencies,
 which an RSE should acquire during training and formal education, as well as further professional development, independent of their research domain.
-These competencies draw upon skills from traditional SE practice,
+These are only a first foundation of competencies, drawn upon skills from traditional SE practice,
 established research culture, and the commitment to being part of a team.
-However, we see this set of skills as a foundation to build upon. 
-We envision that through specialised training, the set of skills 
-of graduate RSEs and domain researchers will grow. 
-This is underlined by a growing interest to perform RSE research, 
-i.e. research into methods and tools more catered to the unique 
-challenges that research software provides.
 
 While this community paper is based on workshop discussions that were attended
 largely by RSEs (deRSE23 in Paderborn, un-deRSE23 in
@@ -149,31 +143,12 @@ In particular, funding agencies and research managers will find the discussion i
 valuable in order to discover where RSEs see their place in the existing landscape of scientific domains
 and how to support the work of RSEs at different positions and career levels.
 
-This paper is a condensed version of a more comprehensive paper published at FIXME:INSERTREFHERE .
-A non-exhaustive overview of similar initiatives can be found in FIXME:INSERTREFHERE .
-In this paper, we start to elaborate in
-@sec:values on the values that
-provide the guiding principles for the work of an RSE.
-@sec:required-generic-skills defines a set of core skills based on these values.
-We categorise these skills into three pillars, namely
-"software/technical", "research", and "communication" skills,
-reflecting the hybrid nature of an RSE.
-To justify the selection of these skills,
-we also list some current tasks
-and discuss the skills used therein.
-
-As with any general skill set, not all RSEs will need
-to use all the skills highlighted to the same level of expertise.
-But the Discussion of how much a person
-needs to know depending on their education or career level
-or on the type of projects they would like to be involved with can be found in FIXME:INSERTREFHERE .
-Also, the overview of what skills and limitations
-an RSE in different team structures typically has, and
-recommendations for organisations that need to support RSEs is in expanded paper in FIXME:INSERTREFHERE .
-@sec:rse-specialisations provides a list of RSE specialisations
-and discusses the level of skill needed to work in each of them,
-before we conclude the paper with details of future work in @sec:future-work
-and conclusions in @sec:conclusion.
+This paper is a condensed version of a more comprehensive paper [@Goth2023] published at FIXME:INSERTREFHERE.
+Besides the foundational competencies (extracted 1-to-1 from there), that paper further elaborates
+on the guiding values and principles of an RSE, points to related work,
+describes the typical level of each competency for different career levels and working environment,
+together with actions that organizations can take to support these,
+and defines a list of RSE specializations.
 
 ## Terminology
 
