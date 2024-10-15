@@ -102,11 +102,11 @@ We look at specific types of RSE roles, propose recommendations for organisation
 Research software is now used and developed not only in \ac{STEM} domains,
 but also in other fields, like medicine and the humanities.
 Researchers, however, often lack the skills to use specialised software
-for their research, let alone write it [@NamingPain]. If they come from a non-technical domain, they may
+for their research, let alone write it. If they come from a non-technical domain, they may
 also struggle to know what to ask when trying to request help from and interact with
 more experienced colleagues. A gap still exists in
 academic education, as many curricula do not sufficiently prepare students
-in this regard.
+in this regard, therefore students and researchers fill this gap by themselves.
 
 Researchers investing increasing amounts of their time developing their \ac{SE}
 skills to support their research work can find themselves with little time to do the research
@@ -115,7 +115,7 @@ This, in turn, presents career development challenges since the experience requi
 and progress in research and academic roles is traditionally assessed through metrics that
 do not directly include software outputs.
 A recent shift towards the establishment of the distinct role of a
-_"Research Software Engineer"_ [@WhatResearchSoftware]
+_"Research Software Engineer"_ 
 (RSE, a term that was coined in the \ac{UK} a little over 10 years ago [@Hettrick2016]),
 now provides a base on which sustainable career opportunities can be (and are being) built,
 allowing for better training of researchers and more effective support for the development of high
@@ -125,23 +125,19 @@ RSEs share a set of core skills that are required to design and develop research
 the research environment, and ensure that they produce sustainable, maintainable
 code that supports reproducible research outputs, following the \ac{FAIR} principles [@FAIR4RS].
 
-This community paper defines a set of core values and foundational competencies,
-which an RSE should acquire during training and formal education, as well as further professional development, independent of their research domain.
-These are only a first foundation of competencies, drawn upon skills from traditional SE practice,
+This community paper defines a first set of core values (@sec:values) and foundational competencies (@sec:required-generic-skills),
+which an RSE should acquire during training and formal education, as well as further professional development.
+These are independent of a research domain and are drawn upon skills from traditional SE practice,
 established research culture, and the commitment to being part of a team.
-
-While this community paper is based on workshop discussions that were attended
+While being the result of workshop discussions that were attended
 largely by RSEs (deRSE23 in Paderborn, un-deRSE23 in
 Jena, and deRSE24 in Würzburg, all in Germany),
-we believe that the competencies formulated here can offer far-reaching
-impact beyond the domain of RSE into adjacent aspects of research and, indeed, the wider research community.
+we believe that these competencies can offer far-reaching
+impact beyond the domain of RSE into the wider research community.
 This is especially important given that much research involves some amount of
 data management, processing and visualisation, or the creation of tools for these tasks,
 and funding bodies and computing infrastructure providers will sometimes prioritise projects that generate archived,
 annotated, re-usable, and potentially remotely executable data.
-In particular, funding agencies and research managers will find the discussion in this paper
-valuable in order to discover where RSEs see their place in the existing landscape of scientific domains
-and how to support the work of RSEs at different positions and career levels.
 
 This paper is a condensed version of a more comprehensive paper [@Goth2023] published at FIXME:INSERTREFHERE.
 Besides the foundational competencies (extracted 1-to-1 from there), that paper further elaborates
