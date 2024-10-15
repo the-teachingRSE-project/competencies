@@ -148,27 +148,6 @@ and defines a list of RSE specializations.
 
 ## Terminology
 
-### The term Research Software Engineer
-
-Research Software Engineering can be considered an interface discipline,
- linking traditional Software Engineering with Research itself [@Lamprecht2024-giradar].
-Due to this nature there is a plethora of different variations of RSE depending on the particular Research domain they are working in.
-Therefore the broad notion of Research Software Engineers is better thought of as a collection of sub-communities.
-The term Research Software Engineer is made more difficult to grasp
- since an internationally recognised definition is still missing.
-While there is consensus about the general notion that an RSE is a person with one leg in their research domain and the other in software development,
- this spans a whole spectrum depending on which one is more emphasised.
-There is also the question of what level of professionalism concerning both non-SE research and SE is expected.
-A more inclusive definition allows more people to self-identify as RSEs,
- thereby also fostering an inclusive community of people working in digital science (see also @sec:values on the values of an RSE).
-RSEs fall therefore somewhere on the spectrum between a researcher at one end and a software engineer at the other.
-Common to all of them is, that they need to be able to work in the research environment the software is used in, ideally at eye-level with native researchers, but at least as close as possible.
-RSEs often need to deal with non-technical complexities that are characteristic for research environments:
- organisational, motivational, with respect to the size of projects, independence and heterogeneous goals of stakeholders, boundary conditions for funding and future funding, to name just a few.
-Summarising, RSEs have skills and experience in three important areas: in the research area(s) their software is used in, in software engineering topics, as well as in interdisciplinary communication.
-
-### Further definitions
-
 Depending on the national research
 environments and processes that readers are familiar with, the notion of the terms *software* and *research* might differ.
 Therefore, to avoid ambiguities, we define these as follows:
