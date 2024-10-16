@@ -652,7 +652,7 @@ The Open Science RSE may accompany international teams sharing large code bases,
 
 #### Project/community manager RSEs
 Scaling up a research software project size is smoother if somebody
-takes an overview role, caring about the overall perspective (\rls{PM})
+takes an overview role, caring about the overall perspective (\gls{PM})
 and involved people in their different roles (e.g. \gls{USERS}, and \gls{TEAM}).
 This role may or may not involve programming.
 
