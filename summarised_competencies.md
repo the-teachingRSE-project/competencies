@@ -780,7 +780,7 @@ How we update existing institutions and set up new ones
 that provide this education will be the topic of a follow-up paper.
 
 # teachingRSE biography
-The teachingRSE project has been working on the associated biiger publication in FIXME for the past two years.
+The teachingRSE project has been working on the associated biger publication in FIXME for the past two years.
 But how did it all start?
 There was Heidi Seibold who came up with the original idea for the deRSE23 workshop in Paderborn.
 Heidi was joined by Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele, and Samantha Wittke to organise the initial deRSE23 workshop.
