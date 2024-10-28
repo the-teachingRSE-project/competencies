@@ -706,7 +706,7 @@ Since \ac{ML} techniques are inherently prone to biases leading to socially prob
 
 #### Legacy RSEs
 While programming languages, libraries and frameworks may be evolving fast,
-research software tend to be nurtured and passed over generations of researchers,
+research software tends to be nurtured and developed by generations of researchers,
 and often without formalized code management practices (\gls{DIST},...).
 Experienced RSEs help overcoming deprecated practices and features, if necessary making code leaner and faster,
 often via work-intensive refactoring, and possibly exploiting code transformation tools.
