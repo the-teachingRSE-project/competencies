@@ -781,8 +781,7 @@ that provide this education will be the topic of a follow-up paper.
 
 # teachingRSE biography
 The teachingRSE project has been working on the associated bigger publication in FIXME for the past two years.
-But how did it all start?
-There was Heidi Seibold who came up with the original idea for the deRSE23 workshop in Paderborn.
+The project was initiated by Heidi Seibold who came up with the original idea for the deRSE23 workshop in Paderborn.
 Heidi was joined by Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele, and Samantha Wittke to organise the initial deRSE23 workshop.
 Over the course of further workshops like the un-deRSE23 workshop in Jena, and the deRSE24 in Würzburg,
 the content of the paper was further refined and we are grateful to all particpants!
