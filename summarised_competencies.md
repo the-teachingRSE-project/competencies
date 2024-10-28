@@ -780,11 +780,35 @@ How we update existing institutions and set up new ones
 that provide this education will be the topic of a follow-up paper.
 
 # teachingRSE biography
-The teachingRSE project has been working on the associated bigger publication in FIXME for the past two years.
+The teachingRSE project has been working on the associated full and more complete publication in FIXME for the past two years.
 The project was initiated by Heidi Seibold who came up with the original idea for the deRSE23 workshop in Paderborn.
 Heidi was joined by Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele, and Samantha Wittke to organise the initial deRSE23 workshop.
 Over the course of further workshops like the un-deRSE23 workshop in Jena, and the deRSE24 in Würzburg,
 the content of the paper was further refined and we are grateful to all particpants!
+In addition to the workshops the ideas were further developed during weekly meetings led by Florian Goth,
+together with the authors of FIXME,
+Renato Alves,
+Matthias Braun,
+Leyla Jael Castro,
+Gerasimos Chourdakis,
+Simon Christ,
+Jeremy Cohen,
+Stephan Druskat,
+Fredo Erxleben,
+Jean-Noël Grad,
+Magnus Hagdorn,
+Toby Hodges,
+Guido Juckeland,
+Dominic Kempf,
+Anna-Lena Lamprecht,
+Jan Linxweiler,
+Frank Löffler,
+Michele Martone,
+Moritz Schwarzmeier,
+Heidi Seibold,
+Jan Philipp Thiele,
+Harald von Waldow,
+and Samantha Wittke.
 The group gained more recognition, and the teachingRSE project is now an official working group 
 of the de-RSE society and the special interest group on research software of the Gesellschaft für Informatik.
 
