@@ -685,7 +685,7 @@ New areas of expertise
 
 #### Research infrastructure RSE
 Specialized scientific software is increasingly accessible via services residing on the Internet.
-Configuring them requires knowledge also in administration, hardware, user management, access permissions (\glspl{SysOp}, \ac{IT}, \ac{ML}).
+Configuring these services also requires knowledge in administration, hardware, user management and access permissions (\glspl{SysOp}, \ac{IT}, \ac{ML}).
 
 #### HPC-RSE
 
