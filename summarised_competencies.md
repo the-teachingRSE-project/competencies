@@ -657,7 +657,7 @@ and delegating tasks to people in their different roles (e.g. \gls{USERS}, and \
 This role may or may not involve programming.
 
 #### Teaching RSEs
-Teaching (\gls{TEACH}) the next generation of scientists (RSEs or not) the core RSE skills and yet respecting the domain's culture requires having rudiments in didactics and pedagogy, and prepares the terrain for better research software to come.
+Teaching (\gls{TEACH}) the next generation of scientists (RSEs or not) the core RSE skills and yet respecting the domain's culture requires being versed in didactics and pedagogy. It prepares the scene for better research software to come.
 
 #### User interface/user experience designers for research software
 Good software is not only functional, but also has proper documentation (\gls{DOCBB}), is properly distributed (\gls{DIST}, \ac{FAIR}) and is ergonomic (\gls{MOD}).
