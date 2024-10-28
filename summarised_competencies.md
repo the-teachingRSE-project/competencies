@@ -786,6 +786,6 @@ There was Heidi Seibold who came up with the original idea for the deRSE23 works
 Heidi was joined by Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele, and Samantha Wittke to organise the initial deRSE23 workshop.
 Over the course of further workshops like the un-deRSE23 workshop in Jena, and the deRSE24 in Würzburg,
 the content of the paper was further refined and we are grateful to all particpants!
-Also the group gained more recognition, and the teachingRSE project is now an official working group 
+The group gained more recognition, and the teachingRSE project is now an official working group 
 in de-RSE and in the special interest group on research software of the Gesellschaft für Informatik.
 
