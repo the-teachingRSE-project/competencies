@@ -713,7 +713,7 @@ often via work-intensive refactoring, and possibly exploiting code transformatio
 Notice the overlap with the \ac{HPC} RSE.
 
 #### Web-development RSE
-Web services have to offer users (which may include the public) an usable and accessible interface and yet be functional, interoperable in the provided data formats, and yet offering security and data integrity.
+Web services have to offer users (which may include the public) a usable and accessible interface and yet be functional, interoperable in the provided data formats, whilst also offering security and data integrity.
 The RSE balancing these contrasting needs communicates the trade-offs made with the involved stakeholders.
 As elsewhere, adhering to the values in @sec:values provides guidance.
 
