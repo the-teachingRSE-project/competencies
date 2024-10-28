@@ -779,46 +779,36 @@ a direction determined by new incentives created by scientific journals and libr
 How we update existing institutions and set up new ones
 that provide this education will be the topic of a follow-up paper.
 
-# Contribution details {-}
+# teachingRSE biography
+The teachingRSE project has been working on the associated full and more complete publication in FIXME for the past two years.
+The project was initiated by Heidi Seibold who came up with the original idea for the deRSE23 workshop in Paderborn.
+Heidi was joined by Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele, and Samantha Wittke to organise the initial deRSE23 workshop.
+Over the course of further workshops like the un-deRSE23 workshop in Jena, and the deRSE24 in Würzburg,
+the content of the paper was further refined and we are grateful to all particpants!
+In addition to the workshops the ideas were further developed during weekly meetings led by Florian Goth,
+together with the authors of FIXME,
+Renato Alves,
+Matthias Braun,
+Leyla Jael Castro,
+Gerasimos Chourdakis,
+Simon Christ,
+Jeremy Cohen,
+Stephan Druskat,
+Fredo Erxleben,
+Jean-Noël Grad,
+Magnus Hagdorn,
+Toby Hodges,
+Guido Juckeland,
+Dominic Kempf,
+Anna-Lena Lamprecht,
+Jan Linxweiler,
+Frank Löffler,
+Michele Martone,
+Moritz Schwarzmeier,
+Heidi Seibold,
+Jan Philipp Thiele,
+Harald von Waldow,
+and Samantha Wittke.
+The group gained more recognition, and the teachingRSE project is now an official working group 
+of the de-RSE society and the special interest group on research software of the Gesellschaft für Informatik.
 
-Heidi Seibold came up with the original idea for the deRSE23 workshop in Paderborn.
-Heidi Seibold, Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele, and Samantha Wittke organised the deRSE23 workshop.
-We thank all the participants of this community workshop!
-Toby Hodges conceptualised and organised the un-deRSE23 workshop together with Jan Philipp Thiele and Florian Goth.
-We also thank all the participants of this follow-up community workshop!
-Jeremy Cohen, Gerasimos Chourdakis, Magnus Hagdorn, Jean-Noël Grad, Jan Philipp Thiele, and Matthias Braun organised the deRSE24 workshop in Würzburg.
-We are also grateful to the participants of this third community workshop!
-Heidi Seibold, Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele,
-Jan Linxweiler, Jean-Noël Grad, and Samantha Wittke contributed the initial draft.
-Florian Goth supervised the project and did the project administration.
-Jean-Noël Grad designed and implemented the software tooling for the collaborative writing of this manuscript on GitHub.
-Everybody contributed to the final review and editing.
-
-
-The CRediT system [@Brand2015] is far too generic to adequately describe the contributions of everybody in various workshops, spread over a two year period.
-While everybody contributed to the discussion formulating and refining the ideas, and to collaboratively writing and/or reviewing and editing the entirety the script, some parts merit special mention.
-Renato Alves quickly jumped in to host the first deRSE23 workshop to take over from a sick organiser.
-Matthias Braun contributed early versions of the specialisations and also contributed to the survey.
-Leyla Jael Castro contributed to the initial draft of the example career path, and provided helpful insights in discussions on metadata.
-Gerasimos Chourdakis' contributions to the paper are numerous (extensively editing large parts of the initial draft), but he especially wrote first drafts for clarifying
-the relationship of the RSE competencies to the SE competencies. He also designed the "Learning and teaching RSE" website [@learnandteach].
-Simon Christ helped with typesetting and contributed the competencies' symbols and the spell-checker script.
-Jeremy Cohen drafted the initial introduction and contributed the tables for RSEs in centralised RSE departments.
-Stephan Druskat contributed parts on proper software citation and publication and sharpened various RSE specialisations.
-Fredo Erxleben contributed to early discussions of the paper and added the contributions by the Helmholtz Association.
-Jean-Noël Grad contributed initial drafts for the ELIXIR framework and the section on the work of the HPC certification forum
-as well as numerous other contributions to the BibTeX infrastructure and the GitHub actions.
-Magnus Hagdorn drafted and supervised the ethics and values section for an RSE and made sure that these values are reflected in the competencies of RSEs.
-Toby Hodges contributed parts on the Carpentries, and helped steer the curriculum discussion.
-Guido Juckeland contributed experiences from his first RSE course for students.
-Dominic Kempf drafted the first version of the example curriculum.
-Anna-Lena Lamprecht helped with proper wording, especially with awareness about established SE terminology, that was misused earlier.
-Jan Linxweiler drafted various RSE specialisations and made sure that clean coding techniques got their due recognition.
-Frank Löffler rewrote numerous parts to be actually legible, and helped with preparation for the final steps of a de-RSE position paper.
-Michele Martone wrote the first draft of the environmental sustainability section.
-Moritz Schwarzmeier drafted the categorisation of the specialisations.
-Heidi Seibold contributed the idea and started everything.
-Jan Philipp Thiele drafted initial parts of the technical pillar of the RSE competencies, and represented the project on numerous discussions.
-Harald von Waldow contributed to initial drafts of the Masters program and contributed his knowledge to the explainability of computer simulations.
-Samantha Wittke contributed the parts on CodeRefinery and how to reach out to new RSEs.
-Florian Goth has the pleasure of being grateful to all collaborators in this project for contributing their time and knowledge into this project!
