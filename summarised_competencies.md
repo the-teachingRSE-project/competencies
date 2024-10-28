@@ -787,5 +787,5 @@ Heidi was joined by Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele
 Over the course of further workshops like the un-deRSE23 workshop in Jena, and the deRSE24 in Würzburg,
 the content of the paper was further refined and we are grateful to all particpants!
 The group gained more recognition, and the teachingRSE project is now an official working group 
-in de-RSE and in the special interest group on research software of the Gesellschaft für Informatik.
+of the de-RSE society and the special interest group on research software of the Gesellschaft für Informatik.
 
