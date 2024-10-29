@@ -306,7 +306,7 @@ The technical skills required by an RSE overlap to a large extent with
 In addition, a lot of RSEs are either self- or peer taught in these skills.
 These skills include requirements analysis, design, construction, testing, program analysis, and maintenance of software.
 On the other hand, RSEs also know how to make research software adhere to the \ac{FAIR} principles [@FAIR4RS],
- and how to achieve different levels of research software reusability (see, e.g., @ChueHong2014),
+ and how to achieve different levels of research software reusability,
  while they have deeper understanding of the scientific context around the research software projects they work on.
 To reflect this, the technical skills listed below complement competencies regarding the standard life cycle of software development (as summarised in \autoref{subsec:technical-general}) with RSE-specific focus skills. 
 
