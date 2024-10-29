@@ -431,7 +431,7 @@ They embrace being part of a larger community which,
 despite friendly competition, shares the common goal of gaining knowledge
 to disseminate it.
 Thereby they know that they are part of a bigger undertaking 
-that involves many other parties in and outside their domain, 
+that involves many other parties in- and outside their domain, 
 and also that their software can be utilised at different stages 
 of the research cycle by different people.
 They may be asked to contribute to the ethical and regulatory evaluation of a project 
