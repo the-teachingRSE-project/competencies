@@ -412,7 +412,7 @@ institution's network and computing infrastructure.
 
 RSEs are curious and able to conduct research, both on research software engineering,
 and on their research-wise "home domain".
-Senior RSEs are also able to lead research, and many RSEs have a doctorate [@hettrick_survey_2022].
+Senior RSEs are also able to lead research.
 Since RSEs often operate in different research fields, they also gain their reputation from their effectiveness in interacting with researchers from the same or other domains. Therefore, some curiosity together with a broad overview of the
 research field is required, as this enables the RSE to learn new methods and algorithms directly from domain peers.
 Similarly, a broad overview of the field of SE research 
