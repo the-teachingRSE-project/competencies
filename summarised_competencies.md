@@ -195,16 +195,6 @@ Further values loosely based on that code include the obligations
 The deployment of computer-based modelling and simulation has dramatically changed the practice of science in a large number of fields.
 It has enabled the hitherto impossible study of new classes of problems,
 often replacing traditional experimentation and observation.
-Humphreys [@humphreys_extending_2004] regards this development as "more important than the invention of the calculus in the 1660s, an event that remained unparalleled for almost 300 years".
-The epistemological status of computer modelling and simulation is still the subject of debate,
-which ranges from the postulate of a new process of knowledge creation that has its own, unique, epistemology [@winsberg_sanctioning_1999]
-to the perception that from a philosophy of science perspective, there is nothing really new [@frigg_philosophy_2009].
-In any case, it is clear that a number of decisions in the construction of a simulation-model
-will have a significant impact on the adequacy for purpose [@bokulich_data_2021] of the model.
-These decisions include the selection of the salient characteristics of the system to be modelled,
-the choice of the mathematical representation of the processes to be represented,
-the choice of numerical methods and other algorithms
-and even including the design of the user-interface.
 
 The relationship between initial state, inputs and final state of a computer simulation is "epistemically opaque" [@humphreys_extending_2004],
 in that not every step of the process is directly observable.
