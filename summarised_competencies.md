@@ -159,8 +159,7 @@ that are necessary to understand its purpose.
 **Research software**: Foundational algorithms, the software itself,
 as well as scripts and computational workflows that were created
 during the research process or for a research purpose, across all domains of research.
-This definition is broader than in [@FAIR4RS] and is the outcome of a recent
-discussion in [@Gruenpeter2021].
+This definition is broader than in [@FAIR4RS].
 
 **Research software engineers**: People who
 create or improve research software and/or the structures that the software interacts with
