@@ -719,8 +719,8 @@ As elsewhere, adhering to the values in @sec:values provides guidance.
 
 #### Legal-RSE
 Creating, composing, and then publishing research software having different sources and licenses has legal constraints.
-With the advent of data protection regulatory frameworks (e.g. \ac{GDPR} in the \ac{EU} [@GDPR]),
-and for compliance with export control regulations (e.g. [@ExportControl] in Germany),
+With the advent of data protection regulatory frameworks,
+and for compliance with export control regulations,
 the requirements are generally rising.
 This is where experienced RSEs may extend their knowledge into legal matters and interact more closely with lawyers and the local data protection officers.
 
