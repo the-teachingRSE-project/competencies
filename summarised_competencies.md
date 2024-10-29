@@ -647,7 +647,7 @@ Most RSEs roles embody a blend of these, and may stretch beyond.
 ## Specialisations within the core RSE competencies
 
 #### Open science RSE
-Open science practices are not only being adopted increasingly, but also required by research funding agencies.
+Open science practices are increasingly required by research funding agencies.
 The Open Science RSE may accompany international teams sharing large code bases, ensuring FAIRness of the code (\gls{SRU}, \gls{SP}, \ac{RDM}) in accordance to their research plans and cycles (\gls{RC}).
 
 #### Project/community manager RSEs
