@@ -751,7 +751,7 @@ but found that we likewise require teamwork capabilities.
 We proposed recommendations for organisations to foster the development of these competencies.
 
 The gathered values and competencies form a common denominator that unifies RSEs
- and enables them to identify with this domain,
+ and enables them to identify with this role,
  in the knowledge that it is already or will soon become critically important for many areas of science.
 These competencies at the intersection of research and SE,
 coupled with a firm belief in team processes, make RSEs sought after on the job market
