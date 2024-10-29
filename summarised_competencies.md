@@ -748,9 +748,7 @@ We listed core competencies that have been intentionally formulated
 abstractly without referencing any particular information-processing device.
 As expected, we have drawn equally upon notions from \ac{SE} and other research fields,
 but found that we likewise require teamwork capabilities.
-We detailed these competencies in various dimensions and found that
-a different amount is required in different positions and scientific domains.
-Using this, we proposed recommendations for organisations to foster the development of these competencies.
+We proposed recommendations for organisations to foster the development of these competencies.
 
 The gathered values and competencies form a common denominator that unifies RSEs
  and enables them to identify with this domain,
