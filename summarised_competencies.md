@@ -705,7 +705,6 @@ An omission that we found and that we would like to highlight in order to spark 
  under the statutes of many funding organisations that require at least a PhD.
 
 To alleviate this and to give RSEs in leadership positions a means to become eligible for funding themselves,
- since completion of scientific training is often a requirement [@DFG_50_01],
  we see two possible parts of a solution.
 One is to allow for doctorates primarily based on software contributions to the scientific community.
 Secondly, we propose the introduction of new, standardised certificates
