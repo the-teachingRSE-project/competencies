@@ -660,7 +660,7 @@ This role may or may not involve programming.
 Teaching (\gls{TEACH}) the next generation of scientists (RSEs or not) the core RSE skills and yet respecting the domain's culture requires being versed in didactics and pedagogy. It prepares the scene for better research software to come.
 
 #### User interface/user experience designers for research software
-Good software is not only functional, but also has proper documentation (\gls{DOCBB}), is properly distributed (\gls{DIST}, \ac{FAIR}) and is ergonomic (\gls{MOD}).
+Good software is not only functional, but is also documented (\gls{DOCBB}) and distributed (\gls{DIST}, \ac{FAIR}). It is also designed with users in mind (\gls{MOD}).
 Some RSEs devote themselves to these aspects.
 
 ## Specialisations outside the core RSE competencies
