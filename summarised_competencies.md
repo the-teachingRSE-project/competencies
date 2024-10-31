@@ -640,9 +640,8 @@ These conditions pose specific challenges for requirements analysis, project man
 
 # RSE specialisations {#sec:rse-specialisations}
 
-Now that we have defined base RSE skills,
-we list here typical specializations we encounter.
-Most RSEs roles embody a blend of these, and may stretch beyond.
+There is a large variety of RSE roles that embody a blend of the basic skills and competencies defined above.
+We now list some of these specialisations.
 
 ## Specialisations within the core RSE competencies
 
@@ -657,11 +656,11 @@ and delegating tasks to project members (e.g. \gls{USERS}, and \gls{TEAM}).
 This role may or may not involve programming.
 
 #### Teaching RSEs
-Teaching (\gls{TEACH}) the next generation of scientists (RSEs or not) the core RSE skills and yet respecting the domain's culture requires being versed in didactics and pedagogy. It prepares the scene for better research software to come.
+Teaching (\gls{TEACH}) the next generation of scientists (RSEs or not) the core RSE skills while respecting the domain's culture requires being versed in didactics and pedagogy. Educators play
+a vital role in improving the quality of research software.
 
 #### User interface/user experience designers for research software
 Good software is not only functional, but is also documented (\gls{DOCBB}) and distributed (\gls{DIST}, \ac{FAIR}). It is also designed with users in mind (\gls{MOD}).
-Some RSEs devote themselves to these aspects.
 
 ## Specialisations outside the core RSE competencies
 
@@ -707,7 +706,7 @@ Since \ac{ML} techniques are inherently prone to biases leading to socially prob
 #### Legacy RSEs
 While programming languages, libraries and frameworks may be evolving fast,
 research software tends to be nurtured and developed by generations of researchers,
-often without formalized code management practices (\gls{DIST},...).
+often without formalized code management practices (\gls{DIST}).
 Experienced RSEs help modernising code, if necessary making it leaner and faster,
 often via work-intensive refactoring, and possibly exploiting code transformation tools.
 Notice the overlap with the \ac{HPC} RSE.
