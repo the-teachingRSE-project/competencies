@@ -651,9 +651,9 @@ Open science practices are increasingly required by research funding agencies.
 The Open Science RSE may accompany international teams sharing large code bases, ensuring FAIRness of the code (\gls{SRU}, \gls{SP}, \ac{RDM}) in accordance to their research plans and cycles (\gls{RC}).
 
 #### Project/community manager RSEs
-Scaling up a research software project size is smoother if somebody
-takes an overview role, caring about the overall perspective (\gls{PM})
-and delegating tasks to people in their different roles (e.g. \gls{USERS}, and \gls{TEAM}).
+Large research software projects require somebody to take
+an overview role, caring about the overall perspective (\gls{PM})
+and delegating tasks to project members (e.g. \gls{USERS}, and \gls{TEAM}).
 This role may or may not involve programming.
 
 #### Teaching RSEs
