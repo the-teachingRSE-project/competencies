@@ -39,7 +39,6 @@ header-includes:
   - \newcommand*{\USERS}{\fonticon{comments}{USERS}}
   - \usepackage[acronym,toc,shortcuts,nogroupskip]{glossaries}
   - \newglossary[skills.glg]{skills}{skills.gls}{skills.glo}{Skill codes}
-  - \makeglossaries
   - \input{glossary.tex}
   - \newglossaryentry{DOCBB}{name={\DOCBB},type={skills},description={Creating documented code building blocks}}
   - \newglossaryentry{DIST}{name={\DIST},type={skills},description={Building distributable software}}
