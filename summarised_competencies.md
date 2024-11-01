@@ -123,7 +123,7 @@ the research environment, and ensure that they produce sustainable, maintainable
 code that supports reproducible research outputs, following the \ac{FAIR} principles [@FAIR4RS].
 
 This community paper defines a first set of core values (@sec:values) and foundational competencies (@sec:required-generic-skills),
-which an RSE should acquire during training and formal education, as well as further professional development.
+which an RSE should acquire.
 These are independent of a research domain and are drawn upon skills from traditional SE practice,
 established research culture, and the commitment to being part of a team.
 While being the result of workshop discussions that were attended
