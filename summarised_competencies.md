@@ -570,7 +570,7 @@ Some RSEs may be particularly specialised in the intricacies of a research domai
 Certain domains have a high demand for data science skills.
 This may be cleaning, sorting, analyzing and documenting data (\ac{RDM}, \ac{DMP}),
 perhaps anonymising or pseudonymising them (e.g. patient information in medicine).
-This role also includes transferring data sets securely and archiving them properly \ac{FAIR} [@FAIR].
+This role also includes transferring data sets securely and archiving them properly \ac{FAIR}.
 
 <!--
 New areas of expertise
