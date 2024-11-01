@@ -162,7 +162,7 @@ This definition is broader than in [@FAIR4RS].
 create or improve research software and/or the structures that the software interacts with
 in the computational environment of a research domain.
 RSEs fall therefore somewhere on the spectrum between a researcher at one end and a software engineer at the other.
-Common to all of them is, that they need to be able to work in the research environment the software is used in, ideally at eye-level with native researchers, but at least as close as possible.
+Common to all of them is, that they need to be able to work in the research environment the software is used in, ideally at eye-level with native researchers.
 They are highly skilled team members who may also choose to conduct their own research as
 part of their role.
 However, we also recognise that many RSEs have chosen specifically to focus on a technical
