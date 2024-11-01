@@ -282,7 +282,7 @@ Those topics comprise combinations of the skills and competencies defined below.
 \subsubsection{\glsentrydesc{#1} (\texorpdfstring{\glsentrytext{#1}}{#1})}\label{skills-#1}}}
 
 Besides skilled researchers, RSEs are also competent software engineers.
-As such, they ideally can solve complex software engineering problems and design software as a user-oriented, future-proof product.
+As such, they can solve complex software engineering problems and design software as a user-oriented, future-proof product.
 The technical skills required by an RSE overlap to a large extent with
  the common fundamental software engineering skills,
  but put greater emphasis on aspects related to achieving good scientific practice and to serving special needs of research software.
