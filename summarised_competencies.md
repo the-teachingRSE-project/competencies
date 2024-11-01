@@ -92,7 +92,6 @@ Further research and training can build upon this foundation of skills
 and focus on various aspects in greater detail. 
 We expect that graduates and practitioners will have a larger 
 and more diverse set of skills than outlined here.
-We look at specific types of RSE roles, propose recommendations for organisations, and give examples of future specialisations.
 "
 ---
 
@@ -688,7 +687,6 @@ We listed core competencies that have been intentionally formulated
 abstractly without referencing any particular information-processing device.
 As expected, we have drawn equally upon notions from \ac{SE} and other research fields,
 but found that we likewise require teamwork capabilities.
-We proposed recommendations for organisations to foster the development of these competencies.
 
 The gathered values and competencies form a common denominator that unifies RSEs
  and enables them to identify with this role,
