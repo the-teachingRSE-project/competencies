@@ -226,8 +226,7 @@ A lot of RSE work involves the manipulation or creation of data processing tools
 We highlight that professional conduct requires these creations to be reliable and to maintain data integrity.
 In particular, the way that personal data is handled can have far-reaching implications for society.
 Independent of the encoding into the respective national law in an RSE's jurisdiction,
-the right to information privacy is internationally recognised as a fundamental human right,
-e.g., in the European Convention on Human Rights.
+the right to information privacy is internationally recognised as a fundamental human right.
 
 RSEs are often experienced professionals who work closely with and provide technical training and guidance to early career researchers.
 Similarly to academic supervisors, they bear a certain responsibility to guide and advise less-experienced colleagues
