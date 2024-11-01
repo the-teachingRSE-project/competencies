@@ -563,7 +563,7 @@ Research focused specialisations
 -->
 
 #### \${DOMAIN}-RSE
-Some RSEs may be particularly specialized into the intricacies of a research domain,
+Some RSEs may be particularly specialised in the intricacies of a research domain,
 (e.g. medical, humanities, physics).
 
 #### Data-focused RSE
