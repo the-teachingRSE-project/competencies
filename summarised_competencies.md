@@ -102,9 +102,8 @@ but also in other fields, like medicine and the humanities.
 Researchers, however, often lack the skills to use specialised software
 for their research, let alone write it. If they come from a non-technical domain, they may
 also struggle to know what to ask when trying to request help from and interact with
-more experienced colleagues. A gap still exists in
-academic education, as many curricula do not sufficiently prepare students
-in this regard, therefore students and researchers fill this gap by themselves.
+more experienced colleagues. A digital literacy gap still exists in
+academic education, which students and researchers have to fill by themselves.
 
 Researchers investing increasing amounts of their time developing their \ac{SE}
 skills to support their research work can find themselves with little time to do the research
