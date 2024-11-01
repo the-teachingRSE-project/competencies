@@ -375,7 +375,7 @@ differentiate them from the domain repositories described later.
 
 We define this as a certain quality of analytical thinking that enables an RSE to
 form a mental model of a piece of software in a specific environment (program comprehension).
-Using that, an RSE should be able to make predictions about a software's behaviour.
+An RSE should be able to make predictions about a software's behaviour.
 This is a required skill for common tasks such as debugging, profiling, optimising, designing good
 tests, or predicting user interaction.
 Many tools exist to help with understanding and evaluating existing code,
