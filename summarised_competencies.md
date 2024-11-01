@@ -231,7 +231,7 @@ the right to information privacy is internationally recognised as a fundamental 
 RSEs are often experienced professionals who work closely with and provide technical training and guidance to early career researchers.
 Similarly to academic supervisors, they bear a certain responsibility to guide and advise less-experienced colleagues
 with respect to career development and the achievement of academic goals.
-This can take the form of supervising a student or mentoring a fellow RSE.
+This can take the form of supervising students or mentoring fellow RSEs.
 The RSE needs to be aware of the biases arising from the sociological imbalances in research and academia.
 
 There is an ever-growing demand for resources to cover
