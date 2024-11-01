@@ -114,7 +114,7 @@ do not directly include software outputs.
 A recent shift towards the establishment of the distinct role of a
 _"Research Software Engineer"_ 
 (RSE, a term that was coined in the \ac{UK} a little over 10 years ago [@Hettrick2016]),
-now provides a base on which sustainable career opportunities can be (and are being) built,
+now provides a base on which sustainable career opportunities can be built,
 allowing for better training of researchers and more effective support for the development of high
 quality research software.
 Regardless of their explicit or implicit job title and the environment in which they work,
