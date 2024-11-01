@@ -206,7 +206,6 @@ places a large responsibility on the RSE.
 It is important that RSEs are aware of this responsibility and continuously improve their capabilities to live up to it.
 
 Research software is also well on its way to being ever-present in data-driven research, in all research fields.
-This can probably be most prominently seen by considering software used to analyse data, e.g. within experimental research.
 It is not unusual for RSEs to support those more research data oriented efforts as well.
 Here, specifically, they closely interact with research data management professionals
 and practices by designing research software 
