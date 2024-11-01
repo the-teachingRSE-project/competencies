@@ -257,7 +257,7 @@ competencies in both fields. RSEs typically have a background in research or sof
 but they definitely have obtained broader knowledge in both fields.
 Even when working as the only RSE on a task or project, they typically apply
 their knowledge and experience as part of larger teams of researchers and
-technical professionals, which allows them to cultivate this hybrid nature.
+technical professionals.
 There are many ways to categorise the competencies of an RSE. We chose to
 distribute these competencies over three pillars to reflect the fact
 that RSEs are both competent researchers (the research skills,
