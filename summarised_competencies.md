@@ -585,7 +585,7 @@ Configuring these services also requires knowledge in administration, hardware, 
 \acrshort{HPC}-focused RSEs help domain scientists to better use HPC resources.
 If working in a supercomputing centre,
 they may preconfigure generic software to the specific on hardware (e.g. via compilation),
-providing ad-hoc batch scripts and instructions (including trainings) to run software efficiently.
+providing ad-hoc batch scripts and instructions (including training courses) to run software efficiently.
 If evaluating access proposals to resources, they judge energy and efficiency
 aspects, which next to scientific relevance is of increasing importance.
 If working closer to users, they provide specialized knowledge for either manual or tool-assisted
