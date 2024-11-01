@@ -137,7 +137,7 @@ and funding bodies and computing infrastructure providers will sometimes priorit
 annotated, re-usable, and potentially remotely executable data.
 
 This paper is a condensed version of a more comprehensive paper [@Goth2023] published at FIXME:INSERTREFHERE.
-Besides the foundational competencies (extracted 1-to-1 from there), that paper further elaborates
+Besides the foundational competencies, that paper further elaborates
 on the guiding values and principles of an RSE, points to related work,
 describes the tasks and typical level of each competency for different career levels and working environment,
 together with actions that organizations can take to support these,
