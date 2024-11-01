@@ -270,16 +270,6 @@ broad setting and form the foundation for specific specialisations.
 These competencies have been chosen in order to make RSEs contribute to an open and inclusive research
 environment, with tools that respect their professional values.
 
-These skills and competencies come into play in various forms: The
-RSEs themselves need to acquire and develop them as their career progresses
-(**Career level**). However, some knowledge of software and data processing is
-required at all academic levels and for all positions
-(**Academic Progression**). The relative importance of the skills
-and competencies also depends on the size of the RSE team
-(**Project team size**). Finally, different sets of skills are emphasised in
-the different RSE specialisations (**RSE specialisations**).
-
-
 During the Paderborn workshop (deRSE23) we asked learners and novice RSEs what they would
 like to have learnt. The top five items mentioned were: testing, contributing to
 large projects, when or why to keep repositories private, high-quality software development, and
