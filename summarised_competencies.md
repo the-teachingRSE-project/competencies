@@ -526,7 +526,7 @@ or even within the course of one project.
 Roles in connection with research software are often in flux and diffuse.
 For example, a single person might be user, developer and project manager at the same time.
 Often this means it is necessary for an RSE to think "outside their comfort zone",
-but at the same time to be able to convey their knowledge and experience to experts
+whilst being able to convey their knowledge and experience to experts
 of other fields or persons at different hierarchy levels in a way they can understand more easily.
 These conditions pose specific challenges for requirements analysis, project management, training and support.
 
