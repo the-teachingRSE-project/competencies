@@ -114,7 +114,7 @@ and progress in research and academic roles is traditionally assessed through me
 do not directly include software outputs.
 A recent shift towards the establishment of the distinct role of a
 _"Research Software Engineer"_ 
-(RSE, a term that was coined in the \ac{UK} a little over 10 years ago [@Hettrick2016]),
+(RSE, a term that was coined in the \ac{UK} in the early 2010's [@Hettrick2016]),
 now provides a base on which sustainable career opportunities can be built,
 allowing for better training of researchers and more effective support for the development of high
 quality research software.
@@ -689,7 +689,7 @@ How we update existing institutions and set up new ones
 that provide this education will be the topic of a follow-up paper.
 
 # teachingRSE biography
-The teachingRSE project has been working on the associated full and more complete publication in FIXME for the past two years.
+The teachingRSE project has been working on the associated full and more complete publication in FIXME since 2023.
 The project was initiated by Heidi Seibold who came up with the original idea for the deRSE23 workshop in Paderborn.
 Heidi was joined by Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele, and Samantha Wittke to organise the initial deRSE23 workshop.
 Over the course of further workshops like the un-deRSE23 workshop in Jena, and the deRSE24 in Würzburg,
