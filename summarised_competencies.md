@@ -137,7 +137,8 @@ data management, processing and visualisation, or the creation of tools for thes
 and funding bodies and computing infrastructure providers will sometimes prioritise projects that generate archived,
 annotated, re-usable, and potentially remotely executable data.
 
-This paper is a condensed version of a more comprehensive paper [@Goth2023] published at FIXME:INSERTREFHERE.
+This paper is a condensed version of a more comprehensive paper [@Goth2023] published at FIXME:INSERTREFHERE,
+aimed as a call to a broader audience for further discussion and coordinated action.
 Besides the foundational competencies, that paper further elaborates
 on the guiding values and principles of an RSE, points to related work,
 and describes the tasks and typical level of each competency for different career levels and working environment,
