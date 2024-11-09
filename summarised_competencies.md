@@ -650,7 +650,7 @@ Online resources for courses are another important building block.
 Surveying and curating of existing resources is not carried out as a traditional publication,
 but it is made available as a continuously-evolving online database via the learn-and-teach project [@learnandteach].
 
-And finally, we plan to formulate a call to action,
+Finally, we plan to formulate a call to action,
  building on the previously mentioned publication on the necessary institutions,
  that spells out everything that is required to best support the continuous need for young RSEs to support digital science specifically in Germany.
 
