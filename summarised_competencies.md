@@ -719,5 +719,5 @@ Jan Philipp Thiele,
 Harald von Waldow,
 and Samantha Wittke.
 The group gained more recognition, and the teachingRSE project is now an official working group 
-of the de-RSE society and the special interest group on research software of the Gesellschaft für Informatik.
+of the de-RSE society and the special interest group on research software of the German Informatics Society (GI).
 
