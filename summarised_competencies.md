@@ -570,7 +570,7 @@ Some RSEs may be particularly specialised in the intricacies of a research domai
 Certain domains have a high demand for data science skills.
 This may be cleaning, sorting, analyzing and documenting data (\ac{RDM}, \ac{DMP}),
 perhaps anonymising or pseudonymising them (e.g. patient information in medicine).
-This role also includes transferring data sets securely and archiving them properly \ac{FAIR}.
+This role also includes transferring data sets securely and archiving them properly (\ac{FAIR}).
 
 <!--
 New areas of expertise
@@ -584,7 +584,7 @@ Configuring these services also requires knowledge in administration, hardware, 
 
 \acrshort{HPC}-focused RSEs help domain scientists to better use HPC resources.
 If working in a supercomputing centre,
-they may preconfigure generic software to the specific on hardware (e.g. via compilation),
+they may preconfigure generic software for the specific hardware (e.g. via compilation),
 providing ad-hoc batch scripts and instructions (including training courses) to run software efficiently.
 If evaluating access proposals to resources, they judge energy and efficiency
 aspects, which next to scientific relevance is of increasing importance.
