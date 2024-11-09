@@ -91,7 +91,7 @@ we define the broad notion of what an RSE is, explore the different types of wor
 define a list of foundational competencies as well as values that outline the general profile of an RSE.
 Further research and training can build upon this foundation of skills 
 and focus on various aspects in greater detail, and
-ee expect that graduates and practitioners will have a larger 
+we expect that graduates and practitioners will have a larger 
 and more diverse set of skills than outlined here.
 "
 ---
