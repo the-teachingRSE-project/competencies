@@ -647,9 +647,8 @@ That publication will again intentionally be free of regional specifics,
  to also serve as a blueprint that other national RSE societies can build upon.
 
 Online resources for courses are another important building block.
-This is the general intention of the learn-and-teach project [@learnandteach].
 Surveying and curating of existing resources is not carried out as a traditional publication,
-but it is made available as a continuously-evolving online resource at [@learnandteach].
+but it is made available as a continuously-evolving online database via the learn-and-teach project [@learnandteach].
 
 And finally, we plan to formulate a call to action,
  building on the previously mentioned publication on the necessary institutions,
