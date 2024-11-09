@@ -86,11 +86,12 @@ At the other extreme, they resemble that of a software engineer in industry.
 Most RSE roles inhabit the space between these two extremes. Therefore, providing a straightforward,
 comprehensive definition of what an RSE does
 and what experience, skills and competencies are required to become one is challenging.
-In this community paper we define the broad notion of what an RSE is, explore the different types of work they undertake, and
+In this community paper (a summary of a more extensive publication)
+we define the broad notion of what an RSE is, explore the different types of work they undertake, and
 define a list of foundational competencies as well as values that outline the general profile of an RSE.
 Further research and training can build upon this foundation of skills 
-and focus on various aspects in greater detail. 
-We expect that graduates and practitioners will have a larger 
+and focus on various aspects in greater detail, and
+ee expect that graduates and practitioners will have a larger 
 and more diverse set of skills than outlined here.
 "
 ---
