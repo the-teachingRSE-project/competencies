@@ -656,13 +656,14 @@ Finally, we plan to formulate a call to action,
 
 # Conclusion {#sec:conclusion}
 
-This paper started from a community workshop at deRSE23 in Paderborn
+This paper summarises a more extensive publication and the results of
+community efforts at RSE workshops in Germany,
 where people working in RSE related fields got together to figure out
 structures and ideas for educating newcomers to this field.
-One outcome of this diverse gathering is that RSEs from differing fields gather
-around similar core concepts, At the same time they share a vision of how to
+One outcome of these diverse gatherings is that RSEs from differing fields gather
+around similar core concepts. At the same time, they share a vision of how to
 renew scientific research practice making extensive use of digital tools.
-In this publication, we have tried to formalise these concepts.
+In this work, we have tried to formalise these concepts.
 We have formulated a set of values that guide our actions in society,
 manifestly making RSEs part of the scientific community that shares the ideals of good scientific practice.
 At the same time,
@@ -672,7 +673,7 @@ abstractly without referencing any particular information-processing device.
 As expected, we have drawn equally upon notions from \ac{SE} and other research fields,
 but found that we likewise require teamwork capabilities.
 
-The gathered values and competencies form a common denominator that unifies RSEs
+The listed values and competencies form a common denominator that unifies RSEs
  and enables them to identify with this role,
  in the knowledge that it is already or will soon become critically important for many areas of science.
 These competencies at the intersection of research and SE,
@@ -680,7 +681,7 @@ coupled with a firm belief in team processes, make RSEs sought after on the job 
 and their values make them responsible members of a digital society.
 The result is a qualification profile which is highly attractive for young people.
 
-At an institutional level, research performing organisations have a growing
+At an institutional level, research-performing organisations have a growing
 interest in fostering RSE training to support the use of \ac{FAIR} data and \ac{FAIR} software in the academic world,
 a direction determined by new incentives created by scientific journals and librarians.
 How we update existing institutions and set up new ones
