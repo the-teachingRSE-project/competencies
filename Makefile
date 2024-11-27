@@ -33,6 +33,7 @@ all: $(objects)
 	    -o "build/${@:.pdf=}.tex" \
 	    "build/$<"
 	@sed -i '/\\author{}/d' "build/${@:.pdf=}.tex"
+	@sed -ri 's/(\\label\{[a-zA-Z0-9_:-]+\})\}\1/\1}/' "build/${@:.pdf=}.tex"
 	if grep -q "\\makeglossaries" "${<}"; then \
 		cd build; \
 		pdflatex -shell-escape --jobname="${@:.pdf=}" "${@:.pdf=}.tex"; \
