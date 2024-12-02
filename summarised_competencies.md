@@ -137,7 +137,7 @@ data management, processing and visualisation, or the creation of tools for thes
 and funding bodies and computing infrastructure providers will sometimes prioritise projects that generate archived,
 annotated, re-usable, and potentially remotely executable data.
 
-This paper is a condensed version of a more comprehensive paper [@Goth2023] published at FIXME:INSERTREFHERE,
+This paper is a condensed version of a more comprehensive paper [@Goth2023] published at [@competencies-F1000],
 aimed as a call to a broader audience for further discussion and coordinated action.
 Besides the foundational competencies, that paper further elaborates
 on the guiding values and principles of an RSE, points to related work,
@@ -640,7 +640,7 @@ Within this set, we will work next on how to institutionalise education.
 In that publication, we will detail how we organise our institutions
  and what qualifications our teachers need to have in order to effectively communicate our values.
 We will put forward ideas on how to build up bachelor's and master's programmes,
- of which a glimpse can already be found in FIXMEPROPERCITATION.
+ of which a glimpse can already be found in [@competencies-F1000].
 We will show how we intend to provide the necessary continuous education for RSEs after graduation,
  and we will connect that with the integration of RSEs into a mesh of community networks aimed at supporting research,
  while providing them with an inclusive social network that further facilitates lifelong learning.
@@ -689,13 +689,13 @@ How we update existing institutions and set up new ones
 that provide this education will be the topic of a follow-up paper.
 
 # teachingRSE biography
-The teachingRSE project has been working on the associated full and more complete publication in FIXME since 2023.
+The teachingRSE project has been working on the associated full and more complete publication in [@competencies-F1000] since 2023.
 The project was initiated by Heidi Seibold who came up with the original idea for the deRSE23 workshop in Paderborn.
 Heidi was joined by Jeremy Cohen, Florian Goth, Renato Alves, Jan Philipp Thiele, and Samantha Wittke to organise the initial deRSE23 workshop.
 Over the course of further workshops like the un-deRSE23 workshop in Jena, and the deRSE24 in Würzburg,
 the content of the paper was further refined and we are grateful to all particpants!
 In addition to the workshops the ideas were further developed during weekly meetings led by Florian Goth,
-together with the authors of FIXME,
+together with the authors of [@competencies-F1000],
 Renato Alves,
 Matthias Braun,
 Leyla Jael Castro,
