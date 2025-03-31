@@ -1,6 +1,6 @@
 # Response to referees
 
-## R.1: Scope
+## R1.1: Scope
 
 > Scope: How large is the scope of this paper?
 > Is it meant to encompass RSEs around the globe or focused primarily on European RSEs?
