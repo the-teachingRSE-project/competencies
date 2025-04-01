@@ -342,7 +342,7 @@ such as the \acrfull{PRACE} [@PRACE]
 \ac{UNIVERSE-HPC} [@UNIVERSEHPC] (a project funded under the \acrshort{UK}'s
 ExCALIBUR research programme [@EXCALIBUR]), and the \ac{ENCCS} [@ENCCS],
 which offers a collection of lessons for \ac{HPC} skills [@ENCCSLessons].
-On the intersection between \ac{HPC} and the broader RSE field, the IDEAS PRODUCTIVITY project [@IDEAS]
+At the intersection between \ac{HPC} and the broader RSE field, the IDEAS PRODUCTIVITY project [@IDEAS]
 organises online events, provides training material via the BSSw project [@BSSW]
 and maintains HPC-focused guidelines, such as the Extreme-scale Scientific Software Development Kit [@xSDK].
 
