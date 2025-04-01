@@ -15,6 +15,7 @@ bioinformatics
 Bioschemas
 Braunschweig
 BSSW
+BSSw
 CASTIEL
 Carpentries
 CarpentriesData
