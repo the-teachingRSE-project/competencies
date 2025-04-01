@@ -343,7 +343,7 @@ such as the \acrfull{PRACE} [@PRACE]
 ExCALIBUR research programme [@EXCALIBUR]), and the \ac{ENCCS} [@ENCCS],
 which offers a collection of lessons for \ac{HPC} skills [@ENCCSLessons].
 At the intersection between \ac{HPC} and the broader RSE field, the IDEAS PRODUCTIVITY project [@IDEAS]
-organises online events, provides training material via the BSSw project [@BSSW]
+organises online events, provides training material via the Better Scientific Software (BSSw) project [@BSSW]
 and maintains HPC-focused guidelines, such as the Extreme-scale Scientific Software Development Kit [@xSDK].
 
 Initiatives focused on Germany include EduTrain [@EDUTRAIN] (a section of the \acrfull{NFDI} [@NFDI]),
