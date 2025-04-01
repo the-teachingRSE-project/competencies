@@ -111,7 +111,8 @@ comprehensive definition of what an RSE does
 and what experience, skills and competencies are required to become one is challenging.
 In this community paper we define the broad notion of what an RSE is, explore the different types of work they undertake, and
 define a list of foundational competencies as well as values that outline the general profile of an RSE.
-These foundational skills are encountered to a large extent within the skill sets of current RSEs in Germany and beyond, and we propose them as a guideline for aspiring RSEs to shape their technical profile.
+These foundational skills are encountered to a large extent within the skill sets of current RSEs in Germany and beyond,
+and we propose them as a guideline for aspiring RSEs to shape their technical profile.
 Further research and training can build upon this foundation of skills 
 and focus on various aspects in greater detail. 
 We expect that graduates and practitioners will have a larger 
