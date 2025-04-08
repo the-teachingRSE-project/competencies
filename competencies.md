@@ -334,6 +334,7 @@ A similar framework is provided by CodeRefinery [@CodeRefinery], currently
 funded by the Nordic e-Infrastructure,
 as well as SURESOFT [@SURESOFTLink; @SURESOFT2022], a project at Technical University (TU) Braunschweig and Friedrich-Alexander-University (FAU) Erlangen-Nürnberg, funded by the \ac{DFG} and targeting more advanced \ac{SE} topics such as
 software design principles, \glspl{design-pattern}, refactoring, \ac{CI} and \ac{TDD}.
+The INTERSECT RSE Training project [@INTERSECTOnlineResources; @Carver2020] also provides training materials and organises training events in the USA, funded by the NSF.
 
 There are also several initiatives focused on training \acrshort{HPC}-oriented RSEs,
 such as the \acrfull{PRACE} [@PRACE]
@@ -341,6 +342,9 @@ such as the \acrfull{PRACE} [@PRACE]
 \ac{UNIVERSE-HPC} [@UNIVERSEHPC] (a project funded under the \acrshort{UK}'s
 ExCALIBUR research programme [@EXCALIBUR]), and the \ac{ENCCS} [@ENCCS],
 which offers a collection of lessons for \ac{HPC} skills [@ENCCSLessons].
+At the intersection between \ac{HPC} and the broader RSE field, the IDEAS PRODUCTIVITY project [@IDEAS]
+organises online events, provides training material via the Better Scientific Software (BSSw) project [@BSSW]
+and maintains HPC-focused guidelines, such as the Extreme-scale Scientific Software Development Kit [@xSDK].
 
 Initiatives focused on Germany include EduTrain [@EDUTRAIN] (a section of the \acrfull{NFDI} [@NFDI]),
 the \acrfull{HIFIS} [@HIFIS], and the already mentioned SURESOFT [@SURESOFTLink].

@@ -339,7 +339,7 @@ FIXME:
 
 ### Directories of resources
 
-+ Better Scientific Software [BSSW](https://bssw.io/)
++ Better Scientific Software [BSSw](https://bssw.io/)
   (Collection of resources for computational science and engineering)
 + TeSS platform [@Beard2020; @Bacall2023] for bioinformatics and life sciences
 + Curriculum Task Force of the International Society for Computational
