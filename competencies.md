@@ -1611,7 +1611,7 @@ To align with the specialisations listed in this paper, example optional modules
 \ac{HPC} engineering/parallel programming, numerical mathematics/scientific computing, web technologies,
 data stewardship, AI models/statistics, and community management/training.
 
-The programme is finalised with a master's thesis which should be dual-supervised by an
+The programme is finalised with a master's thesis which should be dual supervised by an
 RSE supervisor from an actual project, and a domain supervisor.
 The thesis should answer a relevant research question from the domain using computational methods, strengthening (\gls{NEW}).
 Software development is required, and the code is part of the gradable deliverables.
