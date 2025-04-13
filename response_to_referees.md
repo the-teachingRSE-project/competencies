@@ -6,3 +6,6 @@ Reviews 2: Indentation of the bullet points after “Research skills” seems to
 ## R1: Section 3 (Values)
 - add sentences to explain why these values are stated explicitly here even though many practioners will learn about these values by following the examples of their peers and mentors. 
 - fixed in markdown version of the paper
+
+## R2: Section 3(Values)
+- corrupted sentence is fixed in markdown version of the paper
