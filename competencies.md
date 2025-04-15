@@ -111,6 +111,8 @@ comprehensive definition of what an RSE does
 and what experience, skills and competencies are required to become one is challenging.
 In this community paper we define the broad notion of what an RSE is, explore the different types of work they undertake, and
 define a list of foundational competencies as well as values that outline the general profile of an RSE.
+These foundational skills are encountered to a large extent within the skill sets of current RSEs in Germany and beyond,
+and we propose them as a starting point for aspiring RSEs to shape their technical profile.
 Further research and training can build upon this foundation of skills 
 and focus on various aspects in greater detail. 
 We expect that graduates and practitioners will have a larger 
@@ -202,6 +204,8 @@ annotated, re-usable, and potentially remotely executable data.
 In particular, funding agencies and research managers will find the discussion in this paper
 valuable in order to discover where RSEs see their place in the existing landscape of scientific domains
 and how to support the work of RSEs at different positions and career levels.
+While we draw mostly from experiences of RSEs working in Germany or,
+in some cases, across Europe and the US, our recommendations do not focus on a particular region.
 
 The outline of the paper is as follows.
 We start with a non-exhaustive overview of existing initiatives in @sec:related-work.
