@@ -29,3 +29,6 @@ We have now added these examples from the USA, which we previously missed. Thank
 ## R2.XXX: Indentation of the bullet points after “Research skills” seems to be broken.
 
 Thanks for the feedback, We fixed the indentation in 5.4.1. While at it, we also regenerated the table of contents for F1000.
+
+## R2.XXX The row “SLWC” mentions “bus factors” several times and may need explanation, or should be added to the glossary.
+We checked, the bus factor is referenced in the glossary. We have used the opportunity, to include an html link to the glossary here.
