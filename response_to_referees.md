@@ -23,6 +23,17 @@ but are not specific to a particular region.
 
 We have now added these examples from the USA, which we previously missed. Thank you for reporting these blind spots!
 
+## Reviewer 1 Feedback: Section 3.1
+>    I notice that "funding methods" is missing from these challenges; there has been a lot of discussion about unreliable funding methods for software and, as a result, RSEs (e.g., https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6886129, https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9470770, https://pure.manchester.ac.uk/ws/portalfiles/portal/54140648/StateOfTheNationReport2017.pdf, https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10071971)
+>    There is also a lack of "RSEs being integrated into existing teams and having to fight that team's culture". Maybe this is too niche to bring up, but it is a challenge that has been spoken about amongst RSE circles (e.g., "How can I get an existing team to change their processes when they are so stuck in their ways?")
+
+We thank the reviewer for his/her feedback. We now mention the funding problem in the future work section of the paper. We thank the referee for the additional references, Since we don't feel
+that is a challenge that has a stronger influence on the education of an RSE than it would have for any other domain scientist.
+
+The Integration into teams is now mentioned in the Tasks-and-Responsibilities section.
+
+
+
 ## R2.XXX (GH: #395) Reviewer 2 Feedback: page 14 bottom
 - We added a line break at the indicated position.
 
