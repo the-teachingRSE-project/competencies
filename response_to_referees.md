@@ -23,6 +23,9 @@ but are not specific to a particular region.
 
 We have now added these examples from the USA, which we previously missed. Thank you for reporting these blind spots!
 
+## R2.XXX (GH: #395) Reviewer 2 Feedback: page 14 bottom
+- We added a line break at the indicated position.
+
 ## R2.XXX: Indentation of the bullet points after “Research skills” seems to be broken.
 
 Thanks for the feedback, We fixed the indentation in 5.4.1. While at it, we also regenerated the table of contents for F1000.
