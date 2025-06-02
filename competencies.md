@@ -883,6 +883,7 @@ RSEs are also mentoring colleagues (see also @sec:mentoring-and-diversity).
 This necessitates giving good advice that
 fits to a project's stage in its life cycle, thereby requiring knowledge of
 (\gls{SWLC}), and its context in its research domain and thus (\gls{RC}).
+
 Research software can often start out as a tool to answer a personal research
 question, becoming more important when other researchers start to rely on it.
 At the other end of the scale, research software can sometimes underpin key
