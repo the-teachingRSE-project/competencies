@@ -865,8 +865,8 @@ of collaborative platforms like \gls{GitHub}/\gls{GitLab}, honouring a
 project's code of conduct, and some knowledge of popular open source software licences,
 e.g. the \ac{GPL}.
 A major use of the \gls{TEAM} skill will be in the introduction of an RSE into an existing project.
-An exisiting project will have grown some habits and processes.
-Often it will require all the skills of an RSE as well as patience to draw a project to superiour alternatives,
+An existing project will have grown some habits and processes.
+Often it will require all the skills of an RSE as well as patience to draw a project to superior alternatives,
 while not having a leadership position in a project.
 
 RSEs are embedded in communities. There are two different aspects to finding
