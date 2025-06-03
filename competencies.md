@@ -865,7 +865,7 @@ of collaborative platforms like \gls{GitHub}/\gls{GitLab}, honouring a
 project's code of conduct, and some knowledge of popular open source software licences,
 e.g. the \ac{GPL}.
 The \gls{TEAM} skill will play a major role when an RSE is introduced to an existing project.
-An existing project will have grown some habits and processes.
+An existing project will have grown some idiosyncratic habits and processes.
 Often it will require all the skills and patience of an RSE to steer a project towards best software engineering practices,
 while not having a leadership position.
 
