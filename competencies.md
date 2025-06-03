@@ -1451,7 +1451,7 @@ social skill-set focused specialisations
 This list and description of competencies is a first step to finding common ground
  around which to structure curricula, institutions, and teachers in this framework.
 Applications of these competencies in an individual's career can be found in @subsec:examplemaster.
-Opportunities for sustainable funding is a concern that is often [@Goble2014; RSESofN2017; Carver2021; Mundt2022] raised by RSEs.
+Opportunities for sustainable funding is a concern that is often [@Goble2014; @RSESofN2017; @Carver2021; @Mundt2022] raised by RSEs.
 An omission that we found and that we would like to highlight in order to spark a community discussion is
  that RSEs that choose explicitly a science-supporting role outside of research will not be eligible for funding
  under the statutes of many funding organisations that require at least a PhD.
