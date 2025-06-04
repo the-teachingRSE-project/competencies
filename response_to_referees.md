@@ -12,6 +12,7 @@ the foundational competencies are based on what is often encountered in Germany 
 while aiming to be guidelines for aspiring RSEs.
 We have also clarified that our recommendations draw from experiences in Germany, Europe, and the US,
 but are not specific to a particular region.
+A subtitle was added to better reflect the scope and aims of the paper.
 
 ## R1.2: Related work
 
