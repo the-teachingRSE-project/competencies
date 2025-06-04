@@ -864,6 +864,10 @@ members depends on the \gls{TEAM} skill. Today, this frequently involves the eff
 of collaborative platforms like \gls{GitHub}/\gls{GitLab}, honouring a
 project's code of conduct, and some knowledge of popular open source software licences,
 e.g. the \ac{GPL}.
+The \gls{TEAM} skill will play a major role when an RSE is introduced to an existing project.
+An existing project will have grown some idiosyncratic habits and processes.
+Often it will require all the skills and patience of an RSE to steer a project towards best software engineering practices,
+while not having a leadership position.
 
 RSEs are embedded in communities. There are two different aspects to finding
 these communities: First, we have the aspect of community building for a
@@ -1447,6 +1451,7 @@ social skill-set focused specialisations
 This list and description of competencies is a first step to finding common ground
  around which to structure curricula, institutions, and teachers in this framework.
 Applications of these competencies in an individual's career can be found in @subsec:examplemaster.
+Opportunities for sustainable funding is a concern that is often [@Goble2014; @RSESofN2017; @Carver2021; @Mundt2022] raised by RSEs.
 An omission that we found and that we would like to highlight in order to spark a community discussion is
  that RSEs that choose explicitly a science-supporting role outside of research will not be eligible for funding
  under the statutes of many funding organisations that require at least a PhD.
