@@ -616,7 +616,7 @@ to build and distribute.
 <!-- Use repositories -->
 \skillsection{SWREPOS}
 
-The RSE should be able to identify and use fitting platforms (so-called software repositories or "repos")
+The RSE should be able to identify and use fitting software \glspl{Forge}s (often just termed "repos")
 to share the artefacts they have created and, if possible, invite the public to scrutinise them in an open review process.
 These software repositories usually provide facilities for software development, which 
 differentiate them from the domain repositories described later.
