@@ -570,7 +570,7 @@ The traditional software development life cycle defines the stages that form the
 Initial development generally involves an analytic process where requirements and ideas are gathered and analysed (requirements engineering),
 followed by formulating a plan to fulfil them (design) that is finally turned into running code (implementation).
 This is accompanied by different measures of quality control (e.g., reviews, testing), validating and verifying 
-that things work as expected and that they continue to do so when development progresses further. Depending on the software project, this can mean a simple "Think-before-you-do", or more elaborate and formal processes.
+that things work as expected and that they continue to do so when development progresses further. Depending on the software project, this can mean a simple "Think-before-you-do", or more elaborate and formal processes[@mundt2022tiered].
 Often the development cycles are executed iteratively and incrementally.
 The life cycle further includes periods of deployment, maintenance and further development (software evolution),
 as well as software retirement.
@@ -579,8 +579,7 @@ the RSE should be familiar with different maturity metrics,
 e.g. the DLR application classes [@Schlauch2018b], the research software maturity model [@Deekshitha2024] or technology readiness levels (TRLs).
 Additionally, the research software life cycle extends the traditional life cycle
 with \gls{software-publication}. The RSE should be aware of this life cycle
-and be able to predict and cater to the changing needs of a software project as it moves through the stages 
-[@mundt2022tiered].
+and be able to predict and cater to the changing needs of a software project as it moves through the stages.
 
 
 <!-- Creating documented code building blocks -->
