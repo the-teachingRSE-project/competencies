@@ -708,7 +708,7 @@ different licences, and the ramifications for re-using and composing programs.
 Beyond that, RSEs will need to properly execute the technicalities of software publishing.
 These include the application of licences and copyright statements,
 understanding and assigning software authorship, crediting contributors,
-maintaining FAIR software metadata and publishing software artefacts.
+maintaining FAIR software metadata and publishing software artefacts on respective publication platforms.
 Finally, RSEs will need to understand the principles of software citation [@smith_SoftwareCitationPrinciples2016].
 This concerns both the potential for reuse of their own work,
 which demands the provision of complete and correct up-to-date citation metadata for their software,
