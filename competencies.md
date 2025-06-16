@@ -579,7 +579,8 @@ the RSE should be familiar with different maturity metrics,
 e.g. the DLR application classes [@Schlauch2018b], the research software maturity model [@Deekshitha2024] or technology readiness levels (TRLs).
 Additionally, the research software life cycle extends the traditional life cycle
 with \gls{software-publication}. The RSE should be aware of this life cycle
-and be able to predict and cater to the changing needs of a software project as it moves through the stages.
+and be able to predict and cater to the changing needs of a software project as it moves through the stages 
+[@mundt2022tiered].
 
 
 <!-- Creating documented code building blocks -->
