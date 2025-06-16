@@ -2,11 +2,15 @@
 
 MAKE_PDFA := true
 
+.PHONY: PATCH_PANDOCXNOS
+PATCH_PANDOCXNOS:
+	./patch_pandocxnos.sh
+
 objects := competencies.pdf summarised_competencies.pdf
 
 all: $(objects)
 
-%.pdf: %.md bibliography/bibliography.bib contributors.yml preamble.sty build/template.tex glossary.tex filter.py Makefile
+%.pdf: %.md  PATCH_PANDOCXNOS bibliography/bibliography.bib contributors.yml preamble.sty build/template.tex glossary.tex filter.py Makefile
 	@mkdir -p build
 	@mkdir -p build/svg-inkscape
 	@rm -f build/pdfa.xmpi
