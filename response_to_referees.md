@@ -32,6 +32,31 @@ that is a challenge that has a stronger influence on the education of an RSE tha
 
 The Integration into teams is now mentioned in the Tasks-and-Responsibilities section.
 
+## Reviewer 1 Feedback: Section 5
+
+### 5.2
+
+We are acknowledge that associating fine-grained levels of RSE skills to general
+academic levels has to be quite coarse, exhibits a large degree of subjectivity
+and might not be shared by everybody down to the smallest detail. Yet, we think
+our presentation is consistent. For example a basic understanding of software
+licenses is required to be able use existing software for research according to
+good scientific practice, even ifit is used as a "black box". In response to the
+criticism, we have replaced
+"They should have an awareness of software licences ...
+by
+"They should have a basic awareness of software licences ..."
+
+The second criticism "Not all RSEs have PhDs ..." seems to be based on a
+misunderstanding: In this section we don't talk about RSEs at specific academic
+career-levels but rather about general academics that are not RSE specialists
+but should possess some RSE-related competencies nevertheless. to make this more
+clear, we have modofied the second sentence of the first paragraph from
+"However, many of these competencies are important for researchers in academia as well." to
+"However, many of these competencies are also important for scientists whose main task remains academic research."
+and amended the first sentence of the second paragraph from
+"This section outlines how the RSE competencies could be reflected at all academic levels." to
+"This section outlines how the RSE competencies could be reflected at all academic levels for scientists who do not specialize as RSEs."
 
 
 ## R2.XXX (GH: #395) Reviewer 2 Feedback: page 14 bottom

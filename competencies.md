@@ -970,7 +970,7 @@ Table: Levels of communication skills expected per RSE career stage. {#tbl:comp-
 
 In the previous section,
 we looked at the competency levels needed for RSE specialists.
-However, many of these competencies are important for researchers in academia as well.
+However, many of these competencies are also important for scientists whose main task remains academic research.
 Naturally, the 'R' competencies apply,
 and research in general is increasingly team based.
 Additionally, many researchers in fields from classical examples like
@@ -982,7 +982,7 @@ is also beneficial for students in these fields
 resulting in a broader audience.
 This also means that students as well as researchers need to be given time to acquire those skills, e.g., to be able to attend training in RSE-relevant topics as part of their regular work or study.
 
-This section outlines how the RSE competencies could be reflected at all academic levels.
+This section outlines how the RSE competencies could be reflected at all academic levels for scientists who do not specialize as RSEs.
 It is important to note that this section does not reflect the current state of academic training and research institutions.
 Instead, it summarises the discussions with and between workshop participants at different levels of academic progression on what they would have liked to learn at an earlier stage or know before starting their current position.
 While individuals already work at implementing some of these changes and teaching these skills, it has not yet reached a systemic level.
@@ -1001,7 +1001,7 @@ During their studies, they should also learn about the existence of digital tool
 Undergraduate students should be aware that RSEs exist and that software has different quality aspects (\gls{DOCBB}).
 They should be aware of domain specific tools (\gls{DIST}, \gls{SRU}) and where to find them (\gls{SWREPOS}, \gls{DOMREP}).
 At this level, it may be sufficient to consider software as black boxes (\gls{USERS}) although some training in data presentation would be very helpful and a good way to find out about programming (\gls{MOD}, \gls{NEW}).
-They should have an awareness of software licences and whom to ask regarding licensing issues (\gls{SP}).
+They should have a basic awareness of software licences and whom to ask regarding licensing issues (\gls{SP}).
 They will be taught about the research cycle (\gls{RC}) and that researchers often work in groups (\gls{TEAM}).
 During practicals, they will have an opportunity for peer learning (\gls{TEACH}).
 
