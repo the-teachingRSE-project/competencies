@@ -40,6 +40,10 @@ We agree that a full license discussion would be too much for a Bachelor's degre
 This would fit in a more general discussion around good scientific practice as a primer to a Bachelor's thesis. 
 We expanded on what we mean by awareness to hopefully make this clearer.
 
+Sections 5.2 is about RSE skills that academic researchers may need without being or ever becoming RSEs,
+so this would not be the place to address this issue. We have expanded the introduction to make this distinction clearer.
+However, we agree that a PhD is not (and should not be) a requirement to work as an RSE and
+as hinted at in the future work section we are working on composing a curriculum for a Master's degree in RSE.
 
 ## R2.XXX (GH: #395) Reviewer 2 Feedback: page 14 bottom
 - We added a line break at the indicated position.
