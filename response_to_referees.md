@@ -32,7 +32,7 @@ that is a challenge that has a stronger influence on the education of an RSE tha
 
 The Integration into teams is now mentioned in the Tasks-and-Responsibilities section.
 
-## Reviewer 2 Feedback: Section 5.2
+## Reviewer 1 Feedback: Section 5.2
 >    I disagree with some of the claims here (e.g., license discussion for Bachelor's degree seems like too much). Generally, though, this section is nice. However...
 >    Not all RSEs have PhDs. Most of them do, yes, but many RSEs who do NOT have PhDs are still wildly successful without having gained the proposed skills as PhD students. How do you address that scenario (i.e., where an RSE stops after a Bachelors, Masters, etc.?)
 
