@@ -970,7 +970,8 @@ Table: Levels of communication skills expected per RSE career stage. {#tbl:comp-
 
 In the previous section,
 we looked at the competency levels needed for RSE specialists.
-However, many of these competencies are important for domain researchers in academia as well.
+However, many of these competencies are important for domain researchers in academia as well, 
+who do not specialize in RSE but nevertheless contribute to research software.
 Naturally, the 'R' competencies apply,
 and research in general is increasingly team based.
 Additionally, many researchers in fields from classical examples like
