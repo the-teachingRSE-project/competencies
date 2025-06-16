@@ -878,7 +878,8 @@ We envision newcomers to the RSE field becoming part of a strong network of
 RSEs, tool-related communities, and the classical domain communities,
 making them more effective at supporting research. These networks are a lifelong
 manifestation where RSEs work to provide an inclusive environment for their
-peers and provide opportunities for lifelong learning.
+peers and provide opportunities for lifelong learning. An ever-growing list
+of national associations can be found at [@RSECouncil].
 
 RSEs are also mentoring colleagues (see also @sec:mentoring-and-diversity).
 This necessitates giving good advice that
