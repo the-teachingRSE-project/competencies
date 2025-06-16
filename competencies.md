@@ -1,5 +1,6 @@
 ---
 title: "Foundational Competencies and Responsibilities of a Research Software Engineer"
+subtitle: "Current State and Suggestions for Future Directions"
 geometry: "top=0.5cm,right=2.5cm,bottom=2.5cm,left=2.5cm" # Only for the title page, see include-before for the rest.
 author:
   - Florian Goth | Corresponding author
