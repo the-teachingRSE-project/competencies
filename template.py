@@ -18,7 +18,7 @@ with open(args.file) as f:
     content = f.read()
 
 # generate XMP data and make document PDF-A compliant
-content = re.sub("\n *pdfcreator=\{[^\{\}]+\},?", "\n$if(pdfa-true)$\n$else$\g<0>\n$endif$\n", content)
+content = re.sub(r"\n *pdfcreator=\{[^\{\}]+\},?", r"\n$if(pdfa-true)$\n$else$\g<0>\n$endif$\n", content)
 content = substitute(content, r"\begin{document}", r"""
 $if(pdfa-true)$
 \begin{filecontents*}{\jobname.xmpdata}

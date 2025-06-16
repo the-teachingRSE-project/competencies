@@ -23,9 +23,24 @@ but are not specific to a particular region.
 
 We have now added these examples from the USA, which we previously missed. Thank you for reporting these blind spots!
 
+## Reviewer 1 Feedback: Section 3.1
+>    I notice that "funding methods" is missing from these challenges; there has been a lot of discussion about unreliable funding methods for software and, as a result, RSEs (e.g., https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6886129, https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9470770, https://pure.manchester.ac.uk/ws/portalfiles/portal/54140648/StateOfTheNationReport2017.pdf, https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10071971)
+>    There is also a lack of "RSEs being integrated into existing teams and having to fight that team's culture". Maybe this is too niche to bring up, but it is a challenge that has been spoken about amongst RSE circles (e.g., "How can I get an existing team to change their processes when they are so stuck in their ways?")
+
+We thank the reviewer for his/her feedback. We now mention the funding problem in the future work section of the paper. We thank the referee for the additional references, Since we don't feel
+that is a challenge that has a stronger influence on the education of an RSE than it would have for any other domain scientist.
+
+The Integration into teams is now mentioned in the Tasks-and-Responsibilities section.
+
+## R2.XXX (GH: #395) Reviewer 2 Feedback: page 14 bottom
+- We added a line break at the indicated position.
+
 ## R2.XXX: Indentation of the bullet points after “Research skills” seems to be broken.
 
 Thanks for the feedback, We fixed the indentation in 5.4.1. While at it, we also regenerated the table of contents for F1000.
+
+## R2.XXX The row “SLWC” mentions “bus factors” several times and may need explanation, or should be added to the glossary.
+We checked, the bus factor is referenced in the glossary. We have used the opportunity, to include an html link to the glossary here.
 
 ## R1.ZZZ
 
@@ -40,4 +55,3 @@ Section 4.2.4 - Similar note to 4.1.5; there should be something about "adhering
 "Section 4.4 (Tasks and Responsibilities) - When talking about RSE communities, it might be worth it to reference some of them, e.g., UK-RSE / Soc RSE, deRSE, US-RSE, RSE-AUNZ, RSE Asia, RSSE Africa, etc."
 - We thank the referee for this suggestion, and we took then the opportunity to link to the overview page of
 the international RSE council, which lists all national groups, and thereby also will be updated in the future.
-
