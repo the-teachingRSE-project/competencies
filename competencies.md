@@ -698,7 +698,8 @@ research domain at hand.
 \skillsection{SP}
 
 Another part of \ac{FAIR} software is concerned with publishing new and derived works
-and making them available for re-use by the research community and the general public.
+and making them available for re-use by the research community and the general public
+within the boundaries set by their institutional policies.
 RSEs need to have a basic understanding of common software licence types, including
 proprietary and open source licences and how "copyleft" and "permissive" open
 source licences differ. They should also understand compatibility between
