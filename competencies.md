@@ -1060,8 +1060,8 @@ to and support them, complementing those proposed by [@Katerbow2018]. Some of t
 We first summarise the meaning of each of the columns in the tables:
 
 - **Competency:** The code assigned to the competency being considered, as defined in @sec:required-generic-skills, e.g. \gls{TEAM}.
-- **Individual RSE (Locally-based):** A single person working on some
-research software - often an RSE with focus on their own research. Often time-constrained,
+- **Individual RSE (Locally-based):** A single person working on
+software within a research project - for example a domain RSE with focus on their own specific research. Often time-constrained,
       may be self-taught.
 - **Individual RSE (RSE team-based):** A single person working on research
   software - generally a professional RSE assigned to support another team's software on their own,
