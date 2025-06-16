@@ -32,6 +32,13 @@ that is a challenge that has a stronger influence on the education of an RSE tha
 
 The Integration into teams is now mentioned in the Tasks-and-Responsibilities section.
 
+## Reviewer 2 Feedback: Section 5.2
+>    I disagree with some of the claims here (e.g., license discussion for Bachelor's degree seems like too much). Generally, though, this section is nice. However...
+>    Not all RSEs have PhDs. Most of them do, yes, but many RSEs who do NOT have PhDs are still wildly successful without having gained the proposed skills as PhD students. How do you address that scenario (i.e., where an RSE stops after a Bachelors, Masters, etc.?)
+
+We agree that a full license discussion would be too much for a Bachelor's degree, we really mean a very basic awareness that different licenses exist and may come with obligations (e.g. copyleft),
+which would fit in a more general discussion around academic conduct as a primer to a Bachelor's thesis. 
+We expanded on what we mean by awareness to hopefully make this clearer.
 
 
 ## R2.XXX (GH: #395) Reviewer 2 Feedback: page 14 bottom
