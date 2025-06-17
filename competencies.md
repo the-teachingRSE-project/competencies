@@ -1608,6 +1608,8 @@ Core modules are of course drawn from the three pillars of the RSE and can be ca
   - Communication skills module: Here we have courses focusing on interdisciplinary communication, interacting across cultures, communication in hierarchies, supporting end users effectively. These are all facets of the (\gls{USERS}) skill.
   - Teaching module: This module covers topics to effectively design courses and teaching material for the various digital tools, thereby strengthening the (\gls{TEACH}) skill.
 
+Throughout the programme the values outlined in @sec:values are incorporated into the sessions to raise awareness of the codes of conduct and to put these values into ethical practice (see e.g. [@Brown2024]).
+
 Given that RSE work also involves a lot of craftsmanship skills,
 hands-on practice is an integral part of the curriculum.
 At least two lab projects are required within the mandatory curriculum.
