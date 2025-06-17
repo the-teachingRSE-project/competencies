@@ -9,3 +9,4 @@ Reviews 2: Indentation of the bullet points after “Research skills” seems to
 
 ## R2: Section 3(Values)
 - corrupted sentence is fixed in markdown version of the paper
+- changed "RSEs also adhere to the SE Code of Ethics..." to "RSEs also need to adhere to..." to indicate that this is an aspiration
