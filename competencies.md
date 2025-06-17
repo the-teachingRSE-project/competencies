@@ -111,6 +111,8 @@ comprehensive definition of what an RSE does
 and what experience, skills and competencies are required to become one is challenging.
 In this community paper we define the broad notion of what an RSE is, explore the different types of work they undertake, and
 define a list of foundational competencies as well as values that outline the general profile of an RSE.
+These foundational skills are encountered to a large extent within the skill sets of current RSEs in Germany and beyond,
+and we propose them as a starting point for aspiring RSEs to shape their technical profile.
 Further research and training can build upon this foundation of skills 
 and focus on various aspects in greater detail. 
 We expect that graduates and practitioners will have a larger 
@@ -202,6 +204,8 @@ annotated, re-usable, and potentially remotely executable data.
 In particular, funding agencies and research managers will find the discussion in this paper
 valuable in order to discover where RSEs see their place in the existing landscape of scientific domains
 and how to support the work of RSEs at different positions and career levels.
+While we draw mostly from experiences of RSEs working in Germany or,
+in some cases, across Europe and the US, our recommendations do not focus on a particular region.
 
 The outline of the paper is as follows.
 We start with a non-exhaustive overview of existing initiatives in @sec:related-work.
@@ -334,6 +338,7 @@ A similar framework is provided by CodeRefinery [@CodeRefinery], currently
 funded by the Nordic e-Infrastructure,
 as well as SURESOFT [@SURESOFTLink; @SURESOFT2022], a project at Technical University (TU) Braunschweig and Friedrich-Alexander-University (FAU) Erlangen-Nürnberg, funded by the \ac{DFG} and targeting more advanced \ac{SE} topics such as
 software design principles, \glspl{design-pattern}, refactoring, \ac{CI} and \ac{TDD}.
+The INTERSECT RSE Training project [@INTERSECTOnlineResources; @Carver2020] also provides training materials and organises training events in the USA, funded by the NSF.
 
 There are also several initiatives focused on training \acrshort{HPC}-oriented RSEs,
 such as the \acrfull{PRACE} [@PRACE]
@@ -341,6 +346,9 @@ such as the \acrfull{PRACE} [@PRACE]
 \ac{UNIVERSE-HPC} [@UNIVERSEHPC] (a project funded under the \acrshort{UK}'s
 ExCALIBUR research programme [@EXCALIBUR]), and the \ac{ENCCS} [@ENCCS],
 which offers a collection of lessons for \ac{HPC} skills [@ENCCSLessons].
+At the intersection between \ac{HPC} and the broader RSE field, the IDEAS PRODUCTIVITY project [@IDEAS]
+organises online events, provides training material via the Better Scientific Software (BSSw) project [@BSSW]
+and maintains HPC-focused guidelines, such as the Extreme-scale Scientific Software Development Kit [@xSDK].
 
 Initiatives focused on Germany include EduTrain [@EDUTRAIN] (a section of the \acrfull{NFDI} [@NFDI]),
 the \acrfull{HIFIS} [@HIFIS], and the already mentioned SURESOFT [@SURESOFTLink].
@@ -859,6 +867,10 @@ members depends on the \gls{TEAM} skill. Today, this frequently involves the eff
 of collaborative platforms like \gls{GitHub}/\gls{GitLab}, honouring a
 project's code of conduct, and some knowledge of popular open source software licences,
 e.g. the \ac{GPL}.
+The \gls{TEAM} skill will play a major role when an RSE is introduced to an existing project.
+An existing project will have grown some idiosyncratic habits and processes.
+Often it will require all the skills and patience of an RSE to steer a project towards best software engineering practices,
+while not having a leadership position.
 
 RSEs are embedded in communities. There are two different aspects to finding
 these communities: First, we have the aspect of community building for a
@@ -878,6 +890,7 @@ RSEs are also mentoring colleagues (see also @sec:mentoring-and-diversity).
 This necessitates giving good advice that
 fits to a project's stage in its life cycle, thereby requiring knowledge of
 (\gls{SWLC}), and its context in its research domain and thus (\gls{RC}).
+
 Research software can often start out as a tool to answer a personal research
 question, becoming more important when other researchers start to rely on it.
 At the other end of the scale, research software can sometimes underpin key
@@ -960,7 +973,8 @@ Table: Levels of communication skills expected per RSE career stage. {#tbl:comp-
 
 In the previous section,
 we looked at the competency levels needed for RSE specialists.
-However, many of these competencies are important for researchers in academia as well.
+However, many of these competencies are important for domain researchers in academia as well, 
+who do not specialise in RSE but nevertheless contribute to research software.
 Naturally, the 'R' competencies apply,
 and research in general is increasingly team based.
 Additionally, many researchers in fields from classical examples like
@@ -973,6 +987,7 @@ resulting in a broader audience.
 This also means that students as well as researchers need to be given time to acquire those skills, e.g., to be able to attend training in RSE-relevant topics as part of their regular work or study.
 
 This section outlines how the RSE competencies could be reflected at all academic levels.
+Again, this relates to domain studies and non-RSE positions in academia.
 It is important to note that this section does not reflect the current state of academic training and research institutions.
 Instead, it summarises the discussions with and between workshop participants at different levels of academic progression on what they would have liked to learn at an earlier stage or know before starting their current position.
 While individuals already work at implementing some of these changes and teaching these skills, it has not yet reached a systemic level.
@@ -991,7 +1006,7 @@ During their studies, they should also learn about the existence of digital tool
 Undergraduate students should be aware that RSEs exist and that software has different quality aspects (\gls{DOCBB}).
 They should be aware of domain specific tools (\gls{DIST}, \gls{SRU}) and where to find them (\gls{SWREPOS}, \gls{DOMREP}).
 At this level, it may be sufficient to consider software as black boxes (\gls{USERS}) although some training in data presentation would be very helpful and a good way to find out about programming (\gls{MOD}, \gls{NEW}).
-They should have an awareness of software licences and whom to ask regarding licensing issues (\gls{SP}).
+They should have a basic awareness of software licences, such as legal pitfalls and implications for good scientific practice (\gls{SP}).
 They will be taught about the research cycle (\gls{RC}) and that researchers often work in groups (\gls{TEAM}).
 During practicals, they will have an opportunity for peer learning (\gls{TEACH}).
 
@@ -1441,6 +1456,7 @@ social skill-set focused specialisations
 This list and description of competencies is a first step to finding common ground
  around which to structure curricula, institutions, and teachers in this framework.
 Applications of these competencies in an individual's career can be found in @subsec:examplemaster.
+Opportunities for sustainable funding is a concern that is often [@Goble2014; @RSESofN2017; @Carver2021; @Mundt2022] raised by RSEs.
 An omission that we found and that we would like to highlight in order to spark a community discussion is
  that RSEs that choose explicitly a science-supporting role outside of research will not be eligible for funding
  under the statutes of many funding organisations that require at least a PhD.
