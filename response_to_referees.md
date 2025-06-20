@@ -24,7 +24,7 @@ but are not specific to a particular region.
 We have now added these examples from the USA, which we previously missed. Thank you for reporting these blind spots!
 
 ## R1: Section 3 (Values)
-- we agree with the reviewer taht many RSEs are probably unaware of these code of conducts. However we feel that this is an important aspect for RSEs going forward. They will need at least some basic familiarity with to support their future work.
+- we agree with the reviewer that many RSEs are probably unaware of these code of conducts. However we feel that this is an important aspect for RSEs going forward. They will need at least some basic familiarity with it to support their future work.
 - add sentences to explain why these values are stated explicitly here even though many practioners will learn about these values by following the examples of their peers and mentors. 
 - fixed in markdown version of the paper
 
