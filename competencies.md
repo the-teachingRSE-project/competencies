@@ -370,7 +370,7 @@ Further values loosely based on that code include the obligations
 + to promote these values whenever possible and make sure that they are passed on to new practitioners.
 
 Many practitioners will follow the values expressed in these codes of conduct without knowing them because they are passed on implicitly by their peers and mentors [@Consoli2008]. 
-Here, they are stated explicitly because they underpin the foundational competencies and responsibilities of RSEs.
+Here, they are stated explicitly because they underpin the foundational competencies and responsibilities of RSEs who are professionals living in both worlds.
 
 The deployment of computer-based modelling and simulation has dramatically changed the practice of science in a large number of fields.
 It has enabled the hitherto impossible study of new classes of problems,
