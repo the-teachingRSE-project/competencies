@@ -32,7 +32,10 @@ that is a challenge that has a stronger influence on the education of an RSE tha
 
 The Integration into teams is now mentioned in the Tasks-and-Responsibilities section.
 
-## Reviewer 1 Feedback: Section 5.2
+## Reviewer 1 Feedback: Section 5
+
+### 5.2
+
 >    I disagree with some of the claims here (e.g., license discussion for Bachelor's degree seems like too much). Generally, though, this section is nice. However...
 >    Not all RSEs have PhDs. Most of them do, yes, but many RSEs who do NOT have PhDs are still wildly successful without having gained the proposed skills as PhD students. How do you address that scenario (i.e., where an RSE stops after a Bachelors, Masters, etc.?)
 
@@ -44,6 +47,12 @@ Sections 5.2 is about RSE skills that academic researchers may need without bein
 so this would not be the place to address this issue. We have expanded the introduction to make this distinction clearer.
 However, we agree that a PhD is not (and should not be) a requirement to work as an RSE and
 as hinted at in the future work section we are working on composing a curriculum for a Master's degree in RSE.
+
+## 5.3
+
+> Section 5.3 (Project team structures) - there is a gap here: "The single RSE on a team of not-RSEs who does not have a central RSE team connection." These do exist (sadly).
+
+We have clarified that this type of RSE (alone in a team of non-RSEs) is also meant in the category "Individual RSE (Locally-based)".
 
 ## R2.XXX (GH: #395) Reviewer 2 Feedback: page 14 bottom
 - We added a line break at the indicated position.
