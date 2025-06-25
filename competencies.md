@@ -410,7 +410,7 @@ They work with a varying and diverse set of colleagues that might include other 
 support unit staff and academics of different fields and all career stages.
 This situation yields a specific set of challenges RSEs should be aware of
 to consciously make ethically sound judgement calls.
-We list some example areas that highlight present-day challenges.
+Below we list some example areas that highlight present-day challenges.
 
 ## Current challenges
 
