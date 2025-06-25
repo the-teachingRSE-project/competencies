@@ -445,7 +445,7 @@ the diversity problems and help to mitigate them whenever they have the chance t
 
 ### Shaping digital science
 
-Through writing research software, RSEs have a pivotal position in the process of scientific production.
+Through writing research software, RSEs occupy a pivotal position in the process of scientific production.
 Their choices might determine whether the respective research is reproducible or not,
 whether the results can be re-used, whether future research can build on existing tools or has to start from scratch.
 Builders of larger research-infrastructure projects determine to some extent the possibilities and limitations of future research
