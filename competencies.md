@@ -763,7 +763,7 @@ The RSE should have knowledge of project management processes. At some
 institutes, project management tools and approaches differ between individual research groups,
 but it is useful if an RSE understands general structures of a \gls{PM} scheme, or can bring in new ideas for improvement.
 Project management in research software engineering poses specific challenges (see \gls{USERS}) that might require the capacity
-to flexibly adapt to changing conditions and deviate from common project management methods.
+to adapt to changing conditions and deviate from common project management methods.
 Additionally, the RSE should know that SE offers various methods and approaches
 specifically tailored to management of software projects and products.
 
