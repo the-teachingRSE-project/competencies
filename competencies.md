@@ -506,7 +506,7 @@ categories, with a particular focus on the software and
 research cycle and the scientific process. These competencies are relevant in a
 broad setting and form the foundation for specific specialisations.
 These competencies have been chosen in order to make RSEs contribute to an open and inclusive research
-environment, with tools that respect their professional values.
+environment, with tools that respect their professional values (see @sec:values).
 
 These skills and competencies come into play in various forms: The
 RSEs themselves need to acquire and develop them as their career progresses
