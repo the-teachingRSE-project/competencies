@@ -453,7 +453,7 @@ and therefore need to be able to make a value-based judgement on topics
 such as open science, path dependence, and vendor lock-in.
 
 
-### Addressing environmental sustainability within planetary limits
+### Addressing environmental sustainability within planetary limits {#sec:environmental-sustainability}
 
 The last two decades saw transistor technology approach the limits of attainable miniaturisation, 
 and maximum chip clock frequency begin to plateau [@Sutter2005].
@@ -814,7 +814,7 @@ The RSE needs to be able to choose appropriate algorithms and techniques
 also informed by the values outlined in @sec:values. For example, the
 RSE needs to be able to estimate resource usage (processing, memory and storage
 consumption, e.g. [@Lannelongue2021]). Resource usage has not only a direct financial price tag but also
-environmental costs via associated energy consumption.
+environmental costs via associated energy consumption (see @sec:environmental-sustainability).
 
 Software development also includes testing. This task is a manifestation of the
 \ac{SE} competencies of \gls{DOCBB} and \gls{MOD} since a model of the software
