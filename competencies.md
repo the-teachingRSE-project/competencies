@@ -414,7 +414,7 @@ Below we list some example areas that highlight present-day challenges.
 
 ## Current challenges
 
-### Handling of data and personal data
+### Handling of data and personal data {#sec:personal-data}
 
 A lot of RSE work involves the manipulation or creation of data processing tools.
 We highlight that professional conduct requires these creations to be reliable and to maintain data integrity.
@@ -635,7 +635,7 @@ An RSE should understand their output and its implications.
 An important facet of this capability relates to information security.
 RSEs need to consider the safety and integrity of personal data and other sensitive information
 and make sure that they do not negatively impact the integrity of their
-institution's network and computing infrastructure.
+institution's network and computing infrastructure (see @sec:personal-data).
 
 ## Research skills {#sec:research-skills}
 
