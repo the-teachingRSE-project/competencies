@@ -32,8 +32,15 @@ all: $(objects)
 	    -V papersize=a4 \
 	    -o "build/${@:.pdf=}.tex" \
 	    "build/$<"
+	# various patches to the generated file
 	@sed -i '/\\author{}/d' "build/${@:.pdf=}.tex"
 	@sed -ri 's/(\\label\{[a-zA-Z0-9_:-]+\})\}\1/\1}/' "build/${@:.pdf=}.tex"
+	# try to gain some space on the first page to avoid keywords appearing alone on the second page
+	if [ "${@:.pdf=}" = competencies ]; then \
+		sed -ri 's/^\\maketitle$$/\\maketitle\n\\vspace{-1em}/' "build/${@:.pdf=}.tex"; \
+		python3 -c "import re,pathlib;p=pathlib.Path('build/${@:.pdf=}.tex');p.write_text(re.sub('.begin.center..rule.0.5.linewidth.+(?=\\n\\n.newpage)','',p.read_text(),flags=re.M))"; \
+	fi
+	# build glossary auxiliary files
 	if grep -q "\\makeglossaries" "${<}"; then \
 		cd build; \
 		pdflatex -shell-escape --jobname="${@:.pdf=}" "${@:.pdf=}.tex"; \
