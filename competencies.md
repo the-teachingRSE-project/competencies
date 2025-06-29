@@ -356,8 +356,8 @@ the \acrfull{HIFIS} [@HIFIS], and the already mentioned SURESOFT [@SURESOFTLin
 # Values {#sec:values}
 
 It is important that the activities of an RSE are guided by ethical values.
-In addition to the values for good scientific practice [@dfg_gsp], RSEs also adhere to
-the \ac{SE} Code of Ethics [@Gotterbarn1999].
+In addition to the values for good scientific practice [@dfg_gsp], RSEs also need to adhere
+to the \ac{SE} Code of Ethics [@Gotterbarn1999].
 Central to that code is the RSE's obligation to
 commit to the health, safety and welfare of the public and act in the interest of society, their employer and their clients.
 Further values loosely based on that code include the obligations
@@ -368,6 +368,9 @@ Further values loosely based on that code include the obligations
 + to judge independently and maintain professional integrity,
 + to treat colleagues and collaborators with respect and work towards a fair and inclusive environment, and
 + to promote these values whenever possible and make sure that they are passed on to new practitioners.
+
+Many practitioners will follow the values expressed in these codes of conduct without knowing them because they are passed on implicitly by their peers and mentors [@Consoli2008]. 
+Here, they are stated explicitly because they underpin the foundational competencies and responsibilities of RSEs who are professionals living in both worlds.
 
 The deployment of computer-based modelling and simulation has dramatically changed the practice of science in a large number of fields.
 It has enabled the hitherto impossible study of new classes of problems,
@@ -1604,6 +1607,8 @@ Core modules are of course drawn from the three pillars of the RSE and can be ca
   - Project management methods: Here we teach project management methods that are useful in science, such as agile ones (\gls{PM}).
   - Communication skills module: Here we have courses focusing on interdisciplinary communication, interacting across cultures, communication in hierarchies, supporting end users effectively. These are all facets of the (\gls{USERS}) skill.
   - Teaching module: This module covers topics to effectively design courses and teaching material for the various digital tools, thereby strengthening the (\gls{TEACH}) skill.
+
+Throughout the programme the values outlined in @sec:values are incorporated into the sessions to raise awareness of the codes of conduct and to put these values into ethical practice (see e.g. [@Brown2024]).
 
 Given that RSE work also involves a lot of craftsmanship skills,
 hands-on practice is an integral part of the curriculum.
