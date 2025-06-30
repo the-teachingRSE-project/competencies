@@ -1,5 +1,5 @@
 # Response to referees
-## R1.1: Scope
+## Reviewer 1: Scope
 
 > Scope: How large is the scope of this paper?
 > Is it meant to encompass RSEs around the globe or focused primarily on European RSEs?
@@ -13,7 +13,7 @@ while aiming to be guidelines for aspiring RSEs.
 We have also clarified that our recommendations draw from experiences in Germany, Europe, and the US,
 but are not specific to a particular region.
 
-## R1.2: Related work
+## Reviewer 1: Related work
 
 > - Section 2 (Related Work):
 >    - Related to scope question: If this is intended to be more widespread, I recommend including references to
@@ -22,6 +22,11 @@ but are not specific to a particular region.
 >      IDEAS-productivity (https://ideas-productivity.org)
 
 We have now added these examples from the USA, which we previously missed. Thank you for reporting these blind spots!
+
+## Reviewer 1: Section 3 (Values)
+- we agree with the reviewer that many RSEs are probably unaware of these code of conducts. However we feel that this is an important aspect for RSEs going forward. They will need at least some basic familiarity with it to support their future work.
+- add sentences to explain why these values are stated explicitly here even though many practioners will learn about these values by following the examples of their peers and mentors. 
+- fixed in markdown version of the paper
 
 ## Reviewer 1 Feedback 4:
 
@@ -36,7 +41,6 @@ Section 4.2.4 - Similar note to 4.1.5; there should be something about "adhering
 "Section 4.4 (Tasks and Responsibilities) - When talking about RSE communities, it might be worth it to reference some of them, e.g., UK-RSE / Soc RSE, deRSE, US-RSE, RSE-AUNZ, RSE Asia, RSSE Africa, etc."
 - We thank the referee for this suggestion, and we took then the opportunity to link to the overview page of
 the international RSE council, which lists all national groups, and thereby also will be updated in the future.
-
 
 ## Reviewer 1 Feedback: Section 3.1
 >    I notice that "funding methods" is missing from these challenges; there has been a lot of discussion about unreliable funding methods for software and, as a result, RSEs (e.g., https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6886129, https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9470770, https://pure.manchester.ac.uk/ws/portalfiles/portal/54140648/StateOfTheNationReport2017.pdf, https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10071971)
@@ -69,13 +73,18 @@ as hinted at in the future work section we are working on composing a curriculum
 
 We have clarified that this type of RSE (alone in a team of non-RSEs) is also meant in the category "Individual RSE (Locally-based)".
 
-## R2.1 (GH: #395) Reviewer 2 Feedback: page 14 bottom
+## Reviewer 2: Section 3(Values)
+- corrupted sentence is fixed in markdown version of the paper
+- changed "RSEs also adhere to the SE Code of Ethics..." to "RSEs also need to adhere to..." to indicate that this is an aspiration
+- good point to refer back to values from the example curriculum. We have expanded the example curriculum accordingly.
+
+## Reviewer 2 (GH: #395) Reviewer 2 Feedback: page 14 bottom
 - We added a line break at the indicated position.
 
-## R2.2: Indentation of the bullet points after “Research skills” seems to be broken.
+## Reviewer 2: Indentation of the bullet points after “Research skills” seems to be broken.
 
 Thanks for the feedback, We fixed the indentation in 5.4.1. While at it, we also regenerated the table of contents for F1000.
 
-## R2.3 The row “SLWC” mentions “bus factors” several times and may need explanation, or should be added to the glossary.
+## Reviewer 2: The row “SLWC” mentions “bus factors” several times and may need explanation, or should be added to the glossary.
 We checked, the bus factor is referenced in the glossary. We have used the opportunity, to include an html link to the glossary here.
 
