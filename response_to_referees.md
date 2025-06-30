@@ -23,6 +23,16 @@ but are not specific to a particular region.
 
 We have now added these examples from the USA, which we previously missed. Thank you for reporting these blind spots!
 
+## R1: Section 3 (Values)
+- we agree with the reviewer that many RSEs are probably unaware of these code of conducts. However we feel that this is an important aspect for RSEs going forward. They will need at least some basic familiarity with it to support their future work.
+- add sentences to explain why these values are stated explicitly here even though many practioners will learn about these values by following the examples of their peers and mentors. 
+- fixed in markdown version of the paper
+
+## R2: Section 3(Values)
+- corrupted sentence is fixed in markdown version of the paper
+- changed "RSEs also adhere to the SE Code of Ethics..." to "RSEs also need to adhere to..." to indicate that this is an aspiration
+- good point to refer back to values from the example curriculum. We have expanded the example curriculum accordingly.
+
 ## Reviewer 1 Feedback: Section 3.1
 >    I notice that "funding methods" is missing from these challenges; there has been a lot of discussion about unreliable funding methods for software and, as a result, RSEs (e.g., https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6886129, https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9470770, https://pure.manchester.ac.uk/ws/portalfiles/portal/54140648/StateOfTheNationReport2017.pdf, https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10071971)
 >    There is also a lack of "RSEs being integrated into existing teams and having to fight that team's culture". Maybe this is too niche to bring up, but it is a challenge that has been spoken about amongst RSE circles (e.g., "How can I get an existing team to change their processes when they are so stuck in their ways?")
