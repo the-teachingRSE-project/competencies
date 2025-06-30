@@ -49,5 +49,8 @@ build/template.tex: template.py
 	pandoc --print-default-template=latex > "${@}"
 	python3 "${<}" "${@}"
 
+patch_pandocxnos:
+	./patch_pandocxnos.sh
+
 clean:
 	rm -f $(objects)

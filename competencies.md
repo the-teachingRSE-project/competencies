@@ -410,11 +410,11 @@ They work with a varying and diverse set of colleagues that might include other 
 support unit staff and academics of different fields and all career stages.
 This situation yields a specific set of challenges RSEs should be aware of
 to consciously make ethically sound judgement calls.
-We list some example areas that highlight present-day challenges.
+Below we list some example areas that highlight present-day challenges.
 
 ## Current challenges
 
-### Handling of data and personal data
+### Handling of data and personal data {#sec:personal-data}
 
 A lot of RSE work involves the manipulation or creation of data processing tools.
 We highlight that professional conduct requires these creations to be reliable and to maintain data integrity.
@@ -445,7 +445,7 @@ the diversity problems and help to mitigate them whenever they have the chance t
 
 ### Shaping digital science
 
-Through writing research software, RSEs have a pivotal position in the process of scientific production.
+Through writing research software, RSEs hold an important role in the process of scientific production.
 Their choices might determine whether the respective research is reproducible or not,
 whether the results can be re-used, whether future research can build on existing tools or has to start from scratch.
 Builders of larger research-infrastructure projects determine to some extent the possibilities and limitations of future research
@@ -453,7 +453,7 @@ and therefore need to be able to make a value-based judgement on topics
 such as open science, path dependence, and vendor lock-in.
 
 
-### Addressing environmental sustainability within planetary limits
+### Addressing environmental sustainability within planetary limits {#sec:environmental-sustainability}
 
 The last two decades saw transistor technology approach the limits of attainable miniaturisation, 
 and maximum chip clock frequency begin to plateau [@Sutter2005].
@@ -506,7 +506,7 @@ categories, with a particular focus on the software and
 research cycle and the scientific process. These competencies are relevant in a
 broad setting and form the foundation for specific specialisations.
 These competencies have been chosen in order to make RSEs contribute to an open and inclusive research
-environment, with tools that respect their professional values.
+environment, with tools that respect their professional values (see @sec:values).
 
 These skills and competencies come into play in various forms: The
 RSEs themselves need to acquire and develop them as their career progresses
@@ -635,7 +635,7 @@ An RSE should understand their output and its implications.
 An important facet of this capability relates to information security.
 RSEs need to consider the safety and integrity of personal data and other sensitive information
 and make sure that they do not negatively impact the integrity of their
-institution's network and computing infrastructure.
+institution's network and computing infrastructure (see @sec:personal-data).
 
 ## Research skills {#sec:research-skills}
 
@@ -764,7 +764,7 @@ The RSE should have knowledge of project management processes. At some
 institutes, project management tools and approaches differ between individual research groups,
 but it is useful if an RSE understands general structures of a \gls{PM} scheme, or can bring in new ideas for improvement.
 Project management in research software engineering poses specific challenges (see \gls{USERS}) that might require the capacity
-to flexibly adapt to changing conditions and deviate from common project management methods.
+to adapt to changing conditions and deviate from common project management methods.
 Additionally, the RSE should know that SE offers various methods and approaches
 specifically tailored to management of software projects and products.
 
@@ -815,7 +815,7 @@ The RSE needs to be able to choose appropriate algorithms and techniques
 also informed by the values outlined in @sec:values. For example, the
 RSE needs to be able to estimate resource usage (processing, memory and storage
 consumption, e.g. [@Lannelongue2021]). Resource usage has not only a direct financial price tag but also
-environmental costs via associated energy consumption.
+environmental costs via associated energy consumption (see @sec:environmental-sustainability).
 
 Software development also includes testing. This task is a manifestation of the
 \ac{SE} competencies of \gls{DOCBB} and \gls{MOD} since a model of the software
@@ -922,7 +922,7 @@ depending on their circumstances. A strong beneficiary of specialised RSEs can a
 ## Career level
 
 At different career levels, differing skills are required.
-To elaborate on that, we have prepared the following table with three levels of experience in mind.
+To elaborate on that, we have prepared the following tables with three levels of experience in mind.
 
 - Junior RSE: These are people who are in the earlier stages of their RSE career journey, but they should ideally have research experience of their own as well as the skills to contribute reliable and well-structured code to software projects.
 - Senior RSE: They have gained experience, both concerning their software skills as well as in their research collaborations in potentially many different fields. They can set the standards in a software project.
@@ -1295,7 +1295,7 @@ as is a range of different roles from King's Digital Lab at King's College Londo
 
 # RSE specialisations {#sec:rse-specialisations}
 
-What we have defined above are intended to be base skills that an RSE irrespective of domain, position, and experience should know about.
+What we have defined above is intended to be a set of base skills that an RSE irrespective of domain, position, and experience should know about.
 There is a large variety of RSEs. They specialise in different areas,
 some of which we want to present below. Many of the specialisations may overlap,
 so the same RSE might for example work on data management and open science.
