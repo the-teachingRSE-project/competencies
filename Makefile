@@ -2,10 +2,6 @@
 
 MAKE_PDFA := true
 
-.PHONY: PATCH_PANDOCXNOS
-PATCH_PANDOCXNOS:
-	./patch_pandocxnos.sh
-
 objects := competencies.pdf summarised_competencies.pdf
 
 all: $(objects)
@@ -52,6 +48,9 @@ build/template.tex: template.py
 	@mkdir -p build
 	pandoc --print-default-template=latex > "${@}"
 	python3 "${<}" "${@}"
+
+patch_pandocxnos:
+	./patch_pandocxnos.sh
 
 clean:
 	rm -f $(objects)
