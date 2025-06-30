@@ -43,6 +43,12 @@ You will also need to install a few Python packages:
 
 ```sh
 python3 -m pip install -r requirements.txt
+
+```
+If the creation of the pdf fails with an error `"Cannot understand pandocversion"`, this is caused by a bug in the Pandoc extension [pandoc-xnos](https://github.com/tomduck/pandoc-xnos). If you have installed pandoc-xnos in a virtual environment, you can fix this bug by running
+
+``` sh
+make patch_pandocxnos
 ```
 
 ### Bibliography
