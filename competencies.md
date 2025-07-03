@@ -522,7 +522,7 @@ the different RSE specialisations (**RSE specialisations**).
 
 
 During the Paderborn workshop (deRSE23) we asked learners and novice RSEs what they would
-like to have learnt. The top five items mentioned were: testing, contributing to
+like to have learnt. The top five items mentioned were (@derse23pad): testing, contributing to
 large projects, when or why to keep repositories private, high-quality software development, and
 finding a community. Those topics comprise combinations of the skills and
 competencies defined below. We will elaborate these in
