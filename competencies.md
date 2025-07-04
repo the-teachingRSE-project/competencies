@@ -193,7 +193,7 @@ would have chosen different competencies, we will argue that this trifecta of sk
 is exactly what is needed for modern, software-enabled research. -->
 
 While this community paper is based on workshop discussions that were attended
-largely by RSEs (deRSE23 in Paderborn, un-deRSE23 in
+largely by RSEs (deRSE23 in Paderborn [@derse23pad], un-deRSE23 in
 Jena, and deRSE24 in Würzburg, all in Germany),
 we believe that the competencies formulated here can offer far-reaching
 impact beyond the domain of RSE into adjacent aspects of research and, indeed, the wider research community.
@@ -573,7 +573,7 @@ The traditional software development life cycle defines the stages that form the
 Initial development generally involves an analytic process where requirements and ideas are gathered and analysed (requirements engineering),
 followed by formulating a plan to fulfil them (design) that is finally turned into running code (implementation).
 This is accompanied by different measures of quality control (e.g., reviews, testing), validating and verifying 
-that things work as expected and that they continue to do so when development progresses further. Depending on the software project, this can mean a simple "Think-before-you-do", or more elaborate and formal processes.
+that things work as expected and that they continue to do so when development progresses further. Depending on the software project, this can mean a simple "Think-before-you-do", or more elaborate and formal processes[@mundt2022tiered].
 Often the development cycles are executed iteratively and incrementally.
 The life cycle further includes periods of deployment, maintenance and further development (software evolution),
 as well as software retirement.
@@ -618,8 +618,8 @@ to build and distribute.
 <!-- Use repositories -->
 \skillsection{SWREPOS}
 
-The RSE should be able to identify and use fitting public platforms (so-called software repositories or "repos")
-to share the artefacts they have created and invite the public to scrutinise them in public reviews.
+The RSE should be able to identify and use fitting software \glspl{Forge} (often just termed "repos")
+to share the artefacts they have created and, if possible, invite the public to scrutinise them in an open review process.
 These software repositories usually provide facilities for software development, which 
 differentiate them from the domain repositories described later.
 
@@ -701,7 +701,8 @@ research domain at hand.
 \skillsection{SP}
 
 Another part of \ac{FAIR} software is concerned with publishing new and derived works
-and making them available for re-use by the research community and the general public.
+and making them available for re-use by the research community and the general public
+within the boundaries set by their institutional policies.
 RSEs need to have a basic understanding of common software licence types, including
 proprietary and open source licences and how "copyleft" and "permissive" open
 source licences differ. They should also understand compatibility between
@@ -709,7 +710,7 @@ different licences, and the ramifications for re-using and composing programs.
 Beyond that, RSEs will need to properly execute the technicalities of software publishing.
 These include the application of licences and copyright statements,
 understanding and assigning software authorship, crediting contributors,
-maintaining FAIR software metadata and publishing software artefacts.
+maintaining FAIR software metadata and publishing software artefacts on respective publication platforms.
 Finally, RSEs will need to understand the principles of software citation [@smith_SoftwareCitationPrinciples2016].
 This concerns both the potential for reuse of their own work,
 which demands the provision of complete and correct up-to-date citation metadata for their software,
@@ -884,7 +885,8 @@ We envision newcomers to the RSE field becoming part of a strong network of
 RSEs, tool-related communities, and the classical domain communities,
 making them more effective at supporting research. These networks are a lifelong
 manifestation where RSEs work to provide an inclusive environment for their
-peers and provide opportunities for lifelong learning.
+peers and provide opportunities for lifelong learning. An ever-growing list
+of national associations can be found at [@RSECouncil].
 
 RSEs are also mentoring colleagues (see also @sec:mentoring-and-diversity).
 This necessitates giving good advice that

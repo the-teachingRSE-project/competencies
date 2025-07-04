@@ -1,5 +1,5 @@
 # Response to referees
-## R1.1: Scope
+## Reviewer 1: Scope
 
 > Scope: How large is the scope of this paper?
 > Is it meant to encompass RSEs around the globe or focused primarily on European RSEs?
@@ -13,7 +13,7 @@ while aiming to be guidelines for aspiring RSEs.
 We have also clarified that our recommendations draw from experiences in Germany, Europe, and the US,
 but are not specific to a particular region.
 
-## R1.2: Related work
+## Reviewer 1: Related work
 
 > - Section 2 (Related Work):
 >    - Related to scope question: If this is intended to be more widespread, I recommend including references to
@@ -23,15 +23,25 @@ but are not specific to a particular region.
 
 We have now added these examples from the USA, which we previously missed. Thank you for reporting these blind spots!
 
-## R1: Section 3 (Values)
+## Reviewer 1: Section 3 (Values)
 - we agree with the reviewer that many RSEs are probably unaware of these code of conducts. However we feel that this is an important aspect for RSEs going forward. They will need at least some basic familiarity with it to support their future work.
 - add sentences to explain why these values are stated explicitly here even though many practioners will learn about these values by following the examples of their peers and mentors. 
 - fixed in markdown version of the paper
 
-## R2: Section 3(Values)
-- corrupted sentence is fixed in markdown version of the paper
-- changed "RSEs also adhere to the SE Code of Ethics..." to "RSEs also need to adhere to..." to indicate that this is an aspiration
-- good point to refer back to values from the example curriculum. We have expanded the example curriculum accordingly.
+## Reviewer 1 Feedback 4:
+
+We thank the reviewer for their feedback! In more detail:
+- We made the original session pads available on zenodo and linked them in the bibliography.
+"Section 4.1.2 - there are multiple research software maturity models/frameworks that have been proposed that adapt SWLC. See, for example, M. R. Mundt, W. Burgess and D. M. Vigil, "A Tiered Approach to Scientific Software Quality Practices," in Proceedings of the 2022 Improving Scientific Software Conference (No. NCAR/TN-574+PROC). doi:10.5065/98kd-b491"
+- We thank the reviewer for this reference and augmented the section on the software life cycle with it.
+ 
+"Section 4.1.5 - I recommend adding a note here for "as applicable," e.g., some RSEs at some institutions may not be able to share code publicly because of security or institutional requirements (though they should still use whatever they can for version controlling)
+Section 4.2.4 - Similar note to 4.1.5; there should be something about "adhering to institutional policies" as well"
+- We qualified it in both sections accordingly.
+
+"Section 4.4 (Tasks and Responsibilities) - When talking about RSE communities, it might be worth it to reference some of them, e.g., UK-RSE / Soc RSE, deRSE, US-RSE, RSE-AUNZ, RSE Asia, RSSE Africa, etc."
+- We thank the referee for this suggestion, and we took then the opportunity to link to the overview page of
+the international RSE council, which lists all national groups, and thereby also will be updated in the future.
 
 ## Reviewer 1 Feedback: Section 3.1
 >  Section 3.1.1 - this almost might be better if phrased as "Data Security" because that's kind of the crux of the paragraph
@@ -68,12 +78,18 @@ as hinted at in the future work section we are working on composing a curriculum
 
 We have clarified that this type of RSE (alone in a team of non-RSEs) is also meant in the category "Individual RSE (Locally-based)".
 
-## R2.XXX (GH: #395) Reviewer 2 Feedback: page 14 bottom
+## Reviewer 2: Section 3(Values)
+- corrupted sentence is fixed in markdown version of the paper
+- changed "RSEs also adhere to the SE Code of Ethics..." to "RSEs also need to adhere to..." to indicate that this is an aspiration
+- good point to refer back to values from the example curriculum. We have expanded the example curriculum accordingly.
+
+## Reviewer 2 (GH: #395) Reviewer 2 Feedback: page 14 bottom
 - We added a line break at the indicated position.
 
-## R2.XXX: Indentation of the bullet points after “Research skills” seems to be broken.
+## Reviewer 2: Indentation of the bullet points after “Research skills” seems to be broken.
 
 Thanks for the feedback, We fixed the indentation in 5.4.1. While at it, we also regenerated the table of contents for F1000.
 
-## R2.XXX The row “SLWC” mentions “bus factors” several times and may need explanation, or should be added to the glossary.
+## Reviewer 2: The row “SLWC” mentions “bus factors” several times and may need explanation, or should be added to the glossary.
 We checked, the bus factor is referenced in the glossary. We have used the opportunity, to include an html link to the glossary here.
+
