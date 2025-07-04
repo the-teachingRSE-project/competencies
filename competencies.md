@@ -417,7 +417,7 @@ Below we list some example areas that highlight present-day challenges.
 
 ## Current challenges
 
-### Handling of data and personal data {#sec:personal-data}
+### Data security {#sec:personal-data}
 
 A lot of RSE work involves the manipulation or creation of data processing tools.
 We highlight that professional conduct requires these creations to be reliable and to maintain data integrity.
