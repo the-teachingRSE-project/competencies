@@ -417,7 +417,7 @@ Below we list some example areas that highlight present-day challenges.
 
 ## Current challenges
 
-### Handling of data and personal data {#sec:personal-data}
+### Data security {#sec:personal-data}
 
 A lot of RSE work involves the manipulation or creation of data processing tools.
 We highlight that professional conduct requires these creations to be reliable and to maintain data integrity.
@@ -522,7 +522,7 @@ the different RSE specialisations (**RSE specialisations**).
 
 
 During the Paderborn workshop (deRSE23) we asked learners and novice RSEs what they would
-like to have learnt. The top five items mentioned were: testing, contributing to
+like to have learnt. The top five items mentioned were (@derse23pad): testing, contributing to
 large projects, when or why to keep repositories private, high-quality software development, and
 finding a community. Those topics comprise combinations of the skills and
 competencies defined below. We will elaborate these in

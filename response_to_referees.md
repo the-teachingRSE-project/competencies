@@ -43,6 +43,10 @@ Section 4.2.4 - Similar note to 4.1.5; there should be something about "adhering
 the international RSE council, which lists all national groups, and thereby also will be updated in the future.
 
 ## Reviewer 1 Feedback: Section 3.1
+>  Section 3.1.1 - this almost might be better if phrased as "Data Security" because that's kind of the crux of the paragraph
+
+Good point, we have renamed the section.
+
 >    I notice that "funding methods" is missing from these challenges; there has been a lot of discussion about unreliable funding methods for software and, as a result, RSEs (e.g., https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6886129, https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9470770, https://pure.manchester.ac.uk/ws/portalfiles/portal/54140648/StateOfTheNationReport2017.pdf, https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10071971)
 >    There is also a lack of "RSEs being integrated into existing teams and having to fight that team's culture". Maybe this is too niche to bring up, but it is a challenge that has been spoken about amongst RSE circles (e.g., "How can I get an existing team to change their processes when they are so stuck in their ways?")
 
