@@ -31,6 +31,7 @@ We have now added these examples from the USA, which we previously missed. Thank
 ## Reviewer 1 Feedback 4:
 
 We thank the reviewer for their feedback! In more detail:
+- We made the original session pads available on zenodo and linked them in the bibliography.
 "Section 4.1.2 - there are multiple research software maturity models/frameworks that have been proposed that adapt SWLC. See, for example, M. R. Mundt, W. Burgess and D. M. Vigil, "A Tiered Approach to Scientific Software Quality Practices," in Proceedings of the 2022 Improving Scientific Software Conference (No. NCAR/TN-574+PROC). doi:10.5065/98kd-b491"
 - We thank the reviewer for this reference and augmented the section on the software life cycle with it.
  
