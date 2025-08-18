@@ -7,7 +7,7 @@ jobs:
       DIR: .
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           submodules: false # must be done manually
       - name: Install pandoc
@@ -47,7 +47,7 @@ jobs:
     if: ${{ github.repository == 'the-teachingRSE-project/competencies' && github.ref == 'refs/heads/main' }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - uses: actions/download-artifact@v5
         with:
           path: github_artifacts
