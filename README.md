@@ -14,6 +14,8 @@ Get the latest version of the respective PDF files here:
 * "A Survey of Initiatives Providing Educative Material in the RSE Space" ([survey.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/survey.pdf))
 * "Educating RSEs in Germany - What Needs to Be Done" ([call_to_action.pdf](https://github.com/CaptainSifff/paper_teaching-learning-RSE/blob/build/call_to_action.pdf))
 
+A summarised version of the competencies can be found here: [summarised_competencies](https://ieeexplore.ieee.org/document/10930785)
+
 ## How to contribute - Some of our rules
 
 This paper is intended as a collaborative effort and we are looking for input from you.
@@ -26,7 +28,7 @@ This paper is intended as a collaborative effort and we are looking for input fr
 
 **We have regular meetings, out meeting notes can be found here: https://pad.gwdg.de/s/pVBQ3Sh7Z#**
 
-**If you want to get notified of our calls, and participate in the discussion by E-Mail, we have a Mailing-List: https://lists.uni-wuerzburg.de/mailman/listinfo/teachingrse**
+**If you want to get notified of our calls, and participate in the discussion by E-Mail, we have a Mailing-List: https://www.listserv.dfn.de/sympa/info/jmu-teachingrse**
 
 - competencies.md will be published on arxiv. LaTeX tags/code is fine in here.
 - survey.md will move to a website, hence this file has to be Markdown
