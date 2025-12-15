@@ -48,7 +48,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v6
-      - uses: actions/download-artifact@v6
+      - uses: actions/download-artifact@v7
         with:
           path: github_artifacts
       - name: move
